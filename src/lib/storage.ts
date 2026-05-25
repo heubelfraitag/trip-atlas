@@ -71,6 +71,64 @@ export function setMapsAppPreference(v: 'google' | 'apple') {
   safeSet(`${NS}:maps-app`, v);
 }
 
+import type { Category } from '../types/trip';
+
+export interface UserIdea {
+  id: string;
+  city: string;
+  title: string;
+  category: Category;
+  description?: string;
+  address?: string;
+  link?: string;
+  lat?: number;
+  lng?: number;
+  createdAt: string;
+}
+
+const USER_IDEAS_KEY = (slug: string) => `${NS}:${slug}:user-ideas`;
+
+export function getUserIdeas(slug: string): UserIdea[] {
+  const raw = safeGet(USER_IDEAS_KEY(slug));
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+export function saveUserIdea(slug: string, idea: UserIdea): void {
+  const all = getUserIdeas(slug);
+  const idx = all.findIndex((i) => i.id === idea.id);
+  if (idx >= 0) all[idx] = idea;
+  else all.push(idea);
+  safeSet(USER_IDEAS_KEY(slug), JSON.stringify(all));
+}
+
+export function deleteUserIdea(slug: string, id: string): void {
+  const all = getUserIdeas(slug).filter((i) => i.id !== id);
+  safeSet(USER_IDEAS_KEY(slug), JSON.stringify(all));
+}
+
+export function importUserIdeas(slug: string, incoming: UserIdea[]): number {
+  const all = getUserIdeas(slug);
+  let added = 0;
+  for (const idea of incoming) {
+    // Dedupe by title+city
+    if (all.some((e) => e.title === idea.title && e.city === idea.city)) continue;
+    all.push(idea);
+    added++;
+  }
+  safeSet(USER_IDEAS_KEY(slug), JSON.stringify(all));
+  return added;
+}
+
+export function newIdeaId(): string {
+  return 'ui-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 7);
+}
+
 function readPrefix(prefix: string): Record<string, boolean> {
   const out: Record<string, boolean> = {};
   try {

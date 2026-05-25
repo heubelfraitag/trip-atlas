@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { Trip, Activity, Day } from '../types/trip';
@@ -10,6 +10,7 @@ import {
   haversineM,
   googleMapsDirUrl,
 } from '../lib/maps';
+import { getUserIdeas, type UserIdea } from '../lib/storage';
 
 interface Props {
   trip: Trip;
@@ -115,6 +116,24 @@ export default function TripMap({
   const layerRef = useRef<L.LayerGroup | null>(null);
   const markersRef = useRef<MarkerEntry[]>([]);
   const linesRef = useRef<LineEntry[]>([]);
+  const [userIdeas, setUserIdeas] = useState<UserIdea[]>(() => getUserIdeas(trip.slug));
+
+  // Re-read user ideas when the page becomes visible or focuses (after Add Idea closes).
+  useEffect(() => {
+    const refresh = () => setUserIdeas(getUserIdeas(trip.slug));
+    window.addEventListener('focus', refresh);
+    document.addEventListener('visibilitychange', refresh);
+    // Storage events fire across tabs only — but also catch them
+    window.addEventListener('storage', refresh);
+    // Also poll once per few seconds while page is open (cheap)
+    const t = window.setInterval(refresh, 3000);
+    return () => {
+      window.removeEventListener('focus', refresh);
+      document.removeEventListener('visibilitychange', refresh);
+      window.removeEventListener('storage', refresh);
+      window.clearInterval(t);
+    };
+  }, [trip.slug]);
 
   const selectedDayObj = useMemo(
     () => (selectedDay == null ? null : trip.days.find((d) => d.dayNumber === selectedDay) ?? null),
@@ -332,7 +351,7 @@ export default function TripMap({
       });
     });
 
-    // Wishlist — candidate ideas not yet scheduled. Smaller, dashed pins.
+    // Wishlist (JSON) — candidate ideas not yet scheduled. Smaller, dashed pins.
     (trip.wishlist ?? []).forEach((w) => {
       const marker = L.marker([w.lat, w.lng], {
         icon: wishlistIcon(w.category, w.title),
@@ -358,7 +377,34 @@ export default function TripMap({
         status: 'idea',
       });
     });
-  }, [trip, showSolo, onSelectActivity]);
+
+    // User ideas from localStorage (only those with coords)
+    for (const ui of userIdeas) {
+      if (ui.lat == null || ui.lng == null) continue;
+      const marker = L.marker([ui.lat, ui.lng], {
+        icon: wishlistIcon(ui.category, ui.title),
+        opacity: 0.85,
+      });
+      marker.bindPopup(
+        popupHtml({
+          title: ui.title,
+          meta: `💭 Your idea${ui.city ? ' · ' + ui.city : ''} · ${CATEGORY_LABEL[ui.category]}`,
+          description: ui.description,
+          lat: ui.lat,
+          lng: ui.lng,
+          hideMapsLink: false,
+        })
+      );
+      marker.addTo(layer);
+      markersRef.current.push({
+        marker,
+        kind: 'wishlist',
+        city: ui.city,
+        point: [ui.lat, ui.lng],
+        status: 'idea',
+      });
+    }
+  }, [trip, showSolo, onSelectActivity, userIdeas]);
 
   // APPLY selection — only opacity changes + flyToBounds. Cheap & smooth.
   useEffect(() => {
