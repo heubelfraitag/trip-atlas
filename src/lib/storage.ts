@@ -40,6 +40,37 @@ export function readAllDoneState(slug: string): Record<string, boolean> {
   return readPrefix(`${NS}:${slug}:done:`);
 }
 
+export function getActivityNote(slug: string, activityId: string): string {
+  return safeGet(`${NS}:${slug}:note:${activityId}`) ?? '';
+}
+
+export function setActivityNote(slug: string, activityId: string, note: string) {
+  if (note.trim()) safeSet(`${NS}:${slug}:note:${activityId}`, note);
+  else
+    try {
+      localStorage.removeItem(`${NS}:${slug}:note:${activityId}`);
+    } catch {
+      /* no-op */
+    }
+}
+
+export function getChecklistAssigneeFilter(slug: string): string {
+  return safeGet(`${NS}:${slug}:checklist-filter`) ?? 'all';
+}
+
+export function setChecklistAssigneeFilter(slug: string, value: string) {
+  safeSet(`${NS}:${slug}:checklist-filter`, value);
+}
+
+export function getMapsAppPreference(): 'google' | 'apple' {
+  const v = safeGet(`${NS}:maps-app`);
+  return v === 'apple' ? 'apple' : 'google';
+}
+
+export function setMapsAppPreference(v: 'google' | 'apple') {
+  safeSet(`${NS}:maps-app`, v);
+}
+
 function readPrefix(prefix: string): Record<string, boolean> {
   const out: Record<string, boolean> = {};
   try {

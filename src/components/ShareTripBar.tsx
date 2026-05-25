@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { Trip } from '../types/trip';
 import { buildICS, downloadICS } from '../lib/ics';
+import ReservationPasteModal from './ReservationPasteModal';
 
 interface Props {
   trip: Trip;
@@ -8,6 +9,7 @@ interface Props {
 
 export default function ShareTripBar({ trip }: Props) {
   const [copied, setCopied] = useState(false);
+  const [pasteOpen, setPasteOpen] = useState(false);
   const subscribeHttps = `${window.location.origin}${import.meta.env.BASE_URL}calendar/${trip.slug}.ics`;
   const subscribeWebcal = subscribeHttps.replace(/^https?:/, 'webcal:');
   const shareUrl = window.location.href;
@@ -61,6 +63,14 @@ export default function ShareTripBar({ trip }: Props) {
       >
         ↻ Subscribe
       </a>
+      <button
+        onClick={() => setPasteOpen(true)}
+        className="inline-flex items-center gap-1.5 rounded-md bg-paper-deep text-ink px-3 py-1.5 font-semibold tracking-wider uppercase hover:bg-gold-soft hover:text-paper transition-colors"
+        title="Paste a reservation email — generates JSON to add to the trip"
+      >
+        ✎ Paste reservation
+      </button>
+      <ReservationPasteModal trip={trip} open={pasteOpen} onClose={() => setPasteOpen(false)} />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { getTrip } from '../data/trips';
 import TripMap from '../components/TripMap';
 import ActivityCard from '../components/ActivityCard';
 import OpenInMapsButton from '../components/OpenInMapsButton';
+import CityNoteCard from '../components/CityNoteCard';
 import { formatCurrency, formatDateLong } from '../lib/format';
 import { cityColor } from '../lib/maps';
 import { deriveStatus, getCurrentAndNext, getCurrentDay, useNow } from '../lib/now';
@@ -99,6 +100,16 @@ export default function DayDetail() {
         </label>
         <span className="text-ink-faint">{filteredActivities.length} stops</span>
       </div>
+
+      {trip.meta.cityNotes?.[day.city] && (
+        <div className="mt-6">
+          <CityNoteCard
+            city={day.city}
+            tldr={trip.meta.cityNotes[day.city].tldr}
+            tips={trip.meta.cityNotes[day.city].tips}
+          />
+        </div>
+      )}
 
       <section className="mt-8">
         {filteredActivities.map((a, i) => (

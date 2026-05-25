@@ -125,6 +125,8 @@ export interface ChecklistItem {
   priority: ChecklistPriority;
   deadline?: string;
   bookingUrl?: string;
+  /** Free-text owner tag (e.g. "Brian", "Carl", "Both"). Used for filter chips. */
+  assignee?: string;
 }
 
 export interface TripMeta {
@@ -138,6 +140,10 @@ export interface TripMeta {
   /** IANA timezone for "current day / current activity" detection and ICS export. */
   timezone?: string;
   coverImageUrl?: string;
+  /** Practical, what-to-know briefing per city. Surfaced on the first day in that city. */
+  cityNotes?: Record<string, { tldr?: string; tips?: string[] }>;
+  /** Named parties for splitting the booking checklist. Free text. */
+  parties?: string[];
   /** Per-trip accent palette overrides; defaults to vermillion/gold. */
   accents?: {
     primary?: string;

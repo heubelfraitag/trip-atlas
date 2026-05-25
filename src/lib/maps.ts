@@ -28,6 +28,39 @@ export function googleMapsPlaceUrl(lat: number, lng: number, name?: string): str
   return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
 }
 
+/**
+ * Apple Maps directions deep link.
+ * On iOS this opens the Apple Maps app; on desktop it opens maps.apple.com.
+ * Transit + driving are supported; "walking" maps to 'w'.
+ */
+export function appleMapsDirUrl(
+  lat: number,
+  lng: number,
+  travelmode: 'transit' | 'walking' | 'driving' = 'transit',
+  destinationName?: string
+): string {
+  const dirflg = travelmode === 'walking' ? 'w' : travelmode === 'driving' ? 'd' : 'r'; // r = transit
+  const params = new URLSearchParams();
+  params.set('daddr', destinationName ? `${destinationName}` : `${lat},${lng}`);
+  params.set('ll', `${lat},${lng}`);
+  params.set('dirflg', dirflg);
+  return `https://maps.apple.com/?${params.toString()}`;
+}
+
+export type MapsApp = 'google' | 'apple';
+
+export function dirUrlFor(
+  app: MapsApp,
+  lat: number,
+  lng: number,
+  travelmode: 'transit' | 'walking' | 'driving' = 'transit',
+  destinationName?: string
+): string {
+  return app === 'apple'
+    ? appleMapsDirUrl(lat, lng, travelmode, destinationName)
+    : googleMapsDirUrl(lat, lng, travelmode, destinationName);
+}
+
 export const CATEGORY_LABEL: Record<Category, string> = {
   hotel: 'Hotel',
   transit: 'Station',

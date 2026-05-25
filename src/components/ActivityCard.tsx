@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import type { Activity } from '../types/trip';
 import CategoryBadge from './CategoryBadge';
 import OpenInMapsButton from './OpenInMapsButton';
+import ActivityNotes from './ActivityNotes';
 import { formatCurrency, formatTime12 } from '../lib/format';
 import { isActivityDone, setActivityDone } from '../lib/storage';
 
@@ -140,6 +141,7 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
               </a>
             )}
           </div>
+          <ActivityNotes slug={slug} activityId={activity.id} />
         </div>
       </div>
     </div>
