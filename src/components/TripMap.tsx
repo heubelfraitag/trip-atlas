@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import type { Trip, Activity, Hotel, IntercityTransit, Day } from '../types/trip';
+import type { Trip, Activity, Day } from '../types/trip';
 import {
   CATEGORY_GLYPH,
   CATEGORY_LABEL,
@@ -22,6 +22,24 @@ interface Props {
 
 const GHOST_OPACITY = 0.25;
 const GHOST_LINE_OPACITY = 0.12;
+
+interface MarkerEntry {
+  marker: L.Marker;
+  kind: 'hotel' | 'airport' | 'activity' | 'intercity-station';
+  date?: string; // for hotels: any day within [checkIn, checkOut]; for activity/transit: day.date
+  hotelRange?: { checkIn: string; checkOut: string };
+  dayNumber?: number;
+  point: [number, number];
+}
+interface LineEntry {
+  line: L.Polyline;
+  casing?: L.Polyline;
+  baseStyle: L.PolylineOptions;
+  kind: 'intercity' | 'day-link';
+  date?: string;
+  dayNumber?: number;
+  endpoints: [[number, number], [number, number]];
+}
 
 function buildMarkerIcon(category: string, label: string): L.DivIcon {
   return L.divIcon({
@@ -80,6 +98,8 @@ export default function TripMap({
   const mapRef = useRef<L.Map | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const layerRef = useRef<L.LayerGroup | null>(null);
+  const markersRef = useRef<MarkerEntry[]>([]);
+  const linesRef = useRef<LineEntry[]>([]);
 
   const selectedDayObj = useMemo(
     () => (selectedDay == null ? null : trip.days.find((d) => d.dayNumber === selectedDay) ?? null),
@@ -93,6 +113,8 @@ export default function TripMap({
       zoomControl: true,
       attributionControl: true,
       scrollWheelZoom: true,
+      // Canvas renderer is much faster for many polylines
+      preferCanvas: true,
     });
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -109,43 +131,26 @@ export default function TripMap({
       map.remove();
       mapRef.current = null;
       layerRef.current = null;
+      markersRef.current = [];
+      linesRef.current = [];
     };
   }, []);
 
-  // re-render markers + paths
+  // BUILD layer — only when trip data or solo filter changes (rare).
   useEffect(() => {
     const map = mapRef.current;
     const layer = layerRef.current;
     if (!map || !layer) return;
     layer.clearLayers();
+    markersRef.current = [];
+    linesRef.current = [];
 
-    const focusPoints: L.LatLngExpression[] = [];
-    const allPoints: L.LatLngExpression[] = [];
-    const isOverview = selectedDay == null;
-    const selDate = selectedDayObj?.date;
-
-    function isHotelActiveForSelectedDay(h: Hotel): boolean {
-      if (isOverview) return true;
-      if (!selDate) return true;
-      return selDate >= h.checkIn && selDate <= h.checkOut;
-    }
-    function isAirportActiveForSelectedDay(date: string): boolean {
-      if (isOverview) return true;
-      return !!selDate && date.startsWith(selDate);
-    }
-    function isIntercityActiveForSelectedDay(t: IntercityTransit): boolean {
-      if (isOverview) return true;
-      return t.date === selDate;
-    }
+    const renderer = L.canvas({ padding: 0.5 });
 
     // Hotels
     trip.hotels.forEach((h) => {
-      const active = isHotelActiveForSelectedDay(h);
-      L.marker([h.lat, h.lng], {
-        icon: buildMarkerIcon('hotel', h.name),
-        opacity: active ? 1.0 : GHOST_OPACITY,
-        interactive: true,
-      })
+      const marker = L.marker([h.lat, h.lng], { icon: buildMarkerIcon('hotel', h.name) });
+      marker
         .bindPopup(
           popupHtml({
             title: h.name,
@@ -156,17 +161,18 @@ export default function TripMap({
           })
         )
         .addTo(layer);
-      allPoints.push([h.lat, h.lng]);
-      if (active) focusPoints.push([h.lat, h.lng]);
+      markersRef.current.push({
+        marker,
+        kind: 'hotel',
+        hotelRange: { checkIn: h.checkIn, checkOut: h.checkOut },
+        point: [h.lat, h.lng],
+      });
     });
 
     // Airports
     trip.airports.forEach((a) => {
-      const active = isAirportActiveForSelectedDay(a.datetime);
-      L.marker([a.lat, a.lng], {
-        icon: buildMarkerIcon('airport', a.name),
-        opacity: active ? 1.0 : GHOST_OPACITY,
-      })
+      const marker = L.marker([a.lat, a.lng], { icon: buildMarkerIcon('airport', a.name) });
+      marker
         .bindPopup(
           popupHtml({
             title: `${a.name} (${a.code})`,
@@ -176,13 +182,16 @@ export default function TripMap({
           })
         )
         .addTo(layer);
-      allPoints.push([a.lat, a.lng]);
-      if (active) focusPoints.push([a.lat, a.lng]);
+      markersRef.current.push({
+        marker,
+        kind: 'airport',
+        date: a.datetime.slice(0, 10),
+        point: [a.lat, a.lng],
+      });
     });
 
     // Intercity transit
     trip.intercityTransit.forEach((t) => {
-      const active = isIntercityActiveForSelectedDay(t);
       const style = TRANSIT_STYLE[t.mode];
       const coords: [number, number][] =
         t.routeGeometry && t.routeGeometry.format === 'polyline'
@@ -194,24 +203,33 @@ export default function TripMap({
               [t.toLat, t.toLng],
             ];
 
-      if (active) {
-        // casing for legibility
-        L.polyline(coords, {
-          color: '#f5ede0',
-          weight: style.weight + 3,
-          opacity: 0.7,
-        }).addTo(layer);
-      }
-      L.polyline(coords, {
-        ...style,
-        opacity: active ? style.opacity : GHOST_LINE_OPACITY,
+      const casing = L.polyline(coords, {
+        renderer,
+        color: '#f5ede0',
+        weight: style.weight + 3,
+        opacity: 0.7,
       }).addTo(layer);
+
+      const line = L.polyline(coords, { renderer, ...style }).addTo(layer);
+
+      linesRef.current.push({
+        line,
+        casing,
+        baseStyle: style,
+        kind: 'intercity',
+        date: t.date,
+        endpoints: [
+          [t.fromLat, t.fromLng],
+          [t.toLat, t.toLng],
+        ],
+      });
 
       [
         [t.fromLat, t.fromLng] as [number, number],
         [t.toLat, t.toLng] as [number, number],
       ].forEach((p) => {
-        L.marker(p, { icon: stationDotIcon(), opacity: active ? 1.0 : GHOST_OPACITY })
+        const marker = L.marker(p, { icon: stationDotIcon() });
+        marker
           .bindPopup(
             popupHtml({
               title: t.line || `${t.from} → ${t.to}`,
@@ -221,21 +239,22 @@ export default function TripMap({
             })
           )
           .addTo(layer);
+        markersRef.current.push({
+          marker,
+          kind: 'intercity-station',
+          date: t.date,
+          point: p,
+        });
       });
-      if (active) {
-        focusPoints.push([t.fromLat, t.fromLng], [t.toLat, t.toLng]);
-      }
     });
 
-    // Day-level activities + per-day links — render ALL days, ghost the inactive ones
+    // Day-level activities + per-day links
     trip.days.forEach((day) => {
-      const dayActive = isOverview || day.dayNumber === selectedDay;
       const acts = day.activities.filter((a) => showSolo || !a.soloOnly);
 
       acts.forEach((act, i) => {
         const marker = L.marker([act.lat, act.lng], {
           icon: buildMarkerIcon(act.category, act.title),
-          opacity: dayActive ? 1.0 : GHOST_OPACITY,
         });
         marker
           .bindPopup(
@@ -251,10 +270,14 @@ export default function TripMap({
           )
           .on('click', () => onSelectActivity?.(act, day));
         marker.addTo(layer);
-        allPoints.push([act.lat, act.lng]);
-        if (dayActive) focusPoints.push([act.lat, act.lng]);
+        markersRef.current.push({
+          marker,
+          kind: 'activity',
+          dayNumber: day.dayNumber,
+          date: day.date,
+          point: [act.lat, act.lng],
+        });
 
-        // route to next stop
         const next = acts[i + 1];
         if (!next) return;
         const a: [number, number] = [act.lat, act.lng];
@@ -263,31 +286,77 @@ export default function TripMap({
         const distM = haversineM(a, b);
 
         let coords: [number, number][];
-        let style = TRANSIT_STYLE.walk;
+        let baseStyle = TRANSIT_STYLE.walk;
         if (act.routeToNext) {
           const r = act.routeToNext;
-          style = TRANSIT_STYLE[r.mode];
+          baseStyle = TRANSIT_STYLE[r.mode];
           coords =
             r.format === 'polyline'
               ? decodePolyline(r.data as string)
               : (r.data as [number, number][]).map(([lng, lat]) => [lat, lng] as [number, number]);
         } else if (distM <= 1500) {
-          style = TRANSIT_STYLE.walk;
+          baseStyle = TRANSIT_STYLE.walk;
           coords = [a, b];
         } else {
-          style = TRANSIT_STYLE.subway;
+          baseStyle = TRANSIT_STYLE.subway;
           coords = [a, b];
         }
-        L.polyline(coords, {
-          ...style,
-          opacity: dayActive ? style.opacity : GHOST_LINE_OPACITY,
-        }).addTo(layer);
+        const line = L.polyline(coords, { renderer, ...baseStyle }).addTo(layer);
+        linesRef.current.push({
+          line,
+          baseStyle,
+          kind: 'day-link',
+          dayNumber: day.dayNumber,
+          date: day.date,
+          endpoints: [a, b],
+        });
       });
     });
+  }, [trip, showSolo, onSelectActivity]);
+
+  // APPLY selection — only opacity changes + flyToBounds. Cheap & smooth.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const isOverview = selectedDay == null;
+    const selDate = selectedDayObj?.date;
+
+    function isHotelActive(range?: { checkIn: string; checkOut: string }): boolean {
+      if (isOverview || !range || !selDate) return isOverview;
+      return selDate >= range.checkIn && selDate <= range.checkOut;
+    }
+
+    const focusPoints: L.LatLngExpression[] = [];
+    const allPoints: L.LatLngExpression[] = [];
+
+    // Markers
+    for (const m of markersRef.current) {
+      let active = isOverview;
+      if (!isOverview) {
+        if (m.kind === 'activity') active = m.dayNumber === selectedDay;
+        else if (m.kind === 'hotel') active = isHotelActive(m.hotelRange);
+        else if (m.kind === 'airport' || m.kind === 'intercity-station')
+          active = !!selDate && m.date === selDate;
+      }
+      m.marker.setOpacity(active ? 1.0 : GHOST_OPACITY);
+      allPoints.push(m.point);
+      if (active) focusPoints.push(m.point);
+    }
+
+    // Polylines
+    for (const e of linesRef.current) {
+      let active = isOverview;
+      if (!isOverview) {
+        if (e.kind === 'intercity') active = !!selDate && e.date === selDate;
+        else if (e.kind === 'day-link') active = e.dayNumber === selectedDay;
+      }
+      const targetOpacity = active ? (e.baseStyle.opacity ?? 0.85) : GHOST_LINE_OPACITY;
+      e.line.setStyle({ opacity: targetOpacity });
+      if (e.casing) e.casing.setStyle({ opacity: active ? 0.7 : 0 });
+    }
 
     // Choose zoom target
     const targetPoints = focusPoints.length ? focusPoints : allPoints;
-    // flyTo* requires an existing center; fitBounds doesn't. Use the right one.
     let hasView = false;
     try {
       map.getCenter();
@@ -295,21 +364,26 @@ export default function TripMap({
     } catch {
       hasView = false;
     }
-    if (targetPoints.length === 1) {
-      map.setView(targetPoints[0] as L.LatLngExpression, 14, { animate: hasView });
-    } else if (targetPoints.length > 1) {
-      const bounds = L.latLngBounds(targetPoints);
-      const opts = {
-        padding: [50, 50] as [number, number],
-        maxZoom: isOverview ? 9 : 15,
-      };
-      if (hasView) {
-        map.flyToBounds(bounds, { ...opts, duration: 0.6 });
-      } else {
-        map.fitBounds(bounds, opts);
+
+    // Defer flyTo to the next frame so the opacity DOM commits first.
+    requestAnimationFrame(() => {
+      if (!mapRef.current) return;
+      if (targetPoints.length === 1) {
+        mapRef.current.setView(targetPoints[0] as L.LatLngExpression, 14, { animate: hasView });
+      } else if (targetPoints.length > 1) {
+        const bounds = L.latLngBounds(targetPoints);
+        const opts = {
+          padding: [40, 40] as [number, number],
+          maxZoom: isOverview ? 9 : 14,
+        };
+        if (hasView) {
+          mapRef.current.flyToBounds(bounds, { ...opts, duration: 0.45, easeLinearity: 0.4 });
+        } else {
+          mapRef.current.fitBounds(bounds, opts);
+        }
       }
-    }
-  }, [trip, selectedDay, selectedDayObj, showSolo, onSelectActivity]);
+    });
+  }, [selectedDay, selectedDayObj]);
 
   return (
     <div className={`${heightClass} w-full rounded-2xl overflow-hidden shadow-card border border-line`}>
