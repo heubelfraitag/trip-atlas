@@ -7,6 +7,7 @@ import CategoryBadge from '../components/CategoryBadge';
 import ShareTripBar from '../components/ShareTripBar';
 import CityNoteCard from '../components/CityNoteCard';
 import TripSearch from '../components/TripSearch';
+import WishlistSection from '../components/WishlistSection';
 import { formatCurrency, formatDateMid, formatRange, formatTime12 } from '../lib/format';
 import { cityColor } from '../lib/maps';
 import {
@@ -331,6 +332,11 @@ export default function TripOverview() {
             );
           })}
         </ul>
+      </section>
+
+      {/* Wishlist — places to consider */}
+      <section className="mt-16">
+        <WishlistSection trip={trip} />
       </section>
 
       {/* Checklist OR completed retrospective */}

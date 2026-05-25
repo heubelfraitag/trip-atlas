@@ -86,8 +86,12 @@ export interface IntercityTransit {
   routeGeometry?: RouteGeometry;
 }
 
+export type ActivityStatus = 'confirmed' | 'tentative' | 'idea';
+export type ActivityKind = 'event' | 'free-time';
+
 export interface Activity {
   id: string;
+  /** HH:MM in trip-local time. Optional for wishlist items and free-time blocks. */
   time: string;
   title: string;
   description?: string;
@@ -108,6 +112,25 @@ export interface Activity {
   /** Pre-computed route to the next activity (or null if last). */
   routeToNext?: RouteGeometry;
   photoUrl?: string;
+  /**
+   * Commitment level. Defaults to "tentative" if omitted.
+   * - confirmed: reservation or booking is locked in, don't swap.
+   * - tentative: penciled in, open to swapping.
+   * - idea: just a candidate from inspo gathering.
+   */
+  status?: ActivityStatus;
+  /** Short note explaining why it's confirmed: "Reservation 7pm", "Train booked". */
+  lockReason?: string;
+  /**
+   * "event" (default) = an actual activity with a place + time.
+   * "free-time" = an intentional unscheduled block. No map pin, no Open-in-Maps button.
+   */
+  kind?: ActivityKind;
+  /**
+   * For wishlist items only — which city this idea is for.
+   * Ignored for scheduled activities (they inherit their day's city).
+   */
+  city?: string;
 }
 
 export interface Day {
@@ -161,4 +184,9 @@ export interface Trip {
   intercityTransit: IntercityTransit[];
   days: Day[];
   checklist: ChecklistItem[];
+  /**
+   * Candidate activities — places you've gathered as inspo but haven't slotted
+   * into a specific day. Each item must have `city` set. No `time` required.
+   */
+  wishlist?: Activity[];
 }

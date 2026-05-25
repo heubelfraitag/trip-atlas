@@ -25,11 +25,13 @@ const GHOST_LINE_OPACITY = 0.12;
 
 interface MarkerEntry {
   marker: L.Marker;
-  kind: 'hotel' | 'airport' | 'activity' | 'intercity-station';
+  kind: 'hotel' | 'airport' | 'activity' | 'intercity-station' | 'wishlist';
   date?: string; // for hotels: any day within [checkIn, checkOut]; for activity/transit: day.date
   hotelRange?: { checkIn: string; checkOut: string };
   dayNumber?: number;
+  city?: string;
   point: [number, number];
+  status?: 'confirmed' | 'tentative' | 'idea';
 }
 interface LineEntry {
   line: L.Polyline;
@@ -59,6 +61,19 @@ function stationDotIcon(): L.DivIcon {
     className: '',
     iconSize: [18, 18],
     iconAnchor: [9, 9],
+  });
+}
+
+function wishlistIcon(category: string, label: string): L.DivIcon {
+  // smaller, dashed-border, more transparent than a regular marker
+  return L.divIcon({
+    html: `<div class="atlas-marker ${category}" title="${label}" style="width:22px;height:22px;font-size:11px;border-style:dashed;opacity:0.85;">${
+      CATEGORY_GLYPH[category as keyof typeof CATEGORY_GLYPH] ?? '●'
+    }</div>`,
+    className: 'atlas-marker-wrapper',
+    iconSize: [22, 22],
+    iconAnchor: [11, 11],
+    popupAnchor: [0, -11],
   });
 }
 
@@ -253,14 +268,17 @@ export default function TripMap({
       const acts = day.activities.filter((a) => showSolo || !a.soloOnly);
 
       acts.forEach((act, i) => {
+        // free-time blocks don't get a map pin
+        if (act.kind === 'free-time') return;
         const marker = L.marker([act.lat, act.lng], {
           icon: buildMarkerIcon(act.category, act.title),
         });
+        const statusLabel = act.status === 'confirmed' ? ' · 🔒 locked' : act.status === 'idea' ? ' · 💭 idea' : '';
         marker
           .bindPopup(
             popupHtml({
               title: act.title,
-              meta: `Day ${day.dayNumber} · ${act.time} · ${CATEGORY_LABEL[act.category]}`,
+              meta: `Day ${day.dayNumber} · ${act.time} · ${CATEGORY_LABEL[act.category]}${statusLabel}`,
               description: act.description,
               lat: act.lat,
               lng: act.lng,
@@ -276,6 +294,7 @@ export default function TripMap({
           dayNumber: day.dayNumber,
           date: day.date,
           point: [act.lat, act.lng],
+          status: act.status,
         });
 
         const next = acts[i + 1];
@@ -312,6 +331,33 @@ export default function TripMap({
         });
       });
     });
+
+    // Wishlist — candidate ideas not yet scheduled. Smaller, dashed pins.
+    (trip.wishlist ?? []).forEach((w) => {
+      const marker = L.marker([w.lat, w.lng], {
+        icon: wishlistIcon(w.category, w.title),
+        opacity: 0.85,
+      });
+      marker.bindPopup(
+        popupHtml({
+          title: w.title,
+          meta: `💭 Idea${w.city ? ' · ' + w.city : ''} · ${CATEGORY_LABEL[w.category]}`,
+          description: w.description,
+          lat: w.lat,
+          lng: w.lng,
+          photoUrl: w.photoUrl,
+          hideMapsLink: w.noNavigate,
+        })
+      );
+      marker.addTo(layer);
+      markersRef.current.push({
+        marker,
+        kind: 'wishlist',
+        city: w.city,
+        point: [w.lat, w.lng],
+        status: 'idea',
+      });
+    });
   }, [trip, showSolo, onSelectActivity]);
 
   // APPLY selection — only opacity changes + flyToBounds. Cheap & smooth.
@@ -337,10 +383,16 @@ export default function TripMap({
         else if (m.kind === 'hotel') active = isHotelActive(m.hotelRange);
         else if (m.kind === 'airport' || m.kind === 'intercity-station')
           active = !!selDate && m.date === selDate;
+        else if (m.kind === 'wishlist') {
+          // dim wishlist on day view, but if it's for the same city, slightly less
+          active = false;
+        }
       }
-      m.marker.setOpacity(active ? 1.0 : GHOST_OPACITY);
+      // Wishlist always dimmer than 1.0 even in overview — they're "maybe"
+      const baseOpacity = m.kind === 'wishlist' ? (isOverview ? 0.75 : GHOST_OPACITY) : 1.0;
+      m.marker.setOpacity(active ? baseOpacity : GHOST_OPACITY);
       allPoints.push(m.point);
-      if (active) focusPoints.push(m.point);
+      if (active && m.kind !== 'wishlist') focusPoints.push(m.point);
     }
 
     // Polylines

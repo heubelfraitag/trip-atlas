@@ -105,8 +105,11 @@ Mode determines stroke color/style on the map. Bold solid lines for `shinkansen`
   "bookingUrl": "https://...",                   // optional
   "costPerPerson": 500, "currency": "JPY",       // optional
   "soloOnly": true,                              // filtered by toggle
-  "noNavigate": true,                            // hides "Open in Maps" — for stops without a real destination
+  "noNavigate": true,                            // hides "Open in Maps"
   "photoUrl": "https://...",                    // optional
+  "status": "confirmed",                         // confirmed | tentative (default) | idea
+  "lockReason": "Reservation 7pm",              // optional, shown under confirmed activities
+  "kind": "free-time",                           // event (default) | free-time (no map pin, no destination)
   "routeToNext": {                               // optional, pre-computed
     "format": "polyline",
     "data": "encoded_polyline_string",
@@ -115,6 +118,21 @@ Mode determines stroke color/style on the map. Bold solid lines for `shinkansen`
     "mode": "walk"
   }
 }
+```
+
+### Status field
+
+- **`confirmed`** — locked in (reservation, ticket purchased). Solid vermillion left-border + 🔒 badge.
+- **`tentative`** *(default)* — penciled in, open to swapping. No badge.
+- **`idea`** — collected as inspo, not committed. Dashed border + italic.
+
+### Free-time blocks
+
+Set `"kind": "free-time"` to render an intentional gap in the day timeline. No map pin, no Open-in-Maps button. Useful for "improvise" afternoons or rest blocks.
+
+```jsonc
+{ "id": "d5-rest", "time": "14:00", "title": "Lazy lake afternoon",
+  "kind": "free-time", "category": "experience", "lat": 0, "lng": 0 }
 ```
 
 ### Categories (each gets its own map icon + color)
@@ -135,6 +153,29 @@ Mode determines stroke color/style on the map. Bold solid lines for `shinkansen`
 ```
 
 Booked state is persisted in `localStorage` keyed `trip-atlas:{slug}:checklist:{id}` — not stored in the JSON.
+
+## `wishlist[]` (top-level on Trip)
+
+Candidate activities you've gathered as inspo but haven't slotted into a day yet. Each item must have `city`. No `time` required. Surfaced on the trip overview under "Considering," grouped by city. Renders smaller dashed pins on the map.
+
+```jsonc
+"wishlist": [
+  {
+    "id": "wl-tokyo-teamlab",
+    "title": "teamLab Planets",
+    "description": "Immersive digital art in Toyosu.",
+    "address": "6-1-16 Toyosu, Koto-ku",
+    "category": "art",
+    "city": "Tokyo",                              // must match a meta.cities entry
+    "bookingUrl": "https://...",
+    "lat": 35.6489, "lng": 139.7906,
+    "time": "",                                  // empty for unscheduled
+    "status": "idea"
+  }
+]
+```
+
+Add ideas quickly via "Paste reservation" on the trip overview — pick "Stash as idea" and choose the city.
 
 ## Pre-computing routes
 
