@@ -15,6 +15,7 @@
     "currency": "JPY",
     "timezone": "Asia/Tokyo",
     "useScriptAccent": true,
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Mount_Fuji_from_Lake_Kawaguchi.jpg",
     "accents": {
       "primary": "#b5391f",
       "secondary": "#a07a3a"
@@ -193,11 +194,14 @@
         {
           "id": "d1-2",
           "time": "19:00",
-          "title": "Light dinner near hotel",
-          "description": "Counter ramen or standing sushi. Ease into Tokyo.",
+          "title": "Afuri Harajuku",
+          "description": "Yuzu shio ramen — Reddit's near-universal pick for a perfect first-night Tokyo meal: light, clean, citrus-forward. ~5 min walk from the hotel. Order from the ticket machine inside; English menu available.",
+          "address": "Grande Foresta 1F, 3-63-1 Sendagaya, Shibuya-ku, Tokyo",
           "category": "food",
-          "lat": 35.6707,
-          "lng": 139.6957
+          "costPerPerson": 1500,
+          "currency": "JPY",
+          "lat": 35.6735,
+          "lng": 139.7050
         }
       ]
     },
@@ -1485,6 +1489,16 @@
           "category": "hotel",
           "lat": 35.6707,
           "lng": 139.6957
+        },
+        {
+          "id": "d13-2b",
+          "time": "16:30",
+          "title": "Fuglen Tokyo",
+          "description": "Quiet Saturday-afternoon reset before Takarazuka. Norwegian roastery in a Scandinavian-modern Tomigaya space — Reddit's go-to chill coffee spot near Yoyogi/Shibuya. ~10 min walk from TRUNK.",
+          "address": "1-16-11 Tomigaya, Shibuya-ku, Tokyo",
+          "category": "food",
+          "lat": 35.6678,
+          "lng": 139.6889
         },
         {
           "id": "d13-3",
