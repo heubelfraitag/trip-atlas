@@ -50,15 +50,20 @@ function popupHtml(opts: {
   description?: string;
   lat: number;
   lng: number;
+  photoUrl?: string;
   hideMapsLink?: boolean;
 }): string {
   const link = opts.hideMapsLink
     ? ''
     : `<a href="${googleMapsDirUrl(opts.lat, opts.lng, 'transit', opts.title)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 10px;background:#b5391f;color:#f5ede0;border-radius:4px;text-decoration:none;font-size:11px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;">Open in Maps →</a>`;
+  const photo = opts.photoUrl
+    ? `<img src="${opts.photoUrl}" loading="lazy" style="display:block;width:100%;max-height:120px;object-fit:cover;border-radius:6px;margin-top:6px;" />`
+    : '';
   return `
     <div>
       <div class="popup-meta">${opts.meta}</div>
       <div class="popup-title">${opts.title}</div>
+      ${photo}
       ${opts.description ? `<div style="margin-top:4px;color:#3a425a;">${opts.description}</div>` : ''}
       ${link}
     </div>
@@ -240,6 +245,7 @@ export default function TripMap({
               description: act.description,
               lat: act.lat,
               lng: act.lng,
+              photoUrl: act.photoUrl,
               hideMapsLink: act.noNavigate,
             })
           )

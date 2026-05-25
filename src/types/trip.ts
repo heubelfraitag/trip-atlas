@@ -135,6 +135,8 @@ export interface TripMeta {
   cities: string[];
   status: TripStatus;
   currency: string;
+  /** IANA timezone for "current day / current activity" detection and ICS export. */
+  timezone?: string;
   coverImageUrl?: string;
   /** Per-trip accent palette overrides; defaults to vermillion/gold. */
   accents?: {

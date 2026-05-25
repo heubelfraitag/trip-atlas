@@ -25,9 +25,24 @@ export function setChecklistItemBooked(slug: string, itemId: string, booked: boo
 }
 
 export function readAllChecklistState(slug: string): Record<string, boolean> {
+  return readPrefix(`${NS}:${slug}:checklist:`);
+}
+
+export function isActivityDone(slug: string, activityId: string): boolean {
+  return safeGet(`${NS}:${slug}:done:${activityId}`) === 'true';
+}
+
+export function setActivityDone(slug: string, activityId: string, done: boolean) {
+  safeSet(`${NS}:${slug}:done:${activityId}`, done ? 'true' : 'false');
+}
+
+export function readAllDoneState(slug: string): Record<string, boolean> {
+  return readPrefix(`${NS}:${slug}:done:`);
+}
+
+function readPrefix(prefix: string): Record<string, boolean> {
   const out: Record<string, boolean> = {};
   try {
-    const prefix = `${NS}:${slug}:checklist:`;
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
       if (k && k.startsWith(prefix)) {
