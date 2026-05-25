@@ -281,15 +281,27 @@ export default function TripMap({
 
     // Choose zoom target
     const targetPoints = focusPoints.length ? focusPoints : allPoints;
+    // flyTo* requires an existing center; fitBounds doesn't. Use the right one.
+    let hasView = false;
+    try {
+      map.getCenter();
+      hasView = true;
+    } catch {
+      hasView = false;
+    }
     if (targetPoints.length === 1) {
-      map.setView(targetPoints[0] as L.LatLngExpression, 14, { animate: true });
+      map.setView(targetPoints[0] as L.LatLngExpression, 14, { animate: hasView });
     } else if (targetPoints.length > 1) {
       const bounds = L.latLngBounds(targetPoints);
-      map.flyToBounds(bounds, {
-        padding: [50, 50],
+      const opts = {
+        padding: [50, 50] as [number, number],
         maxZoom: isOverview ? 9 : 15,
-        duration: 0.6,
-      });
+      };
+      if (hasView) {
+        map.flyToBounds(bounds, { ...opts, duration: 0.6 });
+      } else {
+        map.fitBounds(bounds, opts);
+      }
     }
   }, [trip, selectedDay, selectedDayObj, showSolo, onSelectActivity]);
 
