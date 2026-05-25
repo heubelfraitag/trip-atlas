@@ -1,0 +1,284 @@
+{
+  "slug": "japan-honeymoon-2025",
+  "meta": {
+    "name": "Japan Honeymoon",
+    "subtitle": "Tokyo · Fuji · Kyoto · Osaka · Tokyo",
+    "startDate": "2025-11-24",
+    "endDate": "2025-12-09",
+    "cities": ["Tokyo", "Kawaguchiko", "Kyoto", "Osaka"],
+    "status": "planning",
+    "currency": "JPY",
+    "useScriptAccent": true,
+    "accents": { "primary": "#b5391f", "secondary": "#a07a3a" }
+  },
+  "airports": [
+    { "code": "HND", "name": "Haneda Airport", "lat": 35.5494, "lng": 139.7798, "role": "arrival", "datetime": "2025-11-24T16:30:00+09:00" },
+    { "code": "HND", "name": "Haneda Airport", "lat": 35.5494, "lng": 139.7798, "role": "departure", "datetime": "2025-12-09T11:30:00+09:00" }
+  ],
+  "hotels": [
+    { "id": "hotel-tokyo-start", "name": "TRUNK Hotel Yoyogi Park", "neighborhood": "Harajuku / Yoyogi", "lat": 35.6707, "lng": 139.6957, "checkIn": "2025-11-24", "checkOut": "2025-11-27", "booked": false, "notes": "Shortlist — design boutique. Replace once booked." },
+    { "id": "hotel-fuji", "name": "Kozantei Ubuya", "neighborhood": "Lake Kawaguchi", "lat": 35.5096, "lng": 138.7710, "checkIn": "2025-11-27", "checkOut": "2025-11-30", "booked": true, "notes": "Lakefront ryokan with Fuji view." },
+    { "id": "hotel-kyoto", "name": "The Thousand Kyoto", "neighborhood": "Kyoto Station", "lat": 34.9854, "lng": 135.7589, "checkIn": "2025-11-30", "checkOut": "2025-12-04", "booked": false, "notes": "Shortlist." },
+    { "id": "hotel-osaka", "name": "Cross Hotel Osaka", "neighborhood": "Namba / Dotonbori", "lat": 34.6724, "lng": 135.4974, "checkIn": "2025-12-04", "checkOut": "2025-12-06", "booked": false, "notes": "Shortlist." },
+    { "id": "hotel-tokyo-end", "name": "TRUNK Hotel Yoyogi Park", "neighborhood": "Harajuku / Yoyogi", "lat": 35.6707, "lng": 139.6957, "checkIn": "2025-12-06", "checkOut": "2025-12-09", "booked": false, "notes": "Same as start." }
+  ],
+  "intercityTransit": [
+    { "id": "ic-1", "date": "2025-11-27", "from": "Shinjuku", "to": "Kawaguchiko", "fromLat": 35.6896, "fromLng": 139.7006, "toLat": 35.5009, "toLng": 138.7592, "mode": "limited-express", "line": "Fuji Excursion", "durationMin": 120, "costPerPerson": 4130, "currency": "JPY", "notes": "Reserved seats." },
+    { "id": "ic-2a", "date": "2025-11-30", "from": "Kawaguchiko", "to": "Mishima", "fromLat": 35.5009, "fromLng": 138.7592, "toLat": 35.1281, "toLng": 138.9117, "mode": "bus", "line": "Fujikyu Highway Bus", "durationMin": 120, "costPerPerson": 2300, "currency": "JPY" },
+    { "id": "ic-2b", "date": "2025-11-30", "from": "Mishima", "to": "Kyoto", "fromLat": 35.1281, "fromLng": 138.9117, "toLat": 34.9858, "toLng": 135.7585, "mode": "shinkansen", "line": "Tokaido Hikari", "durationMin": 120, "costPerPerson": 11500, "currency": "JPY" },
+    { "id": "ic-3", "date": "2025-12-04", "from": "Kyoto", "to": "Shin-Osaka", "fromLat": 34.9858, "fromLng": 135.7585, "toLat": 34.7339, "toLng": 135.5003, "mode": "shinkansen", "line": "Tokaido Hikari/Kodama", "durationMin": 14, "costPerPerson": 1440, "currency": "JPY" },
+    { "id": "ic-4", "date": "2025-12-06", "from": "Shin-Osaka", "to": "Tokyo", "fromLat": 34.7339, "fromLng": 135.5003, "toLat": 35.6812, "toLng": 139.7671, "mode": "shinkansen", "line": "Tokaido Nozomi", "durationMin": 150, "costPerPerson": 14720, "currency": "JPY", "notes": "Reserved seats." }
+  ],
+  "days": [
+    {
+      "date": "2025-11-24",
+      "dayNumber": 1,
+      "theme": "Arrival",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d1-1", "time": "16:30", "title": "Haneda Airport (HND)", "description": "Clear customs, grab Suica card, train or taxi to hotel.", "category": "airport", "lat": 35.5494, "lng": 139.7798 },
+        { "id": "d1-2", "time": "19:00", "title": "Light dinner near hotel", "description": "Counter ramen or standing sushi. Ease into Tokyo.", "category": "food", "lat": 35.6707, "lng": 139.6957 }
+      ]
+    },
+    {
+      "date": "2025-11-25",
+      "dayNumber": 2,
+      "theme": "Old Tokyo · Asakusa + Yanaka",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d2-0", "time": "07:30", "title": "Solo neighborhood walk", "description": "Husband only — quiet pre-breakfast wander around Yoyogi Park / Harajuku backstreets.", "category": "walk", "soloOnly": true, "noNavigate": true, "lat": 35.6707, "lng": 139.6957 },
+        { "id": "d2-1", "time": "10:00", "title": "Asakusa Station", "description": "Metro arrival point for Senso-ji.", "category": "transit", "lat": 35.7106, "lng": 139.7975 },
+        { "id": "d2-2", "time": "10:15", "title": "Senso-ji Temple", "description": "Tokyo's oldest temple, 7th century. Walk under Kaminarimon lantern.", "category": "temple", "lat": 35.7148, "lng": 139.7967 },
+        { "id": "d2-3", "time": "11:00", "title": "Nakamise-dori snacks", "description": "Ningyo-yaki, agemanju, melon pan from approach-street stalls. Map opens at Asakusa Kibidango Azuma — Street View to scout nearby vendors.", "category": "walk", "lat": 35.71237, "lng": 139.79627, "address": "Asakusa Kibidango Azuma, 1-18-1 Asakusa, Taito" },
+        { "id": "d2-4", "time": "12:30", "title": "Daikokuya Tempura", "description": "Asakusa tendon institution since 1887.", "category": "food", "costPerPerson": 2000, "currency": "JPY", "lat": 35.7129, "lng": 139.7975 },
+        { "id": "d2-5", "time": "14:00", "title": "Yanaka Ginza", "description": "Old Tokyo shopping street, cat-themed shops. Map opens at Yuyake Dandan stairs — Street View to walk the street.", "category": "walk", "lat": 35.72813, "lng": 139.76606, "address": "Yuyake Dandan stairs, 3 Chome Yanaka, Taito" },
+        { "id": "d2-6", "time": "15:30", "title": "SCAI The Bathhouse", "description": "200-year-old bathhouse turned contemporary gallery.", "category": "art", "lat": 35.7287, "lng": 139.7644 },
+        { "id": "d2-7", "time": "16:30", "title": "Kayaba Coffee", "description": "1938 kissaten. Classic egg sandwich.", "category": "food", "lat": 35.7281, "lng": 139.7705 },
+        { "id": "d2-8", "time": "19:30", "title": "Omoide Yokocho", "description": "Smoky yakitori alley by Shinjuku JR tracks. Order momo, seseri, sunagimo.", "category": "food", "lat": 35.6936, "lng": 139.7008 },
+        { "id": "d2-9", "time": "21:00", "title": "Golden Gai", "description": "200+ tiny bars. Try Albatross or Cremaster.", "category": "bar", "lat": 35.6940, "lng": 139.7050 }
+      ]
+    },
+    {
+      "date": "2025-11-26",
+      "dayNumber": 3,
+      "theme": "Thrift + Kabuki",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d3-1", "time": "10:00", "title": "Shimokitazawa Station", "description": "Tokyo's vintage capital.", "category": "transit", "lat": 35.6614, "lng": 139.6671 },
+        { "id": "d3-2", "time": "10:30", "title": "Chicago (vintage)", "description": "Americana, wall of vintage Levi's.", "category": "shop", "lat": 35.6611, "lng": 139.6678 },
+        { "id": "d3-3", "time": "11:00", "title": "Flamingo Shimokita", "description": "Curated mid-range vintage.", "category": "shop", "lat": 35.6614, "lng": 139.6671 },
+        { "id": "d3-4", "time": "11:30", "title": "Stick Out", "description": "Everything ¥700.", "category": "shop", "lat": 35.6615, "lng": 139.6685 },
+        { "id": "d3-5", "time": "12:00", "title": "Toyo Hyakkaten", "description": "25+ vintage sellers under one roof.", "category": "shop", "lat": 35.6609, "lng": 139.6687 },
+        { "id": "d3-6", "time": "13:00", "title": "Magic Spice (soup curry)", "description": "Shimokita institution.", "category": "food", "costPerPerson": 1500, "currency": "JPY", "lat": 35.6622, "lng": 139.6683 },
+        { "id": "d3-7", "time": "14:30", "title": "Koenji Station", "description": "15 min on the Chuo Line from Shimokita.", "category": "transit", "lat": 35.7050, "lng": 139.6491 },
+        { "id": "d3-8", "time": "15:00", "title": "Spank! Koenji", "description": "Y2K, kawaii core.", "category": "shop", "lat": 35.7050, "lng": 139.6505 },
+        { "id": "d3-9", "time": "15:30", "title": "Hayatochiri", "description": "Vintage kimono fabric.", "category": "shop", "lat": 35.7065, "lng": 139.6498 },
+        { "id": "d3-10", "time": "19:00", "title": "Higashi-Ginza Station", "description": "Direct exit to Kabukiza Theater.", "category": "transit", "lat": 35.6692, "lng": 139.7656 },
+        { "id": "d3-11", "time": "19:30", "title": "Kabukiza Theatre", "description": "Single-act ticket (makumi-ken) at window. Audio guide ¥700.", "category": "art", "costPerPerson": 1500, "currency": "JPY", "lat": 35.6695, "lng": 139.7670 }
+      ]
+    },
+    {
+      "date": "2025-11-27",
+      "dayNumber": 4,
+      "theme": "Coffee, Knife, Travel to Fuji",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d4-1", "time": "10:00", "title": "Glitch Coffee Roasters", "description": "Third-wave Tokyo roaster, Jimbocho.", "category": "food", "lat": 35.6951, "lng": 139.7596 },
+        { "id": "d4-2", "time": "11:00", "title": "Kama-Asa Shoten", "description": "Kappabashi knife shop. ¥15K–40K range.", "category": "shop", "lat": 35.7128, "lng": 139.7901 },
+        { "id": "d4-3", "time": "13:30", "title": "Shinjuku Station", "description": "Fuji Excursion limited express departure.", "category": "transit", "lat": 35.6896, "lng": 139.7006 },
+        { "id": "d4-4", "time": "15:30", "title": "Kawaguchiko Station", "description": "Arrival in Fuji five lakes.", "category": "transit", "lat": 35.5009, "lng": 138.7592 },
+        { "id": "d4-5", "time": "16:00", "title": "Kozantei Ubuya check-in", "description": "Lakefront ryokan.", "category": "hotel", "lat": 35.5096, "lng": 138.7710 },
+        { "id": "d4-6", "time": "18:30", "title": "Kaiseki dinner #1", "description": "Multi-course at the ryokan.", "category": "food", "lat": 35.5096, "lng": 138.7710 }
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "dayNumber": 5,
+      "theme": "Ryokan Day",
+      "city": "Kawaguchiko",
+      "activities": [
+        { "id": "d5-1", "time": "08:00", "title": "Japanese breakfast", "description": "Grilled fish, miso soup, tamagoyaki, rice.", "category": "food", "lat": 35.5096, "lng": 138.7710 },
+        { "id": "d5-2", "time": "10:00", "title": "First onsen", "description": "Open-air bath with Fuji view.", "category": "experience", "lat": 35.5096, "lng": 138.7710 },
+        { "id": "d5-3", "time": "12:30", "title": "Café Mimi lunch", "description": "Lakeside sandwiches and coffee.", "category": "food", "lat": 35.5189, "lng": 138.7553 },
+        { "id": "d5-4", "time": "13:30", "title": "Lake Kawaguchi north shore walk", "description": "Quiet shoreline, Fuji reflections if calm.", "category": "walk", "lat": 35.5167, "lng": 138.7547 },
+        { "id": "d5-5", "time": "15:30", "title": "Couples massage", "description": "Booked through the ryokan.", "category": "experience", "lat": 35.5096, "lng": 138.7710 },
+        { "id": "d5-6", "time": "18:30", "title": "Kaiseki dinner #2", "category": "food", "lat": 35.5096, "lng": 138.7710 }
+      ]
+    },
+    {
+      "date": "2025-11-29",
+      "dayNumber": 6,
+      "theme": "Active Fuji",
+      "city": "Kawaguchiko",
+      "activities": [
+        { "id": "d6-1", "time": "06:30", "title": "Chureito Pagoda sunrise", "description": "Husband solo. Taxi ~20 min. Classic pagoda-with-Fuji shot.", "category": "temple", "soloOnly": true, "lat": 35.5099, "lng": 138.8005 },
+        { "id": "d6-2", "time": "09:00", "title": "Reunion breakfast", "category": "food", "lat": 35.5096, "lng": 138.7710 },
+        { "id": "d6-3", "time": "10:30", "title": "Oshino Hakkai", "description": "Eight crystal-clear spring-fed ponds.", "category": "nature", "lat": 35.4596, "lng": 138.8389 },
+        { "id": "d6-4", "time": "12:30", "title": "Houtou Fudou", "description": "Yamanashi miso noodle stew (houtou).", "category": "food", "lat": 35.5040, "lng": 138.7625 },
+        { "id": "d6-5", "time": "14:00", "title": "Mt Fuji Panoramic Ropeway", "description": "3-min cable car to Mt Tenjo viewpoint.", "category": "nature", "costPerPerson": 900, "currency": "JPY", "lat": 35.5103, "lng": 138.7726 },
+        { "id": "d6-6", "time": "18:30", "title": "Kaiseki dinner #3", "category": "food", "lat": 35.5096, "lng": 138.7710 }
+      ]
+    },
+    {
+      "date": "2025-11-30",
+      "dayNumber": 7,
+      "theme": "Travel to Kyoto + Orientation",
+      "city": "Kyoto",
+      "activities": [
+        { "id": "d7-1", "time": "10:30", "title": "Bus from Kawaguchiko", "description": "Highway bus to Mishima.", "category": "transit", "lat": 35.5009, "lng": 138.7592 },
+        { "id": "d7-2", "time": "12:30", "title": "Mishima Station", "description": "Transfer to Tokaido Shinkansen.", "category": "transit", "lat": 35.1281, "lng": 138.9117 },
+        { "id": "d7-3", "time": "14:30", "title": "Kyoto Station arrival", "category": "transit", "lat": 34.9858, "lng": 135.7585 },
+        { "id": "d7-4", "time": "15:00", "title": "Hotel check-in", "description": "The Thousand Kyoto.", "category": "hotel", "lat": 34.9854, "lng": 135.7589 },
+        { "id": "d7-5", "time": "16:00", "title": "Nishiki Market", "description": "Kyoto's kitchen — pickles, tofu, skewers. Map opens at Aritsugu knife shop (mid-market anchor) — Street View nearby stalls.", "category": "food", "lat": 35.00497, "lng": 135.76467, "address": "Aritsugu, 219 Kajiya-cho, Nakagyo, Kyoto" },
+        { "id": "d7-6", "time": "18:00", "title": "Pontocho dinner", "description": "Lantern alley along the Kamogawa. Map opens at Pontocho-Suishin (mid-alley) — Street View to pick a restaurant.", "category": "food", "lat": 35.00713, "lng": 135.77107, "address": "Pontocho Suishin, 185 Zaimoku-cho, Nakagyo, Kyoto" },
+        { "id": "d7-7", "time": "20:00", "title": "Hanamikoji, Gion", "description": "Lantern-lit machiya street. Do NOT photograph geiko/maiko. Map opens at Ichiriki Chaya (iconic red ochaya corner).", "category": "walk", "lat": 35.00343, "lng": 135.77531, "address": "Ichiriki Chaya, 569 Gionmachi Minamigawa, Higashiyama, Kyoto" },
+        { "id": "d7-8", "time": "21:30", "title": "Yoramu sake bar", "description": "Tiny serious sake bar.", "category": "bar", "lat": 35.0089, "lng": 135.7728 }
+      ]
+    },
+    {
+      "date": "2025-12-01",
+      "dayNumber": 8,
+      "theme": "Kimono + Kaiseki",
+      "city": "Kyoto",
+      "activities": [
+        { "id": "d8-0", "time": "07:30", "title": "% Arabica Higashiyama", "description": "Solo option — view of Yasaka Pagoda.", "category": "food", "soloOnly": true, "lat": 34.9988, "lng": 135.7807 },
+        { "id": "d8-1", "time": "10:00", "title": "Saryo Tsujiri Gion", "description": "Matcha breakfast.", "category": "food", "lat": 35.0036, "lng": 135.7783 },
+        { "id": "d8-2", "time": "11:00", "title": "Sannenzaka cobbled lane", "category": "walk", "lat": 34.9988, "lng": 135.7813 },
+        { "id": "d8-3", "time": "11:30", "title": "Kiyomizu-dera", "description": "Wooden stage over Higashiyama.", "category": "temple", "costPerPerson": 500, "currency": "JPY", "lat": 34.9949, "lng": 135.7851 },
+        { "id": "d8-4", "time": "12:45", "title": "Hisago oyakodon", "description": "Chicken + egg over rice.", "category": "food", "costPerPerson": 1500, "currency": "JPY", "lat": 35.0001, "lng": 135.7806 },
+        { "id": "d8-5", "time": "14:00", "title": "Yumeyakata kimono rental", "description": "4 hr rental.", "category": "experience", "costPerPerson": 5500, "currency": "JPY", "lat": 35.0030, "lng": 135.7748 },
+        { "id": "d8-6", "time": "15:30", "title": "Yasaka Shrine", "category": "temple", "lat": 35.0036, "lng": 135.7787 },
+        { "id": "d8-7", "time": "16:00", "title": "Shirakawa geisha district", "description": "Willow-lined canal. Map opens at Tatsumi Bridge — iconic Shirakawa photo spot.", "category": "walk", "lat": 35.00795, "lng": 135.77508, "address": "Tatsumi Bridge, Gion Shirakawa, Higashiyama, Kyoto" },
+        { "id": "d8-8", "time": "18:00", "title": "Camellia tea ceremony", "description": "45 min English session.", "category": "experience", "costPerPerson": 3000, "currency": "JPY", "lat": 35.0011, "lng": 135.7798 },
+        { "id": "d8-9", "time": "19:30", "title": "Giro Giro Hitoshina kaiseki", "description": "Reserve ~1 month ahead.", "category": "food", "costPerPerson": 8000, "currency": "JPY", "lat": 34.9961, "lng": 135.7641 }
+      ]
+    },
+    {
+      "date": "2025-12-02",
+      "dayNumber": 9,
+      "theme": "Uji + Nara Day Trip",
+      "city": "Kyoto",
+      "activities": [
+        { "id": "d9-1", "time": "11:00", "title": "Uji Station", "category": "transit", "lat": 34.8920, "lng": 135.7991 },
+        { "id": "d9-2", "time": "11:15", "title": "Byodo-in Temple", "description": "UNESCO. ¥10-coin temple.", "category": "temple", "lat": 34.8893, "lng": 135.8076 },
+        { "id": "d9-3", "time": "12:00", "title": "Nakamura Tokichi Honten", "description": "Matcha soba + parfait.", "category": "food", "lat": 34.8907, "lng": 135.8079 },
+        { "id": "d9-4", "time": "15:00", "title": "Kintetsu-Nara Station", "category": "transit", "lat": 34.6831, "lng": 135.8278 },
+        { "id": "d9-5", "time": "15:00", "title": "Nara Park", "description": "1,200 bowing deer. Shika senbei ¥200.", "category": "nature", "lat": 34.6851, "lng": 135.8430 },
+        { "id": "d9-6", "time": "16:00", "title": "Todai-ji", "description": "Largest wooden building. 15m Buddha.", "category": "temple", "lat": 34.6889, "lng": 135.8398 },
+        { "id": "d9-7", "time": "17:00", "title": "Kasuga Taisha", "description": "3,000 lanterns through forest.", "category": "temple", "lat": 34.6814, "lng": 135.8484 }
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "dayNumber": 10,
+      "theme": "Arashiyama + Sake + Fushimi Inari",
+      "city": "Kyoto",
+      "activities": [
+        { "id": "d10-1", "time": "10:00", "title": "Saga-Arashiyama Station", "category": "transit", "lat": 35.0184, "lng": 135.6788 },
+        { "id": "d10-2", "time": "10:30", "title": "Arashiyama Bamboo Grove", "category": "nature", "lat": 35.0166, "lng": 135.6717 },
+        { "id": "d10-3", "time": "11:30", "title": "Togetsukyo Bridge", "category": "walk", "lat": 35.0136, "lng": 135.6770 },
+        { "id": "d10-4", "time": "14:15", "title": "Chushojima Station", "category": "transit", "lat": 34.9305, "lng": 135.7587 },
+        { "id": "d10-5", "time": "14:30", "title": "Gekkeikan Okura Sake Museum", "description": "Closes 4:30 PM.", "category": "experience", "costPerPerson": 600, "currency": "JPY", "lat": 34.9329, "lng": 135.7596 },
+        { "id": "d10-6", "time": "16:30", "title": "Inari Station", "category": "transit", "lat": 34.9669, "lng": 135.7714 },
+        { "id": "d10-7", "time": "16:45", "title": "Fushimi Inari Taisha", "description": "10,000 torii. Free, open 24/7.", "category": "temple", "lat": 34.9670, "lng": 135.7728 }
+      ]
+    },
+    {
+      "date": "2025-12-04",
+      "dayNumber": 11,
+      "theme": "Travel to Osaka + Dotonbori",
+      "city": "Osaka",
+      "activities": [
+        { "id": "d11-1", "time": "12:00", "title": "Shin-Osaka Station", "category": "transit", "lat": 34.7339, "lng": 135.5003 },
+        { "id": "d11-2", "time": "12:20", "title": "Namba Station", "category": "transit", "lat": 34.6664, "lng": 135.5021 },
+        { "id": "d11-3", "time": "12:30", "title": "Hotel check-in", "description": "Cross Hotel Osaka.", "category": "hotel", "lat": 34.6724, "lng": 135.4974 },
+        { "id": "d11-4", "time": "14:00", "title": "Dotonbori Glico sign", "category": "walk", "lat": 34.6688, "lng": 135.5014 },
+        { "id": "d11-5", "time": "14:30", "title": "Takoyaki Wanaka", "description": "¥600 for 8.", "category": "food", "costPerPerson": 600, "currency": "JPY", "lat": 34.6657, "lng": 135.5031 },
+        { "id": "d11-6", "time": "15:30", "title": "Shinsaibashi arcade", "description": "Covered shopping street running 600m. Map opens mid-arcade — Street View to walk it.", "category": "shop", "lat": 34.67278, "lng": 135.50125, "address": "Shinsaibashi-suji Shopping Street, Chuo, Osaka" },
+        { "id": "d11-7", "time": "17:30", "title": "Mizuno okonomiyaki", "description": "Michelin Bib Gourmand.", "category": "food", "lat": 34.6685, "lng": 135.5011 },
+        { "id": "d11-8", "time": "19:00", "title": "Kushikatsu Daruma Dotonbori", "description": "ONE-DIP rule!", "category": "food", "lat": 34.6688, "lng": 135.5018 },
+        { "id": "d11-9", "time": "20:30", "title": "Hozenji Yokocho", "description": "Moss-covered Buddha, tiny bars. Map opens at Hozen-ji Temple (moss Buddha).", "category": "walk", "lat": 34.66816, "lng": 135.50171, "address": "Hozen-ji Temple, 1-2-16 Namba, Chuo, Osaka" }
+      ]
+    },
+    {
+      "date": "2025-12-05",
+      "dayNumber": 12,
+      "theme": "Kuromon + Koshien + Shinsekai",
+      "city": "Osaka",
+      "activities": [
+        { "id": "d12-1", "time": "09:30", "title": "Kuromon Ichiba Market", "description": "Uni, wagyu, oysters.", "category": "food", "lat": 34.6655, "lng": 135.5066 },
+        { "id": "d12-2", "time": "12:30", "title": "Koshien Station", "category": "transit", "lat": 34.7237, "lng": 135.3633 },
+        { "id": "d12-3", "time": "12:45", "title": "Hanshin Koshien Stadium", "description": "Tigers store (brother's hat). HOF Museum.", "category": "experience", "lat": 34.7212, "lng": 135.3614 },
+        { "id": "d12-4", "time": "16:00", "title": "Tsutenkaku Tower", "description": "1956 retro neon.", "category": "walk", "lat": 34.6524, "lng": 135.5063 },
+        { "id": "d12-5", "time": "17:30", "title": "Janjan Yokocho", "description": "Lantern alley. Map opens at the entrance arch.", "category": "walk", "lat": 34.65149, "lng": 135.50609, "address": "Janjan Yokocho arcade entrance, Naniwa, Osaka" },
+        { "id": "d12-6", "time": "19:00", "title": "Kushikatsu Daruma Shinsekai", "description": "Original location.", "category": "food", "lat": 34.6518, "lng": 135.5063 },
+        { "id": "d12-7", "time": "21:00", "title": "Spa World (optional)", "description": "Themed onsen complex.", "category": "experience", "costPerPerson": 2800, "currency": "JPY", "lat": 34.6499, "lng": 135.5057 }
+      ]
+    },
+    {
+      "date": "2025-12-06",
+      "dayNumber": 13,
+      "theme": "Back to Tokyo + Takarazuka",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d13-1", "time": "14:30", "title": "Tokyo Station", "category": "transit", "lat": 35.6812, "lng": 139.7671 },
+        { "id": "d13-2", "time": "15:00", "title": "Hotel check-in (finale)", "description": "TRUNK Yoyogi Park.", "category": "hotel", "lat": 35.6707, "lng": 139.6957 },
+        { "id": "d13-3", "time": "18:30", "title": "Yurakucho Station", "category": "transit", "lat": 35.6749, "lng": 139.7634 },
+        { "id": "d13-4", "time": "19:00", "title": "Takarazuka Tokyo Theater", "description": "All-female revue. ¥4–12K.", "category": "art", "costPerPerson": 8000, "currency": "JPY", "lat": 35.6740, "lng": 139.7613 }
+      ]
+    },
+    {
+      "date": "2025-12-07",
+      "dayNumber": 14,
+      "theme": "Roppongi Art + Omakase",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d14-1", "time": "10:30", "title": "Roppongi Station", "category": "transit", "lat": 35.6627, "lng": 139.7311 },
+        { "id": "d14-2", "time": "11:00", "title": "Mori Art Museum", "description": "53rd floor Roppongi Hills.", "category": "art", "costPerPerson": 2200, "currency": "JPY", "lat": 35.6605, "lng": 139.7290 },
+        { "id": "d14-3", "time": "14:00", "title": "21_21 Design Sight", "description": "Tadao Ando.", "category": "art", "costPerPerson": 1400, "currency": "JPY", "lat": 35.6651, "lng": 139.7295 },
+        { "id": "d14-4", "time": "15:30", "title": "National Art Center", "description": "Kurokawa's wavy glass facade.", "category": "art", "lat": 35.6651, "lng": 139.7268 },
+        { "id": "d14-5", "time": "17:00", "title": "Shibuya Sky", "description": "Sunset rooftop.", "category": "walk", "costPerPerson": 3100, "currency": "JPY", "lat": 35.6587, "lng": 139.7016 },
+        { "id": "d14-6", "time": "19:00", "title": "Sushi Hashimoto omakase", "description": "Book 4–6 weeks ahead.", "category": "food", "costPerPerson": 35000, "currency": "JPY", "lat": 35.6648, "lng": 139.7570 }
+      ]
+    },
+    {
+      "date": "2025-12-08",
+      "dayNumber": 15,
+      "theme": "Last Day",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d15-1", "time": "11:00", "title": "Dover Street Market Ginza", "description": "7 floors of high concept.", "category": "shop", "lat": 35.6695, "lng": 139.7634 },
+        { "id": "d15-2", "time": "12:30", "title": "G. Itoya stationery", "description": "8 floors of paper goods.", "category": "shop", "lat": 35.6726, "lng": 139.7660 },
+        { "id": "d15-3", "time": "15:30", "title": "Tokyo Dome / Giants Store", "description": "Brother's Tokyo hat. HOF Museum.", "category": "experience", "lat": 35.7056, "lng": 139.7519 },
+        { "id": "d15-4", "time": "18:30", "title": "Shimokitazawa Station", "category": "transit", "lat": 35.6614, "lng": 139.6671 },
+        { "id": "d15-5", "time": "20:30", "title": "Shelter / Basement Bar live house", "description": "Underground music. ¥3–5K cover.", "category": "art", "lat": 35.6612, "lng": 139.6675 }
+      ]
+    },
+    {
+      "date": "2025-12-09",
+      "dayNumber": 16,
+      "theme": "Depart",
+      "city": "Tokyo",
+      "activities": [
+        { "id": "d16-1", "time": "08:00", "title": "Hotel checkout", "category": "hotel", "lat": 35.6707, "lng": 139.6957 },
+        { "id": "d16-2", "time": "11:30", "title": "Haneda Airport departure", "category": "airport", "lat": 35.5494, "lng": 139.7798 }
+      ]
+    }
+  ],
+  "checklist": [
+    { "id": "c1", "title": "Kozantei Ubuya · 3 nights (Nov 27–29)", "detail": "Direct booking or Relux. Mention honeymoon.", "priority": "asap" },
+    { "id": "c2", "title": "Tokyo hotels · 3 nights start + 3 nights end", "detail": "Same hotel both stays = easier baggage drop.", "priority": "asap" },
+    { "id": "c3", "title": "Kyoto hotel · 4 nights (Nov 30 – Dec 3)", "detail": "Gion or Kawaramachi side preferred.", "priority": "asap" },
+    { "id": "c4", "title": "Osaka hotel · 2 nights (Dec 4–5)", "detail": "Namba/Dotonbori area.", "priority": "asap" },
+    { "id": "c5", "title": "Omakase splurge · Day 14 (Dec 7)", "detail": "Pocket Concierge / TableCheck. Options: Hashimoto, Tokami, Manten.", "priority": "asap" },
+    { "id": "c6", "title": "Giro Giro Hitoshina kaiseki · Day 8 (Dec 1)", "priority": "weeks-2" },
+    { "id": "c7", "title": "Takarazuka Revue tickets · Dec 6 evening", "detail": "takarazuka-revue.com", "priority": "weeks-2" },
+    { "id": "c8", "title": "Yumeyakata kimono rental · Day 8", "detail": "Gion branch + hair styling add-on.", "priority": "weeks-2" },
+    { "id": "c9", "title": "Camellia tea ceremony · Day 8 (6 PM English)", "priority": "weeks-2" },
+    { "id": "c10", "title": "Shibuya Sky · Day 14 (5 PM slot)", "detail": "Book online.", "priority": "weeks-2" },
+    { "id": "c11", "title": "Fuji Excursion train · Day 4 (Nov 27)", "detail": "JR East — Shinjuku → Kawaguchiko.", "priority": "weeks-2" },
+    { "id": "c12", "title": "Shinkansen seats · Days 7, 11, 13", "detail": "smartEX app or station counter.", "priority": "closer" },
+    { "id": "c13", "title": "Kawaguchiko → Mishima bus · Day 7", "detail": "Japan Bus Online · ¥2,300.", "priority": "closer" },
+    { "id": "c14", "title": "eSIM / pocket wifi", "detail": "Ubigi or Airalo.", "priority": "closer" }
+  ]
+}
