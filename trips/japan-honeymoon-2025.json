@@ -212,19 +212,8 @@
       "city": "Tokyo",
       "activities": [
         {
-          "id": "d2-0",
-          "time": "07:30",
-          "title": "Solo neighborhood walk",
-          "description": "Husband only — quiet pre-breakfast wander around Yoyogi Park / Harajuku backstreets.",
-          "category": "walk",
-          "soloOnly": true,
-          "noNavigate": true,
-          "lat": 35.6707,
-          "lng": 139.6957
-        },
-        {
           "id": "d2-1",
-          "time": "10:00",
+          "time": "08:30",
           "title": "Asakusa Station",
           "description": "Metro arrival point for Senso-ji.",
           "category": "transit",
@@ -240,9 +229,9 @@
         },
         {
           "id": "d2-2",
-          "time": "10:15",
+          "time": "08:45",
           "title": "Senso-ji Temple",
-          "description": "Tokyo's oldest temple, 7th century. Walk under Kaminarimon lantern.",
+          "description": "Tokyo's oldest temple, 7th century. Walk under Kaminarimon lantern. Early arrival = fewer tour buses.",
           "category": "temple",
           "lat": 35.7148,
           "lng": 139.7967,
@@ -256,7 +245,7 @@
         },
         {
           "id": "d2-3",
-          "time": "11:00",
+          "time": "09:30",
           "title": "Nakamise-dori snacks",
           "description": "Ningyo-yaki, agemanju, melon pan from approach-street stalls. Map opens at Asakusa Kibidango Azuma — Street View to scout nearby vendors.",
           "category": "walk",
@@ -273,7 +262,7 @@
         },
         {
           "id": "d2-4",
-          "time": "12:30",
+          "time": "11:00",
           "title": "Daikokuya Tempura",
           "description": "Asakusa tendon institution since 1887.",
           "category": "food",
@@ -284,7 +273,7 @@
         },
         {
           "id": "d2-5",
-          "time": "14:00",
+          "time": "13:00",
           "title": "Yanaka Ginza",
           "description": "Old Tokyo shopping street, cat-themed shops. Map opens at Yuyake Dandan stairs — Street View to walk the street.",
           "category": "walk",
@@ -301,7 +290,7 @@
         },
         {
           "id": "d2-6",
-          "time": "15:30",
+          "time": "14:30",
           "title": "SCAI The Bathhouse",
           "description": "200-year-old bathhouse turned contemporary gallery.",
           "category": "art",
@@ -317,7 +306,7 @@
         },
         {
           "id": "d2-7",
-          "time": "16:30",
+          "time": "15:30",
           "title": "Kayaba Coffee",
           "description": "1938 kissaten. Classic egg sandwich.",
           "category": "food",
@@ -679,9 +668,8 @@
           "id": "d6-1",
           "time": "06:30",
           "title": "Chureito Pagoda sunrise",
-          "description": "Husband solo. Taxi ~20 min. Classic pagoda-with-Fuji shot.",
+          "description": "Sunrise together. Taxi ~20 min from the ryokan. The iconic pagoda-with-Fuji shot — worth the early alarm. Bring layers.",
           "category": "temple",
-          "soloOnly": true,
           "lat": 35.5099,
           "lng": 138.8005
         },
@@ -864,11 +852,10 @@
       "activities": [
         {
           "id": "d8-0",
-          "time": "07:30",
+          "time": "08:30",
           "title": "% Arabica Higashiyama",
-          "description": "Solo option — view of Yasaka Pagoda.",
+          "description": "First stop together — minimalist Kyoto coffee with view of Yasaka Pagoda. Leave the hotel ~8 AM, ~20-30 min by taxi/bus.",
           "category": "food",
-          "soloOnly": true,
           "lat": 34.9988,
           "lng": 135.7807,
           "routeToNext": {
@@ -1035,7 +1022,7 @@
       "activities": [
         {
           "id": "d9-1",
-          "time": "11:00",
+          "time": "09:00",
           "title": "Uji Station",
           "category": "transit",
           "lat": 34.892,
@@ -1050,7 +1037,7 @@
         },
         {
           "id": "d9-2",
-          "time": "11:15",
+          "time": "09:15",
           "title": "Byodo-in Temple",
           "description": "UNESCO. ¥10-coin temple.",
           "category": "temple",
@@ -1066,7 +1053,7 @@
         },
         {
           "id": "d9-3",
-          "time": "12:00",
+          "time": "11:00",
           "title": "Nakamura Tokichi Honten",
           "description": "Matcha soba + parfait.",
           "category": "food",
@@ -1075,7 +1062,7 @@
         },
         {
           "id": "d9-4",
-          "time": "15:00",
+          "time": "13:30",
           "title": "Kintetsu-Nara Station",
           "category": "transit",
           "lat": 34.6831,
@@ -1090,7 +1077,7 @@
         },
         {
           "id": "d9-5",
-          "time": "15:00",
+          "time": "13:45",
           "title": "Nara Park",
           "description": "1,200 bowing deer. Shika senbei ¥200.",
           "category": "nature",
@@ -1106,7 +1093,7 @@
         },
         {
           "id": "d9-6",
-          "time": "16:00",
+          "time": "14:45",
           "title": "Todai-ji",
           "description": "Largest wooden building. 15m Buddha.",
           "category": "temple",
@@ -1122,7 +1109,7 @@
         },
         {
           "id": "d9-7",
-          "time": "17:00",
+          "time": "16:00",
           "title": "Kasuga Taisha",
           "description": "3,000 lanterns through forest.",
           "category": "temple",
@@ -1139,7 +1126,7 @@
       "activities": [
         {
           "id": "d10-1",
-          "time": "10:00",
+          "time": "08:00",
           "title": "Saga-Arashiyama Station",
           "category": "transit",
           "lat": 35.0184,
@@ -1154,7 +1141,7 @@
         },
         {
           "id": "d10-2",
-          "time": "10:30",
+          "time": "08:15",
           "title": "Arashiyama Bamboo Grove",
           "category": "nature",
           "lat": 35.0166,
@@ -1169,7 +1156,7 @@
         },
         {
           "id": "d10-3",
-          "time": "11:30",
+          "time": "09:30",
           "title": "Togetsukyo Bridge",
           "category": "walk",
           "lat": 35.0136,
@@ -1177,7 +1164,7 @@
         },
         {
           "id": "d10-4",
-          "time": "14:15",
+          "time": "13:30",
           "title": "Chushojima Station",
           "category": "transit",
           "lat": 34.9305,
@@ -1192,7 +1179,7 @@
         },
         {
           "id": "d10-5",
-          "time": "14:30",
+          "time": "14:00",
           "title": "Gekkeikan Okura Sake Museum",
           "description": "Closes 4:30 PM.",
           "category": "experience",
@@ -1203,7 +1190,7 @@
         },
         {
           "id": "d10-6",
-          "time": "16:30",
+          "time": "16:00",
           "title": "Inari Station",
           "category": "transit",
           "lat": 34.9669,
@@ -1218,7 +1205,7 @@
         },
         {
           "id": "d10-7",
-          "time": "16:45",
+          "time": "16:15",
           "title": "Fushimi Inari Taisha",
           "description": "10,000 torii. Free, open 24/7.",
           "category": "temple",
@@ -1536,7 +1523,7 @@
       "activities": [
         {
           "id": "d14-1",
-          "time": "10:30",
+          "time": "09:30",
           "title": "Roppongi Station",
           "category": "transit",
           "lat": 35.6627,
@@ -1551,7 +1538,7 @@
         },
         {
           "id": "d14-2",
-          "time": "11:00",
+          "time": "10:00",
           "title": "Mori Art Museum",
           "description": "53rd floor Roppongi Hills.",
           "category": "art",
@@ -1569,7 +1556,7 @@
         },
         {
           "id": "d14-3",
-          "time": "14:00",
+          "time": "12:30",
           "title": "21_21 Design Sight",
           "description": "Tadao Ando.",
           "category": "art",
@@ -1587,7 +1574,7 @@
         },
         {
           "id": "d14-4",
-          "time": "15:30",
+          "time": "14:00",
           "title": "National Art Center",
           "description": "Kurokawa's wavy glass facade.",
           "category": "art",
