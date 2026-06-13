@@ -1502,6 +1502,18 @@
           "currency": "JPY",
           "lat": 34.9329,
           "lng": 135.7596
+        },
+        {
+          "id": "d10-8",
+          "time": "21:00",
+          "title": "Bee's Knees · Kyoto speakeasy",
+          "description": "Last Kyoto nightcap. Quiet, tucked-away speakeasy, classic cocktails. Get dinner around Kawaramachi area first, then walk over. Cash preferred.",
+          "address": "284 Maruyacho, Nakagyo Ward, Kyoto",
+          "category": "bar",
+          "costPerPerson": 3500,
+          "currency": "JPY",
+          "lat": 35.0067,
+          "lng": 135.7689
         }
       ]
     },
@@ -1654,7 +1666,7 @@
     {
       "date": "2025-12-05",
       "dayNumber": 12,
-      "theme": "Kuromon + Umeda + Shinsekai + Speakeasy",
+      "theme": "Kuromon + Koshien + Shinsekai + Speakeasy",
       "city": "Osaka",
       "activities": [
         {
@@ -1676,23 +1688,20 @@
         {
           "id": "d12-2",
           "time": "12:30",
-          "title": "Hanshin Department Store · Tigers Shop (Umeda)",
-          "description": "Same Hanshin Tigers gear (brother's hat) at the official shop inside Hanshin Department Store in Umeda — 10 min train from Namba instead of the 30-min Koshien commute. Pop in, grab the hat, head out in 30 min. Saves 2-3 hours vs visiting the stadium itself.",
-          "address": "Hanshin Department Store 8F, 1-13-13 Umeda, Kita-ku, Osaka",
-          "category": "shop",
-          "lat": 34.7020,
-          "lng": 135.4960
+          "title": "Koshien Station",
+          "description": "Hanshin Main Line from Umeda or Namba. ~30 min.",
+          "category": "transit",
+          "lat": 34.7237,
+          "lng": 135.3633
         },
         {
           "id": "d12-3",
-          "time": "14:00",
-          "title": "Free afternoon — Osaka Castle OR Tenma walk",
-          "description": "Bonus 2-3 hours freed by skipping Koshien. Two options: (a) Osaka Castle Park 10 min Tanimachi line — castle is mid-tier but the surrounding park is lovely; or (b) Tenma neighborhood — quieter local Osaka, retro shopping arcades, lunch spots. Decide on the day.",
-          "category": "walk",
-          "lat": 34.6873,
-          "lng": 135.5259,
-          "noNavigate": false,
-          "status": "tentative"
+          "time": "12:45",
+          "title": "Hanshin Koshien Stadium",
+          "description": "Tigers official store (brother's hat) + Koshien History Museum. Stadium tour available if pre-booked. Famous yakisoba shop across the street if hungry. Allow 2-3 hours.",
+          "category": "experience",
+          "lat": 34.7212,
+          "lng": 135.3614
         },
         {
           "id": "d12-4",
