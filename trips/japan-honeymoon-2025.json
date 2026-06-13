@@ -111,7 +111,34 @@
       "durationMin": 120,
       "costPerPerson": 4130,
       "currency": "JPY",
-      "notes": "Reserved seats."
+      "notes": "Reserved seats.",
+      "routeGeometry": {
+        "format": "geojson",
+        "data": [
+          [
+            139.7006,
+            35.6896
+          ],
+          [
+            139.4138,
+            35.6987
+          ],
+          [
+            138.9382,
+            35.6111
+          ],
+          [
+            138.8002,
+            35.4869
+          ],
+          [
+            138.7592,
+            35.5009
+          ]
+        ],
+        "mode": "limited-express",
+        "line": "Fuji Excursion"
+      }
     },
     {
       "id": "ic-2a",
@@ -126,7 +153,15 @@
       "line": "Fujikyu Highway Bus",
       "durationMin": 120,
       "costPerPerson": 2300,
-      "currency": "JPY"
+      "currency": "JPY",
+      "routeGeometry": {
+        "format": "polyline",
+        "data": "eytwEsl|mYHc@@YG[Uu@UQ^cAaACG{EKeB?A?o@?MFs@d@gBLc@TcAHc@BK\\{BFc@RyCi@aBKYKa@G[OyA@cB?A@UHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]J]N[NYh@u@BCdA_BT_@^{@HUNWX]LMFMJO`@w@Ze@d@[`Am@FETOPOLMJOx@uAVi@FKTe@bBiEZw@LWj@}@P_@N]J_@Jo@Fg@Fc@Hq@N}@FWH]BELWLQPSv@m@v@o@RMTK\\KfB[f@Gr@IVGREXCPGLGRITUTY\\k@\\m@PUVUz@k@hAq@p@a@Z]X]Te@\\u@Pc@d@cAXo@NYp@wA`@_AJSLYLSHMt@u@x@o@~@u@^[ZWr@i@HIBCZUd@g@TYRYd@u@t@{ADKJUhAuCnAiCr@sARc@d@kAL]Nm@@ILc@FW?AHe@p@cEJy@Hs@Dq@Bu@@U?a@JiD@a@@e@@m@BmA@qA?O?M?S?[@eA?U@a@?IB]JcAJw@BQ@OFc@N_ANq@F[BIb@sAlAuCFMFMt@qBJWBIDKZ{@JYPk@Ja@V{@Rk@Vi@pBeE|@eBFMFMDKh@cAPYf@aAHQxAiChBwCR_@Xg@vBaEfCqFjC{F`@gAHS`EhATD~I|BlKtC`D|@hCr@TFrHnBZHb@LdHhBxA^|FzA|@V|@TvFvA\\JPPPVHVBFJXLEBA|@Y^Oj@OVEVCFJRLXNNFdAPXDb@Hb@RZN\\HNNb@j@TVDXX\\^^XTVRd@PtBh@h@Jb@Pl@Tj@MFh@L^zDxDX\\LRN`@Pb@R|@Nr@Nb@P\\VPTNd@VpAl@~Av@xBlAzB`A@YZoADQTw@t@wCRw@LUPWRMPET?R@PHTPRR^b@NLJHLFLBJ@N?PENENMNQz@oAvAaCdEwHj@gAx@{AtBsDfBoD`@{@nIuQhHgPj@sAfGqNbJ}SbJaTjEaKr@_B~GcPhDsItDiJlAeDv@wBh@cBb@uAd@{Ab@{Ab@}A^_Bh@kBh@mBr@}Bh@}Ah@wAl@sAj@iAn@iAr@iAv@iAz@iAjAoAz@y@x@s@dAy@rA}@bB_ApB_ApBw@nBo@rCu@pCk@pCc@dBQlDU~CSbDMfDEtDBjDJjDVbD\\fDd@fDp@hCn@|C~@tC`A~CnAhGhC~Al@dBj@rBh@rAXnAP|ANzAFnBArACdAGt@Gv@Kt@MnaDkh@t@Mp@Kt@Qt@SbA]xAm@nAi@rAo@`B_ApBoAvGcEvCkBjC_BfAs@|@e@z@c@~@_@|@UbAQr@Il@Cn@?r@Bx@Ft@Hl@Lh@Nl@RfA^`Ab@hDxAh@Rj@Nn@Nn@Lt@Hr@Bt@?n@Ct@Gr@Ip@Ml@Qd@Ob@QZQZS\\UVWXWf@m@b@k@`@m@b@s@\\q@Vo@Pa@Lc@Jc@Lk@Jg@Ha@D[D]B[@[B[@W@Y?[?y@Gy@CUKu@AO?SAkB?eB?UBUHgABg@ByIBw@Bm@Bm@Bg@Du@Dm@Fi@J{@Js@PcAf@kCrB}Kf@kCX}AXwARaAVaAV}@Z_A\\{@d@gAb@_Ad@{@h@_Ap@eA|CqEhC_EdDuEjLePd@q@h@u@j@u@r@u@`AeAxAoArB{A~AaArBeAzEiCfKqFrEiChAs@bAs@lAcAl@k@~@aA\\c@d@o@l@{@l@_AfCsE`NoUNWjEqHz@sA`A}Ax@kAz@aA|@}@p@o@f@e@f@c@bAw@v@m@xBaBjByAzAoAlAeAjAiA|A_BnAwAfAsA|@oAbCkDhGuJvDcGjAiBpAuBtA{BnAeBnAaBbAkApA}A`AaAbA}@\\_@V_@Pe@Fa@@e@Am@Go@MeAOeAMs@Oo@m@yBMi@SeAQ_AMq@Io@Eo@Cs@Cm@?q@?k@Bg@Bk@Di@LqARqBR{BJ}@Fo@RqBNeAPgAZgBTmALu@Jw@Dg@@k@Ae@Ai@Ge@CSAKKa@e@eBGYG_@AYBYDYHYP]PUTKTIXCZCfC@tBDlECjEA~AIjKi@bKq@xFc@xGi@xJy@`DUhCOhDMnDIpFAbDH`CJlBJpBNbBL|BVlBVhDj@~Cj@|Cn@xG`BnDz@nDx@xBd@tB`@hCd@pDd@vCZtDZnG^xI`@xEZfFd@lFh@lDd@hHdA|Dr@rGlAfDr@~Bf@bDl@rAVrJvAzEl@pD^~D\\pDVlDRxAFlBHdFNfEHxB@hGBzHK~DGzJ[pDK~HKtGCnKD~EHtBFhEJjHX|EV~CT~BPxBT~BVdC\\xATbBXdB\\hB`@|A`@fBd@xBp@jBl@vBt@nBx@tB|@hClArDlB~BvAvBpAtBvA`ChB|CdClB`BpAnA`D~ChCnCzCfDzBfC|CnDhFhGfHdIdEnE|A~AhBdBhB`BhB~ArAbAbChBjChB`DpBlDtBdDjBxCxAfH~CvB|@nBr@|Bv@nBn@bBd@nBf@`Cl@`B`@nBb@`Dl@~F|@pCZ~Gf@`FT`CDrD?bEE~DOjDShFg@lFs@vCe@xIaBjE{@|GoA\\GbHiAdAO`AMxD_@hD[rDWdAGpDOfACnCEnCCpD?pHLnBDrFZlFb@lCZzC`@dEl@pDl@bDj@jDn@pE|@bMpCnM~C|Cx@bAZfD`ArC`AfC`AxCjAxDbBhEtBlDlBtGxD~CrBfDdCnCtB`CrBrBfBpBhB|AzA~AdBfBjBhApA|AhBnBfCnD~ExAxBl@~@bFvHtA~BpAzBtBpDdAfAt@f@fA^^H\\Dd@B`@?v@Ix@Mv@YtA{@`@a@h@m@`AkA`AsAt@iAbCaEz@sAz@kAV]fAqB^k@|@gA|@iAb@qAZaARs@Ri@V[`@UXIb@?VBXJTPHLLPN\\Lb@Pj@Pr@J`@Lf@DLBJj@h@TJTDP@PAPERIPKp@k@n@kAr@sAbAqB~@aBv@sA|CsFhAuBx@wAhD{F~HiNzBsDjAsBfAuC\\sA\\cBLq@DUH]JiAHu@^wDp@kHLwABc@F{@JgARwB^{EJkBFkBFeD@_@@eABeFb@k[NmMLyILmHD}GFmFFaCNGRGPGf@[d@a@PQzAsAPQ\\[h@]d@Wf@Qh@M`AKtAEHAPCb@Cj@Af@Fd@HZ?rC@rJ?rSABe@H_@Na@LUj@q@^s@",
+        "durationMin": 51,
+        "distanceM": 55259,
+        "mode": "bus",
+        "line": "Fujikyu Highway Bus"
+      }
     },
     {
       "id": "ic-2b",
@@ -141,7 +176,50 @@
       "line": "Tokaido Hikari",
       "durationMin": 120,
       "costPerPerson": 11500,
-      "currency": "JPY"
+      "currency": "JPY",
+      "routeGeometry": {
+        "format": "geojson",
+        "data": [
+          [
+            138.9117,
+            35.1281
+          ],
+          [
+            138.5836,
+            35.2225
+          ],
+          [
+            138.3892,
+            34.9719
+          ],
+          [
+            137.735,
+            34.7037
+          ],
+          [
+            137.3849,
+            34.7625
+          ],
+          [
+            137.0791,
+            34.9697
+          ],
+          [
+            136.8819,
+            35.1709
+          ],
+          [
+            136.2864,
+            35.3175
+          ],
+          [
+            135.7585,
+            34.9858
+          ]
+        ],
+        "mode": "shinkansen",
+        "line": "Tokaido Hikari"
+      }
     },
     {
       "id": "ic-3",
@@ -156,7 +234,22 @@
       "line": "Tokaido Hikari/Kodama",
       "durationMin": 14,
       "costPerPerson": 1440,
-      "currency": "JPY"
+      "currency": "JPY",
+      "routeGeometry": {
+        "format": "geojson",
+        "data": [
+          [
+            135.7585,
+            34.9858
+          ],
+          [
+            135.5003,
+            34.7339
+          ]
+        ],
+        "mode": "shinkansen",
+        "line": "Tokaido Hikari/Kodama"
+      }
     },
     {
       "id": "ic-4",
@@ -172,7 +265,70 @@
       "durationMin": 150,
       "costPerPerson": 14720,
       "currency": "JPY",
-      "notes": "Reserved seats."
+      "notes": "Reserved seats.",
+      "routeGeometry": {
+        "format": "geojson",
+        "data": [
+          [
+            135.5003,
+            34.7339
+          ],
+          [
+            135.7585,
+            34.9858
+          ],
+          [
+            136.2864,
+            35.3175
+          ],
+          [
+            136.8819,
+            35.1709
+          ],
+          [
+            137.0791,
+            34.9697
+          ],
+          [
+            137.3849,
+            34.7625
+          ],
+          [
+            137.735,
+            34.7037
+          ],
+          [
+            138.3892,
+            34.9719
+          ],
+          [
+            138.5836,
+            35.2225
+          ],
+          [
+            138.9117,
+            35.1281
+          ],
+          [
+            139.0772,
+            35.1058
+          ],
+          [
+            139.1554,
+            35.2563
+          ],
+          [
+            139.6171,
+            35.5066
+          ],
+          [
+            139.7671,
+            35.6812
+          ]
+        ],
+        "mode": "shinkansen",
+        "line": "Tokaido Nozomi"
+      }
     }
   ],
   "days": [
@@ -189,7 +345,14 @@
           "description": "Clear customs, grab Suica card, train or taxi to hotel.",
           "category": "airport",
           "lat": 35.5494,
-          "lng": 139.7798
+          "lng": 139.7798,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "yk~wEszctY??CBGB@I@IB{B@KBIFG|AaAnAy@HGFCH?HBzAx@F@H@hG}DBE@KB_C?GBIBCzAcAzA_AJGHAD@HBtAt@HBH?xEuCjAs@FGDK@I?MCMgAwCeA{CeAoCcBoEfAo@FGBG@M?KEOKOyDaKQa@IU[w@GGIAI?QHe@ZUNA@iAt@UNX\\H@?J@HdArCBD?FAFIJuA|@IDBRDHJDJ@NElDkB~@]XOjKyGtDcCxAkA@I@G?E?GCKc@gAK[QJiFfDIDGFEHCHCH?L?J@JDN\\z@@DnBjFJXz@~BJRFFJDL@JCVOj@_@PKHGtDcCzDcCj@]\\U\\Uj@_@TOK[e@qAi@yAIUiFbDiAn@OFmCdBQNqD~BkKvGMJq@p@a@ZoA~@OPGLGLEPCNAP?R@TBPHTHZD\\?`@CZETKPINSPMHSHa@ZMJyA~@kAt@aGxDaMzHs@f@a@LU?WEQCMEKG]UMKoAkAQMIGGCGCOCMAK?I?M@MDMDSJ[Pa@\\kDfBo@^yA|@aBdAUNi@`@e@\\_@XUPm@j@cA|@w@l@gBnB}@p@g@l@q@`AeA`BaA|Ao@pAeAzB{@lBcCzF{GlPiCvGuBjF_LvYgDzIuAfD_AxBaAlBq@hAs@~@u@z@k@h@k@d@o@b@w@b@iAj@wAh@{Ab@o@L}Dx@mCl@}XdGmAVyMrCqIfBc@JaFfAuE|@kBVaALu@F}@FyBFkG@_@H{DJqGBsCBoCPuA@}@NsD@aC@_KA{@@{NEaD?y@QaAIkAE}@?{AAm@Cg@Go@S}EHuCD_BBkA?gD?S?S@QBQBMDOFKBOHQJKJONKLKPKPGRIRETQj@w@fCKTKRKPONMLOLQHQFQDQBQ@Q@SAOASCsD_@_DScQy@mGS}EU}AGc@A]?g@@i@Be@Di@Je@La@N]N_@T]T_@ZWXY\\Y^Ub@S`@O^O`@K`@Kd@Kh@Gf@Gj@Cl@Aj@?l@Bl@Dh@Fj@Hj@Jh@Lf@Rp@Rr@Pn@Np@Nt@Lt@p@zEvGbc@Fl@Dn@Bp@@n@DnG@h@Ah@Cj@Ch@Eb@G\\G\\GVOd@Od@O`@S`@U^W\\Y\\YVYT]T]PaBv@ULSJUNSNQNSPORQTOROVOVMVMXg@hAy@|AWd@Wb@U^{AvBYb@Uf@Sf@Od@Oh@Ml@Mn@Ir@Ep@Ep@Cr@?v@@r@@p@JfC@\\?Z?ZAZAZE\\CZEZGXGXGXIVKVIVOVMTQZSZoA`BU^iF~Jy@hB_AbC}BxGkAdD}@`C_AzB_BtDgBfEoApC}AvDuB~EqBrEc@~@MTOVOTQVSTSRWRk@d@yDlCaF`DkMvH_DdB}BpA{BvAgAt@cAt@kCtBgHbFyB`BkEfDeBrAwAhAkFdEkCtBYTa@^OPQPORQReDhEqBhC_@j@a@j@[j@a@x@mPd]o@hAm@bAe@r@g@p@aAfAaA~@]ZMHMHKHMFMFMFSHQDUFSDSBU@a@@a@@aFHk@?e@?Y?W?UCYCYEUG[Io@Oy@[a@OqF{Bq@WMEMEKCMCMCMAMAM?MAK?M?K@K@K@K@K@MBMBMBMDMDKBKDKFKDKHYR]ViOpLSPUNULQHUHSHUHSFUDYF[@W@[@W@]?o@C}DKmEK}AC_AEa@AoAA_BAqEFiJLeBDuAFqAJyAHyB@aBEaAC{AOYCu@E}ACqCEy@@aADaBAoCE?RAl@K`@g@tAp@At@C|@A`AE^Cb@GfCm@j@Mn@Mh@Mz@QPGBAf@S@e@~@@fABv@Bv@?J@r@@t@@l@@dAG`AGxCOz@AB?PAlAAx@AfBCR?VKdACBABC@EFgA@yADq@PwBLiA@Q?Q@[AYC[EYe@qCIe@Ga@g@yCKq@Go@A[AYYiXQoNGu@Ge@G]Kc@}A{ESi@GQ[_AGSM_@e@EGAc@Cu@CQAK?O?k@BY?U?UC_@IeAOQCOCc@IQGSGe@Sk@Uq@SECECCGCGCMCQKe@e@mBOa@u@iA",
+            "durationMin": 36,
+            "distanceM": 27403,
+            "mode": "subway"
+          }
         },
         {
           "id": "d1-2",
@@ -201,7 +364,7 @@
           "costPerPerson": 1500,
           "currency": "JPY",
           "lat": 35.6735,
-          "lng": 139.7050
+          "lng": 139.705
         }
       ]
     },
@@ -269,7 +432,14 @@
           "costPerPerson": 2000,
           "currency": "JPY",
           "lat": 35.7129,
-          "lng": 139.7975
+          "lng": 139.7975,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "qe~xEyegtYBKg@Cu@GHm@@ImCe@KAMCQEiBY}@Qo@Ke@IGASEEXQfAIj@Il@EZEPCRa@~BG`@Kn@CNCNKj@Mz@Ot@UxA_@`CETEPKp@If@O~@O~@Ib@EVE\\c@rC[lBETEVgAdHI^Ib@[vAo@tCGZK`@A@a@hBUhAGVa@lBI^I\\[xAGRETYrAc@rBK`@ETCJGXEXCHUdAy@rDCJYtAERGTQ\\Q\\GL]j@KLMLSPYVWT{@r@g@p@e@h@[XWV[^QVMTGPELEJg@pBADERg@Gw@[q@WSIQEQMI^_@p@[h@CF_BnCMTOTCDKPuDxGKNIHYZGDMLIFsAlAuAnAGFONq@j@oAnA}@z@YX?X@ZHdCBj@HDVBL?P@D?F@B?NPBF?D{BnCa@f@EL@D@FDJBFHJX^|@pAJNBDDJDNFPDZH`@FXDVJl@BJBP@LF`@@@@N@HBN?NJf@Jl@H`@@H@BRh@?DYxA?F?BK?]??ACAe@AK?OBQDc@RIFABEBZpANE",
+            "durationMin": 7,
+            "distanceM": 4093,
+            "mode": "subway"
+          }
         },
         {
           "id": "d2-5",
@@ -311,7 +481,14 @@
           "description": "1938 kissaten. Classic egg sandwich.",
           "category": "food",
           "lat": 35.7281,
-          "lng": 139.7705
+          "lng": 139.7705,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "ceayE{zatYh@v@JNBDDJDNFPDZH`@FXDVJl@BJBP@LF`@@@@NL?bA?b@@bBBF?B?J?Z?J?VC@?JEPEd@MBANENEn@Q\\KDABAHA`@KXGDAFC@?RG\\I\\IHCd@M^GDCNCJAXCJA?E@Q@KDINQf@i@x@_APWHIJGpA[XKt@UBADAd@M\\KZIn@OFEBNLp@Lt@Nv@Nn@@HNl@FJHNj@`AvAbClAxBNXJRDJh@bAPZNX\\n@HPFJ^l@n@dAd@z@LRR\\PXLT`@v@DFNRh@r@RXT^n@hAv@tAP\\R^HPRb@FL`@|@n@vALZFTFXF`@Bb@FdADr@FjAVfF@PBJBLJ^@JH^DNDLFN^j@\\l@HNNVHJJJHJNFLF^FjARPDJDHDHDRPn@h@f@b@bBtAFFXTzAtAVRXXFHPZFLBHBP@PBX@FBh@B`@B\\Dt@Dr@NfBD^@P@PDb@VhCFb@RCLAr@ErBKTAP?NA|AEL?`B?B?P?F?H?R?r@AhB?\\An@?H?J?N?PA@`DAj@KjF?^RdG@R@TPxDFd@DZ?BH`@FPFNBFDJXf@n@rAJPh@fArAhCFJJTRGjAYbB_@|@QzA[jASd@IDADCD?\\KNb@BJFPDHDFDHJNRVTZ`@f@`@`@`@b@j@f@`@\\JFHDHFtAx@|@h@JDJHtBfBjCxBlAbAv@j@l@d@z@p@HHv@l@f@`@hAbA^Zj@\\|A`ArBjANHPJ~@n@x@r@bAt@NLNLPLRPn@h@d@d@t@`A~@pArBtCJPVd@HNN\\FLNb@\\v@N`@Jb@Ff@Jl@Ff@p@rEj@|DFv@Fx@BlA@J?^?^KtDS`FKrAOhAMb@_A`Cw@hBERGRELCRAXAHATEtAIzAEfAIjAGhAAV?hD?B?J?p@B`BBP@JF\\BPDVl@hDPbAd@xCBNBJFd@~@~FRtABX@XAXC\\Gh@UvBEn@C^@\\@\\@ZDZ@LHd@Fd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SvDCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCPCLGd@AFAHO|@c@|BMn@Kh@Q`ACLI`@CNEVCFYzACVMx@CLCNWrBCPCPETAHMfAALAH?H??",
+            "durationMin": 16,
+            "distanceM": 9347,
+            "mode": "subway"
+          }
         },
         {
           "id": "d2-8",
@@ -435,7 +612,14 @@
           "costPerPerson": 1500,
           "currency": "JPY",
           "lat": 35.6622,
-          "lng": 139.6683
+          "lng": 139.6683,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "chtxEk}msY??HLDDFBFADEDGFKDE@MTg@ZwA@GTgAJu@]QQIQKUMWM_@UWKG?E@E@SRSPML]^OLGFONGRSp@EL[dAGLKZYh@y@z@s@lA[nAOd@Oh@[jAOh@ADa@tAGPOh@EDQAUCiAIWE_AKo@KAFK\\_@fAEBC@Wd@sAbBGDE@s@x@YZEI{@`AOUCBg@ZUPc@Xw@h@CBCAGCAAEAGAEvCEtAArAA^EPg@Ey@Ky@Iq@E_@?]@YBe@Fa@LQFqAj@]No@VmBt@C@QHIB[LIDUHaBp@uAj@QH[L_DjAoDxAYLMDe@PsAl@qBx@k@V]L]N{B|@sAh@}@`@a@L_@P{@Le@Bw@Dq@DQ@C?kAD}DTe@?_@@yCL_BFq@DgGZI@OBKBMBi@LUF[JmA\\o@P]JE@iBh@gA\\E@_@J_ATiD~@_@Jw@RWFWDy@HcAH{@FqALkALk@DsALYDiALoANI@[BcALmALK?Q@eA@_AA[?U?qDEa@CqCUqAM}BUe@Ea@E[AuCCeGEw@AuB?gA?_@AO?sACo@?CZALK`AMjAUpA]rBOdAIb@CNCPSrBMhAE`@AHOzASjBE`@E\\S?m@A}A?mBAi@?Q?O?U?O?Q@ER?J@p@GAAX",
+            "durationMin": 12,
+            "distanceM": 6046,
+            "mode": "subway"
+          }
         },
         {
           "id": "d3-7",
@@ -476,7 +660,14 @@
           "description": "Vintage kimono fabric.",
           "category": "shop",
           "lat": 35.7065,
-          "lng": 139.6498
+          "lng": 139.6498,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@@_@Ba@D_@D]F_@NaATwABMBQN_AD_@F{@H_C@Y?[Jc@Be@He@DSDQHYRw@Nm@\\wALi@H_@z@iE`@oB@CNw@Ny@DUZqAd@oBT_AT}@TaALg@FSPy@Lg@XuAVmARgADQDUF_@F[ToAr@wD@M@MAK?KCMCQAEk@kCAMAQ?g@G_BAy@AMAa@Bu@LoD@I@IBGBCJDH@H@FALAPCl@KDADADATIFCFCDCFEBEDE@C@C@CLOBS@IZ_C@IDS@E@GBIBIHSb@oADK@GFQ@C@CFOBKr@qBJ[HUBG@EBGHUjAgDL]DMZRn@^b@Vd@XRJ^TC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNPTTdClCDFJLHMx@qAr@kAHMFIZe@n@}@BC",
+            "durationMin": 17,
+            "distanceM": 13059,
+            "mode": "subway"
+          }
         },
         {
           "id": "d3-10",
@@ -520,7 +711,14 @@
           "description": "Third-wave Tokyo roaster, Jimbocho.",
           "category": "food",
           "lat": 35.6951,
-          "lng": 139.7596
+          "lng": 139.7596,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "guzxEox_tYAGc@?O?I?i@@K?g@@M?BbD@jA?J?n@SBAq@AuA?y@?k@AcBCiA?I?M?Y?Q@O@ODMDKh@y@DI^k@R[FIjAeBd@q@\\e@T_@HWFWF[@Q@c@@S@Q@Q@W@o@Ai@Ei@CUQ{AAKIo@CSEUES]oAm@oBW}@Sq@IWEMAGQe@Mc@K_@YeASs@Ie@Ao@DyD?I@[@}@@U?[@c@DuB@e@?]@Y?W@g@BmABuA?MBaB?M@S?WBsABgB@o@?O@e@]CqBM]Cq@CaAAy@AUAK?mB?O?mBEQ?kA?O?QAU?W?_BA{@Ak@@MAqBIy@EMAcBKsAGMAG?GAQAyAIqAGkBIKAS?}AIiEQMAQA}BMqDSe@CYCMAqBKu@Ce@CsDU]CM?uCOI?{@GYEICMCQGQMQWc@m@c@y@Yo@CMCMAOAQ?Q@Q@UDWB_@NoA@MH_ANmAJkAPkBBQBWVwBBUBWLkATaCFi@BYBS@UD[RqBVaCJ}@B_@Fg@VeC\\iDBWDYRuBTeBB]OAC?oBK[AmBIu@Iw@KQCOCo@Ig@Gw@KKABSJiALkANyA^D",
+            "durationMin": 8,
+            "distanceM": 5215,
+            "mode": "subway"
+          }
         },
         {
           "id": "d4-2",
@@ -529,7 +727,14 @@
           "description": "Kappabashi knife shop. ¥15K–40K range.",
           "category": "shop",
           "lat": 35.7128,
-          "lng": 139.7901
+          "lng": 139.7901,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "cd~xEgvetYfAJD?OvAMlA?DMbA?DCPn@HNBPBv@Jt@HlBHZ@nBJB?N@F?J?E^K`AUpBGj@CRC\\OrAe@vEC\\Gj@_@xD[tCCTAPEX]~COvACVCVWvBCTCPOzA]hDANI|@MnAEZANAL?LBJFNpAnBXb@^f@NPPNLFXDXDZBrCNZ@xAFP@bADj@BD?v@DvBHZBb@Bz@DtBJdAFv@DR@H?x@FjAFdADL@nAHR@J@d@B|AFvAHz@FP@N@L@rBJ|@F~BH|@DP?zADZ@~@?`@@T?R?dA?T?z@?v@@L?P?vA@^Br@?V@pABr@D^BxALF?ZBV@Cl@?`@Al@E`EAL?TATCpB?NExAC`B?J?ZAPAn@ExB?D?NAf@?ZCx@?JA`@Ar@CbBAZ?T@XBT@Fj@rBNj@FRJ^Nh@tAxE`@rAFTDLJl@BRFl@NjANlAB\\@\\CbAAH?PAPC^Cf@E\\Mf@KVKRMRc@l@e@p@c@l@QXIHU\\e@t@i@x@INCNCN?R?Z?P@pBBbD@jA?J?n@@j@@v@@fB@z@BbC@dB?j@@j@FfBFlB?PB`@JlADr@@JBZ@JFbA?FFt@Dh@JzA?HBZBPBb@d@zGJbAJn@Jf@DRl@|Ch@vC`@rBBLDTDTLl@j@vC@DLf@J^p@zB^nA@FJ\\H\\l@nCt@jDDPBPt@lD@HDTFVh@jCr@jDBJFXDTf@lCb@xBF`@x@pEHf@?L?JAJAHEJGFGF??iCdBKHIHOJNb@\\v@X^Rl@Vj@PXLRhBnCVXzAfBFJDNt@zD`@|APXJFXNLBrG~ARD~E~@`@HVFJ@x@NVDVDXFGb@I\\i@~Bw@hDCJIZI\\Uz@_@|As@`CADK^W`AU~@AJIXEVk@lDU|ACHGf@Ih@EVMbAGx@Cr@Ad@Br@HdBFrA@N@\\@R@XRtEPbEBX@^PrDPpC?JD`@LbADb@TzBPlCDrADtBElBQzB_AxGm@nDs@lCmDzJgBrDWj@M^K`@GZEXCXC`@@~ABX?RB\\@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@UHSq@Me@Qi@GYMi@E_@Ge@OwA",
+            "durationMin": 15,
+            "distanceM": 11186,
+            "mode": "subway"
+          }
         },
         {
           "id": "d4-3",
@@ -671,7 +876,14 @@
           "description": "Sunrise together. Taxi ~20 min from the ryokan. The iconic pagoda-with-Fuji shot — worth the early alarm. Bring layers.",
           "category": "temple",
           "lat": 35.5099,
-          "lng": 138.8005
+          "lng": 138.8005,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "qpvwEoncnY~ARTFVLVBND\\H\\@pBRZBTENEJAPBLBHCNQDA@GNQTQVM`@M`@I~@MV?b@HPHNDN?NAJCJIhAkARMb@SvAkARHR@R?f@YNIPEH?FAr@RNDn@@PCNEHEJKN]JKVIVIFEFGLSHEvASrDGZ?|BPWz@AbANz@RzAFpARvAb@hDZhBDR?NMhBl@nClAvDJVeDxAgOrGiO|Guw@z]_HxCeHxD{DlDgD|DmCzEsApCIZ[bA_@lAKZTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNVJ`@Rb@ZTNJFPFx@XTHFDDDDDDHPj@^bALXLXPVPRRPRLRLPHNBNBN?DAHARGnA}@HKJQDS`AgDDY@WCUKu@O}@u@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTzBZ",
+            "durationMin": 9,
+            "distanceM": 6906,
+            "mode": "subway"
+          }
         },
         {
           "id": "d6-2",
@@ -679,7 +891,14 @@
           "title": "Reunion breakfast",
           "category": "food",
           "lat": 35.5096,
-          "lng": 138.771
+          "lng": 138.771,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "}jvwEgj_nYRDB?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]J]N[NYh@u@BCdA_BT_@^{@HUNWX]LMFMJO`@w@Ze@d@[`Am@FETOPOLMJOx@uAVi@FKTe@bBiEZw@LWj@}@P_@N]J_@Jo@Fg@Fc@Hq@N}@FWH]BELWLQPSv@m@v@o@RMTK\\KfB[f@Gr@IVGREXCPGLGRITUTY\\k@\\m@PUVUz@k@hAq@p@a@Z]X]Te@\\u@Pc@d@cAXo@NYp@wA`@_AJSLYLSHMt@u@x@o@~@u@^[ZWr@i@HIBCZUd@g@TYRYd@u@t@{ADKJUhAuCnAiCr@sARc@d@kAL]Nm@@ILc@FW?AHe@p@cEJy@Hs@Dq@Bu@@U?a@JiD@a@@e@@m@BmA@qA?O?M?S?[@eA?U@a@?IB]JcAJw@BQ@OFc@N_ANq@F[BIb@sAlAuCFMKGwCqBsBuAWQe@WsAq@gCmAMIMGJ_@f@oBhAmEFSJa@d@aBBMDO`AoDTs@Tk@Vg@nAaCLUPYn@iAp@uAZq@h@eAh@eAXk@zAyCf@eAvEqJTOtDoHDI\\s@vAuCRa@xAyCPa@~@yADGXk@BEP]DKjAyBfA{AlAaBlByBZ]n@w@P[L]Hi@Bc@Cg@Ie@Og@_@g@}CeCSSa@c@eA{BMUi@m@_Aw@e@m@s@oAU_AQyAU_CSqAo@qBQk@Io@Ey@W{GIsE?kAHk@Vc@hAk@dBq@b@e@Ti@Fs@Is@i@uAWkAAs@HeA^}@d@k@vAu@d@c@Z{@H{@D{GH{@\\w@p@m@r@]p@KhBI`AMFEl@WVQVQ`@e@\\u@Ne@^gAp@oBN_@Tu@n@y@`A}@dFoCjNoErJyClDyAPIlB{Ar@g@b@O^GjB?fAElCIrAIv@CjAGtJi@|BGbAI`CYEzF?v@EpHAdB",
+            "durationMin": 11,
+            "distanceM": 11402,
+            "mode": "subway"
+          }
         },
         {
           "id": "d6-3",
@@ -688,7 +907,14 @@
           "description": "Eight crystal-clear spring-fed ponds.",
           "category": "nature",
           "lat": 35.4596,
-          "lng": 138.8389
+          "lng": 138.8389,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "axlwEe~knY@eBDqH?w@D{FaCXcAH}BFuJh@kAFw@BsAHmCHgADkB?_@Fc@Ns@f@mBzAQHmDxAsJxCkNnEeFnCaA|@o@x@Ut@O^q@nB_@fAOd@]t@a@d@WPWPm@VGDaALiBHq@Js@\\q@l@]v@Iz@EzGIz@[z@e@b@wAt@e@j@_@|@IdA@r@VjAh@tAHr@Gr@Uh@c@d@eBp@iAj@Wb@Ij@?jAHrEVzGDx@Hn@Pj@n@pBRpAT~BPxAT~@r@nAd@l@~@v@h@l@LTdAzB`@b@RR|CdC^f@Nf@Hd@Bf@Cb@Ih@M\\QZo@v@[\\mBxBmA`BgAzAkAxBEJQ\\CDYj@EF_AxAQ`@yAxCS`@wAtC]r@EHuDnHATuCzFgAzBaC|EcAvBeAtBEJ{AnCOZMTUb@g@|@m@dAMXM\\Kb@aApDEPELc@bBMb@CHa@xAk@vBi@nBK^LHfClArAp@d@VVPrBtAvCpBJFGLmAtCc@rACHGZOp@O~@Gb@ANCPKv@KbAC\\?HA`@?TAdA?Z?R?L?NApAClAAl@Ad@A`@KhD?`@ATCt@Ep@Ir@Kx@q@bEId@?@GVMb@AHOl@M\\e@jASb@s@rAoAhCiAtCKTEJu@zAe@t@SXUXe@f@[TCBIHs@h@[V_@Z_At@y@n@u@t@ILMRMXKRa@~@q@vAOXYn@e@bAQb@]t@Ud@Y\\[\\q@`@iAp@{@j@WTQT]l@]j@UXUTSHMFQFYBSDWFs@Hg@FgBZ]JUJSLw@n@w@l@QRMPMVCDI\\GVO|@Ip@Gb@Gf@Kn@K^O\\Q^k@|@MV[v@cBhEUd@GJWh@y@tAKNMLQNUNGDaAl@e@Z[d@a@v@KNGLMLY\\OVIT_@z@U^eA~ACBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDAT?@AbBNxAFZE@i@REHGPWhAcAnBOZMXK`@G`@El@M|@CPOd@_@Rs@GCd@gBjAF`@B^Md@A@GP]KYC]A",
+            "durationMin": 12,
+            "distanceM": 10891,
+            "mode": "subway"
+          }
         },
         {
           "id": "d6-4",
@@ -780,7 +1006,14 @@
           "description": "The Thousand Kyoto.",
           "category": "hotel",
           "lat": 34.9854,
-          "lng": 135.7589
+          "lng": 135.7589,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "ozotEmkr{X???I?E?[?YC[CYE[EMCIAG@E@EBABADANAEWk@cE?OB[AS?Q?aD?cB?I?}@AqC?U?k@@YBYYFyCD_A@K?oBBwA@iA@a@@c@?qBAg@@gA@eB@g@Kc@?k@?sC@wF?[?qA?A?UC]KyAg@KG_Aa@}@_@gAc@KEqBaA}BsAkAs@CAa@UE|@GfBk@GOAEAkHI{FGEA{EEG?G?oDAK?u@?eBA_C@{EEO?Q?oFEG?G?cFE@pC~EBJ?F?@?",
+            "durationMin": 8,
+            "distanceM": 3255,
+            "mode": "subway"
+          }
         },
         {
           "id": "d7-5",
@@ -1058,7 +1291,14 @@
           "description": "Matcha soba + parfait.",
           "category": "food",
           "lat": 34.8907,
-          "lng": 135.8079
+          "lng": 135.8079,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "}o}sEy|{{XBH@D?FAD]jAMb@M\\GLCDNdBBt@?^?Fq@EaB@yBBG?I@KBKBGBMFKF[V@FDXT|ADRBPLv@DTHZHZPd@LTBDLRT^HLLPr@bAFJj@x@PP~@x@LJLJJHVX@@RXRZFHNVJPDLJTVp@Ld@BJFVPv@H\\^jALXNXBDV`@ONKFyAXG@E@aAJiABYBWBAX[pICjAIrBA\\ATMbEC|@ItA?JAn@CLG~@CLe@rCI\\EXSpAUjAKt@Cl@ATA\\At@El@Gn@K^CHCJKZUd@U^SVe@d@q@f@C@e@h@Q^EHUn@CDERAJCPAR?^@b@JrBF`B@^@V?j@@xC@xDA|@?^@r@@n@xBBX@jBBl@@jABxABrBLxARbAPTDPFtCdAhC~@xCjAt@TdDhALBLDTHvC`AJDz@Xv@VjF`BrAd@vAd@lBh@FBrCl@|Dx@zAZbATh@HfDRvKj@T@V@bADlCJN@l@B`AFp@DX@H?d@@T@h@DX@lCRD?P@l@@VBdEVl@BF@lGXh@BfADnAHlGZ~@DL@tAFnAFbBLdADfBHR@R@xFXL@hDPfDNp@D`GZD?D@|@Dx@@jACfAMx@MJCFAVIVI\\Mx@[VKj@YPKnAaA|AyAnAgABCDEvBkB~BwBJKPOtAmALKvBkBHK|BsBb@c@xAmAhAaATSTUjBgBNORSFEJK|@y@`A}@bAy@bAy@XU`CkAPEbA[lA]h@QVIlBg@pC{@r@WnBq@~Ak@NGf@S^MLEvBy@h@WRM^QfAu@PKBABANI`BcAXSfAo@dDmBbCyAzCcBfEcCnI_FtAu@t@Uz@MvFs@~H}@lH}@|AQ~@Kr@InBUJAzEm@pEg@tBYbEo@~Cg@bBQfCg@`Dk@ZIG]Ce@?c@Ba@DWv@gCNs@Ju@Bi@GoECkBAUGsAg@yDGqA?A?iAHgJCyAV?b@ADAjA?f@EJCZGd@OZS\\W^g@p@mAv@mA`@]j@]l@O`@GhA?bCBfGLhCDzBB^?b@E`@Gn@U^M`@St@c@b@a@DC^YFGpA}@tA_@|Dc@NAzC[n@EpFErDGb@?vCGv@EbAGjAAxBGzJMrDC`@AlHKl@DfA?v@AN@P?ZBTDNBVDR@XBRARC`@Il@QTERAt@A?G?_@?C?W@SFe@DSD]J}@Bk@@OH?b@?B?f@INA^Ir@Ij@E`@E\\Cf@EjAKRC|AUZEpASzAShAOPCz@M|@M^?HBHBFAXMx@]ZO\\OrAk@`Bs@\\Mn@WPEVARD^Fl@?v@Ct@MVMd@[lAe@l@UzAe@h@Ix@C|BAp@C|@QvCq@FANC`BKd@AT?H@F@PFD?RA`@MVG^Gr@Of@MXGPC`@Ih@GnAMj@Ar@Ah@?f@?\\?h@?ZCj@IDARGVKpAw@tAy@l@[DAFALCH?J?J?JBJBJB`@P^NjAd@|An@b@NTHh@TTJRHHBF@FBHBF@HBH@LBNBVBTBH?J?H?J?HAJ?HAHAJAHAHCNELCJCLGLGZOXQRORQPQ|AyA`A_Ar@s@DCdAiAPQXW^[b@[PKPKVMVKr@Sl@OPETCTC^C^A`@?^@RBr@J~APhAF~@?dAQ~Ba@v@MvAIfGBfAAxA@x@?f@?tB@zA@ZAXCXCXCbAS\\IjAYrBe@JEj@Q|@QNATA\\B|EVhAD\\@|ALt@Ln@LjDz@|BVlEFbEDhAAbBCxECdBCdCCb@B^J\\XRXXx@dAs@hAgA|@eAfAkB`AeBVg@\\q@v@uATg@`AcBHOHOh@eAP[T[PWTSRU^[TQRMVM\\O`@O|Ae@vBs@\\KJCDCdCy@ZM~@Yn@QhA[`A]JCpSsGLETIb@O`Bg@VGRCXEl@GT?\\Az@BL@d@BvCPlBJ`BJJ?bCPT@T@`EVvBHr@BP@P@L@`CHh@Bn@BnAHhAFpBP|@FV@z@F`AF~BNh@Fn@HTFXFrAXLBr@Hx@LN@RFVUPGjDwAFCPIfC_AXMnCgAvCgAp@Wr@Yj@Wj@Wz@c@~@e@fCqAlAk@JGpBcAXMl@YRI`@KXGlC_@x@KfCa@fBYbC_@jC_@zBc@j@QZKFCLGPMdEoCJIPKt@e@xBwA^UZQf@Qr@MXCdA?~BBv@IpAYh@Sb@QhCmAXIX\\pAzAj@t@pA|A\\XXPXNRHND`@Jn@Df@DxCNv@B^BnCPpAHhBJ`DNr@AvAGj@IjAYn@QxD{@tDy@pBc@r@GXAV?|A@P@f@Fj@Jl@PpAh@bAp@fAbAX^j@h@TR`@`@NNNNLLPNXTfAfANPRLPHPDJ@LAJAPCj@Uh@UVEBAZE^@P@PDLFj@TZLRBl@@b@Iz@_@XMLELGNANCLAT?bCAV?L?dDAD?pAA|BAx@?J?D?B?P?pCAdCAfEAP?NAzB?lA?j@?N?dDAV??[As@@aA?_@?kB?SR?H?N?Z?BD",
+            "durationMin": 36,
+            "distanceM": 28415,
+            "mode": "subway"
+          }
         },
         {
           "id": "d9-4",
@@ -1160,7 +1400,14 @@
           "title": "Togetsukyo Bridge",
           "category": "walk",
           "lat": 35.0136,
-          "lng": 135.677
+          "lng": 135.677,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "oqutEilb{XGeAKoAGQN?B?pG`@PBZFPD\\J`@N`@JHDLAR[j@y@jB{BZy@FM^s@`@s@HMh@o@BGCOg@sBCGACSc@LIxA}@PK@AdBcAxA}@v@g@JGj@]b@WbCyAdAq@b@W~AkAfAy@t@i@h@a@POzAgAXSxB_Bj@c@t@m@BAJKDAx@s@tAiAh@c@^Yj@e@ZW\\Y`@[n@g@h@c@r@o@DETMQOCA_@_@GEQSGKIKEOEOaCgKEMCKCKI_@Ke@d@s@N[N[Xa@t@eABEv@wA`@q@BGDKF_@v@gF@KNeAViBPmAJu@Ey@Ao@Ae@AaAAY?QBMJcADq@A]IoBE}BAUEg@Ca@CSAy@?aA?m@BwABsA?W?MCSEc@CQ?YB_@?O@KBeA?k@As@Bc@B_@F{@LkA?CJcA@c@Ba@?Q@E?QEAQIBMLgA^kC`@yCJo@Ha@LUx@a@b@UtCaCFEl@e@|AoAzBuA`@Qr@StAa@dA]l@SDCnBq@~@[NEqBcGOa@Wu@a@qA_@iA[_AKa@Qw@ESGYE]Ig@CQO_BEm@Aa@Ac@?a@?iC?i@X?H?VBNAlCCt@CPIP[PUNIVEdE]hBOr@IHAf@EVEJCZKVGTEb@EF?F?T?f@Ar@CJ?`AGtE[dBOb@C^EPArEa@dAKnAMp@IlAONAfAWXG`@Gp@M|AMjAM?yB?gA?a@?U\\QbBgAbAo@|AaAh@[dBiAnA{@JGRMnAs@ZUfAq@HETOrA{@lAu@jAu@`Am@LKLEh@]^UDCjCkBfAo@lA{@NIzB{AjAu@n@c@p@e@jAs@PKLI^AH?d@@`@?xBBpBBt@?F@Z?^@L?jB@R@R?R?d@@l@?zA@\\@xBB^?V?|BBH?xA@xCDH?L?p@@rA@nCBL?LFP?dDBN?N@|A@jB@hB@RALAd@Kb@SLIZQJIbAgAFGnBaCzGaInBqBRSLQj@i@|BaCbBeBdA}@NUv@i@fEkBjAk@fAm@lEsB|FyBtBw@dDaBxEkCFEDIH]He@@]A[G]gB}GdAKx@Kn@S`CcARIDAjA_@j@Sh@ORENCNANANAN?`C@dD?hABHA?M?yBAK?SEgG?EA_DD_B?kA?[@_ADkABgC@}CFiEFeDBmALcCRgFRmETmE?SDiAVuEPcD?Q@OB[DcA@KPeEL}AHw@@OPeBRaCJsAJqA`CNt@FlBJD?@@`@@@?tBHl@DvCHbB@fB?`DJ\\@|ALB?^Dr@LD?`BRjF|@R@^@V@vBDD_C?Y@S@UBQDMBGBCFGHGJC^@P?r@B^Bx@FpAD`ENT@\\?b@?T?PCfCk@XGLCJAdCUFADADADADAF?DADAB?@?FAD?D?F?D?DAD@F?f@?N?",
+            "durationMin": 21,
+            "distanceM": 14967,
+            "mode": "subway"
+          }
         },
         {
           "id": "d10-4",
@@ -1186,7 +1433,14 @@
           "costPerPerson": 600,
           "currency": "JPY",
           "lat": 34.9329,
-          "lng": 135.7596
+          "lng": 135.7596,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "_zetEopr{X?h@@~A?jBQBU?c@?]?UAaEOqAEy@G_@Cs@CQ?_@AKBIFGFCBCFELCPATAR?XE~BEbAEHINYRa@Bm@Bw@FY@o@CI?iDa@wGu@{BQeAIoAIk@Ek@Ec@C}@Ey@C[?IAI?iAA{@?I?a@?I?wBCgBC}@Ca@Cu@Io@Y[Oa@U}@k@i@[IEGEAAOKIEECG?]Ea@?I?K?]?Y?cA@_@@u@@oA?E?i@EI?YESCSE]Gs@Mm@Mw@M[K]EUE_AQm@K_AQ]G{AYE?m@M_Ca@gB[GAe@I}@Qc@GuEq@}Dq@WE@]?s@FgABSNsADe@Be@DqA?YAWO}DCiB?S@wD@oA@sB?OAoF?aAA_A?KCMCMGBKBM@i@?E?cA?]@a@A{@?sB?K?I?U?wB?U?Q?kA?sA?qC?o@?oD@S?I?iA?g@EE?{@OUGWEgB@cD?Q?O?K?s@?QA{@?gC??K@i@@s@?E?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBi@PW@{@Di@?CyA",
+            "durationMin": 8,
+            "distanceM": 5143,
+            "mode": "subway"
+          }
         },
         {
           "id": "d10-6",
@@ -1226,7 +1480,14 @@
           "title": "Shin-Osaka Station",
           "category": "transit",
           "lat": 34.7339,
-          "lng": 135.5003
+          "lng": 135.5003,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "s~~rEs|_zXo@VIBYmAGSCMCGHGPUDEPSBCBA@AD?BAD@xCVf@@h@?j@?h@@ZHFBTHZTb@^P`@DNBB@@JANNLJB@RNDJJHj@^~AfAfC`BJHHDHBHDPDLBLBL@L?~A@T?VBl@L`DApEA|F?bACz@ExEc@t@MtIw@nKaAxBStJ}@p@EbAC|G?|@ExIBdCGpCUlK{@`FA~@MJ?lA?d@AdBBX@\\H^Dt@K^K\\O^e@NSHGp@q@XSPKXOXKLEXEf@Eh@ENAXANAv@ERAbCOfAGH?l@EH?JAl@Ev@AdCEF?L?H?hBEvC?RAL?x@?fAAL?L?`@?n@?Z?\\?X@~@XXJ|Aj@t@X@@FBd@VbATzADh@BR@H?PDRDB?dCJH@D?R@`@@\\@N@R@X@`@BJ@N@L@N@lADF?j@@d@@xC?H@N?zB@R?J?`A@|@@N?N?rB?P@N?nBDH@L?rBDV@TAzBDN@L?dCFP@N?`CBN?P@xCF~BDb@@b@?~BBjA@D?B?b@@R@B?Z?Z@B?N@T?D?zCDxBBF?B?L@H?B?rBBF@B?R?T?@?hBBB?@?N?P@B?~BDB?B?J?H?B?bCDT@~CBzB@V?R?TAZ?Z?hA?F?H?dC?J?J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZG@_@@{C?I?I@sD@yCB_F?KB{D@uA@}@@c@@e@@wC@QBkC@W?Q@q@B_C@Ul@??VA`CAn@?PAVGlCANEvCAb@?d@A~@ApAC|BA|@?LCnD?PCbFTAn@?j@CF?",
+            "durationMin": 14,
+            "distanceM": 9231,
+            "mode": "subway"
+          }
         },
         {
           "id": "d11-2",
@@ -1366,7 +1627,14 @@
           "description": "Uni, wagyu, oysters.",
           "category": "food",
           "lat": 34.6655,
-          "lng": 135.5066
+          "lng": 135.5066,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "kqqrEecazXCrAATM?iCEU?O?M?oACYA?d@A~@ApAC|BA|@?LCnD?PCbFAbC?F?LAnC?JA^?l@CdC?JApAElBOfACPCVUpCIx@Ix@ObBs@lHC^UjEEd@AVK`BKbBAVCVCXATGrBE|AG`BCn@AZOdEEn@En@An@IbCG~@@b@?b@a@Aa@?mAHw@@S@W@K@uAHa@B_@?cAEYCm@Eg@E_DSgAKu@GOASAy@G}CWwE]s@GYAu@CKIMIYCuAIc@?c@Bk@F_ANk@Fk@F}E^e@Dy@N]H{AN{Bb@UFUF_A`@[LYJYFyAXcEl@}@PqA`@yAl@kBfAm@f@m@f@o@x@WXoB|C}@|Au@hAu@jAi@v@i@z@o@`Ai@r@UZOPg@h@k@h@mBhBqJ|I_BxAoAlA{IhIQROP[b@Ud@GNMZGPGTGTGZCRCRE^Ch@Ch@KbEQxHKpEGjBIdDC~@Gz@Gt@I~@M`AOz@WbAM\\M\\M\\MZSb@U`@m@|@c@h@_@b@k@f@i@f@i@b@kBvAcJ`H}SxOeDfCy@r@s@p@m@p@q@x@o@~@q@fAq@nAk@lAc@hA_@bA_@hAmFpPmA~DmD~KkAvDc@|Aa@zA[tAUlAWtAOvAOnAIhAGlAEjAAxA?nABtADlAFrALvANrARtAVxAZrA^tA^hA^fAj@zA~@fCl@pBT~@Jn@Jt@FrA@d@?h@Aj@Cp@Gr@Kr@Ox@Ux@Sn@Uh@Yl@Wd@a@h@o@r@oAnAiCbCgAfAMPa@f@a@j@Yd@k@jAc@`Ay@zBs@xBe@dBi@xBWlAe@xBc@hCSvAa@vD]bEIxAMdBIfBIdCGhBGbBGpAMrAQbBOfAQtAMn@Qx@YfAs@xBg@`BYjAUhA[zBm@xEWhBmAfJ[vBYrB_@rC{@vG{@rH]bD]bD_@jDU`CMdBCrAAzABtAFnABd@Fh@J~@`@~Cb@`DxB~O`AhH~@hHv@xF^zCH~@HlAFxA@`A?`AAz@Ez@GfAGp@[tBSfAUhAiEhSg@vCc@bDObBKrAStCQdBGp@In@Gj@Gf@Cf@@j@Nv@JXTZPNTFRBTGRKJQFS@UAUIYKQSIUCSBOHQNKVIVMl@Ib@W`BYtAg@rA]zCm@zECPgAdHIj@[hBi@hD]hBYxAa@dB{@jCWp@_@bBm@vBa@vAwAbEcBtE}AtE{@xCGRGPqAFSBg@?sBJS@SBO@O?Q?OCwAQA?OEUEqAWMCyAWm@KDOh@LzATPBfBXNBB?pAR",
+            "durationMin": 25,
+            "distanceM": 17500,
+            "mode": "subway"
+          }
         },
         {
           "id": "d12-2",
@@ -1390,7 +1658,14 @@
           "description": "Tigers store (brother's hat). HOF Museum.",
           "category": "experience",
           "lat": 34.7212,
-          "lng": 135.3614
+          "lng": 135.3614,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "wh|rEaudyXJg@FoAGkACa@@_@Be@BEDQFMDQl@mB|AwEpAgEr@}B\\kAb@{Ap@oBj@eBTo@Rw@@Ch@aBp@}@@Ab@k@LQTY\\k@Xo@k@Yu@a@q@]kAo@eBo@eA_@WK_@Od@eDd@yCp@yELiADSRkBLeB@IzAcMfAqFNqAj@wFf@aFb@aDf@uCpDyPJm@Fa@NgAPoATsBFu@DaA@e@BqAAgAAyAE_AIeAIeAMkAOqAu@qF}BmQ{@iG}@sGgAwHOsAI{@Es@Cs@CoA?uABeAD{@HaATaC`@uDx@yH\\_DNoALmAZeC^qC^qCr@iFnAiJViBn@uEZcCTkAVkAl@gBh@gB\\wAH[Pw@NaAVyBVoBJ}ADoABy@DiBDaADgANuCJwAH_BTgC`@yDT}Ab@wCP{@R_AXoAd@mBj@uBt@_Cv@wBd@cA`@{@b@q@\\i@v@cAfAiAlCeCjAkAb@k@^i@^i@Vg@Ti@Tq@Ps@Nw@Jo@Fw@Bq@@k@?a@Ac@Eo@Eq@Ik@Im@UaAg@gB_AeCk@}A_@cAa@mAa@yAYqAWwASwAQ{AMuAGsAEsACsA?uA@qADsAFmAJiALqAPyATyATkA\\wA^uAb@aBjAuDlDaLpA_EdAgDbDiK`@kA^eAb@gAl@qAr@uAn@cAr@aAn@w@p@u@r@s@z@s@bDeC~SyObDaCdE{CzAiAl@e@j@g@p@q@^_@`@i@T]T[Tc@Re@LWJYX}@VaAP{@J}@H}@H}@Du@D}@HiDFgCDuBTwJJcEBi@Bi@Da@BSBSH_@DUPi@L_@LWLU\\i@PUPQnLyK|AyApJ{InBiBh@i@f@k@b@i@j@w@n@_Ah@{@f@y@JOd@u@lCgExA_CVYr@{@xAqAnBkAxAm@pAa@zA]dBa@fCg@LCLELIHGFIFKDKDODQBSBQ?S?UIaDCg@CWC]M_AGm@Ek@ASIu@QkGQmGBaACcA?i@?s@@e@@u@@e@Aq@UsHQoACaBAa@?]?cB_@{C?qC?M?M@gA@kC?G?CAMA_@R@B?Z?Z@B?N@T?D?zCDxBBF?B?L@H?B?rBBF@B?R?T?@?hBBB?@?N?P@B?~BDB?B?J?H?B?bCDT@~CBzB@V?R?TAZ?Z?hA?F?H?dC?J?J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZGf@?XBb@?PD`AAP?J?b@@f@AN?P?b@@l@BTDFBHDLHJJNVZd@\\XhBfBn@h@JHf@b@b@`@t@p@VPZNb@HdBBvADtBFT@X@fA@b@@xADR?T?bA?t@?jBAtB@ZAV?~B?nBAj@?j@?~AAR?h@@Da@TaCJgAD[BYD_@L{ABSNwABUDg@@UDa@CWJw@FOB_@LkAKyAA[CYIoAMgBCSAWA_@?]Ly@JaAHs@Fu@Ho@JmA@Q@KBSDKD_@Fg@BQ??RBn@Pp@PdAVrBf@BKDMBGFGFIHCJCLAF@D@ObA",
+            "durationMin": 25,
+            "distanceM": 19050,
+            "mode": "subway"
+          }
         },
         {
           "id": "d12-4",
@@ -1466,7 +1741,14 @@
           "title": "Tokyo Station",
           "category": "transit",
           "lat": 35.6812,
-          "lng": 139.7671
+          "lng": 139.7671,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "i}wxEu}`tY@?PDNFFFBF@F?LCJ?H@HBLNAPEHAJ?F@LBRRWdBAFGd@DN@HAFAHe@fD?DCREVCNe@nDETtEdAxEjAHBTFVDZHtD|@lEhA~Ct@TFTHVLBBPJXXPPW\\QTs@nAYr@qA`E_@nAKZsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBBI^O`@sCvHADO^m@bBm@dB{AfEe@pAADc@lAg@vAwAzDq@lBKVGLM^EJO`@{AfESl@O^e@pAELCLEVAH?H?H?JBLBJTt@Vr@DHHTZbAjApDLb@H^Hf@Fv@HbHDnE^dX@XBZDj@Hn@d@rCH`@UNGa@g@yCKq@Go@A[AYOsM",
+            "durationMin": 10,
+            "distanceM": 8544,
+            "mode": "subway"
+          }
         },
         {
           "id": "d13-2",
@@ -1475,7 +1757,14 @@
           "description": "TRUNK Yoyogi Park.",
           "category": "hotel",
           "lat": 35.6707,
-          "lng": 139.6957
+          "lng": 139.6957,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "enuxE{issYIuIQoNGu@Ge@G]Kc@}A{ESi@VDZbAjApDLb@H^Hf@Fv@HbHDnE^dX@XBZDj@Hn@d@rCH`@Fb@d@rCDXD\\Bd@?f@Cd@MvAKpAKjAEbACnAATA`@Q?@_@?WBgA@uA",
+            "durationMin": 4,
+            "distanceM": 2031,
+            "mode": "walk"
+          }
         },
         {
           "id": "d13-2b",
@@ -1485,7 +1774,14 @@
           "address": "1-16-11 Tomigaya, Shibuya-ku, Tokyo",
           "category": "food",
           "lat": 35.6678,
-          "lng": 139.6889
+          "lng": 139.6889,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "{juxEs~qsY?CDq@PwBLiA@Q?Q@[AYC[EYe@qCIe@Ga@g@yCKq@Go@A[AYYiXQoNGu@Ge@G]Kc@}A{ESi@GQ[_AGSM_@EOAI?K?G?ODUFWj@}APg@l@cBz@cCFMLa@DMN_@j@cBb@kAbAmC^gAn@iBBEdDeJNa@f@sAHWHSJY`C{GDKNa@USaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWY[GIkAaCGKKKIGk@_@aC_BQKELQh@IRAHABGPELAFCLALCxACJEFIDG@E?ECCA",
+            "durationMin": 9,
+            "distanceM": 8129,
+            "mode": "subway"
+          }
         },
         {
           "id": "d13-3",
@@ -1579,7 +1875,14 @@
           "description": "Kurokawa's wavy glass facade.",
           "category": "art",
           "lat": 35.6651,
-          "lng": 139.7268
+          "lng": 139.7268,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "cwtxE}jysY???JBFBH@H?L?JAFCH?HAH?JANAHAFEFEDKFGLEPCJADR\\DJBDJN\\U`CkBjBiBn@m@f@c@pAoADEJYHS`@e@LWT]f@_ABEZMDAPGNEJ?L@n@nBV|@z@fD\\tALf@j@bCL`@Hb@b@`CLr@X~BRrBFv@LrCDlARtGBb@L`B@dA@\\@VF~ALdCRfFDv@LrC@VB\\Bb@FpAZrG@PFtADr@@`@PjERpEDv@FfAJhCDv@@\\Bf@B^@PLjEF`EDtD@N?vA?p@@VDvBDx@BZBV_@Zk@TgBp@_Bj@IBGBUFDj@@XFfB",
+            "durationMin": 5,
+            "distanceM": 3240,
+            "mode": "subway"
+          }
         },
         {
           "id": "d14-5",
@@ -1590,7 +1893,14 @@
           "costPerPerson": 3100,
           "currency": "JPY",
           "lat": 35.6587,
-          "lng": 139.7016
+          "lng": 139.7016,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "svsxEkmtsYGgBAYEk@CSC_@AOMiAAUWkCKgAIu@KgAWaBGk@CSCQAO@KEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOZm@`@q@dAaBNUBEXe@P[HOL_@La@Hm@DiA?uA?c@PKXEfAUHAfB]ZIpAUFAhCe@ZGTE`@IfCe@h@KTFTCt@Kx@QHCdA[nBs@NEh@QPCj@ITCd@A^AP@L?H@^HD?RFNYRiBBKDILOLQPQ`@e@v@iArAcBLQLO~@u@d@Y`@WXYDS?CAE?GGMIKmAc@QKDQBOZ{AZqABKDMPu@BKTaA^}ADODQBOb@gBNm@@I@CNs@H]Ps@R{@BOZqABI\\}AT_ABOH[DOPu@Nq@BKR{@@GLi@DMDSFU\\qARy@DSFU?CFSh@aCJAbBp@xAl@F@",
+            "durationMin": 8,
+            "distanceM": 6865,
+            "mode": "subway"
+          }
         },
         {
           "id": "d14-6",
@@ -1634,7 +1944,14 @@
           "description": "8 floors of paper goods.",
           "category": "shop",
           "lat": 35.6726,
-          "lng": 139.766
+          "lng": 139.766,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "mivxEq_atYeBkBGGm@bAm@`AGJGFc@r@a@r@INITSMuCmBOIWOaAq@q@a@sCcBeAm@MG]MEj@_@|CG`@WdBAJCVIl@Gb@M~@_@rCAJE\\G\\e@lDAFCTCVg@pDAJEXE\\YESE{LwCwD}@GA[ImAYa@K_Dq@GAYGYGyBa@o@MSEcB[WEEXi@nEOjAAHE`@G`@UGaGaAICKCK?K?K@iElAiDv@[TUTmBjCGLEP]fCIr@]CWAw@EMASAM?aACE?a@C]?e@?W@_ALaAJYD[D{@LI@_@Ds@HQBOBcALy@JG?]FQDUBUBe@FMBO@k@FWBI@YFSB_@DGBI@o@PeAf@ID}@b@IBc@RGBc@R]NKFIBYNYLC@WLYNSHMF{Ar@IDGBu@^{@^OHKDkAf@q@Vo@XWJKBONu@VcAXS?]?WEm@OC?SAU?a@BK@K@MBi@JuBb@e@JuAXg@LgB\\w@POB]HKd@ENK^ELCHGJcAjBkAtB",
+            "durationMin": 7,
+            "distanceM": 4737,
+            "mode": "subway"
+          }
         },
         {
           "id": "d15-3",
@@ -1643,7 +1960,14 @@
           "description": "Brother's Tokyo hat. HOF Museum.",
           "category": "experience",
           "lat": 35.7056,
-          "lng": 139.7519
+          "lng": 139.7519,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "c||xEkm~sYe@x@i@`ACHCFCFAH?F@`DAj@KjF?^RdG@R@TPxDFd@DZ?BH`@FPFNBFDJXf@n@rAJPh@fArAhCFJJTRGjAYbB_@|@QzA[jASd@IDADCD?\\KNb@BJFPDHDFDHJNRVTZ`@f@`@`@`@b@j@f@`@\\JFHDHFtAx@|@h@JDJHtBfBjCxBlAbAv@j@l@d@z@p@HHv@l@f@`@hAbA^Zj@\\|A`ArBjANHPJ~@n@x@r@bAt@NLNLPLRPn@h@d@d@t@`A~@pArBtCJPVd@HNN\\FLNb@\\v@X^Rl@Vj@PXLRhBnCVXzAfBFJDNt@zD`@|APXJFXNLBrG~ARD~E~@`@HVFJ@x@NVDVDXFGb@I\\i@~Bw@hDCJIZI\\Uz@_@|As@`CADK^W`AU~@AJIXEVk@lDU|ACHGf@Ih@EVMbAGx@Cr@Ad@Br@HdBFrA@N@\\@R@XRtEPbEBX@^PrDPpC?JD`@LbADb@TzBPlCDrADtBElBQzB_AxGm@nDs@lCmDzJgBrDWj@M^K`@GZEXCXC`@@~ABX?RB\\@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@Jb@nAjERr@p@|BBF^hAJZZbAPf@FP\\hAp@jBFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
+            "durationMin": 15,
+            "distanceM": 11389,
+            "mode": "subway"
+          }
         },
         {
           "id": "d15-4",
@@ -1683,7 +2007,14 @@
           "title": "Hotel checkout",
           "category": "hotel",
           "lat": 35.6707,
-          "lng": 139.6957
+          "lng": 139.6957,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "enuxE{issYIuIQoNGu@Ge@G]Kc@}A{ESi@GQ[_AGSM_@EOAI?K?G?ODUFWj@}APg@l@cBz@cCFMLa@DMN_@j@cBb@kAbAmC^gAn@iBBEdDeJNa@f@sAHWHSJY`C{GDKNa@XQ^\\XVd@`@pAjAn@j@lAfAp@p@h@j@\\^NPT`@pEvI`@t@JPNMFEh@c@LIHERKPG|Aa@LCd@KPARAZ@f@@f@BR@NDj@Pd@P@@NHVJXNn@ZAZ@rAFnCBrA?z@J`GC|ABtAD~@Dt@Br@D^Fd@F`@Jd@bB`HdBtHrBdJH`@Hd@Hl@h@vEFb@F`@F`@J^HZJ^LXLVNTNRNRTR\\XxAhANLPNPRNPPTNTNVP\\L^N`@J`@Lh@^jBn@fDfAhFVr@V`AdAhEDLFLDJDHFFDDFDBBFBH@F@H?H?F?HAHCFCFEHEPONKJGFGHGFGHEHCHCHCJAH?H@H@J@HDDBFBDDDFDDBDBFBF@HBLBL?N?L?NCLALCJELEJEJEJGJGHGHGHGHIFKHIFGDIBG@GBK@K@MAKAKCGCECECGEECEGCECEGIEICGEKIQGQK]So@CKEMCSAQ@S?M@OBOFOFOJM`CmC`FaG|@gAh@o@d@s@l@cAj@gArDwGhBmDR_@dDsFNYdAsB`@{@b@y@Zk@\\i@`@k@nBcCdDoEZa@PSPQz@w@vC}B~E{DvAgAdBqAlEeDzBaBlBuArDkCpCwB`Aw@bAs@|BwA|BsAzCgBnMwHbCyAr@e@dFeDn@i@VSTURWT[R]NUd@aApBwEjFcM~@wBlBeEbBsD|@yB~@eCjAcD~AqEf@wAhA{C`@}@lE{ITa@Vc@Xa@l@y@P[R[NWLWLYJYJ]H[F[F]F[D]B]@]@_@?]?_@?]KoCCk@?o@?s@@q@Bu@Fq@Hk@Hk@Li@Lc@La@L[LWN[V_@xAwBXe@Ve@Xe@r@yAh@mAJULULUNUNUPSNSPOPQROPMRMRKdBy@XQNIPMPOVSNOXYX_@V_@Tc@Rg@Pg@Lg@Ji@Hi@Fi@Bm@Bk@@m@Ak@CoGAs@Cs@Gq@Gq@yGac@q@{EMu@Oy@Oq@Qs@Sq@So@Mg@Ki@Ie@Gi@Ci@Ai@Ak@@e@Bk@Dg@Fg@Hc@Lg@Ja@L]N_@P]R]T]X]X[ZWZU\\SZO`@Od@Md@Id@Eb@Cb@Ab@@b@?|ADzA@zB?lCBzIVjGXjBDn@@fBDX@nAFb@BV@X?V?VCTERGTIRMPONONUJSLYH[t@_DJc@HYHUJUJUNUNQNOPMPIRITGRCTAVA`E@bD@rAMn@Cp@AnAEh@Ab@AXEZEnC?dC@nF?~I@`D?jB?fC?tE@fC?v@?r@?nA@vAALFr@H|ALVBVBV@V@`DBdHJdEHXFbGAnAAx@Eh@ErAMnAOhAQfB]`B[`FgAf@KjIiB`NuCfAWbYeGfCk@rDy@r@O`Be@tAg@bAg@v@e@l@a@l@e@h@g@p@w@t@cAp@eAz@eB`AyBpAcDjD}IdL{YnBkFhCsGrBeFjDkI`C{Fx@iBhA_Cl@oA~@}AdAaBt@eAf@eAl@w@hAwAf@k@d@k@r@s@l@i@l@g@|AmAx@q@jAw@rA}@tD}BhCaB\\UPSNWFOFa@@_@Eg@W{@GWCMAMAM?O@WBSDMDMDMFKJKHIVOVOZWfBoAHIbC{AFETO^UZSTO@?DEDATOVQFETMXOl@]b@Wp@a@NIPKt@e@fBeATq@lAgAJGLEF?LAL?N@PDPFJHJJHJHN^~@HEtA}@HK@G?GCEeAsCAI?KIAY]LYbAo@JGxA}@J?FFLTlAzC|CjIBVDN?JALCFGFgAn@bBnEdAnCdAzCfAvCBL?LAHEJGFkAr@yEtCGHI@ICOIaAi@GCIBeBbAyA|@CDAFAt@@n@APALEFIBiG|DGDK@uAu@EAG?GB}A|@g@Xu@b@CDCH?JCrBCJ",
+            "durationMin": 31,
+            "distanceM": 24200,
+            "mode": "subway"
+          }
         },
         {
           "id": "d16-2",

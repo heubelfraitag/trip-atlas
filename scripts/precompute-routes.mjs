@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 /**
- * Pre-compute walking-route geometries for consecutive same-day activities.
+ * Pre-compute route geometries between consecutive same-day activities.
  *
  * Usage:
  *   node scripts/precompute-routes.mjs trips/japan-honeymoon-2025.json
  *
- * Writes routeToNext (encoded polyline) for any pair within 2km on foot.
- * Skips pairs further than 2km — those get the styled transit line at runtime.
- * Uses the public OSRM demo server. Rate-limited to 1 req/sec to be polite.
+ *   ≤ 2km:  OSRM foot profile (real walking path, mode='walk')
+ *   ≤ 25km: OSRM car profile  (surface-street route approximating a
+ *                              subway/cross-town hop, mode='subway')
+ *   > 25km: skipped (handled by intercityTransit + fetch-rail-geometries)
+ *
+ * Public OSRM demo server. Rate-limited to 1 req/sec to be polite.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -18,6 +21,7 @@ if (!file) {
 }
 
 const WALK_THRESHOLD_M = 2000;
+const DRIVE_THRESHOLD_M = 25_000;
 const SLEEP_MS = 1100;
 
 function hav(a, b) {
@@ -33,24 +37,30 @@ function hav(a, b) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function osrmFoot(from, to) {
-  const url = `https://router.project-osrm.org/route/v1/foot/${from.lng},${from.lat};${to.lng},${to.lat}?overview=full&geometries=polyline`;
+async function osrm(profile, from, to) {
+  const url = `https://router.project-osrm.org/route/v1/${profile}/${from.lng},${from.lat};${to.lng},${to.lat}?overview=full&geometries=polyline`;
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`OSRM ${res.status}`);
+  if (!res.ok) throw new Error(`OSRM ${profile} ${res.status}`);
   const data = await res.json();
   if (!data.routes?.[0]) return null;
-  const route = data.routes[0];
+  return data.routes[0];
+}
+
+async function buildRoute(profile, from, to, mode) {
+  const route = await osrm(profile, from, to);
+  if (!route) return null;
   return {
     format: 'polyline',
     data: route.geometry,
     durationMin: Math.round(route.duration / 60),
     distanceM: Math.round(route.distance),
-    mode: 'walk',
+    mode,
   };
 }
 
 const trip = JSON.parse(readFileSync(file, 'utf-8'));
-let computed = 0;
+let walked = 0;
+let driven = 0;
 let skipped = 0;
 let failed = 0;
 
@@ -62,22 +72,35 @@ for (const day of trip.days) {
       skipped++;
       continue;
     }
-    const d = hav(a, b);
-    if (d > WALK_THRESHOLD_M) {
-      // too far — leave to runtime transit-style line
-      skipped++;
-      continue;
-    }
     if (a.routeToNext) {
       skipped++;
       continue;
     }
-    process.stdout.write(`Day ${day.dayNumber} · ${a.title} → ${b.title} (${Math.round(d)}m) ... `);
+    const d = hav(a, b);
+
+    let profile, mode, label;
+    if (d <= WALK_THRESHOLD_M) {
+      profile = 'foot';
+      mode = 'walk';
+      label = 'walk';
+    } else if (d <= DRIVE_THRESHOLD_M) {
+      profile = 'driving';
+      mode = 'subway';
+      label = 'drive→subway';
+    } else {
+      skipped++;
+      continue;
+    }
+
+    process.stdout.write(
+      `Day ${day.dayNumber} · ${a.title} → ${b.title} (${(d / 1000).toFixed(1)}km, ${label}) ... `
+    );
     try {
-      const geom = await osrmFoot(a, b);
+      const geom = await buildRoute(profile, a, b, mode);
       if (geom) {
         a.routeToNext = geom;
-        computed++;
+        if (mode === 'walk') walked++;
+        else driven++;
         console.log(`ok (${geom.distanceM}m, ${geom.durationMin}min)`);
       } else {
         failed++;
@@ -92,5 +115,5 @@ for (const day of trip.days) {
 }
 
 writeFileSync(file, JSON.stringify(trip, null, 2));
-console.log(`\nDone. computed=${computed} skipped=${skipped} failed=${failed}`);
+console.log(`\nDone. walked=${walked} driven=${driven} skipped=${skipped} failed=${failed}`);
 console.log(`Wrote ${file}`);
