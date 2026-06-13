@@ -660,7 +660,14 @@
           "description": "Vintage kimono fabric.",
           "category": "shop",
           "lat": 35.7065,
-          "lng": 139.6498
+          "lng": 139.6498,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@V@\\DvD`@pCX`@DV@N@xARrANNBpBTH@TB~@LL@VDfANF@^DbAJl@FjANj@Fj@D`AAd@Ch@Ip@Ml@Sb@Ul@_@VQTSPQr@u@nBkBp@s@t@w@PQzA}At@w@JMZYpCoBdAu@fBoA\\YRQPOxAoAvFgFFEVWf@a@TUTSVSVOTIXIVGVCT?d@@t@B~AJh@DjAJvBLd@FbATjCr@z@T\\Hb@Hd@FF?ZLNDLBVBdA@bA@rC?bHJv@@Z?~AMnEFxAAfAGnDOzAEhJOpEA`B?lABr@HTDnCLhCFzACpBFZ@ZB`AH\\BH@R?TAD?PEVGTKXSf@a@x@s@TQLIJGXMLGLEHGLGLGTQNKhAy@zA{ArBaBlAaArAcADEFCLICSCSGWIWg@yA[{@_@eAKYyAgEUo@AECGIQIQCICEo@gAi@{@ISQe@Og@IYEO}@kDMi@CMKa@SVIHo@r@GOEEc@y@]i@EGACWc@GK?A",
+            "durationMin": 14,
+            "distanceM": 9469,
+            "mode": "subway"
+          }
         },
         {
           "id": "d3-9b",
@@ -672,7 +679,14 @@
           "costPerPerson": 2000,
           "currency": "JPY",
           "lat": 35.6614,
-          "lng": 139.6975
+          "lng": 139.6975,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "octxEssssYi@{@?AEGWP_@XQTKLAGCICMAKAIAIAGEcA?KGoA?K?ICsB?S@[P{DF_AB]D[PeAJy@BM@IDYBOBK@ODUDSF[PgAHc@Nq@`AkEFY~@oBDI|@eBh@eABEVUMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNPTTdClCDFJLHMx@qAr@kAHMFIZe@n@}@BC",
+            "durationMin": 9,
+            "distanceM": 7742,
+            "mode": "subway"
+          }
         },
         {
           "id": "d3-10",
@@ -717,7 +731,14 @@
           "address": "Yoyogi Park, Shibuya City",
           "category": "walk",
           "lat": 35.6716,
-          "lng": 139.6948
+          "lng": 139.6948,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "yivxE{ussY??ZQp@e@bAe@JINSHQVgAPg@La@Ji@Bc@^uBd@{AZkAXGVK`@YVUp@s@p@q@JKJa@VABEDKAA?C?C?CB}@@KDQFGHEe@EGAc@Cu@CQAK?O?k@BY?U?UC_@IeAOQCOCc@IQGSGe@Sk@Uq@SECECCGCGCMCQKe@e@mBOa@aCsDOUkAoBu@cCGWUNYNgAXWDk@LMDoBZu@NSBa@FcBZ]FODSFSH]PoAx@KHMFuAbA_Ap@y@p@e@N]Ji@HELKNSPIHODKBPpB@LH`ABTDTPb@?Jb@j@vAx@r@VBVG~AERx@nAlAjAjAt@dAQz@UVItAe@~A_A`@WXQTOd@YNb@J^Bb@O`@AR?Z@d@QR?JO@mBL",
+            "durationMin": 9,
+            "distanceM": 3005,
+            "mode": "walk"
+          }
         },
         {
           "id": "d4-0b",
@@ -727,7 +748,14 @@
           "address": "1-1 Yoyogi Kamizonocho, Shibuya City",
           "category": "temple",
           "lat": 35.6764,
-          "lng": 139.6993
+          "lng": 139.6993,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "_awxEeetsYE@GY]k@c@]EQAGuAd@WH{@TeAPkAu@mAkAy@oADSF_BCWs@WwAy@c@k@?KQc@EUSJ[NMJKJIPUb@ORE@OF_B`@QDeAVqCp@]FSDUD_ALSB[Fe@FiBXoATg@LUD{A\\KFKFEDCBIJMLEFEFGHIHuBdCo@b@cAd@k@PqBh@}Ab@e@LIBWHUHSq@Me@Qi@GYMi@E_@Ge@_@iDMcAM{@G_@WcBSyAI{@Go@Ek@Ew@AMC[]QeAm@a@Wo@a@[Sa@S{@c@e@Wm@[GCKGaAg@IC[QWMBMDYZcBDSDWJe@F_@Je@DU\\kBJq@FkADs@@K@KHwAJuA@Y@M@c@BUFqAPqCFaADi@Ds@Bc@@SPuCBo@?w@?GC_@Ca@E_@AQGe@Ee@Ii@C]A]?_@Ba@Do@ToB@GDi@B[?YASCYQqAo@_EQiACOCOyAaJOy@AGGWCSG[Gk@?kAAc@?[?Y@eDX_GB]@e@?IB_A@[@S@SBM@MDM|BmGVs@Fg@Fe@HiARaFHcD@O?_@?]GyAOqBqAgJIe@M_AKs@E]GS]aAGQUi@FONKJIhCgBJG??DEBCBK@I?G?K?II_@s@_EEQqA{GCOESGY{A{HCIEUEUs@iDEOEUeB_ICII]IYmAkECGQo@G[i@kCEOUeACSuByKI]_@{BEa@WgDQ{BAKEc@AOE_@I_AEk@Iw@Ei@GaA?KC]OaCAIAYKyE?QAk@?i@AcBA_ACoAAiAC}BAO?m@RCXGHAVCj@GNALCd@GTCTCAYA{@?u@CcB?I?KI?a@@@F",
+            "durationMin": 12,
+            "distanceM": 7695,
+            "mode": "subway"
+          }
         },
         {
           "id": "d4-1",
@@ -771,7 +799,14 @@
           "costPerPerson": 2500,
           "currency": "JPY",
           "lat": 35.6878,
-          "lng": 139.7011
+          "lng": 139.7011,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "igyxEmotsY??A?CAAAvAObAKbAQLADABC@C@C@E?CAG?IAO??GEGE{AgAKGGEAAEIIMo@LE@MBk@JK?I?KCIESMa@UgFaDODEDI\\ETFfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@UHSq@Me@Qi@GYMi@E_@Ge@OwA",
+            "durationMin": 2,
+            "distanceM": 1198,
+            "mode": "walk"
+          }
         },
         {
           "id": "d4-3",
@@ -1409,7 +1444,14 @@
           "description": "Sunrise mission — leave The Thousand Kyoto ~06:30. JR Nara line two stops from Kyoto Station.",
           "category": "transit",
           "lat": 34.9669,
-          "lng": 135.7714
+          "lng": 135.7714,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "}mltEgzt{XBxAg@?eD?E?@N?jAAH?H?FIh@?@ERCROn@Oh@KXKRCDCLCN?D|@@PAF?HDRBF@l@Bv@?t@@HAt@Av@Gp@@?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBFkA?{@AM?a@?S?[?_@?GAc@?g@Fe@@OAKg@ASBSNCb@uBM",
+            "durationMin": 4,
+            "distanceM": 1156,
+            "mode": "walk"
+          }
         },
         {
           "id": "d10-7",
@@ -1418,7 +1460,14 @@
           "description": "Timing is everything — at 7 AM the 10K torii path is nearly empty, mystical light, photographers only. Hike to the Yotsutsuji intersection viewpoint (~45 min up, 30 min down). Skip the summit if tired — Yotsutsuji is where the view opens. Free, 24/7.",
           "category": "temple",
           "lat": 34.967,
-          "lng": 135.7728
+          "lng": 135.7728,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "onltE}cu{XtBLBc@RORCf@@@JANGd@?f@@b@?F?^?Z?R?`@@L?z@GjAi@PW@{@Di@?g@?eD?E?wC?mB?{@?_BASAgBHk@@[?o@@Y@wBBE?g@@aA@}ABIBAnB?H?J?\\?D?d@?N?JA~@?b@?HEt@An@Ch@?dAArA?P?RAbCAzAEjCA`@?~AArB?bAAr@?\\?f@IhBAR?R?fB?d@?D?T?V?B?jE?h@Ar@?D?r@?\\?P?n@?j@?nCApC?vB?R?PAxF?F?`H?z@?d@?\\AX?`@?d@?p@?jA?l@ArH?PAzH?rA?jDAlI?t@?fAAvA?J?tC?`A?`B?BAt@?b@?fA?dB?`B?X?j@?jEAtDAzF?bB?lA?r@ATCTOn@SX}@l@gD|BuE`Du@j@gCbBGDm@d@mAz@GBsA`Aa@PHn@HRFRRb@BDJVBB|@pBdBrD|AfDP`@dCnFrBjEr@xAFNA\\?LEJOPiAt@}@n@e@XiAr@iBjASLGDsA|@gAr@oCdBe@Zi@\\MFKHaAn@SJw@f@mAv@sAx@WNOH}A`AEBgAr@SLKHOH_Al@eBjAi@\\}A`AeAp@iBbA_@R?`@?fA?xBkAL}ALq@La@FYFgAVO@mANq@HoALeAJsE`@Q@_@Dc@BeBNuEZaAFK?s@Bg@@U?G?G?c@DUDWF[JKBWDg@DI@s@HiBNeE\\WDOHQTQZQHu@BmCBO@WCI?Y?[?Q?WBqEAK??P?r@?JAvB?L?t@?`AAtA?RAvIAlB?P?NAd@It@EPALCR?TA`A?bAAv@?rBAb@Cv@_@pA?Nm@d@GDuC`Cc@Ty@`@MTI`@Kn@a@xC_@jCMfACLPHD@?PAD?PC`@Ab@KbA?BMjAGz@C^Cb@@r@?j@CdAAJ?NC^?XBPDb@BR?L?VCrACvA?l@?`A@x@BRB`@Df@@TD|BHnB@\\Ep@KbACL?P@X@`A@d@@n@Dx@Kt@QlAWhBOdAAJw@fFG^EJCFa@p@w@vACDu@dAY`@OZOZe@r@Jd@H^BJBJDL`CfKDNDNHJFJPRFD^^B@PNULEDs@n@i@b@o@f@a@Z]X[Vk@d@_@Xi@b@uAhAy@r@E@KJC@u@l@k@b@yB~AYR{AfAQNi@`@u@h@gAx@_BjAc@VeAp@cCxAc@Vk@\\KFw@f@yA|@eBbAA@QJyA|@MHRb@@BBFf@rBBNCFi@n@ILa@r@_@r@GL[x@kBzBk@x@SZM@IEa@Ka@O]KQE[GQCqGa@C?O?WHcB\\KBc@J]JiAVaB\\g@Ha@HIBgDn@u@Pw@Nw@R{@T_@qCG_@Ii@M{@COGo@E[?EAECOCSGe@",
+            "durationMin": 21,
+            "distanceM": 13791,
+            "mode": "subway"
+          }
         },
         {
           "id": "d10-1",
@@ -1427,7 +1476,14 @@
           "description": "Back to Kyoto Station, switch to JR Sagano line out to Arashiyama (~45 min total from Fushimi).",
           "category": "transit",
           "lat": 35.0184,
-          "lng": 135.6788
+          "lng": 135.6788,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "cpvtEmwb{XFd@BRBN@D?DDZFn@BNLz@Hh@F^^pCz@U@FTfBLbABP?PAV@NXnCEHE@s@PGB?FDb@CVCV?d@@f@Hx@Jn@f@bDFPDL@B@B@BBBBDx@r@DB@DBD@D??",
+            "durationMin": 3,
+            "distanceM": 771,
+            "mode": "walk"
+          }
         },
         {
           "id": "d10-2",
@@ -1436,7 +1492,14 @@
           "description": "Still beating the 10 AM tour bus rush. Walk through quickly — atmosphere drops the busier it gets.",
           "category": "nature",
           "lat": 35.0166,
-          "lng": 135.6717
+          "lng": 135.6717,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "efvtEoja{X??AECEAEECy@s@CECCACACACEMGQg@cDKo@Iy@Ag@?e@BWBWEc@?GFCr@QDADIYoCAO@W?QCQMcAUgBAG{@T[HqA^s@TG@o@RE@u@T[B[AMAU?MBUDkC`A]JiBh@C@gAVe@NiAZu@RSDEUu@wECIACCIy@h@CBUNA@iAr@aAh@uAhAGFCD}AfB[h@gApB]n@IRUl@Wv@Uv@Or@]|ASxAGv@Gx@MnDOrCARANKjDM`CEXKz@_@hAKTMPQTSPu@d@IFYZMNKNCFGLIPIVENCLAHCJCPCZAT?T?`@@b@FdABd@?^APAHAVCTETGVKVMTMNIJKFOJSFc@Fq@Hm@HYFOFk@TMDi@NaALa@Fa@DMDGBgAn@Q@C?E@E@E?G@E@E@mA\\WHIFGDi@|@UZe@n@IDOFwAb@K?IGCGCQBMDI?GGOGIGCCC?E?C?GFMJSRo@?E?I?EAECCCAE?GBGFKJKNELKVEDMDOFO@G?CEEECE?C@IBE@CDADCDGBEBK@GLe@R]NM",
+            "durationMin": 8,
+            "distanceM": 3596,
+            "mode": "subway"
+          }
         },
         {
           "id": "d10-2a",
@@ -1448,7 +1511,14 @@
           "costPerPerson": 300,
           "currency": "JPY",
           "lat": 35.0341,
-          "lng": 135.6646
+          "lng": 135.6646,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "ioytEom_{XOLS\\Md@AFCJCDEFEBE@ABCDAH?BBDDDBDF?NANGLEDEJWDMJOJKFGFCD?B@BB@D?D?H?DSn@KRGL?F?B?DBBFBFHFN?FEHCLBPBFHFJ?vAc@NGHEd@o@T[h@}@FEHGVIlA]DADAFAD?DADAB?PAfAo@FCLE`@E`@G`AMh@OLEj@UNGXGl@Ip@Ib@GRGNKJGHKLOLUJWFWDUBU@W@I@Q?_@Ce@GeAAc@?a@?U@UB[BQBK@IBMY@S@SA[En@sANc@@EXu@BSEUo@cA_@aAQK",
+            "durationMin": 4,
+            "distanceM": 1409,
+            "mode": "walk"
+          }
         },
         {
           "id": "d10-2b",
@@ -1460,7 +1530,14 @@
           "costPerPerson": 500,
           "currency": "JPY",
           "lat": 35.0282,
-          "lng": 135.6682
+          "lng": 135.6682,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "gpxtEsn`{XPJ^`An@bADTCRYt@ADOb@o@rAZDR@RAXADOHWHQFMBGJOLOX[HGt@e@RQPULQJU^iAJ{@DYLaCJkD@O@SNsCLoDFy@Fw@RyA\\}ANs@Tw@Vw@Tm@HS\\o@fAqBZi@|AgBBEFGtAiA`Ai@hAs@@ATOBCx@i@HEt@i@TOf@[NKdAu@p@a@`@S`Bk@fDaATGJfA\\`DPjB?VT?L@Z@ZCt@UDAn@SFAr@UpA_@ZIz@Uv@Sv@Ot@QfDo@HC`@If@I`B]hAW\\Kb@KJCAIQkAWFUHe@J??",
+            "durationMin": 6,
+            "distanceM": 2724,
+            "mode": "walk"
+          }
         },
         {
           "id": "d10-2c",
@@ -1472,7 +1549,14 @@
           "costPerPerson": 2500,
           "currency": "JPY",
           "lat": 35.0148,
-          "lng": 135.6779
+          "lng": 135.6779,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "oyutEarb{X??d@KNfA@Jb@KJCbB]VIFPJnAFdA",
+            "durationMin": 1,
+            "distanceM": 240,
+            "mode": "walk"
+          }
         },
         {
           "id": "d10-3",
@@ -1481,7 +1565,14 @@
           "description": "Crossing the Katsura river — classic Arashiyama postcard. Short walk after lunch.",
           "category": "walk",
           "lat": 35.0136,
-          "lng": 135.677
+          "lng": 135.677,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "oqutEilb{XGeAKoAGQN?B?pG`@PBZFPD\\J`@N`@JHDLAR[j@y@jB{BZy@FM^s@`@s@HMh@o@BGCOg@sBCGACSc@LIxA}@PK@AdBcAxA}@v@g@JGj@]b@WbCyAdAq@b@W~AkAfAy@t@i@h@a@POzAgAXSxB_Bj@c@t@m@BAJKDAx@s@tAiAh@c@^Yj@e@ZW\\Y`@[n@g@h@c@r@o@DETMQOCA_@_@GEQSGKIKEOEOaCgKEMCKCKI_@Ke@d@s@N[N[Xa@t@eABEv@wA`@q@BGDKF_@v@gF@KNeAViBPmAJu@Ey@Ao@Ae@AaAAY?QBMJcADq@A]IoBE}BAUEg@Ca@CSAy@?aA?m@BwABsA?W?MCSEc@CQ?YB_@?O@KBeA?k@As@Bc@B_@F{@LkA?CJcA@c@Ba@?Q@E?QEAQIBMLgA^kC`@yCJo@Ha@LUx@a@b@UtCaCFEl@e@|AoAzBuA`@Qr@StAa@dA]l@SDCnBq@~@[NEqBcGOa@Wu@a@qA_@iA[_AKa@Qw@ESGYE]Ig@CQO_BEm@Aa@Ac@?a@?iC?i@X?H?VBNAlCCt@CPIP[PUNIVEdE]hBOr@IHAf@EVEJCZKVGTEb@EF?F?T?f@Ar@CJ?`AGtE[dBOb@C^EPArEa@dAKnAMp@IlAONAfAWXG`@Gp@M|AMjAM?yB?gA?a@?U\\QbBgAbAo@|AaAh@[dBiAnA{@JGRMnAs@ZUfAq@HETOrA{@lAu@jAu@`Am@LKLEh@]^UDCjCkBfAo@lA{@NIzB{AjAu@n@c@p@e@jAs@PKLI^AH?d@@`@?xBBpBBt@?F@Z?^@L?jB@R@R?R?d@@l@?zA@\\@xBB^?V?|BBH?xA@xCDH?L?p@@rA@nCBL?LFP?dDBN?N@|A@jB@hB@RALAd@Kb@SLIZQJIbAgAFGnBaCzGaInBqBRSLQj@i@|BaCbBeBdA}@NUv@i@fEkBjAk@fAm@lEsB|FyBtBw@dDaBxEkCFEDIH]He@@]A[G]gB}GdAKx@Kn@S`CcARIDAjA_@j@Sh@ORENCNANANAN?`C@dD?hABHA?M?yBAK?SEgG?EA_DD_B?kA?[@_ADkABgC@}CFiEFeDBmALcCRgFRmETmE?SDiAVuEPcD?Q@OB[DcA@KPeEL}AHw@@OPeBRaCJsAJqA`CNt@FlBJD?@@`@@@?tBHl@DvCHbB@fB?`DJ\\@|ALB?^Dr@LD?`BRjF|@R@^@V@vBDD_C?Y@S@UBQDMBGBCFGHGJC^@P?r@B^Bx@FpAD`ENT@\\?b@?T?PCfCk@XGLCJAdCUFADADADADAF?DADAB?@?FAD?D?F?D?DAD@F?f@?N?",
+            "durationMin": 21,
+            "distanceM": 14967,
+            "mode": "subway"
+          }
         },
         {
           "id": "d10-4",
@@ -1490,7 +1581,14 @@
           "description": "JR Sagano line back to Kyoto, transfer Keihan to Chushojima. ~45 min.",
           "category": "transit",
           "lat": 34.9305,
-          "lng": 135.7587
+          "lng": 135.7587,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "sjetEykr{XO?g@?G?EAE@E?G?E?E?G@A?C?E@E@G?E@E@E@E@G@eCTK@MBYFgCj@?kBA_B?i@",
+            "durationMin": 1,
+            "distanceM": 390,
+            "mode": "walk"
+          }
         },
         {
           "id": "d10-5",
@@ -1501,7 +1599,14 @@
           "costPerPerson": 600,
           "currency": "JPY",
           "lat": 34.9329,
-          "lng": 135.7596
+          "lng": 135.7596,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "_zetEopr{X?h@@~A?jBQBU?c@?]?UAaEOqAEy@G_@Cs@CQ?_@AKBIFGFCBCFELCPATAR?XE~BEbAEHINYRa@Bm@Bw@FY@o@CI?iDa@wGu@{BQeAIoAIk@Ek@Ec@C}@Ey@C[?IAI?iAA{@?I?a@?I?wBCgBC}@Ca@Cu@Io@Y[Oa@U}@k@i@[IEGEAAOKIEECG?]Ea@?I?K?]?Y?cA@_@@u@@oA?E?i@EI?YESCSE]Gs@Mm@Mw@M[K]EUE_AQm@K_AQ]G{AYE?m@M_Ca@gB[GAe@I}@Qc@GuEq@}Dq@WEq@Ou@O_B[m@MuAW_@IkDe@oBUcBSQCSCgEg@UCKAmAQcFg@a@E]EaAIaAISCG?SCWCoBOi@CKASCq@EUCkAIs@Ga@GsCUa@Ec@EeBQe@EaBQcAMmAMuB[[@S@QBOFyB~ASNSJYPc@]yCaC_BcAg@U]MOGk@QaBGI?_@ASAiBE_AE{CI[?QA}@C]?UAaAC]AY?q@Ao@CIAQ?gBEkBIkACm@Ai@?iAAq@CS?m@AiBCQAi@?g@CS?O?_AAe@Ak@Ac@AKAK?K?mACI?o@C}AAa@?YFyCD_A@K?oBBwA@iA@a@@c@?qBAg@@gA@eB@g@Kc@?k@?sC@wF?[?qA?A?UC]KyAg@KG_Aa@}@_@gAc@KEqBaA}BsAkAs@CAa@Ui@YWOECaA[g@O_Bg@oAc@[KKC_DcA}@YSGWIMGYKeC}@_@OECKEiDuAOGKEa@QyAm@]Oi@SQGKEICIAICKA[?K?mA@e@?e@@u@?w@@m@@cABO?kBD}@Dm@@M@}@BO@k@@o@B",
+            "durationMin": 15,
+            "distanceM": 8652,
+            "mode": "subway"
+          }
         },
         {
           "id": "d10-8",
@@ -1692,7 +1797,14 @@
           "description": "Hanshin Main Line from Umeda or Namba. ~30 min.",
           "category": "transit",
           "lat": 34.7237,
-          "lng": 135.3633
+          "lng": 135.3633,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "e~|rEcceyXB@P@R@PAPGDCD?FANATAdAGVAx@CnA@h@BXB`@DXH\\Hv@ZvB`ANHGLEPCDCd@A^B`@FjAGnAKf@",
+            "durationMin": 1,
+            "distanceM": 571,
+            "mode": "walk"
+          }
         },
         {
           "id": "d12-3",
@@ -1701,7 +1813,14 @@
           "description": "Tigers official store (brother's hat) + Koshien History Museum. Stadium tour available if pre-booked. Famous yakisoba shop across the street if hungry. Allow 2-3 hours.",
           "category": "experience",
           "lat": 34.7212,
-          "lng": 135.3614
+          "lng": 135.3614,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "wh|rEaudyXJg@FoAGkACa@@_@Be@BEDQFMDQl@mB|AwEpAgEr@}B\\kAb@{Ap@oBj@eBTo@Rw@@Ch@aBp@}@@Ab@k@LQTY\\k@Xo@k@Yu@a@q@]kAo@eBo@eA_@WK_@Od@eDd@yCp@yELiADSRkBLeB@IzAcMfAqFNqAj@wFf@aFb@aDf@uCpDyPJm@Fa@NgAPoATsBFu@DaA@e@BqAAgAAyAE_AIeAIeAMkAOqAu@qF}BmQ{@iG}@sGgAwHOsAI{@Es@Cs@CoA?uABeAD{@HaATaC`@uDx@yH\\_DNoALmAZeC^qC^qCr@iFnAiJViBn@uEZcCTkAVkAl@gBh@gB\\wAH[Pw@NaAVyBVoBJ}ADoABy@DiBDaADgANuCJwAH_BTgC`@yDT}Ab@wCP{@R_AXoAd@mBj@uBt@_Cv@wBd@cA`@{@b@q@\\i@v@cAfAiAlCeCjAkAb@k@^i@^i@Vg@Ti@Tq@Ps@Nw@Jo@Fw@Bq@@k@?a@Ac@Eo@Eq@Ik@Im@UaAg@gB_AeCk@}A_@cAa@mAa@yAYqAWwASwAQ{AMuAGsAEsACsA?uA@qADsAFmAJiALqAPyATyATkA\\wA^uAb@aBjAuDlDaLpA_EdAgDbDiK`@kA^eAb@gAl@qAr@uAn@cAr@aAn@w@p@u@r@s@z@s@bDeC~SyObDaCdE{CzAiAl@e@j@g@p@q@^_@`@i@T]T[Tc@Re@LWJYX}@VaAP{@J}@H}@H}@Du@D}@HiDFgCDuBTwJJcEBi@Bi@Da@BSBSH_@DUPi@L_@LWLU\\i@PUPQnLyK|AyApJ{InBiBh@i@f@k@b@i@j@w@n@_Ah@{@f@y@JOd@u@lCgExA_CVYr@{@xAqAnBkAxAm@pAa@zA]dBa@fCg@LCLELIHGFIFKDKDODQBSBQ?S?UIaDCg@CWC]M_AGm@Ek@ASIu@QkGQmGBaACcA?i@?s@@e@@u@@e@Aq@UsHQoACaBAa@?]?cB_@{C?qC?M?M@gA@kC?G?CAMA_@R@B?Z?Z@B?N@T?D?zCDxBBF?B?L@H?B?rBBF@B?R?T?@?hBBB?@?N?P@B?~BDB?B?J?H?B?bCDT@~CBzB@V?R?TAZ?Z?hA?F?H?dC?J?J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZGf@?XBb@?PD`AAP?J?b@@f@AN?P?b@@l@BTDFBHDLHJJNVZd@\\XhBfBn@h@JHf@b@b@`@t@p@VPZNb@HdBBvADtBFT@X@fA@b@@xADR?T?bA?t@?jBAtB@ZAV?~B?nBAj@?j@?~AAR?h@@Da@TaCJgAD[BYD_@L{ABSNwABUDg@@UDa@CWJw@FOB_@LkAKyAA[CYIoAMgBCSAWA_@?]Ly@JaAHs@Fu@Ho@JmA@Q@KBSDKD_@Fg@BQ??RBn@Pp@PdAVrBf@BKDMBGFGFIHCJCLAF@D@ObA",
+            "durationMin": 25,
+            "distanceM": 19050,
+            "mode": "subway"
+          }
         },
         {
           "id": "d12-4",
@@ -1761,7 +1880,7 @@
           "category": "bar",
           "costPerPerson": 4000,
           "currency": "JPY",
-          "lat": 34.6650,
+          "lat": 34.665,
           "lng": 135.5025
         }
       ]
@@ -1897,7 +2016,14 @@
           "costPerPerson": 2500,
           "currency": "JPY",
           "lat": 35.6605,
-          "lng": 139.7295
+          "lng": 139.7295,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "i}sxE_}ysYQDKBK@I?ECGCBGBEDAFESe@AEEMGOkA~Ek@jAk@lAo@pAQZU\\WZUREDyBtByCvCgEjDGFKJYRFa@BGHMHGb@]DCKOCEEKS]@EBKDQFMJGDEDG@G@I@O?K@I?IBI@G?K?MAICICG?K??",
+            "durationMin": 2,
+            "distanceM": 981,
+            "mode": "walk"
+          }
         },
         {
           "id": "d14-4",
@@ -1923,7 +2049,14 @@
           "address": "Shibuya Crossing, Shibuya City",
           "category": "walk",
           "lat": 35.6595,
-          "lng": 139.7004
+          "lng": 139.7004,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "{vsxEoftsYBa@@g@@G???Y@]?eAAK",
+            "durationMin": 0,
+            "distanceM": 100,
+            "mode": "walk"
+          }
         },
         {
           "id": "d14-5",
@@ -1952,7 +2085,14 @@
           "costPerPerson": 35000,
           "currency": "JPY",
           "lat": 35.6648,
-          "lng": 139.757
+          "lng": 139.757,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "_xtxEeh_tYzAf@Qt@Ux@Kl@EPTHTJB@HBDQjAqFDOBGTm@D[@EBS@M?M?Ma@]{@q@WUaBmAuA}@_@UKIMIUOuAcA}@s@e@_@KKGIKMEKIKGKIKKI}@q@q@g@ECUQMOwCeDEEKKKKsCwCGGIIGJo@`AEGeDgDGIEGiAmA",
+            "durationMin": 3,
+            "distanceM": 1415,
+            "mode": "walk"
+          }
         },
         {
           "id": "d14-7",
@@ -1963,7 +2103,7 @@
           "category": "bar",
           "costPerPerson": 5000,
           "currency": "JPY",
-          "lat": 35.6710,
+          "lat": 35.671,
           "lng": 139.7641
         }
       ]
@@ -1982,7 +2122,14 @@
           "address": "Tsukiji Outer Market, 4 Chome Tsukiji, Chuo City",
           "category": "food",
           "lat": 35.6655,
-          "lng": 139.7707
+          "lng": 139.7707,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "k|txE{}atY~AxBDF{@~@QRSTKJKTSYqBqCa@k@SYMQNOLNRZd@p@BB",
+            "durationMin": 1,
+            "distanceM": 410,
+            "mode": "walk"
+          }
         },
         {
           "id": "d15-0b",
@@ -1994,7 +2141,14 @@
           "costPerPerson": 4000,
           "currency": "JPY",
           "lat": 35.6661,
-          "lng": 139.7703
+          "lng": 139.7703,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "m`uxE_{atYfBfCPRKTSYqBqCa@k@SYQR{BnCOPQTw@dAgAxAQREDq@z@EDQR}@dA}@dAk@p@SV]b@QRc@j@}ApBoA`Bs@fAGJORTTdClCDFJLLJdClC",
+            "durationMin": 2,
+            "distanceM": 1212,
+            "mode": "walk"
+          }
         },
         {
           "id": "d15-1",
@@ -2036,7 +2190,14 @@
           "address": "Cat Street, Jingumae, Shibuya City",
           "category": "shop",
           "lat": 35.6692,
-          "lng": 139.7068
+          "lng": 139.7068,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "osuxEonusYZNj@^j@\\]f@ODE@GH[ZMHHF`At@LH^TNJEJO`@{AfESl@O^e@pAELCLEVAH?H?H?JBLBJTt@Vr@DHHTZbAjApDLb@H^Hf@Fv@HbHDnE^dX@XBZDj@Hn@d@rCH`@Fb@d@rCDXD\\Bd@?f@Cd@MvAKpAKjAEbACnAATA`@?P?JSrIAZOvI?NKdF?LCt@C~@?JARAXUjOAZAVCdBObHAZExBE|DCnC?P?NExGAFATTEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
+            "durationMin": 9,
+            "distanceM": 4424,
+            "mode": "subway"
+          }
         },
         {
           "id": "d15-4",
@@ -2177,6 +2338,24 @@
       "id": "c14",
       "title": "eSIM / pocket wifi",
       "detail": "Ubigi or Airalo.",
+      "priority": "closer"
+    },
+    {
+      "id": "c15",
+      "title": "Yamato luggage forward · TRUNK → Ubuya (Nov 27)",
+      "detail": "Drop bags at TRUNK front desk Nov 26 evening or Nov 27 AM (~3 PM Yamato cutoff). ~¥2-3K per bag. Arrives at Kozantei Ubuya by 6 PM same/next day. Travel with small overnight bag for Fuji Excursion train + first ryokan night essentials.",
+      "priority": "closer"
+    },
+    {
+      "id": "c16",
+      "title": "Yamato luggage forward · Ubuya → The Thousand Kyoto (Nov 30)",
+      "detail": "Drop at Ubuya front desk Nov 29 evening. Saves you wrangling bags through the bus + 2 shinkansen transfers Mishima → Kyoto. ~¥2-3K per bag.",
+      "priority": "closer"
+    },
+    {
+      "id": "c17",
+      "title": "Yamato luggage forward · Cross Osaka → TRUNK Tokyo (Dec 6)",
+      "detail": "Drop at Cross Hotel front desk Dec 5 evening. Skip the 2.5-hr Nozomi luggage hassle + the post-2020 oversized-bag reservation requirement. ~¥2-3K per bag.",
       "priority": "closer"
     }
   ],
