@@ -660,14 +660,19 @@
           "description": "Vintage kimono fabric.",
           "category": "shop",
           "lat": 35.7065,
-          "lng": 139.6498,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@@_@Ba@D_@D]F_@NaATwABMBQN_AD_@F{@H_C@Y?[Jc@Be@He@DSDQHYRw@Nm@\\wALi@H_@z@iE`@oB@CNw@Ny@DUZqAd@oBT_AT}@TaALg@FSPy@Lg@XuAVmARgADQDUF_@F[ToAr@wD@M@MAK?KCMCQAEk@kCAMAQ?g@G_BAy@AMAa@Bu@LoD@I@IBGBCJDH@H@FALAPCl@KDADADATIFCFCDCFEBEDE@C@C@CLOBS@IZ_C@IDS@E@GBIBIHSb@oADK@GFQ@C@CFOBKr@qBJ[HUBG@EBGHUjAgDL]DMZRn@^b@Vd@XRJ^TC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNPTTdClCDFJLHMx@qAr@kAHMFIZe@n@}@BC",
-            "durationMin": 17,
-            "distanceM": 13059,
-            "mode": "subway"
-          }
+          "lng": 139.6498
+        },
+        {
+          "id": "d3-9b",
+          "time": "17:00",
+          "title": "Nintendo Tokyo (Shibuya Parco 6F)",
+          "description": "Pick up a beautiful hanafuda deck (Nintendo originally made them in 1889 before they made video games). Decks ¥800–4000. Plan: learn Koi-Koi from a YouTube tutorial during ryokan downtime + play over kaiseki at Ubuya.",
+          "address": "Shibuya Parco 6F, 15-1 Udagawacho, Shibuya City",
+          "category": "shop",
+          "costPerPerson": 2000,
+          "currency": "JPY",
+          "lat": 35.6614,
+          "lng": 139.6975
         },
         {
           "id": "d3-10",
@@ -705,6 +710,26 @@
       "city": "Tokyo",
       "activities": [
         {
+          "id": "d4-0a",
+          "time": "08:00",
+          "title": "Yoyogi Park walk",
+          "description": "Walk straight from TRUNK Yoyogi into the park. Quiet Thursday morning — cedars, joggers, autumn leaves.",
+          "address": "Yoyogi Park, Shibuya City",
+          "category": "walk",
+          "lat": 35.6716,
+          "lng": 139.6948
+        },
+        {
+          "id": "d4-0b",
+          "time": "08:30",
+          "title": "Meiji Jingu Shrine",
+          "description": "Major Shinto shrine in a vast forested grove — the counterpart to Senso-ji's Buddhist scale. Quiet at this hour, you'll have the gravel paths almost to yourselves. Allow ~90 min round trip from main torii.",
+          "address": "1-1 Yoyogi Kamizonocho, Shibuya City",
+          "category": "temple",
+          "lat": 35.6764,
+          "lng": 139.6993
+        },
+        {
           "id": "d4-1",
           "time": "10:00",
           "title": "Glitch Coffee Roasters",
@@ -735,6 +760,18 @@
             "distanceM": 11186,
             "mode": "subway"
           }
+        },
+        {
+          "id": "d4-2b",
+          "time": "12:30",
+          "title": "Uogashi Nihon-Ichi (Shinjuku)",
+          "description": "Standing sushi bar near Shinjuku South Exit. ¥1500-3000 pp, order piece by piece, fresh nigiri at counter pace. Perfect quick pre-train sushi. ~30 min, then 10 min walk to Shinjuku Station.",
+          "address": "Uogashi Nihon-Ichi Shinjuku Minamiguchi, 3-35-7 Shinjuku, Shinjuku City",
+          "category": "food",
+          "costPerPerson": 2500,
+          "currency": "JPY",
+          "lat": 35.6878,
+          "lng": 139.7011
         },
         {
           "id": "d4-3",
@@ -856,7 +893,8 @@
         {
           "id": "d5-6",
           "time": "18:30",
-          "title": "Kaiseki dinner #2",
+          "title": "Kaiseki dinner #2 · hanafuda night",
+          "description": "Multi-course dinner at the ryokan. Bring the Nintendo hanafuda deck picked up Day 3 and learn Koi-Koi over sake — watch a quick rules video on the way to dinner. Quiet lake, paper screens, two-player game.",
           "category": "food",
           "lat": 35.5096,
           "lng": 138.771
@@ -1365,106 +1403,105 @@
       "city": "Kyoto",
       "activities": [
         {
+          "id": "d10-6",
+          "time": "06:45",
+          "title": "Inari Station",
+          "description": "Sunrise mission — leave The Thousand Kyoto ~06:30. JR Nara line two stops from Kyoto Station.",
+          "category": "transit",
+          "lat": 34.9669,
+          "lng": 135.7714
+        },
+        {
+          "id": "d10-7",
+          "time": "07:00",
+          "title": "Fushimi Inari Taisha · sunrise hike",
+          "description": "Timing is everything — at 7 AM the 10K torii path is nearly empty, mystical light, photographers only. Hike to the Yotsutsuji intersection viewpoint (~45 min up, 30 min down). Skip the summit if tired — Yotsutsuji is where the view opens. Free, 24/7.",
+          "category": "temple",
+          "lat": 34.967,
+          "lng": 135.7728
+        },
+        {
           "id": "d10-1",
-          "time": "08:00",
+          "time": "09:30",
           "title": "Saga-Arashiyama Station",
+          "description": "Back to Kyoto Station, switch to JR Sagano line out to Arashiyama (~45 min total from Fushimi).",
           "category": "transit",
           "lat": 35.0184,
-          "lng": 135.6788,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "cpvtEmwb{XFd@BRBN@D?DDZFn@BNLz@Hh@F^^pCz@U@FTfBLbABP?PAV@NXnCEHE@s@PGB?FDb@CVCV?d@@f@Hx@Jn@f@bDFPDL@B@B@BBBBDx@r@DB@DBD@D??",
-            "durationMin": 3,
-            "distanceM": 771,
-            "mode": "walk"
-          }
+          "lng": 135.6788
         },
         {
           "id": "d10-2",
-          "time": "08:15",
+          "time": "09:45",
           "title": "Arashiyama Bamboo Grove",
+          "description": "Still beating the 10 AM tour bus rush. Walk through quickly — atmosphere drops the busier it gets.",
           "category": "nature",
           "lat": 35.0166,
-          "lng": 135.6717,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "efvtEoja{X??AECEAEECy@s@CECCACACACEMGQg@cDKo@Iy@Ag@?e@BWBWEc@?GFCr@QDADIYoCAO@W?QCQMcAUgBAGv@Sv@Ot@QfDo@HC`@If@I`B]hAW\\Kb@KJCbB]VIFPJnAFdA",
-            "durationMin": 3,
-            "distanceM": 1052,
-            "mode": "walk"
-          }
+          "lng": 135.6717
+        },
+        {
+          "id": "d10-2a",
+          "time": "11:00",
+          "title": "Otagi Nenbutsuji (1200 stone faces)",
+          "description": "~30 min walk uphill from bamboo grove. 1200+ rakan stone figures carved by amateur sculptors 1981–91 — each face is a different emotion: smiling, drinking, meditating, laughing, crying. Quiet, atmospheric, very photogenic.",
+          "address": "2-5 Sagatoriimoto Fukatanicho, Ukyo Ward, Kyoto",
+          "category": "temple",
+          "costPerPerson": 300,
+          "currency": "JPY",
+          "lat": 35.0341,
+          "lng": 135.6646
+        },
+        {
+          "id": "d10-2b",
+          "time": "12:00",
+          "title": "Adashino Nenbutsuji (8,000 Buddhas)",
+          "description": "5 min walk back down from Otagi. Thousands of small weathered stone Buddhas memorializing the forgotten dead, plus a small bamboo grove behind the main hall. Less famous than the main Arashiyama grove — but you'll have it almost to yourselves.",
+          "address": "17 Sagatoriimoto Adashinocho, Ukyo Ward, Kyoto",
+          "category": "temple",
+          "costPerPerson": 500,
+          "currency": "JPY",
+          "lat": 35.0282,
+          "lng": 135.6682
+        },
+        {
+          "id": "d10-2c",
+          "time": "13:00",
+          "title": "Lunch in Arashiyama town",
+          "description": "Walk back down toward Togetsukyo. Yudofu (tofu hot pot) is the Arashiyama signature — try Shoraian or Yudofu Sagano. Or grab matcha soba at Arashiyama Yoshimura with bridge views.",
+          "address": "Arashiyama, Ukyo Ward, Kyoto",
+          "category": "food",
+          "costPerPerson": 2500,
+          "currency": "JPY",
+          "lat": 35.0148,
+          "lng": 135.6779
         },
         {
           "id": "d10-3",
-          "time": "09:30",
+          "time": "14:15",
           "title": "Togetsukyo Bridge",
+          "description": "Crossing the Katsura river — classic Arashiyama postcard. Short walk after lunch.",
           "category": "walk",
           "lat": 35.0136,
-          "lng": 135.677,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "oqutEilb{XGeAKoAGQN?B?pG`@PBZFPD\\J`@N`@JHDLAR[j@y@jB{BZy@FM^s@`@s@HMh@o@BGCOg@sBCGACSc@LIxA}@PK@AdBcAxA}@v@g@JGj@]b@WbCyAdAq@b@W~AkAfAy@t@i@h@a@POzAgAXSxB_Bj@c@t@m@BAJKDAx@s@tAiAh@c@^Yj@e@ZW\\Y`@[n@g@h@c@r@o@DETMQOCA_@_@GEQSGKIKEOEOaCgKEMCKCKI_@Ke@d@s@N[N[Xa@t@eABEv@wA`@q@BGDKF_@v@gF@KNeAViBPmAJu@Ey@Ao@Ae@AaAAY?QBMJcADq@A]IoBE}BAUEg@Ca@CSAy@?aA?m@BwABsA?W?MCSEc@CQ?YB_@?O@KBeA?k@As@Bc@B_@F{@LkA?CJcA@c@Ba@?Q@E?QEAQIBMLgA^kC`@yCJo@Ha@LUx@a@b@UtCaCFEl@e@|AoAzBuA`@Qr@StAa@dA]l@SDCnBq@~@[NEqBcGOa@Wu@a@qA_@iA[_AKa@Qw@ESGYE]Ig@CQO_BEm@Aa@Ac@?a@?iC?i@X?H?VBNAlCCt@CPIP[PUNIVEdE]hBOr@IHAf@EVEJCZKVGTEb@EF?F?T?f@Ar@CJ?`AGtE[dBOb@C^EPArEa@dAKnAMp@IlAONAfAWXG`@Gp@M|AMjAM?yB?gA?a@?U\\QbBgAbAo@|AaAh@[dBiAnA{@JGRMnAs@ZUfAq@HETOrA{@lAu@jAu@`Am@LKLEh@]^UDCjCkBfAo@lA{@NIzB{AjAu@n@c@p@e@jAs@PKLI^AH?d@@`@?xBBpBBt@?F@Z?^@L?jB@R@R?R?d@@l@?zA@\\@xBB^?V?|BBH?xA@xCDH?L?p@@rA@nCBL?LFP?dDBN?N@|A@jB@hB@RALAd@Kb@SLIZQJIbAgAFGnBaCzGaInBqBRSLQj@i@|BaCbBeBdA}@NUv@i@fEkBjAk@fAm@lEsB|FyBtBw@dDaBxEkCFEDIH]He@@]A[G]gB}GdAKx@Kn@S`CcARIDAjA_@j@Sh@ORENCNANANAN?`C@dD?hABHA?M?yBAK?SEgG?EA_DD_B?kA?[@_ADkABgC@}CFiEFeDBmALcCRgFRmETmE?SDiAVuEPcD?Q@OB[DcA@KPeEL}AHw@@OPeBRaCJsAJqA`CNt@FlBJD?@@`@@@?tBHl@DvCHbB@fB?`DJ\\@|ALB?^Dr@LD?`BRjF|@R@^@V@vBDD_C?Y@S@UBQDMBGBCFGHGJC^@P?r@B^Bx@FpAD`ENT@\\?b@?T?PCfCk@XGLCJAdCUFADADADADAF?DADAB?@?FAD?D?F?D?DAD@F?f@?N?",
-            "durationMin": 21,
-            "distanceM": 14967,
-            "mode": "subway"
-          }
+          "lng": 135.677
         },
         {
           "id": "d10-4",
-          "time": "13:30",
+          "time": "14:45",
           "title": "Chushojima Station",
+          "description": "JR Sagano line back to Kyoto, transfer Keihan to Chushojima. ~45 min.",
           "category": "transit",
           "lat": 34.9305,
-          "lng": 135.7587,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "sjetEykr{XO?g@?G?EAE@E?G?E?E?G@A?C?E@E@G?E@E@E@E@G@eCTK@MBYFgCj@?kBA_B?i@",
-            "durationMin": 1,
-            "distanceM": 390,
-            "mode": "walk"
-          }
+          "lng": 135.7587
         },
         {
           "id": "d10-5",
-          "time": "14:00",
+          "time": "15:15",
           "title": "Gekkeikan Okura Sake Museum",
-          "description": "Closes 4:30 PM.",
+          "description": "Closes 4:30 PM — tight but doable. Brief tour + tasting flight at the end. Edo-era brewery, the sake culture's birthplace neighborhood.",
           "category": "experience",
           "costPerPerson": 600,
           "currency": "JPY",
           "lat": 34.9329,
-          "lng": 135.7596,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "_zetEopr{X?h@@~A?jBQBU?c@?]?UAaEOqAEy@G_@Cs@CQ?_@AKBIFGFCBCFELCPATAR?XE~BEbAEHINYRa@Bm@Bw@FY@o@CI?iDa@wGu@{BQeAIoAIk@Ek@Ec@C}@Ey@C[?IAI?iAA{@?I?a@?I?wBCgBC}@Ca@Cu@Io@Y[Oa@U}@k@i@[IEGEAAOKIEECG?]Ea@?I?K?]?Y?cA@_@@u@@oA?E?i@EI?YESCSE]Gs@Mm@Mw@M[K]EUE_AQm@K_AQ]G{AYE?m@M_Ca@gB[GAe@I}@Qc@GuEq@}Dq@WE@]?s@FgABSNsADe@Be@DqA?YAWO}DCiB?S@wD@oA@sB?OAoF?aAA_A?KCMCMGBKBM@i@?E?cA?]@a@A{@?sB?K?I?U?wB?U?Q?kA?sA?qC?o@?oD@S?I?iA?g@EE?{@OUGWEgB@cD?Q?O?K?s@?QA{@?gC??K@i@@s@?E?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBi@PW@{@Di@?CyA",
-            "durationMin": 8,
-            "distanceM": 5143,
-            "mode": "subway"
-          }
-        },
-        {
-          "id": "d10-6",
-          "time": "16:00",
-          "title": "Inari Station",
-          "category": "transit",
-          "lat": 34.9669,
-          "lng": 135.7714,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "}mltEgzt{XBxAg@?eD?E?@N?jAAH?H?FIh@?@ERCROn@Oh@KXKRCDCLCN?D|@@PAF?HDRBF@l@Bv@?t@@HAt@Av@Gp@@?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBFkA?{@AM?a@?S?[?_@?GAc@?g@Fe@@OAKg@ASBSNCb@uBM",
-            "durationMin": 4,
-            "distanceM": 1156,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d10-7",
-          "time": "16:15",
-          "title": "Fushimi Inari Taisha",
-          "description": "10,000 torii. Free, open 24/7.",
-          "category": "temple",
-          "lat": 34.967,
-          "lng": 135.7728
+          "lng": 135.7596
         }
       ]
     },
@@ -1617,7 +1654,7 @@
     {
       "date": "2025-12-05",
       "dayNumber": 12,
-      "theme": "Kuromon + Koshien + Shinsekai",
+      "theme": "Kuromon + Umeda + Shinsekai + Speakeasy",
       "city": "Osaka",
       "activities": [
         {
@@ -1639,33 +1676,23 @@
         {
           "id": "d12-2",
           "time": "12:30",
-          "title": "Koshien Station",
-          "category": "transit",
-          "lat": 34.7237,
-          "lng": 135.3633,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "e~|rEcceyXB@P@R@PAPGDCD?FANATAdAGVAx@CnA@h@BXB`@DXH\\Hv@ZvB`ANHGLEPCDCd@A^B`@FjAGnAKf@",
-            "durationMin": 1,
-            "distanceM": 571,
-            "mode": "walk"
-          }
+          "title": "Hanshin Department Store · Tigers Shop (Umeda)",
+          "description": "Same Hanshin Tigers gear (brother's hat) at the official shop inside Hanshin Department Store in Umeda — 10 min train from Namba instead of the 30-min Koshien commute. Pop in, grab the hat, head out in 30 min. Saves 2-3 hours vs visiting the stadium itself.",
+          "address": "Hanshin Department Store 8F, 1-13-13 Umeda, Kita-ku, Osaka",
+          "category": "shop",
+          "lat": 34.7020,
+          "lng": 135.4960
         },
         {
           "id": "d12-3",
-          "time": "12:45",
-          "title": "Hanshin Koshien Stadium",
-          "description": "Tigers store (brother's hat). HOF Museum.",
-          "category": "experience",
-          "lat": 34.7212,
-          "lng": 135.3614,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "wh|rEaudyXJg@FoAGkACa@@_@Be@BEDQFMDQl@mB|AwEpAgEr@}B\\kAb@{Ap@oBj@eBTo@Rw@@Ch@aBp@}@@Ab@k@LQTY\\k@Xo@k@Yu@a@q@]kAo@eBo@eA_@WK_@Od@eDd@yCp@yELiADSRkBLeB@IzAcMfAqFNqAj@wFf@aFb@aDf@uCpDyPJm@Fa@NgAPoATsBFu@DaA@e@BqAAgAAyAE_AIeAIeAMkAOqAu@qF}BmQ{@iG}@sGgAwHOsAI{@Es@Cs@CoA?uABeAD{@HaATaC`@uDx@yH\\_DNoALmAZeC^qC^qCr@iFnAiJViBn@uEZcCTkAVkAl@gBh@gB\\wAH[Pw@NaAVyBVoBJ}ADoABy@DiBDaADgANuCJwAH_BTgC`@yDT}Ab@wCP{@R_AXoAd@mBj@uBt@_Cv@wBd@cA`@{@b@q@\\i@v@cAfAiAlCeCjAkAb@k@^i@^i@Vg@Ti@Tq@Ps@Nw@Jo@Fw@Bq@@k@?a@Ac@Eo@Eq@Ik@Im@UaAg@gB_AeCk@}A_@cAa@mAa@yAYqAWwASwAQ{AMuAGsAEsACsA?uA@qADsAFmAJiALqAPyATyATkA\\wA^uAb@aBjAuDlDaLpA_EdAgDbDiK`@kA^eAb@gAl@qAr@uAn@cAr@aAn@w@p@u@r@s@z@s@bDeC~SyObDaCdE{CzAiAl@e@j@g@p@q@^_@`@i@T]T[Tc@Re@LWJYX}@VaAP{@J}@H}@H}@Du@D}@HiDFgCDuBTwJJcEBi@Bi@Da@BSBSH_@DUPi@L_@LWLU\\i@PUPQnLyK|AyApJ{InBiBh@i@f@k@b@i@j@w@n@_Ah@{@f@y@JOd@u@lCgExA_CVYr@{@xAqAnBkAxAm@pAa@zA]dBa@fCg@LCLELIHGFIFKDKDODQBSBQ?S?UIaDCg@CWC]M_AGm@Ek@ASIu@QkGQmGBaACcA?i@?s@@e@@u@@e@Aq@UsHQoACaBAa@?]?cB_@{C?qC?M?M@gA@kC?G?CAMA_@R@B?Z?Z@B?N@T?D?zCDxBBF?B?L@H?B?rBBF@B?R?T?@?hBBB?@?N?P@B?~BDB?B?J?H?B?bCDT@~CBzB@V?R?TAZ?Z?hA?F?H?dC?J?J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZGf@?XBb@?PD`AAP?J?b@@f@AN?P?b@@l@BTDFBHDLHJJNVZd@\\XhBfBn@h@JHf@b@b@`@t@p@VPZNb@HdBBvADtBFT@X@fA@b@@xADR?T?bA?t@?jBAtB@ZAV?~B?nBAj@?j@?~AAR?h@@Da@TaCJgAD[BYD_@L{ABSNwABUDg@@UDa@CWJw@FOB_@LkAKyAA[CYIoAMgBCSAWA_@?]Ly@JaAHs@Fu@Ho@JmA@Q@KBSDKD_@Fg@BQ??RBn@Pp@PdAVrBf@BKDMBGFGFIHCJCLAF@D@ObA",
-            "durationMin": 25,
-            "distanceM": 19050,
-            "mode": "subway"
-          }
+          "time": "14:00",
+          "title": "Free afternoon — Osaka Castle OR Tenma walk",
+          "description": "Bonus 2-3 hours freed by skipping Koshien. Two options: (a) Osaka Castle Park 10 min Tanimachi line — castle is mid-tier but the surrounding park is lovely; or (b) Tenma neighborhood — quieter local Osaka, retro shopping arcades, lunch spots. Decide on the day.",
+          "category": "walk",
+          "lat": 34.6873,
+          "lng": 135.5259,
+          "noNavigate": false,
+          "status": "tentative"
         },
         {
           "id": "d12-4",
@@ -1718,14 +1745,15 @@
         },
         {
           "id": "d12-7",
-          "time": "21:00",
-          "title": "Spa World (optional)",
-          "description": "Themed onsen complex.",
-          "category": "experience",
-          "costPerPerson": 2800,
+          "time": "21:30",
+          "title": "Bar Nayuta · speakeasy",
+          "description": "Dotonbori-area speakeasy. Hidden door, classic + creative cocktails, intimate bar. Walk 15 min back from Shinsekai to Namba. Cocktails ¥1500–2500. Cash preferred.",
+          "address": "2-3-3 Sennichimae, Chuo Ward, Osaka",
+          "category": "bar",
+          "costPerPerson": 4000,
           "currency": "JPY",
-          "lat": 34.6499,
-          "lng": 135.5057
+          "lat": 34.6650,
+          "lng": 135.5025
         }
       ]
     },
@@ -1852,27 +1880,21 @@
         },
         {
           "id": "d14-3",
-          "time": "12:30",
-          "title": "21_21 Design Sight",
-          "description": "Tadao Ando.",
-          "category": "art",
-          "costPerPerson": 1400,
+          "time": "13:00",
+          "title": "Lunch in Roppongi Hills",
+          "description": "Roppongi Hills mall and the surrounding streets have everything — Toraya for sweets, Tsurutontan for udon, Bricolage Bread & Co for casual.",
+          "address": "Roppongi Hills, Minato City",
+          "category": "food",
+          "costPerPerson": 2500,
           "currency": "JPY",
-          "lat": 35.6651,
-          "lng": 139.7295,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "wytxEs|ysYDDZ@BEd@B?JAp@A|@Ab@fBRzAjAjBAJ~@BVrA~BVb@|@y@[FEDyBtByCvCgEjDGFKJYRFa@BGHMHGb@]DCKOCEEKS]@EBKDQFMJGDEDG@G@I@O?K@I?IBI@G?K?MAICICG?K??",
-            "durationMin": 3,
-            "distanceM": 1070,
-            "mode": "walk"
-          }
+          "lat": 35.6605,
+          "lng": 139.7295
         },
         {
           "id": "d14-4",
           "time": "14:00",
           "title": "National Art Center",
-          "description": "Kurokawa's wavy glass facade.",
+          "description": "Kurokawa's wavy glass facade — the building itself is the attraction even if the rotating exhibit doesn't grab you. Free to wander the atrium + cone-shaped cafe inside.",
           "category": "art",
           "lat": 35.6651,
           "lng": 139.7268,
@@ -1885,10 +1907,20 @@
           }
         },
         {
+          "id": "d14-4b",
+          "time": "16:30",
+          "title": "Shibuya Scramble Crossing",
+          "description": "Walk across Tokyo's iconic intersection — 3,000 people per light cycle. Take the photo from the Starbucks above (Tsutaya 2F, free). 3 min walk to the Hachiko statue. 20-30 min total before going up Sky.",
+          "address": "Shibuya Crossing, Shibuya City",
+          "category": "walk",
+          "lat": 35.6595,
+          "lng": 139.7004
+        },
+        {
           "id": "d14-5",
           "time": "17:00",
           "title": "Shibuya Sky",
-          "description": "Sunset rooftop.",
+          "description": "Sunset rooftop — you'll be looking DOWN at the Scramble you just walked. Pre-book the 5pm slot online.",
           "category": "walk",
           "costPerPerson": 3100,
           "currency": "JPY",
@@ -1912,6 +1944,18 @@
           "currency": "JPY",
           "lat": 35.6648,
           "lng": 139.757
+        },
+        {
+          "id": "d14-7",
+          "time": "21:30",
+          "title": "Bar High Five · nightcap",
+          "description": "Hidetsugu Ueno's legendary Ginza bar — 5 min walk from Hashimoto. Classic cocktails, no music, intimate counter. Reservation strongly recommended. ¥3-4K per cocktail. The full-stop on the best night of the trip.",
+          "address": "Efflore Ginza 5 Building B1, 5-4-15 Ginza, Chuo City",
+          "category": "bar",
+          "costPerPerson": 5000,
+          "currency": "JPY",
+          "lat": 35.6710,
+          "lng": 139.7641
         }
       ]
     },
@@ -1921,6 +1965,28 @@
       "theme": "Last Day",
       "city": "Tokyo",
       "activities": [
+        {
+          "id": "d15-0a",
+          "time": "07:30",
+          "title": "Tsukiji Outer Market",
+          "description": "The original fish-market site (the auction moved to Toyosu but the outer market stayed). Best between 7-9 AM. Sushi-for-breakfast vibes, knife shops, tamago skewers, tuna nigiri at counter pace. Walking distance to Ginza for the rest of the day.",
+          "address": "Tsukiji Outer Market, 4 Chome Tsukiji, Chuo City",
+          "category": "food",
+          "lat": 35.6655,
+          "lng": 139.7707
+        },
+        {
+          "id": "d15-0b",
+          "time": "08:00",
+          "title": "Endo Sushi (Tsukiji)",
+          "description": "Sushi for breakfast — the Tsukiji ritual. ¥3000-5000 pp set menus, sit at the counter, watch the chef work. Lines move fast 8-9 AM.",
+          "address": "Tsukiji Outer Market, Chuo City",
+          "category": "food",
+          "costPerPerson": 4000,
+          "currency": "JPY",
+          "lat": 35.6661,
+          "lng": 139.7703
+        },
         {
           "id": "d15-1",
           "time": "11:00",
@@ -1955,19 +2021,13 @@
         },
         {
           "id": "d15-3",
-          "time": "15:30",
-          "title": "Tokyo Dome / Giants Store",
-          "description": "Brother's Tokyo hat. HOF Museum.",
-          "category": "experience",
-          "lat": 35.7056,
-          "lng": 139.7519,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "c||xEkm~sYe@x@i@`ACHCFCFAH?F@`DAj@KjF?^RdG@R@TPxDFd@DZ?BH`@FPFNBFDJXf@n@rAJPh@fArAhCFJJTRGjAYbB_@|@QzA[jASd@IDADCD?\\KNb@BJFPDHDFDHJNRVTZ`@f@`@`@`@b@j@f@`@\\JFHDHFtAx@|@h@JDJHtBfBjCxBlAbAv@j@l@d@z@p@HHv@l@f@`@hAbA^Zj@\\|A`ArBjANHPJ~@n@x@r@bAt@NLNLPLRPn@h@d@d@t@`A~@pArBtCJPVd@HNN\\FLNb@\\v@X^Rl@Vj@PXLRhBnCVXzAfBFJDNt@zD`@|APXJFXNLBrG~ARD~E~@`@HVFJ@x@NVDVDXFGb@I\\i@~Bw@hDCJIZI\\Uz@_@|As@`CADK^W`AU~@AJIXEVk@lDU|ACHGf@Ih@EVMbAGx@Cr@Ad@Br@HdBFrA@N@\\@R@XRtEPbEBX@^PrDPpC?JD`@LbADb@TzBPlCDrADtBElBQzB_AxGm@nDs@lCmDzJgBrDWj@M^K`@GZEXCXC`@@~ABX?RB\\@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@Jb@nAjERr@p@|BBF^hAJZZbAPf@FP\\hAp@jBFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
-            "durationMin": 15,
-            "distanceM": 11389,
-            "mode": "subway"
-          }
+          "time": "14:30",
+          "title": "Cat Street vintage cluster (Harajuku)",
+          "description": "Better fit-odds than Shimokita for tall/broader bodies — these are US-sourced. Walk Cat Street + side alleys: 2nd Street (consistent sizing), BerBerJin (Western Levi's including bigger waists), Komehyo Harajuku (used designer, accurate sizing), Atlantis Vintage (US/EU vintage). Skip Kinji/Pin Nap (small Japanese-only sizing).",
+          "address": "Cat Street, Jingumae, Shibuya City",
+          "category": "shop",
+          "lat": 35.6692,
+          "lng": 139.7068
         },
         {
           "id": "d15-4",
@@ -2111,5 +2171,60 @@
       "priority": "closer"
     }
   ],
-  "wishlist": []
+  "wishlist": [
+    {
+      "id": "wl-kyoto-perfume",
+      "title": "My Only Fragrance · custom perfume",
+      "description": "90-min experience: smell ~20 scents, pick 4-5, they blend a custom perfume for you both, named. ~¥9,500 pp. Could fit Day 8 afternoon (squeeze before/after kimono) or Day 11 morning. Walk-in possible but reservations smarter.",
+      "address": "Gion-Shijo area, Kyoto",
+      "category": "experience",
+      "city": "Kyoto",
+      "costPerPerson": 9500,
+      "currency": "JPY",
+      "lat": 35.0036,
+      "lng": 135.7782,
+      "time": "",
+      "status": "idea"
+    },
+    {
+      "id": "wl-kyoto-engraving",
+      "title": "Ring engraving (Glanta or Ginto, Kyoto)",
+      "description": "Walk-in ring engraving — ¥3-8K depending on length. Bring rings you already own + a word you collected on the trip. Plan: pick the word during Days 4-10, get engraved before leaving Kyoto Day 11.",
+      "address": "Sanjo / Gion area, Kyoto",
+      "category": "shop",
+      "city": "Kyoto",
+      "costPerPerson": 5000,
+      "currency": "JPY",
+      "lat": 35.0096,
+      "lng": 135.7665,
+      "time": "",
+      "status": "idea"
+    },
+    {
+      "id": "wl-kyoto-bees-knees",
+      "title": "Bees Knees · Kyoto speakeasy",
+      "description": "Tucked-away Kyoto speakeasy, classic cocktails, intimate. Alternative or backup to Yoramu sake (Day 7) if you want a cocktail night instead.",
+      "address": "Kawaramachi, Nakagyo Ward, Kyoto",
+      "category": "bar",
+      "city": "Kyoto",
+      "lat": 35.0067,
+      "lng": 135.7689,
+      "time": "",
+      "status": "idea"
+    },
+    {
+      "id": "wl-kyoto-kinkakuji",
+      "title": "Kinkaku-ji (Golden Pavilion)",
+      "description": "Iconic photo if you want a temple-heavy day. Skipped in your current plan to avoid temple fatigue, but you could squeeze in Day 11 morning before Osaka travel.",
+      "address": "1 Kinkakujicho, Kita Ward, Kyoto",
+      "category": "temple",
+      "city": "Kyoto",
+      "costPerPerson": 500,
+      "currency": "JPY",
+      "lat": 35.0394,
+      "lng": 135.7292,
+      "time": "",
+      "status": "idea"
+    }
+  ]
 }
