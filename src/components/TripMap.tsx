@@ -22,7 +22,7 @@ interface Props {
   heightClass?: string;
 }
 
-const GHOST_OPACITY = 0.25;
+const GHOST_OPACITY = 0.1;
 const GHOST_LINE_OPACITY = 0.04;
 
 interface MarkerEntry {
@@ -131,13 +131,21 @@ export default function TripMap({
   const [userIdeas, setUserIdeas] = useState<UserIdea[]>(() => getUserIdeas(trip.slug));
 
   // Re-read user ideas when the page becomes visible or focuses (after Add Idea closes).
+  // Dedupe by content so unchanged polls don't trigger a markers rebuild
+  // (which would reset opacity state and lose the active-day dim).
   useEffect(() => {
-    const refresh = () => setUserIdeas(getUserIdeas(trip.slug));
+    const refresh = () => {
+      const next = getUserIdeas(trip.slug);
+      setUserIdeas((prev) =>
+        prev.length === next.length &&
+        prev.every((p, i) => p.id === next[i].id && p.title === next[i].title)
+          ? prev
+          : next
+      );
+    };
     window.addEventListener('focus', refresh);
     document.addEventListener('visibilitychange', refresh);
-    // Storage events fire across tabs only — but also catch them
     window.addEventListener('storage', refresh);
-    // Also poll once per few seconds while page is open (cheap)
     const t = window.setInterval(refresh, 3000);
     return () => {
       window.removeEventListener('focus', refresh);
