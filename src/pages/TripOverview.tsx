@@ -10,6 +10,7 @@ import TripSearch from '../components/TripSearch';
 import WishlistSection from '../components/WishlistSection';
 import { formatCurrency, formatDateMid, formatRange, formatTime12 } from '../lib/format';
 import { cityColor } from '../lib/maps';
+import { dayColor } from '../lib/dayColor';
 import {
   deriveStatus,
   getCurrentAndNext,
@@ -195,6 +196,7 @@ export default function TripOverview() {
         </button>
         {trip.days.map((d) => {
           const isToday = todayDay?.dayNumber === d.dayNumber;
+          const dColor = dayColor(d.dayNumber, trip.days.length);
           return (
             <button
               key={d.dayNumber}
@@ -210,7 +212,9 @@ export default function TripOverview() {
                   : 'bg-paper-soft text-ink-soft border-line hover:border-ink'
               }`}
               style={
-                selectedDay === d.dayNumber ? { backgroundColor: cityColor(d.city) } : undefined
+                selectedDay === d.dayNumber
+                  ? { backgroundColor: dColor }
+                  : { borderLeft: `4px solid ${dColor}` }
               }
             >
               {isToday && '● '}Day {d.dayNumber}

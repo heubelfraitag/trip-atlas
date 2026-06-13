@@ -11,6 +11,7 @@ import {
   googleMapsDirUrl,
 } from '../lib/maps';
 import { getUserIdeas, type UserIdea } from '../lib/storage';
+import { dayHue } from '../lib/dayColor';
 
 interface Props {
   trip: Trip;
@@ -22,7 +23,7 @@ interface Props {
 }
 
 const GHOST_OPACITY = 0.25;
-const GHOST_LINE_OPACITY = 0.12;
+const GHOST_LINE_OPACITY = 0.04;
 
 interface MarkerEntry {
   marker: L.Marker;
@@ -63,6 +64,17 @@ function stationDotIcon(): L.DivIcon {
     iconSize: [18, 18],
     iconAnchor: [9, 9],
   });
+}
+
+/** Gradient color: lighter for early legs, darker for late legs within a day. */
+function dayLegColor(dayNumber: number, totalDays: number, legIndex: number, totalLegs: number): string {
+  const h = dayHue(dayNumber, totalDays);
+  const s = 68;
+  if (totalLegs <= 1) return `hsl(${h}, ${s}%, 42%)`;
+  const LIGHT = 72;
+  const DARK = 22;
+  const l = Math.round(LIGHT + (DARK - LIGHT) * (legIndex / (totalLegs - 1)));
+  return `hsl(${h}, ${s}%, ${l}%)`;
 }
 
 function wishlistIcon(category: string, label: string): L.DivIcon {
@@ -282,9 +294,24 @@ export default function TripMap({
       });
     });
 
+    // Pre-build a set of intercity-covered legs keyed by date+coords so we
+    // don't double-draw day-link lines on top of intercity rail polylines.
+    const intercityCovered = new Set<string>();
+    const coordKey = (lat: number, lng: number) => `${lat.toFixed(3)},${lng.toFixed(3)}`;
+    for (const t of trip.intercityTransit ?? []) {
+      const a = coordKey(t.fromLat, t.fromLng);
+      const b = coordKey(t.toLat, t.toLng);
+      intercityCovered.add(`${t.date}|${a}|${b}`);
+      intercityCovered.add(`${t.date}|${b}|${a}`);
+    }
+
     // Day-level activities + per-day links
+    const totalDays = trip.days.length;
     trip.days.forEach((day) => {
       const acts = day.activities.filter((a) => showSolo || !a.soloOnly);
+      // Number of legs we'll actually try to draw (excluding free-time + intercity-covered)
+      const legCount = acts.length - 1;
+      let legIndex = 0;
 
       acts.forEach((act, i) => {
         // free-time blocks don't get a map pin
@@ -321,6 +348,14 @@ export default function TripMap({
         const a: [number, number] = [act.lat, act.lng];
         const b: [number, number] = [next.lat, next.lng];
         if (a[0] === b[0] && a[1] === b[1]) return;
+
+        // Skip drawing if an intercityTransit line already covers this segment
+        const pairKey = `${day.date}|${coordKey(a[0], a[1])}|${coordKey(b[0], b[1])}`;
+        if (intercityCovered.has(pairKey)) {
+          legIndex++;
+          return;
+        }
+
         const distM = haversineM(a, b);
 
         let coords: [number, number][];
@@ -339,15 +374,23 @@ export default function TripMap({
           baseStyle = TRANSIT_STYLE.subway;
           coords = [a, b];
         }
-        const line = L.polyline(coords, { renderer, ...baseStyle }).addTo(layer);
+
+        // Per-day color gradient: each day has a unique hue, leg 0 lightest, last leg darkest.
+        // Normalize weight so the gradient is the dominant visual cue;
+        // keep dashArray from baseStyle to preserve walk-vs-transit distinction.
+        const gradientColor = dayLegColor(day.dayNumber, totalDays, legIndex, legCount);
+        const styleWithGradient = { ...baseStyle, color: gradientColor, weight: 4 };
+
+        const line = L.polyline(coords, { renderer, ...styleWithGradient }).addTo(layer);
         linesRef.current.push({
           line,
-          baseStyle,
+          baseStyle: styleWithGradient,
           kind: 'day-link',
           dayNumber: day.dayNumber,
           date: day.date,
           endpoints: [a, b],
         });
+        legIndex++;
       });
     });
 
