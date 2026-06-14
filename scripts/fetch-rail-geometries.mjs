@@ -125,6 +125,68 @@ async function osrmDrive(from, to) {
   return data.routes[0];
 }
 
+/** Decode Google encoded polyline (precision 5) → [[lat,lng], ...]. */
+function decodePolyline(str, precision = 5) {
+  let index = 0,
+    lat = 0,
+    lng = 0;
+  const coordinates = [];
+  const factor = Math.pow(10, precision);
+  while (index < str.length) {
+    let shift = 0,
+      result = 0,
+      byte;
+    do {
+      byte = str.charCodeAt(index++) - 63;
+      result |= (byte & 0x1f) << shift;
+      shift += 5;
+    } while (byte >= 0x20);
+    const dlat = result & 1 ? ~(result >> 1) : result >> 1;
+    lat += dlat;
+    shift = 0;
+    result = 0;
+    do {
+      byte = str.charCodeAt(index++) - 63;
+      result |= (byte & 0x1f) << shift;
+      shift += 5;
+    } while (byte >= 0x20);
+    const dlng = result & 1 ? ~(result >> 1) : result >> 1;
+    lng += dlng;
+    coordinates.push([lat / factor, lng / factor]);
+  }
+  return coordinates;
+}
+
+/**
+ * Bridge each consecutive pair of corridor waypoints via OSRM driving.
+ * Produces a road-following polyline that visits every station-stop and follows
+ * expressway corridors (which parallel Shinkansen lines reasonably well).
+ */
+async function osrmBridgeCorridor(waypoints) {
+  const allLatLngs = [];
+  for (let i = 0; i < waypoints.length - 1; i++) {
+    const from = { lat: waypoints[i][0], lng: waypoints[i][1] };
+    const to = { lat: waypoints[i + 1][0], lng: waypoints[i + 1][1] };
+    let segment = null;
+    try {
+      const route = await osrmDrive(from, to);
+      if (route) segment = decodePolyline(route.geometry);
+    } catch (e) {
+      console.log(`    bridge ${i} fail: ${e.message}`);
+    }
+    if (!segment || segment.length === 0) {
+      // Fallback: just the two endpoints
+      if (i === 0) allLatLngs.push([from.lat, from.lng]);
+      allLatLngs.push([to.lat, to.lng]);
+    } else {
+      if (i > 0) segment.shift(); // avoid duplicating the connection point
+      allLatLngs.push(...segment);
+    }
+    await sleep(1100);
+  }
+  return allLatLngs;
+}
+
 // =========================================================================
 // Main
 // =========================================================================
@@ -151,17 +213,19 @@ for (const t of trip.intercityTransit || []) {
       continue;
     }
     const segment = corridorSegment(corridor.points, t);
+    console.log(
+      `${t.id} (${t.line}): corridor "${corridor.key}" · bridging ${segment.length} waypoints via OSRM driving...`
+    );
+    const bridged = await osrmBridgeCorridor(segment);
     // Convert to GeoJSON [lng, lat] tuples
     t.routeGeometry = {
       format: 'geojson',
-      data: segment.map(([lat, lng]) => [lng, lat]),
+      data: bridged.map(([lat, lng]) => [lng, lat]),
       mode: t.mode,
       line: t.line,
     };
     rail++;
-    console.log(
-      `${t.id} (${t.line}): corridor "${corridor.key}" · ${segment.length} waypoints`
-    );
+    console.log(`  ✓ ${bridged.length} points along expressway corridor`);
   } else {
     // bus / taxi / car: OSRM driving
     try {
