@@ -50,14 +50,30 @@ async function osrm(profile, from, to) {
   return data.routes[0];
 }
 
+// Public OSRM demo's `foot` profile is broken: it returns driving-speed
+// durations (~37 km/h) AND inflated path distances (e.g. 2.4km route for what
+// is actually a 300m walk across the street). We keep the polyline geometry
+// for the map but compute walk distance + duration from haversine × 1.25
+// (typical city-street padding) at 5 km/h.
+const WALK_M_PER_MIN = 83.33;
+const WALK_PATH_FACTOR = 1.25;
+
 async function buildRoute(profile, from, to, mode) {
   const route = await osrm(profile, from, to);
   if (!route) return null;
+  let distanceM, durationMin;
+  if (mode === 'walk') {
+    distanceM = Math.round(hav(from, to) * WALK_PATH_FACTOR);
+    durationMin = Math.max(1, Math.round(distanceM / WALK_M_PER_MIN));
+  } else {
+    distanceM = Math.round(route.distance);
+    durationMin = Math.round(route.duration / 60);
+  }
   return {
     format: 'polyline',
     data: route.geometry,
-    durationMin: Math.round(route.duration / 60),
-    distanceM: Math.round(route.distance),
+    durationMin,
+    distanceM,
     mode,
   };
 }
