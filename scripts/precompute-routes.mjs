@@ -1,14 +1,18 @@
 #!/usr/bin/env node
 /**
- * Pre-compute route geometries between consecutive same-day activities.
+ * Pre-compute route geometries for:
+ *   1. consecutive same-day activities (act → next-act)
+ *   2. each day's hotel → first activity (morning departure)
+ *   3. each day's last activity → hotel (evening return)
  *
  * Usage:
  *   node scripts/precompute-routes.mjs trips/japan-honeymoon-2025.json
  *
- *   ≤ 2km:  OSRM foot profile (real walking path, mode='walk')
- *   ≤ 25km: OSRM car profile  (surface-street route approximating a
- *                              subway/cross-town hop, mode='subway')
- *   > 25km: skipped (handled by intercityTransit + fetch-rail-geometries)
+ *   ≤ 2km:    OSRM foot profile  (real walking, mode='walk')
+ *   ≤ 300km:  OSRM car profile   (surface-street route, mode='subway')
+ *   > 300km:  skipped (true intercity — handled by intercityTransit)
+ *
+ * Hotel legs use the same thresholds.
  *
  * Public OSRM demo server. Rate-limited to 1 req/sec to be polite.
  */
@@ -21,7 +25,7 @@ if (!file) {
 }
 
 const WALK_THRESHOLD_M = 2000;
-const DRIVE_THRESHOLD_M = 25_000;
+const DRIVE_THRESHOLD_M = 300_000;
 const SLEEP_MS = 1100;
 
 function hav(a, b) {
@@ -58,13 +62,62 @@ async function buildRoute(profile, from, to, mode) {
   };
 }
 
+function findStartHotel(trip, dayDate) {
+  return (
+    trip.hotels?.find((h) => h.checkOut === dayDate) ||
+    trip.hotels?.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
+  );
+}
+
+function findEndHotel(trip, dayDate) {
+  return (
+    trip.hotels?.find((h) => h.checkIn === dayDate) ||
+    trip.hotels?.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
+  );
+}
+
+function sameSpot(a, b) {
+  return Math.abs(a.lat - b.lat) < 1e-4 && Math.abs(a.lng - b.lng) < 1e-4;
+}
+
+async function computeLeg(from, to, label) {
+  const d = hav(from, to);
+  let profile, mode, modeLabel;
+  if (d <= WALK_THRESHOLD_M) {
+    profile = 'foot';
+    mode = 'walk';
+    modeLabel = 'walk';
+  } else if (d <= DRIVE_THRESHOLD_M) {
+    profile = 'driving';
+    mode = 'subway';
+    modeLabel = 'drive→subway';
+  } else {
+    console.log(`${label} (${(d / 1000).toFixed(1)}km) ... skipped (too far)`);
+    return { result: null, mode: null };
+  }
+  process.stdout.write(`${label} (${(d / 1000).toFixed(1)}km, ${modeLabel}) ... `);
+  try {
+    const geom = await buildRoute(profile, from, to, mode);
+    if (geom) {
+      console.log(`ok (${geom.distanceM}m, ${geom.durationMin}min)`);
+      return { result: geom, mode };
+    }
+    console.log('no route');
+  } catch (e) {
+    console.log(`FAIL ${e.message}`);
+  }
+  return { result: null, mode: null };
+}
+
 const trip = JSON.parse(readFileSync(file, 'utf-8'));
 let walked = 0;
 let driven = 0;
+let hotelLegs = 0;
 let skipped = 0;
 let failed = 0;
 
 for (const day of trip.days) {
+  // Activity → next activity
   for (let i = 0; i < day.activities.length - 1; i++) {
     const a = day.activities[i];
     const b = day.activities[i + 1];
@@ -76,44 +129,64 @@ for (const day of trip.days) {
       skipped++;
       continue;
     }
-    const d = hav(a, b);
-
-    let profile, mode, label;
-    if (d <= WALK_THRESHOLD_M) {
-      profile = 'foot';
-      mode = 'walk';
-      label = 'walk';
-    } else if (d <= DRIVE_THRESHOLD_M) {
-      profile = 'driving';
-      mode = 'subway';
-      label = 'drive→subway';
-    } else {
-      skipped++;
-      continue;
-    }
-
-    process.stdout.write(
-      `Day ${day.dayNumber} · ${a.title} → ${b.title} (${(d / 1000).toFixed(1)}km, ${label}) ... `
+    const { result, mode } = await computeLeg(
+      a,
+      b,
+      `Day ${day.dayNumber} · ${a.title} → ${b.title}`
     );
-    try {
-      const geom = await buildRoute(profile, a, b, mode);
-      if (geom) {
-        a.routeToNext = geom;
-        if (mode === 'walk') walked++;
-        else driven++;
-        console.log(`ok (${geom.distanceM}m, ${geom.durationMin}min)`);
-      } else {
-        failed++;
-        console.log('no route');
-      }
-    } catch (e) {
+    if (result) {
+      a.routeToNext = result;
+      if (mode === 'walk') walked++;
+      else driven++;
+    } else {
       failed++;
-      console.log(`FAIL ${e.message}`);
     }
     await sleep(SLEEP_MS);
+  }
+
+  // Hotel → first activity
+  if (day.activities.length > 0 && !day.routeFromHotel) {
+    const startHotel = findStartHotel(trip, day.date);
+    const first = day.activities[0];
+    if (startHotel && !sameSpot(startHotel, first)) {
+      const { result } = await computeLeg(
+        startHotel,
+        first,
+        `Day ${day.dayNumber} HOTEL · ${startHotel.name} → ${first.title}`
+      );
+      if (result) {
+        day.routeFromHotel = result;
+        hotelLegs++;
+      } else {
+        failed++;
+      }
+      await sleep(SLEEP_MS);
+    }
+  }
+
+  // Last activity → hotel
+  if (day.activities.length > 0 && !day.routeToHotel) {
+    const endHotel = findEndHotel(trip, day.date);
+    const last = day.activities[day.activities.length - 1];
+    if (endHotel && !sameSpot(endHotel, last)) {
+      const { result } = await computeLeg(
+        last,
+        endHotel,
+        `Day ${day.dayNumber} HOTEL · ${last.title} → ${endHotel.name}`
+      );
+      if (result) {
+        day.routeToHotel = result;
+        hotelLegs++;
+      } else {
+        failed++;
+      }
+      await sleep(SLEEP_MS);
+    }
   }
 }
 
 writeFileSync(file, JSON.stringify(trip, null, 2));
-console.log(`\nDone. walked=${walked} driven=${driven} skipped=${skipped} failed=${failed}`);
+console.log(
+  `\nDone. walked=${walked} driven=${driven} hotelLegs=${hotelLegs} skipped=${skipped} failed=${failed}`
+);
 console.log(`Wrote ${file}`);

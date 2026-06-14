@@ -8,7 +8,59 @@ import { formatCurrency, formatDateLong } from '../lib/format';
 import { cityColor } from '../lib/maps';
 import { deriveStatus, getCurrentAndNext, getCurrentDay, useNow } from '../lib/now';
 import { dayCost } from '../lib/cost';
-import type { Activity } from '../types/trip';
+import type { Activity, Hotel, Trip } from '../types/trip';
+
+function findStartHotel(trip: Trip, dayDate: string): Hotel | undefined {
+  return (
+    trip.hotels.find((h) => h.checkOut === dayDate) ||
+    trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
+  );
+}
+function findEndHotel(trip: Trip, dayDate: string): Hotel | undefined {
+  return (
+    trip.hotels.find((h) => h.checkIn === dayDate) ||
+    trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
+  );
+}
+function sameSpot(a: { lat: number; lng: number }, b: { lat: number; lng: number }): boolean {
+  return Math.abs(a.lat - b.lat) < 1e-4 && Math.abs(a.lng - b.lng) < 1e-4;
+}
+
+function addMinutes(time: string, mins: number): string {
+  const [h, m] = time.split(':').map(Number);
+  const total = h * 60 + m + mins;
+  const hh = Math.floor(((total + 1440) % 1440) / 60);
+  const mm = (total + 1440) % 60;
+  return `${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')}`;
+}
+
+function synthHotelStart(hotel: Hotel, firstAct: Activity, dayNumber: number): Activity {
+  const time = addMinutes(firstAct.time, -30);
+  return {
+    id: `synth-d${dayNumber}-hotel-start`,
+    time,
+    title: `Wake up at ${hotel.name}`,
+    description: `${hotel.notes ? hotel.notes + ' · ' : ''}Heading to ${firstAct.title}.`,
+    address: hotel.address || hotel.neighborhood,
+    category: 'hotel',
+    lat: hotel.lat,
+    lng: hotel.lng,
+  };
+}
+
+function synthHotelEnd(hotel: Hotel, lastAct: Activity, dayNumber: number): Activity {
+  const time = addMinutes(lastAct.time, 90);
+  return {
+    id: `synth-d${dayNumber}-hotel-end`,
+    time,
+    title: `Back at ${hotel.name}`,
+    description: `End of Day ${dayNumber}.`,
+    address: hotel.address || hotel.neighborhood,
+    category: 'hotel',
+    lat: hotel.lat,
+    lng: hotel.lng,
+  };
+}
 
 export default function DayDetail() {
   const { slug, dayNumber } = useParams<{ slug: string; dayNumber: string }>();
@@ -28,7 +80,26 @@ export default function DayDetail() {
   const currentNext = isToday ? getCurrentAndNext(day, now, trip.meta.timezone) : { current: null, next: null };
   const cost = dayCost(day, trip);
 
-  const filteredActivities = day.activities;
+  // Synthesize "Wake up at [hotel]" + "Back at [hotel]" entries when the day
+  // doesn't start/end at the hotel already.
+  const startHotel = findStartHotel(trip, day.date);
+  const endHotel = findEndHotel(trip, day.date);
+  const firstReal = day.activities[0];
+  const lastReal = day.activities[day.activities.length - 1];
+  const prependStart =
+    firstReal && startHotel && !sameSpot(startHotel, firstReal)
+      ? synthHotelStart(startHotel, firstReal, day.dayNumber)
+      : null;
+  const appendEnd =
+    lastReal && endHotel && !sameSpot(endHotel, lastReal)
+      ? synthHotelEnd(endHotel, lastReal, day.dayNumber)
+      : null;
+
+  const filteredActivities: Activity[] = [
+    ...(prependStart ? [prependStart] : []),
+    ...day.activities,
+    ...(appendEnd ? [appendEnd] : []),
+  ];
 
   function liveState(a: Activity): 'current' | 'next' | 'past' | 'future' | null {
     if (!isToday) return null;

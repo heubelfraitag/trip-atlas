@@ -139,6 +139,10 @@ export interface Day {
   theme: string;
   city: string;
   activities: Activity[];
+  /** Morning route: hotel → first activity. Populated by precompute-routes.mjs. */
+  routeFromHotel?: RouteGeometry;
+  /** Evening route: last activity → hotel. Populated by precompute-routes.mjs. */
+  routeToHotel?: RouteGeometry;
 }
 
 export interface ChecklistItem {

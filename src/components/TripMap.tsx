@@ -358,11 +358,22 @@ export default function TripMap({
       if (drawStartLeg && startHotel) {
         const a: [number, number] = [startHotel.lat, startHotel.lng];
         const b: [number, number] = [firstAct.lat, firstAct.lng];
-        const distM = haversineM(a, b);
-        const baseStyle = chooseStyle(distM);
+        let coords: [number, number][];
+        let baseStyle;
+        if (day.routeFromHotel) {
+          const r = day.routeFromHotel;
+          baseStyle = TRANSIT_STYLE[r.mode];
+          coords =
+            r.format === 'polyline'
+              ? decodePolyline(r.data as string)
+              : (r.data as [number, number][]).map(([lng, lat]) => [lat, lng] as [number, number]);
+        } else {
+          baseStyle = chooseStyle(haversineM(a, b));
+          coords = [a, b];
+        }
         const gradientColor = dayLegColor(day.dayNumber, totalDays, legIndex, legCount);
         const styleWithGradient = { ...baseStyle, color: gradientColor, weight: 4 };
-        const line = L.polyline([a, b], { renderer, ...styleWithGradient }).addTo(layer);
+        const line = L.polyline(coords, { renderer, ...styleWithGradient }).addTo(layer);
         linesRef.current.push({
           line,
           baseStyle: styleWithGradient,
@@ -458,11 +469,22 @@ export default function TripMap({
       if (drawEndLeg && endHotel) {
         const a: [number, number] = [lastAct.lat, lastAct.lng];
         const b: [number, number] = [endHotel.lat, endHotel.lng];
-        const distM = haversineM(a, b);
-        const baseStyle = chooseStyle(distM);
+        let coords: [number, number][];
+        let baseStyle;
+        if (day.routeToHotel) {
+          const r = day.routeToHotel;
+          baseStyle = TRANSIT_STYLE[r.mode];
+          coords =
+            r.format === 'polyline'
+              ? decodePolyline(r.data as string)
+              : (r.data as [number, number][]).map(([lng, lat]) => [lat, lng] as [number, number]);
+        } else {
+          baseStyle = chooseStyle(haversineM(a, b));
+          coords = [a, b];
+        }
         const gradientColor = dayLegColor(day.dayNumber, totalDays, legIndex, legCount);
         const styleWithGradient = { ...baseStyle, color: gradientColor, weight: 4 };
-        const line = L.polyline([a, b], { renderer, ...styleWithGradient }).addTo(layer);
+        const line = L.polyline(coords, { renderer, ...styleWithGradient }).addTo(layer);
         linesRef.current.push({
           line,
           baseStyle: styleWithGradient,
