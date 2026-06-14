@@ -188,7 +188,8 @@ function escape(s: string): string {
 }
 
 function googleMapsHref(lat: number, lng: number, name: string): string {
-  return `https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=${encodeURIComponent(
+  // Place-card link so the calendar event opens photos/reviews, not directions
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
     name + ', ' + lat + ',' + lng
   )}`;
 }

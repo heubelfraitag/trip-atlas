@@ -8,1405 +8,1405 @@ X-WR-TIMEZONE:Asia/Tokyo
 X-WR-CALDESC:Tokyo · Fuji · Kyoto · Osaka · Tokyo
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d1-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251124T073000Z
 DTEND:20251124T093000Z
 SUMMARY:Haneda Airport (HND)
-DESCRIPTION:Clear customs\, grab Suica card\, train or taxi to hotel.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Haneda%20Airport%20(HND)%2C%2035.5494%2C139.7798
+DESCRIPTION:Clear customs\, grab Suica card\, train or taxi to hotel.\nhttps://www.google.com/maps/search/?api=1&query=Haneda%20Airport%20(HND)%2C%2035.5494%2C139.7798
 LOCATION:35.5494\,139.7798
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Haneda%20Airport%20(HND)%2C%2035.5494%2C139.7798
+URL:https://www.google.com/maps/search/?api=1&query=Haneda%20Airport%20(HND)%2C%2035.5494%2C139.7798
 GEO:35.5494;139.7798
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d1-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251124T100000Z
 DTEND:20251124T110000Z
 SUMMARY:Afuri Harajuku
-DESCRIPTION:Yuzu shio ramen — Reddit's near-universal pick for a perfect first-night Tokyo meal: light\, clean\, citrus-forward. ~5 min walk from the hotel. Order from the ticket machine inside\; English menu available.\n~1500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Afuri%20Harajuku%2C%2035.6735%2C139.705
+DESCRIPTION:Yuzu shio ramen — Reddit's near-universal pick for a perfect first-night Tokyo meal: light\, clean\, citrus-forward. ~5 min walk from the hotel. Order from the ticket machine inside\; English menu available.\n~1500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Afuri%20Harajuku%2C%2035.6735%2C139.705
 LOCATION:Grande Foresta 1F\, 3-63-1 Sendagaya\, Shibuya-ku\, Tokyo
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Afuri%20Harajuku%2C%2035.6735%2C139.705
+URL:https://www.google.com/maps/search/?api=1&query=Afuri%20Harajuku%2C%2035.6735%2C139.705
 GEO:35.6735;139.705
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251124T233000Z
 DTEND:20251124T234500Z
 SUMMARY:Asakusa Station
-DESCRIPTION:Metro arrival point for Senso-ji.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Asakusa%20Station%2C%2035.7106%2C139.7975
+DESCRIPTION:Metro arrival point for Senso-ji.\nhttps://www.google.com/maps/search/?api=1&query=Asakusa%20Station%2C%2035.7106%2C139.7975
 LOCATION:35.7106\,139.7975
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Asakusa%20Station%2C%2035.7106%2C139.7975
+URL:https://www.google.com/maps/search/?api=1&query=Asakusa%20Station%2C%2035.7106%2C139.7975
 GEO:35.7106;139.7975
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251124T234500Z
 DTEND:20251125T002500Z
 SUMMARY:Senso-ji Temple
-DESCRIPTION:Tokyo's oldest temple\, 7th century. Walk under Kaminarimon lantern. Early arrival = fewer tour buses.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Senso-ji%20Temple%2C%2035.7148%2C139.7967
+DESCRIPTION:Tokyo's oldest temple\, 7th century. Walk under Kaminarimon lantern. Early arrival = fewer tour buses.\nhttps://www.google.com/maps/search/?api=1&query=Senso-ji%20Temple%2C%2035.7148%2C139.7967
 LOCATION:35.7148\,139.7967
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Senso-ji%20Temple%2C%2035.7148%2C139.7967
+URL:https://www.google.com/maps/search/?api=1&query=Senso-ji%20Temple%2C%2035.7148%2C139.7967
 GEO:35.7148;139.7967
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251125T003000Z
 DTEND:20251125T015500Z
 SUMMARY:Nakamise-dori snacks
-DESCRIPTION:Ningyo-yaki\, agemanju\, melon pan from approach-street stalls. Map opens at Asakusa Kibidango Azuma — Street View to scout nearby vendors.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nakamise-dori%20snacks%2C%2035.71237%2C139.79627
+DESCRIPTION:Ningyo-yaki\, agemanju\, melon pan from approach-street stalls. Map opens at Asakusa Kibidango Azuma — Street View to scout nearby vendors.\nhttps://www.google.com/maps/search/?api=1&query=Nakamise-dori%20snacks%2C%2035.71237%2C139.79627
 LOCATION:Asakusa Kibidango Azuma\, 1-18-1 Asakusa\, Taito
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nakamise-dori%20snacks%2C%2035.71237%2C139.79627
+URL:https://www.google.com/maps/search/?api=1&query=Nakamise-dori%20snacks%2C%2035.71237%2C139.79627
 GEO:35.71237;139.79627
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251125T020000Z
 DTEND:20251125T035500Z
 SUMMARY:Daikokuya Tempura
-DESCRIPTION:Asakusa tendon institution since 1887.\n~2000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Daikokuya%20Tempura%2C%2035.7129%2C139.7975
+DESCRIPTION:Asakusa tendon institution since 1887.\n~2000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Daikokuya%20Tempura%2C%2035.7129%2C139.7975
 LOCATION:35.7129\,139.7975
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Daikokuya%20Tempura%2C%2035.7129%2C139.7975
+URL:https://www.google.com/maps/search/?api=1&query=Daikokuya%20Tempura%2C%2035.7129%2C139.7975
 GEO:35.7129;139.7975
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251125T040000Z
 DTEND:20251125T052500Z
 SUMMARY:Yanaka Ginza
-DESCRIPTION:Old Tokyo shopping street\, cat-themed shops. Map opens at Yuyake Dandan stairs — Street View to walk the street.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yanaka%20Ginza%2C%2035.72813%2C139.76606
+DESCRIPTION:Old Tokyo shopping street\, cat-themed shops. Map opens at Yuyake Dandan stairs — Street View to walk the street.\nhttps://www.google.com/maps/search/?api=1&query=Yanaka%20Ginza%2C%2035.72813%2C139.76606
 LOCATION:Yuyake Dandan stairs\, 3 Chome Yanaka\, Taito
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yanaka%20Ginza%2C%2035.72813%2C139.76606
+URL:https://www.google.com/maps/search/?api=1&query=Yanaka%20Ginza%2C%2035.72813%2C139.76606
 GEO:35.72813;139.76606
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251125T053000Z
 DTEND:20251125T062500Z
 SUMMARY:SCAI The Bathhouse
-DESCRIPTION:200-year-old bathhouse turned contemporary gallery.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=SCAI%20The%20Bathhouse%2C%2035.7287%2C139.7644
+DESCRIPTION:200-year-old bathhouse turned contemporary gallery.\nhttps://www.google.com/maps/search/?api=1&query=SCAI%20The%20Bathhouse%2C%2035.7287%2C139.7644
 LOCATION:35.7287\,139.7644
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=SCAI%20The%20Bathhouse%2C%2035.7287%2C139.7644
+URL:https://www.google.com/maps/search/?api=1&query=SCAI%20The%20Bathhouse%2C%2035.7287%2C139.7644
 GEO:35.7287;139.7644
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251125T063000Z
 DTEND:20251125T083000Z
 SUMMARY:Kayaba Coffee
-DESCRIPTION:1938 kissaten. Classic egg sandwich.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kayaba%20Coffee%2C%2035.7281%2C139.7705
+DESCRIPTION:1938 kissaten. Classic egg sandwich.\nhttps://www.google.com/maps/search/?api=1&query=Kayaba%20Coffee%2C%2035.7281%2C139.7705
 LOCATION:35.7281\,139.7705
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kayaba%20Coffee%2C%2035.7281%2C139.7705
+URL:https://www.google.com/maps/search/?api=1&query=Kayaba%20Coffee%2C%2035.7281%2C139.7705
 GEO:35.7281;139.7705
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-8@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251125T103000Z
 DTEND:20251125T115500Z
 SUMMARY:Omoide Yokocho
-DESCRIPTION:Smoky yakitori alley by Shinjuku JR tracks. Order momo\, seseri\, sunagimo.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Omoide%20Yokocho%2C%2035.6936%2C139.7008
+DESCRIPTION:Smoky yakitori alley by Shinjuku JR tracks. Order momo\, seseri\, sunagimo.\nhttps://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho%2C%2035.6936%2C139.7008
 LOCATION:35.6936\,139.7008
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Omoide%20Yokocho%2C%2035.6936%2C139.7008
+URL:https://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho%2C%2035.6936%2C139.7008
 GEO:35.6936;139.7008
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d2-9@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251125T120000Z
 DTEND:20251125T130000Z
 SUMMARY:Golden Gai
-DESCRIPTION:200+ tiny bars. Try Albatross or Cremaster.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Golden%20Gai%2C%2035.694%2C139.705
+DESCRIPTION:200+ tiny bars. Try Albatross or Cremaster.\nhttps://www.google.com/maps/search/?api=1&query=Golden%20Gai%2C%2035.694%2C139.705
 LOCATION:35.694\,139.705
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Golden%20Gai%2C%2035.694%2C139.705
+URL:https://www.google.com/maps/search/?api=1&query=Golden%20Gai%2C%2035.694%2C139.705
 GEO:35.694;139.705
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T010000Z
 DTEND:20251126T012500Z
 SUMMARY:Shimokitazawa Station
-DESCRIPTION:Tokyo's vintage capital.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
+DESCRIPTION:Tokyo's vintage capital.\nhttps://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
 LOCATION:35.6614\,139.6671
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
+URL:https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
 GEO:35.6614;139.6671
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T013000Z
 DTEND:20251126T015500Z
 SUMMARY:Chicago (vintage)
-DESCRIPTION:Americana\, wall of vintage Levi's.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Chicago%20(vintage)%2C%2035.6611%2C139.6678
+DESCRIPTION:Americana\, wall of vintage Levi's.\nhttps://www.google.com/maps/search/?api=1&query=Chicago%20(vintage)%2C%2035.6611%2C139.6678
 LOCATION:35.6611\,139.6678
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Chicago%20(vintage)%2C%2035.6611%2C139.6678
+URL:https://www.google.com/maps/search/?api=1&query=Chicago%20(vintage)%2C%2035.6611%2C139.6678
 GEO:35.6611;139.6678
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T020000Z
 DTEND:20251126T022500Z
 SUMMARY:Flamingo Shimokita
-DESCRIPTION:Curated mid-range vintage.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Flamingo%20Shimokita%2C%2035.6614%2C139.6671
+DESCRIPTION:Curated mid-range vintage.\nhttps://www.google.com/maps/search/?api=1&query=Flamingo%20Shimokita%2C%2035.6614%2C139.6671
 LOCATION:35.6614\,139.6671
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Flamingo%20Shimokita%2C%2035.6614%2C139.6671
+URL:https://www.google.com/maps/search/?api=1&query=Flamingo%20Shimokita%2C%2035.6614%2C139.6671
 GEO:35.6614;139.6671
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T023000Z
 DTEND:20251126T025500Z
 SUMMARY:Stick Out
-DESCRIPTION:Everything ¥700.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Stick%20Out%2C%2035.6615%2C139.6685
+DESCRIPTION:Everything ¥700.\nhttps://www.google.com/maps/search/?api=1&query=Stick%20Out%2C%2035.6615%2C139.6685
 LOCATION:35.6615\,139.6685
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Stick%20Out%2C%2035.6615%2C139.6685
+URL:https://www.google.com/maps/search/?api=1&query=Stick%20Out%2C%2035.6615%2C139.6685
 GEO:35.6615;139.6685
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T030000Z
 DTEND:20251126T035500Z
 SUMMARY:Toyo Hyakkaten
-DESCRIPTION:25+ vintage sellers under one roof.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Toyo%20Hyakkaten%2C%2035.6609%2C139.6687
+DESCRIPTION:25+ vintage sellers under one roof.\nhttps://www.google.com/maps/search/?api=1&query=Toyo%20Hyakkaten%2C%2035.6609%2C139.6687
 LOCATION:35.6609\,139.6687
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Toyo%20Hyakkaten%2C%2035.6609%2C139.6687
+URL:https://www.google.com/maps/search/?api=1&query=Toyo%20Hyakkaten%2C%2035.6609%2C139.6687
 GEO:35.6609;139.6687
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T040000Z
 DTEND:20251126T052500Z
 SUMMARY:Magic Spice (soup curry)
-DESCRIPTION:Shimokita institution.\n~1500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Magic%20Spice%20(soup%20curry)%2C%2035.6622%2C139.6683
+DESCRIPTION:Shimokita institution.\n~1500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Magic%20Spice%20(soup%20curry)%2C%2035.6622%2C139.6683
 LOCATION:35.6622\,139.6683
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Magic%20Spice%20(soup%20curry)%2C%2035.6622%2C139.6683
+URL:https://www.google.com/maps/search/?api=1&query=Magic%20Spice%20(soup%20curry)%2C%2035.6622%2C139.6683
 GEO:35.6622;139.6683
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T053000Z
 DTEND:20251126T055500Z
 SUMMARY:Koenji Station
-DESCRIPTION:15 min on the Chuo Line from Shimokita.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Koenji%20Station%2C%2035.705%2C139.6491
+DESCRIPTION:15 min on the Chuo Line from Shimokita.\nhttps://www.google.com/maps/search/?api=1&query=Koenji%20Station%2C%2035.705%2C139.6491
 LOCATION:35.705\,139.6491
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Koenji%20Station%2C%2035.705%2C139.6491
+URL:https://www.google.com/maps/search/?api=1&query=Koenji%20Station%2C%2035.705%2C139.6491
 GEO:35.705;139.6491
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-8@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T060000Z
 DTEND:20251126T062500Z
 SUMMARY:Spank! Koenji
-DESCRIPTION:Y2K\, kawaii core.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Spank!%20Koenji%2C%2035.705%2C139.6505
+DESCRIPTION:Y2K\, kawaii core.\nhttps://www.google.com/maps/search/?api=1&query=Spank!%20Koenji%2C%2035.705%2C139.6505
 LOCATION:35.705\,139.6505
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Spank!%20Koenji%2C%2035.705%2C139.6505
+URL:https://www.google.com/maps/search/?api=1&query=Spank!%20Koenji%2C%2035.705%2C139.6505
 GEO:35.705;139.6505
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-9@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T063000Z
 DTEND:20251126T075500Z
 SUMMARY:Hayatochiri
-DESCRIPTION:Vintage kimono fabric.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hayatochiri%2C%2035.7065%2C139.6498
+DESCRIPTION:Vintage kimono fabric.\nhttps://www.google.com/maps/search/?api=1&query=Hayatochiri%2C%2035.7065%2C139.6498
 LOCATION:35.7065\,139.6498
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hayatochiri%2C%2035.7065%2C139.6498
+URL:https://www.google.com/maps/search/?api=1&query=Hayatochiri%2C%2035.7065%2C139.6498
 GEO:35.7065;139.6498
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-9b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T080000Z
 DTEND:20251126T095500Z
 SUMMARY:Nintendo Tokyo (Shibuya Parco 6F)
-DESCRIPTION:Pick up a beautiful hanafuda deck (Nintendo originally made them in 1889 before they made video games). Decks ¥800–4000. Plan: learn Koi-Koi from a YouTube tutorial during ryokan downtime + play over kaiseki at Ubuya.\n~2000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nintendo%20Tokyo%20(Shibuya%20Parco%206F)%2C%2035.6614%2C139.6975
+DESCRIPTION:Pick up a beautiful hanafuda deck (Nintendo originally made them in 1889 before they made video games). Decks ¥800–4000. Plan: learn Koi-Koi from a YouTube tutorial during ryokan downtime + play over kaiseki at Ubuya.\n~2000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Nintendo%20Tokyo%20(Shibuya%20Parco%206F)%2C%2035.6614%2C139.6975
 LOCATION:Shibuya Parco 6F\, 15-1 Udagawacho\, Shibuya City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nintendo%20Tokyo%20(Shibuya%20Parco%206F)%2C%2035.6614%2C139.6975
+URL:https://www.google.com/maps/search/?api=1&query=Nintendo%20Tokyo%20(Shibuya%20Parco%206F)%2C%2035.6614%2C139.6975
 GEO:35.6614;139.6975
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-10@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T100000Z
 DTEND:20251126T102500Z
 SUMMARY:Higashi-Ginza Station
-DESCRIPTION:Direct exit to Kabukiza Theater.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Higashi-Ginza%20Station%2C%2035.6692%2C139.7656
+DESCRIPTION:Direct exit to Kabukiza Theater.\nhttps://www.google.com/maps/search/?api=1&query=Higashi-Ginza%20Station%2C%2035.6692%2C139.7656
 LOCATION:35.6692\,139.7656
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Higashi-Ginza%20Station%2C%2035.6692%2C139.7656
+URL:https://www.google.com/maps/search/?api=1&query=Higashi-Ginza%20Station%2C%2035.6692%2C139.7656
 GEO:35.6692;139.7656
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d3-11@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T103000Z
 DTEND:20251126T113000Z
 SUMMARY:Kabukiza Theatre
-DESCRIPTION:Single-act ticket (makumi-ken) at window. Audio guide ¥700.\n~1500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kabukiza%20Theatre%2C%2035.6695%2C139.767
+DESCRIPTION:Single-act ticket (makumi-ken) at window. Audio guide ¥700.\n~1500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Kabukiza%20Theatre%2C%2035.6695%2C139.767
 LOCATION:35.6695\,139.767
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kabukiza%20Theatre%2C%2035.6695%2C139.767
+URL:https://www.google.com/maps/search/?api=1&query=Kabukiza%20Theatre%2C%2035.6695%2C139.767
 GEO:35.6695;139.767
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-0a@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T230000Z
 DTEND:20251126T232500Z
 SUMMARY:Yoyogi Park walk
-DESCRIPTION:Walk straight from TRUNK Yoyogi into the park. Quiet Thursday morning — cedars\, joggers\, autumn leaves.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yoyogi%20Park%20walk%2C%2035.6716%2C139.6948
+DESCRIPTION:Walk straight from TRUNK Yoyogi into the park. Quiet Thursday morning — cedars\, joggers\, autumn leaves.\nhttps://www.google.com/maps/search/?api=1&query=Yoyogi%20Park%20walk%2C%2035.6716%2C139.6948
 LOCATION:Yoyogi Park\, Shibuya City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yoyogi%20Park%20walk%2C%2035.6716%2C139.6948
+URL:https://www.google.com/maps/search/?api=1&query=Yoyogi%20Park%20walk%2C%2035.6716%2C139.6948
 GEO:35.6716;139.6948
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-0b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T233000Z
 DTEND:20251127T005500Z
 SUMMARY:Meiji Jingu Shrine
-DESCRIPTION:Major Shinto shrine in a vast forested grove — the counterpart to Senso-ji's Buddhist scale. Quiet at this hour\, you'll have the gravel paths almost to yourselves. Allow ~90 min round trip from main torii.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Meiji%20Jingu%20Shrine%2C%2035.6764%2C139.6993
+DESCRIPTION:Major Shinto shrine in a vast forested grove — the counterpart to Senso-ji's Buddhist scale. Quiet at this hour\, you'll have the gravel paths almost to yourselves. Allow ~90 min round trip from main torii.\nhttps://www.google.com/maps/search/?api=1&query=Meiji%20Jingu%20Shrine%2C%2035.6764%2C139.6993
 LOCATION:1-1 Yoyogi Kamizonocho\, Shibuya City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Meiji%20Jingu%20Shrine%2C%2035.6764%2C139.6993
+URL:https://www.google.com/maps/search/?api=1&query=Meiji%20Jingu%20Shrine%2C%2035.6764%2C139.6993
 GEO:35.6764;139.6993
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T010000Z
 DTEND:20251127T015500Z
 SUMMARY:Glitch Coffee Roasters
-DESCRIPTION:Third-wave Tokyo roaster\, Jimbocho.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Glitch%20Coffee%20Roasters%2C%2035.6951%2C139.7596
+DESCRIPTION:Third-wave Tokyo roaster\, Jimbocho.\nhttps://www.google.com/maps/search/?api=1&query=Glitch%20Coffee%20Roasters%2C%2035.6951%2C139.7596
 LOCATION:35.6951\,139.7596
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Glitch%20Coffee%20Roasters%2C%2035.6951%2C139.7596
+URL:https://www.google.com/maps/search/?api=1&query=Glitch%20Coffee%20Roasters%2C%2035.6951%2C139.7596
 GEO:35.6951;139.7596
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T020000Z
 DTEND:20251127T032500Z
 SUMMARY:Kama-Asa Shoten
-DESCRIPTION:Kappabashi knife shop. ¥15K–40K range.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kama-Asa%20Shoten%2C%2035.7128%2C139.7901
+DESCRIPTION:Kappabashi knife shop. ¥15K–40K range.\nhttps://www.google.com/maps/search/?api=1&query=Kama-Asa%20Shoten%2C%2035.7128%2C139.7901
 LOCATION:35.7128\,139.7901
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kama-Asa%20Shoten%2C%2035.7128%2C139.7901
+URL:https://www.google.com/maps/search/?api=1&query=Kama-Asa%20Shoten%2C%2035.7128%2C139.7901
 GEO:35.7128;139.7901
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-2b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T033000Z
 DTEND:20251127T042500Z
 SUMMARY:Uogashi Nihon-Ichi (Shinjuku)
-DESCRIPTION:Standing sushi bar near Shinjuku South Exit. ¥1500-3000 pp\, order piece by piece\, fresh nigiri at counter pace. Perfect quick pre-train sushi. ~30 min\, then 10 min walk to Shinjuku Station.\n~2500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Uogashi%20Nihon-Ichi%20(Shinjuku)%2C%2035.6878%2C139.7011
+DESCRIPTION:Standing sushi bar near Shinjuku South Exit. ¥1500-3000 pp\, order piece by piece\, fresh nigiri at counter pace. Perfect quick pre-train sushi. ~30 min\, then 10 min walk to Shinjuku Station.\n~2500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Uogashi%20Nihon-Ichi%20(Shinjuku)%2C%2035.6878%2C139.7011
 LOCATION:Uogashi Nihon-Ichi Shinjuku Minamiguchi\, 3-35-7 Shinjuku\, Shinjuku City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Uogashi%20Nihon-Ichi%20(Shinjuku)%2C%2035.6878%2C139.7011
+URL:https://www.google.com/maps/search/?api=1&query=Uogashi%20Nihon-Ichi%20(Shinjuku)%2C%2035.6878%2C139.7011
 GEO:35.6878;139.7011
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T043000Z
 DTEND:20251127T062500Z
 SUMMARY:Shinjuku Station
-DESCRIPTION:Fuji Excursion limited express departure.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shinjuku%20Station%2C%2035.6896%2C139.7006
+DESCRIPTION:Fuji Excursion limited express departure.\nhttps://www.google.com/maps/search/?api=1&query=Shinjuku%20Station%2C%2035.6896%2C139.7006
 LOCATION:35.6896\,139.7006
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shinjuku%20Station%2C%2035.6896%2C139.7006
+URL:https://www.google.com/maps/search/?api=1&query=Shinjuku%20Station%2C%2035.6896%2C139.7006
 GEO:35.6896;139.7006
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T063000Z
 DTEND:20251127T065500Z
 SUMMARY:Kawaguchiko Station
-DESCRIPTION:Arrival in Fuji five lakes.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kawaguchiko%20Station%2C%2035.5009%2C138.7592
+DESCRIPTION:Arrival in Fuji five lakes.\nhttps://www.google.com/maps/search/?api=1&query=Kawaguchiko%20Station%2C%2035.5009%2C138.7592
 LOCATION:35.5009\,138.7592
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kawaguchiko%20Station%2C%2035.5009%2C138.7592
+URL:https://www.google.com/maps/search/?api=1&query=Kawaguchiko%20Station%2C%2035.5009%2C138.7592
 GEO:35.5009;138.7592
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T070000Z
 DTEND:20251127T090000Z
 SUMMARY:Kozantei Ubuya check-in
-DESCRIPTION:Lakefront ryokan.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kozantei%20Ubuya%20check-in%2C%2035.5096%2C138.771
+DESCRIPTION:Lakefront ryokan.\nhttps://www.google.com/maps/search/?api=1&query=Kozantei%20Ubuya%20check-in%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kozantei%20Ubuya%20check-in%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Kozantei%20Ubuya%20check-in%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d4-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T093000Z
 DTEND:20251127T103000Z
 SUMMARY:Kaiseki dinner #1
-DESCRIPTION:Multi-course at the ryokan.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kaiseki%20dinner%20%231%2C%2035.5096%2C138.771
+DESCRIPTION:Multi-course at the ryokan.\nhttps://www.google.com/maps/search/?api=1&query=Kaiseki%20dinner%20%231%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kaiseki%20dinner%20%231%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Kaiseki%20dinner%20%231%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d5-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251127T230000Z
 DTEND:20251128T005500Z
 SUMMARY:Japanese breakfast
-DESCRIPTION:Grilled fish\, miso soup\, tamagoyaki\, rice.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Japanese%20breakfast%2C%2035.5096%2C138.771
+DESCRIPTION:Grilled fish\, miso soup\, tamagoyaki\, rice.\nhttps://www.google.com/maps/search/?api=1&query=Japanese%20breakfast%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Japanese%20breakfast%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Japanese%20breakfast%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d5-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251128T010000Z
 DTEND:20251128T030000Z
 SUMMARY:First onsen
-DESCRIPTION:Open-air bath with Fuji view.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=First%20onsen%2C%2035.5096%2C138.771
+DESCRIPTION:Open-air bath with Fuji view.\nhttps://www.google.com/maps/search/?api=1&query=First%20onsen%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=First%20onsen%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=First%20onsen%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d5-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251128T033000Z
 DTEND:20251128T042500Z
 SUMMARY:Café Mimi lunch
-DESCRIPTION:Lakeside sandwiches and coffee.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Caf%C3%A9%20Mimi%20lunch%2C%2035.5189%2C138.7553
+DESCRIPTION:Lakeside sandwiches and coffee.\nhttps://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Mimi%20lunch%2C%2035.5189%2C138.7553
 LOCATION:35.5189\,138.7553
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Caf%C3%A9%20Mimi%20lunch%2C%2035.5189%2C138.7553
+URL:https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Mimi%20lunch%2C%2035.5189%2C138.7553
 GEO:35.5189;138.7553
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d5-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251128T043000Z
 DTEND:20251128T062500Z
 SUMMARY:Lake Kawaguchi north shore walk
-DESCRIPTION:Quiet shoreline\, Fuji reflections if calm.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Lake%20Kawaguchi%20north%20shore%20walk%2C%2035.5167%2C138.7547
+DESCRIPTION:Quiet shoreline\, Fuji reflections if calm.\nhttps://www.google.com/maps/search/?api=1&query=Lake%20Kawaguchi%20north%20shore%20walk%2C%2035.5167%2C138.7547
 LOCATION:35.5167\,138.7547
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Lake%20Kawaguchi%20north%20shore%20walk%2C%2035.5167%2C138.7547
+URL:https://www.google.com/maps/search/?api=1&query=Lake%20Kawaguchi%20north%20shore%20walk%2C%2035.5167%2C138.7547
 GEO:35.5167;138.7547
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d5-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251128T063000Z
 DTEND:20251128T083000Z
 SUMMARY:Couples massage
-DESCRIPTION:Booked through the ryokan.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Couples%20massage%2C%2035.5096%2C138.771
+DESCRIPTION:Booked through the ryokan.\nhttps://www.google.com/maps/search/?api=1&query=Couples%20massage%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Couples%20massage%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Couples%20massage%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d5-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251128T093000Z
 DTEND:20251128T103000Z
 SUMMARY:Kaiseki dinner #2 · hanafuda night
-DESCRIPTION:Multi-course dinner at the ryokan. Bring the Nintendo hanafuda deck picked up Day 3 and learn Koi-Koi over sake — watch a quick rules video on the way to dinner. Quiet lake\, paper screens\, two-player game.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kaiseki%20dinner%20%232%20%C2%B7%20hanafuda%20night%2C%2035.5096%2C138.771
+DESCRIPTION:Multi-course dinner at the ryokan. Bring the Nintendo hanafuda deck picked up Day 3 and learn Koi-Koi over sake — watch a quick rules video on the way to dinner. Quiet lake\, paper screens\, two-player game.\nhttps://www.google.com/maps/search/?api=1&query=Kaiseki%20dinner%20%232%20%C2%B7%20hanafuda%20night%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kaiseki%20dinner%20%232%20%C2%B7%20hanafuda%20night%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Kaiseki%20dinner%20%232%20%C2%B7%20hanafuda%20night%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d6-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251128T213000Z
 DTEND:20251128T233000Z
 SUMMARY:Chureito Pagoda sunrise
-DESCRIPTION:Sunrise mission. Taxi ~20 min from the ryokan. The iconic pagoda-with-Fuji shot — worth the early alarm. Bring layers.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Chureito%20Pagoda%20sunrise%2C%2035.5099%2C138.8005
+DESCRIPTION:Sunrise mission. Taxi ~20 min from the ryokan. The iconic pagoda-with-Fuji shot — worth the early alarm. Bring layers.\nhttps://www.google.com/maps/search/?api=1&query=Chureito%20Pagoda%20sunrise%2C%2035.5099%2C138.8005
 LOCATION:35.5099\,138.8005
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Chureito%20Pagoda%20sunrise%2C%2035.5099%2C138.8005
+URL:https://www.google.com/maps/search/?api=1&query=Chureito%20Pagoda%20sunrise%2C%2035.5099%2C138.8005
 GEO:35.5099;138.8005
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d6-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251129T000000Z
 DTEND:20251129T012500Z
 SUMMARY:Japanese breakfast at the ryokan
-DESCRIPTION:Grilled fish\, miso soup\, tamagoyaki\, rice. Slow morning at the ryokan after Chureito sunrise.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Japanese%20breakfast%20at%20the%20ryokan%2C%2035.5096%2C138.771
+DESCRIPTION:Grilled fish\, miso soup\, tamagoyaki\, rice. Slow morning at the ryokan after Chureito sunrise.\nhttps://www.google.com/maps/search/?api=1&query=Japanese%20breakfast%20at%20the%20ryokan%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Japanese%20breakfast%20at%20the%20ryokan%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Japanese%20breakfast%20at%20the%20ryokan%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d6-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251129T013000Z
 DTEND:20251129T032500Z
 SUMMARY:Oshino Hakkai
-DESCRIPTION:Eight crystal-clear spring-fed ponds.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Oshino%20Hakkai%2C%2035.4596%2C138.8389
+DESCRIPTION:Eight crystal-clear spring-fed ponds.\nhttps://www.google.com/maps/search/?api=1&query=Oshino%20Hakkai%2C%2035.4596%2C138.8389
 LOCATION:35.4596\,138.8389
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Oshino%20Hakkai%2C%2035.4596%2C138.8389
+URL:https://www.google.com/maps/search/?api=1&query=Oshino%20Hakkai%2C%2035.4596%2C138.8389
 GEO:35.4596;138.8389
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d6-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251129T033000Z
 DTEND:20251129T045500Z
 SUMMARY:Houtou Fudou
-DESCRIPTION:Yamanashi miso noodle stew (houtou).\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Houtou%20Fudou%2C%2035.504%2C138.7625
+DESCRIPTION:Yamanashi miso noodle stew (houtou).\nhttps://www.google.com/maps/search/?api=1&query=Houtou%20Fudou%2C%2035.504%2C138.7625
 LOCATION:35.504\,138.7625
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Houtou%20Fudou%2C%2035.504%2C138.7625
+URL:https://www.google.com/maps/search/?api=1&query=Houtou%20Fudou%2C%2035.504%2C138.7625
 GEO:35.504;138.7625
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d6-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251129T050000Z
 DTEND:20251129T070000Z
 SUMMARY:Mt Fuji Panoramic Ropeway
-DESCRIPTION:3-min cable car to Mt Tenjo viewpoint.\n~900 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mt%20Fuji%20Panoramic%20Ropeway%2C%2035.5103%2C138.7726
+DESCRIPTION:3-min cable car to Mt Tenjo viewpoint.\n~900 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Mt%20Fuji%20Panoramic%20Ropeway%2C%2035.5103%2C138.7726
 LOCATION:35.5103\,138.7726
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mt%20Fuji%20Panoramic%20Ropeway%2C%2035.5103%2C138.7726
+URL:https://www.google.com/maps/search/?api=1&query=Mt%20Fuji%20Panoramic%20Ropeway%2C%2035.5103%2C138.7726
 GEO:35.5103;138.7726
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d6-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251129T093000Z
 DTEND:20251129T103000Z
 SUMMARY:Kaiseki dinner #3
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kaiseki%20dinner%20%233%2C%2035.5096%2C138.771
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Kaiseki%20dinner%20%233%2C%2035.5096%2C138.771
 LOCATION:35.5096\,138.771
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kaiseki%20dinner%20%233%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Kaiseki%20dinner%20%233%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T013000Z
 DTEND:20251130T032500Z
 SUMMARY:Bus from Kawaguchiko
-DESCRIPTION:Highway bus to Mishima.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bus%20from%20Kawaguchiko%2C%2035.5009%2C138.7592
+DESCRIPTION:Highway bus to Mishima.\nhttps://www.google.com/maps/search/?api=1&query=Bus%20from%20Kawaguchiko%2C%2035.5009%2C138.7592
 LOCATION:35.5009\,138.7592
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bus%20from%20Kawaguchiko%2C%2035.5009%2C138.7592
+URL:https://www.google.com/maps/search/?api=1&query=Bus%20from%20Kawaguchiko%2C%2035.5009%2C138.7592
 GEO:35.5009;138.7592
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T033000Z
 DTEND:20251130T052500Z
 SUMMARY:Mishima Station
-DESCRIPTION:Transfer to Tokaido Shinkansen.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mishima%20Station%2C%2035.1281%2C138.9117
+DESCRIPTION:Transfer to Tokaido Shinkansen.\nhttps://www.google.com/maps/search/?api=1&query=Mishima%20Station%2C%2035.1281%2C138.9117
 LOCATION:35.1281\,138.9117
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mishima%20Station%2C%2035.1281%2C138.9117
+URL:https://www.google.com/maps/search/?api=1&query=Mishima%20Station%2C%2035.1281%2C138.9117
 GEO:35.1281;138.9117
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T053000Z
 DTEND:20251130T055500Z
 SUMMARY:Kyoto Station arrival
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kyoto%20Station%20arrival%2C%2034.9858%2C135.7585
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Kyoto%20Station%20arrival%2C%2034.9858%2C135.7585
 LOCATION:34.9858\,135.7585
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kyoto%20Station%20arrival%2C%2034.9858%2C135.7585
+URL:https://www.google.com/maps/search/?api=1&query=Kyoto%20Station%20arrival%2C%2034.9858%2C135.7585
 GEO:34.9858;135.7585
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T060000Z
 DTEND:20251130T065500Z
 SUMMARY:Hotel check-in
-DESCRIPTION:The Thousand Kyoto.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20check-in%2C%2034.9854%2C135.7589
+DESCRIPTION:The Thousand Kyoto.\nhttps://www.google.com/maps/search/?api=1&query=Hotel%20check-in%2C%2034.9854%2C135.7589
 LOCATION:34.9854\,135.7589
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20check-in%2C%2034.9854%2C135.7589
+URL:https://www.google.com/maps/search/?api=1&query=Hotel%20check-in%2C%2034.9854%2C135.7589
 GEO:34.9854;135.7589
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T070000Z
 DTEND:20251130T085500Z
 SUMMARY:Nishiki Market
-DESCRIPTION:Kyoto's kitchen — pickles\, tofu\, skewers. Map opens at Aritsugu knife shop (mid-market anchor) — Street View nearby stalls.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nishiki%20Market%2C%2035.00497%2C135.76467
+DESCRIPTION:Kyoto's kitchen — pickles\, tofu\, skewers. Map opens at Aritsugu knife shop (mid-market anchor) — Street View nearby stalls.\nhttps://www.google.com/maps/search/?api=1&query=Nishiki%20Market%2C%2035.00497%2C135.76467
 LOCATION:Aritsugu\, 219 Kajiya-cho\, Nakagyo\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nishiki%20Market%2C%2035.00497%2C135.76467
+URL:https://www.google.com/maps/search/?api=1&query=Nishiki%20Market%2C%2035.00497%2C135.76467
 GEO:35.00497;135.76467
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T090000Z
 DTEND:20251130T105500Z
 SUMMARY:Pontocho dinner
-DESCRIPTION:Lantern alley along the Kamogawa. Map opens at Pontocho-Suishin (mid-alley) — Street View to pick a restaurant.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Pontocho%20dinner%2C%2035.00713%2C135.77107
+DESCRIPTION:Lantern alley along the Kamogawa. Map opens at Pontocho-Suishin (mid-alley) — Street View to pick a restaurant.\nhttps://www.google.com/maps/search/?api=1&query=Pontocho%20dinner%2C%2035.00713%2C135.77107
 LOCATION:Pontocho Suishin\, 185 Zaimoku-cho\, Nakagyo\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Pontocho%20dinner%2C%2035.00713%2C135.77107
+URL:https://www.google.com/maps/search/?api=1&query=Pontocho%20dinner%2C%2035.00713%2C135.77107
 GEO:35.00713;135.77107
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T110000Z
 DTEND:20251130T122500Z
 SUMMARY:Hanamikoji\, Gion
-DESCRIPTION:Lantern-lit machiya street. Do NOT photograph geiko/maiko. Map opens at Ichiriki Chaya (iconic red ochaya corner).\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hanamikoji%2C%20Gion%2C%2035.00343%2C135.77531
+DESCRIPTION:Lantern-lit machiya street. Do NOT photograph geiko/maiko. Map opens at Ichiriki Chaya (iconic red ochaya corner).\nhttps://www.google.com/maps/search/?api=1&query=Hanamikoji%2C%20Gion%2C%2035.00343%2C135.77531
 LOCATION:Ichiriki Chaya\, 569 Gionmachi Minamigawa\, Higashiyama\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hanamikoji%2C%20Gion%2C%2035.00343%2C135.77531
+URL:https://www.google.com/maps/search/?api=1&query=Hanamikoji%2C%20Gion%2C%2035.00343%2C135.77531
 GEO:35.00343;135.77531
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d7-8@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T123000Z
 DTEND:20251130T133000Z
 SUMMARY:Yoramu sake bar
-DESCRIPTION:Tiny serious sake bar.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yoramu%20sake%20bar%2C%2035.0089%2C135.7728
+DESCRIPTION:Tiny serious sake bar.\nhttps://www.google.com/maps/search/?api=1&query=Yoramu%20sake%20bar%2C%2035.0089%2C135.7728
 LOCATION:35.0089\,135.7728
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yoramu%20sake%20bar%2C%2035.0089%2C135.7728
+URL:https://www.google.com/maps/search/?api=1&query=Yoramu%20sake%20bar%2C%2035.0089%2C135.7728
 GEO:35.0089;135.7728
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-0@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251130T233000Z
 DTEND:20251201T005500Z
 SUMMARY:% Arabica Higashiyama
-DESCRIPTION:First stop together — minimalist Kyoto coffee with view of Yasaka Pagoda. Leave the hotel ~8 AM\, ~20-30 min by taxi/bus.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=%25%20Arabica%20Higashiyama%2C%2034.9988%2C135.7807
+DESCRIPTION:First stop together — minimalist Kyoto coffee with view of Yasaka Pagoda. Leave the hotel ~8 AM\, ~20-30 min by taxi/bus.\nhttps://www.google.com/maps/search/?api=1&query=%25%20Arabica%20Higashiyama%2C%2034.9988%2C135.7807
 LOCATION:34.9988\,135.7807
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=%25%20Arabica%20Higashiyama%2C%2034.9988%2C135.7807
+URL:https://www.google.com/maps/search/?api=1&query=%25%20Arabica%20Higashiyama%2C%2034.9988%2C135.7807
 GEO:34.9988;135.7807
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T010000Z
 DTEND:20251201T015500Z
 SUMMARY:Saryo Tsujiri Gion
-DESCRIPTION:Matcha breakfast.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Saryo%20Tsujiri%20Gion%2C%2035.0036%2C135.7783
+DESCRIPTION:Matcha breakfast.\nhttps://www.google.com/maps/search/?api=1&query=Saryo%20Tsujiri%20Gion%2C%2035.0036%2C135.7783
 LOCATION:35.0036\,135.7783
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Saryo%20Tsujiri%20Gion%2C%2035.0036%2C135.7783
+URL:https://www.google.com/maps/search/?api=1&query=Saryo%20Tsujiri%20Gion%2C%2035.0036%2C135.7783
 GEO:35.0036;135.7783
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T020000Z
 DTEND:20251201T022500Z
 SUMMARY:Sannenzaka cobbled lane
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Sannenzaka%20cobbled%20lane%2C%2034.9988%2C135.7813
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Sannenzaka%20cobbled%20lane%2C%2034.9988%2C135.7813
 LOCATION:34.9988\,135.7813
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Sannenzaka%20cobbled%20lane%2C%2034.9988%2C135.7813
+URL:https://www.google.com/maps/search/?api=1&query=Sannenzaka%20cobbled%20lane%2C%2034.9988%2C135.7813
 GEO:34.9988;135.7813
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T023000Z
 DTEND:20251201T034000Z
 SUMMARY:Kiyomizu-dera
-DESCRIPTION:Wooden stage over Higashiyama.\n~500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kiyomizu-dera%2C%2034.9949%2C135.7851
+DESCRIPTION:Wooden stage over Higashiyama.\n~500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Kiyomizu-dera%2C%2034.9949%2C135.7851
 LOCATION:34.9949\,135.7851
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kiyomizu-dera%2C%2034.9949%2C135.7851
+URL:https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera%2C%2034.9949%2C135.7851
 GEO:34.9949;135.7851
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T034500Z
 DTEND:20251201T045500Z
 SUMMARY:Hisago oyakodon
-DESCRIPTION:Chicken + egg over rice.\n~1500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hisago%20oyakodon%2C%2035.0001%2C135.7806
+DESCRIPTION:Chicken + egg over rice.\n~1500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Hisago%20oyakodon%2C%2035.0001%2C135.7806
 LOCATION:35.0001\,135.7806
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hisago%20oyakodon%2C%2035.0001%2C135.7806
+URL:https://www.google.com/maps/search/?api=1&query=Hisago%20oyakodon%2C%2035.0001%2C135.7806
 GEO:35.0001;135.7806
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T050000Z
 DTEND:20251201T062500Z
 SUMMARY:Yumeyakata kimono rental
-DESCRIPTION:4 hr rental.\n~5500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yumeyakata%20kimono%20rental%2C%2035.003%2C135.7748
+DESCRIPTION:4 hr rental.\n~5500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Yumeyakata%20kimono%20rental%2C%2035.003%2C135.7748
 LOCATION:35.003\,135.7748
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yumeyakata%20kimono%20rental%2C%2035.003%2C135.7748
+URL:https://www.google.com/maps/search/?api=1&query=Yumeyakata%20kimono%20rental%2C%2035.003%2C135.7748
 GEO:35.003;135.7748
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T063000Z
 DTEND:20251201T065500Z
 SUMMARY:Yasaka Shrine
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yasaka%20Shrine%2C%2035.0036%2C135.7787
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Yasaka%20Shrine%2C%2035.0036%2C135.7787
 LOCATION:35.0036\,135.7787
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yasaka%20Shrine%2C%2035.0036%2C135.7787
+URL:https://www.google.com/maps/search/?api=1&query=Yasaka%20Shrine%2C%2035.0036%2C135.7787
 GEO:35.0036;135.7787
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T070000Z
 DTEND:20251201T085500Z
 SUMMARY:Shirakawa geisha district
-DESCRIPTION:Willow-lined canal. Map opens at Tatsumi Bridge — iconic Shirakawa photo spot.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shirakawa%20geisha%20district%2C%2035.00795%2C135.77508
+DESCRIPTION:Willow-lined canal. Map opens at Tatsumi Bridge — iconic Shirakawa photo spot.\nhttps://www.google.com/maps/search/?api=1&query=Shirakawa%20geisha%20district%2C%2035.00795%2C135.77508
 LOCATION:Tatsumi Bridge\, Gion Shirakawa\, Higashiyama\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shirakawa%20geisha%20district%2C%2035.00795%2C135.77508
+URL:https://www.google.com/maps/search/?api=1&query=Shirakawa%20geisha%20district%2C%2035.00795%2C135.77508
 GEO:35.00795;135.77508
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-8@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T090000Z
 DTEND:20251201T102500Z
 SUMMARY:Camellia tea ceremony
-DESCRIPTION:45 min English session.\n~3000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Camellia%20tea%20ceremony%2C%2035.0011%2C135.7798
+DESCRIPTION:45 min English session.\n~3000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Camellia%20tea%20ceremony%2C%2035.0011%2C135.7798
 LOCATION:35.0011\,135.7798
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Camellia%20tea%20ceremony%2C%2035.0011%2C135.7798
+URL:https://www.google.com/maps/search/?api=1&query=Camellia%20tea%20ceremony%2C%2035.0011%2C135.7798
 GEO:35.0011;135.7798
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d8-9@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251201T103000Z
 DTEND:20251201T113000Z
 SUMMARY:Giro Giro Hitoshina kaiseki
-DESCRIPTION:Reserve ~1 month ahead.\n~8000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Giro%20Giro%20Hitoshina%20kaiseki%2C%2034.9961%2C135.7641
+DESCRIPTION:Reserve ~1 month ahead.\n~8000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Giro%20Giro%20Hitoshina%20kaiseki%2C%2034.9961%2C135.7641
 LOCATION:34.9961\,135.7641
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Giro%20Giro%20Hitoshina%20kaiseki%2C%2034.9961%2C135.7641
+URL:https://www.google.com/maps/search/?api=1&query=Giro%20Giro%20Hitoshina%20kaiseki%2C%2034.9961%2C135.7641
 GEO:34.9961;135.7641
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d9-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T000000Z
 DTEND:20251202T001500Z
 SUMMARY:Uji Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Uji%20Station%2C%2034.892%2C135.7991
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Uji%20Station%2C%2034.892%2C135.7991
 LOCATION:34.892\,135.7991
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Uji%20Station%2C%2034.892%2C135.7991
+URL:https://www.google.com/maps/search/?api=1&query=Uji%20Station%2C%2034.892%2C135.7991
 GEO:34.892;135.7991
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d9-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T001500Z
 DTEND:20251202T015500Z
 SUMMARY:Byodo-in Temple
-DESCRIPTION:UNESCO. ¥10-coin temple.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Byodo-in%20Temple%2C%2034.8893%2C135.8076
+DESCRIPTION:UNESCO. ¥10-coin temple.\nhttps://www.google.com/maps/search/?api=1&query=Byodo-in%20Temple%2C%2034.8893%2C135.8076
 LOCATION:34.8893\,135.8076
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Byodo-in%20Temple%2C%2034.8893%2C135.8076
+URL:https://www.google.com/maps/search/?api=1&query=Byodo-in%20Temple%2C%2034.8893%2C135.8076
 GEO:34.8893;135.8076
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d9-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T020000Z
 DTEND:20251202T040000Z
 SUMMARY:Nakamura Tokichi Honten
-DESCRIPTION:Matcha soba + parfait.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nakamura%20Tokichi%20Honten%2C%2034.8907%2C135.8079
+DESCRIPTION:Matcha soba + parfait.\nhttps://www.google.com/maps/search/?api=1&query=Nakamura%20Tokichi%20Honten%2C%2034.8907%2C135.8079
 LOCATION:34.8907\,135.8079
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nakamura%20Tokichi%20Honten%2C%2034.8907%2C135.8079
+URL:https://www.google.com/maps/search/?api=1&query=Nakamura%20Tokichi%20Honten%2C%2034.8907%2C135.8079
 GEO:34.8907;135.8079
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d9-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T043000Z
 DTEND:20251202T044500Z
 SUMMARY:Kintetsu-Nara Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kintetsu-Nara%20Station%2C%2034.6831%2C135.8278
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Kintetsu-Nara%20Station%2C%2034.6831%2C135.8278
 LOCATION:34.6831\,135.8278
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kintetsu-Nara%20Station%2C%2034.6831%2C135.8278
+URL:https://www.google.com/maps/search/?api=1&query=Kintetsu-Nara%20Station%2C%2034.6831%2C135.8278
 GEO:34.6831;135.8278
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d9-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T044500Z
 DTEND:20251202T054000Z
 SUMMARY:Nara Park
-DESCRIPTION:1\,200 bowing deer. Shika senbei ¥200.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nara%20Park%2C%2034.6851%2C135.843
+DESCRIPTION:1\,200 bowing deer. Shika senbei ¥200.\nhttps://www.google.com/maps/search/?api=1&query=Nara%20Park%2C%2034.6851%2C135.843
 LOCATION:34.6851\,135.843
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Nara%20Park%2C%2034.6851%2C135.843
+URL:https://www.google.com/maps/search/?api=1&query=Nara%20Park%2C%2034.6851%2C135.843
 GEO:34.6851;135.843
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d9-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T054500Z
 DTEND:20251202T065500Z
 SUMMARY:Todai-ji
-DESCRIPTION:Largest wooden building. 15m Buddha.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Todai-ji%2C%2034.6889%2C135.8398
+DESCRIPTION:Largest wooden building. 15m Buddha.\nhttps://www.google.com/maps/search/?api=1&query=Todai-ji%2C%2034.6889%2C135.8398
 LOCATION:34.6889\,135.8398
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Todai-ji%2C%2034.6889%2C135.8398
+URL:https://www.google.com/maps/search/?api=1&query=Todai-ji%2C%2034.6889%2C135.8398
 GEO:34.6889;135.8398
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d9-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T070000Z
 DTEND:20251202T080000Z
 SUMMARY:Kasuga Taisha
-DESCRIPTION:3\,000 lanterns through forest.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kasuga%20Taisha%2C%2034.6814%2C135.8484
+DESCRIPTION:3\,000 lanterns through forest.\nhttps://www.google.com/maps/search/?api=1&query=Kasuga%20Taisha%2C%2034.6814%2C135.8484
 LOCATION:34.6814\,135.8484
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kasuga%20Taisha%2C%2034.6814%2C135.8484
+URL:https://www.google.com/maps/search/?api=1&query=Kasuga%20Taisha%2C%2034.6814%2C135.8484
 GEO:34.6814;135.8484
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T214500Z
 DTEND:20251202T220000Z
 SUMMARY:Inari Station
-DESCRIPTION:Sunrise mission — leave The Thousand Kyoto ~06:30. JR Nara line two stops from Kyoto Station.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Inari%20Station%2C%2034.9669%2C135.7714
+DESCRIPTION:Sunrise mission — leave The Thousand Kyoto ~06:30. JR Nara line two stops from Kyoto Station.\nhttps://www.google.com/maps/search/?api=1&query=Inari%20Station%2C%2034.9669%2C135.7714
 LOCATION:34.9669\,135.7714
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Inari%20Station%2C%2034.9669%2C135.7714
+URL:https://www.google.com/maps/search/?api=1&query=Inari%20Station%2C%2034.9669%2C135.7714
 GEO:34.9669;135.7714
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251202T220000Z
 DTEND:20251203T000000Z
 SUMMARY:Fushimi Inari Taisha · sunrise hike
-DESCRIPTION:Timing is everything — at 7 AM the 10K torii path is nearly empty\, mystical light\, photographers only. Hike to the Yotsutsuji intersection viewpoint (~45 min up\, 30 min down). Skip the summit if tired — Yotsutsuji is where the view opens. Free\, 24/7.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Fushimi%20Inari%20Taisha%20%C2%B7%20sunrise%20hike%2C%2034.967%2C135.7728
+DESCRIPTION:Timing is everything — at 7 AM the 10K torii path is nearly empty\, mystical light\, photographers only. Hike to the Yotsutsuji intersection viewpoint (~45 min up\, 30 min down). Skip the summit if tired — Yotsutsuji is where the view opens. Free\, 24/7.\nhttps://www.google.com/maps/search/?api=1&query=Fushimi%20Inari%20Taisha%20%C2%B7%20sunrise%20hike%2C%2034.967%2C135.7728
 LOCATION:34.967\,135.7728
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Fushimi%20Inari%20Taisha%20%C2%B7%20sunrise%20hike%2C%2034.967%2C135.7728
+URL:https://www.google.com/maps/search/?api=1&query=Fushimi%20Inari%20Taisha%20%C2%B7%20sunrise%20hike%2C%2034.967%2C135.7728
 GEO:34.967;135.7728
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T003000Z
 DTEND:20251203T004500Z
 SUMMARY:Saga-Arashiyama Station
-DESCRIPTION:Back to Kyoto Station\, switch to JR Sagano line out to Arashiyama (~45 min total from Fushimi).\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Saga-Arashiyama%20Station%2C%2035.0184%2C135.6788
+DESCRIPTION:Back to Kyoto Station\, switch to JR Sagano line out to Arashiyama (~45 min total from Fushimi).\nhttps://www.google.com/maps/search/?api=1&query=Saga-Arashiyama%20Station%2C%2035.0184%2C135.6788
 LOCATION:35.0184\,135.6788
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Saga-Arashiyama%20Station%2C%2035.0184%2C135.6788
+URL:https://www.google.com/maps/search/?api=1&query=Saga-Arashiyama%20Station%2C%2035.0184%2C135.6788
 GEO:35.0184;135.6788
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T004500Z
 DTEND:20251203T015500Z
 SUMMARY:Arashiyama Bamboo Grove
-DESCRIPTION:Still beating the 10 AM tour bus rush. Walk through quickly — atmosphere drops the busier it gets.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Arashiyama%20Bamboo%20Grove%2C%2035.0166%2C135.6717
+DESCRIPTION:Still beating the 10 AM tour bus rush. Walk through quickly — atmosphere drops the busier it gets.\nhttps://www.google.com/maps/search/?api=1&query=Arashiyama%20Bamboo%20Grove%2C%2035.0166%2C135.6717
 LOCATION:35.0166\,135.6717
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Arashiyama%20Bamboo%20Grove%2C%2035.0166%2C135.6717
+URL:https://www.google.com/maps/search/?api=1&query=Arashiyama%20Bamboo%20Grove%2C%2035.0166%2C135.6717
 GEO:35.0166;135.6717
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-2a@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T020000Z
 DTEND:20251203T025500Z
 SUMMARY:Otagi Nenbutsuji (1200 stone faces)
-DESCRIPTION:~30 min walk uphill from bamboo grove. 1200+ rakan stone figures carved by amateur sculptors 1981–91 — each face is a different emotion: smiling\, drinking\, meditating\, laughing\, crying. Quiet\, atmospheric\, very photogenic.\n~300 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Otagi%20Nenbutsuji%20(1200%20stone%20faces)%2C%2035.0341%2C135.6646
+DESCRIPTION:~30 min walk uphill from bamboo grove. 1200+ rakan stone figures carved by amateur sculptors 1981–91 — each face is a different emotion: smiling\, drinking\, meditating\, laughing\, crying. Quiet\, atmospheric\, very photogenic.\n~300 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Otagi%20Nenbutsuji%20(1200%20stone%20faces)%2C%2035.0341%2C135.6646
 LOCATION:2-5 Sagatoriimoto Fukatanicho\, Ukyo Ward\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Otagi%20Nenbutsuji%20(1200%20stone%20faces)%2C%2035.0341%2C135.6646
+URL:https://www.google.com/maps/search/?api=1&query=Otagi%20Nenbutsuji%20(1200%20stone%20faces)%2C%2035.0341%2C135.6646
 GEO:35.0341;135.6646
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-2b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T030000Z
 DTEND:20251203T035500Z
 SUMMARY:Adashino Nenbutsuji (8\,000 Buddhas)
-DESCRIPTION:5 min walk back down from Otagi. Thousands of small weathered stone Buddhas memorializing the forgotten dead\, plus a small bamboo grove behind the main hall. Less famous than the main Arashiyama grove — but you'll have it almost to yourselves.\n~500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Adashino%20Nenbutsuji%20(8%2C000%20Buddhas)%2C%2035.0282%2C135.6682
+DESCRIPTION:5 min walk back down from Otagi. Thousands of small weathered stone Buddhas memorializing the forgotten dead\, plus a small bamboo grove behind the main hall. Less famous than the main Arashiyama grove — but you'll have it almost to yourselves.\n~500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Adashino%20Nenbutsuji%20(8%2C000%20Buddhas)%2C%2035.0282%2C135.6682
 LOCATION:17 Sagatoriimoto Adashinocho\, Ukyo Ward\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Adashino%20Nenbutsuji%20(8%2C000%20Buddhas)%2C%2035.0282%2C135.6682
+URL:https://www.google.com/maps/search/?api=1&query=Adashino%20Nenbutsuji%20(8%2C000%20Buddhas)%2C%2035.0282%2C135.6682
 GEO:35.0282;135.6682
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-2c@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T040000Z
 DTEND:20251203T051000Z
 SUMMARY:Lunch in Arashiyama town
-DESCRIPTION:Walk back down toward Togetsukyo. Yudofu (tofu hot pot) is the Arashiyama signature — try Shoraian or Yudofu Sagano. Or grab matcha soba at Arashiyama Yoshimura with bridge views.\n~2500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Lunch%20in%20Arashiyama%20town%2C%2035.0148%2C135.6779
+DESCRIPTION:Walk back down toward Togetsukyo. Yudofu (tofu hot pot) is the Arashiyama signature — try Shoraian or Yudofu Sagano. Or grab matcha soba at Arashiyama Yoshimura with bridge views.\n~2500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Lunch%20in%20Arashiyama%20town%2C%2035.0148%2C135.6779
 LOCATION:Arashiyama\, Ukyo Ward\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Lunch%20in%20Arashiyama%20town%2C%2035.0148%2C135.6779
+URL:https://www.google.com/maps/search/?api=1&query=Lunch%20in%20Arashiyama%20town%2C%2035.0148%2C135.6779
 GEO:35.0148;135.6779
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T051500Z
 DTEND:20251203T054000Z
 SUMMARY:Togetsukyo Bridge
-DESCRIPTION:Crossing the Katsura river — classic Arashiyama postcard. Short walk after lunch.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Togetsukyo%20Bridge%2C%2035.0136%2C135.677
+DESCRIPTION:Crossing the Katsura river — classic Arashiyama postcard. Short walk after lunch.\nhttps://www.google.com/maps/search/?api=1&query=Togetsukyo%20Bridge%2C%2035.0136%2C135.677
 LOCATION:35.0136\,135.677
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Togetsukyo%20Bridge%2C%2035.0136%2C135.677
+URL:https://www.google.com/maps/search/?api=1&query=Togetsukyo%20Bridge%2C%2035.0136%2C135.677
 GEO:35.0136;135.677
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T054500Z
 DTEND:20251203T061000Z
 SUMMARY:Chushojima Station
-DESCRIPTION:JR Sagano line back to Kyoto\, transfer Keihan to Chushojima. ~45 min.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Chushojima%20Station%2C%2034.9305%2C135.7587
+DESCRIPTION:JR Sagano line back to Kyoto\, transfer Keihan to Chushojima. ~45 min.\nhttps://www.google.com/maps/search/?api=1&query=Chushojima%20Station%2C%2034.9305%2C135.7587
 LOCATION:34.9305\,135.7587
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Chushojima%20Station%2C%2034.9305%2C135.7587
+URL:https://www.google.com/maps/search/?api=1&query=Chushojima%20Station%2C%2034.9305%2C135.7587
 GEO:34.9305;135.7587
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T061500Z
 DTEND:20251203T081500Z
 SUMMARY:Gekkeikan Okura Sake Museum
-DESCRIPTION:Closes 4:30 PM — tight but doable. Brief tour + tasting flight at the end. Edo-era brewery\, the sake culture's birthplace neighborhood.\n~600 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Gekkeikan%20Okura%20Sake%20Museum%2C%2034.9329%2C135.7596
+DESCRIPTION:Closes 4:30 PM — tight but doable. Brief tour + tasting flight at the end. Edo-era brewery\, the sake culture's birthplace neighborhood.\n~600 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Gekkeikan%20Okura%20Sake%20Museum%2C%2034.9329%2C135.7596
 LOCATION:34.9329\,135.7596
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Gekkeikan%20Okura%20Sake%20Museum%2C%2034.9329%2C135.7596
+URL:https://www.google.com/maps/search/?api=1&query=Gekkeikan%20Okura%20Sake%20Museum%2C%2034.9329%2C135.7596
 GEO:34.9329;135.7596
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d10-8@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T120000Z
 DTEND:20251203T130000Z
 SUMMARY:Bee's Knees · Kyoto speakeasy
-DESCRIPTION:Last Kyoto nightcap. Quiet\, tucked-away speakeasy\, classic cocktails. Get dinner around Kawaramachi area first\, then walk over. Cash preferred.\n~3500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bee's%20Knees%20%C2%B7%20Kyoto%20speakeasy%2C%2035.0067%2C135.7689
+DESCRIPTION:Last Kyoto nightcap. Quiet\, tucked-away speakeasy\, classic cocktails. Get dinner around Kawaramachi area first\, then walk over. Cash preferred.\n~3500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Bee's%20Knees%20%C2%B7%20Kyoto%20speakeasy%2C%2035.0067%2C135.7689
 LOCATION:284 Maruyacho\, Nakagyo Ward\, Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bee's%20Knees%20%C2%B7%20Kyoto%20speakeasy%2C%2035.0067%2C135.7689
+URL:https://www.google.com/maps/search/?api=1&query=Bee's%20Knees%20%C2%B7%20Kyoto%20speakeasy%2C%2035.0067%2C135.7689
 GEO:35.0067;135.7689
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T030000Z
 DTEND:20251204T031500Z
 SUMMARY:Shin-Osaka Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shin-Osaka%20Station%2C%2034.7339%2C135.5003
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Shin-Osaka%20Station%2C%2034.7339%2C135.5003
 LOCATION:34.7339\,135.5003
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shin-Osaka%20Station%2C%2034.7339%2C135.5003
+URL:https://www.google.com/maps/search/?api=1&query=Shin-Osaka%20Station%2C%2034.7339%2C135.5003
 GEO:34.7339;135.5003
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T032000Z
 DTEND:20251204T033500Z
 SUMMARY:Namba Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Namba%20Station%2C%2034.6664%2C135.5021
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Namba%20Station%2C%2034.6664%2C135.5021
 LOCATION:34.6664\,135.5021
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Namba%20Station%2C%2034.6664%2C135.5021
+URL:https://www.google.com/maps/search/?api=1&query=Namba%20Station%2C%2034.6664%2C135.5021
 GEO:34.6664;135.5021
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T033000Z
 DTEND:20251204T045500Z
 SUMMARY:Hotel check-in
-DESCRIPTION:Cross Hotel Osaka.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20check-in%2C%2034.6724%2C135.4974
+DESCRIPTION:Cross Hotel Osaka.\nhttps://www.google.com/maps/search/?api=1&query=Hotel%20check-in%2C%2034.6724%2C135.4974
 LOCATION:34.6724\,135.4974
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20check-in%2C%2034.6724%2C135.4974
+URL:https://www.google.com/maps/search/?api=1&query=Hotel%20check-in%2C%2034.6724%2C135.4974
 GEO:34.6724;135.4974
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T050000Z
 DTEND:20251204T052500Z
 SUMMARY:Dotonbori Glico sign
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Dotonbori%20Glico%20sign%2C%2034.6688%2C135.5014
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Dotonbori%20Glico%20sign%2C%2034.6688%2C135.5014
 LOCATION:34.6688\,135.5014
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Dotonbori%20Glico%20sign%2C%2034.6688%2C135.5014
+URL:https://www.google.com/maps/search/?api=1&query=Dotonbori%20Glico%20sign%2C%2034.6688%2C135.5014
 GEO:34.6688;135.5014
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T053000Z
 DTEND:20251204T062500Z
 SUMMARY:Takoyaki Wanaka
-DESCRIPTION:¥600 for 8.\n~600 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Takoyaki%20Wanaka%2C%2034.6657%2C135.5031
+DESCRIPTION:¥600 for 8.\n~600 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Takoyaki%20Wanaka%2C%2034.6657%2C135.5031
 LOCATION:34.6657\,135.5031
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Takoyaki%20Wanaka%2C%2034.6657%2C135.5031
+URL:https://www.google.com/maps/search/?api=1&query=Takoyaki%20Wanaka%2C%2034.6657%2C135.5031
 GEO:34.6657;135.5031
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T063000Z
 DTEND:20251204T082500Z
 SUMMARY:Shinsaibashi arcade
-DESCRIPTION:Covered shopping street running 600m. Map opens mid-arcade — Street View to walk it.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shinsaibashi%20arcade%2C%2034.67278%2C135.50125
+DESCRIPTION:Covered shopping street running 600m. Map opens mid-arcade — Street View to walk it.\nhttps://www.google.com/maps/search/?api=1&query=Shinsaibashi%20arcade%2C%2034.67278%2C135.50125
 LOCATION:Shinsaibashi-suji Shopping Street\, Chuo\, Osaka
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shinsaibashi%20arcade%2C%2034.67278%2C135.50125
+URL:https://www.google.com/maps/search/?api=1&query=Shinsaibashi%20arcade%2C%2034.67278%2C135.50125
 GEO:34.67278;135.50125
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T083000Z
 DTEND:20251204T095500Z
 SUMMARY:Mizuno okonomiyaki
-DESCRIPTION:Michelin Bib Gourmand.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mizuno%20okonomiyaki%2C%2034.6685%2C135.5011
+DESCRIPTION:Michelin Bib Gourmand.\nhttps://www.google.com/maps/search/?api=1&query=Mizuno%20okonomiyaki%2C%2034.6685%2C135.5011
 LOCATION:34.6685\,135.5011
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mizuno%20okonomiyaki%2C%2034.6685%2C135.5011
+URL:https://www.google.com/maps/search/?api=1&query=Mizuno%20okonomiyaki%2C%2034.6685%2C135.5011
 GEO:34.6685;135.5011
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-8@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T100000Z
 DTEND:20251204T112500Z
 SUMMARY:Kushikatsu Daruma Dotonbori
-DESCRIPTION:ONE-DIP rule!\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kushikatsu%20Daruma%20Dotonbori%2C%2034.6688%2C135.5018
+DESCRIPTION:ONE-DIP rule!\nhttps://www.google.com/maps/search/?api=1&query=Kushikatsu%20Daruma%20Dotonbori%2C%2034.6688%2C135.5018
 LOCATION:34.6688\,135.5018
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kushikatsu%20Daruma%20Dotonbori%2C%2034.6688%2C135.5018
+URL:https://www.google.com/maps/search/?api=1&query=Kushikatsu%20Daruma%20Dotonbori%2C%2034.6688%2C135.5018
 GEO:34.6688;135.5018
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d11-9@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251204T113000Z
 DTEND:20251204T123000Z
 SUMMARY:Hozenji Yokocho
-DESCRIPTION:Moss-covered Buddha\, tiny bars. Map opens at Hozen-ji Temple (moss Buddha).\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hozenji%20Yokocho%2C%2034.66816%2C135.50171
+DESCRIPTION:Moss-covered Buddha\, tiny bars. Map opens at Hozen-ji Temple (moss Buddha).\nhttps://www.google.com/maps/search/?api=1&query=Hozenji%20Yokocho%2C%2034.66816%2C135.50171
 LOCATION:Hozen-ji Temple\, 1-2-16 Namba\, Chuo\, Osaka
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hozenji%20Yokocho%2C%2034.66816%2C135.50171
+URL:https://www.google.com/maps/search/?api=1&query=Hozenji%20Yokocho%2C%2034.66816%2C135.50171
 GEO:34.66816;135.50171
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d12-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T003000Z
 DTEND:20251205T023000Z
 SUMMARY:Kuromon Ichiba Market
-DESCRIPTION:Uni\, wagyu\, oysters.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kuromon%20Ichiba%20Market%2C%2034.6655%2C135.5066
+DESCRIPTION:Uni\, wagyu\, oysters.\nhttps://www.google.com/maps/search/?api=1&query=Kuromon%20Ichiba%20Market%2C%2034.6655%2C135.5066
 LOCATION:34.6655\,135.5066
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kuromon%20Ichiba%20Market%2C%2034.6655%2C135.5066
+URL:https://www.google.com/maps/search/?api=1&query=Kuromon%20Ichiba%20Market%2C%2034.6655%2C135.5066
 GEO:34.6655;135.5066
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d12-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T033000Z
 DTEND:20251205T034500Z
 SUMMARY:Koshien Station
-DESCRIPTION:Hanshin Main Line from Umeda or Namba. ~30 min.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Koshien%20Station%2C%2034.7237%2C135.3633
+DESCRIPTION:Hanshin Main Line from Umeda or Namba. ~30 min.\nhttps://www.google.com/maps/search/?api=1&query=Koshien%20Station%2C%2034.7237%2C135.3633
 LOCATION:34.7237\,135.3633
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Koshien%20Station%2C%2034.7237%2C135.3633
+URL:https://www.google.com/maps/search/?api=1&query=Koshien%20Station%2C%2034.7237%2C135.3633
 GEO:34.7237;135.3633
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d12-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T034500Z
 DTEND:20251205T054500Z
 SUMMARY:Hanshin Koshien Stadium
-DESCRIPTION:Tigers official store (brother's hat) + Koshien History Museum. Stadium tour available if pre-booked. Famous yakisoba shop across the street if hungry. Allow 2-3 hours.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hanshin%20Koshien%20Stadium%2C%2034.7212%2C135.3614
+DESCRIPTION:Tigers official store (brother's hat) + Koshien History Museum. Stadium tour available if pre-booked. Famous yakisoba shop across the street if hungry. Allow 2-3 hours.\nhttps://www.google.com/maps/search/?api=1&query=Hanshin%20Koshien%20Stadium%2C%2034.7212%2C135.3614
 LOCATION:34.7212\,135.3614
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hanshin%20Koshien%20Stadium%2C%2034.7212%2C135.3614
+URL:https://www.google.com/maps/search/?api=1&query=Hanshin%20Koshien%20Stadium%2C%2034.7212%2C135.3614
 GEO:34.7212;135.3614
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d12-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T070000Z
 DTEND:20251205T082500Z
 SUMMARY:Tsutenkaku Tower
-DESCRIPTION:1956 retro neon.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Tsutenkaku%20Tower%2C%2034.6524%2C135.5063
+DESCRIPTION:1956 retro neon.\nhttps://www.google.com/maps/search/?api=1&query=Tsutenkaku%20Tower%2C%2034.6524%2C135.5063
 LOCATION:34.6524\,135.5063
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Tsutenkaku%20Tower%2C%2034.6524%2C135.5063
+URL:https://www.google.com/maps/search/?api=1&query=Tsutenkaku%20Tower%2C%2034.6524%2C135.5063
 GEO:34.6524;135.5063
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d12-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T083000Z
 DTEND:20251205T095500Z
 SUMMARY:Janjan Yokocho
-DESCRIPTION:Lantern alley. Map opens at the entrance arch.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Janjan%20Yokocho%2C%2034.65149%2C135.50609
+DESCRIPTION:Lantern alley. Map opens at the entrance arch.\nhttps://www.google.com/maps/search/?api=1&query=Janjan%20Yokocho%2C%2034.65149%2C135.50609
 LOCATION:Janjan Yokocho arcade entrance\, Naniwa\, Osaka
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Janjan%20Yokocho%2C%2034.65149%2C135.50609
+URL:https://www.google.com/maps/search/?api=1&query=Janjan%20Yokocho%2C%2034.65149%2C135.50609
 GEO:34.65149;135.50609
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d12-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T100000Z
 DTEND:20251205T120000Z
 SUMMARY:Kushikatsu Daruma Shinsekai
-DESCRIPTION:Original location.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kushikatsu%20Daruma%20Shinsekai%2C%2034.6518%2C135.5063
+DESCRIPTION:Original location.\nhttps://www.google.com/maps/search/?api=1&query=Kushikatsu%20Daruma%20Shinsekai%2C%2034.6518%2C135.5063
 LOCATION:34.6518\,135.5063
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kushikatsu%20Daruma%20Shinsekai%2C%2034.6518%2C135.5063
+URL:https://www.google.com/maps/search/?api=1&query=Kushikatsu%20Daruma%20Shinsekai%2C%2034.6518%2C135.5063
 GEO:34.6518;135.5063
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d12-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T123000Z
 DTEND:20251205T133000Z
 SUMMARY:Bar Nayuta · speakeasy
-DESCRIPTION:Dotonbori-area speakeasy. Hidden door\, classic + creative cocktails\, intimate bar. Walk 15 min back from Shinsekai to Namba. Cocktails ¥1500–2500. Cash preferred.\n~4000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bar%20Nayuta%20%C2%B7%20speakeasy%2C%2034.665%2C135.5025
+DESCRIPTION:Dotonbori-area speakeasy. Hidden door\, classic + creative cocktails\, intimate bar. Walk 15 min back from Shinsekai to Namba. Cocktails ¥1500–2500. Cash preferred.\n~4000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Bar%20Nayuta%20%C2%B7%20speakeasy%2C%2034.665%2C135.5025
 LOCATION:2-3-3 Sennichimae\, Chuo Ward\, Osaka
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bar%20Nayuta%20%C2%B7%20speakeasy%2C%2034.665%2C135.5025
+URL:https://www.google.com/maps/search/?api=1&query=Bar%20Nayuta%20%C2%B7%20speakeasy%2C%2034.665%2C135.5025
 GEO:34.665;135.5025
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d13-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251206T053000Z
 DTEND:20251206T055500Z
 SUMMARY:Tokyo Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Tokyo%20Station%2C%2035.6812%2C139.7671
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Tokyo%20Station%2C%2035.6812%2C139.7671
 LOCATION:35.6812\,139.7671
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Tokyo%20Station%2C%2035.6812%2C139.7671
+URL:https://www.google.com/maps/search/?api=1&query=Tokyo%20Station%2C%2035.6812%2C139.7671
 GEO:35.6812;139.7671
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d13-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251206T060000Z
 DTEND:20251206T072500Z
 SUMMARY:Hotel check-in (finale)
-DESCRIPTION:TRUNK Yoyogi Park.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20check-in%20(finale)%2C%2035.6707%2C139.6957
+DESCRIPTION:TRUNK Yoyogi Park.\nhttps://www.google.com/maps/search/?api=1&query=Hotel%20check-in%20(finale)%2C%2035.6707%2C139.6957
 LOCATION:35.6707\,139.6957
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20check-in%20(finale)%2C%2035.6707%2C139.6957
+URL:https://www.google.com/maps/search/?api=1&query=Hotel%20check-in%20(finale)%2C%2035.6707%2C139.6957
 GEO:35.6707;139.6957
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d13-2b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251206T073000Z
 DTEND:20251206T092500Z
 SUMMARY:Fuglen Tokyo
-DESCRIPTION:Quiet Saturday-afternoon reset before Takarazuka. Norwegian roastery in a Scandinavian-modern Tomigaya space — Reddit's go-to chill coffee spot near Yoyogi/Shibuya. ~10 min walk from TRUNK.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Fuglen%20Tokyo%2C%2035.6678%2C139.6889
+DESCRIPTION:Quiet Saturday-afternoon reset before Takarazuka. Norwegian roastery in a Scandinavian-modern Tomigaya space — Reddit's go-to chill coffee spot near Yoyogi/Shibuya. ~10 min walk from TRUNK.\nhttps://www.google.com/maps/search/?api=1&query=Fuglen%20Tokyo%2C%2035.6678%2C139.6889
 LOCATION:1-16-11 Tomigaya\, Shibuya-ku\, Tokyo
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Fuglen%20Tokyo%2C%2035.6678%2C139.6889
+URL:https://www.google.com/maps/search/?api=1&query=Fuglen%20Tokyo%2C%2035.6678%2C139.6889
 GEO:35.6678;139.6889
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d13-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251206T093000Z
 DTEND:20251206T095500Z
 SUMMARY:Yurakucho Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yurakucho%20Station%2C%2035.6749%2C139.7634
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Yurakucho%20Station%2C%2035.6749%2C139.7634
 LOCATION:35.6749\,139.7634
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Yurakucho%20Station%2C%2035.6749%2C139.7634
+URL:https://www.google.com/maps/search/?api=1&query=Yurakucho%20Station%2C%2035.6749%2C139.7634
 GEO:35.6749;139.7634
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d13-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251206T100000Z
 DTEND:20251206T110000Z
 SUMMARY:Takarazuka Tokyo Theater
-DESCRIPTION:All-female revue. ¥4–12K.\n~8000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Takarazuka%20Tokyo%20Theater%2C%2035.674%2C139.7613
+DESCRIPTION:All-female revue. ¥4–12K.\n~8000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Takarazuka%20Tokyo%20Theater%2C%2035.674%2C139.7613
 LOCATION:35.674\,139.7613
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Takarazuka%20Tokyo%20Theater%2C%2035.674%2C139.7613
+URL:https://www.google.com/maps/search/?api=1&query=Takarazuka%20Tokyo%20Theater%2C%2035.674%2C139.7613
 GEO:35.674;139.7613
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T003000Z
 DTEND:20251207T005500Z
 SUMMARY:Roppongi Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Roppongi%20Station%2C%2035.6627%2C139.7311
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Roppongi%20Station%2C%2035.6627%2C139.7311
 LOCATION:35.6627\,139.7311
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Roppongi%20Station%2C%2035.6627%2C139.7311
+URL:https://www.google.com/maps/search/?api=1&query=Roppongi%20Station%2C%2035.6627%2C139.7311
 GEO:35.6627;139.7311
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T010000Z
 DTEND:20251207T030000Z
 SUMMARY:Mori Art Museum
-DESCRIPTION:53rd floor Roppongi Hills.\n~2200 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mori%20Art%20Museum%2C%2035.6605%2C139.729
+DESCRIPTION:53rd floor Roppongi Hills.\n~2200 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Mori%20Art%20Museum%2C%2035.6605%2C139.729
 LOCATION:35.6605\,139.729
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mori%20Art%20Museum%2C%2035.6605%2C139.729
+URL:https://www.google.com/maps/search/?api=1&query=Mori%20Art%20Museum%2C%2035.6605%2C139.729
 GEO:35.6605;139.729
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T040000Z
 DTEND:20251207T045500Z
 SUMMARY:Lunch in Roppongi Hills
-DESCRIPTION:Roppongi Hills mall and the surrounding streets have everything — Toraya for sweets\, Tsurutontan for udon\, Bricolage Bread & Co for casual.\n~2500 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Lunch%20in%20Roppongi%20Hills%2C%2035.6605%2C139.7295
+DESCRIPTION:Roppongi Hills mall and the surrounding streets have everything — Toraya for sweets\, Tsurutontan for udon\, Bricolage Bread & Co for casual.\n~2500 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Lunch%20in%20Roppongi%20Hills%2C%2035.6605%2C139.7295
 LOCATION:Roppongi Hills\, Minato City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Lunch%20in%20Roppongi%20Hills%2C%2035.6605%2C139.7295
+URL:https://www.google.com/maps/search/?api=1&query=Lunch%20in%20Roppongi%20Hills%2C%2035.6605%2C139.7295
 GEO:35.6605;139.7295
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T050000Z
 DTEND:20251207T070000Z
 SUMMARY:National Art Center
-DESCRIPTION:Kurokawa's wavy glass facade — the building itself is the attraction even if the rotating exhibit doesn't grab you. Free to wander the atrium + cone-shaped cafe inside.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=National%20Art%20Center%2C%2035.6651%2C139.7268
+DESCRIPTION:Kurokawa's wavy glass facade — the building itself is the attraction even if the rotating exhibit doesn't grab you. Free to wander the atrium + cone-shaped cafe inside.\nhttps://www.google.com/maps/search/?api=1&query=National%20Art%20Center%2C%2035.6651%2C139.7268
 LOCATION:35.6651\,139.7268
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=National%20Art%20Center%2C%2035.6651%2C139.7268
+URL:https://www.google.com/maps/search/?api=1&query=National%20Art%20Center%2C%2035.6651%2C139.7268
 GEO:35.6651;139.7268
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-4b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T073000Z
 DTEND:20251207T075500Z
 SUMMARY:Shibuya Scramble Crossing
-DESCRIPTION:Walk across Tokyo's iconic intersection — 3\,000 people per light cycle. Take the photo from the Starbucks above (Tsutaya 2F\, free). 3 min walk to the Hachiko statue. 20-30 min total before going up Sky.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shibuya%20Scramble%20Crossing%2C%2035.6595%2C139.7004
+DESCRIPTION:Walk across Tokyo's iconic intersection — 3\,000 people per light cycle. Take the photo from the Starbucks above (Tsutaya 2F\, free). 3 min walk to the Hachiko statue. 20-30 min total before going up Sky.\nhttps://www.google.com/maps/search/?api=1&query=Shibuya%20Scramble%20Crossing%2C%2035.6595%2C139.7004
 LOCATION:Shibuya Crossing\, Shibuya City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shibuya%20Scramble%20Crossing%2C%2035.6595%2C139.7004
+URL:https://www.google.com/maps/search/?api=1&query=Shibuya%20Scramble%20Crossing%2C%2035.6595%2C139.7004
 GEO:35.6595;139.7004
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T080000Z
 DTEND:20251207T095500Z
 SUMMARY:Shibuya Sky
-DESCRIPTION:Sunset rooftop — you'll be looking DOWN at the Scramble you just walked. Pre-book the 5pm slot online.\n~3100 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shibuya%20Sky%2C%2035.6587%2C139.7016
+DESCRIPTION:Sunset rooftop — you'll be looking DOWN at the Scramble you just walked. Pre-book the 5pm slot online.\n~3100 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Shibuya%20Sky%2C%2035.6587%2C139.7016
 LOCATION:35.6587\,139.7016
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shibuya%20Sky%2C%2035.6587%2C139.7016
+URL:https://www.google.com/maps/search/?api=1&query=Shibuya%20Sky%2C%2035.6587%2C139.7016
 GEO:35.6587;139.7016
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-6@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T100000Z
 DTEND:20251207T120000Z
 SUMMARY:Sushi Hashimoto omakase
-DESCRIPTION:Book 4–6 weeks ahead.\n~35000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Sushi%20Hashimoto%20omakase%2C%2035.6648%2C139.757
+DESCRIPTION:Book 4–6 weeks ahead.\n~35000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Sushi%20Hashimoto%20omakase%2C%2035.6648%2C139.757
 LOCATION:35.6648\,139.757
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Sushi%20Hashimoto%20omakase%2C%2035.6648%2C139.757
+URL:https://www.google.com/maps/search/?api=1&query=Sushi%20Hashimoto%20omakase%2C%2035.6648%2C139.757
 GEO:35.6648;139.757
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d14-7@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T123000Z
 DTEND:20251207T133000Z
 SUMMARY:Bar High Five · nightcap
-DESCRIPTION:Hidetsugu Ueno's legendary Ginza bar — 5 min walk from Hashimoto. Classic cocktails\, no music\, intimate counter. Reservation strongly recommended. ¥3-4K per cocktail. The full-stop on the best night of the trip.\n~5000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bar%20High%20Five%20%C2%B7%20nightcap%2C%2035.671%2C139.7641
+DESCRIPTION:Hidetsugu Ueno's legendary Ginza bar — 5 min walk from Hashimoto. Classic cocktails\, no music\, intimate counter. Reservation strongly recommended. ¥3-4K per cocktail. The full-stop on the best night of the trip.\n~5000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Bar%20High%20Five%20%C2%B7%20nightcap%2C%2035.671%2C139.7641
 LOCATION:Efflore Ginza 5 Building B1\, 5-4-15 Ginza\, Chuo City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Bar%20High%20Five%20%C2%B7%20nightcap%2C%2035.671%2C139.7641
+URL:https://www.google.com/maps/search/?api=1&query=Bar%20High%20Five%20%C2%B7%20nightcap%2C%2035.671%2C139.7641
 GEO:35.671;139.7641
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d15-0a@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T223000Z
 DTEND:20251207T225500Z
 SUMMARY:Tsukiji Outer Market
-DESCRIPTION:The original fish-market site (the auction moved to Toyosu but the outer market stayed). Best between 7-9 AM. Sushi-for-breakfast vibes\, knife shops\, tamago skewers\, tuna nigiri at counter pace. Walking distance to Ginza for the rest of the day.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Tsukiji%20Outer%20Market%2C%2035.6655%2C139.7707
+DESCRIPTION:The original fish-market site (the auction moved to Toyosu but the outer market stayed). Best between 7-9 AM. Sushi-for-breakfast vibes\, knife shops\, tamago skewers\, tuna nigiri at counter pace. Walking distance to Ginza for the rest of the day.\nhttps://www.google.com/maps/search/?api=1&query=Tsukiji%20Outer%20Market%2C%2035.6655%2C139.7707
 LOCATION:Tsukiji Outer Market\, 4 Chome Tsukiji\, Chuo City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Tsukiji%20Outer%20Market%2C%2035.6655%2C139.7707
+URL:https://www.google.com/maps/search/?api=1&query=Tsukiji%20Outer%20Market%2C%2035.6655%2C139.7707
 GEO:35.6655;139.7707
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d15-0b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251207T230000Z
 DTEND:20251208T010000Z
 SUMMARY:Endo Sushi (Tsukiji)
-DESCRIPTION:Sushi for breakfast — the Tsukiji ritual. ¥3000-5000 pp set menus\, sit at the counter\, watch the chef work. Lines move fast 8-9 AM.\n~4000 JPY pp\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Endo%20Sushi%20(Tsukiji)%2C%2035.6661%2C139.7703
+DESCRIPTION:Sushi for breakfast — the Tsukiji ritual. ¥3000-5000 pp set menus\, sit at the counter\, watch the chef work. Lines move fast 8-9 AM.\n~4000 JPY pp\nhttps://www.google.com/maps/search/?api=1&query=Endo%20Sushi%20(Tsukiji)%2C%2035.6661%2C139.7703
 LOCATION:Tsukiji Outer Market\, Chuo City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Endo%20Sushi%20(Tsukiji)%2C%2035.6661%2C139.7703
+URL:https://www.google.com/maps/search/?api=1&query=Endo%20Sushi%20(Tsukiji)%2C%2035.6661%2C139.7703
 GEO:35.6661;139.7703
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d15-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251208T020000Z
 DTEND:20251208T032500Z
 SUMMARY:Dover Street Market Ginza
-DESCRIPTION:7 floors of high concept.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Dover%20Street%20Market%20Ginza%2C%2035.6695%2C139.7634
+DESCRIPTION:7 floors of high concept.\nhttps://www.google.com/maps/search/?api=1&query=Dover%20Street%20Market%20Ginza%2C%2035.6695%2C139.7634
 LOCATION:35.6695\,139.7634
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Dover%20Street%20Market%20Ginza%2C%2035.6695%2C139.7634
+URL:https://www.google.com/maps/search/?api=1&query=Dover%20Street%20Market%20Ginza%2C%2035.6695%2C139.7634
 GEO:35.6695;139.7634
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d15-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251208T033000Z
 DTEND:20251208T052500Z
 SUMMARY:G. Itoya stationery
-DESCRIPTION:8 floors of paper goods.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=G.%20Itoya%20stationery%2C%2035.6726%2C139.766
+DESCRIPTION:8 floors of paper goods.\nhttps://www.google.com/maps/search/?api=1&query=G.%20Itoya%20stationery%2C%2035.6726%2C139.766
 LOCATION:35.6726\,139.766
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=G.%20Itoya%20stationery%2C%2035.6726%2C139.766
+URL:https://www.google.com/maps/search/?api=1&query=G.%20Itoya%20stationery%2C%2035.6726%2C139.766
 GEO:35.6726;139.766
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d15-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251208T053000Z
 DTEND:20251208T073000Z
 SUMMARY:Cat Street vintage cluster (Harajuku)
-DESCRIPTION:Better fit-odds than Shimokita for tall/broader bodies — these are US-sourced. Walk Cat Street + side alleys: 2nd Street (consistent sizing)\, BerBerJin (Western Levi's including bigger waists)\, Komehyo Harajuku (used designer\, accurate sizing)\, Atlantis Vintage (US/EU vintage). Skip Kinji/Pin Nap (small Japanese-only sizing).\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Cat%20Street%20vintage%20cluster%20(Harajuku)%2C%2035.6692%2C139.7068
+DESCRIPTION:Better fit-odds than Shimokita for tall/broader bodies — these are US-sourced. Walk Cat Street + side alleys: 2nd Street (consistent sizing)\, BerBerJin (Western Levi's including bigger waists)\, Komehyo Harajuku (used designer\, accurate sizing)\, Atlantis Vintage (US/EU vintage). Skip Kinji/Pin Nap (small Japanese-only sizing).\nhttps://www.google.com/maps/search/?api=1&query=Cat%20Street%20vintage%20cluster%20(Harajuku)%2C%2035.6692%2C139.7068
 LOCATION:Cat Street\, Jingumae\, Shibuya City
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Cat%20Street%20vintage%20cluster%20(Harajuku)%2C%2035.6692%2C139.7068
+URL:https://www.google.com/maps/search/?api=1&query=Cat%20Street%20vintage%20cluster%20(Harajuku)%2C%2035.6692%2C139.7068
 GEO:35.6692;139.7068
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d15-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251208T093000Z
 DTEND:20251208T112500Z
 SUMMARY:Shimokitazawa Station
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
 LOCATION:35.6614\,139.6671
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
+URL:https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Station%2C%2035.6614%2C139.6671
 GEO:35.6614;139.6671
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d15-5@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251208T113000Z
 DTEND:20251208T123000Z
 SUMMARY:Shelter / Basement Bar live house
-DESCRIPTION:Underground music. ¥3–5K cover.\nhttps://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shelter%20%2F%20Basement%20Bar%20live%20house%2C%2035.6612%2C139.6675
+DESCRIPTION:Underground music. ¥3–5K cover.\nhttps://www.google.com/maps/search/?api=1&query=Shelter%20%2F%20Basement%20Bar%20live%20house%2C%2035.6612%2C139.6675
 LOCATION:35.6612\,139.6675
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shelter%20%2F%20Basement%20Bar%20live%20house%2C%2035.6612%2C139.6675
+URL:https://www.google.com/maps/search/?api=1&query=Shelter%20%2F%20Basement%20Bar%20live%20house%2C%2035.6612%2C139.6675
 GEO:35.6612;139.6675
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d16-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251208T230000Z
 DTEND:20251209T010000Z
 SUMMARY:Hotel checkout
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20checkout%2C%2035.6707%2C139.6957
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Hotel%20checkout%2C%2035.6707%2C139.6957
 LOCATION:35.6707\,139.6957
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Hotel%20checkout%2C%2035.6707%2C139.6957
+URL:https://www.google.com/maps/search/?api=1&query=Hotel%20checkout%2C%2035.6707%2C139.6957
 GEO:35.6707;139.6957
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-d16-2@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251209T023000Z
 DTEND:20251209T033000Z
 SUMMARY:Haneda Airport departure
-DESCRIPTION:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Haneda%20Airport%20departure%2C%2035.5494%2C139.7798
+DESCRIPTION:https://www.google.com/maps/search/?api=1&query=Haneda%20Airport%20departure%2C%2035.5494%2C139.7798
 LOCATION:35.5494\,139.7798
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Haneda%20Airport%20departure%2C%2035.5494%2C139.7798
+URL:https://www.google.com/maps/search/?api=1&query=Haneda%20Airport%20departure%2C%2035.5494%2C139.7798
 GEO:35.5494;139.7798
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-ic-1@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251126T150000Z
 DTEND:20251126T170000Z
 SUMMARY:Limited express Shinjuku → Kawaguchiko
 DESCRIPTION:Fuji Excursion\n4130 JPY pp\nReserved seats.
 LOCATION:Shinjuku → Kawaguchiko
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shinjuku%2C%2035.6896%2C139.7006
+URL:https://www.google.com/maps/search/?api=1&query=Shinjuku%2C%2035.6896%2C139.7006
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-ic-2a@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251129T150000Z
 DTEND:20251129T170000Z
 SUMMARY:Bus Kawaguchiko → Mishima
 DESCRIPTION:Fujikyu Highway Bus\n2300 JPY pp
 LOCATION:Kawaguchiko → Mishima
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kawaguchiko%2C%2035.5009%2C138.7592
+URL:https://www.google.com/maps/search/?api=1&query=Kawaguchiko%2C%2035.5009%2C138.7592
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-ic-2b@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251129T150000Z
 DTEND:20251129T170000Z
 SUMMARY:Shinkansen Mishima → Kyoto
 DESCRIPTION:Tokaido Hikari\n11500 JPY pp
 LOCATION:Mishima → Kyoto
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Mishima%2C%2035.1281%2C138.9117
+URL:https://www.google.com/maps/search/?api=1&query=Mishima%2C%2035.1281%2C138.9117
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-ic-3@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251203T150000Z
 DTEND:20251203T151400Z
 SUMMARY:Shinkansen Kyoto → Shin-Osaka
 DESCRIPTION:Tokaido Hikari/Kodama\n1440 JPY pp
 LOCATION:Kyoto → Shin-Osaka
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kyoto%2C%2034.9858%2C135.7585
+URL:https://www.google.com/maps/search/?api=1&query=Kyoto%2C%2034.9858%2C135.7585
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-ic-4@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART:20251205T150000Z
 DTEND:20251205T173000Z
 SUMMARY:Shinkansen Shin-Osaka → Tokyo
 DESCRIPTION:Tokaido Nozomi\n14720 JPY pp\nReserved seats.
 LOCATION:Shin-Osaka → Tokyo
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Shin-Osaka%2C%2034.7339%2C135.5003
+URL:https://www.google.com/maps/search/?api=1&query=Shin-Osaka%2C%2034.7339%2C135.5003
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-hotel-tokyo-start@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART;VALUE=DATE:20251124
 DTEND;VALUE=DATE:20251127
 SUMMARY:Hotel · TRUNK Hotel Yoyogi Park
 DESCRIPTION:Shortlist — design boutique. Replace once booked.
 LOCATION:Harajuku / Yoyogi
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=TRUNK%20Hotel%20Yoyogi%20Park%2C%2035.6707%2C139.6957
+URL:https://www.google.com/maps/search/?api=1&query=TRUNK%20Hotel%20Yoyogi%20Park%2C%2035.6707%2C139.6957
 GEO:35.6707;139.6957
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-hotel-fuji@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART;VALUE=DATE:20251127
 DTEND;VALUE=DATE:20251130
 SUMMARY:Hotel · Kozantei Ubuya
 DESCRIPTION:Lakefront ryokan with Fuji view.
 LOCATION:Lake Kawaguchi
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Kozantei%20Ubuya%2C%2035.5096%2C138.771
+URL:https://www.google.com/maps/search/?api=1&query=Kozantei%20Ubuya%2C%2035.5096%2C138.771
 GEO:35.5096;138.771
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-hotel-kyoto@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251204
 SUMMARY:Hotel · The Thousand Kyoto
 DESCRIPTION:Shortlist.
 LOCATION:Kyoto Station
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=The%20Thousand%20Kyoto%2C%2034.9854%2C135.7589
+URL:https://www.google.com/maps/search/?api=1&query=The%20Thousand%20Kyoto%2C%2034.9854%2C135.7589
 GEO:34.9854;135.7589
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-hotel-osaka@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART;VALUE=DATE:20251204
 DTEND;VALUE=DATE:20251206
 SUMMARY:Hotel · Cross Hotel Osaka
 DESCRIPTION:Shortlist.
 LOCATION:Namba / Dotonbori
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=Cross%20Hotel%20Osaka%2C%2034.6724%2C135.4974
+URL:https://www.google.com/maps/search/?api=1&query=Cross%20Hotel%20Osaka%2C%2034.6724%2C135.4974
 GEO:34.6724;135.4974
 END:VEVENT
 BEGIN:VEVENT
 UID:japan-honeymoon-2025-hotel-tokyo-end@trip-atlas
-DTSTAMP:20260614T122405Z
+DTSTAMP:20260614T123013Z
 DTSTART;VALUE=DATE:20251206
 DTEND;VALUE=DATE:20251209
 SUMMARY:Hotel · TRUNK Hotel Yoyogi Park
 DESCRIPTION:Same as start.
 LOCATION:Harajuku / Yoyogi
-URL:https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=TRUNK%20Hotel%20Yoyogi%20Park%2C%2035.6707%2C139.6957
+URL:https://www.google.com/maps/search/?api=1&query=TRUNK%20Hotel%20Yoyogi%20Park%2C%2035.6707%2C139.6957
 GEO:35.6707;139.6957
 END:VEVENT
 END:VCALENDAR

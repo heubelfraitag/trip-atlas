@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
-import { dirUrlFor, type MapsApp } from '../lib/maps';
+import { placeUrlFor, type MapsApp } from '../lib/maps';
 import { getMapsAppPreference, setMapsAppPreference } from '../lib/storage';
 
 interface Props {
   lat: number;
   lng: number;
   name?: string;
+  /** Kept for API compatibility — unused in place-card mode. */
   mode?: 'transit' | 'walking' | 'driving';
   label?: string;
   size?: 'sm' | 'md';
@@ -15,7 +16,6 @@ export default function OpenInMapsButton({
   lat,
   lng,
   name,
-  mode = 'transit',
   label = 'Open in Maps',
   size = 'sm',
 }: Props) {
@@ -30,10 +30,10 @@ export default function OpenInMapsButton({
     setMapsAppPreference(next);
     setApp(next);
     setOpen(false);
-    window.open(dirUrlFor(next, lat, lng, mode, name), '_blank', 'noopener,noreferrer');
+    window.open(placeUrlFor(next, lat, lng, name), '_blank', 'noopener,noreferrer');
   }
 
-  const url = dirUrlFor(app, lat, lng, mode, name);
+  const url = placeUrlFor(app, lat, lng, name);
   const sz = size === 'md' ? 'px-3 py-2 text-xs' : 'px-2.5 py-1.5 text-[11px]';
 
   return (

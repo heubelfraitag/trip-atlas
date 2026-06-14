@@ -18,14 +18,24 @@ export function googleMapsDirUrl(
   return `https://www.google.com/maps/dir/?${params.toString()}`;
 }
 
-/** Open a single place card (no directions). */
+/**
+ * Open a place card in Google Maps — shows photos, reviews, hours.
+ * User can tap "Directions" themselves if they want to navigate.
+ * Format query as "name, lat,lng" so Google resolves to the right business
+ * without forcing directions mode (which often fails for transit-only routes).
+ */
 export function googleMapsPlaceUrl(lat: number, lng: number, name?: string): string {
-  if (name) {
-    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-      name
-    )}&query_lat=${lat}&query_lng=${lng}`;
-  }
-  return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+  const q = name ? `${name}, ${lat},${lng}` : `${lat},${lng}`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
+/** Apple Maps place-card URL. Opens search for the place; user taps Directions themselves. */
+export function appleMapsPlaceUrl(lat: number, lng: number, name?: string): string {
+  const params = new URLSearchParams();
+  if (name) params.set('q', name);
+  else params.set('q', `${lat},${lng}`);
+  params.set('ll', `${lat},${lng}`);
+  return `https://maps.apple.com/?${params.toString()}`;
 }
 
 /**
@@ -59,6 +69,21 @@ export function dirUrlFor(
   return app === 'apple'
     ? appleMapsDirUrl(lat, lng, travelmode, destinationName)
     : googleMapsDirUrl(lat, lng, travelmode, destinationName);
+}
+
+/**
+ * Open a place card in the user's preferred Maps app — shows photos, reviews,
+ * hours. User can tap Directions themselves if they want to navigate.
+ */
+export function placeUrlFor(
+  app: MapsApp,
+  lat: number,
+  lng: number,
+  name?: string
+): string {
+  return app === 'apple'
+    ? appleMapsPlaceUrl(lat, lng, name)
+    : googleMapsPlaceUrl(lat, lng, name);
 }
 
 export const CATEGORY_LABEL: Record<Category, string> = {

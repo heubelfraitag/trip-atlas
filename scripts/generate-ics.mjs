@@ -186,7 +186,7 @@ function esc(s) {
 }
 
 function gMapsHref(lat, lng, name) {
-  return `https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=${encodeURIComponent(
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
     name + ', ' + lat + ',' + lng
   )}`;
 }

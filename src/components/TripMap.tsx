@@ -8,7 +8,7 @@ import {
   TRANSIT_STYLE,
   decodePolyline,
   haversineM,
-  googleMapsDirUrl,
+  googleMapsPlaceUrl,
 } from '../lib/maps';
 import { getUserIdeas, type UserIdea } from '../lib/storage';
 import { dayHue } from '../lib/dayColor';
@@ -101,7 +101,7 @@ function popupHtml(opts: {
 }): string {
   const link = opts.hideMapsLink
     ? ''
-    : `<a href="${googleMapsDirUrl(opts.lat, opts.lng, 'transit', opts.title)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 10px;background:#b5391f;color:#f5ede0;border-radius:4px;text-decoration:none;font-size:11px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;">Open in Maps →</a>`;
+    : `<a href="${googleMapsPlaceUrl(opts.lat, opts.lng, opts.title)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:6px 10px;background:#b5391f;color:#f5ede0;border-radius:4px;text-decoration:none;font-size:11px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;">Open in Maps →</a>`;
   const photo = opts.photoUrl
     ? `<img src="${opts.photoUrl}" loading="lazy" style="display:block;width:100%;max-height:120px;object-fit:cover;border-radius:6px;margin-top:6px;" />`
     : '';
@@ -313,13 +313,66 @@ export default function TripMap({
       intercityCovered.add(`${t.date}|${b}|${a}`);
     }
 
+    // Helpers for finding the day's start/end hotel.
+    // - Start hotel: the one you're CHECKING OUT of today (checkOut == date).
+    // - End hotel: the one you're CHECKING IN to today (checkIn == date).
+    // - Otherwise the hotel that covers this date is both start and end.
+    function findStartHotel(dayDate: string) {
+      return (
+        trip.hotels.find((h) => h.checkOut === dayDate) ||
+        trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
+      );
+    }
+    function findEndHotel(dayDate: string) {
+      return (
+        trip.hotels.find((h) => h.checkIn === dayDate) ||
+        trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
+      );
+    }
+    function sameSpot(a: { lat: number; lng: number }, b: { lat: number; lng: number }) {
+      return Math.abs(a.lat - b.lat) < 1e-4 && Math.abs(a.lng - b.lng) < 1e-4;
+    }
+
+    function chooseStyle(distM: number) {
+      return distM <= 1500 ? TRANSIT_STYLE.walk : TRANSIT_STYLE.subway;
+    }
+
     // Day-level activities + per-day links
     const totalDays = trip.days.length;
     trip.days.forEach((day) => {
       const acts = day.activities.filter((a) => showSolo || !a.soloOnly);
-      // Number of legs we'll actually try to draw (excluding free-time + intercity-covered)
-      const legCount = acts.length - 1;
+      if (acts.length === 0) return;
+
+      const startHotel = findStartHotel(day.date);
+      const endHotel = findEndHotel(day.date);
+      const firstAct = acts[0];
+      const lastAct = acts[acts.length - 1];
+      const drawStartLeg = !!startHotel && !sameSpot(startHotel, firstAct);
+      const drawEndLeg = !!endHotel && !sameSpot(endHotel, lastAct);
+
+      // Total legs = N-1 between consecutive activities + optional hotel-start + optional hotel-end
+      const legCount = acts.length - 1 + (drawStartLeg ? 1 : 0) + (drawEndLeg ? 1 : 0);
       let legIndex = 0;
+
+      // Draw hotel → first activity (morning departure)
+      if (drawStartLeg && startHotel) {
+        const a: [number, number] = [startHotel.lat, startHotel.lng];
+        const b: [number, number] = [firstAct.lat, firstAct.lng];
+        const distM = haversineM(a, b);
+        const baseStyle = chooseStyle(distM);
+        const gradientColor = dayLegColor(day.dayNumber, totalDays, legIndex, legCount);
+        const styleWithGradient = { ...baseStyle, color: gradientColor, weight: 4 };
+        const line = L.polyline([a, b], { renderer, ...styleWithGradient }).addTo(layer);
+        linesRef.current.push({
+          line,
+          baseStyle: styleWithGradient,
+          kind: 'day-link',
+          dayNumber: day.dayNumber,
+          date: day.date,
+          endpoints: [a, b],
+        });
+        legIndex++;
+      }
 
       acts.forEach((act, i) => {
         // free-time blocks don't get a map pin
@@ -400,6 +453,26 @@ export default function TripMap({
         });
         legIndex++;
       });
+
+      // Draw last activity → hotel (evening return)
+      if (drawEndLeg && endHotel) {
+        const a: [number, number] = [lastAct.lat, lastAct.lng];
+        const b: [number, number] = [endHotel.lat, endHotel.lng];
+        const distM = haversineM(a, b);
+        const baseStyle = chooseStyle(distM);
+        const gradientColor = dayLegColor(day.dayNumber, totalDays, legIndex, legCount);
+        const styleWithGradient = { ...baseStyle, color: gradientColor, weight: 4 };
+        const line = L.polyline([a, b], { renderer, ...styleWithGradient }).addTo(layer);
+        linesRef.current.push({
+          line,
+          baseStyle: styleWithGradient,
+          kind: 'day-link',
+          dayNumber: day.dayNumber,
+          date: day.date,
+          endpoints: [a, b],
+        });
+        legIndex++;
+      }
     });
 
     // Wishlist (JSON) — candidate ideas not yet scheduled. Smaller, dashed pins.
