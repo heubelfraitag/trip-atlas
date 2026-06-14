@@ -25,7 +25,7 @@ if (!file) {
 }
 
 const WALK_THRESHOLD_M = 2000;
-const DRIVE_THRESHOLD_M = 300_000;
+const DRIVE_THRESHOLD_M = 500_000;
 const SLEEP_MS = 1100;
 
 function hav(a, b) {

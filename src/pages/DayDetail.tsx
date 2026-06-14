@@ -1,3 +1,4 @@
+import { useRef, useState } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { getTrip } from '../data/trips';
 import TripMap from '../components/TripMap';
@@ -66,6 +67,8 @@ export default function DayDetail() {
   const { slug, dayNumber } = useParams<{ slug: string; dayNumber: string }>();
   const trip = slug ? getTrip(slug) : undefined;
   const now = useNow();
+  const mapWrapRef = useRef<HTMLDivElement | null>(null);
+  const [focusOn, setFocusOn] = useState<{ lat: number; lng: number; key: string } | null>(null);
 
   if (!trip) return <Navigate to="/" replace />;
   const day = trip.days.find((d) => d.dayNumber === Number(dayNumber));
@@ -150,11 +153,14 @@ export default function DayDetail() {
         )}
       </header>
 
-      <TripMap
-        trip={trip}
-        selectedDay={day.dayNumber}
-        heightClass="h-[40vh] min-h-[320px]"
-      />
+      <div ref={mapWrapRef}>
+        <TripMap
+          trip={trip}
+          selectedDay={day.dayNumber}
+          heightClass="h-[40vh] min-h-[320px]"
+          focusOn={focusOn ?? undefined}
+        />
+      </div>
 
       <div className="mt-3 flex items-center justify-end gap-3 flex-wrap text-xs">
         <span className="text-ink-faint">{filteredActivities.length} stops</span>
@@ -179,6 +185,10 @@ export default function DayDetail() {
             currency={trip.meta.currency}
             slug={trip.slug}
             liveState={liveState(a)}
+            onFocusOnMap={() => {
+              setFocusOn({ lat: a.lat, lng: a.lng, key: a.id });
+              mapWrapRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }}
           />
         ))}
       </section>

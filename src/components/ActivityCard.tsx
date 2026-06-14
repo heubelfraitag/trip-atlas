@@ -13,6 +13,8 @@ interface Props {
   slug: string;
   /** "current"/"next"/"past" classification when viewing during an active trip. */
   liveState?: 'current' | 'next' | 'past' | 'future' | null;
+  /** Tap title → focus the map on this activity's pin. */
+  onFocusOnMap?: () => void;
 }
 
 function effectiveStatus(a: Activity): ActivityStatus {
@@ -31,7 +33,7 @@ const STATUS_BADGE_CLASS: Record<ActivityStatus, string> = {
   idea: 'bg-ink/10 text-ink-soft italic',
 };
 
-export default function ActivityCard({ activity, isLast, currency, slug, liveState }: Props) {
+export default function ActivityCard({ activity, isLast, currency, slug, liveState, onFocusOnMap }: Props) {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
@@ -134,7 +136,17 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
                 done ? 'text-ink-faint line-through' : status === 'idea' ? 'text-ink-soft italic' : 'text-ink'
               }`}
             >
-              {activity.title}
+              {onFocusOnMap ? (
+                <button
+                  onClick={onFocusOnMap}
+                  className="text-left hover:text-vermillion transition-colors underline decoration-line-strong decoration-dotted underline-offset-4 hover:decoration-vermillion"
+                  title="Tap to zoom the map to this stop"
+                >
+                  {activity.title}
+                </button>
+              ) : (
+                activity.title
+              )}
             </h3>
             <div className="flex items-center gap-1 mt-1">
               <CategoryBadge category={activity.category} />

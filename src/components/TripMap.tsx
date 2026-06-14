@@ -20,6 +20,8 @@ interface Props {
   onSelectActivity?: (activity: Activity, day: Day) => void;
   showSolo?: boolean;
   heightClass?: string;
+  /** When set, the map flies to this point and opens the matching marker's popup. */
+  focusOn?: { lat: number; lng: number; key?: string };
 }
 
 const GHOST_OPACITY = 0.1;
@@ -122,6 +124,7 @@ export default function TripMap({
   onSelectActivity,
   showSolo = true,
   heightClass = 'h-[60vh]',
+  focusOn,
 }: Props) {
   const mapRef = useRef<L.Map | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -347,9 +350,11 @@ export default function TripMap({
       const endHotel = findEndHotel(day.date);
       const firstAct = acts[0];
       const lastAct = acts[acts.length - 1];
-      // Cutoff: hotel legs longer than 100km are cross-country travel —
-      // intercityTransit covers them (Shinkansen corridor polyline).
-      // Drawing a straight-line "hotel commute" on top would just be noise.
+      // Draw the hotel leg whenever there's a precomputed route (it's a real
+      // road-following polyline, no length limit needed). Without a precomputed
+      // route, fall back to a straight line only if the leg is ≤ 100km —
+      // longer than that is intercity territory covered by the Shinkansen
+      // polyline and drawing a straight diagonal would just add noise.
       const HOTEL_LEG_MAX_M = 100_000;
       const startDistM = startHotel
         ? haversineM([startHotel.lat, startHotel.lng], [firstAct.lat, firstAct.lng])
@@ -358,9 +363,13 @@ export default function TripMap({
         ? haversineM([lastAct.lat, lastAct.lng], [endHotel.lat, endHotel.lng])
         : 0;
       const drawStartLeg =
-        !!startHotel && !sameSpot(startHotel, firstAct) && startDistM <= HOTEL_LEG_MAX_M;
+        !!startHotel &&
+        !sameSpot(startHotel, firstAct) &&
+        (day.routeFromHotel != null || startDistM <= HOTEL_LEG_MAX_M);
       const drawEndLeg =
-        !!endHotel && !sameSpot(endHotel, lastAct) && endDistM <= HOTEL_LEG_MAX_M;
+        !!endHotel &&
+        !sameSpot(endHotel, lastAct) &&
+        (day.routeToHotel != null || endDistM <= HOTEL_LEG_MAX_M);
 
       // Total legs = N-1 between consecutive activities + optional hotel-start + optional hotel-end
       const legCount = acts.length - 1 + (drawStartLeg ? 1 : 0) + (drawEndLeg ? 1 : 0);
@@ -640,6 +649,34 @@ export default function TripMap({
       }
     });
   }, [selectedDay, selectedDayObj]);
+
+  // Focus: fly to point + open the matching marker's popup
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !focusOn) return;
+    let hasView = false;
+    try {
+      map.getCenter();
+      hasView = true;
+    } catch {
+      /* no center yet */
+    }
+    if (hasView) {
+      map.flyTo([focusOn.lat, focusOn.lng], 16, { duration: 0.5 });
+    } else {
+      map.setView([focusOn.lat, focusOn.lng], 16);
+    }
+    // Find the matching marker (closest by coords)
+    for (const m of markersRef.current) {
+      if (
+        Math.abs(m.point[0] - focusOn.lat) < 1e-4 &&
+        Math.abs(m.point[1] - focusOn.lng) < 1e-4
+      ) {
+        m.marker.openPopup();
+        return;
+      }
+    }
+  }, [focusOn?.lat, focusOn?.lng, focusOn?.key]);
 
   return (
     <div className={`${heightClass} w-full rounded-2xl overflow-hidden shadow-card border border-line`}>
