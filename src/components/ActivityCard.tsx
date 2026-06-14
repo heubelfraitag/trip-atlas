@@ -17,8 +17,8 @@ interface Props {
   onFocusOnMap?: () => void;
   /** OSRM-estimated minutes from this activity to the next. */
   travelMinToNext?: number;
-  /** Mode of the next leg — used to label (W) walking vs (T) transit. */
-  travelModeToNext?: 'walk' | 'transit';
+  /** Mode of the next leg — labels (W) walk, (T) train/rail, (D) drive/bus. */
+  travelModeToNext?: 'walk' | 'transit' | 'drive';
 }
 
 function effectiveStatus(a: Activity): ActivityStatus {
@@ -64,7 +64,11 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
               <div className="flex-1 w-px bg-line-strong" />
               {travelMinToNext != null && travelMinToNext > 0 && (
                 <div className="my-1 text-[10px] tabular-nums text-ink-faint italic whitespace-nowrap">
-                  ~{travelMinToNext}m{travelModeToNext === 'walk' ? ' (W)' : travelModeToNext === 'transit' ? ' (T)' : ''}
+                  ~{travelMinToNext}m{
+                    travelModeToNext === 'walk' ? ' (W)' :
+                    travelModeToNext === 'transit' ? ' (T)' :
+                    travelModeToNext === 'drive' ? ' (D)' : ''
+                  }
                 </div>
               )}
               <div className="flex-1 w-px bg-line-strong" />
@@ -129,7 +133,11 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
               <div className="flex-1 w-px bg-line-strong" />
               {travelMinToNext != null && travelMinToNext > 0 && (
                 <div className="my-1 text-[10px] tabular-nums text-ink-faint italic whitespace-nowrap">
-                  ~{travelMinToNext}m{travelModeToNext === 'walk' ? ' (W)' : travelModeToNext === 'transit' ? ' (T)' : ''}
+                  ~{travelMinToNext}m{
+                    travelModeToNext === 'walk' ? ' (W)' :
+                    travelModeToNext === 'transit' ? ' (T)' :
+                    travelModeToNext === 'drive' ? ' (D)' : ''
+                  }
                 </div>
               )}
               <div className="flex-1 w-px bg-line-strong" />

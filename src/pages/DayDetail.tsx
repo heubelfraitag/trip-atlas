@@ -176,7 +176,7 @@ export default function DayDetail() {
         {filteredActivities.map((a, i) => {
           const nextItem = filteredActivities[i + 1];
           let travelMinToNext: number | undefined;
-          let travelModeToNext: 'walk' | 'transit' | undefined;
+          let travelModeToNext: 'walk' | 'transit' | 'drive' | undefined;
           if (nextItem) {
             const isSynthStart = a.id.startsWith('synth-') && a.id.endsWith('-hotel-start');
             const isNextSynthEnd =
@@ -191,7 +191,10 @@ export default function DayDetail() {
               geom = real?.routeToNext;
             }
             travelMinToNext = geom?.durationMin;
-            travelModeToNext = geom?.mode === 'walk' ? 'walk' : geom ? 'transit' : undefined;
+            const m = geom?.mode;
+            if (m === 'walk') travelModeToNext = 'walk';
+            else if (m === 'bus' || m === 'taxi' || m === 'car') travelModeToNext = 'drive';
+            else if (m) travelModeToNext = 'transit';
           }
           return (
             <ActivityCard
