@@ -173,20 +173,40 @@ export default function DayDetail() {
       )}
 
       <section className="mt-8">
-        {filteredActivities.map((a, i) => (
-          <ActivityCard
-            key={a.id}
-            activity={a}
-            isLast={i === filteredActivities.length - 1}
-            currency={trip.meta.currency}
-            slug={trip.slug}
-            liveState={liveState(a)}
-            onFocusOnMap={() => {
-              setFocusOn({ lat: a.lat, lng: a.lng, key: a.id });
-              mapWrapRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }}
-          />
-        ))}
+        {filteredActivities.map((a, i) => {
+          const nextItem = filteredActivities[i + 1];
+          let travelMinToNext: number | undefined;
+          if (nextItem) {
+            const isSynthStart = a.id.startsWith('synth-') && a.id.endsWith('-hotel-start');
+            const isNextSynthEnd =
+              nextItem.id.startsWith('synth-') && nextItem.id.endsWith('-hotel-end');
+            if (isSynthStart) {
+              travelMinToNext = day.routeFromHotel?.durationMin;
+            } else if (isNextSynthEnd) {
+              travelMinToNext = day.routeToHotel?.durationMin;
+            } else {
+              // Real activity → next real activity. Pull routeToNext.durationMin
+              // from the original day.activities entry.
+              const real = day.activities.find((r) => r.id === a.id);
+              travelMinToNext = real?.routeToNext?.durationMin;
+            }
+          }
+          return (
+            <ActivityCard
+              key={a.id}
+              activity={a}
+              isLast={i === filteredActivities.length - 1}
+              currency={trip.meta.currency}
+              slug={trip.slug}
+              liveState={liveState(a)}
+              travelMinToNext={travelMinToNext}
+              onFocusOnMap={() => {
+                setFocusOn({ lat: a.lat, lng: a.lng, key: a.id });
+                mapWrapRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }}
+            />
+          );
+        })}
       </section>
 
       <div className="mt-8 flex justify-between items-center gap-3 border-t border-line pt-6">

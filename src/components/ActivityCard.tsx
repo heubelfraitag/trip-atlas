@@ -15,6 +15,8 @@ interface Props {
   liveState?: 'current' | 'next' | 'past' | 'future' | null;
   /** Tap title → focus the map on this activity's pin. */
   onFocusOnMap?: () => void;
+  /** OSRM-estimated minutes from this activity to the next. */
+  travelMinToNext?: number;
 }
 
 function effectiveStatus(a: Activity): ActivityStatus {
@@ -33,7 +35,7 @@ const STATUS_BADGE_CLASS: Record<ActivityStatus, string> = {
   idea: 'bg-ink/10 text-ink-soft italic',
 };
 
-export default function ActivityCard({ activity, isLast, currency, slug, liveState, onFocusOnMap }: Props) {
+export default function ActivityCard({ activity, isLast, currency, slug, liveState, onFocusOnMap, travelMinToNext }: Props) {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
@@ -55,7 +57,17 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
             {activity.time ? formatTime12(activity.time) : '—'}
           </div>
           <div className="mt-1 w-4 h-4 rounded-full border-2 border-dashed border-gold bg-paper-soft" />
-          {!isLast && <div className="flex-1 w-px bg-line-strong mt-1" style={{ minHeight: 32 }} />}
+          {!isLast && (
+            <div className="flex-1 flex flex-col items-center mt-1" style={{ minHeight: 40 }}>
+              <div className="flex-1 w-px bg-line-strong" />
+              {travelMinToNext != null && travelMinToNext > 0 && (
+                <div className="my-1 text-[10px] tabular-nums text-ink-faint italic whitespace-nowrap">
+                  ~{travelMinToNext}m
+                </div>
+              )}
+              <div className="flex-1 w-px bg-line-strong" />
+            </div>
+          )}
         </div>
         <div className="flex-1 pb-6">
           <div className="rounded-xl border-2 border-dashed border-gold/50 bg-paper-soft/60 px-3 py-2.5">
@@ -110,7 +122,17 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
               : 'bg-vermillion hover:bg-vermillion-soft'
           }`}
         />
-        {!isLast && <div className="flex-1 w-px bg-line-strong mt-1" style={{ minHeight: 32 }} />}
+        {!isLast && (
+            <div className="flex-1 flex flex-col items-center mt-1" style={{ minHeight: 40 }}>
+              <div className="flex-1 w-px bg-line-strong" />
+              {travelMinToNext != null && travelMinToNext > 0 && (
+                <div className="my-1 text-[10px] tabular-nums text-ink-faint italic whitespace-nowrap">
+                  ~{travelMinToNext}m
+                </div>
+              )}
+              <div className="flex-1 w-px bg-line-strong" />
+            </div>
+          )}
       </div>
 
       <div className={`flex-1 pb-6 ${done ? 'opacity-60' : ''}`}>
