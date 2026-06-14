@@ -42,15 +42,15 @@
   "hotels": [
     {
       "id": "hotel-tokyo-start",
-      "name": "Shibuya Tokyu REI Hotel",
-      "neighborhood": "Shibuya",
-      "lat": 35.6589,
-      "lng": 139.7034,
+      "name": "Onsen Ryokan Yuen Shinjuku",
+      "neighborhood": "Shinjuku",
+      "lat": 35.69156,
+      "lng": 139.70908,
       "checkIn": "2025-11-24",
       "checkOut": "2025-11-27",
       "booked": false,
-      "notes": "Shortlist — refurbished business hotel, 2-min walk to Shibuya Station. Compact rooms.",
-      "address": "1-24-10 Shibuya, Shibuya City, Tokyo 150-0002"
+      "notes": "Modern ryokan with 18F open-air rooftop onsen overlooking Tokyo skyline. Quiet east-Shinjuku block, 5 min from Shinjuku-Gyoemmae Metro. Yukatas + traditional Japanese breakfast included.",
+      "address": "5-3-18 Shinjuku, Shinjuku Ward, Tokyo 160-0022"
     },
     {
       "id": "hotel-fuji",
@@ -96213,38 +96213,38 @@
         {
           "id": "d1-1b",
           "time": "18:00",
-          "title": "Shibuya Tokyu REI check-in",
-          "description": "Customs (~30 min) → Keikyu Airport Express + Yamanote Line direct to Shibuya = ~70 min. Hotel is 2-min walk from Shibuya Station's New South Exit. Drop bags, freshen up, get oriented before heading out for ramen.",
-          "address": "1-24-10 Shibuya, Shibuya City, Tokyo 150-0002",
+          "title": "Onsen Ryokan Yuen Shinjuku check-in",
+          "description": "Customs (~30 min) → Keikyu Airport Express + JR Yamanote → Marunouchi Line to Shinjuku-Gyoemmae + 5-min walk = ~80 min. Drop bags and soak the jet lag away in the 18F rooftop open-air onsen before heading out for dinner.",
+          "address": "5-3-18 Shinjuku, Shinjuku Ward, Tokyo 160-0022",
           "category": "hotel",
-          "lat": 35.6589,
-          "lng": 139.7034,
+          "lat": 35.69156,
+          "lng": 139.70908,
           "routeToNext": {
             "format": "polyline",
-            "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEO`@sCvHADO^m@bBm@dB{AfEe@pAADc@lAg@vAwAzDq@lBKVGLM^EJO`@{AfESl@O^e@pAELCLEVAH?H?H?JBLBJSAe@EGAc@Cu@CQAK?O?k@BY?U?UC_@IeAOQCOCc@IQGSGe@Sk@Uq@SECECCGCGCMCQKe@e@mBOa@u@iA",
-            "durationMin": 24,
-            "distanceM": 2037,
+            "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCP\\N`Af@JFJDt@^`@VZN`@R`@RZRn@^b@Vd@XRJ^TXN@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@VIHCd@M|Ac@pBi@AMGe@CKC@A?gATuB\\OaA",
+            "durationMin": 13,
+            "distanceM": 1090,
             "mode": "walk"
           }
         },
         {
           "id": "d1-2",
           "time": "19:00",
-          "title": "Afuri Harajuku",
-          "description": "Yuzu shio ramen — Reddit's near-universal pick for a perfect first-night Tokyo meal: light, clean, citrus-forward. ~5 min walk from the hotel. Order from the ticket machine inside; English menu available.",
-          "address": "Grande Foresta 1F, 3-63-1 Sendagaya, Shibuya-ku, Tokyo",
+          "title": "Afuri Shinjuku Lumine1",
+          "description": "Same exact Afuri yuzu-shio ramen experience as the Harajuku original — light, clean, citrus-forward Tokyo first-night classic. Lumine1 B2F at Shinjuku Station: 1 stop on the Marunouchi Line from Yuen, or a 20-min walk west through Shinjuku 3-chome.",
+          "address": "Lumine1 B2F, 1-1-5 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
           "category": "food",
           "costPerPerson": 1500,
           "currency": "JPY",
-          "lat": 35.6735,
-          "lng": 139.705
+          "lat": 35.68855,
+          "lng": 139.70016
         }
       ],
       "routeToHotel": {
         "format": "polyline",
-        "data": "cnvxEocusYkAiBOUkAoBu@cCGWESVMFE|@e@f@UpAg@DAfAc@nAg@`@I\\EVAV@J@J@LDRHNHPLpAdAlAbAt@d@xAv@@@PJJFDDx@n@ZT~@p@^ZHF`At@LH^TNJZR|A`AxBtA`Al@FBBBt@d@zAhAVPFFB@RNtB|AbBjARJPJ`@NLFRFJDXHTD\\DH@P@zAA`BEzBGb@A^AfCGzBCfBGPAHAJAVGVIFArBw@^OTIBMEMUsA",
-        "durationMin": 24,
-        "distanceM": 2037,
+        "data": "ujyxEkctsYN`AtB]fAU@?BABJFd@@LqBh@}Ab@e@LIBWHUHSq@Me@Qi@GYMi@E_@Ge@_@iDMcAM{@G_@WcBSyAI{@Go@Ek@Ew@AMC[]QeAm@a@Wo@a@[Sa@S{@c@e@Wm@[GCKGaAg@IC[QWMBMDYZcBDSDWJe@F_@Je@DU\\kBJq@FkADs@@K@KHwAJuA@Y@M@c@RDC^SrD",
+        "durationMin": 13,
+        "distanceM": 1090,
         "mode": "walk"
       }
     },
@@ -96402,21 +96402,19 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNViAJa@ZmABM@M@GACAEAEIIEEWImA[yCu@qHkBKC[GYESE{LwCwD}@GA[ImAYa@K_Dq@GAYGYGyBa@o@MSEcB[WEUED]D[l@gFBSf@_ED]Fa@PiAl@sE@KJw@TeBBSQGwI{BSGSEgA[kA_A_As@QOIIQQCEOYEKS{@S{@a@gBMi@CIESCMCGc@oBYoAEMIc@Ke@EOUiAi@kCESEOI_@k@kCCOIUUw@MUEOc@iB_@_BEQsAyCk@iAGMMYQ[e@cA{@aBGKIQGOoB_EKUMOQWKOOUwAsBEGQUSYyB{CKQMQcAwAGIeBaCIOKOSWMSOS{@iAIMSYOKOKOI{@]k@WKEOIUKqBeAGEQK]OYQu@a@qBeAKGQKUMeAk@SM{CeBy@i@IE]UMISM}DgCIEOKIGGEOK[SWUUSkA}AUWk@u@aBwB]a@GIIKMQ_AkAeAsAOSwAkBw@eAGKSYWYCE{@}@uBcBQOEEOKMKkCcBGEUOSMmAw@q@a@_By@IE_@YCCGGa@c@Y]u@s@c@a@UMIGsCaBMGAA",
+        "data": "y_zxE{|usY?BCZS?HwAJuA@Y@M@c@BUFqAPqCFaADi@Ds@Bc@@SPuCBo@?w@?GC_@Ca@E_@AQGe@Ee@Ii@C]A]?_@Ba@Do@ToB@GDi@B[?YASCYQqAo@_EQiACOCOyAaJOy@AGGWCSG[Gk@?kAAc@?[?Y@eDX_GB]@e@?IB_A@[@S@SBM@MDM|BmGVs@Fg@Fe@HiARaFHcD@O?_@?]GyAOqBqAgJIe@M_AKs@E]GS]aAGQUi@FONKJIhCgBJG??DEBCBK@I?G?K?II_@s@_EEQqA{GCOESGY{A{HCIEUEUs@iDEOEUeB_ICII]IYmAkECGQo@G[i@kCEOUeACSuByKI]_@{BEa@WgDQ{BAKEc@AOE_@I_AEk@Iw@Ei@GaA?KC]OaCAIAYKyE?QAk@?i@AcBA_ACoAAiAC}BAO?m@Aq@AuA?y@?k@AcBCiA?I?M?Y?Q@O@ODMDKh@y@DI^k@R[FIjAeBd@q@\\e@T_@HWFWF[@Q@c@@S@Q@Q@W@o@Ai@Ei@CUQ{AAKIo@CSEUES]oAm@oBW}@Sq@IWEMAGQe@Mc@K_@YeASs@Ie@Ao@DyD?I@[@}@@U?[@c@DuB@e@?]@Y?W@g@BmABuA?MBaB?M@S?WBsABgB@o@?O@e@@k@@Y@c@@c@?e@@u@@s@DeB?M@O@{ABqA?[@O@g@?g@B_ADaC?I@e@Bc@BmAD{@@k@Bi@B{@DaADkA@MBi@HkARsCJ{ABQDe@OS{@iAIMSYOKOKOI{@]k@WKEOIUKqBeAGEQK]OYQu@a@qBeAKGQKUMeAk@SM{CeBy@i@IE]UMISM}DgCIEOKIGGEOK[SWUUSkA}AUWk@u@aBwB]a@GIIKMQ_AkAeAsAOSwAkBw@eAGKSYWYCE{@}@uBcBQOEEOKMKkCcBGEUOSMmAw@q@a@_By@IE_@YCCGGa@c@Y]u@s@c@a@UMIGsCaBMGAA",
         "durationMin": 24,
-        "distanceM": 11872,
+        "distanceM": 9307,
         "mode": "subway",
         "osrmMin": 12,
         "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "knzxEscusYAAk@S{B{@OI@KJc@@M?]Cc@Aw@Cm@AYC_@VBh@FbABdACx@ENAJ?l@E\\C^CPAf@Cz@EH?VCXAZAj@C\\An@?f@BH?RBZ@B@B?ZD^FVF^JH@\\H`@HXLNHPLHDPJXRZTr@h@p@l@j@r@x@z@`Ax@jBrAhBlAn@^\\Rl@Xv@LLB\\BVAd@Gf@K^Ip@OHEHCd@Q\\Qz@k@PKDAZMLETELC|@?lBAX?H?V?pA@h@?dCBb@?t@?R?Z?H@TAZARATERGNGNGnA_Af@[`As@`@YLIJId@]^U\\Ud@Qh@MPEDAh@ILCd@I`@GTEt@O??v@Mx@OJCl@KBAz@OZKXSTOVMFE|@e@f@UpAg@DAfAc@nAg@`@I\\EVAV@J@J@LDRHNHPLpAdAlAbAt@d@xAv@@@PJJFDDx@n@ZT~@p@^ZHF`At@LH^TNJZR|A`AxBtA`Al@FBBBt@d@zAhAVPFFB@RNtB|AbBjARJPJ`@NLFRFJDXHTD\\DH@P@zAA`BEzBGb@A^AfCGzBCfBGPAHAJAVGVIFArBw@^OTIBMEMUsA",
-        "durationMin": 19,
-        "distanceM": 4664,
-        "mode": "subway",
-        "osrmMin": 8,
-        "corrected": true
+        "data": "knzxEscusYAAk@S{B{@OI@KJc@@M?]Cc@Aw@Cm@AYC_@VBh@FbABdACx@ENAJ?l@E\\C^CPAf@Cz@EH?VCJe@DU\\kBJq@FkADs@@K@KHwAJuA@Y@M@c@RDC^SrD",
+        "durationMin": 7,
+        "distanceM": 572,
+        "mode": "walk"
       }
     },
     {
@@ -96605,18 +96603,18 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCGLEFINC@ODWHUFI@M?WaBGk@CSCQAO@KB]zDnDrBfBp@h@HDJBZDD@BB@DDvBDx@BZBVHt@Jd@b@dBZnAl@bCLd@DPRbAJ^DPHXFXHZtAdGx@~DJf@PxAvAfJDTFPHNHNJLLJpA~@v@n@ZVXXVXTXR\\Vf@Nb@Pd@Lf@R|@fAzFThAJf@n@lCZnAhAhFf@tBXfAJ^e@TKDID]PCD?F?NF~CIz@]bDETGRAFKPSTWTOLa@PE@C@M?I@uDDg@@i@@{DHk@@K?@VNlD@JD`ADz@?HD|@Bv@Cp@?JAP?BO`D?n@@d@DnA@NBbABr@Dp@?TB^DbB@PFrBF`CBr@@P?F@R?HR~AJv@Fd@LbABNFb@B\\@DIHEDG~@IjB{A^qAPK@I@[?o@AoACo@?a@@W@g@NOJMFM@SBA@s@@i@@U?G?k@?gA?w@@C?C?sBGO?ErCCt@`B~AK^o@jCeAjDMb@Yz@ELCHc@nA_@r@Sj@M|@Ih@?D@JEf@@H@B",
-        "durationMin": 19,
-        "distanceM": 5172,
+        "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCP\\N`Af@JFJDt@^`@VZN`@R`@RZRn@^b@Vd@XRJ^TXN@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@Jb@nAjERr@p@|BBF^hAJZZbAPf@FP\\hAp@jBFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
+        "durationMin": 20,
+        "distanceM": 6057,
         "mode": "subway",
-        "osrmMin": 8,
+        "osrmMin": 9,
         "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "muuxEufatY`@`@jAtAbBxBxC~Dn@j@bAtAhAlCVl@HTDXBLBVDbA@n@BxDCp@Gb@EPCNM`@?@O`@M`@Kd@a@`BK^CLGVYpAMh@SDGBKDK@IAMC{@[]Ok@UOKKGGIeBqBMQMOs@u@y@}@OQQOoCyCOOKM_CgCWYMMKMeCoCKIUUQXYl@eB~CcBjCkAvBuExHc@hA[`AaBlFYTsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBB^\\XVd@`@pAjAn@j@lAfAp@p@h@j@\\^NPT`@pEvI`@t@JPP\\x@|AnAvBHNNVXh@v@tAJRC\\AJ@NBPBRFj@V`BJfAHt@JfAVjC@TLhA@NB^VIFArBw@^OTIBMEMUsA",
+        "data": "muuxEufatY`@`@jAtAbBxBxC~Dn@j@bAtAhAlCVl@HTDXBLBVDbA@n@BxDCp@Gb@EPCNM`@?@O`@M`@Kd@a@`BK^CLGVYpAMh@SDGBKDK@IAMC{@[]Ok@UOKKGGIeBqBMQMOs@u@y@}@OQQOoCyCOOKM_CgCWYMMKMeCoCKIUUQXYl@eB~CcBjCkAvBuExHc@hA[`AaBlFYTsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJMb@CJGLIPKJOJOJeAj@kAl@mCpA_@ROH[Nk@X]N]J]Jk@JwANE?]NSBUBODQHGFGHGJGNEPEPATGxAAJAPAVInBE`AAL?\\A`@At@?l@?p@Bj@Bj@HfBBb@D`ABn@JlB?HBZDhA@V?d@@j@@h@?PAz@CzAAJ?JQrDGn@Gb@G^AFCJELITe@fAk@nAADGLMVGP[x@U|@}@xD]rACNIh@Gd@AHM~AM`BAJE`@Gb@I\\i@~Bw@hDCJIZI\\Uz@_@|As@`CADK^W`AU~@AJIXEVk@lDU|ACHGf@Ih@EVMbAGx@Cr@Ad@Br@HdBFrA@N@\\@R@XRtEPbEBX@^PrDPpC?JD`@YB_@ToAXe@HMBc@BS?U?k@Ca@AS?W@UD]HWJc@Ra@HSJmAn@QLq@`@]RKDWHFd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SrD",
         "durationMin": 20,
-        "distanceM": 8399,
+        "distanceM": 7602,
         "mode": "subway",
         "osrmMin": 9,
         "corrected": true
@@ -96632,7 +96630,7 @@
           "id": "d4-0a",
           "time": "08:00",
           "title": "Yoyogi Park walk",
-          "description": "Walk northwest from Shibuya Station to Yoyogi Park (~15 min). Quiet Thursday morning — cedars, joggers, autumn leaves.",
+          "description": "Quick Marunouchi → JR ride from Shinjuku-Gyoemmae to Yoyogi-Koen, or a longer walk south through Shinjuku Gyoen. Quiet Thursday morning — cedars, joggers, autumn leaves.",
           "address": "Yoyogi Park, Shibuya City",
           "category": "walk",
           "lat": 35.6716,
@@ -96776,10 +96774,12 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEO`@sCvHADO^m@bBm@dB{AfEe@pAADc@lAg@vAwAzDq@lBKVGLM^EJO`@{AfESl@O^e@pAELCLEVAH?H?H?JBLBJSAIDGFEPAJC|@?B?B?B@@EJCDW@K`@KJq@p@q@r@WTa@XWJYF[jAe@zA_@tBCb@Kh@M`@Qf@WfAIPORKHcAd@q@d@[P??",
-        "durationMin": 24,
-        "distanceM": 2015,
-        "mode": "walk"
+        "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@ZAj@C\\An@?f@BH?RBZ@B@B?ZD^FVF^JH@\\H`@HXLNHPLHDPJXRZTr@h@p@l@j@r@x@z@`Ax@jBrAhBlAn@^\\Rl@Xv@LLB\\BVAd@Gf@K^Ip@OHEHCd@Q\\Qz@k@PKDAZMLETELC|@?lBAX?H?V?pA@h@?dCBb@?t@?R?Z?H@TAZARATERGNGNGnA_Af@[`As@`@YLIJId@]^U\\Ud@Qh@MPEDAh@ILCd@I`@GTEt@O??v@Mx@OJCl@KBAz@OZKXSTODRFVt@bCjAnBNT`CrDN`@d@lBJd@BPBLBFBFDBDBp@Rj@Td@RRFPFb@HNBPBdAN^HTBT?X?j@CN?J?P@t@Bb@BF@d@DIDGFEPAJC|@?B?B?B@@EJCDW@K`@KJq@p@q@r@WTa@XWJYF[jAe@zA_@tBCb@Kh@M`@Qf@WfAIPORKHcAd@q@d@[P??",
+        "durationMin": 19,
+        "distanceM": 3651,
+        "mode": "subway",
+        "osrmMin": 8,
+        "corrected": true
       }
     },
     {
