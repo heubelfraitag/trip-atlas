@@ -176,20 +176,22 @@ export default function DayDetail() {
         {filteredActivities.map((a, i) => {
           const nextItem = filteredActivities[i + 1];
           let travelMinToNext: number | undefined;
+          let travelModeToNext: 'walk' | 'transit' | undefined;
           if (nextItem) {
             const isSynthStart = a.id.startsWith('synth-') && a.id.endsWith('-hotel-start');
             const isNextSynthEnd =
               nextItem.id.startsWith('synth-') && nextItem.id.endsWith('-hotel-end');
+            let geom: { durationMin?: number; mode?: string } | undefined;
             if (isSynthStart) {
-              travelMinToNext = day.routeFromHotel?.durationMin;
+              geom = day.routeFromHotel;
             } else if (isNextSynthEnd) {
-              travelMinToNext = day.routeToHotel?.durationMin;
+              geom = day.routeToHotel;
             } else {
-              // Real activity → next real activity. Pull routeToNext.durationMin
-              // from the original day.activities entry.
               const real = day.activities.find((r) => r.id === a.id);
-              travelMinToNext = real?.routeToNext?.durationMin;
+              geom = real?.routeToNext;
             }
+            travelMinToNext = geom?.durationMin;
+            travelModeToNext = geom?.mode === 'walk' ? 'walk' : geom ? 'transit' : undefined;
           }
           return (
             <ActivityCard
@@ -200,6 +202,7 @@ export default function DayDetail() {
               slug={trip.slug}
               liveState={liveState(a)}
               travelMinToNext={travelMinToNext}
+              travelModeToNext={travelModeToNext}
               onFocusOnMap={() => {
                 setFocusOn({ lat: a.lat, lng: a.lng, key: a.id });
                 mapWrapRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });

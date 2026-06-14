@@ -17,6 +17,8 @@ interface Props {
   onFocusOnMap?: () => void;
   /** OSRM-estimated minutes from this activity to the next. */
   travelMinToNext?: number;
+  /** Mode of the next leg — used to label (W) walking vs (T) transit. */
+  travelModeToNext?: 'walk' | 'transit';
 }
 
 function effectiveStatus(a: Activity): ActivityStatus {
@@ -35,7 +37,7 @@ const STATUS_BADGE_CLASS: Record<ActivityStatus, string> = {
   idea: 'bg-ink/10 text-ink-soft italic',
 };
 
-export default function ActivityCard({ activity, isLast, currency, slug, liveState, onFocusOnMap, travelMinToNext }: Props) {
+export default function ActivityCard({ activity, isLast, currency, slug, liveState, onFocusOnMap, travelMinToNext, travelModeToNext }: Props) {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
@@ -62,7 +64,7 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
               <div className="flex-1 w-px bg-line-strong" />
               {travelMinToNext != null && travelMinToNext > 0 && (
                 <div className="my-1 text-[10px] tabular-nums text-ink-faint italic whitespace-nowrap">
-                  ~{travelMinToNext}m
+                  ~{travelMinToNext}m{travelModeToNext === 'walk' ? ' (W)' : travelModeToNext === 'transit' ? ' (T)' : ''}
                 </div>
               )}
               <div className="flex-1 w-px bg-line-strong" />
@@ -127,7 +129,7 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
               <div className="flex-1 w-px bg-line-strong" />
               {travelMinToNext != null && travelMinToNext > 0 && (
                 <div className="my-1 text-[10px] tabular-nums text-ink-faint italic whitespace-nowrap">
-                  ~{travelMinToNext}m
+                  ~{travelMinToNext}m{travelModeToNext === 'walk' ? ' (W)' : travelModeToNext === 'transit' ? ' (T)' : ''}
                 </div>
               )}
               <div className="flex-1 w-px bg-line-strong" />
