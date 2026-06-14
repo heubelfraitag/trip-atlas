@@ -11,17 +11,13 @@ import { deriveStatus, getCurrentAndNext, getCurrentDay, useNow } from '../lib/n
 import { dayCost } from '../lib/cost';
 import type { Activity, Hotel, Trip } from '../types/trip';
 
+/** Hotel where you slept LAST night (morning starts here). */
 function findStartHotel(trip: Trip, dayDate: string): Hotel | undefined {
-  return (
-    trip.hotels.find((h) => h.checkOut === dayDate) ||
-    trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
-  );
+  return trip.hotels.find((h) => h.checkIn < dayDate && dayDate <= h.checkOut);
 }
+/** Hotel where you sleep TONIGHT (evening ends here). */
 function findEndHotel(trip: Trip, dayDate: string): Hotel | undefined {
-  return (
-    trip.hotels.find((h) => h.checkIn === dayDate) ||
-    trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
-  );
+  return trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut);
 }
 function sameSpot(a: { lat: number; lng: number }, b: { lat: number; lng: number }): boolean {
   return Math.abs(a.lat - b.lat) < 1e-4 && Math.abs(a.lng - b.lng) < 1e-4;

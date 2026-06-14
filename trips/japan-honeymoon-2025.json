@@ -96221,13 +96221,6 @@
           "lng": 139.705
         }
       ],
-      "routeFromHotel": {
-        "format": "polyline",
-        "data": "}cuxEwtrsYLTp@~ABFDCl@e@r@m@u@cBk@gAOKWl@OTMNYV{@p@uBvAQNUNUP?@w@j@e@\\o@`@UROFUJYH]H]D_@Ba@?[?UAi@GGAQCG?iAMgEc@uAOa@E_@EeBO}@Ie@GQAg@Gc@GSCUEQGQGc@Si@Y[SKEMIKGAJ?V?@ABQTIFCB[T?DI`@G`@??q@h@Q`@e@|Ao@Qy@QI?yC~@@FEv@ChAF?KdBOpBEXCTCR\\Hb@Hd@FF?ZLNDLBVBdA@bA@rC?bHJv@@Z?~AMnEFxAAfAGnDOzAEhJOpEA`B?lABxADh@@|@BjEThCNXBVBV@T?\\@ZAV?XCXCXETERGTGRIRITKPMRMRMhOqL`@[VQJGJGJGLEJELEJELCJCJCLALAJAL?JAL?L?N@J?L@L@NBL@JBLDLDr@VrFzB~Ah@j@NXHVDVDXBT@V@V@d@?j@?~EE`@A^CVAPCRCTGPGPGTKTMROPMZY`A_A|@gAh@o@d@s@l@cAj@gArDwGhBmDR_@dDsFNYdAsB`@{@b@y@Zk@\\i@`@k@nBcCdDoEZa@PSPQz@w@vC}B~E{DvAgAdBqAlEeDzBaBlBuArDkCpCwB`Aw@bAs@|BwA|BsAzCgBnMwHbCyAr@e@dFeDn@i@VSTURWT[R]NUd@aApBwEjFcM~@wBlBeEbBsD|@yB~@eCjAcD~AqEf@wAhA{C`@}@lE{ITa@Vc@Xa@l@y@P[R[NWLWLYJYJ]H[F[F]F[D]B]@]@_@?]?_@?]KoCCk@?o@?s@@q@Bu@Fq@Hk@Hk@Li@Lc@La@L[LWN[V_@xAwBXe@Ve@Xe@r@yAh@mAJULULUNUNUPSNSPOPQROPMRMRKdBy@XQNIPMPOVSNOXYX_@V_@Tc@Rg@Pg@Lg@Ji@Hi@Fi@Bm@Bk@@m@Ak@CoGAs@Cs@Gq@Gq@yGac@q@{EMu@Oy@Oq@Qs@Sq@So@Mg@Ki@Ie@Gi@Ci@Ai@Ak@@e@Bk@Dg@Fg@Hc@Lg@Ja@L]N_@P]R]T]X]X[ZWZU\\SZO`@Od@Md@Id@Eb@Cb@Ab@@b@?|ADzA@zB?lCBzIVjGXjBDn@@fBDX@nAFb@BV@X?V?VCTERGTIRMPONONUJSLYH[t@_DJc@HYHUJUJUNUNQNOPMPIRITGRCTAVA`E@bD@rAMn@Cp@AnAEh@Ab@AXEZEnC?dC@nF?~I@`D?jB?fC?tE@fC?v@?r@?nA@vAALFr@H|ALVBVBV@V@`DBdHJdEHXFbGAnAAx@Eh@ErAMnAOhAQfB]`B[`FgAf@KjIiB`NuCfAWbYeGfCk@rDy@r@O`Be@tAg@bAg@v@e@l@a@l@e@h@g@p@w@t@cAp@eAz@eB`AyBpAcDjD}IdL{YnBkFhCsGrBeFjDkI`C{Fx@iBhA_Cl@oA~@}AdAaBt@eAf@eAl@w@hAwAf@k@d@k@r@s@l@i@l@g@|AmAx@q@jAw@rA}@tD}BhCaB\\UPSNWFOFa@@_@Eg@W{@GWCMAMAM?O@WBSDMDMDMFKJKHIVOVOZWfBoAHIbC{AFETO^UZSTO@?DEDATOVQFETMXOl@]b@Wp@a@NIPKt@e@fBeATq@lAgAJGLEF?LAL?N@PDPFJHJJHJHN^~@HEtA}@HK@G?GCEeAsCAI?KIAY]LYbAo@JGxA}@J?FFLTlAzC|CjIBVDN?JALCFGFgAn@bBnEdAnCdAzCfAvCBL?LAHEJGFkAr@yEtCGHI@ICOIaAi@GCIBeBbAyA|@CDAFAt@@n@APALEFIBiG|DGDK@uAu@EAG?GB}A|@g@Xu@b@CDCH?JCrBCJ",
-        "durationMin": 30,
-        "distanceM": 23703,
-        "mode": "subway"
-      },
       "routeToHotel": {
         "format": "polyline",
         "data": "cnvxEocusYt@hAN`@d@lBJd@BPBLBFBFDBDBp@Rj@Td@RRFPFb@HNBPBdAN^HTBT?X?j@CN?J?P@t@Bb@BF@d@DR@Tt@Vr@DHHTZbAjApDLb@H^Hf@Fv@HbHDnE^dX@XBZDj@Hn@d@rCH`@POtBwAz@q@HLJV",

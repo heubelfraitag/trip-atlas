@@ -320,17 +320,13 @@ export default function TripMap({
     // - Start hotel: the one you're CHECKING OUT of today (checkOut == date).
     // - End hotel: the one you're CHECKING IN to today (checkIn == date).
     // - Otherwise the hotel that covers this date is both start and end.
+    // Hotel where you slept LAST night (morning starts here).
     function findStartHotel(dayDate: string) {
-      return (
-        trip.hotels.find((h) => h.checkOut === dayDate) ||
-        trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
-      );
+      return trip.hotels.find((h) => h.checkIn < dayDate && dayDate <= h.checkOut);
     }
+    // Hotel where you sleep TONIGHT (evening ends here).
     function findEndHotel(dayDate: string) {
-      return (
-        trip.hotels.find((h) => h.checkIn === dayDate) ||
-        trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
-      );
+      return trip.hotels.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut);
     }
     function sameSpot(a: { lat: number; lng: number }, b: { lat: number; lng: number }) {
       return Math.abs(a.lat - b.lat) < 1e-4 && Math.abs(a.lng - b.lng) < 1e-4;

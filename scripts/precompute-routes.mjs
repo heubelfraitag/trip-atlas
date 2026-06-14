@@ -62,18 +62,14 @@ async function buildRoute(profile, from, to, mode) {
   };
 }
 
+/** Hotel where you slept LAST night (i.e. where the morning starts). */
 function findStartHotel(trip, dayDate) {
-  return (
-    trip.hotels?.find((h) => h.checkOut === dayDate) ||
-    trip.hotels?.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
-  );
+  return trip.hotels?.find((h) => h.checkIn < dayDate && dayDate <= h.checkOut);
 }
 
+/** Hotel where you're sleeping TONIGHT (i.e. where the evening ends). */
 function findEndHotel(trip, dayDate) {
-  return (
-    trip.hotels?.find((h) => h.checkIn === dayDate) ||
-    trip.hotels?.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut)
-  );
+  return trip.hotels?.find((h) => h.checkIn <= dayDate && dayDate < h.checkOut);
 }
 
 function sameSpot(a, b) {
