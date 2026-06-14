@@ -96567,32 +96567,11 @@
           "lng": 139.6498,
           "routeToNext": {
             "format": "polyline",
-            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@V@\\DvD`@pCX`@DV@N@xARrANNBpBTH@TB~@LL@VDfANF@^DbAJl@FjANj@Fj@D`AAd@Ch@Ip@Ml@Sb@Ul@_@VQTSPQr@u@nBkBp@s@t@w@PQzA}At@w@JMZYpCoBdAu@fBoA\\YRQPOxAoAvFgFFEVWf@a@TUTSVSVOTIXIVGVCT?d@@t@B~AJh@DjAJvBLd@FbATjCr@z@T\\Hb@Hd@FF?ZLNDLBVBdA@bA@rC?bHJv@@Z?~AMnEFxAAfAGnDOzAEhJOpEA`B?lABr@HTDnCLhCFzACpBFZ@ZB`AH\\BH@R?TAD?PEVGTKXSf@a@x@s@TQLIJGXMLGLEHGLGLGTQNKhAy@zA{ArBaBlAaArAcADEFCLICSCSGWIWg@yA[{@_@eAKYyAgEUo@AECGIQIQCICEo@gAi@{@ISQe@Og@IYEO}@kDMi@CMKa@SVIHo@r@GOEEc@y@]i@EGACWc@GK?A",
-            "durationMin": 27,
-            "distanceM": 9469,
+            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@@_@Ba@D_@D]F_@NaATwABMBQN_AD_@F{@H_C@Y?[Jc@Be@He@DSDQHYRw@Nm@\\wALi@H_@z@iE`@oB@CNw@Ny@DUZqAd@oBT_AT}@TaALg@FSPy@Lg@XuAVmARgADQDUF_@F[ToAr@wD@M@MAK?KCMCQAEk@kCAMAQ?g@G_BAy@AMAa@Bu@LoD@I@IBGBCJDH@H@FALAPCl@KDADADATIFCFCDCFEBEDE@C@C@CLOBS@IZ_C@IDS@E@GBIBIHSb@oADK@GFQ@C@CFOBKr@qBJ[HUBG@EBGHUjAgDL]DMZRn@^b@Vd@XRJ^TC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNPTTdClCDFJLHMx@qAr@kAHMFIZe@n@}@BC",
+            "durationMin": 31,
+            "distanceM": 13059,
             "mode": "subway",
-            "osrmMin": 14,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d3-9b",
-          "time": "17:00",
-          "title": "Nintendo Tokyo (Shibuya Parco 6F)",
-          "description": "Pick up a beautiful hanafuda deck (Nintendo originally made them in 1889 before they made video games). Decks ¥800–4000. Plan: learn Koi-Koi from a YouTube tutorial during ryokan downtime + play over kaiseki at Ubuya.",
-          "address": "Shibuya Parco 6F, 15-1 Udagawacho, Shibuya City",
-          "category": "shop",
-          "costPerPerson": 2000,
-          "currency": "JPY",
-          "lat": 35.6614,
-          "lng": 139.6975,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "octxEssssYi@{@?AEGWP_@XQTKLAGCICMAKAIAIAGEcA?KGoA?K?ICsB?S@[P{DF_AB]D[PeAJy@BM@IDYBOBK@ODUDSF[PgAHc@Nq@`AkEFY~@oBDI|@eBh@eABEVUMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNPTTdClCDFJLHMx@qAr@kAHMFIZe@n@}@BC",
-            "durationMin": 20,
-            "distanceM": 7742,
-            "mode": "subway",
-            "osrmMin": 9,
+            "osrmMin": 17,
             "corrected": true
           }
         },
@@ -97845,7 +97824,7 @@
     {
       "date": "2025-12-05",
       "dayNumber": 12,
-      "theme": "Kuromon + Koshien + Shinsekai + Speakeasy",
+      "theme": "Kuromon + Osaka Castle + Shinsekai",
       "city": "Osaka",
       "activities": [
         {
@@ -97858,45 +97837,32 @@
           "lng": 135.5066,
           "routeToNext": {
             "format": "polyline",
-            "data": "kqqrEecazXCrAATM?iCEU?O?M?oACYA?d@A~@ApAC|BA|@?LCnD?PCbFAbC?F?LAnC?JA^?l@CdC?JApAElBOfACPCVUpCIx@Ix@ObBs@lHC^UjEEd@AVK`BKbBAVCVCXATGrBE|AG`BCn@AZOdEEn@En@An@IbCG~@@b@?b@a@Aa@?mAHw@@S@W@K@uAHa@B_@?cAEYCm@Eg@E_DSgAKu@GOASAy@G}CWwE]s@GYAu@CKIMIYCuAIc@?c@Bk@F_ANk@Fk@F}E^e@Dy@N]H{AN{Bb@UFUF_A`@[LYJYFyAXcEl@}@PqA`@yAl@kBfAm@f@m@f@o@x@WXoB|C}@|Au@hAu@jAi@v@i@z@o@`Ai@r@UZOPg@h@k@h@mBhBqJ|I_BxAoAlA{IhIQROP[b@Ud@GNMZGPGTGTGZCRCRE^Ch@Ch@KbEQxHKpEGjBIdDC~@Gz@Gt@I~@M`AOz@WbAM\\M\\M\\MZSb@U`@m@|@c@h@_@b@k@f@i@f@i@b@kBvAcJ`H}SxOeDfCy@r@s@p@m@p@q@x@o@~@q@fAq@nAk@lAc@hA_@bA_@hAmFpPmA~DmD~KkAvDc@|Aa@zA[tAUlAWtAOvAOnAIhAGlAEjAAxA?nABtADlAFrALvANrARtAVxAZrA^tA^hA^fAj@zA~@fCl@pBT~@Jn@Jt@FrA@d@?h@Aj@Cp@Gr@Kr@Ox@Ux@Sn@Uh@Yl@Wd@a@h@o@r@oAnAiCbCgAfAMPa@f@a@j@Yd@k@jAc@`Ay@zBs@xBe@dBi@xBWlAe@xBc@hCSvAa@vD]bEIxAMdBIfBIdCGhBGbBGpAMrAQbBOfAQtAMn@Qx@YfAs@xBg@`BYjAUhA[zBm@xEWhBmAfJ[vBYrB_@rC{@vG{@rH]bD]bD_@jDU`CMdBCrAAzABtAFnABd@Fh@J~@`@~Cb@`DxB~O`AhH~@hHv@xF^zCH~@HlAFxA@`A?`AAz@Ez@GfAGp@[tBSfAUhAiEhSg@vCc@bDObBKrAStCQdBGp@In@Gj@Gf@Cf@@j@Nv@JXTZPNTFRBTGRKJQFS@UAUIYKQSIUCSBOHQNKVIVMl@Ib@W`BYtAg@rA]zCm@zECPgAdHIj@[hBi@hD]hBYxAa@dB{@jCWp@_@bBm@vBa@vAwAbEcBtE}AtE{@xCGRGPqAFSBg@?sBJS@SBO@O?Q?OCwAQA?OEUEqAWMCyAWm@KDOh@LzATPBfBXNBB?pAR",
-            "durationMin": 43,
-            "distanceM": 17500,
+            "data": "kqqrEecazXCrAATM?iCEU?O?M?oACYAi@?[?eAAK?{@Aq@?e@Ay@AI?U?IAo@?W?M?K?w@AgBAIAI?mCCM?KAI?}BCQ?S?aCEK?O?eCAK?O?cCAMAI?eAAO?I?YAS?Y??_@?E?}A?GAs@?eA?_@?K?y@?E?E?O?M?EA]?mC?qA?ECeC?CA_@A]?IAwAAK?I?Q?}@Dc@Kk@yBoJAMASEqFAO?MAwF?M?e@As@?c@?KBeB?E?[@KHyD@w@DyALqDuAGiDQsAImEUuBIwAIwFSIAo@Ck@Cm@CKAeCMSAkBIm@?i@?O?wEz@oDv@A@MBSFYFsAZ_B\\QFaARsCn@W@SAQC_@IeAmBmBoDGMAGAIOiCCICECC",
+            "durationMin": 17,
+            "distanceM": 4137,
             "mode": "subway",
-            "osrmMin": 25,
+            "osrmMin": 7,
             "corrected": true
           }
         },
         {
           "id": "d12-2",
-          "time": "12:30",
-          "title": "Koshien Station",
-          "description": "Hanshin Main Line from Umeda or Namba. ~30 min.",
-          "category": "transit",
-          "lat": 34.7237,
-          "lng": 135.3633,
+          "time": "12:00",
+          "title": "Osaka Castle Park",
+          "description": "Castle keep + museum + park grounds. Fall foliage peaks late November — momiji + ginkgo around the moats. Grab a quick lunch inside the park (food carts) or at Jo-Terrace Osaka before climbing to the observation deck.",
+          "address": "1-1 Osakajo, Chuo Ward, Osaka 540-0002",
+          "category": "history",
+          "costPerPerson": 600,
+          "currency": "JPY",
+          "lat": 34.6873,
+          "lng": 135.5258,
           "routeToNext": {
             "format": "polyline",
-            "data": "e~|rEcceyXB@P@R@PAPGDCD?FANATAdAGVAx@CnA@h@BXB`@DXH\\Hv@ZvB`ANHGLEPCDCd@A^B`@FjAGnAKf@",
-            "durationMin": 5,
-            "distanceM": 410,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d12-3",
-          "time": "12:45",
-          "title": "Hanshin Koshien Stadium",
-          "description": "Tigers official store (brother's hat) + Koshien History Museum. Stadium tour available if pre-booked. Famous yakisoba shop across the street if hungry. Allow 2-3 hours.",
-          "category": "experience",
-          "lat": 34.7212,
-          "lng": 135.3614,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "wh|rEaudyXJg@FoAGkACa@@_@Be@BEDQFMDQl@mB|AwEpAgEr@}B\\kAb@{Ap@oBj@eBTo@Rw@@Ch@aBp@}@@Ab@k@LQTY\\k@Xo@k@Yu@a@q@]kAo@eBo@eA_@WK_@Od@eDd@yCp@yELiADSRkBLeB@IzAcMfAqFNqAj@wFf@aFb@aDf@uCpDyPJm@Fa@NgAPoATsBFu@DaA@e@BqAAgAAyAE_AIeAIeAMkAOqAu@qF}BmQ{@iG}@sGgAwHOsAI{@Es@Cs@CoA?uABeAD{@HaATaC`@uDx@yH\\_DNoALmAZeC^qC^qCr@iFnAiJViBn@uEZcCTkAVkAl@gBh@gB\\wAH[Pw@NaAVyBVoBJ}ADoABy@DiBDaADgANuCJwAH_BTgC`@yDT}Ab@wCP{@R_AXoAd@mBj@uBt@_Cv@wBd@cA`@{@b@q@\\i@v@cAfAiAlCeCjAkAb@k@^i@^i@Vg@Ti@Tq@Ps@Nw@Jo@Fw@Bq@@k@?a@Ac@Eo@Eq@Ik@Im@UaAg@gB_AeCk@}A_@cAa@mAa@yAYqAWwASwAQ{AMuAGsAEsACsA?uA@qADsAFmAJiALqAPyATyATkA\\wA^uAb@aBjAuDlDaLpA_EdAgDbDiK`@kA^eAb@gAl@qAr@uAn@cAr@aAn@w@p@u@r@s@z@s@bDeC~SyObDaCdE{CzAiAl@e@j@g@p@q@^_@`@i@T]T[Tc@Re@LWJYX}@VaAP{@J}@H}@H}@Du@D}@HiDFgCDuBTwJJcEBi@Bi@Da@BSBSH_@DUPi@L_@LWLU\\i@PUPQnLyK|AyApJ{InBiBh@i@f@k@b@i@j@w@n@_Ah@{@f@y@JOd@u@lCgExA_CVYr@{@xAqAnBkAxAm@pAa@zA]dBa@fCg@LCLELIHGFIFKDKDODQBSBQ?S?UIaDCg@CWC]M_AGm@Ek@ASIu@QkGQmGBaACcA?i@?s@@e@@u@@e@Aq@UsHQoACaBAa@?]?cB_@{C?qC?M?M@gA@kC?G?CAMA_@R@B?Z?Z@B?N@T?D?zCDxBBF?B?L@H?B?rBBF@B?R?T?@?hBBB?@?N?P@B?~BDB?B?J?H?B?bCDT@~CBzB@V?R?TAZ?Z?hA?F?H?dC?J?J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZGf@?XBb@?PD`AAP?J?b@@f@AN?P?b@@l@BTDFBHDLHJJNVZd@\\XhBfBn@h@JHf@b@b@`@t@p@VPZNb@HdBBvADtBFT@X@fA@b@@xADR?T?bA?t@?jBAtB@ZAV?~B?nBAj@?j@?~AAR?h@@Da@TaCJgAD[BYD_@L{ABSNwABUDg@@UDa@CWJw@FOB_@LkAKyAA[CYIoAMgBCSAWA_@?]Ly@JaAHs@Fu@Ho@JmA@Q@KBSDKD_@Fg@BQ??RBn@Pp@PdAVrBf@BKDMBGFGFIHCJCLAF@D@ObA",
-            "durationMin": 43,
-            "distanceM": 19050,
+            "data": "sgvrE{fdzXBBBDBHNhC@H@FFLlBnDdAlBATGtAI~AOnDADObC?HARRDr@@dFCZ?R?`@A|BA^AR?~AAhE@lC@f@@\\@zGFZ?vABV?xCB`A@vEDN?bBBF?F?L?B?l@@h@HnFFhDHnHZv@ChADH@J?pH\\V@VBfKbATBLBhEf@tB\\jBTZDPBtDd@vEl@fCVpALD@XBVBXBzD`@bALbCVH@N@F@dEb@p@HlBPXDTBpCXR@LBf@Dr@HjBR^D\\BnANtEf@r@?|@?R?N?hFD`@?d@?fBAn@@Qb@KZa@pAGP]tAk@hBK^UL@Z@`A?X]pGU~DGhACZCX?FCVE^QvAQtACT??RBn@Pp@PdAVrBf@BKDMBGFGFIHCJCLAF@D@ObA",
+            "durationMin": 19,
+            "distanceM": 5437,
             "mode": "subway",
-            "osrmMin": 25,
+            "osrmMin": 8,
             "corrected": true
           }
         },
@@ -98010,28 +97976,28 @@
           "lng": 139.7034,
           "routeToNext": {
             "format": "polyline",
-            "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEWTCDi@dA}@dBEH_AnBGXaAjEOp@Ib@QfAGZERETANCJCNEXAHCLKx@QdAEZC\\G~@QzDAZ?RBrB?H?JFnA?JDbA@F@H@H@JBLBH@FCHQ`@O`@IRIJkCfDu@~@EDYRa@VGDk@\\cAp@aBdAUNeAp@}AdAm@^UTUVS`@Mb@Wl@OTMNYV{@p@uBvAQNFb@d@rCDXD\\Bd@?f@Cd@MvAKpAKjAEbACnAATA`@Q?@_@?WBgA@uA",
-            "durationMin": 25,
-            "distanceM": 2052,
+            "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCGLEFINC@ODWHUFI@M?WaBGk@CSCQAO@KB]zDnDrBfBp@h@HDJBZDD@BB@DDvBDx@BZBVHt@Jd@b@dBZnAl@bCLd@DPRbAJ^DPHXFXHZtAdGx@~DJf@F~A`AvGBL@PCNGHUTQKSEKE[Qg@Yy@c@FODK",
+            "durationMin": 11,
+            "distanceM": 911,
             "mode": "walk"
           }
         },
         {
           "id": "d13-2b",
-          "time": "16:30",
-          "title": "Fuglen Tokyo",
-          "description": "Quiet Saturday-afternoon reset before Takarazuka. Norwegian roastery in a Scandinavian-modern Tomigaya space — Reddit's go-to chill coffee spot near Yoyogi/Shibuya. ~18 min walk from Shibuya Station.",
-          "address": "1-16-11 Tomigaya, Shibuya-ku, Tokyo",
+          "time": "16:00",
+          "title": "About Life Coffee Brewers",
+          "description": "Tiny specialty stand by the Onibus Coffee team — Reddit favorite for a fast, perfect Shibuya pour-over or flat white. Open till 6pm, so this is the late-afternoon coffee anchor before the Takarazuka show.",
+          "address": "1-19-8 Dogenzaka, Shibuya City, Tokyo 150-0043",
           "category": "food",
-          "lat": 35.6678,
-          "lng": 139.6889,
+          "lat": 35.6567,
+          "lng": 139.6958,
           "routeToNext": {
             "format": "polyline",
-            "data": "{juxEs~qsY?CDq@PwBLiA@Q?Q@[AYC[EYe@qCIe@Ga@g@yCKq@Go@A[AYYiXQoNGu@Ge@G]Kc@}A{ESi@GQ[_AGSM_@EOAI?K?G?ODUFWj@}APg@l@cBz@cCFMLa@DMN_@j@cBb@kAbAmC^gAn@iBBEdDeJNa@f@sAHWHSJY`C{GDKNa@USaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWY[GIkAaCGKKKIGk@_@aC_BQKELQh@IRAHABGPELAFCLALCxACJEFIDG@E?ECCA",
-            "durationMin": 20,
-            "distanceM": 8129,
+            "data": "eesxEsissYTq@JU_@kCAKEMl@m@FGVKoAwFs@eDa@qBG]EOc@iBAIGSs@_D]}Ao@oCEe@CWO_CK_@Ca@EQGOKKIK]YwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWY[GIkAaCGKKKIGk@_@aC_BQKELQh@IRAHABGPELAFCLALCxACJEFIDG@E?ECCA",
+            "durationMin": 19,
+            "distanceM": 7744,
             "mode": "subway",
-            "osrmMin": 9,
+            "osrmMin": 8,
             "corrected": true
           }
         },
@@ -98312,17 +98278,34 @@
           "lng": 139.766,
           "routeToNext": {
             "format": "polyline",
-            "data": "mivxEq_atYeBkBGGm@bAFFdDjDFFFHjBnBVVDBD@DA^g@h@y@HKNUHKNPGJQVo@~@_@j@y@hAGJKPYd@Yb@EFOXKLQXYl@eB~CcBjCkAvBuExHc@hA[`AaBlFYTsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBBI^O`@sCvHADO^m@bBm@dB{AfEe@pAADc@lAg@vAwAzDq@lBKVGLM^EJOIDMN_@j@cBMIaAo@k@]k@_@[O",
-            "durationMin": 19,
-            "distanceM": 7085,
+            "data": "mivxEq_atYeBkBGGEEaDkDEGGEu@w@{AaBGGReADQDUUUiAq@QKIEIE{@g@u@_@IGSKSKWMeAi@mAo@MIUMOI{@e@GCQKQIq@a@eCqAc@UOG]Q]Q[Q_@SeAk@QKm@_@w@_@IESKQKuAw@IEIEKGyAw@wAu@GEUKQKDOPJTLfB`ADOZaAVy@@C",
+            "durationMin": 18,
+            "distanceM": 1532,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d15-2b",
+          "time": "13:30",
+          "title": "Pokemon Center DX Tokyo",
+          "description": "The flagship Pokemon Center — Nihombashi Takashimaya 5F, 5 min walk from Tokyo Station Yaesu side. Pokemon TCG, plushies, exclusive Tokyo-only merch. Cafe attached (reservation-only, may be booked). Browsing 60-90 min is enough.",
+          "address": "Nihombashi Takashimaya S.C. East Bldg 5F, 2-11-2 Nihombashi, Chuo-ku, Tokyo",
+          "category": "shopping",
+          "lat": 35.6815,
+          "lng": 139.774,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "u`xxEurbtYPm@\\eA@GNHXNVNTJDBFBl@Z~@f@NHHD`Af@B@VNh@VHFZNB@VNFBd@VPJXPCJ_@jAGTm@nBCHOb@GPKXk@hB[bAIVGPGRELk@fBAZQf@AF?F@FBHlAvAjDnBPJ^RHDZRr@\\fCvALHZJTLC\\Ej@_@|CG`@WdBAJCVIl@Gb@M~@_@rCAJE\\G\\e@lDAFCTCVg@pDAJEXZHtD|@lEhA~Ct@TFTHVLBBPJXXPPW\\QTs@nAYr@qA`E_@nAKZsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBBI^O`@sCvHADO^m@bBm@dB{AfEe@pAADc@lAg@vAwAzDq@lBKVGLM^EJOIDMN_@j@cBMIaAo@k@]k@_@[O",
+            "durationMin": 20,
+            "distanceM": 8119,
             "mode": "subway",
-            "osrmMin": 8,
+            "osrmMin": 9,
             "corrected": true
           }
         },
         {
           "id": "d15-3",
-          "time": "14:30",
+          "time": "15:00",
           "title": "Cat Street vintage cluster (Harajuku)",
           "description": "Better fit-odds than Shimokita for tall/broader bodies — these are US-sourced. Walk Cat Street + side alleys: 2nd Street (consistent sizing), BerBerJin (Western Levi's including bigger waists), Komehyo Harajuku (used designer, accurate sizing), Atlantis Vintage (US/EU vintage). Skip Kinji/Pin Nap (small Japanese-only sizing).",
           "address": "Cat Street, Jingumae, Shibuya City",
