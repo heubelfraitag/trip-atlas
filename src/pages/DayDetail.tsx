@@ -1,5 +1,4 @@
 import { Link, Navigate, useParams } from 'react-router-dom';
-import { useState } from 'react';
 import { getTrip } from '../data/trips';
 import TripMap from '../components/TripMap';
 import ActivityCard from '../components/ActivityCard';
@@ -14,7 +13,6 @@ import type { Activity } from '../types/trip';
 export default function DayDetail() {
   const { slug, dayNumber } = useParams<{ slug: string; dayNumber: string }>();
   const trip = slug ? getTrip(slug) : undefined;
-  const [showSolo, setShowSolo] = useState(true);
   const now = useNow();
 
   if (!trip) return <Navigate to="/" replace />;
@@ -30,7 +28,7 @@ export default function DayDetail() {
   const currentNext = isToday ? getCurrentAndNext(day, now, trip.meta.timezone) : { current: null, next: null };
   const cost = dayCost(day, trip);
 
-  const filteredActivities = day.activities.filter((a) => showSolo || !a.soloOnly);
+  const filteredActivities = day.activities;
 
   function liveState(a: Activity): 'current' | 'next' | 'past' | 'future' | null {
     if (!isToday) return null;
@@ -84,20 +82,10 @@ export default function DayDetail() {
       <TripMap
         trip={trip}
         selectedDay={day.dayNumber}
-        showSolo={showSolo}
         heightClass="h-[40vh] min-h-[320px]"
       />
 
-      <div className="mt-3 flex items-center justify-between gap-3 flex-wrap text-xs">
-        <label className="flex items-center gap-2 text-ink-soft cursor-pointer">
-          <input
-            type="checkbox"
-            checked={showSolo}
-            onChange={(e) => setShowSolo(e.target.checked)}
-            className="accent-vermillion"
-          />
-          Show solo-only
-        </label>
+      <div className="mt-3 flex items-center justify-end gap-3 flex-wrap text-xs">
         <span className="text-ink-faint">{filteredActivities.length} stops</span>
       </div>
 

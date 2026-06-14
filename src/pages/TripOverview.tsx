@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { getTrip } from '../data/trips';
 import TripMap from '../components/TripMap';
@@ -24,12 +24,8 @@ export default function TripOverview() {
   const { slug } = useParams<{ slug: string }>();
   const trip = slug ? getTrip(slug) : undefined;
   const [selectedDay, setSelectedDay] = useState<number | null>(null);
-  const [showSolo, setShowSolo] = useState(true);
   const now = useNow();
   const [doneState, setDoneState] = useState<Record<string, boolean>>({});
-  const [scrollLinked, setScrollLinked] = useState(true);
-  const dayRefs = useRef<Record<number, HTMLLIElement | null>>({});
-  const scrollTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (slug) setDoneState(readAllDoneState(slug));
@@ -38,36 +34,6 @@ export default function TripOverview() {
     window.addEventListener('focus', onFocus);
     return () => window.removeEventListener('focus', onFocus);
   }, [slug]);
-
-  // Scroll-linked: pick the day card currently centered in the upper viewport.
-  useEffect(() => {
-    if (!scrollLinked) return;
-    const io = new IntersectionObserver(
-      (entries) => {
-        // Find the most-intersecting entry currently in view
-        let best: { day: number; ratio: number } | null = null;
-        for (const e of entries) {
-          if (!e.isIntersecting) continue;
-          const day = Number((e.target as HTMLElement).dataset.day);
-          if (!day) continue;
-          if (!best || e.intersectionRatio > best.ratio) best = { day, ratio: e.intersectionRatio };
-        }
-        if (!best) return;
-        // Debounce flurries during fast scrolls.
-        if (scrollTimerRef.current) window.clearTimeout(scrollTimerRef.current);
-        scrollTimerRef.current = window.setTimeout(() => {
-          setSelectedDay(best!.day);
-        }, 120);
-      },
-      // Trigger when card is in the middle 60% of the viewport
-      { threshold: [0, 0.3, 0.6, 1], rootMargin: '-20% 0px -40% 0px' }
-    );
-    Object.values(dayRefs.current).forEach((el) => el && io.observe(el));
-    return () => {
-      io.disconnect();
-      if (scrollTimerRef.current) window.clearTimeout(scrollTimerRef.current);
-    };
-  }, [scrollLinked, trip?.days.length]);
 
   if (!trip) return <Navigate to="/" replace />;
 
@@ -177,15 +143,10 @@ export default function TripOverview() {
         </div>
       )}
 
-      {/* Sticky map + filter chips while scrolling day list */}
-      <div className="sticky top-0 -mx-5 sm:-mx-8 px-5 sm:px-8 pt-2 pb-3 bg-paper/95 backdrop-blur z-[1000] border-b border-line">
       {/* Day filter chips */}
       <div className="mb-3 flex flex-wrap gap-2">
         <button
-          onClick={() => {
-            setScrollLinked(false);
-            setSelectedDay(null);
-          }}
+          onClick={() => setSelectedDay(null)}
           className={`px-3 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase border transition-colors ${
             selectedDay === null
               ? 'bg-ink text-paper border-ink'
@@ -200,10 +161,7 @@ export default function TripOverview() {
           return (
             <button
               key={d.dayNumber}
-              onClick={() => {
-                setScrollLinked(false);
-                setSelectedDay(d.dayNumber);
-              }}
+              onClick={() => setSelectedDay(d.dayNumber)}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase border transition-colors ${
                 selectedDay === d.dayNumber
                   ? 'text-paper border-transparent'
@@ -223,25 +181,7 @@ export default function TripOverview() {
         })}
       </div>
 
-      <div className="mb-3 flex items-center justify-between gap-3 flex-wrap text-xs">
-        <label className="flex items-center gap-2 text-ink-soft cursor-pointer">
-          <input
-            type="checkbox"
-            checked={showSolo}
-            onChange={(e) => setShowSolo(e.target.checked)}
-            className="accent-vermillion"
-          />
-          Show solo-only
-        </label>
-        <label className="flex items-center gap-2 text-ink-soft cursor-pointer">
-          <input
-            type="checkbox"
-            checked={scrollLinked}
-            onChange={(e) => setScrollLinked(e.target.checked)}
-            className="accent-vermillion"
-          />
-          Map follows scroll
-        </label>
+      <div className="mb-3 flex items-center justify-end gap-3 flex-wrap text-xs">
         <div className="flex items-center gap-3 text-ink-faint">
           {trip.meta.cities.map((c) => (
             <span key={c} className="inline-flex items-center gap-1.5">
@@ -255,13 +195,11 @@ export default function TripOverview() {
         </div>
       </div>
 
-        <TripMap
-          trip={trip}
-          selectedDay={selectedDay}
-          showSolo={showSolo}
-          heightClass="h-[38vh] min-h-[280px] sm:h-[45vh]"
-        />
-      </div>{/* /sticky */}
+      <TripMap
+        trip={trip}
+        selectedDay={selectedDay}
+        heightClass="h-[55vh] min-h-[420px]"
+      />
 
       {/* Days list */}
       <section className="mt-8">
@@ -275,13 +213,7 @@ export default function TripOverview() {
             const isFirstInCity = idx === 0 || trip.days[idx - 1].city !== d.city;
             const cityNote = isFirstInCity ? trip.meta.cityNotes?.[d.city] : undefined;
             return (
-              <li
-                key={d.dayNumber}
-                data-day={d.dayNumber}
-                ref={(el) => {
-                  dayRefs.current[d.dayNumber] = el;
-                }}
-              >
+              <li key={d.dayNumber}>
                 {cityNote && (
                   <CityNoteCard city={d.city} tldr={cityNote.tldr} tips={cityNote.tips} />
                 )}

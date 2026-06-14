@@ -946,7 +946,7 @@
           "id": "d6-1",
           "time": "06:30",
           "title": "Chureito Pagoda sunrise",
-          "description": "Sunrise together. Taxi ~20 min from the ryokan. The iconic pagoda-with-Fuji shot — worth the early alarm. Bring layers.",
+          "description": "Sunrise mission. Taxi ~20 min from the ryokan. The iconic pagoda-with-Fuji shot — worth the early alarm. Bring layers.",
           "category": "temple",
           "lat": 35.5099,
           "lng": 138.8005,
@@ -961,7 +961,8 @@
         {
           "id": "d6-2",
           "time": "09:00",
-          "title": "Reunion breakfast",
+          "title": "Japanese breakfast at the ryokan",
+          "description": "Grilled fish, miso soup, tamagoyaki, rice. Slow morning at the ryokan after Chureito sunrise.",
           "category": "food",
           "lat": 35.5096,
           "lng": 138.771,
