@@ -51,31 +51,58 @@ async function osrm(profile, from, to) {
 }
 
 // Public OSRM demo's `foot` profile is broken: it returns driving-speed
-// durations (~37 km/h) AND inflated path distances (e.g. 2.4km route for what
-// is actually a 300m walk across the street). We keep the polyline geometry
-// for the map but compute walk distance + duration from haversine × 1.25
-// (typical city-street padding) at 5 km/h.
+// durations (~37 km/h) AND inflated path distances. We keep the polyline
+// geometry for the map but compute walk distance + duration from haversine
+// × 1.25 (typical city-street padding) at 5 km/h.
 const WALK_M_PER_MIN = 83.33;
 const WALK_PATH_FACTOR = 1.25;
+
+// OSRM only does road routing — for transit we route via `driving` profile
+// (to get a road-following polyline that approximates the rail corridor),
+// then translate driving time to realistic transit time:
+//   - Long-haul (haversine > 200 km): Shinkansen-eligible. ~200 km/h end-to-end
+//     including transfers + station overhead (+20 min).
+//   - Urban transit: piecewise multiplier round(osrm*1.44 + 7) that matches
+//     the empirical Rome2Rio/Google data we sampled in prior sessions.
+// The raw OSRM minutes are preserved as `osrmMin` for diagnostics.
+const SHINKANSEN_HAV_M = 200_000;
+const SHINKANSEN_KMH = 200;
+const SHINKANSEN_OVERHEAD_MIN = 20;
+
+function transitDurationMin(haversineM, osrmDrivingMin) {
+  if (haversineM > SHINKANSEN_HAV_M) {
+    return Math.max(60, Math.round((haversineM / 1000 / SHINKANSEN_KMH) * 60 + SHINKANSEN_OVERHEAD_MIN));
+  }
+  return Math.max(3, Math.round(osrmDrivingMin * 1.44 + 7));
+}
 
 async function buildRoute(profile, from, to, mode) {
   const route = await osrm(profile, from, to);
   if (!route) return null;
-  let distanceM, durationMin;
+  let distanceM, durationMin, osrmMin;
   if (mode === 'walk') {
     distanceM = Math.round(hav(from, to) * WALK_PATH_FACTOR);
     durationMin = Math.max(1, Math.round(distanceM / WALK_M_PER_MIN));
+  } else if (mode === 'subway') {
+    distanceM = Math.round(route.distance);
+    osrmMin = Math.round(route.duration / 60);
+    durationMin = transitDurationMin(hav(from, to), osrmMin);
   } else {
     distanceM = Math.round(route.distance);
     durationMin = Math.round(route.duration / 60);
   }
-  return {
+  const result = {
     format: 'polyline',
     data: route.geometry,
     durationMin,
     distanceM,
     mode,
   };
+  if (osrmMin != null) {
+    result.osrmMin = osrmMin;
+    result.corrected = true;
+  }
+  return result;
 }
 
 /** Hotel where you slept LAST night (i.e. where the morning starts). */
