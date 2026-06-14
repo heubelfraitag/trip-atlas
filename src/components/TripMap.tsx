@@ -347,8 +347,20 @@ export default function TripMap({
       const endHotel = findEndHotel(day.date);
       const firstAct = acts[0];
       const lastAct = acts[acts.length - 1];
-      const drawStartLeg = !!startHotel && !sameSpot(startHotel, firstAct);
-      const drawEndLeg = !!endHotel && !sameSpot(endHotel, lastAct);
+      // Cutoff: hotel legs longer than 100km are cross-country travel —
+      // intercityTransit covers them (Shinkansen corridor polyline).
+      // Drawing a straight-line "hotel commute" on top would just be noise.
+      const HOTEL_LEG_MAX_M = 100_000;
+      const startDistM = startHotel
+        ? haversineM([startHotel.lat, startHotel.lng], [firstAct.lat, firstAct.lng])
+        : 0;
+      const endDistM = endHotel
+        ? haversineM([lastAct.lat, lastAct.lng], [endHotel.lat, endHotel.lng])
+        : 0;
+      const drawStartLeg =
+        !!startHotel && !sameSpot(startHotel, firstAct) && startDistM <= HOTEL_LEG_MAX_M;
+      const drawEndLeg =
+        !!endHotel && !sameSpot(endHotel, lastAct) && endDistM <= HOTEL_LEG_MAX_M;
 
       // Total legs = N-1 between consecutive activities + optional hotel-start + optional hotel-end
       const legCount = acts.length - 1 + (drawStartLeg ? 1 : 0) + (drawEndLeg ? 1 : 0);
