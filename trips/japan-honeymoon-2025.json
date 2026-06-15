@@ -53,27 +53,40 @@
       "address": "5-3-18 Shinjuku, Shinjuku Ward, Tokyo 160-0022"
     },
     {
-      "id": "hotel-fuji",
+      "id": "hotel-fuji-1",
       "name": "Kozantei Ubuya",
       "neighborhood": "Lake Kawaguchi",
       "lat": 35.51289,
       "lng": 138.78062,
       "checkIn": "2025-11-27",
-      "checkOut": "2025-11-30",
+      "checkOut": "2025-11-29",
       "booked": true,
-      "notes": "Lakefront ryokan with Fuji view.",
+      "notes": "Lakefront ryokan with Fuji view. Two nights (Nov 27-29) before splurging on FUFU final Fuji night.",
       "address": "10 Asakawa, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0303"
     },
     {
+      "id": "hotel-fuji-2",
+      "name": "FUFU Kawaguchiko",
+      "neighborhood": "Lake Kawaguchi (Funatsu / Onsen-kyo)",
+      "lat": 35.50046,
+      "lng": 138.77116,
+      "checkIn": "2025-11-29",
+      "checkOut": "2025-11-30",
+      "booked": false,
+      "notes": "Splurge final Fuji night. Small luxury ryokan, all-suite, every room has a private outdoor onsen. Mt. Fuji views, Bang & Olufsen, Dyson, kaiseki dining.",
+      "address": "6677 Funatsu, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0301"
+    },
+    {
       "id": "hotel-kyoto",
-      "name": "The Thousand Kyoto",
-      "neighborhood": "Kyoto Station",
-      "lat": 34.9854,
-      "lng": 135.7589,
+      "name": "Hotel TOU Nishinotoin Kyoto",
+      "neighborhood": "Shimogyo-ku (between Higashi & Nishi Hongan-ji)",
+      "lat": 34.99244,
+      "lng": 135.7564,
       "checkIn": "2025-11-30",
       "checkOut": "2025-12-04",
       "booked": false,
-      "notes": "Shortlist."
+      "notes": "4-star wabi-sabi boutique, 10-min walk from Kyoto Station, 8-min from Gojo Station (Karasuma Line). Tighter budget than The Thousand Kyoto to offset the FUFU splurge.",
+      "address": "455 Nishinotoincho, Shimogyo-ku, Kyoto 600-8327"
     },
     {
       "id": "hotel-osaka",
@@ -96958,19 +96971,20 @@
           "lng": 138.77419,
           "routeToNext": {
             "format": "polyline",
-            "data": "iouwEaf_nYDPDVPf@RVd@Hj@j@p@lAJ|A@fBMp@[Xe@q@SUUWi@[_@Ua@Sg@Uk@Oc@Eg@Ac@Ak@C[CMCUGOKMKKMWc@IQUq@M]c@w@Y]Y[OOYSUMUKQESG[IeAMwAQKAC?oCa@sBU{@MsAOG?a@Aw@Bw@HI@uAj@[VWRo@n@k@z@m@pAMn@Gn@A`AFbAVrBr@rFt@`GN|@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@Ic@IUIUMY[s@y@gBGIe@y@_EsIwCcG_@s@Ye@g@s@W[k@k@YUUQJ[^mAZcAH[rAqClC{EfD}DzDmDdHyD~GyCfBy@",
-            "durationMin": 17,
-            "distanceM": 1457,
+            "data": "iouwEaf_nYDPDVPf@RVd@Hj@j@p@lAJ|A@fBMp@[X\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]GE{@cAUs@@[BiBRo@?]",
+            "durationMin": 7,
+            "distanceM": 578,
             "mode": "walk"
           }
         },
         {
           "id": "d6-6",
           "time": "18:30",
-          "title": "Kaiseki dinner #3",
+          "title": "Kaiseki dinner at FUFU",
           "category": "food",
-          "lat": 35.51289,
-          "lng": 138.78062
+          "lat": 35.50046,
+          "lng": 138.77116,
+          "description": "Final Fuji-night splurge dinner at FUFU. In-suite or in-restaurant kaiseki — seasonal multi-course using Yamanashi ingredients, paired with the private outdoor onsen between courses."
         }
       ],
       "routeFromHotel": {
@@ -97034,9 +97048,9 @@
           "lng": 135.7585,
           "routeToNext": {
             "format": "polyline",
-            "data": "wfptEocr{X??B@@@@B?B@B?B@`D?F?h@@|D?N?B?@?@A@A@??A@A@A???A@A?A?IAgAAk@Ac@AS@?D?X?bGBX?X@P@H@FDLDHJN`@CB?p@ClDi@fCa@fAOTE^G@M@S?S?aF?U?O?_CAuA?kAAsABQBOBML_@DMBCBOBM@U?a@?[GEECCAEECGAM?O?G?O?M@K",
-            "durationMin": 1,
-            "distanceM": 72,
+            "data": "wfptEocr{X??B@@@@B?B@B?B@`D?F?h@@|D?N?B?@?@A@A@??A@A@A???A@A?A?IAgAAk@Ac@AS@E?IBMFo@?U?OAg@?I?i@?c@Ag@?k@?sA?K?Q?oE@I?qEBI?K?{EB?IAy@A}AEoCh@ABv@J?",
+            "durationMin": 11,
+            "distanceM": 953,
             "mode": "walk"
           }
         },
@@ -97046,16 +97060,14 @@
           "title": "Hotel check-in",
           "description": "The Thousand Kyoto.",
           "category": "hotel",
-          "lat": 34.9854,
-          "lng": 135.7589,
+          "lat": 34.99244,
+          "lng": 135.7564,
           "routeToNext": {
             "format": "polyline",
-            "data": "ozotEmkr{X???I?E?[?YC[CYE[EMCIAG@E@EBABADANAEWk@cE?OB[AS?Q?aD?cB?I?}@AqC?U?k@@YBYYFyCD_A@K?oBBwA@iA@a@@c@?qBAg@@gA@eB@g@Kc@?k@?sC@wF?[?qA?A?UC]KyAg@KG_Aa@}@_@gAc@KEqBaA}BsAkAs@CAa@UE|@GfBk@GOAEAkHI{FGEA{EEG?G?oDAK?u@?eBA_C@{EEO?Q?oFEG?G?cFE@pC~EBJ?F?@?",
-            "durationMin": 19,
-            "distanceM": 3255,
-            "mode": "subway",
-            "osrmMin": 8,
-            "corrected": true
+            "data": "wmqtEw|q{XNAAw@D?|CEBrC@xC?HK?{EBI?iB?M?K?iA?c@?g@@gD?mB?{@Am@?G?M?k@AK?I?cF?cBCiC@G?I?{E?U?W@wA?O?gB?cC@G?cB@_F@OB?[A_C?G?yBAQ?O?oD@kA@]@Y?UBkE?g@?U?m@?oEAS?QAiG?O?S?gB?K?QAoB?O?S?uC?M?OAaB?UQ?oFEG?G?cFE@pC~EBJ?F?@?",
+            "durationMin": 24,
+            "distanceM": 1980,
+            "mode": "walk"
           }
         },
         {
@@ -97121,18 +97133,18 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "mhwwEcbanYgBx@_HxCeHxD{DlDgD|DmCzEsApCIZ[bA_@lAKZTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNVJ`@Rb@ZTNJFPFx@XTHFDDDDDDHPj@^bALXLXPVPRRPRLRLPHNBNBN?DAHARGnA}@HKJQDS`AgDDY@WCUKu@O}@u@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTnC`@B?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJLb@p@JLHDDBlBJJAJCVQRIRIRCXEP?LA?SH?NA",
-        "durationMin": 29,
-        "distanceM": 2438,
+        "data": "_utwEwv~mY?\\Sn@ChBAZTr@z@bAFDK\\EHMPQPKJJLb@p@JLHDDBlBJJAJCVQRIRIRCXEP?LA?SH?NA",
+        "durationMin": 5,
+        "distanceM": 413,
         "mode": "walk"
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "avttEybu{X@f@@P?TZBL?vD?Z?tFFP?L?|EJ\\@N?D?fABdADfAHb@BF@j@Fr@LVFPD\\JHB\\Jf@VvAh@RFPFh@V`Ab@bBr@~An@bHjCNDJDnF`BzDtAbBh@x@Td@LXFB@XFVFjCd@VDPBj@F\\BrF^dDVR@P?n@Bv@?ZAv@Cr@Cr@ElDMTEJEAV?T?N@vD@pB?V?R?N@|@BbFGh@?p@?d@?V?l@?J?lA@f@T?vDJxADl@@X@\\@^@@?\\@D?N?D?|@DZ?N?NCn@MVGFAJARAtACH?D?FBDBDDBDBD@H@FJlD@f@BPFNJPHHHFFBF?^?JTBNF^L`ADVJt@BRF\\@PF\\BX@\\@Z?X?~@?~@?VS?GEECCAEECGAM?O?G?O?M@K",
-        "durationMin": 17,
-        "distanceM": 3773,
+        "data": "avttEybu{X@f@@P?TZBL?vD?Z?tFFP?L?|EJ\\@N?D?fABdADfAHb@BF@j@Fr@LVFPD\\JHB\\Jf@VvAh@RFPFh@V`Ab@bBr@~An@bHjCNDJDnF`BzDtAbBh@x@Td@LXFB@ALCTADUnCAF?F?b@Ct@AXGz@EhAE|@GfBGz@En@?VA\\CxACpA?FAZAj@CnCANAdCCtBA^Ab@CxBAz@?D?d@j@AB?fAAnBAJ?xAArA?N?\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
+        "durationMin": 16,
+        "distanceM": 3119,
         "mode": "subway",
-        "osrmMin": 7,
+        "osrmMin": 6,
         "corrected": true
       }
     },
@@ -97305,21 +97317,21 @@
           "lng": 135.7641
         }
       ],
-      "routeToHotel": {
-        "format": "polyline",
-        "data": "}drtEsls{XB_B@_@@[DiBHeBBm@@c@h@X`@TB@jAr@|BrApB`AJDfAb@|@^~@`@JFxAf@\\JTB@?pA?Z?vF?rCAj@?b@?^EFAvA?f@?`@?L?`@?r@?`AAf@A\\?hAAvAAlBCL?~@AxCEXHCXAX?j@?T@pC?|@?H?bB?`D?P@RJTBNF^L`ADVJt@BRF\\@PF\\BX@\\@Z?X?~@?~@?VS?GEECCAEECGAM?O?G?O?M@K",
-        "durationMin": 19,
-        "distanceM": 1601,
-        "mode": "walk"
-      },
       "routeFromHotel": {
         "format": "polyline",
-        "data": "ozotEmkr{X???I?E?[?YC[CYE[EMCIAG@E@EBABADANAEWk@cE?OB[_@?G?GCIGIIKQGOCQAg@KmDAGAICECEEEECGCE?I?uABS@K@G@WFo@LOBO?[?}@EE?O?E?]AA?_@A]AYAm@AyAEwDKU?Ag@?mA?K?m@?W?e@?q@Ei@?{@AmC?YAmA?S?WAu@?{@AwD?O?UQ@G@wEP{BHm@?_AAI?OAUAcDWuF_@aAIk@GQCe@K_BYm@OSEIAi@OyIsCiFaBKE?O@Y@M@_@@I?IDo@LuA^_EBOBKK?e@ASAO?c@G@KFs@JsAHiA@OBY?GDy@Bg@@q@DqBDoBDoANkG?OmBQSCB[?IFiAHkD@M?I?_BC{A?KAc@?gCVAPAd@MJA",
-        "durationMin": 19,
-        "distanceM": 3620,
+        "data": "wmqtEw|q{XNAAw@D?|CEBrCoA@s@@eB@uB@E??oC?_B?cA?g@?K?sA?oC?M?wB@SU@iA?c@?I?uA?wA@K?oB@gA?E?i@?O?Y??U@g@?C@}@DwB?c@?a@BuBBeC?QFmCDqCDkB@_@@[DiBHeBBm@@c@Dy@Ds@Fg@LeAB[RqC?EBS@O?K@QFaAHqA@WLuAB_@BOZyDJmBDSBY@ID_ALkAT{ADQRqAf@yCBc@l@mEFe@BU@E?E?G?EAG?Em@g@A?EC]GKCa@GaAMi@IgAOKCcAOYEoAQWCu@ME?}@MMAOC??uAMQCoAMOAmBQSCB[?IFiAHkD@M?I?_BC{A?KAc@?gCVAPAd@MJA",
+        "durationMin": 17,
+        "distanceM": 3519,
         "mode": "subway",
-        "osrmMin": 8,
+        "osrmMin": 7,
         "corrected": true
+      },
+      "routeToHotel": {
+        "format": "polyline",
+        "data": "}drtEsls{XB_B@_@d@DR@B@RJB@p@^t@`@nAp@l@ZfBbA@@d@VLFCPCLC~BCtCAxCCJEPA\\AvAAxACL\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
+        "durationMin": 12,
+        "distanceM": 1014,
+        "mode": "walk"
       }
     },
     {
@@ -97436,20 +97448,20 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "ozotEmkr{X???I?E?[?YC[CYE[EMCIAG@E@EBABADANAT?b@?|@A`A?XAT?@?p@@b@@T?vA?Z?R?tA?vA?d@?`A@~B@^?N@^?v@AhFDxD@\\?tA?j@?T?V?pC?P?F?vCAT?x@?vA@l@??]?s@?E@s@?i@?kE?C?WT?@?`@AhAI`AUb@Ml@Ox@Q\\IXQRKROxB_BNGPCRAZAtBZlALbAL`BPd@DdBPb@D`@DrCT`@Fr@FjAHTBp@DRBJ@h@BnBNVBRBF?RB`AH`AH\\D`@DbFf@lAPJ@TBfEf@RBPBbBRnBTjDd@^HtAVl@L~AZt@Np@NVD|Dp@tEp@b@F|@Pd@HF@fBZ~B`@l@LD?zAX\\F~@Pl@J~@PTD\\DZJv@Ll@Lr@L\\FRDRBXDH?h@DD?nA?PEHEHEFKDGBGlAyB@CFKbAmBP[t@sAx@_BJQRe@b@cALa@XuATmA@GBMBS@ABUJo@D]Jq@Fc@F]Ju@^kC`@mCDUBM@Mx@iFVcBBMD_@Jo@FWHUNURURQPINITEXCVAP@hCFvCHL?L@N?^DZFr@PZFPBfDNpBLJ?hDB^@R@^HPFHBVJv@VRFZHXDr@J`@@RB~@?pAGlASj@Kb@Kj@Ob@Eh@El@E`EAvB?P?R?rAAzCCF?L?H?rE@D?d@?`BDJ?JALAd@Az@?\\Cn@GVEd@MnBk@rBo@rFkBhBs@dBs@j@[^Sb@]b@_@h@g@h@m@`@k@f@q@p@iAJQnA}BDGHOn@iAzAkCHM@EtBsDPYDIBC^q@JQ@CDOZq@zB{DdCoEpDqG^m@Zi@z@}AnA{BLWBCd@i@`@y@Zi@d@w@f@{@HOh@w@BCHKPSLQf@c@j@_@RIXMh@Sx@OPEdAKPCZChCQRCRCxD[HA|@GZCb@EnAK`BOtE[`BIDAtAMf@E\\E`A@\\?h@@V?rBB\\?P?nB@hA@~@Bb@@jDH|@BfBBd@@dEJD?J?B?xBDh@@D@xABlA@pFLdABh@BjABdABfBDjCDH?jAB\\@~@BdCDR?fABrADd@?vCJp@BlADAo@As@?_@@}@AyDAyC?k@AWA_@GaBKsBAc@?_@@SBQ@KDSBETo@DIP_@d@i@BAp@g@d@e@RWT_@Te@J[BKBIJ_@Fo@Dm@@u@@]@UBm@Ju@TkARqADYH]d@sCBMF_ABM@o@?KHuAB}@LcE@U@]HsBBkAZqI@YQ@G?qADOEACON[@a@E{AR}AVNa@Xc@bAIJA",
-        "durationMin": 34,
-        "distanceM": 13489,
+        "data": "wmqtEw|q{XNAAw@D?|CEB?bA?|C?v@?l@?rB?L?RA`A?D?Z?L?R?T?P?L?f@?D?B?Z?fB?L?B?J??J?F@xF@V?D?D?X?bGBX?X@P@H@FDLDHJN`@CB?p@ClDi@fCa@fAOTE^GRCZETAnA?|A?bFCP?pCDfCBjEBV?Z?v@B~@@t@@T?V?vBBjA@fA?tBBN?T@x@?vABf@@f@?h@?hA?~CF`@?`@@H?|JJdADn@J`ABbCH^@\\?nDDnB@~RbAfFNnCLfCLdAB`EPdFTrEVnBJ~ADdBGx@BrBFzCJnEBjA?~CBp@?x@IR@zCB`@??]D{DB_CDO@oABcCBuDtACdAARC@U?_@CUE_@?}B@oA@e@?{B?}@@U\\DZJv@Ll@Lr@L\\FRDRBXDH?h@DD?nA?PEHEHEFKDGBGlAyB@CFKbAmBP[t@sAx@_BJQRe@b@cALa@XuATmA@GBMBS@ABUJo@D]Jq@Fc@F]Ju@^kC`@mCDUBM@Mx@iFVcBBMD_@Jo@FWHUNURURQPINITEXCVAP@hCFvCHL?L@N?^DZFr@PZFPBfDNpBLJ?hDB^@R@^HPFHBVJv@VRFZHXDr@J`@@RB~@?pAGlASj@Kb@Kj@Ob@Eh@El@E`EAvB?P?R?rAAzCCF?L?H?rE@D?d@?`BDJ?JALAd@Az@?\\Cn@GVEd@MnBk@rBo@rFkBhBs@dBs@j@[^Sb@]b@_@h@g@h@m@`@k@f@q@p@iAJQnA}BDGHOn@iAzAkCHM@EtBsDPYDIBC^q@JQ@CDOZq@zB{DdCoEpDqG^m@Zi@z@}AnA{BLWBCd@i@`@y@Zi@d@w@f@{@HOh@w@BCHKPSLQf@c@j@_@RIXMh@Sx@OPEdAKPCZChCQRCRCxD[HA|@GZCb@EnAK`BOtE[`BIDAtAMf@E\\E`A@\\?h@@V?rBB\\?P?nB@hA@~@Bb@@jDH|@BfBBd@@dEJD?J?B?xBDh@@D@xABlA@pFLdABh@BjABdABfBDjCDH?jAB\\@~@BdCDR?fABrADd@?vCJp@BlADAo@As@?_@@}@AyDAyC?k@AWA_@GaBKsBAc@?_@@SBQ@KDSBETo@DIP_@d@i@BAp@g@d@e@RWT_@Te@J[BKBIJ_@Fo@Dm@@u@@]@UBm@Ju@TkARqADYH]d@sCBMF_ABM@o@?KHuAB}@LcE@U@]HsBBkAZqI@YQ@G?qADOEACON[@a@E{AR}AVNa@Xc@bAIJA",
+        "durationMin": 37,
+        "distanceM": 14986,
         "mode": "subway",
-        "osrmMin": 19,
+        "osrmMin": 21,
         "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "{wtrEymc|XNR@FHJDNETCFkBXi@GY]eACCTy@vB@HVv@Jp@@f@?\\An@Ep@Ab@Ar@Ah@?X@J?BAb@CXCLGTy@|AGVCZ@|DAvBANEVGh@OxAEn@_@zCERM~@UdAc@fBUbAIb@Ef@Aj@?dA@bCCVKV{EDW?S?eBAiB@C?_CBm@?qA?U?Q?yB@C?w@?I@G?eB@gC@O?{@?oAAaAA]AuFIe@Aa@Aq@K{@KOCe@OSEc@S[QKMMYQw@Ka@K[MYKSMOEGYWQMSOOIOEUIc@GsBSIAiBSqCYgAKmBOo@Ea@@_@BQ@i@HYFw@Pu@Nw@RmATMBwCp@uCp@}A\\gB`@EBq@VEBo@\\YTUPk@l@q@`AyBtCe@p@mDdFcBvB_ChCeAfAUZW\\e@d@q@j@i@^m@^sB~@{At@[NYHiClAc@Pi@RqAXw@H_CCeA?YBs@Lg@P[P_@TyBvAu@d@QJGMISEUAY@WD[HYD[C_@KQKMSCK@uB^QBBh@Fh@JdAFn@Hp@XnCFj@f@lEPvABRBd@Dh@V~BFt@@\\?\\?\\A\\AXCXCXEVQt@Wp@ABQf@Sd@Qb@y@rBa@|@w@hBO^q@xA}@tBQb@k@lAu@vAa@`AQd@Sf@KPYv@yAfD}@jBcCrFELIPYr@IZIPy@lBENGPEPERCRUnBCTETGRGTIRIPMPIJONMJOFOFe@J_@VMJ[V]\\]^]f@ONc@^MPCF]l@{A|Cm@hAaBvCOXGLGNKZ_@fA_@rAuB`IeB|GiA|DwAxEy@`CcClGk@tAi@fAw@zAw@rAmAdBgAxAkAnAcAbAsB`B}@p@{AhAy@l@yBxA{AnAUNm@^y@b@a@To@Zu@\\e@R_@L[JuAd@sBh@uBz@aBj@cE~AcCbAiAd@u@\\aAb@a@PwAr@{Az@_@P}BlAmAr@g@`@{A~@}AfA[R_Ap@cAr@o@d@u@h@kAbAkAbAaA|@iB~AmAjAyArAqAnAsAnAoAfAwBlBoAbAcBlAgBrAsAx@}A~@aAj@}@d@u@`@e@RqAl@o@ZcE`BaAZ]Je@Jy@V}Ad@mCp@kCf@mATiARy@Ly@J{@JaCT}AJ{BJ}BHmBDcABaBB{ADcCFmBHeBLeBN}@H}@LoAPaAP}@PoAVmAZeAV_Bd@m@Py@VqAh@_Bn@s@ZwCnAwAl@sEnB{@Xs@Vo@NeAZw@R}@TaB\\oCd@u@LuAVaBRoAHaADgDDkBBkA?uD@iB?cBB}ABeADo@FqANaBVqATmA\\}@Z}@^qAl@gAp@kA|@uAjAoAjAoAtAy@hA{A|Be@|@q@nA}@pBuAjDo@nA}@vBo@~AyBvE_AhBe@v@u@pAk@`Am@~@_AnAc@h@_@XiBfB}AxAs@n@gAz@gAt@aBdAuAt@mAj@{@`@qAh@wBr@oA^aB\\yB`@cCXuCRoCNgBHsBD{DN{CR_E`@eBb@uCv@_Bh@{Br@m@Za@RsC~AyEtCwBtAiAx@gBxA_Af@aAd@iGjBw@ZaErAyBh@wBf@gB\\oDh@eBTcBRmCZ[?m@FuCT_A@aDBgDGoCMiBI}AIgJw@]@e@Cm@AI?{BAkA@yAHeBR{AXkCv@gDrAo@RwBt@e@Ni@Nu@Nm@Ho@Fg@Bq@@q@?y@Cs@G}@Ky@Ou@Ow@Se@Mg@Qk@Uk@W{E}BcAa@o@OkBw@wDyAgA]u@]m@]cA{@g@c@GEWMe@Sy@Wg@YWQ[Se@]ITyAzDkA|CSd@]`@WR]T_Ah@kC|A{IhFuElCcDlByCfBeAn@IBoAv@]PwCdB_B`Ae@V{Av@wBl@oB^wAXc@HuAVgB\\oB^]HiCd@mAJ_AA_IMo@AyCEqACoACqACm@tNQlDE~@[jFQnBa@pCi@vC{@xDE^AFARAfAB`G?B?nA?F?f@?n@qCGqBKiGOs@Cg@Cw@Go@Gi@Ig@Ic@Kg@Mg@Qi@Ug@Sc@Qa@SYOa@Yg@Wu@a@o@c@iBoB_BaBmBiByAsA_AgA}@eAu@cA{@aA_CaCm@w@sAqA}ByBmHiHsAuAmBoBsMoMwEuEo@i@y@q@eAo@eAi@iAc@mA_@u@Qu@MgAK_AGoCGeCAwHCio@g@yCCoII{JIaQMeHCyPM}IAoKImFGeFEyGGmEC_TM_HCoCCmLK_EGaEGmISiDKgc@wB}CKiFa@wDYwBKcCGkBCiAAiDCwAAqKKcHGc^s@qEKoDGOA_HMsDKsFQ_FMkEKyCGgDE_HGgJGmFCoCA{@AoBAoCMaAGuAKyBUy@IkH]u@CW?W?aARYC{Km@YAeBIwCSWAO?K]Oa@]i@gA{Ag@o@u@cAcAsAq@y@iCcDwBsCi@q@a@aAwC_HmAuCMW[?eA?_E?O?O?qD@]?m@@W?yB?mDAI?O?qC@W?U?aC?wECaHC_@AO?_@?q@?uAAw@AiB@oAA[?S?[?wA@y@As@AQA]@aB@]?a@?F\\BX@\\@Z?X?~@?~@?VS?GEECCAEECGAM?O?G?O?M@K",
-        "durationMin": 78,
-        "distanceM": 40302,
+        "data": "{wtrEymc|XNR@FHJDNETCFkBXi@GY]eACCTy@vB@HVv@Jp@@f@?\\An@Ep@Ab@Ar@Ah@?X@J?BAb@CXCLGTy@|AGVCZ@|DAvBANEVGh@OxAEn@_@zCERM~@UdAc@fBUbAIb@Ef@Aj@?dA@bCCVKV{EDW?S?eBAiB@C?_CBm@?qA?U?Q?yB@C?w@?I@G?eB@gC@O?{@?oAAaAA]AuFIe@Aa@Aq@K{@KOCe@OSEc@S[QKMMYQw@Ka@K[MYKSMOEGYWQMSOOIOEUIc@GsBSIAiBSqCYgAKmBOo@Ea@@_@BQ@i@HYFw@Pu@Nw@RmATMBwCp@uCp@}A\\gB`@EBq@VEBo@\\YTUPk@l@q@`AyBtCe@p@mDdFcBvB_ChCeAfAUZW\\e@d@q@j@i@^m@^sB~@{At@[NYHiClAc@Pi@RqAXw@H_CCeA?YBs@Lg@P[P_@TyBvAu@d@QJGMISEUAY@WD[HYD[C_@KQKMSCK@uB^QBBh@Fh@JdAFn@Hp@XnCFj@f@lEPvABRBd@Dh@V~BFt@@\\?\\?\\A\\AXCXCXEVQt@Wp@ABQf@Sd@Qb@y@rBa@|@w@hBO^q@xA}@tBQb@k@lAu@vAa@`AQd@Sf@KPYv@yAfD}@jBcCrFELIPYr@IZIPy@lBENGPEPERCRUnBCTETGRGTIRIPMPIJONMJOFOFe@J_@VMJ[V]\\]^]f@ONc@^MPCF]l@{A|Cm@hAaBvCOXGLGNKZ_@fA_@rAuB`IeB|GiA|DwAxEy@`CcClGk@tAi@fAw@zAw@rAmAdBgAxAkAnAcAbAsB`B}@p@{AhAy@l@yBxA{AnAUNm@^y@b@a@To@Zu@\\e@R_@L[JuAd@sBh@uBz@aBj@cE~AcCbAiAd@u@\\aAb@a@PwAr@{Az@_@P}BlAmAr@g@`@{A~@}AfA[R_Ap@cAr@o@d@u@h@kAbAkAbAaA|@iB~AmAjAyArAqAnAsAnAoAfAwBlBoAbAcBlAgBrAsAx@}A~@aAj@}@d@u@`@e@RqAl@o@ZcE`BaAZ]Je@Jy@V}Ad@mCp@kCf@mATiARy@Ly@J{@JaCT}AJ{BJ}BHmBDcABaBB{ADcCFmBHeBLeBN}@H}@LoAPaAP}@PoAVmAZeAV_Bd@m@Py@VqAh@_Bn@s@ZwCnAwAl@sEnB{@Xs@Vo@NeAZw@R}@TaB\\oCd@u@LuAVaBRoAHaADgDDkBBkA?uD@iB?cBB}ABeADo@FqANaBVqATmA\\}@Z}@^qAl@gAp@kA|@uAjAoAjAoAtAy@hA{A|Be@|@q@nA}@pBuAjDo@nA}@vBo@~AyBvE_AhBe@v@u@pAk@`Am@~@_AnAc@h@_@XiBfB}AxAs@n@gAz@gAt@aBdAuAt@mAj@{@`@qAh@wBr@oA^aB\\yB`@cCXuCRoCNgBHsBD{DN{CR_E`@eBb@uCv@_Bh@{Br@m@Za@RsC~AyEtCwBtAiAx@gBxA_Af@aAd@iGjBw@ZaErAyBh@wBf@gB\\oDh@eBTcBRmCZ[?m@FuCT_A@aDBgDGoCMiBI}AIgJw@]@e@Cm@AI?{BAkA@yAHeBR{AXkCv@gDrAo@RwBt@e@Ni@Nu@Nm@Ho@Fg@Bq@@q@?y@Cs@G}@Ky@Ou@Ow@Se@Mg@Qk@Uk@W{E}BcAa@o@OkBw@wDyAgA]u@]m@]cA{@g@c@GEWMe@Sy@Wg@YWQ[Se@]ITyAzDkA|CSd@]`@WR]T_Ah@kC|A{IhFuElCcDlByCfBeAn@IBoAv@]PwCdB_B`Ae@V{Av@wBl@oB^wAXc@HuAVgB\\oB^]HiCd@mAJ_AA_IMo@AyCEqACoACqACm@tNQlDE~@[jFQnBa@pCi@vC{@xDE^AFARAfAB`G?B?nA?F?f@?n@qCGqBKiGOs@Cg@Cw@Go@Gi@Ig@Ic@Kg@Mg@Qi@Ug@Sc@Qa@SYOa@Yg@Wu@a@o@c@iBoB_BaBmBiByAsA_AgA}@eAu@cA{@aA_CaCm@w@sAqA}ByBmHiHsAuAmBoBsMoMwEuEo@i@y@q@eAo@eAi@iAc@mA_@u@Qu@MgAK_AGoCGeCAwHCio@g@yCCoII{JIaQMeHCyPM}IAoKImFGeFEyGGmEC_TM_HCoCCmLK_EGaEGmISiDKgc@wB}CKiFa@wDYwBKcCGkBCiAAiDCwAAqKKcHGc^s@qEKoDGOA_HMsDKsFQ_FMkEKyCGgDE_HGgJGmFCoCA{@AoBAoCMaAGuAKyBUy@IkH]u@CW?W?aARYC{Km@YAeBIwCSWAO?aACqAEcBKQ?mBIgACkBC}AA]?uBAo@AuDAsCIcBMaAKeAMGAc@A_@CE?wCGkAAyBCaB?o@?U?Q?G?s@Aw@A}@AIAg@?c@AwBCW?U?mACkACS?]?U?eAAk@AmAAcA?oAAqCEQ?cFBgD@E?S?i@HSBSD{ARgC^mDj@]DQBS@C@KGOCKAMAIG?yA?m@?}AAm@?qB?SAGMFo@?U?OAg@?I?i@?c@Ag@?k@?sA?K?Q?oE@I?qEBI?K?{EB?IAy@A}AEoCh@ABv@J?",
+        "durationMin": 80,
+        "distanceM": 41157,
         "mode": "subway",
-        "osrmMin": 49,
+        "osrmMin": 51,
         "corrected": true
       }
     },
@@ -97653,21 +97665,19 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "ozotEmkr{X???I?E?[?YC[CYE[EMCIAG@E@EBABADANAT?b@?|@A`A?XAT?@?p@@b@@T?vA?Z?R?tA?vA?d@?`A@~B@^?N@^?v@AhFDxD@\\?tA?j@?T?V?pC?P?F?vCAT?x@?vA@l@??]?s@?E@s@?i@?kE?C?W?U?E?e@?gB?S@SEcB?K?i@?U@s@?{@?S@mB?}A?WH{J@oBPeAVKTGLAL?l@AlB?~B?j@?F?B?h@?T?~@@l@?V?F?n@?xA?r@?pA?Z?^?v@@F?p@?V?p@?dA@N?N?bA?j@?l@@?K@i@@s@?E?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBi@PW@{@Di@?CyA",
-        "durationMin": 17,
-        "distanceM": 3318,
+        "data": "wmqtEw|q{XNAAw@D?|CEB?bA?|C?v@?l@?rB?L?RA`A?D?Z?L?R?T?P?L?f@?D?B?Z?fB?L??C?QA_B?c@?S@_B?_@?mC?eB?g@@GBM?C?]AqA?{@?GAG?GC]AQAG?C?C?CAE?G@iC?oBAe@@}@?wA?]?Y?}@@c@BS@M@UBw@FwA@]@o@DiA@Y@YB_ABw@@g@@MLsD?G@MJ?H?nAMrCWtAMjCW`AIlAGt@Cn@Ed@AP?L@\\Dt@LPBVBZA\\?^Db@Fx@Rd@JXDZDRBV@T@b@Al@Ej@ElBQp@Ep@En@Ax@Cv@?t@@~@Dp@Dp@H`@Fp@Jn@JfB`@^HrBXb@@b@@d@A^Aj@KRGn@UJEfAg@HEv@YVKTGLAL?l@AlB?~B?j@?F?B?h@?T?~@@l@?V?F?n@?xA?r@?pA?Z?^?v@@F?p@?V?p@?dA@N?N?bA?j@?l@@?K@i@@s@?E?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBi@PW@{@Di@?CyA",
+        "durationMin": 20,
+        "distanceM": 4408,
         "mode": "subway",
-        "osrmMin": 7,
+        "osrmMin": 9,
         "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "}fttEclt{Xn@Cj@ANA|@CLAl@A|@EjBEN?bACl@Av@At@?d@Ad@?lAAJ?Z?J@HBH@HBJDPFh@R\\NxAl@`@PJDNFhDtAJDDB^NdC|@XJLFVHRF|@X~CbAJBZJnAb@~Af@f@N`AZDBVNh@X`@TB@jAr@|BrApB`AJDfAb@|@^~@`@JFxAf@\\JTB@?pA?Z?vF?rCAj@?b@?^EFAvA?f@?`@?L?`@?r@?`AAf@A\\?hAAvAAlBCL?~@AxCEXHCXAX?j@?T@pC?|@?H?bB?`D?P@RJTBNF^L`ADVJt@BRF\\@PF\\BX@\\@Z?X?~@?~@?VS?GEECCAEECGAM?O?G?O?M@K",
-        "durationMin": 17,
-        "distanceM": 3197,
-        "mode": "subway",
-        "osrmMin": 7,
-        "corrected": true
+        "data": "}fttEclt{Xn@Cj@ANA|@CLAl@A|@EjBEN?bACl@Av@At@?d@Ad@?lAAJ?Z?J@HBH@HBJDPFh@R\\NxAl@`@PJDNFhDtAJDDB^NdC|@XJLFVHRF|@X~CbAJBZJnAb@~Af@f@N`AZDBVNh@X`@TB@jAr@|BrApB`AJDfAb@|@^ERk@pBCJc@dBALCPCLC~BCtCAxCCJEPA\\AvAAxACL\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
+        "durationMin": 29,
+        "distanceM": 2440,
+        "mode": "walk"
       }
     },
     {
@@ -97817,21 +97827,21 @@
           "address": "Hozen-ji Temple, 1-2-16 Namba, Chuo, Osaka"
         }
       ],
+      "routeFromHotel": {
+        "format": "polyline",
+        "data": "wmqtEw|q{XNAAw@D?|CEB?bA?|C?v@?l@?rB?L?RA`A?D?Z?L?R?T?P?L?f@?D?B?Z?fB?L?B?J??J?F@xF@V?D?D?X?bGBX?X@P@H@FDLDHJN`@CB?p@ClDi@fCa@fAOTE^GRCZETAnA?|A?bFCP?pCDfCBjEBV?Z?v@B~@@t@@T?V?vBBjA@fA?tBBN?T@x@?vABf@@f@?h@?hA?~CF`@?`@@H?|JJdAD`@@nA@hA?xAB^@xC?j@@xA@~@D`@@zDNl@DV@d@BtBHpCNV@A~@CrB?BAb@?DK~HAbCE~DGbGKbIxLHhDBR@d@?dBBfDBbA@^?~BBhFDhA@|CDf@?JEl@?T?jEDrD@`@ENCLCNGPKLKHKBI@K@MAMASCUEWOk@Qw@Qw@]oAGKEIKIGEICK?K?IBGDIDEFEHCJCNAL?P@NBPh@fC\\fBJ|@V~@j@rBpBbHz@zClPdm@hEvOjBvGpDrMhAhEHTr@nCJ\\HTLb@d@zAl@`Bh@tAfAdCnBdEHNLTJP\\l@b@x@Zf@Xb@PXd@r@^h@T^X`@VZZd@^b@\\d@^b@Z^d@d@vA`Bh@f@\\ZHJPN\\Zb@\\`@^\\ZLHTRb@XhAx@TNl@`@bAr@hAp@JFXNLHJDTNhAj@bAd@^PLFNFtAh@`Bn@nAb@pA^ZH`@LhCr@zDdAfAXLD~EvALBrGjBv@R|Cz@LDbJdCTFrDdAj@N|MtDjBf@hJfCRF~Bn@~@Vbm@nPtC|@jBr@hBt@tBz@h@X`@Rn@\\n@^j@Zh@`@z@l@bAx@~@|@|@bAt@|@p@~@f@p@t@lAr@pAVf@Vj@Tj@Tl@Tl@Tn@Rp@HZHVRr@VfARbAR`ATrA^bCr@hEjDxSzAdJtEnYVvARhAXlAZpA\\rAXz@Xz@Zt@`@~@jBxDbo@prAdExI`C|EhArBx@vAh@t@x@jAbAlA|@`Ax@x@`A~@tBjBpB~A|AjAlAz@xA`AjAr@lAp@zC|AvHxDbFdCdEtBxNzGlDdB~BjA|CbBzDzB|@j@hFzCHF~@h@nc@~WxA~@`An@jA~@hAdAbAbA|@hA`AlAp@dAt@lAp@jAl@lAl@rAh@tAp@lBh@fBb@dB\\`B^nBZlBRvATlBLjAHvAJjBHlBDlBBvB?vBCjBI|BKxBOpBS|BYxB[rB]lBa@jBa@dBe@bBm@hBk@`ByBrFcA`Cs@fBo@bBi@bBi@jBc@bBa@hBY`BUxAS~ASlBOjBKlBGjBElBApBBpBDhBFpBN~BT|BVvB\\|Bb@|B`@hBb@`Bf@fBh@`Bn@jBj@~AnAjDbEhLzFvO~FjP^bApLd\\jGzPrQhg@vElMxCvHhAdCp@zAz@bB~@bB~@`BvC~EvAtBjA~Avt@b_A~@jAzBpC|BrCnF~GhChD`TpWzAbBfDpDh@h@b@^nAjA~EbEhCvA|BrAf@V^NTFT@RCPGLKJQBQ@Q?QGQIUQYSUi@m@Y]MMm@s@KQEW@WBQNa@NQzAeB\\YRQTM\\IRENAVAb@Cl@f@PJb@XpATd@JnB^xEz@|FhAVFv@Nx@Nf@JpCj@tAVxBd@lEz@xAXtB`@vB`@nAV~Dv@t@NtCf@zDb@nD\\lBRdCVv@HV@tBTh@DbALN@PBTBhAJxBTRBTBv@Hd@DbAJzBTB?VDlCVTB`AJP@J@D@^DVB~ANh@FlBPh@F^HF@\\B`BLv@HbBPrALTDRDxAf@pBp@bAZVHPHt@VtAd@nBl@fBl@bA\\l@PxAh@~DrAxAd@LF~Bt@f@RfA\\\\Lb@NVHfA^TH~@ZnBp@LDNDtAd@lAh@~@l@x@n@xAzAd@j@HJFJtA|BHLZh@v@rAHLFJhAlB@@Zb@N^pAvBZh@vBpD|@zApAtBp@lAr@jA~@xADJHNb@t@p@hA`@p@DH@@NVDFBDhAjBXf@^n@`@n@HLJRT^PXz@vAjB|C~@~AT`@^n@vA|BhAnBT\\PXpAxBV`@RZv@jAJLVZn@l@JJPNNL`@XhCzAlAp@HFJFRJXNbCtAVNjAp@HDHDxAt@fAp@dDjBLFZPDBjDnBPJHDPJv@b@ZPHFj@ZnAp@B@fBbAXNVPz@d@v@b@hB`At@d@NHf@VJFZPTLn@`@v@^JFLH\\Rd@Vt@b@nAn@RJfDpArDxARLLJJFVZNPLPd@l@FJHJLPLPt@nAFHFJ|AjCt@lAl@`APZNT@BrBjDx@tAPXZh@HNJPx@vAV^b@z@Xh@TVbAnBJPJRnBvDHNXd@`@t@n@`ANT\\h@`@d@^^l@`@tAjANLXNr@d@lEjClBdAvAx@`CxAx@h@ZXZZvAdAPNZTf@^h@`@TNXNdC`BPL`@Xp@d@vB|APLPJfAt@rBtA|B`Bz@n@b@j@f@XnFtDxA`BPPNLHF~AtAfDnBr@\\l@Vn@V`@V`@Xx@j@r@f@@@ZRF?H?D?DAFCNGVW~@\\b@PPHNHVNXTx@n@jCrBDDJBdErBTTNYJWVe@FBx@VLHTH^Jh@Lt@R^JF@JDLFTPTNdATFBz@Tx@Rr@Tx@TrAb@n@VRHJDnCdARH`@NnBt@FB^N|EjB|@\\f@RrAf@`DlATLl@X`@T^VVRTRFFBFBFBLFRXlAHCn@W",
+        "durationMin": 79,
+        "distanceM": 42570,
+        "mode": "subway",
+        "osrmMin": 50,
+        "corrected": true
+      },
       "routeToHotel": {
         "format": "polyline",
         "data": "carrEia`zXBxB?@?L?XlABD?F?ZGf@??l@CdC?JApAElBOfACPCVUpCk@RaDfA_@TMLIHIXG`@C^?\\DXHVNPNFN@RAPGLIFQDQ?SAUEUM]MSOSUSQOSKOIQEQE_@Ge@Oi@G_Gq@qAIuF[",
         "durationMin": 9,
         "distanceM": 768,
         "mode": "walk"
-      },
-      "routeFromHotel": {
-        "format": "polyline",
-        "data": "ozotEmkr{X???I?E?[?YC[CYE[EMCIAG@E@EBABADANAT?b@?|@A`A?XAT?@?p@@b@@T?vA?Z?R?tA?vA?d@?`A@~B@^?N@^?v@AhFDxD@\\?tA?j@?T?V?pC?P?F?vCAT?x@?vA@l@?\\?pD?N?N?dE@|@?X?PBLXhArCvC`H`@~@\\`@LLvBpChCbDtBlC|ArBhAxABDb@t@d@BtBHpCNV@A~@CrB?BAb@?DK~HAbCE~DGbGKbIxLHhDBR@d@?dBBfDBbA@^?~BBhFDhA@|CDf@?JEl@?T?jEDrD@`@ENCLCNGPKLKHKBI@K@MAMASCUEWOk@Qw@Qw@]oAGKEIKIGEICK?K?IBGDIDEFEHCJCNAL?P@NBPh@fC\\fBJ|@V~@j@rBpBbHz@zClPdm@hEvOjBvGpDrMhAhEHTr@nCJ\\HTLb@d@zAl@`Bh@tAfAdCnBdEHNLTJP\\l@b@x@Zf@Xb@PXd@r@^h@T^X`@VZZd@^b@\\d@^b@Z^d@d@vA`Bh@f@\\ZHJPN\\Zb@\\`@^\\ZLHTRb@XhAx@TNl@`@bAr@hAp@JFXNLHJDTNhAj@bAd@^PLFNFtAh@`Bn@nAb@pA^ZH`@LhCr@zDdAfAXLD~EvALBrGjBv@R|Cz@LDbJdCTFrDdAj@N|MtDjBf@hJfCRF~Bn@~@Vbm@nPtC|@jBr@hBt@tBz@h@X`@Rn@\\n@^j@Zh@`@z@l@bAx@~@|@|@bAt@|@p@~@f@p@t@lAr@pAVf@Vj@Tj@Tl@Tl@Tn@Rp@HZHVRr@VfARbAR`ATrA^bCr@hEjDxSzAdJtEnYVvARhAXlAZpA\\rAXz@Xz@Zt@`@~@jBxDbo@prAdExI`C|EhArBx@vAh@t@x@jAbAlA|@`Ax@x@`A~@tBjBpB~A|AjAlAz@xA`AjAr@lAp@zC|AvHxDbFdCdEtBxNzGlDdB~BjA|CbBzDzB|@j@hFzCHF~@h@nc@~WxA~@`An@jA~@hAdAbAbA|@hA`AlAp@dAt@lAp@jAl@lAl@rAh@tAp@lBh@fBb@dB\\`B^nBZlBRvATlBLjAHvAJjBHlBDlBBvB?vBCjBI|BKxBOpBS|BYxB[rB]lBa@jBa@dBe@bBm@hBk@`ByBrFcA`Cs@fBo@bBi@bBi@jBc@bBa@hBY`BUxAS~ASlBOjBKlBGjBElBApBBpBDhBFpBN~BT|BVvB\\|Bb@|B`@hBb@`Bf@fBh@`Bn@jBj@~AnAjDbEhLzFvO~FjP^bApLd\\jGzPrQhg@vElMxCvHhAdCp@zAz@bB~@bB~@`BvC~EvAtBjA~Avt@b_A~@jAzBpC|BrCnF~GhChD`TpWzAbBfDpDh@h@b@^nAjA~EbEhCvA|BrAf@V^NTFT@RCPGLKJQBQ@Q?QGQIUQYSUi@m@Y]MMm@s@KQEW@WBQNa@NQzAeB\\YRQTM\\IRENAVAb@Cl@f@PJb@XpATd@JnB^xEz@|FhAVFv@Nx@Nf@JpCj@tAVxBd@lEz@xAXtB`@vB`@nAV~Dv@t@NtCf@zDb@nD\\lBRdCVv@HV@tBTh@DbALN@PBTBhAJxBTRBTBv@Hd@DbAJzBTB?VDlCVTB`AJP@J@D@^DVB~ANh@FlBPh@F^HF@\\B`BLv@HbBPrALTDRDxAf@pBp@bAZVHPHt@VtAd@nBl@fBl@bA\\l@PxAh@~DrAxAd@LF~Bt@f@RfA\\\\Lb@NVHfA^TH~@ZnBp@LDNDtAd@lAh@~@l@x@n@xAzAd@j@HJFJtA|BHLZh@v@rAHLFJhAlB@@Zb@N^pAvBZh@vBpD|@zApAtBp@lAr@jA~@xADJHNb@t@p@hA`@p@DH@@NVDFBDhAjBXf@^n@`@n@HLJRT^PXz@vAjB|C~@~AT`@^n@vA|BhAnBT\\PXpAxBV`@RZv@jAJLVZn@l@JJPNNL`@XhCzAlAp@HFJFRJXNbCtAVNjAp@HDHDxAt@fAp@dDjBLFZPDBjDnBPJHDPJv@b@ZPHFj@ZnAp@B@fBbAXNVPz@d@v@b@hB`At@d@NHf@VJFZPTLn@`@v@^JFLH\\Rd@Vt@b@nAn@RJfDpArDxARLLJJFVZNPLPd@l@FJHJLPLPt@nAFHFJ|AjCt@lAl@`APZNT@BrBjDx@tAPXZh@HNJPx@vAV^b@z@Xh@TVbAnBJPJRnBvDHNXd@`@t@n@`ANT\\h@`@d@^^l@`@tAjANLXNr@d@lEjClBdAvAx@`CxAx@h@ZXZZvAdAPNZTf@^h@`@TNXNdC`BPL`@Xp@d@vB|APLPJfAt@rBtA|B`Bz@n@b@j@f@XnFtDxA`BPPNLHF~AtAfDnBr@\\l@Vn@V`@V`@Xx@j@r@f@@@ZRF?H?D?DAFCNGVW~@\\b@PPHNHVNXTx@n@jCrBDDJBdErBTTNYJWVe@FBx@VLHTH^Jh@Lt@R^JF@JDLFTPTNdATFBz@Tx@Rr@Tx@TrAb@n@VRHJDnCdARH`@NnBt@FB^N|EjB|@\\f@RrAf@`DlATLl@X`@T^VVRTRFFBFBFBLFRXlAHCn@W",
-        "durationMin": 78,
-        "distanceM": 41698,
-        "mode": "subway",
-        "osrmMin": 49,
-        "corrected": true
       }
     },
     {
