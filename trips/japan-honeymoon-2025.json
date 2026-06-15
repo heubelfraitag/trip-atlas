@@ -97595,9 +97595,9 @@
           "lng": 135.7587,
           "routeToNext": {
             "format": "polyline",
-            "data": "sjetEykr{XO?g@?G?EAE@E?G?E?E?G@A?C?E@E@G?E@E@E@E@G@eCTK@MBYFgCj@?kBA_B?i@",
-            "durationMin": 4,
-            "distanceM": 349,
+            "data": "sjetEykr{XV@?KAYBWLUNMFK@g@?K?w@?iE@}Bh@?@ABA@C?C?A@u@v@?jA?R?",
+            "durationMin": 5,
+            "distanceM": 382,
             "mode": "walk"
           }
         },
@@ -97605,19 +97605,20 @@
           "id": "d10-5",
           "time": "15:15",
           "title": "Gekkeikan Okura Sake Museum",
-          "description": "Closes 4:30 PM — tight but doable. Brief tour + tasting flight at the end. Edo-era brewery, the sake culture's birthplace neighborhood.",
+          "description": "Edo-era brewery from 1637, the Japan-sake heartland. 5-min walk from Chushojima Station. Open 9:30-16:30 (last entry 16:00, so leave Arashiyama early enough). Tasting flight at the end: 3 small cups of Gekkeikan sake + a small bottle to take home — included in ¥600 admission. The brick-and-wood riverside brewery building + canal walk between the station and museum is the real photo moment. Souvenir bottle and on-site shop if you want to buy something to take home.",
           "category": "experience",
           "costPerPerson": 600,
           "currency": "JPY",
-          "lat": 34.9329,
-          "lng": 135.7596,
+          "lat": 34.929136,
+          "lng": 135.76161,
+          "address": "247 Minamihama-cho, Fushimi-ku, Kyoto 612-8660",
           "routeToNext": {
             "format": "polyline",
-            "data": "_zetEopr{X?h@@~A?jBQBU?c@?]?UAaEOqAEy@G_@Cs@CQ?_@AKBIFGFCBCFELCPATAR?XE~BEbAEHINYRa@Bm@Bw@FY@o@CI?iDa@wGu@{BQeAIoAIk@Ek@Ec@C}@Ey@C[?IAI?iAA{@?I?a@?I?wBCgBC}@Ca@Cu@Io@Y[Oa@U}@k@i@[IEGEAAOKIEECG?]Ea@?I?K?]?Y?cA@_@@u@@oA?E?i@EI?YESCSE]Gs@Mm@Mw@M[K]EUE_AQm@K_AQ]G{AYE?m@M_Ca@gB[GAe@I}@Qc@GuEq@}Dq@WEq@Ou@O_B[m@MuAW_@IkDe@oBUcBSQCSCgEg@UCKAmAQcFg@a@E]EaAIaAISCG?SCWCoBOi@CKASCq@EUCkAIs@Ga@GsCUa@Ec@EeBQe@EaBQcAMmAMuB[[@S@QBOFyB~ASNSJYPc@]yCaC_BcAg@U]MOGk@QaBGI?_@ASAiBE_AE{CI[?QA}@C]?UAaAC]AY?q@Ao@CIAQ?gBEkBIkACm@Ai@?iAAq@CS?m@AiBCQAi@?g@CS?O?_AAe@Ak@Ac@AKAK?K?mACI?o@C}AAa@?YFyCD_A@K?oBBwA@iA@a@@c@?qBAg@@gA@eB@g@Kc@?k@?sC@wF?[?qA?A?UC]KyAg@KG_Aa@}@_@gAc@KEqBaA}BsAkAs@CAa@Ui@YWOECaA[g@O_Bg@oAc@[KKC_DcA}@YSGWIMGYKeC}@_@OECKEiDuAOGKEa@QyAm@]Oi@SQGKEICIAICKA[?K?mA@e@?e@@u@?w@@m@@cABO?kBD}@Dm@@M@}@BO@k@@o@B",
-            "durationMin": 29,
-            "distanceM": 8652,
+            "data": "cbetE}~r{XS?kA?w@?At@?@?BABC@A@i@?A|B?hE?v@?JAf@GJOLMTCV@X?Jg@Ag@?G?EAE@E?G?E?E?G@A?C?E@E@G?E@E@E@E@G@eCTK@MBYFgCj@QBU?c@?]?UAaEOqAEy@G_@Cs@CQ?_@AKBIFGFCBCFELCPATAR?XE~BEbAEHINYRa@Bm@Bw@FY@o@CI?iDa@wGu@{BQeAIoAIk@Ek@Ec@C}@Ey@C[?IAI?iAA{@?I?a@?I?wBCgBC}@Ca@Cu@Io@Y[Oa@U}@k@i@[IEGEAAOKIEECG?]Ea@?I?K?]?Y?cA@_@@u@@oA?E?i@EI?YESCSE]Gs@Mm@Mw@M[K]EUE_AQm@K_AQ]G{AYE?m@M_Ca@gB[GAe@I}@Qc@GuEq@}Dq@WEq@Ou@O_B[m@MuAW_@IkDe@oBUcBSQCSCgEg@UCKAmAQcFg@a@E]EaAIaAISCG?SCWCoBOi@CKASCq@EUCkAIs@Ga@GsCUa@Ec@EeBQe@EaBQcAMmAMuB[[@S@QBOFyB~ASNSJYPc@]yCaC_BcAg@U]MOGk@QaBGI?_@ASAiBE_AE{CI[?QA}@C]?UAaAC]AY?q@Ao@CIAQ?gBEkBIkACm@Ai@?iAAq@CS?m@AiBCQAi@?g@CS?O?_AAe@Ak@Ac@AKAK?K?mACI?o@C}AAa@?YFyCD_A@K?oBBwA@iA@a@@c@?qBAg@@gA@eB@g@Kc@?k@?sC@wF?[?qA?A?UC]KyAg@KG_Aa@}@_@gAc@KEqBaA}BsAkAs@CAa@Ui@YWOECaA[g@O_Bg@oAc@[KKC_DcA}@YSGWIMGYKeC}@_@OECKEiDuAOGKEa@QyAm@]Oi@SQGKEICIAICKA[?K?mA@e@?e@@u@?w@@m@@cABO?kBD}@Dm@@M@}@BO@k@@o@B",
+            "durationMin": 30,
+            "distanceM": 9229,
             "mode": "subway",
-            "osrmMin": 15,
+            "osrmMin": 16,
             "corrected": true
           }
         },
