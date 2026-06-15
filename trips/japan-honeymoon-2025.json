@@ -98555,7 +98555,10 @@
       "id": "wl-fuji-chureito-sunrise",
       "title": "Chureito Pagoda sunrise",
       "description": "Iconic Mt Fuji + pagoda + autumn-leaves shot. Sunrise on Nov 28-29 is ~06:42, so you'd wake ~05:30 and taxi 10 min from Ubuya (3km, ~¥1500). Climb ~400 steps to the observation deck. Optional — decide morning-of based on weather + how you're feeling. Either Day 5 or Day 6 early morning works. Coords: 35.50119, 138.80139.",
-      "category": "temple"
+      "category": "temple",
+      "lat": 35.50119,
+      "lng": 138.80139,
+      "city": "Fuji"
     }
   ]
 }
