@@ -56,13 +56,13 @@
       "id": "hotel-fuji-1",
       "name": "Kozantei Ubuya",
       "neighborhood": "Lake Kawaguchi",
-      "lat": 35.51289,
-      "lng": 138.78062,
+      "lat": 35.5128155,
+      "lng": 138.7688497,
       "checkIn": "2025-11-27",
       "checkOut": "2025-11-29",
       "booked": true,
-      "notes": "Lakefront ryokan with Fuji view. Two nights (Nov 27-29) before splurging on FUFU final Fuji night.",
-      "address": "10 Asakawa, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0303"
+      "notes": "Lakefront ryokan on Ubuyazaki cape (north shore promontory). Two nights (Nov 27-29) before splurging on FUFU final Fuji night.",
+      "address": "10 Azagawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0303"
     },
     {
       "id": "hotel-fuji-2",
@@ -96745,7 +96745,7 @@
             "durationMin": 120,
             "distanceM": 104212,
             "mode": "subway",
-            "osrmMin": 89,
+            "osrmMin": 96,
             "corrected": true,
             "formulaMin": 145,
             "pinned": "Fuji Excursion limited express scheduled time"
@@ -96761,9 +96761,9 @@
           "lng": 138.76861,
           "routeToNext": {
             "format": "polyline",
-            "data": "citwEwh~mY???i@?QDAn@@\\@DC?GDyA@w@EISAu@H]AG?@e@q@DSFMHc@JI?WAWIWMECCBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDWBU?QEMEg@YYQQKMK]UQMe@i@_@gAYaACIAGIUMg@Uq@oAsCm@sA]u@e@q@SUUWi@[_@Ua@Sg@Uk@Oc@Eg@Ac@Ak@C[CMCUGOKMKKMWc@IQUq@M]c@w@Y]Y[OOYSUMUKQESG[IeAMwAQKAC?oCa@sBU{@MsAOG?a@Aw@Bw@HI@uAj@[VWRo@n@k@z@m@pAMn@Gn@A`AFbAVrBr@rFt@`GN|@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@Ic@IUIUMY[s@y@gBGIe@y@_EsIwCcG_@s@Ye@g@s@W[k@k@YUUQJ[^mAZcAH[rAqClC{EfD}DzDmDdHyD~GyCfBy@",
-            "durationMin": 29,
-            "distanceM": 2438,
+            "data": "citwEwh~mY???i@?QDAn@@\\@DC?GDyA@w@EISAu@H]AG?@e@q@DSFMHc@JI?WAWIWMECCBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDWBU?QEMEg@YYQQKMK]UQMe@i@_@gAYaACIAGIUMg@Uq@oAsCm@sA]u@e@q@SUUWi@[_@Ua@Sg@Uk@Oc@Eg@Ac@Ak@C[CMCUGOKMKKMWc@IQUq@M]c@w@Y]Y[OOYSUMUKQESG[IeAMwAQKAC?oCa@sBU{@MsAOG?a@Aw@Bw@HI@uAj@[VWRo@n@k@z@m@pAMn@Gn@A`AFbAVrBr@rFt@`GBL",
+            "durationMin": 24,
+            "distanceM": 2014,
             "mode": "walk"
           }
         },
@@ -96773,8 +96773,8 @@
           "title": "Kozantei Ubuya check-in",
           "description": "Lakefront ryokan.",
           "category": "hotel",
-          "lat": 35.51289,
-          "lng": 138.78062
+          "lat": 35.5128155,
+          "lng": 138.7688497
         },
         {
           "id": "d4-6",
@@ -96782,8 +96782,8 @@
           "title": "Kaiseki dinner #1",
           "description": "Multi-course at the ryokan.",
           "category": "food",
-          "lat": 35.51289,
-          "lng": 138.78062
+          "lat": 35.5128155,
+          "lng": 138.7688497
         }
       ],
       "routeFromHotel": {
@@ -96808,8 +96808,8 @@
           "title": "Japanese breakfast",
           "description": "Grilled fish, miso soup, tamagoyaki, rice.",
           "category": "food",
-          "lat": 35.51289,
-          "lng": 138.78062
+          "lat": 35.5128155,
+          "lng": 138.7688497
         },
         {
           "id": "d5-2",
@@ -96817,16 +96817,14 @@
           "title": "First onsen",
           "description": "Open-air bath with Fuji view.",
           "category": "experience",
-          "lat": 35.51289,
-          "lng": 138.78062,
+          "lat": 35.5128155,
+          "lng": 138.7688497,
           "routeToNext": {
             "format": "polyline",
-            "data": "mhwwEcbanYgBx@_HxCeHxD{DlDgD|DmCzEsApCIZ[bA_@lAKZIX_@zAUhAETKn@qBrLAJSfAMz@QhAEXATA\\?V@V@V@J@HFXH`@Ph@N^@DLTQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@HAHA",
-            "durationMin": 11,
-            "distanceM": 3421,
-            "mode": "subway",
-            "osrmMin": 3,
-            "corrected": true
+            "data": "_awwEuh~mYJn@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@HAHA",
+            "durationMin": 23,
+            "distanceM": 1946,
+            "mode": "walk"
           }
         },
         {
@@ -96855,9 +96853,9 @@
           "lng": 138.7605,
           "routeToNext": {
             "format": "polyline",
-            "data": "kzxwEa`|mY??DJFRDNBR@F@X?NEXCRO\\OX}@jAWZ[d@Y^EBGADi@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKyAe@s@UQIMIQMMMMMOQW[OUMSKSISKYEOCSw@qEk@mDCIAQAQ@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYJ[^mAZcAH[rAqClC{EfD}DzDmDdHyD~GyCfBy@",
-            "durationMin": 29,
-            "distanceM": 2393,
+            "data": "kzxwEa`|mY??DJFRDNBR@F@X?NEXCRO\\OX}@jAWZ[d@Y^EBGADi@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKyAe@s@UQIMIQMMMMMOQW[OUMSKSISKYEOCSw@qEk@mDCIAQAQ@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNVJ`@Rb@ZTNJFPFx@XTHFDDDDDDHPj@^bALXLXPVPRRPRLRLPHNBNBN?DAHARGnA}@HKJQDS`AgDDY@WCUKu@Ko@",
+            "durationMin": 14,
+            "distanceM": 1205,
             "mode": "walk"
           }
         },
@@ -96867,8 +96865,8 @@
           "title": "Couples massage",
           "description": "Booked through the ryokan.",
           "category": "experience",
-          "lat": 35.51289,
-          "lng": 138.78062
+          "lat": 35.5128155,
+          "lng": 138.7688497
         },
         {
           "id": "d5-6",
@@ -96876,8 +96874,8 @@
           "title": "Kaiseki dinner #2 · hanafuda night",
           "description": "Multi-course dinner at the ryokan. Bring the Nintendo hanafuda deck picked up Day 3 and learn Koi-Koi over sake — watch a quick rules video on the way to dinner. Quiet lake, paper screens, two-player game.",
           "category": "food",
-          "lat": 35.51289,
-          "lng": 138.78062
+          "lat": 35.5128155,
+          "lng": 138.7688497
         }
       ]
     },
@@ -96897,11 +96895,11 @@
           "lng": 138.80139,
           "routeToNext": {
             "format": "polyline",
-            "data": "uxtwEysdnYDBPNBF@H?LCNEHGFGBIA[Iq@MM?CBAB?DBBF@FBHD`@Zp@XJ@J@JCLGPMVWFIFAD@BB?DAHa@b@CF@B@@B?hAYLCH@BB?FABEBQAMDCF@FDBR@ZALATIF?BD?FCFm@XMN?FDL\\HXHd@TFDz@AL?@@BBDDFPDLHBT?`@EMz@In@Ab@@\\@TLl@FZERc@Re@HWTO`@[L?B@NBt@?BVvAp@nAfAzE@Jt@|FJx@Fj@XbBVnA~@`EoBd@yA`@}Al@eDxAgOrGiO|Gmt@`\\",
-            "durationMin": 16,
-            "distanceM": 3442,
+            "data": "uxtwEysdnYDBPNBF@H?LCNEHGFGBIA[Iq@MM?CBAB?DBBF@FBHD`@Zp@XJ@J@JCLGPMVWFIFAD@BB?DAHa@b@CF@B@@B?hAYLCH@BB?FABEBQAMDCF@FDBR@ZALATIF?BD?FCFm@XMN?FDL\\HXHd@TFDz@AL?@@BBDDFPDLHBT?`@EMz@In@Ab@@\\@TLl@FZERc@Re@HWTO`@[L?B@NBt@?BVvAp@nAfAzE@Jt@|FJx@Fj@XbBVnA~@`EoBd@yA`@}Al@eDxAgOrGiO|Guw@z]_HxCeHxD{DlDgD|DmCzEsApCIZ[bA_@lAKZTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNVJ`@Rb@ZTNJFPFx@XTHFDDDDDDHPj@^bALXLXPVPRRPRLRLPHNBNBN?DAHARGnA}@HKJQDS`AgDDY@WCUKu@Ko@",
+            "durationMin": 19,
+            "distanceM": 5932,
             "mode": "subway",
-            "osrmMin": 6,
+            "osrmMin": 8,
             "corrected": true
           }
         },
@@ -96911,15 +96909,15 @@
           "title": "Japanese breakfast at the ryokan",
           "description": "Grilled fish, miso soup, tamagoyaki, rice. Slow morning at the ryokan after Chureito sunrise.",
           "category": "food",
-          "lat": 35.51289,
-          "lng": 138.78062,
+          "lat": 35.5128155,
+          "lng": 138.7688497,
           "routeToNext": {
             "format": "polyline",
-            "data": "mhwwEcbanYlt@a\\hO}GfOsGdDyA|Am@xAa@nBe@|Cs@jA[p@Y`Ak@hAi@jA_@`BYd@IhAMdCe@HA\\GTCd@C@?D?P?B?vCAjC@v@@X?TENGNMXw@jEmHj@cAVa@r@iAtAaCj@_ANWXe@dAkBtBkDrA{Bb@q@N[N_@HSJ_@f@oBhAmEFSJa@d@aBBMDO`AoDTs@Tk@Vg@nAaCLUPYn@iAp@uAZq@h@eAh@eAXk@zAyCf@eAvEqJTOtDoHDI\\s@vAuCRa@xAyCPa@~@yADGXk@BEP]DKjAyBfA{AlAaBlByBZ]n@w@P[L]Hi@Bc@Cg@Ie@Og@_@g@}CeCSSa@c@eA{BMUi@m@_Aw@e@m@s@oAU_AQyAU_CSqAo@qBQk@Io@Ey@W{GIsE?kAHk@Vc@hAk@dBq@b@e@Ti@Fs@Is@i@uAWkAAs@HeA^}@d@k@vAu@d@c@Z{@H{@D{GH{@\\w@p@m@r@]p@KhBI`AMFEl@WVQVQ`@e@\\u@Ne@^gAp@oBN_@Tu@n@y@`A}@dFoCjNoErJyClDyAPIlB{Ar@g@b@O^GjB?fAElCIrAIv@CjAGtJi@|BGbAI`CYBkBD{ADaF?UJuIDqC@}Au@?",
-            "durationMin": 23,
-            "distanceM": 9982,
+            "data": "_awwEuh~mYCMu@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTnC`@B?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]J]N[NYh@u@BCdA_BT_@^{@HUNWX]LMFMJO`@w@Ze@d@[`Am@FETOPOLMJOx@uAVi@FKTe@bBiEZw@LWj@}@P_@N]J_@Jo@Fg@Fc@Hq@N}@FWH]BELWLQPSv@m@v@o@RMTK\\KfB[f@Gr@IVGREXCPGLGRITUTY\\k@\\m@PUVUz@k@hAq@p@a@Z]X]Te@\\u@Pc@d@cAXo@NYp@wA`@_AJSLYLSHMt@u@x@o@~@u@^[ZWr@i@HIBCZUd@g@TYRYd@u@t@{ADKJUhAuCnAiCr@sARc@d@kAL]Nm@@ILc@FW?AHe@p@cEJy@Hs@Dq@Bu@@U?a@JiD@a@@e@@m@BmA@qA?O?M?S?[@eA?U@a@?IB]JcAJw@BQ@OFc@N_ANq@F[BIb@sAlAuCFMKGwCqBsBuAWQe@WsAq@gCmAMIMGJ_@f@oBhAmEFSJa@d@aBBMDO`AoDTs@Tk@Vg@nAaCLUPYn@iAp@uAZq@h@eAh@eAXk@zAyCf@eAvEqJTOtDoHDI\\s@vAuCRa@xAyCPa@~@yADGXk@BEP]DKjAyBfA{AlAaBlByBZ]n@w@P[L]Hi@Bc@Cg@Ie@Og@_@g@}CeCSSa@c@eA{BMUi@m@_Aw@e@m@s@oAU_AQyAU_CSqAo@qBQk@Io@Ey@W{GIsE?kAHk@Vc@hAk@dBq@b@e@Ti@Fs@Is@i@uAWkAAs@HeA^}@d@k@vAu@d@c@Z{@H{@D{GH{@\\w@p@m@r@]p@KhBI`AMFEl@WVQVQ`@e@\\u@Ne@^gAp@oBN_@Tu@n@y@`A}@dFoCjNoErJyClDyAPIlB{Ar@g@b@O^GjB?fAElCIrAIv@CjAGtJi@|BGbAI`CYBkBD{ADaF?UJuIDqC@}Au@?",
+            "durationMin": 24,
+            "distanceM": 12489,
             "mode": "subway",
-            "osrmMin": 11,
+            "osrmMin": 12,
             "corrected": true
           }
         },
@@ -96989,11 +96987,11 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "mhwwEcbanYlt@a\\hO}GfOsGdDyAKWmAwDm@oCLiB?OES[iBc@iDSwAGqAS{AO{@@cAV{@HQz@Id@a@d@a@Kw@Ke@S_@BoBLCZ?Ae@?YAQAS?IC]?O?IB_@V@GEe@UYI]IEM?GLOl@YBG?GCEG?UHM@[@SAECAGBGLEP@DC@C?GCCIAMBiAXC?AAACBG`@c@@I?ECCEAG@GHWVQLMFKBKAKAq@Ya@[IEGCGACC?E@CBCL?p@LZHH@FCFGDIBO?MAICGQOEC",
-        "durationMin": 16,
-        "distanceM": 3270,
+        "data": "_awwEuh~mYJn@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@Ic@IUIUMY[s@y@gBGIe@y@_EsIwCcG_@s@Ye@g@s@W[k@k@YUUQJ[^mAZcAH[rAqClC{EfD}DzDmDdHyD~GyCtw@{]hO}GfOsGdDyAKWmAwDm@oCLiB?OES[iBc@iDSwAGqAS{AO{@@cAV{@HQz@Id@a@d@a@Kw@Ke@S_@BoBLCZ?Ae@?YAQAS?IC]?O?IB_@V@GEe@UYI]IEM?GLOl@YBG?GCEG?UHM@[@SAECAGBGLEP@DC@C?GCCIAMBiAXC?AAACBG`@c@@I?ECCEAG@GHWVQLMFKBKAKAq@Ya@[IEGCGACC?E@CBCL?p@LZHH@FCFGDIBO?MAICGQOEC",
+        "durationMin": 19,
+        "distanceM": 5767,
         "mode": "subway",
-        "osrmMin": 6,
+        "osrmMin": 8,
         "corrected": true
       }
     },
