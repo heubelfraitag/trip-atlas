@@ -96209,26 +96209,27 @@
         {
           "id": "d1-1",
           "time": "16:30",
-          "title": "Haneda Airport (HND)",
-          "description": "Clear customs, grab Suica card, train or taxi to hotel.",
+          "title": "Narita Airport (NRT)",
+          "description": "Land ~16:30. Drop checked bags at the Yamato counter in Arrivals (next-day delivery to Yuen Shinjuku, ~¥2,500-3,500/bag) so the rest of the trip into Tokyo is carry-on only. JR Narita Express (N'EX) direct to Shinjuku — ¥3,250pp, ~80-90min, departs from the airport rail station.",
           "category": "airport",
-          "lat": 35.5494,
-          "lng": 139.7798,
+          "lat": 35.772,
+          "lng": 140.3929,
+          "address": "Narita International Airport, Narita, Chiba 282-0004",
           "routeToNext": {
             "format": "polyline",
-            "data": "yk~wEszctY??CBGB@I@IB{B@KBIFG|AaAnAy@HGFCH?HBzAx@F@H@hG}DBE@KB_C?GBIBCzAcAzA_AJGHAD@HBtAt@HBH?xEuCjAs@FGDK@I?MCMgAwCeA{CeAoCcBoEfAo@FGBG@M?KEOKOyDaKQa@IU[w@GGIAI?QHe@ZUNA@iAt@UNX\\H@?J@HdArCBD?FAFIJuA|@IDBRDHJDJ@NElDkB~@]XOjKyGtDcCxAkA@I@G?E?GCKc@gAK[QJiFfDIDGFEHCHCH?L?J@JDN\\z@@DnBjFJXz@~BJRFFJDL@JCVOj@_@PKHGtDcCzDcCj@]\\U\\Uj@_@TOK[e@qAi@yAIUiFbDiAn@OFmCdBQNqD~BkKvGMJq@p@a@ZoA~@OPGLGLEPCNAP?R@TBPHTHZD\\?`@CZETKPINSPMHSHa@ZMJyA~@kAt@aGxDaMzHs@f@a@LU?WEQCMEKG]UMKoAkAQMIGGCGCOCMAK?I?M@MDMDSJ[Pa@\\kDfBo@^yA|@aBdAUNi@`@e@\\_@XUPm@j@cA|@w@l@gBnB}@p@g@l@q@`AeA`BaA|Ao@pAeAzB{@lBcCzF{GlPiCvGuBjF_LvYgDzIuAfD_AxBaAlBq@hAs@~@u@z@k@h@k@d@o@b@w@b@iAj@wAh@{Ab@o@L}Dx@mCl@}XdGmAVyMrCqIfBc@JaFfAuE|@kBVaALu@F}@FyBFkG@_@H{DJqGBsCBoCPuA@}@NsD@aC@_KA{@@{NEaD?y@QaAIkAE}@?{AAm@Cg@Go@S}EHuCD_BBkA?gD?S?S@QBQBMDOFKBOHQJKJONKLKPKPGRIRETQj@w@fCKTKRKPONMLOLQHQFQDQBQ@Q@SAOASCsD_@_DScQy@mGS}EU}AGc@A]?g@@i@Be@Di@Je@La@N]N_@T]T_@ZWXY\\Y^Ub@S`@O^O`@K`@Kd@Kh@Gf@Gj@Cl@Aj@?l@Bl@Dh@Fj@Hj@Jh@Lf@Rp@Rr@Pn@Np@Nt@Lt@p@zEvGbc@Fl@Dn@Bp@@n@DnG@h@Ah@Cj@Ch@Eb@G\\G\\GVOd@Od@O`@S`@U^W\\Y\\YVYT]T]PaBv@ULSJUNSNQNSPORQTOROVOVMVMXg@hAy@|AWd@Wb@U^{AvBYb@Uf@Sf@Od@Oh@Ml@Mn@Ir@Ep@Ep@Cr@?v@@r@@p@JfC@\\?Z?ZAZAZE\\CZEZGXGXGXIVKVIVOVMTQZSZoA`BU^iF~Jy@hB_AbC}BxGkAdD}@`C_AzB_BtDgBfEoApC}AvDuB~EqBrEc@~@MTOVOTQVSTSRWRk@d@yDlCaF`DkMvH_DdB}BpA{BvAgAt@cAt@kCtBgHbFyB`BkEfDeBrAwAhAkFdEkCtBYTa@^OPQPORQReDhEqBhC_@j@a@j@[j@a@x@mPd]o@hAm@bAe@r@g@p@aAfAaF|FcCpCILGPENAR?N@NBPH^Pn@JXDNFNHNDJDFBFDDDDDDDDFBFBHBF@D@F?JAFAFAFAFCFEHEHGFIFGFGDIFIFIDIBKDKBIBKBK@K?K?K?MAGAGAGCEAGCECGEEECCCCCEAEAGCIAG?G?I@G@G@E@EBC@EBEDGDGFONMNGHGFGHEFGJCFAFCFCJAJALAD?F@D?D@L@JBLBFDFBBBFDDFBDBDBD@JBLBJ?H?JAFCFAFCFCDEDCJGFIHGFIDIFKFIDKDIDKBMDK@M@M@M?MAMAMCMAGCGCGCECEGEEEECGEGCIAIAIAI@I?IBIBIBIDGDIFGFQPGFe@^QLMHMFKDI@M?K?KCKEKGGIGKIMEMEOES]}A]cBo@eD[oBmAiG]iBMi@Mc@M_@O_@MYOWOUQUOSSQOOSOqAaA_@YUUSSOUKQKOISGOIUGSI[I_@Ga@Ic@Ec@a@iDOkAUsAsBgJcAmEu@aDmAeFKc@Ic@Ge@Ee@Cq@Ey@EaAC}@Cw@AaAMm@O_JGq@G{DAk@n@ZB^@PLjEF`EDtD@N?vA?p@@VDvBDx@BZBV_@Zk@TgBp@_Bj@IBASrBw@^OTIBMEMUsA",
-            "durationMin": 56,
-            "distanceM": 25431,
+            "data": "ckiyEuzzwYb@_@f@[d@Yj@Y^Q\\MZITERAR?V@\\BVDVFVJ\\RVRPNPRJPBBPTXfAFXHh@@T@XEfAAl@@d@Bb@Jl@FRDRC\\WP_CxAiAv@OJiBlAq@d@sAz@iAv@A?QLMFQLA?cFbDqBrA[RiAv@WPIFKWEMu@qBK?I@yAz@}@n@aDjBwBnAyCfB}A|@g@Pu@f@}AdAeAx@_IlGgCvBuD|CcCvB}B~BqAvAeB~Bw@nAcA~A{@fBq@`Bg@rAa@pAw@tC]~AUvAWjBQtAOfBKvBEnBAbCBnBDtBH~ANzBPpBVhCZhC\\`C^xB`@tBp@zC|@nDvBvHb@~Ax@pCp@dCh@vBl@zCNr@DZHj@^pCHbAFz@FpAD`ABfADlA@z@?x@?z@EfAC`ACh@El@Gr@MfAGl@Gt@OrDEz@CpA?l@?t@Bv@DdAFr@Hr@Jp@Hf@Pf@J`@Vn@PXX`@V\\ZZRN\\Xj@XzDpBjFfDvCdBtBtAf@^r@h@v@j@jBvAfA~@rAhAhAdAz@v@\\\\dAbAr@x@zDlEtA`BjA`B~AxBlAfBjDvFxDtGfEpHdHvLhAjB|A|BtBtCjB`ChAnApAtAvAxAhBhB|BrBdCjBrCvBlBlAzA|@|BnAjCnAzB`ArCnApFxBhBr@hK|DjDvAdEfBlDfBjE`CzDzBnAx@rBtAfBnAlA|@rAbAz@p@dA|@t@l@rCdCbD|CtAvAXXzA`B`BfBpB`ClB~BvAjBlA`B~@tAbBbCdA`B~@vAdDhFrD~FbElGxAtB`AtA`BvBjB`CpBtBzGbHrCtCfDxCtBdBzAfApA~@~@n@bAp@x@h@r@b@pAt@dBbAjB`ApBdApB|@fBv@dA`@jAd@xBx@xBv@~Aj@pC|@|KfDbGjBrH~BfC|@nBr@zBz@`CbAhBx@lAj@bAf@nAp@nAr@~A`AhAr@~AfAnDnC~BpBfBdBlBlBtAxA`BjB`AjA`AvAlAbBjAhBzAbC`A|A`AnBdBjDbBxDfArCfAxC~@vCx@rCx@vCv@~CT~@bArEh@`CZzArBrKlBnJpBfJj@~B|@pDf@fBj@rBx@bC|@nCr@tBt@lBvBbFv@fB|@nB|@`BjAxBdBxCnArBdA`B|J|Nr@dArAvB|@rAz@tAbAdBt@tAn@jAfBlDj@lAp@`BZt@\\z@^bAl@fBd@zAl@rBh@tBj@dCv@~D\\rBTtAT`BXdCRvBNhBNpBLzBJ`CJpCHjCL`EF|CF`DT`IPxELjCPlCNtBVrCVbCV|BTbBNfAb@zCf@vCh@vCt@|D~ApIjAhGt@pEn@bEf@vDbAhJ^hDRlC`@tF`@|HF`CLhDFrDFvDBvBBnI@vEA`EI|HKfGSzHQlECn@M`C_@~GU|D_@bFUdDa@vEs@zHa@rEo@pIUhDUzDi@rLEfBGbE?xBCfC@pFHzFHzDHtCFdBHdBTnD`@pFd@jFl@zGt@`I`AjJ`@tE\\jE^dGRvDPjEHrEJ|KHhNLhKJzFJrET~EVdF\\nEZrD^vD^zCh@dDj@hDr@fDt@vCp@hCbAbDz@dC|@|Bt@dBv@bB|BnE~DhHzElIjCzExAxCdB~DvAxDdA|CbAlDv@bDv@rDp@xDl@fE`@tD`@|DTzBZjD\\dDXfCT|Al@jDZ`B^zA^tAb@tA`@bAh@rAf@hAd@|@d@z@d@x@h@x@h@r@h@n@dCnC~A|A`BlBtAhBf@z@f@`Ab@jAh@xAb@~AVtAPfAL`AH|@R|CT~CHfAL`AJt@Nz@R|@Tx@Z~@`@bAf@fAv@rADFn@z@\\d@`@b@p@n@f@`@ZTj@\\p@^v@`@dA^vEzA|@Z|@\\x@\\z@d@t@d@VNzAhAzAjAn@n@~AfBpBjCx@pAx@|AbArBfAhClBtEpAnCt@xA^t@v@nAr@hA`AvAbCfDzC|D`ErFpFdHhEvF~HlKjAxA|ArBhBbCrBnCnDvEx@hANTb@p@^n@Xh@Xj@Zr@Xx@Xt@Tx@Rz@P|@N|@L~@H~@F~@Dz@Bz@@v@?v@Ad@Ad@Ch@Cf@Eh@Ix@Ip@Kt@Kp@On@Mj@Of@On@Up@Yt@Wn@Yj@[h@W`@]j@Y^Y`@_CjC_CjCuBdCuBpCy@hA{@rAiB|CuAhCi@jAg@hA[t@g@zAUr@YnAS`AO`AO`AQtAUxBg@jFO`BGp@u@|Hc@vEALQjBUhBSxAWbBE`@WbB[|Ai@|Cm@pCg@~Bi@tBy@fD_A~CgBrFs@rBm@|As@dBu@hBq@|Au@`B}DbI_GlL{@lBoAlCy@rBw@pB_AbCm@~A}@|Cu@nCe@nBg@|Bc@fC]hBMv@QrAs@|Fo@|F[zBa@fCa@lB_A~DoAnF}@zC_@pA}@dCiAnCu@lBcCdGsAzCoCrFoAdCsBbEyNfYqJjRmEpIuFtKw@vAm@~@aAtAm@r@c@f@g@d@g@b@i@d@a@X_@X_@Te@Vm@Zc@TyAl@sEzAwDlAkAb@i@Vg@Vs@^i@\\i@`@i@^k@j@OLSRg@f@c@h@g@l@g@r@a@r@s@tAq@xAyAlDaCpGyA|DeC~GgC`HkClHc@rA]dAU|@e@jBa@fBUjAW|AuAnIgBjKyI~g@wGh`@oBjLk@bD{Gr`@cA|FWbBUhBGf@Gj@Gl@Ed@Cb@Eh@Ch@Cl@Cp@Az@?bA?jA@z@Bl@Bt@FbADr@Dd@Fh@Fj@Fl@Lz@Ln@Lp@Lj@Np@Lh@Rr@Tr@Rn@Tl@Zv@`@~@Vl@Vh@Rb@Tb@|CzEz@vAzDrHXb@T\\\\b@b@h@d@b@XVVRz@j@dAv@ZTVTTTRVP\\P\\LXJZHZDXBV@V?VAVCXGXO`@QZQRQNKHOHODODUDOBuARu@No@Ny@Va@N]NYNi@V[RKF_@Ve@b@i@d@y@v@a@b@u@x@{@bAeAlAc@d@yAbByA`Bi@l@w@v@_Ax@iBzAcDnCmEzDaGpFkD`DSR_CvBkDxCkBdBoArAuA`B_B|BsAxBs@pAm@nAaDpHk@nA_AhBa@z@e@v@q@~@sA`B}@bA}AzA}@t@w@l@aAt@qA~@aEbDo@b@i@ZYNq@Xo@Ro@Pq@No@HYFYHQHKFMHMJKLSTIJGNGPQj@GZUdAa@jCe@vCMx@OlAUbBAj@?l@@n@Bl@BZ@VFb@Hj@Ll@Pn@Vr@Vr@hBvDd@|@nFfLjBjDzBpEh@fAl@nAz@dBdAvBn@vAf@hAXx@Xr@Tt@`@xALf@nA|E~@xDx@fDFVBJz@lD~@|DdAdEdAjEbAhEdAjE~@hEBVDn@@VAl@Ch@Ah@I|DKpEObGKnEOtGMvGK`DQlHIhEElAI|DOtGA\\InDGnC?ZEvAA`@An@A\\GzAQtEIvBIdCA\\KrCK~BM|CGjBC~AE`CGtDEtDCxAErAEvDCrACnDEnDA~A@D?J@N@RBN@FXnBF\\L~@Hf@RxA@FJt@PnA@DDXJj@TxARhAJh@L`ATzAdArG\\|BRxALpAZ`D@L@LxDzb@H|@Db@F^H`@|@rER|@|@tDDPz@|DDTDRH\\ZzAbApFHZ^`Bh@nCFZ`@pBp@|CHl@Hj@H~@B^@VD|A@R?RBdADfEJvGBpAJ`FHnDJfG@nAHnEDjC@`@?T@b@FlDHpDDpCNnGZjI@VB`ABpABtABtADbC?R?P@N@hDDxC@n@@R@h@N|DLfDJxDFjC@l@@T?H@pA@J@JF^FZb@lCDb@DX@VDp@D|@DnA@Z@^FzAD|A?TFl@BZHr@FpA@^Bf@?T@TBhABhA@X@d@@ZBrABh@@`@DvBL~E@f@BnA@Z@XB^Dz@Bp@DzA@T@\\HlEH`E?J@`@@b@BnADnB@N?RJ`F?X@RLxE?T@XHpE@V@NJbF?N@NB|ABz@B~@@Z@T?`@JxEDlA?TBz@D|A?X@f@@X@`AB~@B`ABvADfBBpB@\\?R@X@x@@v@@T?V@V@x@Bh@@^@b@?RAPy@pJ?HEl@Ez@CVCZ_@tFGv@AJCb@CVC^ANKpAAPCVCb@El@Gz@O|BAJAVAPC^Ch@Cr@GfBEtAA\\I~BAZ?JC`@?f@EzAEjA?TALAlA?\\AnACvA?LALCnBCxA?J?HA`@CfAAJ?XCl@?`@Al@E`EAL?TATCpB?NExAC`B?J?ZAPAn@ExB?D?NAf@?ZCx@?JA`@Ar@CbBAZ?T@XBT@Fj@rBNj@FRJ^Nh@tAxE`@rAFTDLJl@BRFl@NjANlAB\\@\\CbAAH?PAPC^Cf@E\\Mf@KVKRMRc@l@e@p@c@l@QXIHU\\e@t@i@x@INCNCN?R?Z?P@pBBbD@jA?J?n@@j@@v@@fB@z@BbC@dB?j@@j@FfBFlB?PB`@JlADr@@JBZ@JFbA?FFt@Dh@JzA?HBZBPBb@d@zGJbAJn@Jf@DRl@|Ch@vC`@rBBLDTDTLl@j@vC@DLf@J^p@zB^nA@FJ\\H\\l@nCt@jDDPBPt@lD@HDTFVh@jCr@jDBJFXDTf@lCb@xBF`@x@pEHf@?L?JAJAHEJGFGF??iCdBKHIHOJNb@\\v@N`@Jb@Ff@Jl@Ff@p@rEj@|DFv@Fx@BlA@J?^?^KtDS`FKrAOhAMb@_A`Cw@hBERGRELCRAXAHATEtAIzAEfAIjAGhAAV?hD?B?J?p@B`BBP@JF\\BPDVl@hDPbAd@xCBNBJFd@~@~FRtABX@XAXC\\Gh@UvBEn@C^@\\@\\@ZDZ@LHd@Fd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SrD",
+            "durationMin": 105,
+            "distanceM": 74207,
             "mode": "subway",
-            "osrmMin": 34,
+            "osrmMin": 68,
             "corrected": true
           }
         },
         {
           "id": "d1-1b",
-          "time": "18:00",
+          "time": "19:30",
           "title": "Onsen Ryokan Yuen Shinjuku check-in",
-          "description": "Customs (~30 min) → Keikyu Airport Express + JR Yamanote → Marunouchi Line to Shinjuku-Gyoemmae + 5-min walk = ~80 min. Drop bags and soak the jet lag away in the 18F rooftop open-air onsen before heading out for dinner.",
+          "description": "NRT customs (~30-60 min) → N'EX to Shinjuku JR Station (~85 min) → short taxi to Yuen (~¥1,000, 5 min — easier than the Marunouchi Line transfer to Shinjuku-Gyoemmae). Drop bags, freshen up, soak the jet lag away in the 18F rooftop open-air onsen before late dinner.",
           "address": "5-3-18 Shinjuku, Shinjuku Ward, Tokyo 160-0022",
           "category": "hotel",
           "lat": 35.69156,
@@ -96243,9 +96244,9 @@
         },
         {
           "id": "d1-2",
-          "time": "19:00",
+          "time": "20:30",
           "title": "Afuri Shinjuku Lumine1",
-          "description": "Same exact Afuri yuzu-shio ramen experience as the Harajuku original — light, clean, citrus-forward Tokyo first-night classic. Lumine1 B2F at Shinjuku Station: 1 stop on the Marunouchi Line from Yuen, or a 20-min walk west through Shinjuku 3-chome.",
+          "description": "Same exact Afuri yuzu-shio ramen experience as the Harajuku original — light, clean, citrus-forward Tokyo first-night classic. Lumine1 B2F at Shinjuku Station (open till 22:00, so 20:30 is the late-arrival sweet spot). 1 stop on the Marunouchi Line from Yuen, or a 20-min walk west through Shinjuku 3-chome.",
           "address": "Lumine1 B2F, 1-1-5 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
           "category": "food",
           "costPerPerson": 1500,
@@ -96644,7 +96645,7 @@
           "id": "d4-0a",
           "time": "08:00",
           "title": "Yoyogi Park walk",
-          "description": "Quick Marunouchi → JR ride from Shinjuku-Gyoemmae to Yoyogi-Koen, or a longer walk south through Shinjuku Gyoen. Quiet Thursday morning — cedars, joggers, autumn leaves.",
+          "description": "Quick Marunouchi Line ride from Shinjuku-Gyoemmae to Yoyogi-Koen — relaxed morning walk through cedars + autumn leaves before catching the 10:30 Fuji Excursion. Last Tokyo activity before heading to the lake.",
           "address": "Yoyogi Park, Shibuya City",
           "category": "walk",
           "lat": 35.6716,
@@ -96668,74 +96669,26 @@
           "lng": 139.6993,
           "routeToNext": {
             "format": "polyline",
-            "data": "_awxEeetsYE@GY]k@c@]EQAGuAd@WH{@TeAPkAu@mAkAy@oADSF_BCWs@WwAy@c@k@?KQc@EUSJ[NMJKJIPUb@ORE@OF_B`@QDeAVqCp@]FSDUD_ALSB[Fe@FiBXoATg@LUD{A\\KFKFEDCBIJMLEFEFGHIHuBdCo@b@cAd@k@PqBh@}Ab@e@LIBWHUHSq@Me@Qi@GYMi@E_@Ge@_@iDMcAM{@G_@WcBSyAI{@Go@Ek@Ew@AMC[]QeAm@a@Wo@a@[Sa@S{@c@e@Wm@[GCKGaAg@IC[QWMBMDYZcBDSDWJe@F_@Je@DU\\kBJq@FkADs@@K@KHwAJuA@Y@M@c@BUFqAPqCFaADi@Ds@Bc@@SPuCBo@?w@?GC_@Ca@E_@AQGe@Ee@Ii@C]A]?_@Ba@Do@ToB@GDi@B[?YASCYQqAo@_EQiACOCOyAaJOy@AGGWCSG[Gk@?kAAc@?[?Y@eDX_GB]@e@?IB_A@[@S@SBM@MDM|BmGVs@Fg@Fe@HiARaFHcD@O?_@?]GyAOqBqAgJIe@M_AKs@E]GS]aAGQUi@FONKJIhCgBJG??DEBCBK@I?G?K?II_@s@_EEQqA{GCOESGY{A{HCIEUEUs@iDEOEUeB_ICII]IYmAkECGQo@G[i@kCEOUeACSuByKI]_@{BEa@WgDQ{BAKEc@AOE_@I_AEk@Iw@Ei@GaA?KC]OaCAIAYKyE?QAk@?i@AcBA_ACoAAiAC}BAO?m@RCXGHAVCj@GNALCd@GTCTCAYA{@?u@CcB?I?KI?a@@@F",
-            "durationMin": 24,
-            "distanceM": 7695,
-            "mode": "subway",
-            "osrmMin": 12,
-            "corrected": true
+            "data": "_awxEeetsYE@GY]k@c@]EQAGuAd@WH{@TeAPkAu@mAkAy@oADSF_BCWs@WwAy@c@k@?KQc@EUSJ[NMJKJIPUb@ORE@OF_B`@QDeAVqCp@]FSDUD_ALSB[Fe@FiBXoATg@LUD{A\\KFKFEDCBIJMLEFEFGHIHuBdCo@b@cAd@k@PqBh@}Ab@e@LIBWHUHSq@Me@Qi@GYMi@E_@Ge@OwA",
+            "durationMin": 22,
+            "distanceM": 1841,
+            "mode": "walk"
           }
         },
         {
           "id": "d4-1",
           "time": "10:00",
-          "title": "Glitch Coffee Roasters",
-          "description": "Third-wave Tokyo roaster, Jimbocho.",
+          "title": "Shinjuku Station — bento + coffee",
+          "description": "Grab an ekiben from Ecute Shinjuku or the Lumine bakery before boarding. Limited time before the 10:30 Fuji Excursion — keep it efficient.",
           "category": "food",
-          "lat": 35.6951,
-          "lng": 139.7596,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "guzxEox_tYAGc@?O?I?i@@K?g@@M?BbD@jA?J?n@SBAq@AuA?y@?k@AcBCiA?I?M?Y?Q@O@ODMDKh@y@DI^k@R[FIjAeBd@q@\\e@T_@HWFWF[@Q@c@@S@Q@Q@W@o@Ai@Ei@CUQ{AAKIo@CSEUES]oAm@oBW}@Sq@IWEMAGQe@Mc@K_@YeASs@Ie@Ao@DyD?I@[@}@@U?[@c@DuB@e@?]@Y?W@g@BmABuA?MBaB?M@S?WBsABgB@o@?O@e@]CqBM]Cq@CaAAy@AUAK?mB?O?mBEQ?kA?O?QAU?W?_BA{@Ak@@MAqBIy@EMAcBKsAGMAG?GAQAyAIqAGkBIKAS?}AIiEQMAQA}BMqDSe@CYCMAqBKu@Ce@CsDU]CM?uCOI?{@GYEICMCQGQMQWc@m@c@y@Yo@CMCMAOAQ?Q@Q@UDWB_@NoA@MH_ANmAJkAPkBBQBWVwBBUBWLkATaCFi@BYBS@UD[RqBVaCJ}@B_@Fg@VeC\\iDBWDYRuBTeBB]OAC?oBK[AmBIu@Iw@KQCOCo@Ig@Gw@KKABSJiALkANyA^D",
-            "durationMin": 19,
-            "distanceM": 5215,
-            "mode": "subway",
-            "osrmMin": 8,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d4-2",
-          "time": "11:00",
-          "title": "Kama-Asa Shoten",
-          "description": "Kappabashi knife shop. ¥15K–40K range.",
-          "category": "shop",
-          "lat": 35.7128,
-          "lng": 139.7901,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "cd~xEgvetYfAJD?OvAMlA?DMbA?DCPn@HNBPBv@Jt@HlBHZ@nBJB?N@F?J?E^K`AUpBGj@CRC\\OrAe@vEC\\Gj@_@xD[tCCTAPEX]~COvACVCVWvBCTCPOzA]hDANI|@MnAEZANAL?LBJFNpAnBXb@^f@NPPNLFXDXDZBrCNZ@xAFP@bADj@BD?v@DvBHZBb@Bz@DtBJdAFv@DR@H?x@FjAFdADL@nAHR@J@d@B|AFvAHz@FP@N@L@rBJ|@F~BH|@DP?zADZ@~@?`@@T?R?dA?T?z@?v@@L?P?vA@^Br@?V@pABr@D^BxALF?ZBV@Cl@?`@Al@E`EAL?TATCpB?NExAC`B?J?ZAPAn@ExB?D?NAf@?ZCx@?JA`@Ar@CbBAZ?T@XBT@Fj@rBNj@FRJ^Nh@tAxE`@rAFTDLJl@BRFl@NjANlAB\\@\\CbAAH?PAPC^Cf@E\\Mf@KVKRMRc@l@e@p@c@l@QXIHU\\e@t@i@x@INCNCN?R?Z?P@pBBbD@jA?J?n@@j@@v@@fB@z@BbC@dB?j@@j@FfBFlB?PB`@JlADr@@JBZ@JFbA?FFt@Dh@JzA?HBZBPBb@d@zGJbAJn@Jf@DRl@|Ch@vC`@rBBLDTDTLl@j@vC@DLf@J^p@zB^nA@FJ\\H\\l@nCt@jDDPBPt@lD@HDTFVh@jCr@jDBJFXDTf@lCb@xBF`@x@pEHf@?L?JAJAHEJGFGF??iCdBKHIHOJNb@\\v@N`@Jb@Ff@Jl@Ff@p@rEj@|DFv@Fx@BlA@J?^?^KtDS`FKrAOhAMb@_A`Cw@hBERGRELCRAXAHATEtAIzAEfAIjAGhAAV?hD?B?J?p@B`BBP@JF\\BPDVl@hDPbAd@xCBNBJFd@~@~FRtABX@XAXC\\Gh@UvBEn@C^@\\@\\@ZDZ@LHd@Fd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SvDCZANGrAGx@g@~CCLIb@ZAj@C\\An@?f@BH?RBZ@B@B?ZD^FVF^JH@\\H`@HXLNHPLHDPJXRZTr@h@p@l@j@r@x@z@`Ax@jBrAhBlAn@^\\Rl@Xv@LLB\\BVAd@Gf@K^Ip@OHEXd@UDWFaC`@sCh@i@LuAXUDOBg@HAN@LFPzAfAFDFD??\\VCHEJCBABC@EBG@SDcANcALqAJ",
-            "durationMin": 31,
-            "distanceM": 11296,
-            "mode": "subway",
-            "osrmMin": 17,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d4-2b",
-          "time": "12:30",
-          "title": "Uogashi Nihon-Ichi (Shinjuku)",
-          "description": "Standing sushi bar near Shinjuku South Exit. ¥1500-3000 pp, order piece by piece, fresh nigiri at counter pace. Perfect quick pre-train sushi. ~30 min, then 10 min walk to Shinjuku Station.",
-          "address": "Uogashi Nihon-Ichi Shinjuku Minamiguchi, 3-35-7 Shinjuku, Shinjuku City",
-          "category": "food",
-          "costPerPerson": 2500,
-          "currency": "JPY",
-          "lat": 35.6878,
-          "lng": 139.7011,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "igyxEmotsY??A?CAAAvAObAKbAQLADABC@C@C@E?CAG?IAO??GEGE{AgAKGGEAAEIIMo@LE@MBk@JK?I?KCIESMa@UgFaDODEDI\\ETFfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@UHSq@Me@Qi@GYMi@E_@Ge@OwA",
-            "durationMin": 3,
-            "distanceM": 256,
-            "mode": "walk"
-          }
+          "lat": 35.6896,
+          "lng": 139.7006
         },
         {
           "id": "d4-3",
-          "time": "13:30",
-          "title": "Shinjuku Station",
-          "description": "Fuji Excursion limited express departure.",
+          "time": "10:30",
+          "title": "Shinjuku Station — Fuji Excursion",
+          "description": "JR/Fujikyu Fuji Excursion limited express, direct to Kawaguchiko — ~2hr, ¥4,200pp, all-reserved (no non-reserved cars). Book exactly one month in advance at 10:00 a.m. JST (set Oct 27 calendar reminder).",
           "category": "transit",
           "lat": 35.6896,
           "lng": 139.7006,
@@ -96753,7 +96706,7 @@
         },
         {
           "id": "d4-4",
-          "time": "15:30",
+          "time": "12:30",
           "title": "Kawaguchiko Station",
           "description": "Arrival in Fuji five lakes.",
           "category": "transit",
@@ -96769,9 +96722,9 @@
         },
         {
           "id": "d4-5",
-          "time": "16:00",
+          "time": "13:00",
           "title": "Kozantei Ubuya check-in",
-          "description": "Lakefront ryokan.",
+          "description": "Phone Ubuya from Kawaguchiko Station (+81-555-72-1145) for the on-call shuttle — runs 14:30-18:00 free, ~10 min. If you arrive before 14:30, taxi (~¥2,000, 10 min) or Red Line sightseeing bus to the 'Kozantei Ubuya' stop (~16 min, ¥420). Early afternoon = relaxed onsen + lake walk before Kaiseki #1.",
           "category": "hotel",
           "lat": 35.5128155,
           "lng": 138.7688497
@@ -98397,6 +98350,12 @@
   ],
   "checklist": [
     {
+      "id": "c-yamato-nrt",
+      "title": "Yamato luggage forward · NRT → Yuen Shinjuku (Nov 24)",
+      "detail": "Drop checked bags at the Yamato Transport (Kuroneko Takkyubin) counter in NRT Arrivals after customs. Next-day delivery to Yuen Shinjuku (Nov 25 evening). ~¥2,500-3,500 per large bag. Carry only an overnight bag with PJs, toiletries, change of clothes for Night 1.",
+      "priority": "closer"
+    },
+    {
       "id": "c1",
       "title": "Kozantei Ubuya · 3 nights (Nov 27–29)",
       "detail": "Direct booking or Relux. Mention honeymoon.",
@@ -98480,8 +98439,8 @@
     },
     {
       "id": "c15",
-      "title": "Yamato luggage forward · REI → Ubuya (Nov 27)",
-      "detail": "Drop bags at Shibuya Tokyu REI front desk Nov 26 evening or Nov 27 AM (~3 PM Yamato cutoff). ~¥2-3K per bag. Arrives at Kozantei Ubuya by 6 PM same/next day. Travel with small overnight bag for Fuji Excursion train + first ryokan night essentials.",
+      "title": "Yamato luggage forward · Yuen Shinjuku → Hotel TOU Kyoto (Nov 29)",
+      "detail": "Drop bags at Yuen Shinjuku front desk Nov 26 evening or Nov 27 AM (~3 PM Yamato cutoff). ~¥2-3K per bag. Skip carrying through Fuji entirely — bags meet you in Kyoto on Nov 30. Travel with small overnight bag for Fuji Excursion + ryokan nights.",
       "priority": "closer"
     },
     {
@@ -98492,7 +98451,7 @@
     },
     {
       "id": "c17",
-      "title": "Yamato luggage forward · Cross Osaka → REI Tokyo (Dec 6)",
+      "title": "Yamato luggage forward · Cross Osaka → Shibuya Tokyu REI Tokyo (Dec 6)",
       "detail": "Drop at Cross Hotel front desk Dec 5 evening. Skip the 2.5-hr Nozomi luggage hassle + the post-2020 oversized-bag reservation requirement. ~¥2-3K per bag.",
       "priority": "closer"
     }
@@ -98560,6 +98519,15 @@
       "lat": 35.50119,
       "lng": 138.80139,
       "city": "Fuji"
+    },
+    {
+      "id": "wl-knife-shop-tokyo",
+      "title": "Japanese knife shop (Kappabashi or Tsukiji)",
+      "description": "Kama-Asa Shoten (the planned one, Kappabashi) is a 10-min walk from Senso-ji — could fit Day 2 morning between Senso-ji and Yanaka. Or Tsukiji Outer Market on Day 15 has Aritsugu, Sugimoto, Tsubaya, Kiya — high-quality knife shops right next to where you're already eating sushi. Either is a casual catch-it-when-out option, no need to plan around.",
+      "category": "shopping",
+      "lat": 35.7125,
+      "lng": 139.7902,
+      "city": "Tokyo"
     }
   ]
 }
