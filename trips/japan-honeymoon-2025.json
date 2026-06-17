@@ -96842,15 +96842,6 @@
           }
         },
         {
-          "id": "d5-5",
-          "time": "15:30",
-          "title": "Couples massage",
-          "description": "Booked through the ryokan.",
-          "category": "experience",
-          "lat": 35.5128155,
-          "lng": 138.7688497
-        },
-        {
           "id": "d5-6",
           "time": "18:30",
           "title": "Kaiseki dinner #2 · hanafuda night",
@@ -96938,6 +96929,17 @@
             "distanceM": 578,
             "mode": "walk"
           }
+        },
+        {
+          "id": "d6-5b",
+          "time": "16:00",
+          "title": "Couples massage at FUFU (in-suite)",
+          "description": "In-suite couples massage by FUFU therapist — 50 or 90 min. Email reservation1@fufukawaguchiko.jp ~1 week ahead to book the simultaneous-couples slot (your specific suite type needs to support two therapists; confirm when reserving). 50 min ¥7,950pp · 90 min ¥13,250pp. Service hours 10:00-19:00. Perfect afternoon-into-kaiseki transition with the rooftop views and the private onsen for a soak afterward.",
+          "category": "experience",
+          "costPerPerson": 13250,
+          "currency": "JPY",
+          "lat": 35.50046,
+          "lng": 138.77116
         },
         {
           "id": "d6-6",
