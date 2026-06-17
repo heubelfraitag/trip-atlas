@@ -85,7 +85,7 @@
       "checkIn": "2025-11-30",
       "checkOut": "2025-12-04",
       "booked": false,
-      "notes": "4-star wabi-sabi boutique, 10-min walk from Kyoto Station, 8-min from Gojo Station (Karasuma Line). Tighter budget than The Thousand Kyoto to offset the FUFU splurge.",
+      "notes": "4-star wabi-sabi boutique, 10-min walk from Kyoto Station, 8-min from Gojo Station (Karasuma Line).",
       "address": "455 Nishinotoincho, Shimogyo-ku, Kyoto 600-8327"
     },
     {
@@ -97078,7 +97078,7 @@
           "id": "d7-4",
           "time": "17:00",
           "title": "Hotel check-in",
-          "description": "The Thousand Kyoto.",
+          "description": "Hotel TOU Nishinotoin Kyoto.",
           "category": "hotel",
           "lat": 34.99244,
           "lng": 135.7564,
@@ -97457,7 +97457,7 @@
           "id": "d10-6",
           "time": "06:45",
           "title": "Inari Station",
-          "description": "Sunrise mission — leave The Thousand Kyoto ~06:30. JR Nara line two stops from Kyoto Station.",
+          "description": "Sunrise mission — leave Hotel TOU ~06:30. JR Nara line two stops from Kyoto Station.",
           "category": "transit",
           "lat": 34.9669,
           "lng": 135.7714,
@@ -98503,7 +98503,7 @@
     },
     {
       "id": "c16",
-      "title": "Yamato luggage forward · Ubuya → The Thousand Kyoto (Nov 30)",
+      "title": "Yamato luggage forward · Ubuya → Hotel TOU Kyoto (Nov 30)",
       "detail": "Drop at Ubuya front desk Nov 29 evening. Saves you wrangling bags through the bus + 2 shinkansen transfers Mishima → Kyoto. ~¥2-3K per bag.",
       "priority": "closer"
     },
