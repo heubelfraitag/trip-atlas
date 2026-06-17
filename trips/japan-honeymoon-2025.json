@@ -96986,10 +96986,28 @@
       "city": "Kyoto",
       "activities": [
         {
+          "id": "d7-0a",
+          "time": "09:00",
+          "title": "FUFU in-suite kaiseki breakfast",
+          "description": "Final FUFU morning starts with the in-suite kaiseki breakfast — book the 09:00 slot when reserving so the morning flows comfortably into a last onsen + slow checkout.",
+          "category": "food",
+          "lat": 35.50046,
+          "lng": 138.77116
+        },
+        {
+          "id": "d7-0b",
+          "time": "10:30",
+          "title": "Final private outdoor onsen at FUFU",
+          "description": "One more dip with the Mt Fuji morning view before packing. The whole point of FUFU.",
+          "category": "walk",
+          "lat": 35.50046,
+          "lng": 138.77116
+        },
+        {
           "id": "d7-0",
-          "time": "11:00",
-          "title": "FUFU checkout",
-          "description": "Standard 11am checkout from FUFU. Final morning kaiseki + private onsen wraps up by now. ~5-min walk with carry-on to Kawaguchiko Station for the 12:30 Mishima-Kawaguchiko Liner bus.",
+          "time": "12:00",
+          "title": "FUFU checkout (late)",
+          "description": "Late checkout at 12:00 — usually complimentary at the splurge tier with a confirmed reservation; ask FUFU when emailing them about the early check-in and couples massage. This timing dovetails perfectly with the 12:30 bus from Kawaguchiko Station (~5 min walk) — no station wait.",
           "category": "hotel",
           "lat": 35.50046,
           "lng": 138.77116,
@@ -97038,7 +97056,7 @@
             "osrmMin": 255,
             "corrected": true,
             "formulaMin": 106,
-            "pinned": "Tokaido Shinkansen Hikari scheduled time Mishima→Kyoto (~1h50m)"
+            "pinned": "Tokaido Shinkansen Hikari scheduled time Mishima→Kyoto"
           }
         },
         {
@@ -97118,13 +97136,6 @@
           "lng": 135.7728
         }
       ],
-      "routeFromHotel": {
-        "format": "polyline",
-        "data": "_utwEwv~mY?\\Sn@ChBAZTr@z@bAFDK\\EHMPQPKJJLb@p@JLHDDBlBJJAJCVQRIRIRCXEP?LA?SH?NA",
-        "durationMin": 5,
-        "distanceM": 413,
-        "mode": "walk"
-      },
       "routeToHotel": {
         "format": "polyline",
         "data": "avttEybu{X@f@@P?TZBL?vD?Z?tFFP?L?|EJ\\@N?D?fABdADfAHb@BF@j@Fr@LVFPD\\JHB\\Jf@VvAh@RFPFh@V`Ab@bBr@~An@bHjCNDJDnF`BzDtAbBh@x@Td@LXFB@ALCTADUnCAF?F?b@Ct@AXGz@EhAE|@GfBGz@En@?VA\\CxACpA?FAZAj@CnCANAdCCtBA^Ab@CxBAz@?D?d@j@AB?fAAnBAJ?xAArA?N?\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
