@@ -96986,44 +96986,64 @@
       "city": "Kyoto",
       "activities": [
         {
+          "id": "d7-0",
+          "time": "11:00",
+          "title": "FUFU checkout",
+          "description": "Standard 11am checkout from FUFU. Final morning kaiseki + private onsen wraps up by now. ~5-min walk with carry-on to Kawaguchiko Station for the 12:30 Mishima-Kawaguchiko Liner bus.",
+          "category": "hotel",
+          "lat": 35.50046,
+          "lng": 138.77116,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "_utwEwv~mY?\\Sn@ChBAZTr@z@bAFDK\\EHMPQPKJJLb@p@JLHDDBlBJJAJCVQRIRIRCXEP?LA?SH?NA",
+            "durationMin": 5,
+            "distanceM": 413,
+            "mode": "walk"
+          }
+        },
+        {
           "id": "d7-1",
-          "time": "10:30",
-          "title": "Bus from Kawaguchiko",
-          "description": "Highway bus to Mishima.",
+          "time": "12:30",
+          "title": "Mishima-Kawaguchiko Liner — board at Kawaguchiko Station",
+          "description": "Fujikyu/JR Bus limited express to Mishima Station, ~95 min, ¥2,250pp. Reservations recommended on highway-buses.jp but walk-ups boardable if seats free. Arrives Mishima South Exit, right at the Tokaido Shinkansen platforms.",
           "category": "transit",
           "lat": 35.49833,
           "lng": 138.76861,
           "routeToNext": {
             "format": "polyline",
             "data": "citwEwh~mY???i@?QDAn@@\\@DC?GDyA@w@EISAu@H]AG?@e@BcB?q@Eq@Ks@CSFMJO`@w@Ze@d@[`Am@FETOPOLMJOx@uAVi@FKTe@bBiEZw@LWj@}@P_@N]J_@Jo@Fg@Fc@Hq@N}@FWH]BELWLQPSv@m@v@o@RMTK\\KfB[f@Gr@IVGREXCPGLGRITUTY\\k@\\m@PUVUz@k@hAq@p@a@Z]X]Te@\\u@Pc@d@cAXo@NYp@wA`@_AJSLYLSHMt@u@x@o@~@u@^[ZWr@i@HIBCZUd@g@TYRYd@u@t@{ADKJUhAuCnAiCr@sARc@d@kAL]Nm@@ILc@FW?AHe@p@cEJy@Hs@Dq@Bu@@U?a@JiD@a@@e@@m@BmA@qA?O?M?S?[@eA?U@a@?IB]JcAJw@BQ@OFc@N_ANq@F[BIb@sAlAuCFMFMt@qBJWBIDKZ{@JYPk@Ja@V{@Rk@Vi@pBeE|@eBFMFMDKh@cAPYf@aAHQxAiChBwCR_@Xg@vBaEfCqFjC{F`@gAHS`EhATD~I|BlKtC`D|@hCr@TFrHnBZHb@LdHhBxA^|FzA|@V|@TvFvA\\JPPPVHVBFJXLEBA|@Y^Oj@OVEVCFJRLXNNFdAPXDb@Hb@RZN\\HNNb@j@TVDXX\\^^XTVRd@PtBh@h@Jb@Pl@Tj@MFh@L^zDxDX\\LRN`@Pb@R|@Nr@Nb@P\\VPTNd@VpAl@~Av@xBlAzB`A@YZoADQTw@t@wCRw@LUPWRMPET?R@PHTPRR^b@NLJHLFLBJ@N?PENENMNQz@oAvAaCdEwHj@gAx@{AtBsDfBoD`@{@nIuQhHgPj@sAfGqNbJ}SbJaTjEaKr@_B~GcPhDsItDiJlAeDv@wBh@cBb@uAd@{Ab@{Ab@}A^_Bh@kBh@mBr@}Bh@}Ah@wAl@sAj@iAn@iAr@iAv@iAz@iAjAoAz@y@x@s@dAy@rA}@bB_ApB_ApBw@nBo@rCu@pCk@pCc@dBQlDU~CSbDMfDEtDBjDJjDVbD\\fDd@fDp@hCn@|C~@tC`A~CnAhGhC~Al@dBj@rBh@rAXnAP|ANzAFnBArACdAGt@Gv@Kt@MnaDkh@t@Mp@Kt@Qt@SbA]xAm@nAi@rAo@`B_ApBoAvGcEvCkBjC_BfAs@|@e@z@c@~@_@|@UbAQr@Il@Cn@?r@Bx@Ft@Hl@Lh@Nl@RfA^`Ab@hDxAh@Rj@Nn@Nn@Lt@Hr@Bt@?n@Ct@Gr@Ip@Ml@Qd@Ob@QZQZS\\UVWXWf@m@b@k@`@m@b@s@\\q@Vo@Pa@Lc@Jc@Lk@Jg@Ha@D[D]B[@[B[@W@Y?[?y@Gy@CUKu@AO?SAkB?eB?UBUHgABg@ByIBw@Bm@Bm@Bg@Du@Dm@Fi@J{@Js@PcAf@kCrB}Kf@kCX}AXwARaAVaAV}@Z_A\\{@d@gAb@_Ad@{@h@_Ap@eA|CqEhC_EdDuEjLePd@q@h@u@j@u@r@u@`AeAxAoArB{A~AaArBeAzEiCfKqFrEiChAs@bAs@lAcAl@k@~@aA\\c@d@o@l@{@l@_AfCsE`NoUNWjEqHz@sA`A}Ax@kAz@aA|@}@p@o@f@e@f@c@bAw@v@m@xBaBjByAzAoAlAeAjAiA|A_BnAwAfAsA|@oAbCkDhGuJvDcGjAiBpAuBtA{BnAeBnAaBbAkApA}A`AaAbA}@\\_@V_@Pe@Fa@@e@Am@Go@MeAOeAMs@Oo@m@yBMi@SeAQ_AMq@Io@Eo@Cs@Cm@?q@?k@Bg@Bk@Di@LqARqBR{BJ}@Fo@RqBNeAPgAZgBTmALu@Jw@Dg@@k@Ae@Ai@Ge@CSAKKa@e@eBGYG_@AYBYDYHYP]PUTKTIXCZCfC@tBDlECjEA~AIjKi@bKq@xFc@xGi@xJy@`DUhCOhDMnDIpFAbDH`CJlBJpBNbBL|BVlBVhDj@~Cj@|Cn@xG`BnDz@nDx@xBd@tB`@hCd@pDd@vCZtDZnG^xI`@xEZfFd@lFh@lDd@hHdA|Dr@rGlAfDr@~Bf@bDl@rAVrJvAzEl@pD^~D\\pDVlDRxAFlBHdFNfEHxB@hGBzHK~DGzJ[pDK~HKtGCnKD~EHtBFhEJjHX|EV~CT~BPxBT~BVdC\\xATbBXdB\\hB`@|A`@fBd@xBp@jBl@vBt@nBx@tB|@hClArDlB~BvAvBpAtBvA`ChB|CdClB`BpAnA`D~ChCnCzCfDzBfC|CnDhFhGfHdIdEnE|A~AhBdBhB`BhB~ArAbAbChBjChB`DpBlDtBdDjBxCxAfH~CvB|@nBr@|Bv@nBn@bBd@nBf@`Cl@`B`@nBb@`Dl@~F|@pCZ~Gf@`FT`CDrD?bEE~DOjDShFg@lFs@vCe@xIaBjE{@|GoA\\GbHiAdAO`AMxD_@hD[rDWdAGpDOfACnCEnCCpD?pHLnBDrFZlFb@lCZzC`@dEl@pDl@bDj@jDn@pE|@bMpCnM~C|Cx@bAZfD`ArC`AfC`AxCjAxDbBhEtBlDlBtGxD~CrBfDdCnCtB`CrBrBfBpBhB|AzA~AdBfBjBhApA|AhBnBfCnD~ExAxBl@~@bFvHtA~BpAzBtBpDdAfAt@f@fA^^H\\Dd@B`@?v@Ix@Mv@YtA{@`@a@h@m@`AkA`AsAt@iAbCaEz@sAz@kAV]fAqB^k@|@gA|@iAb@qAZaARs@Ri@V[`@UXIb@?VBXJTPHLLPN\\Lb@Pj@Pr@J`@Lf@DLBJj@h@TJTDP@PAPERIPKp@k@n@kAr@sAbAqB~@aBv@sA|CsFhAuBx@wAhD{F~HiNzBsDjAsBfAuC\\sA\\cBLq@DUH]JiAHu@^wDp@kHLwABc@F{@JgARwB^{EJkBFkBFeD@_@@eABeFb@k[NmMLyILmHD}GFmFFaCNGRGPGf@[d@a@PQzAsAPQ\\[h@]d@Wf@Qh@M`AKtAEHAPCb@Cj@Af@Fd@HZ?rC@rJ?rSABe@H_@Na@LUj@q@^s@",
-            "durationMin": 79,
+            "durationMin": 95,
             "distanceM": 54326,
             "mode": "subway",
             "osrmMin": 50,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 79,
+            "pinned": "Mishima-Kawaguchiko Liner highway bus scheduled time (~95min)"
           }
         },
         {
           "id": "d7-2",
-          "time": "12:30",
+          "time": "14:30",
           "title": "Mishima Station",
-          "description": "Transfer to Tokaido Shinkansen.",
+          "description": "Quick transfer at Mishima Station South Exit to the Tokaido Shinkansen. Target a *Hikari* train (some, not all, stop at Mishima) — ~1h50m to Kyoto. Fall back to *Kodama* if needed (every 30 min but ~2h45m).",
           "category": "transit",
           "lat": 35.1281,
           "lng": 138.9117,
           "routeToNext": {
             "format": "polyline",
             "data": "g~kuEkeznY_@r@k@p@MTO`@I^Cd@sS@sJ?sCA[?g@Bg@Dg@@c@E]KuADaAJi@Lg@Pe@Vi@\\]ZQP{ArAQPe@`@g@ZQFSFCdCGrFGjFM|IO|IMbMc@x[ExECtACpACfBAp@Cl@KfB_@bFSzBKfAG~@Eb@QjBWjCw@lIMvAGh@GXCT_@jB[jAUr@a@z@o@nAkArB{BrD_IhNiDzFy@vAiAtB}CrFw@rA_A`BcApBs@rAo@jAsBjDWWaAsAk@u@YYOKQKSI[IO?EA[@[DYDWHYLUJ{@`@QR_AdA_AlAONkB|A[^{@lA}@tA}BzDw@hAcAxAmA~Aw@|@mA`BaAnAa@p@Wl@Oh@Mf@Ip@ANCZAh@@n@Dd@Jx@Hf@t@pCzCbLt@zCd@bCr@tCz@zDj@vCh@bDd@zCf@xDd@vD\\hDXjDTjDP|DLtCH`DFjE@~A?tDCzDEtDK|DUzEY`F]lE]pDk@~Ec@bD_DnUg@xD_@nD]dE]jF[zGK`DGzDAlE@dDBbDB~BFxBFhBH~BPbDTxDZrDVdDZhDv@rJh@bHRxDJdCLdEFxF@zHEjFKfGQvG[`Jc@~Ii@`K{@|Mo@xI}@|Jw@rHu@fHiAzJaBrMm@hEaBnKkAhHwD~S[nB{@dFc@nCa@pC_@zCo@fFa@dD]lDaA~IO|Ak@`F]hCW`Bi@nDKv@w@jEq@lDu@rD{AjG_ApDq@hCe@`Bu@bCc@pAy@hCcAtC_AfCy@tBoAxCqAxC}AfDEHaAlB}AzCoA|B{AjCiGvJ}CbFuCnEc@p@kAnBgB~CcAjBoAfCaBjDyAhDwBjFcCnGkDjJ{@zBiCjGoArCuBtEmBtDgB`DsBnDaA~AiErGqAjB}QbXiDjF}GrKyAfCiCxEoChFaCxEcBpDkBbE}AnDuBjFcCrGk@zAiAbDu@`CkB~FkE~Ni@rBmC~JwC~K}BlJ}CtMoB~I_BzHqAnG{@lEyA~HoA|GaBvJ{AbKq@hFOnAg@hEOhAmAxL_@rEk@dHe@pHc@bIYtGUxG[|MShO?xAApBAlIB`HHbHFzDJbEL`DJdC\\rF^bF^zDd@rEh@|DXlBh@hD|@fFr@nDv@nD`AdEfA|D~AvF|C|JxDpL~GfSdBpFrC|I`Lx]dAdDzCnJzD|L~CrJbB`FjB|EhBrE`BrDpAlCdC|EjCxE`BrCp@fAt@hAlHjK~@jAnBbC`CnCnBvB|C~ChBfBbB`BvAnApAhAbHbGfCxBpBjBbB|A`A~@rBpBdCpC~AhBjB~BpBjCfAzAbCnDjAjBnBfDzBjElCxF`BxDhAvChA`D|@nC~@bDv@tCvAfGz@zD^hBDT~@~Ez@hFr@`Fl@|Eth@ftE~AvM~AhL`AvGlAdH`AhFbA`FfBtIpBvI|AfGpBvH~BhIlBjGbAzCbB|EpAbDpA`DjAlC`AtBp@nAb@z@rBtDdC|DtB`DbB~BrAdBbAjAfBrBvCxC|A|A`Az@dBxA|EtDRN`BnAhBnAtCnBjBlAvClBpChBrChB~B~AvCrBrFjEpC`CrCjCnClCrBtBpC~CpB|BlBbClCtDlBpCnBzChB~C^j@rAhC`BbDvBfEvBnExBtEnAfChBdDzB~D~B`EzBpDtCdEjD|EdC`DhCzC|DhE|D`EfD~C~DlDlFhEf@`@jCjBfEhCbCtAPLbEjBdGtCzD`BtCnAbEdBxDrAxEvArDfAzAd@xEzAfErAfF|AfEzAhDpAfDzAfD~AvFrCzF~C~DbCxEzCxCvBnEbD|FzE|ApAnBjBnMhMjGnG~A|AlBfBz@t@`BvAhB|A`CjBtCxBdCfBxCnBzDdC|CnBpBrAvClB|CpBdBlA|BbBxAdAvAjAlD~C|BxBpArAdCpCnBvB`AnArAbBfAxA|CtE`BjCdBtCnBfDv@|ArAhCrBbEfBbEvAbDtAlDnAjDdBlFvBrHrCfKtBjIxC`MdCfKvB~H~BzHlChIjCtHrChH`CzFpClG~B|EtCxFbCpEzGbM|EdJnD~GfCbFbDnHlBrE~BzFnBlFxAjE~ApFdBxG|@tD~@lE|@lEh@tCf@xCn@jEb@bDb@|D\\|CX`DRzCP|CRrEJvDHrEBnG?bIC~K@vFBhABlBHnDL`ETbEXbE\\zD`@zDb@tDd@dDp@zDz@rEr@jDz@lDhAbEdAlDpArDtAvD|AnDnAxCjAhCrAjCxBvDxBrDnDlFxBtCxCjDdAjA`AbAjAlApApAfC`CnFbFxBrBtFrFnBnBbBdBrB~BrBfCzBxCtBzC|BpDbBvCv@xApAhCbBpDxBfFdCbGrCjH|AfElCrHbBdFnArDjBzF~BzHvAnFdBzG`BvGrO`q@XpA`FbSrAlFbBzF`BhF`BxErBfFbB`EhAdChBvDlA`CjBbD~EdItCnEvDdFrCpD`ErEzDbErBpBzArA~DfDvDtClDbCdFhD~FpDrEhCzFpCvE~BhI`EvDdBhF~B~Ap@`C~@jBr@dC|@dCx@rA`@dFvAzD|@~FhAtEv@zG|@bCXtH|@dQrBjFl@rJjA~G~@nBZlCd@dB\\hFfAxCr@pDdA~CdAhExA`GxB`bBno@dIzC`HdCnH`CpGnBpPfF|DlAlExAdH`CfIrC|GhCfDvAzAl@bBv@vBfArAt@fBbA`B~@dDpBnD|BdDbChDjCrC|B`BxAhAdAdDdDv@v@~BhCpB~BlAxAnA|AdErFfA~AlX|a@r@hAnFxHl@v@~BxCzAdBzB`C|@bArAtApCtCvCrCnBlBvBtBjQhQbGfGvAzAnDdElDhElFbHtAnB`B~BrAzBbDrF`BvCx@~Av@xArAfCtArChBpDr@xAdAjCfBhEjB|E~CxI`D~I~AzEzAjEtBzGnBrGxAhFn@dCnApFxCxMjAtFpBrKzAzI~@pFtBvNdDzTZnB`AfGrDnVdCzO~AtItAxHnAhGvA`HbAvEjCdLrBbIbClJbO`j@tD~MvJt^dAtD|BpH`BfF|EnNfAvCpA~C|ChHlCbGtBpEnDhHjEdI`M`UzAlClA|BdAvBbAvBdBzDhBfEhBjElBpEdAtCn@hB`AnCh@|Ar@xB`CzHlClJ|AfGxAbGpJhb@bAdEz@dDdAzDjCdJpAvDfE|LhEfL^nArBhGvBfHd@hBn@fCp@tCp@xCdAfFhAvGdA~Gl@lEp@xFh@bGd@zGPfCLbCPrDJvDFpCBnBFbH?vD?dCEpDI`EKlD]~LQnKAzE@~GBlIF~GNlJz@h[\\bLh@~Sd@~PV|Mn@lWd@hMp@xNx@zMn@`It@bIxA~M|AfMx@~FdAjH|@vGt@hGp@|Fb@~EZ|DXtENtDJlCH`DFnDDrEBdFExFE~DK`FIdC[rGY`Ei@jGg@nFq@bGu@|FqA`JqE|Ym@lEcApJa@|E]|EYlFSrFKhEIlEEbH?vHFpGJdD\\lHVnD`@|Eb@jEh@fEh@vDl@pDh@zCp@`Dp@vCx@|C~@dDfB~FvAhEvDpLrB~GxAlFjAvEnA~FlB`K|DlT^vB~C|Pz@zE\\fBhAdGFXrAhH~BdM|@pElBdJbAlElApFj@|BfBdH|BrIfCrJ~BbJlFzSvDrNxCvLjBbIjAnFX|Ar@~D`ArFj@pDl@nEn@lFn@~Fh@fGd@dG\\dFZ`GVjGLdEHfEJjG@|F?hGGzFIjGQ|FU`GYzFWtEe@zGe@vFi@jFo@dFi@dEc@xCw@zE{@bFmAdGmAzFqA|FcAnEiAxEu@jDu@pD[zAc@dCu@pE_@hCQlAk@|EU|BU`CSbCQlCOhCKdCIjBE|BElEChEDlEDxDLjERfF^~Ff@|Fh@zEl@pEnAvIrA|HpAxHfAdHt@hFh@nE`@jEXrDNpBb@xFNdDJxCHfDJtF?hF@vBCvDEjEQ`GOtDWtEYrDc@bFo@jG_AfHaAdGaAhF{@hEq@tCs@xCqBlHkCfJsCxJeBdGaAzDm@jCc@vBc@zB_@rBe@rCe@nD_@|CWdCYxCSjCY`EWhEWxE_AzPaA|QStDq@vL]jF[dEc@vFg@rF[xCa@xCc@nDgA`Is@dEw@nEyBxKaCxLcAbFs@dEw@|Em@fEe@jDa@xDi@jG_@`F[bFOrDSvEK`GIzHAhEDnFFjEHhEL|DXzGb@fHz@jLd@lHp@|J\\hHJ~DLdGBbE@lDEnDKpEIzCM`DYvEWhD_@xDi@vEe@nDs@zEwAjImCbOsCvPeAvFsAzH}CdQkCjOgD~Q}ClQcAjGoApHyCdPwBtLqC|OuAvHgCtNaBbJkBbKmBrKaC`NoC|OqCnPm@`Dq@nDoRj_A_BrHyAxGoCvKuCrK}CtK}BvH{C~IgCbH_C~FoCfGaChFaEbImBnDmCtEoElHmDjFkBlCiCjDgDdE{DxEoEdFgGxGsL`M{D|DyHvHcJ`J_CzB}H`IkCvCiC~CuAfBkCzDkBrCiBzCiBfDuAhCaAtBgA~BwB~E_BjEs@xBaAxCeAtDy@~C_@~Ac@nBo@bDs@zDu@lEw@fFmEfY{BnNo@jDc@zBy@pDc@hBYhAYdAgA`Ew@`Cu@|Bo@dBaAhCeAhCiBdEaCxE_@t@wBrDyBrDuBfDcDdFi@v@cB`CgAbBiAbBqCxDuBvCcGlIgGjIaDnEkBjCiA~Ai@x@uBhDcBpCoA~BkAzBoAlCmAlCgAjCc@lAc@hA_@fAs@tBcBvF}A~FeBbH{@`Ei@hCaBpIaAdGmA`Is@jFa@vCi@tE{@`JwB`UsDd`@yDv`@yAhOm@|GwG`r@e@rEi@|Dg@zDk@zDk@rDiA~Gu@`Ew@~DcAtEe@xB}@tDeCpJmAzEaB`H[zA_A`F]rBi@dDs@`FS|AS`Bg@vE[bDs@hIq@hIk@pHw@xJc@lFCXmAfOy@lKW|CSzCMxBGpA_@tIGtBKjEEnDC~FB`IDfEJnFNpFJbCFlAFfAJdBNzBL`BL`BPrBRbCV|BRhBTjBR`BT~AVjBVfBd@vCd@jCh@tCh@jCj@jCl@fCr@xCn@`Cd@`Bd@zAh@hBf@|A\\dA~AxEfDvIrBlFt@lB|AnE`BdFdArDlAjE|AzG~@pE~BtLbB`KrApJv@fGd@fEZrCn@dHv@fKh@bH^xEb@jEj@bF`@|Cb@tCp@dEt@dE^jBl@tCh@~Bn@jCz@hD|@fD~ApFp@pBp@nB~@hC|@zBz@xBz@rBhAlCz@dBr@xA`BdDlA~BvBtD`CvD~DdGnD`F`D`E`IrKp@v@h[~a@X^pGtIz@pAhBlCbCzDh@~@nAvBnBhDJRrFvK|AhDnA`DtAfDtBvFhBlF`A~C~BpIhAfEp@nCnApFx@bEzAvIxAfJh@jD~BzPdA`IvAjLtA|LrBxRp@pHv@dJfAzNlAlPv@zMp@rM`@jJ^bMJ|HFzFBzF?hFEhHIrGOzHOnFQ~ESfFGfAWlEc@rGg@nG_@fEa@|D_AjIEZ{@rG{@bGw@bF{@bFoAlGyArH{AxGuEbRiChKqDbO{EvR{BhJeEdQq@pCgC`LwP`v@cArEiDrNcf@hpBaFdSyC`MyAbG}AvFkCzIwArEsA|DcPtc@oLb\\sHlSeApCkAtC{BfFcCdF_@r@eCvE_C~DmClEsChEmDfFqBlCuAjBqCnDyFbHwAzAsDxDaJ~ImFdFiFtEiA`A}@t@uDzCeBrAkDhCsBxAoD~ByErCyAx@aB|@aEpBmM`G}EtBqQfHmEbByEdBcEtA}DpAwM|DiDx@uBf@gBZsBb@qEt@eFp@iDZkDZwDXeJf@aCLgCNkDZgBToEx@gDj@cDn@mDv@iBb@g@Nu@RwBp@iDhAkFjBoCdAoClAwAp@gClAoCvAkEdCeElC_DxB_D`CyCdCm@d@wDdDqGzF{FbF}AtAyD`DkCrByC`CoFxD{FrD_CvA}FbD_D~AcCjAaDvAqCjAwAj@gA`@mDpAyCbAwDjA{Cx@uElAmBb@{Dx@qAVuGhAaFv@cEp@qB\\kEz@aE~@_Dv@eCp@iAZiDbAmF~AuCx@}Ab@}Bj@}Bh@uCn@wCl@}Dr@aC`@eBViEl@kEd@oBPuBP{CRcDReMj@wEZcCTgBPeBTaEl@uE~@qCp@aBb@yAb@aAZaCv@iDrAgChAyAr@sAp@eEzB_B`AoBlAqCnBkBxAkA~@}@v@eCxBqBrBwB|BcBjBgC~CyBxCmDjFgBvCgB`DaCxE}AhDcB`EmAdDaB|E}AjFuApFkAhF_AxEe@rCq@pE[`C[bCSvBYbDUbDOrCOjDEhCKtEEdD?vE?FB|EHtDH~BNvDZxFd@xFl@~Fn@xEn@tExAdJjAlGnAxGlApFd@xBl@lCh@`Cn@hCj@~Bp@lCl@tBj@jBr@vBn@lBp@dBp@`Bp@~An@tAr@vA`AlBfApB|@`Bt@tA|@xAt@dAv@hAz@jA`AnAt@z@x@`Al@p@t@v@dAfAbAbAdA`AfAbAdA~@xAnArC`CpBdBpAnAdAbArAvA~@dA~@jA`AnAhA`BvBdDbAfBhAnBrA`CfExHzBbEzB~DxD|GdDdGfAxBjAfC`ApB|@rBp@|Ap@fBjBdFl@`Bj@dBn@lBf@vAbArC`AvCfCxHb@xAd@lBh@~B`@xBXfBxA|JrBfNxAtJjBtMb@zCXrBX|BXzBVbC\\pDVzCT|CPdCRzDRjFNpEFfFBrFBhFDnDHxBLhBN~APrAPxAXfBXtAb@dBb@pAh@xAx@jBfAzB~@fBpDtG|AnClAdCv@dBn@|A^jAZrA\\fBVfBLpAHnAFpA@nA?pAAnAE~@EdAGv@Iz@OdAO`AWnAc@fBm@tBw@|B_AbCsDzIuRbf@aGrNwEzKwEbL{ArDy@bBmBjD{IrNsMjToMtSoMpSmJpOqOzVyLxRyIpN_DfFaM`SyAbCuCtEcBrCaAjBaAnBq@hBk@dBc@zAw@vC_@jB[nBQtAQzAQhBOvBGlBExB?zC@|ADrD@fCDbC?bBEtCInBK~AQfBUhBUxA]`Bg@vBs@`C}@bC_A|BaAzBk@vAs@nBg@|Ac@bBc@pBU|AQvAInAGjAChAApA@xADjAHnAJnATbBVvA\\|AVz@Z~@\\~@`@|@n@nAt@lAt@fAtAjBfErFt@hAl@`Al@jAf@`Ab@dAZ|@\\bAZ`AV|@VfAVhAR~@PfAPhANlALfANfBLbBJbBFxADdA@pA?|B?nAAjAAhAEv@IrBMzBOhBQbBQzAYrBYbBsBbK]bBYxAy@xDm@vCWtAwC`NgAfFcAlF]fBYfBS|AQfBIrAGlAC`B@~AD~AHbBLlBVlCp@fFh@|D`@dDPbBHz@HvAFnABrA@jAAnAAfAE`AGhAOnBSxB_@pDa@rD_@rDOdBIdBInBG`CCvB?lB?`I@r@BzJGzKCtDMpHKbGM`FO`FIzBKhBOpBQdBs@jFs@|D_@jBa@zAc@|Ao@pBgBxEa@fAaCvGg@zAs@zBq@|Bs@nCg@rBY`BSlAStAQbBMnBKdBGfBA~AArBDnBFzBJzANhBTrB^bCZhBj@lCbA|EhDzO|@bEh@hCpBfJz@bEZvATpAV|ATdBNvAH~AD|A@tAAtACzAItAKfAQtAYhBYfBc@vBSfAYdAUfA}AjHeBhIoB|IyAtHcCjLkA~FuA~GkAjFyA`H_BtHq@bDk@tC[pB]fCWxBWhCQ~BO|BKzBK`DItDE`EI`GK|IUfPOpMIjGKxHKxEKlCW|C]bDyChV}BzQ]jC[pCMhBKbBIfBE`BAdB@bBBlAD`BLhDh@~LnGr}ARlE`@tJpAv[HlBLbDLfDHjDFbEBlCDlKBps@CdTUjh@E~\\?fIB`J@fE?|DKpMC|J@bMJnUHbRBrDFtDNlEXfE\\dEb@hD~@pGz@xG^rD\\jDf@xGf@pH|Drl@nEpp@vDxj@PpBRrBXpBZnBd@tB`@`Bf@bBh@xAv@lBfA~BlItPjFpKnBzDr@|Ap@dBj@~Ar@|B~YffAbArDlQxo@tBvHjFjRf[ziAz@~CtA~Eh@pB~Jv^jB~G|CbL`FfR`@hBb@tBd@bCb@nCZ`CRlBRhBJ`BJnBFzA@nA@lA?vAAxAG~AKhBKhAMrAS~AWzAWtA]zAa@vAg@|Ag@vAe@hAm@rAoAfC}@bByBrDgL`RuA~BuAbCqAbC}@jBaAzBw@lB{@dCs@xBe@~Ag@jBk@|Be@|B]fB[jBWbBU`BOxAMzAIxAEvAC|A@zABxAJ~ANxAPvAX|A\\zA`@nAd@tAj@pAl@lAhAvBp@nAr@tAf@pA`@hA^nAT|@R`ANbANjAJlAHjAHdB@|B@|AAbBC`DCbDGzCE`CGrBIxAKbBMvAUzAWvAa@bBc@vAe@rA]v@a@v@]l@e@t@k@z@u@|@o@p@u@t@{@p@aAn@cAn@cAl@iE`CwBnAgBfAq@d@s@f@w@n@u@r@s@t@i@r@g@r@i@`Aa@v@k@jAa@hAWt@Y`ASx@WpASlAQpASdBObBKzAKrAo@nKUpCO`BSlBWpB[nB[hB]bB]`B]vAs@hCo@vBwAfEy@rBy@hB[n@{@dBgB~CwBpDuDhGmEfHiDfFwFrIgBrCcChEyAvC]v@s@xAoAtCy@zBy@dCq@zBk@~BiA|Em@bDq@bE[fCi@tFWdEOrDInEEhG@dFFdHT`LXxNLlGPbGN`FXnGj@`K\\~Eb@fFj@lFl@hFp@hFx@nFp@nEz@xE~@|Ex@xD~AzGxAzFbAzDdAxDlJb\\xAjFhBdH|@jDlBfIjBzIh@fCr@zDxA`Jn@lEh@jDz@|GbApIFf@~BrTt@jHfGbl@zBdTtAlMl@zFx@hHz@lGbAnHx@|Fv@dFdAlGhAlGfAbGhA`GjC`Mz@xDzDfPbE`PjD|LrHnXtClKhAdExA`FdBvG~BlIvChKrApEzBjHtA~D|BfGvBdFxBzEdC`FxBbEdC`EnB`DtCjEhCfDlChDdDzDzBbCxCzCpClCzDfDtC~BpCrBxEbD|ExCdFrCnEvBjDzAbBn@jBp@pFfBxCv@xEhAfDn@hEp@vC\\fD\\zIr@pt@lFpE^tGh@|Eb@tCXdKlApEl@tMhBzLnB|Dn@dEz@dEz@fFnAfDv@xF~ArEtAv@TzAd@vLpEfFtB|ExBjCpArBfA|BnAlBhAxErCzE~CbBjAfClB~CdCnCbCfDxCzBvBdDfDzFhGxChDbKpL|GzHlEnFtMzP|OlSfMdPp[ta@pT`Y~ElGpDxErDdFjD`F~CzEvCdF|BbE|BbEvBdEjCzFjBhErBfFdC|GrAbElAbEnAhEbAtDxAjFdBdHjAhFlAvFlArGn@rDr@hElApIdA~Hr@bGZtCXvCX|DTrDXtEH|BD`BD~BB~D@nGCpGSpo@ExH_Bb}CQ`SU`UaAt{@ClCIfFQjOEjFCpF@hFBdFFzGH`GN|GJfFXdLNtGT|GXlG^xGRjFPjFRlGPrILbKDvJ?rKCpIGnFItFKpEKzEOxEUjGYjG]xF[vFa@nFc@vFo@nHs@lHo@rFq@rFk@tEo@tEqAtIiBtKw@~EkAfG}ApHu@lDuCtLsApFqArE}@hDaBpFy@zCoBbIeBzHgAjFoArGYhBu@fEyApJc@bDY|B]lCUpBa@|Ds@~HYhDa@vFe@rHa@|JYzHI|FCfFA`H@pCDlELtETbFV`ERtCTtCVxCf@vEj@hEv@fFv@lEz@bE~@jEnA|Eb@`BlAbEp@xBp@nBfAxCz@zBj@rA~@tBtBpEvArCzAvCvBxDbDxFhB~CjCpEdCvEpC|FhAhClA~CtArDhBvFnArEtAxF`AxEv@|Dd@lC`@pCf@pDj@pFj@fHZbGT`Gr@jVZdJZxG\\vFXzD\\bEd@vF~@jJnA|L\\lD\\fERpCRtDDdALzCLrDD~E@fEApBC|BErCG~BIpCQ`DKrBY`EOlBu@dHq@|FSrAqCdQUjAkCpMeAdF}AvGgDzMyArFaBpF_BnFkB|F{ApEqC`IeC~Hw@nCw@hCi@zBqA`FoArFqA|Gm@`Du@rEWzAYtB]dCYfC[jDWhDaApOcAfPe@bK_@jK_@vLYbLQ`LSzMGjIAzHExM@zABjEHfL?zA@pJI~KKlEUnHKpCg@xI[fFk@|Ga@rE}@xHy@lGaAbH_CpOw@pFQtAeBxNe@`EU|BYxCUtCaAnLg@zHm@tKw@|N[~Ee@vGkA`OeAxKc@~De@jEs@zFcA`IU|As@dFOdACNo@fEw@bFiAtGoAbHk@~C{@tEGXm@xCyAdH}BrJSt@o@~BeAhDaC|GWr@qB`FyAbDmAbCuAhCqA|BeBrC{BbDQVsE`GwBfCaBfByBzBiDfDy@r@oAhAuR`P{ChCgC|BgE|DuCvCiBnBiBrBuBhCmCjDwDlFcDbFyBtDwAjCoAbCkBrDiB|DyBjFuBtFsAzDmB~FwAvEgA`EiA~Ey@rDeAlFiA`Go@|Di@bEo@nFk@zFg@|F]jFUlEUfGIvEC`F@`EBzCF~CLbENtDT~D\\fE\\lDb@|DlAlIf@lCXxAVdA\\vA^jAXx@p@`Bl@tAfApBnAvBf@fAZx@Pl@Nh@Lh@Ln@Hl@Fl@Bf@Bf@@h@?h@An@Cl@IlAGl@Kn@Kf@Oj@Sn@Yv@a@x@Yf@U^_@b@cAdA_DhC{AjA{AlAyAnA{@|@q@t@aArA}AbCo@jAw@|AsA~Cc@hAwAxD}AtD{@lBWf@[j@_A~Ai@|@u@hAgArAk@p@{@x@s@n@gAv@q@b@eAf@gAd@e@N]Jq@Rw@N{@Nu@Hq@Ds@Dg@@sAAm@Am@Eo@Gq@Ks@Km@Mq@Qo@So@UeA]sBq@y@Ui@Mc@Iq@Ii@Gm@Ey@Ga@Aw@Ao@@a@@a@Bc@Be@Dc@Fa@Ha@Fa@JYHm@Ty@\\c@Ta@Vo@b@u@l@oAlAcAdA}@hAw@hAu@lAm@bAQXQb@Qf@Sl@K^I^E\\EZEZC^Cd@?f@?h@Bf@B`@Fd@Jn@Nr@Rp@Zv@Zn@`@z@f@`AfEjIf@fATd@fEnHpE|H`FpIlBfDvEdIpBpDxBfEx@jBl@bBb@vA\\rAd@zBh@|C`@pCfAhIzCrUbArHv@~Ft@|Fp@pFd@fDjC~RZjCRrBNzBNbCDzABdB@v@@pCC|BGlCU|F[vI}@fUCx@IdB]dJOvDMnDa@pK_@bKc@~K_@rK_@xJe@~LInBKdBGbAATQhB_@xC_@vBu@pDc@dBq@zBgA|C_AzB_AlBu@tAaAbBiA~AoA|AiArAkAhAgB`BqBzAuA|@yAx@kB~@_C~@qBn@sCt@es@`PiBb@mA^eA\\cBn@iCjAwBjA}A`A_BhA_@ZyAlAwApAqAtAoAvAkAzAiA`Bo@`Am@bAi@bAe@~@aArBe@hAw@pBiD~IwBxFeBpEu@nBYx@[bASv@Or@Kt@K|@Ev@Cv@At@@p@Dz@Dv@LvAJv@Jx@dDhRh@nCf@tBf@vBzAhFn@nBb@lAd@fAj@pAfA|Bv@xAx@tAxBtDp@fAn@dAfAhBv@nAj@~@`@x@^v@Zt@Rp@Vz@Pz@RdAV~A`ChOpAnI`@`CHf@F`@TpANz@T`ADRT`ApAhDP`@P`@`@z@h@hAf@dATh@^dAPr@PtAFj@BlA?NAx@I`CIbBKzAGhADVCt@KvAQ`DKj@UrDW`EBDElADh@Hz@Pj@LZR^X`@ZXb@Tj@RbBZJJHBfARlB`@d@F~Cj@r@N@NBNBFBDr@jA^f@XTXTd@^LJn@b@t@Xj@NND^HNFv@h@ZTXb@\\`@b@j@`@t@@LHBTXLHRHnA\\TFLBLDCrI?^AjC?bA?VEhS?VAzFAvBE~K?NAbB?x@EzI?j@ApHAnB?XAtBAbC?NEdU?LGpTARAxB?b@ChAEn@El@Mz@Ml@U|@M\\Wh@a@r@cAjAEFOLe@Zc@VuAj@gAd@qBx@iBh@sARS?uCRmFXs@Dw@LGB[Nk@^e@j@QX[z@e@~AYnACf@Aj@?~@DjB^tQC~@?pAAd@Cf@ATAPAPCNCPCNCPENELELELELGLGLiAlB[h@VhADL@H@F?H?HAJE\\ENAJCRG^QfAWlAGVKj@a@|BCRCL?JAJ?J@hA?JAJAJAJEJCHEHGJo@bAILOXQ`@i@pAa@`AGPEPERCPEXALM~@m@hEHB`B\\bAR|Al@JDJHXThC`@F@ALI~@?F?F?H@F@F@F@De@nHCx@Ap@Fl@DZ~@DX@@d@MdJATGbE?FE\\Eb@ALAp@?LIdE?L?P?pA?`@?J@rC?XAV?T?N@vD@pB?V?R?N@|@BbFGh@?p@?d@?V?l@?J?lA@f@?^?~B?T?zC@nC?fA?F?\\?T?b@?D?V?hA?D?dB?j@?rD?~A?T?PAxB@nC?TJ?rA?j@?f@?b@@h@?H?f@?N@T?n@?LGHCD?RAb@@j@@fA@H@@?@?@A??@?@A@A??@A@A?A?A?C?OA}D?i@?GAaD?CAC?CACAACA??",
-            "durationMin": 106,
+            "durationMin": 110,
             "distanceM": 344984,
             "mode": "subway",
             "osrmMin": 255,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 106,
+            "pinned": "Tokaido Shinkansen Hikari scheduled time Mishima→Kyoto (~1h50m)"
           }
         },
         {
           "id": "d7-3",
-          "time": "14:30",
+          "time": "16:30",
           "title": "Kyoto Station arrival",
           "category": "transit",
           "lat": 34.9858,
@@ -97038,7 +97058,7 @@
         },
         {
           "id": "d7-4",
-          "time": "15:00",
+          "time": "17:00",
           "title": "Hotel check-in",
           "description": "The Thousand Kyoto.",
           "category": "hotel",
@@ -97046,27 +97066,12 @@
           "lng": 135.7564,
           "routeToNext": {
             "format": "polyline",
-            "data": "wmqtEw|q{XNAAw@D?|CEBrC@xC?HK?{EBI?iB?M?K?iA?c@?g@@gD?mB?{@Am@?G?M?k@AK?I?cF?cBCiC@G?I?{E?U?W@wA?O?gB?cC@G?cB@_F@OB?[A_C?G?yBAQ?O?oD@kA@]@Y?UBkE?g@?U?m@?oEAS?QAiG?O?S?gB?K?QAoB?O?S?uC?M?OAaB?UQ?oFEG?G?cFE@pC~EBJ?F?@?",
-            "durationMin": 24,
-            "distanceM": 1980,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d7-5",
-          "time": "16:00",
-          "title": "Nishiki Market",
-          "description": "Kyoto's kitchen — pickles, tofu, skewers. Map opens at Aritsugu knife shop (mid-market anchor) — Street View nearby stalls.",
-          "category": "food",
-          "lat": 35.00497,
-          "lng": 135.76467,
-          "address": "Aritsugu, 219 Kajiya-cho, Nakagyo, Kyoto",
-          "routeToNext": {
-            "format": "polyline",
-            "data": "a|stEuqs{XlFAP??OAaB?U?Q?uB?MAgAAa@?m@?OGeIAUAmAw@@m@@cABO?kBD}@Dm@@M@}@BO@k@@}BHgADO?U@Q@[@U@W@o@@k@BC?G?_@BCq@?OAC?CQcEAK?C?MP?zA?\\?^?lBCdAAF?",
-            "durationMin": 9,
-            "distanceM": 788,
-            "mode": "walk"
+            "data": "wmqtEw|q{XNAAw@D?|CEBrCoA@s@@eB@uB@E??oC?_B?cA?g@?K?sA?oC?M?wB@SU@iA?c@?DYBM@yA@wA@]DQBK@yCBuCB_CBMBQ@Mb@eBBKj@qBDS}@_@gAc@KEqBaA}BsAkAs@CAa@Ui@YWOECaA[g@O_Bg@oAc@[KKC_DcA}@YSGWIMGYKeC}@_@OECKEiDuAOGKEa@QyAm@]Oi@SQGKEICIAICKA[?K?mA@e@?e@@u@?w@@m@@cABO?kBD}@Dm@@M@}@BO@k@@}BHgADO?U@Q@[@U@W@o@@k@BC?G?_@BCq@?OAC?CQcEAK?C?MP?zA?\\?^?lBCdAAF?",
+            "durationMin": 17,
+            "distanceM": 3419,
+            "mode": "subway",
+            "osrmMin": 7,
+            "corrected": true
           }
         },
         {
@@ -97137,8 +97142,25 @@
       "city": "Kyoto",
       "activities": [
         {
-          "id": "d8-0",
+          "id": "d8-0a",
           "time": "08:30",
+          "title": "Nishiki Market",
+          "description": "Kyoto's 'kitchen of Kyoto' — 400m of covered arcade with pickle shops, tofu makers, knife shops (Aritsugu!), grilled skewers, fresh strawberries dipped in chocolate, sake samples. Morning is peak vendor energy. Grab grazing snacks for the temple-cluster walk + maybe scope out a knife at Aritsugu while you're there. 15-min walk from Hotel TOU.",
+          "address": "Nishiki-koji, Nakagyo Ward, Kyoto",
+          "category": "food",
+          "lat": 35.00497,
+          "lng": 135.76467,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "a|stEuqs{XlFAP??OAaB?U?Q?uB?MAgAAa@?m@?OGeIAUAmAAgAAkC?K?CAI?I?SAgA?Y?eC?G?QAI?G?O?M?S?eA?}@?[?UAkF?kB?]?a@@yCB}ADkA@QBo@j@Fz@HL@J?J?RGl@Qh@MBGBKf@qBn@sBl@E\\Cd@?`BIPAB?B?`AMBA`@EN?@EN?z@AJ?@CxABN@?I?_BC{A?KAc@?gCVAPAd@MJA",
+            "durationMin": 24,
+            "distanceM": 2017,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d8-0",
+          "time": "10:00",
           "title": "% Arabica Higashiyama",
           "description": "First stop — minimalist Kyoto coffee with view of Yasaka Pagoda. Leave the hotel ~8 AM, ~20-30 min by taxi/bus.",
           "category": "food",
@@ -97146,40 +97168,9 @@
           "lng": 135.7807,
           "routeToNext": {
             "format": "polyline",
-            "data": "qurtE_uv{XK@e@LQ@W@?fC@b@?JBzA?~A?HOAyACABK?{@@O?ADO?a@DC@aALC?C?Q@aBHe@?]Bm@D_@@I?w@Bk@@@pA?lBGCECCAA?UKc@EWK",
+            "data": "qurtE_uv{XK@e@LQ@W@?IAI?U?gAAIAKAKWaFAO@I?IBGBEDCDALEHCPENC^Eh@El@G`BMB?t@Af@CN?HBTf@F`@RbAH^^rA@JQtCx@@Na@@E?E@c@@I@GF]Hm@Fk@Dg@Fc@@A@ABAB?l@JBB?B?DA^ALAJHB@?@ABEDS@O@Q?[?CWQACAEHqBBOT}@DMFIFEFGBAB@NNFm@@K@EB[?Q@u@DCPELA",
             "durationMin": 9,
-            "distanceM": 721,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d8-1",
-          "time": "10:00",
-          "title": "Saryo Tsujiri Gion",
-          "description": "Matcha breakfast.",
-          "category": "food",
-          "lat": 35.0036,
-          "lng": 135.7783,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "eqstE{av{XVJb@DTJ@?B@DBFB?mBAqAj@Av@CH?^Al@E\\Cd@?`BIPAB?B?`AMBA`@EN?@EN?z@AJ?@CxABN@?I?_BC{A?KAc@?gCVAPAd@MLCLAA}@Aa@",
-            "durationMin": 9,
-            "distanceM": 750,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d8-2",
-          "time": "11:00",
-          "title": "Sannenzaka cobbled lane",
-          "category": "walk",
-          "lat": 34.9988,
-          "lng": 135.7813,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "eurtEcxv{X@`@@|@M@MBe@LQ@W@?IAI?U?gAAIAKAKWaFAO@I?IBGBEDCDALEHCPENC^Eh@El@G`BMB?t@Af@CN?HBTf@F`@RbAH^^rA@JQtCx@@Na@@E?E@c@@I@GF]Hm@Fk@Dg@Fc@@A@ABAB?l@JBB?B?DA^ALAJHB@?@ABEDS@O@Q?[?CWQACAEHqBBOT}@DMFIFEFGBAB@NNFm@@K@EB[?Q@u@DCPELA",
-            "durationMin": 8,
-            "distanceM": 694,
+            "distanceM": 738,
             "mode": "walk"
           }
         },
@@ -97299,20 +97290,18 @@
           "lng": 135.7641
         }
       ],
-      "routeFromHotel": {
-        "format": "polyline",
-        "data": "wmqtEw|q{XNAAw@D?|CEBrCoA@s@@eB@uB@E??oC?_B?cA?g@?K?sA?oC?M?wB@SU@iA?c@?I?uA?wA@K?oB@gA?E?i@?O?Y??U@g@?C@}@DwB?c@?a@BuBBeC?QFmCDqCDkB@_@@[DiBHeBBm@@c@Dy@Ds@Fg@LeAB[RqC?EBS@O?K@QFaAHqA@WLuAB_@BOZyDJmBDSBY@ID_ALkAT{ADQRqAf@yCBc@l@mEFe@BU@E?E?G?EAG?Em@g@A?EC]GKCa@GaAMi@IgAOKCcAOYEoAQWCu@ME?}@MMAOC??uAMQCoAMOAmBQSCB[?IFiAHkD@M?I?_BC{A?KAc@?gCVAPAd@MJA",
-        "durationMin": 17,
-        "distanceM": 3519,
-        "mode": "subway",
-        "osrmMin": 7,
-        "corrected": true
-      },
       "routeToHotel": {
         "format": "polyline",
         "data": "}drtEsls{XB_B@_@d@DR@B@RJB@p@^t@`@nAp@l@ZfBbA@@d@VLFCPCLC~BCtCAxCCJEPA\\AvAAxACL\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
         "durationMin": 12,
         "distanceM": 1014,
+        "mode": "walk"
+      },
+      "routeFromHotel": {
+        "format": "polyline",
+        "data": "wmqtEw|q{XNAAw@D?|CEBrC@xC?HK?{EBI?iB?M?K?iA?c@?g@@gD?mB?{@Am@?G?M?k@AK?I?cF?cBCiC@G?I?{E?U?W@wA?O?gB?cC@G?cB@_F@OB?[A_C?G?yBAQ?O?oD@kA@]@Y?UBkE?g@?U?m@?oEAS?QAiG?O?S?gB?K?QAoB?O?S?uC?M?OAaB?UQ?oFEG?G?cFE@pC~EBJ?F?@?",
+        "durationMin": 24,
+        "distanceM": 1980,
         "mode": "walk"
       }
     },
