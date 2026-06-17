@@ -96803,33 +96803,80 @@
           "lng": 138.7688497,
           "routeToNext": {
             "format": "polyline",
-            "data": "_awwEuh~mYJn@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@HAHA",
-            "durationMin": 23,
-            "distanceM": 1946,
-            "mode": "walk"
+            "data": "_awwEuh~mYJn@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@B^@N?J?b@Aj@An@Cv@C^CZG`@IXK\\KVOTQVyAnB[b@OVINGNEPCLEPEPCP?NBPL`AJv@BV@P?N?HCXC\\KdAG`@CTERK^Sp@GTGNEPCLALAJ?J?L@L@LBLDNJ^r@fCl@tBxA|EnA~DBDnAhETn@LTNLZHhBf@lAZjA\\xCh@~@X~@\\zAoBrDyDN_@DINOLKLIHMLM",
+            "durationMin": 16,
+            "distanceM": 5084,
+            "mode": "subway",
+            "osrmMin": 6,
+            "corrected": true
           }
         },
         {
           "id": "d5-3",
           "time": "12:30",
-          "title": "Café Mimi lunch",
-          "description": "Lakeside sandwiches and coffee.",
+          "title": "Houtou Fudou lunch",
+          "description": "Iconic Yamanashi noodle hot pot in a rustic folk-art farmhouse — wide flat noodles + vegetables in miso broth, served in a cast-iron pot the size of a small wheel. North shore, 5-10 min taxi from Ubuya, opens 11:00. Kicks off the active afternoon loop.",
           "category": "food",
-          "lat": 35.5196,
-          "lng": 138.7538,
+          "lat": 35.518,
+          "lng": 138.7472,
+          "address": "707 Kawaguchi, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0304",
+          "costPerPerson": 1500,
+          "currency": "JPY",
           "routeToNext": {
             "format": "polyline",
-            "data": "o~xwE_k{mYI@I@Ee@Ge@Ko@AKAO?Q@Q@[B_@Da@Di@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKNE@?D?H@x@LpAFX@^@h@?R@F@HBHDDDFHFH",
-            "durationMin": 9,
-            "distanceM": 783,
-            "mode": "walk"
+            "data": "y~wwEaeymYMLILMHMJONEHO^sDxD{AnB_A]_AYyCi@kA]mA[iBg@[IOMMUUo@oAiECEoA_EyA}Em@uBs@gCK_@EOCMAMAM?M?K@K@MBMDQFOFURq@J_@DSBUFa@JeAB]BY?I?OAQCWKw@MaACQ?OBQDQDQBMDQFOHONWZc@xAoBPWNUJWJ]HYFa@B[B_@Bw@@o@@k@?c@?KAOC_@Ee@Ge@Ko@AKAO?Q@Q@[B_@Da@Di@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKyAe@s@UQIMIQMMMMMOQW[OUMSKSISKYEOCSw@qEk@mDCIAQAQ@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYJ[^mAZcAH[rAqClC{EfD}DzDmDdHyD~GyCtw@{]hO}GfOsGdDyA|Am@xAa@nBe@|Cs@jA[p@Y`Ak@hAi@jA_@`BYd@IhAMdCe@HA\\GTCd@C@?D?P?B?vCAjC@v@@X?TENGNMXw@jEmHj@cAVa@r@iAtAaCj@_ANWXe@dAkBtBkDrA{Bb@q@N[N_@HSJ_@f@oBhAmEFSJa@d@aBBMDO`AoDTs@Tk@Vg@nAaCLUPYn@iAp@uAZq@h@eAh@eAXk@zAyCf@eAvEqJTOtDoHDI\\s@vAuCRa@xAyCPa@~@yADGXk@BEP]DKjAyBfA{AlAaBlByBZ]n@w@P[L]Hi@Bc@Cg@Ie@Og@_@g@}CeCSSa@c@eA{BMUi@m@_Aw@e@m@s@oAU_AQyAU_CSqAo@qBQk@Io@Ey@W{GIsE?kAHk@Vc@hAk@dBq@b@e@Ti@Fs@Is@i@uAWkAAs@HeA^}@d@k@vAu@d@c@Z{@H{@D{GH{@\\w@p@m@r@]p@KhBI`AMFEl@WVQVQ`@e@\\u@Ne@^gAp@oBN_@Tu@n@y@`A}@dFoCjNoErJyClDyAPIlB{Ar@g@b@O^GjB?fAElCIrAIv@CjAGtJi@|BGbAI`CYBkBD{ADaF?UJuIDqC@}Au@?",
+            "durationMin": 31,
+            "distanceM": 15217,
+            "mode": "subway",
+            "osrmMin": 17,
+            "corrected": true
+          }
+        },
+        {
+          "id": "d5-3b",
+          "time": "14:00",
+          "title": "Oshino Hakkai",
+          "description": "Eight crystalline spring ponds fed by Mt Fuji snowmelt, surrounded by a preserved Edo-era village. Walking the loop takes ~90 min. Try the trout from the pond water + the local manju sweet at the shops near the entrance.",
+          "address": "Oshino-mura, Minamitsuru-gun, Yamanashi 401-0511",
+          "category": "walk",
+          "lat": 35.46003,
+          "lng": 138.84786,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "exlwEwtmnYt@?A|AEpCKtI?TE`FEzACjBaCXcAH}BFuJh@kAFw@BsAHmCHgADkB?_@Fc@Ns@f@mBzAQHmDxAsJxCkNnEeFnCaA|@o@x@Ut@O^q@nB_@fAOd@]t@a@d@WPWPm@VGDaALiBHq@Js@\\q@l@]v@Iz@EzGIz@[z@e@b@wAt@e@j@_@|@IdA@r@VjAh@tAHr@Gr@Uh@c@d@eBp@iAj@Wb@Ij@?jAHrEVzGDx@Hn@Pj@n@pBRpAT~BPxAT~@r@nAd@l@~@v@h@l@LTdAzB`@b@RR|CdC^f@Nf@Hd@Bf@Cb@Ih@M\\QZo@v@[\\mBxBmA`BgAzAkAxBEJQ\\CDYj@EF_AxAQ`@yAxCS`@wAtC]r@EHuDnHATuCzFgAzBaC|EcAvBeAtBEJ{AnCOZMTUb@g@|@m@dAMXM\\Kb@aApDEPELc@bBMb@CHa@xAk@vBi@nBK^LHfClArAp@d@VVPrBtAvCpBJFGLmAtCc@rACHGZOp@O~@Gb@ANCPKv@KbAC\\?HA`@?TAdA?Z?R?L?NApAClAAl@Ad@A`@KhD?`@ATCt@Ep@Ir@Kx@q@bEId@?@GVMb@AHOl@M\\e@jASb@s@rAoAhCiAtCKTEJu@zAe@t@SXUXe@f@[TCBIHs@h@[V_@Z_At@y@n@u@t@ILMRMXKRa@~@q@vAOXYn@e@bAQb@]t@Ud@Y\\[\\q@`@iAp@{@j@WTQT]l@]j@UXUTSHMFQFYBSDWFs@Hg@FgBZ]JUJSLw@n@w@l@QRMPMVCDI\\GVO|@Ip@Gb@Gf@Kn@K^O\\Q^k@|@MV[v@cBhEUd@GJWh@y@tAKNMLQNUNGDaAl@e@Z[d@a@v@KNGLMLY\\OVIT_@z@U^eA~ACBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDWBU?QEMEg@YYQQKMK]UQMe@i@_@gAYaACIAGIUMg@Uq@oAsCm@sA]u@ZYLq@AgBK}Aq@mAk@k@e@ISWQg@EWEQ",
+            "durationMin": 24,
+            "distanceM": 11176,
+            "mode": "subway",
+            "osrmMin": 12,
+            "corrected": true
+          }
+        },
+        {
+          "id": "d5-3c",
+          "time": "15:30",
+          "title": "Mt Fuji Panoramic Ropeway",
+          "description": "Gondola from the south shore of Lake Kawaguchi up Mt Tenjo — Mt Fuji panorama from ~1100m. Round trip ¥1,000pp, ~3 min each way. Quick scenic stop before heading back to Ubuya for the lake walk + last kaiseki.",
+          "address": "1163 Azagawa, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0303",
+          "category": "walk",
+          "costPerPerson": 1000,
+          "currency": "JPY",
+          "lat": 35.50381,
+          "lng": 138.77419,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "iouwEaf_nYDPDVPf@RVd@Hj@j@p@lAJ|A@fBMp@[Xe@q@SUUWi@[_@Ua@Sg@Uk@Oc@Eg@Ac@Ak@C[CMCUGOKMKKMWc@IQUq@M]c@w@Y]Y[OOYSUMUKQESG[IeAMwAQKAC?oCa@sBU{@MsAOG?a@Aw@Bw@HI@uAj@[VWRo@n@k@z@m@pAMn@Gn@A`AFbAVrBr@rFt@`GN|@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@NE@?D?H@x@LpAFX@^@h@?R@F@HBHDDDFHFH",
+            "durationMin": 16,
+            "distanceM": 4942,
+            "mode": "subway",
+            "osrmMin": 6,
+            "corrected": true
           }
         },
         {
           "id": "d5-4",
-          "time": "13:30",
+          "time": "17:00",
           "title": "Lake Kawaguchi north shore walk",
-          "description": "Quiet shoreline, Fuji reflections if calm.",
+          "description": "Easy walk back along the lake at Ubuya area — sunset over Mt Fuji from the cape, decompress from the active afternoon before kaiseki. Optional, can swap for last onsen if you're wiped.",
           "category": "walk",
           "lat": 35.5182,
           "lng": 138.7605,
@@ -96862,73 +96909,53 @@
           "id": "d6-2",
           "time": "09:00",
           "title": "Japanese breakfast at the ryokan",
-          "description": "Grilled fish, miso soup, tamagoyaki, rice. Slow morning at the ryokan after Chureito sunrise.",
+          "description": "Final Ubuya breakfast — leisurely, no rush since the active stuff was yesterday. Last morning onsen after.",
           "category": "food",
+          "lat": 35.5128155,
+          "lng": 138.7688497
+        },
+        {
+          "id": "d6-2b",
+          "time": "09:30",
+          "title": "Last morning onsen at Ubuya",
+          "description": "Final dip with the Mt Fuji + lake view before checkout. Pack between sessions.",
+          "category": "walk",
+          "lat": 35.5128155,
+          "lng": 138.7688497
+        },
+        {
+          "id": "d6-2c",
+          "time": "11:00",
+          "title": "Ubuya checkout",
+          "description": "Standard ryokan checkout is 11:00. Taxi or short drive ~5 min to FUFU. Email FUFU ahead (reservation1@fufukawaguchiko.jp) requesting early check-in around 12:00 — they typically accommodate splurge-tier guests with confirmed dinner reservations.",
+          "category": "hotel",
           "lat": 35.5128155,
           "lng": 138.7688497,
           "routeToNext": {
             "format": "polyline",
-            "data": "_awwEuh~mYCMu@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTnC`@B?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]J]N[NYh@u@BCdA_BT_@^{@HUNWX]LMFMJO`@w@Ze@d@[`Am@FETOPOLMJOx@uAVi@FKTe@bBiEZw@LWj@}@P_@N]J_@Jo@Fg@Fc@Hq@N}@FWH]BELWLQPSv@m@v@o@RMTK\\KfB[f@Gr@IVGREXCPGLGRITUTY\\k@\\m@PUVUz@k@hAq@p@a@Z]X]Te@\\u@Pc@d@cAXo@NYp@wA`@_AJSLYLSHMt@u@x@o@~@u@^[ZWr@i@HIBCZUd@g@TYRYd@u@t@{ADKJUhAuCnAiCr@sARc@d@kAL]Nm@@ILc@FW?AHe@p@cEJy@Hs@Dq@Bu@@U?a@JiD@a@@e@@m@BmA@qA?O?M?S?[@eA?U@a@?IB]JcAJw@BQ@OFc@N_ANq@F[BIb@sAlAuCFMKGwCqBsBuAWQe@WsAq@gCmAMIMGJ_@f@oBhAmEFSJa@d@aBBMDO`AoDTs@Tk@Vg@nAaCLUPYn@iAp@uAZq@h@eAh@eAXk@zAyCf@eAvEqJTOtDoHDI\\s@vAuCRa@xAyCPa@~@yADGXk@BEP]DKjAyBfA{AlAaBlByBZ]n@w@P[L]Hi@Bc@Cg@Ie@Og@_@g@}CeCSSa@c@eA{BMUi@m@_Aw@e@m@s@oAU_AQyAU_CSqAo@qBQk@Io@Ey@W{GIsE?kAHk@Vc@hAk@dBq@b@e@Ti@Fs@Is@i@uAWkAAs@HeA^}@d@k@vAu@d@c@Z{@H{@D{GH{@\\w@p@m@r@]p@KhBI`AMFEl@WVQVQ`@e@\\u@Ne@^gAp@oBN_@Tu@n@y@`A}@dFoCjNoErJyClDyAPIlB{Ar@g@b@O^GjB?fAElCIrAIv@CjAGtJi@|BGbAI`CYBkBD{ADaF?UJuIDqC@}Au@?",
-            "durationMin": 24,
-            "distanceM": 12489,
-            "mode": "subway",
-            "osrmMin": 12,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d6-3",
-          "time": "10:30",
-          "title": "Oshino Hakkai",
-          "description": "Eight crystal-clear spring-fed ponds.",
-          "category": "nature",
-          "lat": 35.46003,
-          "lng": 138.84786,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "exlwEwtmnYt@?A|AEpCKtI?TE`FEzACjBaCXcAH}BFuJh@kAFw@BsAHmCHgADkB?_@Fc@Ns@f@mBzAQHmDxAsJxCkNnEeFnCaA|@o@x@Ut@O^q@nB_@fAOd@]t@a@d@WPWPm@VGDaALiBHq@Js@\\q@l@]v@Iz@EzGIz@[z@e@b@wAt@e@j@_@|@IdA@r@VjAh@tAHr@Gr@Uh@c@d@eBp@iAj@Wb@Ij@?jAHrEVzGDx@Hn@Pj@n@pBRpAT~BPxAT~@r@nAd@l@~@v@h@l@LTdAzB`@b@RR|CdC^f@Nf@Hd@Bf@Cb@Ih@M\\QZo@v@[\\mBxBmA`BgAzAkAxBEJQ\\CDYj@EF_AxAQ`@yAxCS`@wAtC]r@EHuDnHATuCzFgAzBaC|EcAvBeAtBEJ{AnCOZMTUb@g@|@m@dAMXM\\Kb@aApDEPELc@bBMb@CHa@xAk@vBi@nBK^ITEJMZQ\\sBdDu@rAy@pAeBvCQXcC`Eq@jAWb@m@dAkEjHa@d@OLOFUDY?w@AkCAwC@C?Q?E?A?e@BUB]FI@eCd@iALe@HaBXkA^iAh@aAj@q@XkAZ}Cr@oBd@yA`@}Al@eDxAgOrGiO|Guw@z]_HxCeHxD{DlDgD|DmCzEsApCIZ[bA_@lAKZIX_@zAUhAETKn@qBrLAJSfAMz@QhAEXATA\\?V@V@V@J@HFXH`@Ph@N^@DLTQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@B^@N?J?b@Aj@An@Cv@C^CZG`@IXK\\KVOTQVyAnB[b@OVINGNEPCLEPEPCP?NBPL`AJv@BV@P?N?HCXC\\KdAG`@CTERK^Sp@GTGNEPCLALAJ?J?L@L@LBLDNJ^r@fCl@tBxA|EnA~DBDnAhETn@LTNLZHhBf@lAZjA\\xCh@~@X~@\\zAoBrDyDN_@DINOLKLIHMLM",
-            "durationMin": 31,
-            "distanceM": 15218,
-            "mode": "subway",
-            "osrmMin": 17,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d6-4",
-          "time": "12:30",
-          "title": "Houtou Fudou",
-          "description": "Yamanashi miso noodle stew (houtou).",
-          "category": "food",
-          "lat": 35.518,
-          "lng": 138.7472,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "y~wwEaeymYMLILMHMJONEHO^sDxD{AnB_A]_AYyCi@kA]mA[iBg@[IOMMUUo@oAiECEoA_EyA}Em@uBs@gCK_@EOCMAMAM?M?K@K@MBMDQFOFURq@J_@DSBUFa@JeAB]BY?I?OAQCWKw@MaACQ?OBQDQDQBMDQFOHONWZc@xAoBPWNUJWJ]HYFa@B[B_@Bw@@o@@k@?c@?KAOC_@Ee@Ge@Ko@AKAO?Q@Q@[B_@Da@Di@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKyAe@s@UQIMIQMMMMMOQW[OUMSKSISKYEOCSw@qEk@mDCIAQAQ@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNVJ`@Rb@ZTNJFPFx@XTHFDDDDDDHPj@^bALXLXPVPRRPRLRLPHNBNBN?DAHARGnA}@HKJQDS`AgDDY@WCUKu@O}@u@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTnC`@B?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@ZYLq@AgBK}Aq@mAk@k@e@ISWQg@EWEQ",
-            "durationMin": 19,
-            "distanceM": 7626,
-            "mode": "subway",
-            "osrmMin": 8,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d6-5",
-          "time": "14:00",
-          "title": "Mt Fuji Panoramic Ropeway",
-          "description": "3-min cable car to Mt Tenjo viewpoint.",
-          "category": "nature",
-          "costPerPerson": 900,
-          "currency": "JPY",
-          "lat": 35.50381,
-          "lng": 138.77419,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "iouwEaf_nYDPDVPf@RVd@Hj@j@p@lAJ|A@fBMp@[X\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]GE{@cAUs@@[BiBRo@?]",
-            "durationMin": 7,
-            "distanceM": 578,
+            "data": "_awwEuh~mYCMu@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTnC`@B?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]GE{@cAUs@@[BiBRo@?]",
+            "durationMin": 21,
+            "distanceM": 1737,
             "mode": "walk"
           }
+        },
+        {
+          "id": "d6-2d",
+          "time": "12:00",
+          "title": "Arrive FUFU Kawaguchiko",
+          "description": "Drop bags at FUFU. If suite isn't ready yet, use the lobby lounge, garden, or grab a light lunch / matcha at the on-site cafe. Aim for room ready by 14:00 (if early check-in arranged) or 15:00 standard.",
+          "category": "hotel",
+          "lat": 35.50046,
+          "lng": 138.77116
+        },
+        {
+          "id": "d6-2e",
+          "time": "14:00",
+          "title": "Settle into FUFU suite + first private onsen",
+          "description": "Once your suite is ready: unpack, put on the yukata, fire up the private outdoor onsen overlooking Mt Fuji. The whole point of paying for FUFU.",
+          "category": "walk",
+          "lat": 35.50046,
+          "lng": 138.77116
         },
         {
           "id": "d6-5b",
