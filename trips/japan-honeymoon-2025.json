@@ -96221,7 +96221,7 @@
           "id": "d1-1c",
           "time": "17:30",
           "title": "NRT Airport Station — board N'EX",
-          "description": "After customs (~30-60 min) + Yamato luggage drop at the Arrivals counter, head down to the rail level beneath Terminal 1 (~5 min walk from arrivals). N'EX departs ~half-hourly to Shinjuku — ¥3,250pp, ~85 min direct, no transfers.",
+          "description": "After customs (~30-60 min) + Yamato luggage drop at the Arrivals counter, head down to the rail level beneath Terminal 1 (~5 min walk from arrivals). **Take the JR Narita Express (N'EX) bound for Shinjuku** — departs roughly every 30 min. ~85 min ride, all-reserved seats (¥3,250pp ordinary). Board the front 6 cars (split at Tokyo Station). Buy ticket at the JR ticket office in Arrivals or via JR East online reservation.",
           "address": "Narita Airport Station (under Terminal 1), Narita, Chiba",
           "category": "station",
           "lat": 35.76479,
@@ -96730,7 +96730,7 @@
           "id": "d4-3",
           "time": "10:30",
           "title": "Fuji Excursion — board at Shinjuku",
-          "description": "JR/Fujikyu Fuji Excursion limited express to Kawaguchiko — ~2hr direct, ¥4,200pp, all-reserved (no non-reserved cars). Book exactly 1 month in advance at 10:00 a.m. JST (set Oct 27 calendar reminder). Watch for Mt Fuji views on the right side of the train after Otsuki.",
+          "description": "**JR/Fujikyu Limited Express \"Fuji Excursion No. 11\"** — 10:30 departure from Shinjuku Platform 9/10. ~1h55m direct, arrives Kawaguchiko 12:25, ¥4,200pp all-reserved (no non-reserved cars). **CRITICAL: Book exactly one month in advance at 10:00 a.m. JST** (set Oct 27 calendar reminder). Watch for Mt Fuji views on the RIGHT side of the train after Otsuki.",
           "category": "transit",
           "lat": 35.6896,
           "lng": 139.7006,
@@ -97058,7 +97058,7 @@
           "id": "d7-2",
           "time": "14:30",
           "title": "Mishima Station",
-          "description": "Quick transfer at Mishima Station South Exit to the Tokaido Shinkansen. Target a *Hikari* train (some, not all, stop at Mishima) — ~1h50m to Kyoto. Fall back to *Kodama* if needed (every 30 min but ~2h45m).",
+          "description": "**Target a Mishima-STOPPING Hikari Shinkansen — NOT Kodama, NOT Nozomi.** Nozomi never stops at Mishima. Only some Hikari trains stop here. Mishima-stopping Hikari takes ~1h50-2h to Kyoto (~110-115min). Kodama takes ~2h45m (avoid). **Book in advance via JR East SmartEX app or station midori-no-madoguchi** before traveling — show up at Mishima with a confirmed Hikari ticket, do NOT board the next westbound train blindly. Sit D-side (right facing forward) for Mt Fuji views in the first ~20min after Mishima.",
           "category": "transit",
           "lat": 35.1281,
           "lng": 138.9117,
@@ -97458,11 +97458,13 @@
       "routeFromHotel": {
         "format": "polyline",
         "data": "wmqtEw|q{XNAAw@D?|CEB?bA?|C?v@?l@?rB?L?RA`A?D?Z?L?R?T?P?L?f@?D?B?Z?fB?L?B?J??J?F@xF@V?D?D?X?bGBX?X@P@H@FDLDHJN`@CB?p@ClDi@fCa@fAOTE^GRCZETAnA?|A?bFCP?pCDfCBjEBV?Z?v@B~@@t@@T?V?vBBjA@fA?tBBN?T@x@?vABf@@f@?h@?hA?~CF`@?`@@H?|JJdADn@J`ABbCH^@\\?nDDnB@~RbAfFNnCLfCLdAB`EPdFTrEVnBJ~ADdBGx@BrBFzCJnEBjA?~CBp@?x@IR@zCB`@??]D{DB_CDO@oABcCBuDtACdAARC@U?_@CUE_@?}B@oA@e@?{B?}@@U\\DZJv@Ll@Lr@L\\FRDRBXDH?h@DD?nA?PEHEHEFKDGBGlAyB@CFKbAmBP[t@sAx@_BJQRe@b@cALa@XuATmA@GBMBS@ABUJo@D]Jq@Fc@F]Ju@^kC`@mCDUBM@Mx@iFVcBBMD_@Jo@FWHUNURURQPINITEXCVAP@hCFvCHL?L@N?^DZFr@PZFPBfDNpBLJ?hDB^@R@^HPFHBVJv@VRFZHXDr@J`@@RB~@?pAGlASj@Kb@Kj@Ob@Eh@El@E`EAvB?P?R?rAAzCCF?L?H?rE@D?d@?`BDJ?JALAd@Az@?\\Cn@GVEd@MnBk@rBo@rFkBhBs@dBs@j@[^Sb@]b@_@h@g@h@m@`@k@f@q@p@iAJQnA}BDGHOn@iAzAkCHM@EtBsDPYDIBC^q@JQ@CDOZq@zB{DdCoEpDqG^m@Zi@z@}AnA{BLWBCd@i@`@y@Zi@d@w@f@{@HOh@w@BCHKPSLQf@c@j@_@RIXMh@Sx@OPEdAKPCZChCQRCRCxD[HA|@GZCb@EnAK`BOtE[`BIDAtAMf@E\\E`A@\\?h@@V?rBB\\?P?nB@hA@~@Bb@@jDH|@BfBBd@@dEJD?J?B?xBDh@@D@xABlA@pFLdABh@BjABdABfBDjCDH?jAB\\@~@BdCDR?fABrADd@?vCJp@BlADAo@As@?_@@}@AyDAyC?k@AWA_@GaBKsBAc@?_@@SBQ@KDSBETo@DIP_@d@i@BAp@g@d@e@RWT_@Te@J[BKBIJ_@Fo@Dm@@u@@]@UBm@Ju@TkARqADYH]d@sCBMF_ABM@o@?KHuAB}@LcE@U@]HsBBkAZqI@YQ@G?qADOEACON[@a@E{AR}AVNa@Xc@bAIJA",
-        "durationMin": 37,
+        "durationMin": 49,
         "distanceM": 14986,
         "mode": "subway",
         "osrmMin": 21,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 37,
+        "pinned": "Google Maps verified: Hotel TOU → Uji 49min via JR Nara Line + walk"
       },
       "routeToHotel": {
         "format": "polyline",
@@ -98024,7 +98026,7 @@
           "id": "d13-0b",
           "time": "12:00",
           "title": "Shin-Osaka Station — board Nozomi",
-          "description": "Subway from Namba to Shin-Osaka (~15 min on Midosuji Line). Nozomi to Tokyo every ~10 min, ~2h30m direct, ¥13,720pp ordinary. Book a Mt Fuji-side seat (D seat in standard cars) for ~30 min of Fuji views on a clear day. The Yamato bags meet you at Shibuya REI by evening.",
+          "description": "Subway from Namba to Shin-Osaka (~15 min on Midosuji Line). **Take any Nozomi bound for Tokyo** — every ~10 min, ~2h22-2h27 direct, ¥13,720pp ordinary reserved. **Sit D seat in a standard car (right side facing forward)** for ~30 min of Mt Fuji views on a clear day after Maibara. The Yamato bags meet you at Shibuya REI by evening.",
           "address": "Shin-Osaka Station, Higashiyodogawa, Osaka",
           "category": "station",
           "lat": 34.73319,
@@ -98089,11 +98091,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "eesxEsissYTq@JU_@kCAKEMl@m@FGVKoAwFs@eDa@qBG]EOc@iBAIGSs@_D]}Ao@oCEe@CWO_CK_@Ca@EQGOKKIK]YwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWY[GIkAaCGKKKIGk@_@aC_BQKELQh@IRAHABGPELAFCLALCxACJEFIDG@E?ECCA",
-            "durationMin": 19,
+            "durationMin": 31,
             "distanceM": 7744,
             "mode": "subway",
             "osrmMin": 8,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 19,
+            "pinned": "Google Maps verified: About Life→Yurakucho 25-35min via Yamanote+Marunouchi"
           }
         },
         {
@@ -98126,11 +98130,13 @@
       "routeToHotel": {
         "format": "polyline",
         "data": "}pvxEqb`tYDEJSPNKR]l@GJGJYh@KNcBlCIL[^W\\QTs@nAYr@qA`E_@nAKZsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBB^\\XVd@`@pAjAn@j@lAfAp@p@h@j@\\^NPT`@pEvI`@t@JPP\\x@|AnAvBHNNVXh@v@tAJRC\\AJ@NBPBRFj@V`BJfAHt@JfAVjC@TLhA@NB^BRWDYBM@qAD",
-        "durationMin": 16,
+        "durationMin": 27,
         "distanceM": 6475,
         "mode": "subway",
         "osrmMin": 6,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 16,
+        "pinned": "Google Maps verified: Takarazuka→REI 25-36min via Hibiya+Ginza"
       }
     },
     {
@@ -98239,11 +98245,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "svsxEkmtsYGgBAYEk@CSC_@AOMiAAUWkCKgAIu@KgAWaBGk@CSCQAO@KEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PUWWmC_CWSSSwCiCSQQQi@c@wAmAi@e@}@y@[c@i@c@iAaAOWIIMKBOBOBW@MF_@De@@MBKf@mBH]@IJ_@F_@TgADiADgAFB~@ZSbAWK",
-            "durationMin": 20,
+            "durationMin": 33,
             "distanceM": 8077,
             "mode": "subway",
             "osrmMin": 9,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 20,
+            "pinned": "Google Maps verified: Shibuya Sky→Sushi Hashimoto 33min via Ginza Line + walk"
           }
         },
         {
@@ -98309,7 +98317,7 @@
           "id": "d15-0b",
           "time": "07:30",
           "title": "Sushi Bun (Toyosu Market)",
-          "description": "Edomae sushi from a 150-year-old, 5-generation chef family. Moved here from Tsukiji in 2018 when the wholesale market relocated. Counter seating only — line up early (6:30-7:30 arrival, opens ~5:30am for market workers + ~6:30 for public). Cash strongly preferred. Splurge omakase ~¥4,500-6,000pp.",
+          "description": "**Leave Shibuya REI by 06:35 for 07:30 arrival** (~55 min total transit). Best route: JR Yamanote Line clockwise from Shibuya → Shimbashi (~10 min), transfer to **Yurikamome elevated line** → Shijo-mae Station (~15 min). Alternative: Yamanote → Yurakucho → Yurakucho Line to Toyosu Station + 8-min walk. Edomae sushi from a 150-year-old, 5-generation chef family. Counter seating only — line forms early. Cash strongly preferred. Splurge omakase ~¥4,500-6,000pp.",
           "address": "3F Central Seafood Wholesale Market, 6-5-1 Toyosu, Koto-ku, Tokyo 135-0061",
           "category": "food",
           "costPerPerson": 4000,
