@@ -98280,38 +98280,40 @@
       "city": "Tokyo",
       "activities": [
         {
+          "id": "d15-0b",
+          "time": "07:00",
+          "title": "Sushi Bun (Toyosu Market)",
+          "description": "Edomae sushi from a 150-year-old, 5-generation chef family. Moved here from Tsukiji in 2018 when the wholesale market relocated. Counter seating only — line up early (6:00-7:00 arrival, opens ~5:30am for market workers + ~6:30 for public). Cash strongly preferred. Splurge omakase ~¥4,500-6,000pp.",
+          "address": "3F Central Seafood Wholesale Market, 6-5-1 Toyosu, Koto-ku, Tokyo 135-0061",
+          "category": "food",
+          "costPerPerson": 4000,
+          "currency": "JPY",
+          "lat": 35.6485,
+          "lng": 139.7863,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "uqqxEi_etY?ObCNDEHIYe@AGAI@IBGDGPSrByBLMiDwFS[SPsDjDwBxBg@h@gAbByApBkCpCgEdEiArAi@h@kBtAiAx@uA`AWVeAfAgAfAQR]\\UVsDnDaC`CaCxBcAdAeAdAONQP_AbAgAhAUTMNUVgAfAcA~@ONQLeA`AkCzBeJdIcAjAOPeClCm@n@MNONq@n@k@j@m@l@s@p@_A~@LPh@t@T\\",
+            "durationMin": 13,
+            "distanceM": 3029,
+            "mode": "subway",
+            "osrmMin": 4,
+            "corrected": true
+          }
+        },
+        {
           "id": "d15-0a",
-          "time": "07:30",
+          "time": "08:30",
           "title": "Tsukiji Outer Market",
-          "description": "The original fish-market site (the auction moved to Toyosu but the outer market stayed). Best between 7-9 AM. Sushi-for-breakfast vibes, knife shops, tamago skewers, tuna nigiri at counter pace. Walking distance to Ginza for the rest of the day.",
+          "description": "Note: Tsukiji is 3km NW of Toyosu — ~10-15 min via Yurikamome from Shijo-mae or taxi. Tsukiji Outer Market is still the fun grazing area — knife shops (Aritsugu, Sugimoto), tamagoyaki on a stick, sea urchin shots, grilled scallops, matcha mochi. After the Sushi Bun breakfast, this is the food-bazaar wandering before heading to Ginza.",
           "address": "Tsukiji Outer Market, 4 Chome Tsukiji, Chuo City",
           "category": "food",
           "lat": 35.6655,
           "lng": 139.7707,
           "routeToNext": {
             "format": "polyline",
-            "data": "k|txE{}atY~AxBDF{@~@QRSTKJKTSYqBqCa@k@SYMQNOLNRZd@p@BB",
-            "durationMin": 1,
-            "distanceM": 95,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d15-0b",
-          "time": "08:00",
-          "title": "Endo Sushi (Tsukiji)",
-          "description": "Sushi for breakfast — the Tsukiji ritual. ¥3000-5000 pp set menus, sit at the counter, watch the chef work. Lines move fast 8-9 AM.",
-          "address": "Tsukiji Outer Market, Chuo City",
-          "category": "food",
-          "costPerPerson": 4000,
-          "currency": "JPY",
-          "lat": 35.6661,
-          "lng": 139.7703,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "m`uxE_{atYfBfCPRKTSYqBqCa@k@SYQR{BnCOPQTw@dAgAxAQREDq@z@EDQR}@dA}@dAk@p@SV]b@QRc@j@}ApBoA`Bs@fAGJORTTdClCDFJLLJdClC",
-            "durationMin": 11,
-            "distanceM": 911,
+            "data": "k|txE{}atY~AxBDF{@~@QRSTKJKTSYqBqCa@k@SYQR{BnCOPQTw@dAgAxAQREDq@z@EDQR}@dA}@dAk@p@SV]b@QRc@j@}ApBoA`Bs@fAGJORTTdClCDFJLLJdClC",
+            "durationMin": 12,
+            "distanceM": 994,
             "mode": "walk"
           }
         },
