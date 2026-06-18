@@ -97100,11 +97100,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "wmqtEw|q{XNAAw@D?|CEBrCoA@s@@eB@uB@E??oC?_B?cA?g@?K?sA?oC?M?wB@SU@iA?c@?DYBM@yA@wA@]DQBK@yCBuCB_CBMBQ@Mb@eBBKj@qBDS}@_@gAc@KEqBaA}BsAkAs@CAa@Ui@YWOECaA[g@O_Bg@oAc@[KKC_DcA}@YSGWIMGYKeC}@_@OECKEiDuAOGKEa@QyAm@]Oi@SQGKEICIAICKA[?K?mA@e@?e@@u@?w@@m@@cABO?kBD}@Dm@@M@}@BO@k@@}BHgADO?U@Q@[@U@W@o@@k@BC?G?_@BCq@?OAC?CQcEAK?C?MP?zA?\\?^?lBCdAAF?",
-            "durationMin": 17,
+            "durationMin": 27,
             "distanceM": 3419,
             "mode": "subway",
             "osrmMin": 7,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 17,
+            "pinned": "Google Maps verified: Hotel TOU → Pontocho 25-30min transit"
           }
         },
         {
@@ -98050,11 +98052,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "i}wxEu}`tY@?PDNFFFBF@F?LCJ?H@HBLNAPEHAJ?F@LBRRWdBAFGd@DN@HAFAHe@fD?DCREVCNe@nDETtEdAxEjAHBTFVDZHtD|@lEhA~Ct@TFTHVLBBPJXXPPW\\QTs@nAYr@qA`E_@nAKZsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBB^\\XVd@`@pAjAn@j@lAfAp@p@h@j@\\^NPT`@pEvI`@t@JPP\\x@|AnAvBHNNVXh@v@tAJRC\\AJ@NBPBRFj@V`BJfAHt@JfAVjC@TLhA@NB^VIFArBw@^OTIBMEMUsA",
-            "durationMin": 19,
+            "durationMin": 27,
             "distanceM": 7443,
             "mode": "subway",
             "osrmMin": 8,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 19,
+            "pinned": "Google Maps verified: Tokyo→Shibuya REI 20-30min via Yamanote+walk"
           }
         },
         {
@@ -98277,11 +98281,13 @@
       "routeFromHotel": {
         "format": "polyline",
         "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOZm@`@q@dAaBNUBEXe@P[HOL_@La@Hm@DiA?uA?c@Aa@Ay@Ao@Cc@KeAg@wE]sCCWBWRMdASvDq@XGHCTEPCTGLCTEh@IfFaAXGNCJCLGFKBE@E@EJWDQFQ`@TXNDBf@^b@b@`@b@lBnBV\\TXHLHLFLDLFPHTJd@H\\Jn@Lp@PzALdAFb@FXFXHTJXNVJNJLPTZ\\b@d@|BbCzBdChAhAtAnAxApAlAdAbBbBhAdAj@n@j@x@n@`Az@tAx@tA|AzCzAlDjBvEhBjEfBhEXr@|BrG",
-        "durationMin": 19,
+        "durationMin": 23,
         "distanceM": 7311,
         "mode": "subway",
         "osrmMin": 8,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 19,
+        "pinned": "Google Maps verified: REI→Roppongi 18-26min via Ginza Line"
       },
       "routeToHotel": {
         "format": "polyline",
@@ -98301,9 +98307,9 @@
       "activities": [
         {
           "id": "d15-0b",
-          "time": "07:00",
+          "time": "07:30",
           "title": "Sushi Bun (Toyosu Market)",
-          "description": "Edomae sushi from a 150-year-old, 5-generation chef family. Moved here from Tsukiji in 2018 when the wholesale market relocated. Counter seating only — line up early (6:00-7:00 arrival, opens ~5:30am for market workers + ~6:30 for public). Cash strongly preferred. Splurge omakase ~¥4,500-6,000pp.",
+          "description": "Edomae sushi from a 150-year-old, 5-generation chef family. Moved here from Tsukiji in 2018 when the wholesale market relocated. Counter seating only — line up early (6:30-7:30 arrival, opens ~5:30am for market workers + ~6:30 for public). Cash strongly preferred. Splurge omakase ~¥4,500-6,000pp.",
           "address": "3F Central Seafood Wholesale Market, 6-5-1 Toyosu, Koto-ku, Tokyo 135-0061",
           "category": "food",
           "costPerPerson": 4000,
@@ -98322,7 +98328,7 @@
         },
         {
           "id": "d15-0a",
-          "time": "08:30",
+          "time": "09:30",
           "title": "Tsukiji Outer Market",
           "description": "Note: Tsukiji is 3km NW of Toyosu — ~10-15 min via Yurikamome from Shijo-mae or taxi. Tsukiji Outer Market is still the fun grazing area — knife shops (Aritsugu, Sugimoto), tamagoyaki on a stick, sea urchin shots, grilled scallops, matcha mochi. After the Sushi Bun breakfast, this is the food-bazaar wandering before heading to Ginza.",
           "address": "Tsukiji Outer Market, 4 Chome Tsukiji, Chuo City",
@@ -98435,11 +98441,13 @@
       "routeFromHotel": {
         "format": "polyline",
         "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PU^_@TYhB{B\\a@\\a@RUBEr@y@DENU`C}CNSPSj@q@nA}APSNONSDEzA{AdAcAl@m@h@i@~AaBNMNTONq@n@k@j@m@l@s@p@_A~@LPh@t@T\\",
-        "durationMin": 19,
+        "durationMin": 55,
         "distanceM": 8084,
         "mode": "subway",
         "osrmMin": 8,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 19,
+        "pinned": "Google Maps verified: REI→Sushi Bun Toyosu 52-58min via Yamanote+Yurikamome"
       },
       "routeToHotel": {
         "format": "polyline",
