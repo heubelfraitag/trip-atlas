@@ -68,13 +68,13 @@
       "id": "hotel-fuji-2",
       "name": "FUFU Kawaguchiko",
       "neighborhood": "Lake Kawaguchi (Funatsu / Onsen-kyo)",
-      "lat": 35.50046,
-      "lng": 138.77116,
+      "lat": 35.5282327,
+      "lng": 138.7599385,
       "checkIn": "2025-11-29",
       "checkOut": "2025-11-30",
       "booked": false,
       "notes": "Splurge final Fuji night. Small luxury ryokan, all-suite, every room has a private outdoor onsen. Mt. Fuji views, Bang & Olufsen, Dyson, kaiseki dining.",
-      "address": "6677 Funatsu, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0301"
+      "address": "2211-1 Mizuguchi, Kawaguchi-Aza, Fuji-Kawaguchiko-Machi, Minamitsuru-Gun, Yamanashi 401-0304"
     },
     {
       "id": "hotel-kyoto",
@@ -97,14 +97,15 @@
       "checkIn": "2025-12-04",
       "checkOut": "2025-12-06",
       "booked": false,
-      "notes": "Shortlist."
+      "notes": "Shortlist.",
+      "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka 542-0085"
     },
     {
       "id": "hotel-tokyo-end",
       "name": "Shibuya Tokyu REI Hotel",
       "neighborhood": "Shibuya",
-      "lat": 35.6589,
-      "lng": 139.7034,
+      "lat": 35.660255,
+      "lng": 139.702026,
       "checkIn": "2025-12-06",
       "checkOut": "2025-12-09",
       "booked": false,
@@ -96447,11 +96448,13 @@
       "routeFromHotel": {
         "format": "polyline",
         "data": "y_zxE{|usY?BCZS?HwAJuA@Y@M@c@BUFqAPqCFaADi@Ds@Bc@@SPuCBo@?w@?GC_@Ca@E_@AQGe@Ee@Ii@C]A]?_@Ba@Do@ToB@GDi@B[?YASCYQqAo@_EQiACOCOyAaJOy@AGGWCSG[Gk@?kAAc@?[?Y@eDX_GB]@e@?IB_A@[@S@SBM@MDM|BmGVs@Fg@Fe@HiARaFHcD@O?_@?]GyAOqBqAgJIe@M_AKs@E]GS]aAGQUi@FONKJIhCgBJG??DEBCBK@I?G?K?II_@s@_EEQqA{GCOESGY{A{HCIEUEUs@iDEOEUeB_ICII]IYmAkECGQo@G[i@kCEOUeACSuByKI]_@{BEa@WgDQ{BAKEc@AOE_@I_AEk@Iw@Ei@GaA?KC]OaCAIAYKyE?QAk@?i@AcBA_ACoAAiAC}BAO?m@Aq@AuA?y@?k@AcBCiA?I?M?Y?Q@O@ODMDKh@y@DI^k@R[FIjAeBd@q@\\e@T_@HWFWF[@Q@c@@S@Q@Q@W@o@Ai@Ei@CUQ{AAKIo@CSEUES]oAm@oBW}@Sq@IWEMAGQe@Mc@K_@YeASs@Ie@Ao@DyD?I@[@}@@U?[@c@DuB@e@?]@Y?W@g@BmABuA?MBaB?M@S?WBsABgB@o@?O@e@@k@@Y@c@@c@?e@@u@@s@DeB?M@O@{ABqA?[@O@g@?g@B_ADaC?I@e@Bc@BmAD{@@k@Bi@B{@DaADkA@MBi@HkARsCJ{ABQDe@OS{@iAIMSYOKOKOI{@]k@WKEOIUKqBeAGEQK]OYQu@a@qBeAKGQKUMeAk@SM{CeBy@i@IE]UMISM}DgCIEOKIGGEOK[SWUUSkA}AUWk@u@aBwB]a@GIIKMQ_AkAeAsAOSwAkBw@eAGKSYWYCE{@}@uBcBQOEEOKMKkCcBGEUOSMmAw@q@a@_By@IE_@YCCGGa@c@Y]u@s@c@a@UMIGsCaBMGAA",
-        "durationMin": 24,
+        "durationMin": 33,
         "distanceM": 9307,
         "mode": "subway",
         "osrmMin": 12,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 24,
+        "pinned": "Marunouchi+Ginza transfer via Akasaka-Mitsuke realistic time"
       },
       "routeToHotel": {
         "format": "polyline",
@@ -96840,7 +96843,7 @@
           "address": "Oshino-mura, Minamitsuru-gun, Yamanashi 401-0511",
           "category": "walk",
           "lat": 35.46003,
-          "lng": 138.84786,
+          "lng": 138.83289,
           "routeToNext": {
             "format": "polyline",
             "data": "exlwEwtmnYt@?A|AEpCKtI?TE`FEzACjBaCXcAH}BFuJh@kAFw@BsAHmCHgADkB?_@Fc@Ns@f@mBzAQHmDxAsJxCkNnEeFnCaA|@o@x@Ut@O^q@nB_@fAOd@]t@a@d@WPWPm@VGDaALiBHq@Js@\\q@l@]v@Iz@EzGIz@[z@e@b@wAt@e@j@_@|@IdA@r@VjAh@tAHr@Gr@Uh@c@d@eBp@iAj@Wb@Ij@?jAHrEVzGDx@Hn@Pj@n@pBRpAT~BPxAT~@r@nAd@l@~@v@h@l@LTdAzB`@b@RR|CdC^f@Nf@Hd@Bf@Cb@Ih@M\\QZo@v@[\\mBxBmA`BgAzAkAxBEJQ\\CDYj@EF_AxAQ`@yAxCS`@wAtC]r@EHuDnHATuCzFgAzBaC|EcAvBeAtBEJ{AnCOZMTUb@g@|@m@dAMXM\\Kb@aApDEPELc@bBMb@CHa@xAk@vBi@nBK^LHfClArAp@d@VVPrBtAvCpBJFGLmAtCc@rACHGZOp@O~@Gb@ANCPKv@KbAC\\?HA`@?TAdA?Z?R?L?NApAClAAl@Ad@A`@KhD?`@ATCt@Ep@Ir@Kx@q@bEId@?@GVMb@AHOl@M\\e@jASb@s@rAoAhCiAtCKTEJu@zAe@t@SXUXe@f@[TCBIHs@h@[V_@Z_At@y@n@u@t@ILMRMXKRa@~@q@vAOXYn@e@bAQb@]t@Ud@Y\\[\\q@`@iAp@{@j@WTQT]l@]j@UXUTSHMFQFYBSDWFs@Hg@FgBZ]JUJSLw@n@w@l@QRMPMVCDI\\GVO|@Ip@Gb@Gf@Kn@K^O\\Q^k@|@MV[v@cBhEUd@GJWh@y@tAKNMLQNUNGDaAl@e@Z[d@a@v@KNGLMLY\\OVIT_@z@U^eA~ACBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDWBU?QEMEg@YYQQKMK]UQMe@i@_@gAYaACIAGIUMg@Uq@oAsCm@sA]u@ZYLq@AgBK}Aq@mAk@k@e@ISWQg@EWEQ",
@@ -96933,9 +96936,9 @@
           "lng": 138.7688497,
           "routeToNext": {
             "format": "polyline",
-            "data": "_awwEuh~mYCMu@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTnC`@B?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJKPQLQDIJ]GE{@cAUs@@[BiBRo@?]",
-            "durationMin": 21,
-            "distanceM": 1737,
+            "data": "_awwEuh~mYJn@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAPMAK?KCGCIIa@c@kAnAKLe@n@k@t@k@t@OVMTEAWGECGCSKOIQGSCUE",
+            "durationMin": 28,
+            "distanceM": 2368,
             "mode": "walk"
           }
         },
@@ -96945,8 +96948,8 @@
           "title": "Arrive FUFU Kawaguchiko",
           "description": "Drop bags at FUFU. If suite isn't ready yet, use the lobby lounge, garden, or grab a light lunch / matcha at the on-site cafe. Aim for room ready by 14:00 (if early check-in arranged) or 15:00 standard.",
           "category": "hotel",
-          "lat": 35.50046,
-          "lng": 138.77116
+          "lat": 35.5282327,
+          "lng": 138.7599385
         },
         {
           "id": "d6-2e",
@@ -96954,8 +96957,8 @@
           "title": "Settle into FUFU suite + first private onsen",
           "description": "Once your suite is ready: unpack, put on the yukata, fire up the private outdoor onsen overlooking Mt Fuji. The whole point of paying for FUFU.",
           "category": "walk",
-          "lat": 35.50046,
-          "lng": 138.77116
+          "lat": 35.5282327,
+          "lng": 138.7599385
         },
         {
           "id": "d6-5b",
@@ -96965,16 +96968,16 @@
           "category": "experience",
           "costPerPerson": 13250,
           "currency": "JPY",
-          "lat": 35.50046,
-          "lng": 138.77116
+          "lat": 35.5282327,
+          "lng": 138.7599385
         },
         {
           "id": "d6-6",
           "time": "18:30",
           "title": "Kaiseki dinner at FUFU",
           "category": "food",
-          "lat": 35.50046,
-          "lng": 138.77116,
+          "lat": 35.5282327,
+          "lng": 138.7599385,
           "description": "Final Fuji-night splurge dinner at FUFU. In-suite or in-restaurant kaiseki — seasonal multi-course using Yamanashi ingredients, paired with the private outdoor onsen between courses."
         }
       ]
@@ -96991,8 +96994,8 @@
           "title": "FUFU in-suite kaiseki breakfast",
           "description": "Final FUFU morning starts with the in-suite kaiseki breakfast — book the 09:00 slot when reserving so the morning flows comfortably into a last onsen + slow checkout.",
           "category": "food",
-          "lat": 35.50046,
-          "lng": 138.77116
+          "lat": 35.5282327,
+          "lng": 138.7599385
         },
         {
           "id": "d7-0b",
@@ -97000,23 +97003,25 @@
           "title": "Final private outdoor onsen at FUFU",
           "description": "One more dip with the Mt Fuji morning view before packing. The whole point of FUFU.",
           "category": "walk",
-          "lat": 35.50046,
-          "lng": 138.77116
+          "lat": 35.5282327,
+          "lng": 138.7599385
         },
         {
           "id": "d7-0",
           "time": "12:00",
           "title": "FUFU checkout (late)",
-          "description": "Late checkout at 12:00 — usually complimentary at the splurge tier with a confirmed reservation; ask FUFU when emailing them about the early check-in and couples massage. This timing dovetails perfectly with the 12:30 bus from Kawaguchiko Station (~5 min walk) — no station wait.",
+          "description": "Late checkout at 12:00 — usually complimentary at the splurge tier with a confirmed reservation; ask FUFU when emailing them about early check-in and couples massage. FUFU is at Mizuguchi (north shore, ~3.4km / 10-min taxi from Kawaguchiko Station). FUFU staff arranges a taxi or shuttle — do not plan to walk this with luggage.",
           "category": "hotel",
-          "lat": 35.50046,
-          "lng": 138.77116,
+          "lat": 35.5282327,
+          "lng": 138.7599385,
           "routeToNext": {
             "format": "polyline",
-            "data": "_utwEwv~mY?\\Sn@ChBAZTr@z@bAFDK\\EHMPQPKJJLb@p@JLHDDBlBJJAJCVQRIRIRCXEP?LA?SH?NA",
-            "durationMin": 5,
-            "distanceM": 413,
-            "mode": "walk"
+            "data": "wazwEos|mYTDRBPFNHRJFBDBVFD@LUNWj@u@j@u@d@o@JMjAoA`@b@HHFBJBJ?L@@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNVJ`@Rb@ZTNJFPFx@XTHFDDDDDDHPj@^bALXLXPVPRRPRLRLPHNBNBN?DAHARGnA}@HKJQDS`AgDDY@WCUKu@O}@u@aGs@sFWsBGcA@aAFo@Lo@l@qAj@{@n@o@VSZWtAk@HAv@Iv@C`@@F?rANz@LrBTnC`@B?J@vAPdALZHRFPDTJTLXRNNXZX\\b@v@L\\Tp@HPVb@JLLJNJTFLBZBj@Bb@@f@@b@Dj@Nf@T`@R^Th@ZTVRTd@p@\\t@l@rAnArCTp@Lf@HT@FBHX`A^fAd@h@PL\\TLJPJXPf@XLDPDT?VCHEHIV[`@sBJk@DSFOPUXYLOJLb@p@JLHDDBlBJJAJCVQRIRIRCXEP?LA?SH?NA",
+            "durationMin": 16,
+            "distanceM": 5870,
+            "mode": "subway",
+            "osrmMin": 6,
+            "corrected": true
           }
         },
         {
@@ -97030,13 +97035,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "citwEwh~mY???i@?QDAn@@\\@DC?GDyA@w@EISAu@H]AG?@e@BcB?q@Eq@Ks@CSFMJO`@w@Ze@d@[`Am@FETOPOLMJOx@uAVi@FKTe@bBiEZw@LWj@}@P_@N]J_@Jo@Fg@Fc@Hq@N}@FWH]BELWLQPSv@m@v@o@RMTK\\KfB[f@Gr@IVGREXCPGLGRITUTY\\k@\\m@PUVUz@k@hAq@p@a@Z]X]Te@\\u@Pc@d@cAXo@NYp@wA`@_AJSLYLSHMt@u@x@o@~@u@^[ZWr@i@HIBCZUd@g@TYRYd@u@t@{ADKJUhAuCnAiCr@sARc@d@kAL]Nm@@ILc@FW?AHe@p@cEJy@Hs@Dq@Bu@@U?a@JiD@a@@e@@m@BmA@qA?O?M?S?[@eA?U@a@?IB]JcAJw@BQ@OFc@N_ANq@F[BIb@sAlAuCFMFMt@qBJWBIDKZ{@JYPk@Ja@V{@Rk@Vi@pBeE|@eBFMFMDKh@cAPYf@aAHQxAiChBwCR_@Xg@vBaEfCqFjC{F`@gAHS`EhATD~I|BlKtC`D|@hCr@TFrHnBZHb@LdHhBxA^|FzA|@V|@TvFvA\\JPPPVHVBFJXLEBA|@Y^Oj@OVEVCFJRLXNNFdAPXDb@Hb@RZN\\HNNb@j@TVDXX\\^^XTVRd@PtBh@h@Jb@Pl@Tj@MFh@L^zDxDX\\LRN`@Pb@R|@Nr@Nb@P\\VPTNd@VpAl@~Av@xBlAzB`A@YZoADQTw@t@wCRw@LUPWRMPET?R@PHTPRR^b@NLJHLFLBJ@N?PENENMNQz@oAvAaCdEwHj@gAx@{AtBsDfBoD`@{@nIuQhHgPj@sAfGqNbJ}SbJaTjEaKr@_B~GcPhDsItDiJlAeDv@wBh@cBb@uAd@{Ab@{Ab@}A^_Bh@kBh@mBr@}Bh@}Ah@wAl@sAj@iAn@iAr@iAv@iAz@iAjAoAz@y@x@s@dAy@rA}@bB_ApB_ApBw@nBo@rCu@pCk@pCc@dBQlDU~CSbDMfDEtDBjDJjDVbD\\fDd@fDp@hCn@|C~@tC`A~CnAhGhC~Al@dBj@rBh@rAXnAP|ANzAFnBArACdAGt@Gv@Kt@MnaDkh@t@Mp@Kt@Qt@SbA]xAm@nAi@rAo@`B_ApBoAvGcEvCkBjC_BfAs@|@e@z@c@~@_@|@UbAQr@Il@Cn@?r@Bx@Ft@Hl@Lh@Nl@RfA^`Ab@hDxAh@Rj@Nn@Nn@Lt@Hr@Bt@?n@Ct@Gr@Ip@Ml@Qd@Ob@QZQZS\\UVWXWf@m@b@k@`@m@b@s@\\q@Vo@Pa@Lc@Jc@Lk@Jg@Ha@D[D]B[@[B[@W@Y?[?y@Gy@CUKu@AO?SAkB?eB?UBUHgABg@ByIBw@Bm@Bm@Bg@Du@Dm@Fi@J{@Js@PcAf@kCrB}Kf@kCX}AXwARaAVaAV}@Z_A\\{@d@gAb@_Ad@{@h@_Ap@eA|CqEhC_EdDuEjLePd@q@h@u@j@u@r@u@`AeAxAoArB{A~AaArBeAzEiCfKqFrEiChAs@bAs@lAcAl@k@~@aA\\c@d@o@l@{@l@_AfCsE`NoUNWjEqHz@sA`A}Ax@kAz@aA|@}@p@o@f@e@f@c@bAw@v@m@xBaBjByAzAoAlAeAjAiA|A_BnAwAfAsA|@oAbCkDhGuJvDcGjAiBpAuBtA{BnAeBnAaBbAkApA}A`AaAbA}@\\_@V_@Pe@Fa@@e@Am@Go@MeAOeAMs@Oo@m@yBMi@SeAQ_AMq@Io@Eo@Cs@Cm@?q@?k@Bg@Bk@Di@LqARqBR{BJ}@Fo@RqBNeAPgAZgBTmALu@Jw@Dg@@k@Ae@Ai@Ge@CSAKKa@e@eBGYG_@AYBYDYHYP]PUTKTIXCZCfC@tBDlECjEA~AIjKi@bKq@xFc@xGi@xJy@`DUhCOhDMnDIpFAbDH`CJlBJpBNbBL|BVlBVhDj@~Cj@|Cn@xG`BnDz@nDx@xBd@tB`@hCd@pDd@vCZtDZnG^xI`@xEZfFd@lFh@lDd@hHdA|Dr@rGlAfDr@~Bf@bDl@rAVrJvAzEl@pD^~D\\pDVlDRxAFlBHdFNfEHxB@hGBzHK~DGzJ[pDK~HKtGCnKD~EHtBFhEJjHX|EV~CT~BPxBT~BVdC\\xATbBXdB\\hB`@|A`@fBd@xBp@jBl@vBt@nBx@tB|@hClArDlB~BvAvBpAtBvA`ChB|CdClB`BpAnA`D~ChCnCzCfDzBfC|CnDhFhGfHdIdEnE|A~AhBdBhB`BhB~ArAbAbChBjChB`DpBlDtBdDjBxCxAfH~CvB|@nBr@|Bv@nBn@bBd@nBf@`Cl@`B`@nBb@`Dl@~F|@pCZ~Gf@`FT`CDrD?bEE~DOjDShFg@lFs@vCe@xIaBjE{@|GoA\\GbHiAdAO`AMxD_@hD[rDWdAGpDOfACnCEnCCpD?pHLnBDrFZlFb@lCZzC`@dEl@pDl@bDj@jDn@pE|@bMpCnM~C|Cx@bAZfD`ArC`AfC`AxCjAxDbBhEtBlDlBtGxD~CrBfDdCnCtB`CrBrBfBpBhB|AzA~AdBfBjBhApA|AhBnBfCnD~ExAxBl@~@bFvHtA~BpAzBtBpDdAfAt@f@fA^^H\\Dd@B`@?v@Ix@Mv@YtA{@`@a@h@m@`AkA`AsAt@iAbCaEz@sAz@kAV]fAqB^k@|@gA|@iAb@qAZaARs@Ri@V[`@UXIb@?VBXJTPHLLPN\\Lb@Pj@Pr@J`@Lf@DLBJj@h@TJTDP@PAPERIPKp@k@n@kAr@sAbAqB~@aBv@sA|CsFhAuBx@wAhD{F~HiNzBsDjAsBfAuC\\sA\\cBLq@DUH]JiAHu@^wDp@kHLwABc@F{@JgARwB^{EJkBFkBFeD@_@@eABeFb@k[NmMLyILmHD}GFmFFaCNGRGPGf@[d@a@PQzAsAPQ\\[h@]d@Wf@Qh@M`AKtAEHAPCb@Cj@Af@Fd@HZ?rC@rJ?rSABe@H_@Na@LUj@q@^s@",
-            "durationMin": 95,
+            "durationMin": 80,
             "distanceM": 54326,
             "mode": "subway",
             "osrmMin": 50,
             "corrected": true,
             "formulaMin": 79,
-            "pinned": "Mishima-Kawaguchiko Liner highway bus scheduled time (~95min)"
+            "pinned": "Mishima-Kawaguchiko Liner ~1h15-1h20m (NAVITIME timetable)"
           }
         },
         {
@@ -97100,7 +97105,7 @@
           "category": "food",
           "lat": 35.00713,
           "lng": 135.77107,
-          "address": "Pontocho Suishin, 185 Zaimoku-cho, Nakagyo, Kyoto",
+          "address": "181 Zaimokucho, Pontocho, Nakagyo-ku, Kyoto 604-8011",
           "routeToNext": {
             "format": "polyline",
             "data": "oittEutt{XfBCF?|@AD?b@?v@AzA?B?N?v@Ar@?dA?pA?P??SAgA?Y?eC?G?QAI?G?O?M?S?eA?}@?[?UAkF?kB?]PHfA?By@",
@@ -97120,9 +97125,9 @@
           "address": "Ichiriki Chaya, 569 Gionmachi Minamigawa, Higashiyama, Kyoto",
           "routeToNext": {
             "format": "polyline",
-            "data": "arstEuru{XCx@gA?QIUI}AC_CKMAK?aBIK?E?Q?G?kA@y@GQAGAa@CQAUCSAc@Cw@Cw@GSAAZBhB?L@bD?N?RK?a@Bq@HiCXI@Fx@D`A@V",
-            "durationMin": 10,
-            "distanceM": 812,
+            "data": "arstEuru{XCx@gA?QI?\\?jB@jF?T?Z?|@?dA?R?L?Ne@EeAGeAEiACOA_GKM?QAeDEoAA[?]Am@?c@BuA?Y?_@?yA?wEEU??\\?F?jA@fB@pB@P?V@|F?f@@j@LxG?V@P@`C@~B?N?P?lB?P?N@nD?NW@[@qB@aC?EzCAxC@fC@lCAzC}@?o@?",
+            "durationMin": 26,
+            "distanceM": 2176,
             "mode": "walk"
           }
         },
@@ -97132,15 +97137,16 @@
           "title": "Yoramu sake bar",
           "description": "Tiny serious sake bar.",
           "category": "bar",
-          "lat": 35.0089,
-          "lng": 135.7728
+          "lat": 35.0128,
+          "lng": 135.76,
+          "address": "35-1 Matsuyacho, Nakagyo-ku, Kyoto 604-0831"
         }
       ],
       "routeToHotel": {
         "format": "polyline",
-        "data": "avttEybu{X@f@@P?TZBL?vD?Z?tFFP?L?|EJ\\@N?D?fABdADfAHb@BF@j@Fr@LVFPD\\JHB\\Jf@VvAh@RFPFh@V`Ab@bBr@~An@bHjCNDJDnF`BzDtAbBh@x@Td@LXFB@ALCTADUnCAF?F?b@Ct@AXGz@EhAE|@GfBGz@En@?VA\\CxACpA?FAZAj@CnCANAdCCtBA^Ab@CxBAz@?D?d@j@AB?fAAnBAJ?xAArA?N?\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
+        "data": "_mutEmtr{Xc@?iC@?oA?_AlDGPA|ACAzCCtAAPP?dF@`@?VA^?zB@T?R?rE?P?T?rE?T?P?hEAN?P?~B?hA?L?P?dEAn@?f@?`A?~AA^?N?fEAP?N?~D?R?T?lA?pCAN?L?jA?jCCJ?J?xE?B?`@?h@?j@AB?fAAnBAJ?xAArA?N?\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
         "durationMin": 16,
-        "distanceM": 3119,
+        "distanceM": 2951,
         "mode": "subway",
         "osrmMin": 6,
         "corrected": true
@@ -97175,13 +97181,14 @@
           "title": "% Arabica Higashiyama",
           "description": "First stop — minimalist Kyoto coffee with view of Yasaka Pagoda. Leave the hotel ~8 AM, ~20-30 min by taxi/bus.",
           "category": "food",
-          "lat": 34.9988,
-          "lng": 135.7807,
+          "lat": 34.9994,
+          "lng": 135.7799,
+          "address": "87-5 Hoshino-cho, Higashiyama-ku, Kyoto 605-0853",
           "routeToNext": {
             "format": "polyline",
-            "data": "qurtE_uv{XK@e@LQ@W@?IAI?U?gAAIAKAKWaFAO@I?IBGBEDCDALEHCPENC^Eh@El@G`BMB?t@Af@CN?HBTf@F`@RbAH^^rA@JQtCx@@Na@@E?E@c@@I@GF]Hm@Fk@Dg@Fc@@A@ABAB?l@JBB?B?DA^ALAJHB@?@ABEDS@O@Q?[?CWQACAEHqBBOT}@DMFIFEFGBAB@NNFm@@K@EB[?Q@u@DCPELA",
-            "durationMin": 9,
-            "distanceM": 738,
+            "data": "cyrtEkov{X?HJ?J@Ac@?gC?IAI?U?gAAIAKAKWaFAO@I?IBGBEDCDALEHCPENC^Eh@El@G`BMB?t@Af@CN?HBTf@F`@RbAH^^rA@JQtCx@@Na@@E?E@c@@I@GF]Hm@Fk@Dg@Fc@@A@ABAB?l@JBB?B?DA^ALAJHB@?@ABEDS@O@Q?[?CWQACAEHqBBOT}@DMFIFEFGBAB@NNFm@@K@EB[?Q@u@DCPELA",
+            "durationMin": 10,
+            "distanceM": 861,
             "mode": "walk"
           }
         },
@@ -97195,11 +97202,12 @@
           "currency": "JPY",
           "lat": 34.9949,
           "lng": 135.7851,
+          "address": "1-294 Kiyomizu, Higashiyama-ku, Kyoto 605-0862",
           "routeToNext": {
             "format": "polyline",
-            "data": "y_rtEamw{XM@QDEBAt@?PCZADAJGl@OOCAC@GFGDGHELU|@CNIpB@D@BVP?B?ZAPANERCDA@A?IC@K@M@_@?E?CCCm@KC?C@A@A@Gb@Ef@Gj@Il@G\\AFAHAb@?DADO`@y@APuCAK_@sAI_@ScAGa@Ug@ICO?g@Bu@@C?aBLm@Fi@D_@DOBQDIBMDE@EBCDCF?HAH@NV`FE@KBIBD^@P@XACACCCCAEAKA[@OC_@C_@EGhAAV",
-            "durationMin": 11,
-            "distanceM": 886,
+            "data": "y_rtEamw{XM@QDEBAt@?PCZADAJGl@OOCAC@GFGDGHELU|@CNIpB@D@BVP?B?ZAPANERCDA@A?IC@K@M@_@?E?CCCm@KC?C@A@A@Gb@Ef@Gj@Il@G\\AFAHAb@?DADO`@y@APuCAK_@sAI_@ScAGa@Ug@ICO?g@Bu@@C?aBLm@Fi@D_@DOBQDIBMDE@EBCDCF?HAH@NV`F@J@J@H?fA?T@H?H?fC@b@KAK?SAM?kACq@Ae@AC?EAE?S?a@AC?UA{@Au@C_@A{@ACCAEBgBAC?CCCCA_@CgBKC?]AW@I@kBb@JhB",
+            "durationMin": 16,
+            "distanceM": 1304,
             "mode": "walk"
           }
         },
@@ -97211,13 +97219,14 @@
           "category": "food",
           "costPerPerson": 1500,
           "currency": "JPY",
-          "lat": 35.0001,
-          "lng": 135.7806,
+          "lat": 35.0033,
+          "lng": 135.78,
+          "address": "484 Shimokawaracho, Higashiyama-ku, Kyoto",
           "routeToNext": {
             "format": "polyline",
-            "data": "{}rtEetv{X@WFiA^D^BNBZAJ@D@B@BB@B@B@D@d@?N?tB@PAb@J?J@?JBzA?~A?HALIjDGhA?HCZIAKCkAMoAMiBSM?M?E?aBHqBLG?A?I@mA\\i@L?P?@Dj@U`A]rAERANANALEjAI~ARB",
-            "durationMin": 9,
-            "distanceM": 774,
+            "data": "orstE{ov{XKiBjBc@HAALG|C?L@Hb@xCHfAAP@pA?lB?N?D?V@Pm@PSFK?K?MA{@Ik@GCn@APEjAC|AAxC?`@?\\?jB@jF?T?Z?|@?dA?R?L?N?F@H?P?F?dC?X@fA?R?H@H?B?J@jC@fAt@?d@Ad@?lAAJ?Z?J@HBH@HBJDPFh@R\\NxAl@`@PJDNFhDtAJDDBGTCJAJAH?VAzCJPBP?lB@hC@~C@jC@J@dC?nA?bA?T?^UjA?F?~CF?`DAP@`@?d@D~@@r@?`CBAi@?CAuB?G",
+            "durationMin": 26,
+            "distanceM": 2198,
             "mode": "walk"
           }
         },
@@ -97229,13 +97238,14 @@
           "category": "experience",
           "costPerPerson": 5500,
           "currency": "JPY",
-          "lat": 35.003,
-          "lng": 135.7748,
+          "lat": 34.9978,
+          "lng": 135.7619,
+          "address": "353 Shiogamacho, Shimogyo-ku, Kyoto 600-8104",
           "routeToNext": {
             "format": "polyline",
-            "data": "sostEkpu{XSC}@KgA?QI?a@@yCB}ADkA@QBo@]QME]K@]EIEIS_@OQWS[[KMKOCGCGCI?I?M?MHcAF_A@IBIDCFEDAB?DAD?bARH@DABADADABCDCF[PgABWBy@@G?EBG@EBGBEBCBERAHH\\jG",
-            "durationMin": 5,
-            "distanceM": 452,
+            "data": "onrtE{~r{XAoC?kCBoC?mCCqCAG?gC?yC?WKC_DcA}@YSGDYDy@?S@S@GMIBGRkAEuD@G?MMEA?eDkAcFqBoEmBOISKkAc@kAc@_AUOCy@Oi@IGA?O?M?S?eA?}@?[?UAkF?kB?]?a@@yCB}ADkA@QBo@]QME]K@]EIEIS_@OQWS[[KMKOCGCGCI?I?M?MHcAF_A@IBIDCFEDAB?DAD?bARH@DABADADABCDCF[PgABWBy@@G?EBG@EBGBEBCBERAHH\\jG",
+            "durationMin": 25,
+            "distanceM": 2076,
             "mode": "walk"
           }
         },
@@ -97279,13 +97289,14 @@
           "category": "experience",
           "costPerPerson": 3000,
           "currency": "JPY",
-          "lat": 35.0011,
-          "lng": 135.7798,
+          "lat": 34.9978,
+          "lng": 135.7818,
+          "address": "349-12 Masuyacho, Higashiyama-ku, Kyoto",
           "routeToNext": {
             "format": "polyline",
-            "data": "{cstEsov{Xp@@T@B?`@@R?D?D@B?d@@p@@jABL?R@J?J@?JBzA?~A?HALIjDGhA?HCZRBlBP?NOjGEnAEnBEpBAp@Cf@Ex@?FCXANIhAKrAGr@AJb@FN?R@d@@J?CJCN_@~DMtAEn@?HAHA^ALAXJDnF`BzDtAbBh@x@Td@LXFB@ALCTADUnCAF?F?b@Ct@AXGz@EhAE|@GfBGz@En@?VA\\CxACpA?FAZAj@e@ADqC@K",
-            "durationMin": 23,
-            "distanceM": 1918,
+            "data": "enrtEyyv{XCDMPEJKNABCBABC@ABC@C@C?A@C?C?U?}@FaAB@|@M@MBe@LQ@W@?fC@b@?JBzA?~A?HALIjDGhA?HCZRBlBP?NOjGEnAEnBEpBAp@Cf@Ex@?FCXANIhAKrAGr@AJb@FN?R@d@@J?CJCN_@~DMtAEn@?HAHA^ALAXJDnF`BzDtAbBh@x@Td@LXFB@ALCTADUnCAF?F?b@Ct@AXGz@EhAi@YDy@Ds@Fg@LeAWEC?MAe@G",
+            "durationMin": 19,
+            "distanceM": 1621,
             "mode": "walk"
           }
         },
@@ -97297,8 +97308,9 @@
           "category": "food",
           "costPerPerson": 8000,
           "currency": "JPY",
-          "lat": 34.9961,
-          "lng": 135.7641
+          "lat": 34.9962,
+          "lng": 135.7677,
+          "address": "420-7 Nambacho, Nishikiyamachidori-Matsubara-sagaru, Shimogyo-ku, Kyoto"
         }
       ],
       "routeToHotel": {
@@ -97345,6 +97357,7 @@
           "category": "temple",
           "lat": 34.8893,
           "lng": 135.8076,
+          "address": "Renge-116, Uji 611-0021",
           "routeToNext": {
             "format": "polyline",
             "data": "{j}sEu`|{XB_@HKPOtAcAdAy@XUHGnAmA@E^a@Za@^a@b@e@RYP]L]HYJSNCV?Ct@SxA_@hB]x@]f@]\\a@^]\\GFORYj@K\\K\\Op@Gd@Ct@@r@D`@Lv@?DN|A@V@RBX?ND`@BXB`@K@M@m@CgACqBMaDUEAmAE?G?_@Cu@OeBBEFML]Lc@\\kA@E?GAECI",
@@ -97638,12 +97651,12 @@
           "time": "21:00",
           "title": "Bee's Knees · Kyoto speakeasy",
           "description": "Last Kyoto nightcap. Quiet, tucked-away speakeasy, classic cocktails. Get dinner around Kawaramachi area first, then walk over. Cash preferred.",
-          "address": "284 Maruyacho, Nakagyo Ward, Kyoto",
+          "address": "364 Kamiyacho, Nakagyo-ku, Kyoto 604-0961 (Matsuya Bldg 1F)",
           "category": "bar",
           "costPerPerson": 3500,
           "currency": "JPY",
-          "lat": 35.0067,
-          "lng": 135.7689
+          "lat": 35.0083,
+          "lng": 135.7707
         }
       ],
       "routeFromHotel": {
@@ -97813,11 +97826,13 @@
       "routeFromHotel": {
         "format": "polyline",
         "data": "wmqtEw|q{XNAAw@D?|CEB?bA?|C?v@?l@?rB?L?RA`A?D?Z?L?R?T?P?L?f@?D?B?Z?fB?L?B?J??J?F@xF@V?D?D?X?bGBX?X@P@H@FDLDHJN`@CB?p@ClDi@fCa@fAOTE^GRCZETAnA?|A?bFCP?pCDfCBjEBV?Z?v@B~@@t@@T?V?vBBjA@fA?tBBN?T@x@?vABf@@f@?h@?hA?~CF`@?`@@H?|JJdAD`@@nA@hA?xAB^@xC?j@@xA@~@D`@@zDNl@DV@d@BtBHpCNV@A~@CrB?BAb@?DK~HAbCE~DGbGKbIxLHhDBR@d@?dBBfDBbA@^?~BBhFDhA@|CDf@?JEl@?T?jEDrD@`@ENCLCNGPKLKHKBI@K@MAMASCUEWOk@Qw@Qw@]oAGKEIKIGEICK?K?IBGDIDEFEHCJCNAL?P@NBPh@fC\\fBJ|@V~@j@rBpBbHz@zClPdm@hEvOjBvGpDrMhAhEHTr@nCJ\\HTLb@d@zAl@`Bh@tAfAdCnBdEHNLTJP\\l@b@x@Zf@Xb@PXd@r@^h@T^X`@VZZd@^b@\\d@^b@Z^d@d@vA`Bh@f@\\ZHJPN\\Zb@\\`@^\\ZLHTRb@XhAx@TNl@`@bAr@hAp@JFXNLHJDTNhAj@bAd@^PLFNFtAh@`Bn@nAb@pA^ZH`@LhCr@zDdAfAXLD~EvALBrGjBv@R|Cz@LDbJdCTFrDdAj@N|MtDjBf@hJfCRF~Bn@~@Vbm@nPtC|@jBr@hBt@tBz@h@X`@Rn@\\n@^j@Zh@`@z@l@bAx@~@|@|@bAt@|@p@~@f@p@t@lAr@pAVf@Vj@Tj@Tl@Tl@Tn@Rp@HZHVRr@VfARbAR`ATrA^bCr@hEjDxSzAdJtEnYVvARhAXlAZpA\\rAXz@Xz@Zt@`@~@jBxDbo@prAdExI`C|EhArBx@vAh@t@x@jAbAlA|@`Ax@x@`A~@tBjBpB~A|AjAlAz@xA`AjAr@lAp@zC|AvHxDbFdCdEtBxNzGlDdB~BjA|CbBzDzB|@j@hFzCHF~@h@nc@~WxA~@`An@jA~@hAdAbAbA|@hA`AlAp@dAt@lAp@jAl@lAl@rAh@tAp@lBh@fBb@dB\\`B^nBZlBRvATlBLjAHvAJjBHlBDlBBvB?vBCjBI|BKxBOpBS|BYxB[rB]lBa@jBa@dBe@bBm@hBk@`ByBrFcA`Cs@fBo@bBi@bBi@jBc@bBa@hBY`BUxAS~ASlBOjBKlBGjBElBApBBpBDhBFpBN~BT|BVvB\\|Bb@|B`@hBb@`Bf@fBh@`Bn@jBj@~AnAjDbEhLzFvO~FjP^bApLd\\jGzPrQhg@vElMxCvHhAdCp@zAz@bB~@bB~@`BvC~EvAtBjA~Avt@b_A~@jAzBpC|BrCnF~GhChD`TpWzAbBfDpDh@h@b@^nAjA~EbEhCvA|BrAf@V^NTFT@RCPGLKJQBQ@Q?QGQIUQYSUi@m@Y]MMm@s@KQEW@WBQNa@NQzAeB\\YRQTM\\IRENAVAb@Cl@f@PJb@XpATd@JnB^xEz@|FhAVFv@Nx@Nf@JpCj@tAVxBd@lEz@xAXtB`@vB`@nAV~Dv@t@NtCf@zDb@nD\\lBRdCVv@HV@tBTh@DbALN@PBTBhAJxBTRBTBv@Hd@DbAJzBTB?VDlCVTB`AJP@J@D@^DVB~ANh@FlBPh@F^HF@\\B`BLv@HbBPrALTDRDxAf@pBp@bAZVHPHt@VtAd@nBl@fBl@bA\\l@PxAh@~DrAxAd@LF~Bt@f@RfA\\\\Lb@NVHfA^TH~@ZnBp@LDNDtAd@lAh@~@l@x@n@xAzAd@j@HJFJtA|BHLZh@v@rAHLFJhAlB@@Zb@N^pAvBZh@vBpD|@zApAtBp@lAr@jA~@xADJHNb@t@p@hA`@p@DH@@NVDFBDhAjBXf@^n@`@n@HLJRT^PXz@vAjB|C~@~AT`@^n@vA|BhAnBT\\PXpAxBV`@RZv@jAJLVZn@l@JJPNNL`@XhCzAlAp@HFJFRJXNbCtAVNjAp@HDHDxAt@fAp@dDjBLFZPDBjDnBPJHDPJv@b@ZPHFj@ZnAp@B@fBbAXNVPz@d@v@b@hB`At@d@NHf@VJFZPTLn@`@v@^JFLH\\Rd@Vt@b@nAn@RJfDpArDxARLLJJFVZNPLPd@l@FJHJLPLPt@nAFHFJ|AjCt@lAl@`APZNT@BrBjDx@tAPXZh@HNJPx@vAV^b@z@Xh@TVbAnBJPJRnBvDHNXd@`@t@n@`ANT\\h@`@d@^^l@`@tAjANLXNr@d@lEjClBdAvAx@`CxAx@h@ZXZZvAdAPNZTf@^h@`@TNXNdC`BPL`@Xp@d@vB|APLPJfAt@rBtA|B`Bz@n@b@j@f@XnFtDxA`BPPNLHF~AtAfDnBr@\\l@Vn@V`@V`@Xx@j@r@f@@@ZRF?H?D?DAFCNGVW~@\\b@PPHNHVNXTx@n@jCrBDDJBdErBTTNYJWVe@FBx@VLHTH^Jh@Lt@R^JF@JDLFTPTNdATFBz@Tx@Rr@Tx@TrAb@n@VRHJDnCdARH`@NnBt@FB^N|EjB|@\\f@RrAf@`DlATLl@X`@T^VVRTRFFBFBFBLFRXlAHCn@W",
-        "durationMin": 79,
+        "durationMin": 35,
         "distanceM": 42570,
         "mode": "subway",
         "osrmMin": 50,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 79,
+        "pinned": "JR Kyoto→Shin-Osaka Shinkansen ~13min + walks, ~35min total"
       },
       "routeToHotel": {
         "format": "polyline",
@@ -97844,11 +97859,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "kqqrEecazXCrAATM?iCEU?O?M?oACYAi@?[?eAAK?{@Aq@?e@Ay@AI?U?IAo@?W?M?K?w@AgBAIAI?mCCM?KAI?}BCQ?S?aCEK?O?eCAK?O?cCAMAI?eAAO?I?YAS?Y??_@?E?}A?GAs@?eA?_@?K?y@?E?E?O?M?EA]?mC?qA?ECeC?CA_@A]?IAwAAK?I?Q?}@Dc@Kk@yBoJAMASEqFAO?MAwF?M?e@As@?c@?KBeB?E?[@KHyD@w@DyALqDuAGiDQsAImEUuBIwAIwFSIAo@Ck@Cm@CKAeCMSAkBIm@?i@?O?wEz@oDv@A@MBSFYFsAZ_B\\QFaARsCn@W@SAQC_@IeAmBmBoDGMAGAIOiCCICECC",
-            "durationMin": 17,
+            "durationMin": 28,
             "distanceM": 4137,
             "mode": "subway",
             "osrmMin": 7,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 17,
+            "pinned": "Kuromon → Osaka Castle via Sakaisuji + Chuo Line transfer, ~28-30min (Rome2Rio)"
           }
         },
         {
@@ -97865,11 +97882,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "sgvrE{fdzXBBBDBHNhC@H@FFLlBnDdAlBATGtAI~AOnDADObC?HARRDr@@dFCZ?R?`@A|BA^AR?~AAhE@lC@f@@\\@zGFZ?vABV?xCB`A@vEDN?bBBF?F?L?B?l@@h@HnFFhDHnHZv@ChADH@J?pH\\V@VBfKbATBLBhEf@tB\\jBTZDPBtDd@vEl@fCVpALD@XBVBXBzD`@bALbCVH@N@F@dEb@p@HlBPXDTBpCXR@LBf@Dr@HjBR^D\\BnANtEf@r@?|@?R?N?hFD`@?d@?fBAn@@Qb@KZa@pAGP]tAk@hBK^UL@Z@`A?X]pGU~DGhACZCX?FCVE^QvAQtACT??RBn@Pp@PdAVrBf@BKDMBGFGFIHCJCLAF@D@ObA",
-            "durationMin": 19,
+            "durationMin": 35,
             "distanceM": 5437,
             "mode": "subway",
             "osrmMin": 8,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 19,
+            "pinned": "Osaka Castle → Tsutenkaku via Tanimachi + Midosuji to Dobutsuen-mae, ~35min (Rome2Rio)"
           }
         },
         {
@@ -97915,10 +97934,12 @@
           "lng": 135.5063,
           "routeToNext": {
             "format": "polyline",
-            "data": "}}nrEyaazXKp@cAWGCk@MIAsBg@eAWq@Qo@QSC??CPGf@E^AH?BE`@ELKlAIn@i@Ko@Kq@ESAK?YAM?kCGQ?U?eCGOAQ?gDGO?QA{ACQAY?sBGO?SA}ACU?QAS?_BGSAS?c@AyACe@Ag@?cCA_@Am@?mBCOAK?I?K?sA?Q?M?OAqBCO?M?iCEU?O?M?oACYA?d@A~@ApAC|BA|@?LCnD?PCbFTAn@?j@CF?H?jBEHA`BMF?",
-            "durationMin": 23,
-            "distanceM": 1885,
-            "mode": "walk"
+            "data": "}}nrEyaazXKp@cAWGCk@MIAsBg@eAWq@Qo@QSC??CPGf@E^AH?BE`@ELKlAIn@Gt@Ir@K`AMx@?\\@^@VBRLfBHnABX@ZJxAMjAC^DRIx@KPE`@ATEf@CTOvACRMzAE^CXEZKfAU`CE`@Cb@e@?kC?}C@g@?u@As@@W@[@eAAwC?e@@wA?W?SAaBEa@AaAEWAU?qCGaAC_BEa@Aa@AiBAkAAS@S?cA?g@?{BB]BWHiBj@[@YBiDfAk@Nk@RaDfA_AVOBSB_BPC?O@S@{@DwA?MAWAyACK?WA?YByAEQAw@@w@@_BE?{CSKAK?qBM",
+            "durationMin": 13,
+            "distanceM": 3238,
+            "mode": "subway",
+            "osrmMin": 4,
+            "corrected": true
           }
         },
         {
@@ -97926,12 +97947,12 @@
           "time": "21:30",
           "title": "Bar Nayuta · speakeasy",
           "description": "Dotonbori-area speakeasy. Hidden door, classic + creative cocktails, intimate bar. Walk 15 min back from Shinsekai to Namba. Cocktails ¥1500–2500. Cash preferred.",
-          "address": "2-3-3 Sennichimae, Chuo Ward, Osaka",
+          "address": "1-6-17 Nishi-Shinsaibashi, Mario Bldg 5F, Chuo-ku, Osaka 542-0086",
           "category": "bar",
           "costPerPerson": 4000,
           "currency": "JPY",
-          "lat": 34.665,
-          "lng": 135.5025
+          "lat": 34.6726,
+          "lng": 135.4983
         }
       ],
       "routeFromHotel": {
@@ -97939,13 +97960,15 @@
         "data": "o}rrEoi_zXyEUiEU}BK{BIqBGuIQ}FJaE?yFOQ?OA?LN@f@@bDHnBDj@@rBB@eB?uD@_C?}A?I?E?M@[T?@?hBBB?@?N?P@B?~BDB?B?J?H?B?bCDT@~CBzB@V?R?TAZ?Z?hA?F?H?dC?J?J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZGf@?XBb@?PD`AAP?J?b@@f@AN?P?b@@l@BTDFBHDLHJJNVb@CPI`DmBnAw@BA`@SVK?a@HsB@U?SCu@[kBCQESGa@BmB@s@@O?QBiDAO@S?ODKF}ADe@D[FeAG?}CIeBE_A?eCGIA?D",
         "durationMin": 17,
         "distanceM": 1423,
-        "mode": "walk"
+        "mode": "walk",
+        "formulaMin": 17,
+        "pinned": "Cross Hotel → Kuromon is walk (correct, ~10 min)"
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "upqrE{g`zXG?aBLI@kBDI?G?k@Bo@?U@AbC?F?LAnC?JA^?l@CdC?JApAElBOfACPCVUpCk@RaDfA_@TMLIHIXG`@C^?\\DXHVNPNFN@RAPGLIFQDQ?SAUEUM]MSOSUSQOSKOIQEQE_@Ge@Oi@G_Gq@qAIuF[",
-        "durationMin": 14,
-        "distanceM": 1182,
+        "data": "w~rrEqo_zXYA{CGAoEAqC?I?]J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZGf@??l@CdC?JApAElBOfACPCVUpCk@RaDfA_@TMLIHIXG`@C^?\\DXHVNPNFN@RAPGLIFQDQ?SAUEUM]MSOSUSQOSKOIQEQE_@Ge@Oi@G_Gq@qAIuF[",
+        "durationMin": 1,
+        "distanceM": 107,
         "mode": "walk"
       }
     },
@@ -97966,11 +97989,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "o}rrEoi_zXyEUiEU}BK{BIqBGuIQsCG_FIqEKaEImA?iA?uB?wB@wFB_@?_EBwB@{J`@qA^kDTyE^O@S?E@GBEFIFGJGJEB?P@hB?TM@y@Hw@Je@BG@WBI@gAJA?Q@OB}@HaBPUB]DE@{BVA?WBQBsANi@FOBM@mCXS@O@c@@q@Cw@CI?MA}@CQ?s@GK?UC]Cg@Cc@AkBGQ?K@u@C_AC]Cq@Ag@KGUIQIWk@yAEIM[KW{@yBs@iBCIG[Aa@P{@AYEi@C_@AW_@Sc@WGCSKKCGGIGSSQSEIeBaCEGGGa@o@QKIMEIGIGKa@k@GIKOGK[DoBPUD[HYJGBSLIFu@n@GDGFOLk@\\c@RWH_@H]D_@?G?K@s@Aw@?mA?_A?S?G?KAQ?_CBM?S@]?a@IQEu@BuALwCXYB{AZkBPsBLkILgHHcDDeA@s@Bs@HoD\\{ALc@DyALuGn@uFh@uALy@L_CV[DgAJ}BT]Bc@@qABgF@wB?qCIqA?aI@QASAWGYKUKg@WUKKCKCOCKC]?sA?oB?KAKCMEIKUWGG[q@CKQu@EMEMa@{A",
-            "durationMin": 23,
+            "durationMin": 18,
             "distanceM": 7257,
             "mode": "subway",
             "osrmMin": 11,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 23,
+            "pinned": "Midosuji Line Namba→Shin-Osaka direct ~9min ride + walks, ~18min total"
           }
         },
         {
@@ -98018,8 +98043,8 @@
           "title": "Hotel check-in (finale)",
           "description": "Shibuya Tokyu REI Hotel.",
           "category": "hotel",
-          "lat": 35.6589,
-          "lng": 139.7034,
+          "lat": 35.660255,
+          "lng": 139.702026,
           "routeToNext": {
             "format": "polyline",
             "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCGLEFINC@ODWHUFI@M?WaBGk@CSCQAO@KB]zDnDrBfBp@h@HDJBZDD@BB@DDvBDx@BZBVHt@Jd@b@dBZnAl@bCLd@DPRbAJ^DPHXFXHZtAdGx@~DJf@F~A`AvGBL@PCNGHUTQKSEKE[Qg@Yy@c@FODK",
@@ -98076,9 +98101,9 @@
       ],
       "routeToHotel": {
         "format": "polyline",
-        "data": "}pvxEqb`tYDEJSPNKR]l@GJGJYh@KNcBlCIL[^W\\QTs@nAYr@qA`E_@nAKZsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBB^\\XVd@`@pAjAn@j@lAfAp@p@h@j@\\^NPT`@pEvI`@t@JPP\\x@|AnAvBHNNVXh@v@tAJRC\\AJ@NBPBRFj@V`BJfAHt@JfAVjC@TLhA@NB^VIFArBw@^OTIBMEMUsA",
+        "data": "}pvxEqb`tYDEJSPNKR]l@GJGJYh@KNcBlCIL[^W\\QTs@nAYr@qA`E_@nAKZsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBB^\\XVd@`@pAjAn@j@lAfAp@p@h@j@\\^NPT`@pEvI`@t@JPP\\x@|AnAvBHNNVXh@v@tAJRC\\AJ@NBPBRFj@V`BJfAHt@JfAVjC@TLhA@NB^BRWDYBM@qAD",
         "durationMin": 16,
-        "distanceM": 6558,
+        "distanceM": 6475,
         "mode": "subway",
         "osrmMin": 6,
         "corrected": true
@@ -98189,11 +98214,11 @@
           "lng": 139.7016,
           "routeToNext": {
             "format": "polyline",
-            "data": "svsxEkmtsYGgBAYEk@CSC_@AOMiAAUWkCKgAIu@KgAWaBGk@CSCQAO@KEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOZm@`@q@dAaBNUBEXe@P[HOL_@La@Hm@DiA?uA?c@PKXEfAUHAfB]ZIpAUFAhCe@ZGTE`@IfCe@h@KTFTCt@Kx@QHCdA[nBs@NEh@QPCj@ITCd@A^AP@L?H@^HD?RFNYRiBBKDILOLQPQ`@e@v@iArAcBLQLO~@u@d@Y`@WXYDS?CAE?GGMIKmAc@QKDQBOZ{AZqABKDMPu@BKTaA^}ADODQBOb@gBNm@@I@CNs@H]Ps@R{@BOZqABI\\}AT_ABOH[DOPu@Nq@BKR{@@GLi@DMDSFU\\qARy@DSFU?CFSh@aCJAbBp@xAl@F@",
-            "durationMin": 19,
-            "distanceM": 6865,
+            "data": "svsxEkmtsYGgBAYEk@CSC_@AOMiAAUWkCKgAIu@KgAWaBGk@CSCQAO@KEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PUWWmC_CWSSSwCiCSQQQi@c@wAmAi@e@}@y@[c@i@c@iAaAOWIIMKBOBOBW@MF_@De@@MBKf@mBH]@IJ_@F_@TgADiADgAFB~@ZSbAWK",
+            "durationMin": 20,
+            "distanceM": 8077,
             "mode": "subway",
-            "osrmMin": 8,
+            "osrmMin": 9,
             "corrected": true
           }
         },
@@ -98205,13 +98230,14 @@
           "category": "food",
           "costPerPerson": 35000,
           "currency": "JPY",
-          "lat": 35.6648,
-          "lng": 139.757,
+          "lat": 35.673,
+          "lng": 139.7733,
+          "address": "Grandir Ginza East 1F, 1-8-2 Shintomi, Chuo-ku, Tokyo 104-0041",
           "routeToNext": {
             "format": "polyline",
-            "data": "_xtxEeh_tYzAf@Qt@Ux@Kl@EPTHTJB@HBDQjAqFDOBGTm@D[@EBS@M?M?Ma@]{@q@WUaBmAuA}@_@UKIMIUOuAcA}@s@e@_@KKGIKMEKIKGKIKKI}@q@q@g@ECUQMOwCeDEEKKKKsCwCGGIIGJo@`AEGeDgDGIEGiAmA",
-            "durationMin": 14,
-            "distanceM": 1177,
+            "data": "ckvxEqnbtYWKICEhAUfAG^K^AHI\\g@lBCJALEd@G^ALCVLLX`@jAbAp@h@\\T`At@tAjAtAlARNPPpAjAfA~@TPRRVTzBpBXVNL]b@QRc@j@}ApBoA`Bs@fAGJORGJQVo@~@_@j@AF@F@F~CfDDHl@cAEGiAmA",
+            "durationMin": 13,
+            "distanceM": 1075,
             "mode": "walk"
           }
         },
@@ -98414,8 +98440,8 @@
           "time": "08:00",
           "title": "Hotel checkout",
           "category": "hotel",
-          "lat": 35.6589,
-          "lng": 139.7034,
+          "lat": 35.660255,
+          "lng": 139.702026,
           "routeToNext": {
             "format": "polyline",
             "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCGLEFINC@ODWHUFI@M?WaBGk@CSCQAO@KB]X[BCj@o@DGd@e@VQJELGNCPClBMF?RA?gAG{DAk@n@ZAZ@rAFnCBrA?z@J`GC|ABtAD~@Dt@Br@D^Fd@F`@Jd@bB`HdBtHrBdJH`@Hd@Hl@h@vEFb@F`@F`@J^HZJ^LXLVNTNRNRTR\\XxAhANLPNPRNPPTNTNVP\\L^N`@J`@Lh@^jBn@fDfAhFVr@V`AdAhEDLFLDJDHFFDDFDBBFBH@F@H?H?F?HAHCFCFEHEPONKJGFGHGFGHEHCHCHCJAH?H@H@J@HDDBFBDDDFDDBDBFBF@HBLBL?N?L?NCLALCJELEJEJEJGJGHGHGHGHIFKHIFGDIBG@GBK@K@MAKAKCGCECECGEECEGCECEGIEICGEKIQGQK]So@CKEMCSAQ@S?M@OBOFOFOJM`CmC`FaG|@gAh@o@d@s@l@cAj@gArDwGhBmDR_@dDsFNYdAsB`@{@b@y@Zk@\\i@`@k@nBcCdDoEZa@PSPQz@w@vC}B~E{DvAgAdBqAlEeDzBaBlBuArDkCpCwB`Aw@bAs@|BwA|BsAzCgBnMwHbCyAr@e@dFeDn@i@VSTURWT[R]NUd@aApBwEjFcM~@wBlBeEbBsD|@yB~@eCjAcD~AqEf@wAhA{C`@}@lE{ITa@Vc@Xa@l@y@P[R[NWLWLYJYJ]H[F[F]F[D]B]@]@_@?]?_@?]KoCCk@?o@?s@@q@Bu@Fq@Hk@Hk@Li@Lc@La@L[LWN[V_@xAwBXe@Ve@Xe@r@yAh@mAJULULUNUNUPSNSPOPQROPMRMRKdBy@XQNIPMPOVSNOXYX_@V_@Tc@Rg@Pg@Lg@Ji@Hi@Fi@Bm@Bk@@m@Ak@CoGAs@Cs@Gq@Gq@yGac@q@{EMu@Oy@Oq@Qs@Sq@So@Mg@Ki@Ie@Gi@Ci@Ai@Ak@@e@Bk@Dg@Fg@Hc@Lg@Ja@L]N_@P]R]T]X]X[ZWZU\\SZO`@Od@Md@Id@Eb@Cb@Ab@@b@?|ADzA@zB?lCBzIVjGXjBDn@@fBDX@nAFb@BV@X?V?VCTERGTIRMPONONUJSLYH[t@_DJc@HYHUJUJUNUNQNOPMPIRITGRCTAVA`E@bD@rAMn@Cp@AnAEh@Ab@AXEZEnC?dC@nF?~I@`D?jB?fC?tE@fC?v@?r@?nA@vAALFr@H|ALVBVBV@V@`DBdHJdEHXFbGAnAAx@Eh@ErAMnAOhAQfB]`B[`FgAf@KjIiB`NuCfAWbYeGfCk@rDy@r@O`Be@tAg@bAg@v@e@l@a@l@e@h@g@p@w@t@cAp@eAz@eB`AyBpAcDjD}IdL{YnBkFhCsGrBeFjDkI`C{Fx@iBhA_Cl@oA~@}AdAaBt@eAf@eAl@w@hAwAf@k@d@k@r@s@l@i@l@g@|AmAx@q@jAw@rA}@tD}BhCaB\\UPSNWFOFa@@_@Eg@W{@GWCMAMAM?O@WBSDMDMDMFKJKHIVOVOZWfBoAHIbC{AFETO^UZSTO@?DEDATOVQFETMXOl@]b@Wp@a@NIPKt@e@fBeATq@lAgAJGLEF?LAL?N@PDPFJHJJHJHN^~@HEtA}@HK@G?GCEeAsCAI?KIAY]LYbAo@JGxA}@J?FFLTlAzC|CjIBVDN?JALCFGFgAn@bBnEdAnCdAzCfAvCBL?LAHEJGFkAr@yEtCGHI@ICOIaAi@GCIBeBbAyA|@CDAFAt@@n@APALEFIBiG|DGDK@uAu@EAG?GB}A|@g@Xu@b@CDCH?JCrBCJ",
