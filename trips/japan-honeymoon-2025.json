@@ -97951,8 +97951,8 @@
           "category": "bar",
           "costPerPerson": 4000,
           "currency": "JPY",
-          "lat": 34.6726,
-          "lng": 135.4983
+          "lat": 34.672034,
+          "lng": 135.498379
         }
       ],
       "routeFromHotel": {
@@ -98288,13 +98288,13 @@
           "category": "food",
           "costPerPerson": 4000,
           "currency": "JPY",
-          "lat": 35.6485,
-          "lng": 139.7863,
+          "lat": 35.6439431,
+          "lng": 139.7820853,
           "routeToNext": {
             "format": "polyline",
-            "data": "uqqxEi_etY?ObCNDEHIYe@AGAI@IBGDGPSrByBLMiDwFS[SPsDjDwBxBg@h@gAbByApBkCpCgEdEiArAi@h@kBtAiAx@uA`AWVeAfAgAfAQR]\\UVsDnDaC`CaCxBcAdAeAdAONQP_AbAgAhAUTMNUVgAfAcA~@ONQLeA`AkCzBeJdIcAjAOPeClCm@n@MNONq@n@k@j@m@l@s@p@_A~@LPh@t@T\\",
+            "data": "mspxEigdtYuAaCOWIO[g@c@s@a@s@MQs@mAOUU]OYeDsFiD}FWc@iDwFS[SPsDjDwBxBg@h@gAbByApBkCpCgEdEiArAi@h@kBtAiAx@uA`AWVeAfAgAfAQR]\\UVsDnDaC`CaCxBcAdAeAdAONQP_AbAgAhAUTMNUVgAfAcA~@ONQLeA`AkCzBeJdIcAjAOPeClCm@n@MNONq@n@k@j@m@l@s@p@_A~@LPh@t@T\\",
             "durationMin": 13,
-            "distanceM": 3029,
+            "distanceM": 3385,
             "mode": "subway",
             "osrmMin": 4,
             "corrected": true
