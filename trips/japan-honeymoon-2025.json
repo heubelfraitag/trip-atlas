@@ -96361,11 +96361,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "qe~xEyegtYBKg@Cu@GHm@@ImCe@KAMCQEiBY}@Qo@Ke@IGASEEXQfAIj@Il@EZEPCRa@~BG`@Kn@CNCNKj@Mz@Ot@UxA_@`CETEPKp@If@O~@O~@Ib@EVE\\c@rC[lBETEVgAdHI^Ib@[vAo@tCGZK`@A@a@hBUhAGVa@lBI^I\\[xAGRETYrAc@rBK`@ETCJGXEXCHUdAy@rDCJYtAERGTQ\\Q\\GL]j@KLMLSPYVWT{@r@g@p@e@h@[XWV[^QVMTGPELEJg@pBADERg@Gw@[q@WSIQEQMI^_@p@[h@CF_BnCMTOTCDKPuDxGKNIHYZGDMLIFsAlAuAnAGFONq@j@oAnA}@z@YX?X@ZHdCBj@HDVBL?P@D?F@B?NPBF?D{BnCa@f@EL@D@FDJBFHJX^|@pAJNBDDJDNFPDZH`@FXDVJl@BJBP@LF`@@@@N@HBN?NJf@Jl@H`@@H@BRh@?DYxA?F?BK?]??ACAe@AK?OBQDc@RIFABEBZpANE",
-            "durationMin": 17,
+            "durationMin": 26,
             "distanceM": 4093,
             "mode": "subway",
             "osrmMin": 7,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 17,
+            "pinned": "Google Maps verified"
           }
         },
         {
@@ -96412,11 +96414,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "ceayE{zatYh@v@JNBDDJDNFPDZH`@FXDVJl@BJBP@LF`@@@@NL?bA?b@@bBBF?B?J?Z?J?VC@?JEPEd@MBANENEn@Q\\KDABAHA`@KXGDAFC@?RG\\I\\IHCd@M^GDCNCJAXCJA?E@Q@KDINQf@i@x@_APWHIJGpA[XKt@UBADAd@M\\KZIn@OFEBNLp@Lt@Nv@Nn@@HNl@FJHNj@`AvAbClAxBNXJRDJh@bAPZNX\\n@HPFJ^l@n@dAd@z@LRR\\PXLT`@v@DFNRh@r@RXT^n@hAv@tAP\\R^HPRb@FL`@|@n@vALZFTFXF`@Bb@FdADr@FjAVfF@PBJBLJ^@JH^DNDLFN^j@\\l@HNNVHJJJHJNFLF^FjARPDJDHDHDRPn@h@f@b@bBtAFFXTzAtAVRXXFHPZFLBHBP@PBX@FBh@B`@B\\Dt@Dr@NfBD^@P@PDb@VhCFb@RCLAr@ErBKTAP?NA|AEL?`B?B?P?F?H?R?r@AhB?\\An@?H?J?N?PA@`DAj@KjF?^RdG@R@TPxDFd@DZ?BH`@FPFNBFDJXf@n@rAJPh@fArAhCFJJTRGjAYbB_@|@QzA[jASd@IDADCD?\\KNb@BJFPDHDFDHJNRVTZ`@f@`@`@`@b@j@f@`@\\JFHDHFtAx@|@h@JDJHtBfBjCxBlAbAv@j@l@d@z@p@HHv@l@f@`@hAbA^Zj@\\|A`ArBjANHPJ~@n@x@r@bAt@NLNLPLRPn@h@d@d@t@`A~@pArBtCJPVd@HNN\\FLNb@\\v@N`@Jb@Ff@Jl@Ff@p@rEj@|DFv@Fx@BlA@J?^?^KtDS`FKrAOhAMb@_A`Cw@hBERGRELCRAXAHATEtAIzAEfAIjAGhAAV?hD?B?J?p@B`BBP@JF\\BPDVl@hDPbAd@xCBNBJFd@~@~FRtABX@XAXC\\Gh@UvBEn@C^@\\@\\@ZDZ@LHd@Fd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SvDCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCPCLGd@AFAHO|@c@|BMn@Kh@Q`ACLI`@CNEVCFYzACVMx@CLCNWrBCPCPETAHMfAALAH?H??",
-            "durationMin": 30,
+            "durationMin": 36,
             "distanceM": 9347,
             "mode": "subway",
             "osrmMin": 16,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 30,
+            "pinned": "Google Maps verified"
           }
         },
         {
@@ -96563,11 +96567,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "chtxEk}msY??HLDDFBFADEDGFKDE@MTg@ZwA@GTgAJu@]QQIQKUMWM_@UWKG?E@E@SRSPML]^OLGFONGRSp@EL[dAGLKZYh@y@z@s@lA[nAOd@Oh@[jAOh@ADa@tAGPOh@EDQAUCiAIWE_AKo@KAFK\\_@fAEBC@Wd@sAbBGDE@s@x@YZEI{@`AOUCBg@ZUPc@Xw@h@CBCAGCAAEAGAEvCEtAArAA^EPg@Ey@Ky@Iq@E_@?]@YBe@Fa@LQFqAj@]No@VmBt@C@QHIB[LIDUHaBp@uAj@QH[L_DjAoDxAYLMDe@PsAl@qBx@k@V]L]N{B|@sAh@}@`@a@L_@P{@Le@Bw@Dq@DQ@C?kAD}DTe@?_@@yCL_BFq@DgGZI@OBKBMBi@LUF[JmA\\o@P]JE@iBh@gA\\E@_@J_ATiD~@_@Jw@RWFWDy@HcAH{@FqALkALk@DsALYDiALoANI@[BcALmALK?Q@eA@_AA[?U?qDEa@CqCUqAM}BUe@Ea@E[AuCCeGEw@AuB?gA?_@AO?sACo@?CZALK`AMjAUpA]rBOdAIb@CNCPSrBMhAE`@AHOzASjBE`@E\\S?m@A}A?mBAi@?Q?O?U?O?Q@ER?J@p@GAAX",
-            "durationMin": 24,
+            "durationMin": 50,
             "distanceM": 6046,
             "mode": "subway",
             "osrmMin": 12,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 24,
+            "pinned": "Google Maps verified: Shimokita→Koenji requires Shinjuku transfer, 50min"
           }
         },
         {
@@ -96613,11 +96619,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@@_@Ba@D_@D]F_@NaATwABMBQN_AD_@F{@H_C@Y?[Jc@Be@He@DSDQHYRw@Nm@\\wALi@H_@z@iE`@oB@CNw@Ny@DUZqAd@oBT_AT}@TaALg@FSPy@Lg@XuAVmARgADQDUF_@F[ToAr@wD@M@MAK?KCMCQAEk@kCAMAQ?g@G_BAy@AMAa@Bu@LoD@I@IBGBCJDH@H@FALAPCl@KDADADATIFCFCDCFEBEDE@C@C@CLOBS@IZ_C@IDS@E@GBIBIHSb@oADK@GFQ@C@CFOBKr@qBJ[HUBG@EBGHUjAgDL]DMZRn@^b@Vd@XRJ^TC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNPTTdClCDFJLHMx@qAr@kAHMFIZe@n@}@BC",
-            "durationMin": 31,
+            "durationMin": 37,
             "distanceM": 13059,
             "mode": "subway",
             "osrmMin": 17,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 31,
+            "pinned": "Google Maps verified: Koenji→Higashi-Ginza 37min"
           }
         },
         {
@@ -96651,11 +96659,13 @@
       "routeFromHotel": {
         "format": "polyline",
         "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCP\\N`Af@JFJDt@^`@VZN`@R`@RZRn@^b@Vd@XRJ^TXN@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@Jb@nAjERr@p@|BBF^hAJZZbAPf@FP\\hAp@jBFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
-        "durationMin": 20,
+        "durationMin": 30,
         "distanceM": 6057,
         "mode": "subway",
         "osrmMin": 9,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 20,
+        "pinned": "Google Maps verified: Yuen→Shimokitazawa median 30min"
       },
       "routeToHotel": {
         "format": "polyline",
@@ -97377,11 +97387,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "}o}sEy|{{XBH@D?FAD]jAMb@M\\GLCDNdBBt@?^?Fq@EaB@yBBG?I@KBKBGBMFKF[V@FDXT|ADRBPLv@DTHZHZPd@LTBDLRT^HLLPr@bAFJj@x@PP~@x@LJLJJHVX@@RXRZFHNVJPDLJTVp@Ld@BJFVPv@H\\^jALXNXBDV`@ONKFyAXG@E@aAJiABYBWBAX[pICjAIrBA\\ATMbEC|@ItA?JAn@CLG~@CLe@rCI\\EXSpAUjAKt@Cl@ATA\\At@El@Gn@K^CHCJKZUd@U^SVe@d@q@f@C@e@h@Q^EHUn@CDERAJCPAR?^@b@JrBF`B@^@V?j@@xC@xDA|@?^@r@@n@xBBX@jBBl@@jABxABrBLxARbAPTDPFtCdAhC~@xCjAt@TdDhALBLDTHvC`AJDz@Xv@VjF`BrAd@vAd@lBh@FBrCl@|Dx@zAZbATh@HfDRvKj@T@V@bADlCJN@l@B`AFp@DX@H?d@@T@h@DX@lCRD?P@l@@VBdEVl@BF@lGXh@BfADnAHlGZ~@DL@tAFnAFbBLdADfBHR@R@xFXL@hDPfDNp@D`GZD?D@|@Dx@@jACfAMx@MJCFAVIVI\\Mx@[VKj@YPKnAaA|AyAnAgABCDEvBkB~BwBJKPOtAmALKvBkBHK|BsBb@c@xAmAhAaATSTUjBgBNORSFEJK|@y@`A}@bAy@bAy@XU`CkAPEbA[lA]h@QVIlBg@pC{@r@WnBq@~Ak@NGf@S^MLEvBy@h@WRM^QfAu@PKBABANI`BcAXSfAo@dDmBbCyAzCcBfEcCnI_FtAu@t@Uz@MvFs@~H}@lH}@|AQ~@Kr@InBUJAzEm@pEg@tBYbEo@~Cg@bBQfCg@`Dk@ZIG]Ce@?c@Ba@DWv@gCNs@Ju@Bi@GoECkBAUGsAg@yDGqA?A?iAHgJCyAV?b@ADAjA?f@EJCZGd@OZS\\W^g@p@mAv@mA`@]j@]l@O`@GhA?bCBfGLhCDzBB^?b@E`@Gn@U^M`@St@c@b@a@DC^YFGpA}@tA_@|Dc@NAzC[n@EpFErDGb@?vCGv@EbAGjAAxBGzJMrDC`@AlHKl@DfA?v@AN@P?ZBTDNBVDR@XBRARC`@Il@QTERAt@A?G?_@?C?W@SFe@DSD]J}@Bk@@OH?b@?B?f@INA^Ir@Ij@E`@E\\Cf@EjAKRC|AUZEpASzAShAOPCz@M|@M^?HBHBFAXMx@]ZO\\OrAk@`Bs@\\Mn@WPEVARD^Fl@?v@Ct@MVMd@[lAe@l@UzAe@h@Ix@C|BAp@C|@QvCq@FANC`BKd@AT?H@F@PFD?RA`@MVG^Gr@Of@MXGPC`@Ih@GnAMj@Ar@Ah@?f@?\\?h@?ZCj@IDARGVKpAw@tAy@l@[DAFALCH?J?J?JBJBJB`@P^NjAd@|An@b@NTHh@TTJRHHBF@FBHBF@HBH@LBNBVBTBH?J?H?J?HAJ?HAHAJAHAHCNELCJCLGLGZOXQRORQPQ|AyA`A_Ar@s@DCdAiAPQXW^[b@[PKPKVMVKr@Sl@OPETCTC^C^A`@?^@RBr@J~APhAF~@?dAQ~Ba@v@MvAIfGBfAAxA@x@?f@?tB@zA@ZAXCXCXCbAS\\IjAYrBe@JEj@Q|@QNATA\\B|EVhAD\\@|ALt@Ln@LjDz@|BVlEFbEDhAAbBCxECdBCdCCb@B^J\\XRXXx@dAs@hAgA|@eAfAkB`AeBVg@\\q@v@uATg@`AcBHOHOh@eAP[T[PWTSRU^[TQRMVM\\O`@O|Ae@vBs@\\KJCDCdCy@ZM~@Yn@QhA[`A]JCpSsGLETIb@O`Bg@VGRCXEl@GT?\\Az@BL@d@BvCPlBJ`BJJ?bCPT@T@`EVvBHr@BP@P@L@`CHh@Bn@BnAHhAFpBP|@FV@z@F`AF~BNh@Fn@HTFXFrAXLBr@Hx@LN@RFVUPGjDwAFCPIfC_AXMnCgAvCgAp@Wr@Yj@Wj@Wz@c@~@e@fCqAlAk@JGpBcAXMl@YRI`@KXGlC_@x@KfCa@fBYbC_@jC_@zBc@j@QZKFCLGPMdEoCJIPKt@e@xBwA^UZQf@Qr@MXCdA?~BBv@IpAYh@Sb@QhCmAXIX\\pAzAj@t@pA|A\\XXPXNRHND`@Jn@Df@DxCNv@B^BnCPpAHhBJ`DNr@AvAGj@IjAYn@QxD{@tDy@pBc@r@GXAV?|A@P@f@Fj@Jl@PpAh@bAp@fAbAX^j@h@TR`@`@NNNNLLPNXTfAfANPRLPHPDJ@LAJAPCj@Uh@UVEBAZE^@P@PDLFj@TZLRBl@@b@Iz@_@XMLELGNANCLAT?bCAV?L?dDAD?pAA|BAx@?J?D?B?P?pCAdCAfEAP?NAzB?lA?j@?N?dDAV??[As@@aA?_@?kB?SR?H?N?Z?BD",
-            "durationMin": 59,
+            "durationMin": 49,
             "distanceM": 28415,
             "mode": "subway",
             "osrmMin": 36,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 59,
+            "pinned": "Google Maps verified: Uji→Kintetsu-Nara 49min"
           }
         },
         {
@@ -97453,11 +97465,13 @@
       "routeToHotel": {
         "format": "polyline",
         "data": "{wtrEymc|XNR@FHJDNETCFkBXi@GY]eACCTy@vB@HVv@Jp@@f@?\\An@Ep@Ab@Ar@Ah@?X@J?BAb@CXCLGTy@|AGVCZ@|DAvBANEVGh@OxAEn@_@zCERM~@UdAc@fBUbAIb@Ef@Aj@?dA@bCCVKV{EDW?S?eBAiB@C?_CBm@?qA?U?Q?yB@C?w@?I@G?eB@gC@O?{@?oAAaAA]AuFIe@Aa@Aq@K{@KOCe@OSEc@S[QKMMYQw@Ka@K[MYKSMOEGYWQMSOOIOEUIc@GsBSIAiBSqCYgAKmBOo@Ea@@_@BQ@i@HYFw@Pu@Nw@RmATMBwCp@uCp@}A\\gB`@EBq@VEBo@\\YTUPk@l@q@`AyBtCe@p@mDdFcBvB_ChCeAfAUZW\\e@d@q@j@i@^m@^sB~@{At@[NYHiClAc@Pi@RqAXw@H_CCeA?YBs@Lg@P[P_@TyBvAu@d@QJGMISEUAY@WD[HYD[C_@KQKMSCK@uB^QBBh@Fh@JdAFn@Hp@XnCFj@f@lEPvABRBd@Dh@V~BFt@@\\?\\?\\A\\AXCXCXEVQt@Wp@ABQf@Sd@Qb@y@rBa@|@w@hBO^q@xA}@tBQb@k@lAu@vAa@`AQd@Sf@KPYv@yAfD}@jBcCrFELIPYr@IZIPy@lBENGPEPERCRUnBCTETGRGTIRIPMPIJONMJOFOFe@J_@VMJ[V]\\]^]f@ONc@^MPCF]l@{A|Cm@hAaBvCOXGLGNKZ_@fA_@rAuB`IeB|GiA|DwAxEy@`CcClGk@tAi@fAw@zAw@rAmAdBgAxAkAnAcAbAsB`B}@p@{AhAy@l@yBxA{AnAUNm@^y@b@a@To@Zu@\\e@R_@L[JuAd@sBh@uBz@aBj@cE~AcCbAiAd@u@\\aAb@a@PwAr@{Az@_@P}BlAmAr@g@`@{A~@}AfA[R_Ap@cAr@o@d@u@h@kAbAkAbAaA|@iB~AmAjAyArAqAnAsAnAoAfAwBlBoAbAcBlAgBrAsAx@}A~@aAj@}@d@u@`@e@RqAl@o@ZcE`BaAZ]Je@Jy@V}Ad@mCp@kCf@mATiARy@Ly@J{@JaCT}AJ{BJ}BHmBDcABaBB{ADcCFmBHeBLeBN}@H}@LoAPaAP}@PoAVmAZeAV_Bd@m@Py@VqAh@_Bn@s@ZwCnAwAl@sEnB{@Xs@Vo@NeAZw@R}@TaB\\oCd@u@LuAVaBRoAHaADgDDkBBkA?uD@iB?cBB}ABeADo@FqANaBVqATmA\\}@Z}@^qAl@gAp@kA|@uAjAoAjAoAtAy@hA{A|Be@|@q@nA}@pBuAjDo@nA}@vBo@~AyBvE_AhBe@v@u@pAk@`Am@~@_AnAc@h@_@XiBfB}AxAs@n@gAz@gAt@aBdAuAt@mAj@{@`@qAh@wBr@oA^aB\\yB`@cCXuCRoCNgBHsBD{DN{CR_E`@eBb@uCv@_Bh@{Br@m@Za@RsC~AyEtCwBtAiAx@gBxA_Af@aAd@iGjBw@ZaErAyBh@wBf@gB\\oDh@eBTcBRmCZ[?m@FuCT_A@aDBgDGoCMiBI}AIgJw@]@e@Cm@AI?{BAkA@yAHeBR{AXkCv@gDrAo@RwBt@e@Ni@Nu@Nm@Ho@Fg@Bq@@q@?y@Cs@G}@Ky@Ou@Ow@Se@Mg@Qk@Uk@W{E}BcAa@o@OkBw@wDyAgA]u@]m@]cA{@g@c@GEWMe@Sy@Wg@YWQ[Se@]ITyAzDkA|CSd@]`@WR]T_Ah@kC|A{IhFuElCcDlByCfBeAn@IBoAv@]PwCdB_B`Ae@V{Av@wBl@oB^wAXc@HuAVgB\\oB^]HiCd@mAJ_AA_IMo@AyCEqACoACqACm@tNQlDE~@[jFQnBa@pCi@vC{@xDE^AFARAfAB`G?B?nA?F?f@?n@qCGqBKiGOs@Cg@Cw@Go@Gi@Ig@Ic@Kg@Mg@Qi@Ug@Sc@Qa@SYOa@Yg@Wu@a@o@c@iBoB_BaBmBiByAsA_AgA}@eAu@cA{@aA_CaCm@w@sAqA}ByBmHiHsAuAmBoBsMoMwEuEo@i@y@q@eAo@eAi@iAc@mA_@u@Qu@MgAK_AGoCGeCAwHCio@g@yCCoII{JIaQMeHCyPM}IAoKImFGeFEyGGmEC_TM_HCoCCmLK_EGaEGmISiDKgc@wB}CKiFa@wDYwBKcCGkBCiAAiDCwAAqKKcHGc^s@qEKoDGOA_HMsDKsFQ_FMkEKyCGgDE_HGgJGmFCoCA{@AoBAoCMaAGuAKyBUy@IkH]u@CW?W?aARYC{Km@YAeBIwCSWAO?aACqAEcBKQ?mBIgACkBC}AA]?uBAo@AuDAsCIcBMaAKeAMGAc@A_@CE?wCGkAAyBCaB?o@?U?Q?G?s@Aw@A}@AIAg@?c@AwBCW?U?mACkACS?]?U?eAAk@AmAAcA?oAAqCEQ?cFBgD@E?S?i@HSBSD{ARgC^mDj@]DQBS@C@KGOCKAMAIG?yA?m@?}AAm@?qB?SAGMFo@?U?OAg@?I?i@?c@Ag@?k@?sA?K?Q?oE@I?qEBI?K?{EB?IAy@A}AEoCh@ABv@J?",
-        "durationMin": 80,
+        "durationMin": 72,
         "distanceM": 41157,
         "mode": "subway",
         "osrmMin": 51,
-        "corrected": true
+        "corrected": true,
+        "formulaMin": 80,
+        "pinned": "Google Maps verified: Kasuga→Hotel TOU fastest 72min"
       }
     },
     {
@@ -97493,11 +97507,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "onltE}cu{XtBLBc@RORCf@@@JANGd@?f@@b@?F?^?Z?R?`@@L?z@GjAi@PW@{@Di@?g@?eD?E?wC?mB?{@?_BASAgBHk@@[?o@@Y@wBBE?g@@aA@}ABIBAnB?H?J?\\?D?d@?N?JA~@?b@?HEt@An@Ch@?dAArA?P?RAbCAzAEjCA`@?~AArB?bAAr@?\\?f@IhBAR?R?fB?d@?D?T?V?B?jE?h@Ar@?D?r@?\\?P?n@?j@?nCApC?vB?R?PAxF?F?`H?z@?d@?\\AX?`@?d@?p@?jA?l@ArH?PAzH?rA?jDAlI?t@?fAAvA?J?tC?`A?`B?BAt@?b@?fA?dB?`B?X?j@?jEAtDAzF?bB?lA?r@ATCTOn@SX}@l@gD|BuE`Du@j@gCbBGDm@d@mAz@GBsA`Aa@PHn@HRFRRb@BDJVBB|@pBdBrD|AfDP`@dCnFrBjEr@xAFNA\\?LEJOPiAt@}@n@e@XiAr@iBjASLGDsA|@gAr@oCdBe@Zi@\\MFKHaAn@SJw@f@mAv@sAx@WNOH}A`AEBgAr@SLKHOH_Al@eBjAi@\\}A`AeAp@iBbA_@R?`@?fA?xBkAL}ALq@La@FYFgAVO@mANq@HoALeAJsE`@Q@_@Dc@BeBNuEZaAFK?s@Bg@@U?G?G?c@DUDWF[JKBWDg@DI@s@HiBNeE\\WDOHQTQZQHu@BmCBO@WCI?Y?[?Q?WBqEAK??P?r@?JAvB?L?t@?`AAtA?RAvIAlB?P?NAd@It@EPALCR?TA`A?bAAv@?rBAb@Cv@_@pA?Nm@d@GDuC`Cc@Ty@`@MTI`@Kn@a@xC_@jCMfACLPHD@?PAD?PC`@Ab@KbA?BMjAGz@C^Cb@@r@?j@CdAAJ?NC^?XBPDb@BR?L?VCrACvA?l@?`A@x@BRB`@Df@@TD|BHnB@\\Ep@KbACL?P@X@`A@d@@n@Dx@Kt@QlAWhBOdAAJw@fFG^EJCFa@p@w@vACDu@dAY`@OZOZe@r@Jd@H^BJBJDL`CfKDNDNHJFJPRFD^^B@PNULEDs@n@i@b@o@f@a@Z]X[Vk@d@_@Xi@b@uAhAy@r@E@KJC@u@l@k@b@yB~AYR{AfAQNi@`@u@h@gAx@_BjAc@VeAp@cCxAc@Vk@\\KFw@f@yA|@eBbAA@QJyA|@MHRb@@BBFf@rBBNCFi@n@ILa@r@_@r@GL[x@kBzBk@x@SZM@IEa@Ka@O]KQE[GQCqGa@C?O?WHcB\\KBc@J]JiAVaB\\g@Ha@HIBgDn@u@Pw@Nw@R{@T_@qCG_@Ii@M{@COGo@E[?EAECOCSGe@",
-            "durationMin": 37,
+            "durationMin": 42,
             "distanceM": 13791,
             "mode": "subway",
             "osrmMin": 21,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 37,
+            "pinned": "Google Maps verified: Fushimi→Saga-Arashiyama 42min"
           }
         },
         {
@@ -97602,16 +97618,18 @@
           "routeToNext": {
             "format": "polyline",
             "data": "oqutEilb{XGeAKoAGQN?B?pG`@PBZFPD\\J`@N`@JHDLAR[j@y@jB{BZy@FM^s@`@s@HMh@o@BGCOg@sBCGACSc@LIxA}@PK@AdBcAxA}@v@g@JGj@]b@WbCyAdAq@b@W~AkAfAy@t@i@h@a@POzAgAXSxB_Bj@c@t@m@BAJKDAx@s@tAiAh@c@^Yj@e@ZW\\Y`@[n@g@h@c@r@o@DETMQOCA_@_@GEQSGKIKEOEOaCgKEMCKCKI_@Ke@d@s@N[N[Xa@t@eABEv@wA`@q@BGDKF_@v@gF@KNeAViBPmAJu@Ey@Ao@Ae@AaAAY?QBMJcADq@A]IoBE}BAUEg@Ca@CSAy@?aA?m@BwABsA?W?MCSEc@CQ?YB_@?O@KBeA?k@As@Bc@B_@F{@LkA?CJcA@c@Ba@?Q@E?QEAQIBMLgA^kC`@yCJo@Ha@LUx@a@b@UtCaCFEl@e@|AoAzBuA`@Qr@StAa@dA]l@SDCnBq@~@[NEqBcGOa@Wu@a@qA_@iA[_AKa@Qw@ESGYE]Ig@CQO_BEm@Aa@Ac@?a@?iC?i@X?H?VBNAlCCt@CPIP[PUNIVEdE]hBOr@IHAf@EVEJCZKVGTEb@EF?F?T?f@Ar@CJ?`AGtE[dBOb@C^EPArEa@dAKnAMp@IlAONAfAWXG`@Gp@M|AMjAM?yB?gA?a@?U\\QbBgAbAo@|AaAh@[dBiAnA{@JGRMnAs@ZUfAq@HETOrA{@lAu@jAu@`Am@LKLEh@]^UDCjCkBfAo@lA{@NIzB{AjAu@n@c@p@e@jAs@PKLI^AH?d@@`@?xBBpBBt@?F@Z?^@L?jB@R@R?R?d@@l@?zA@\\@xBB^?V?|BBH?xA@xCDH?L?p@@rA@nCBL?LFP?dDBN?N@|A@jB@hB@RALAd@Kb@SLIZQJIbAgAFGnBaCzGaInBqBRSLQj@i@|BaCbBeBdA}@NUv@i@fEkBjAk@fAm@lEsB|FyBtBw@dDaBxEkCFEDIH]He@@]A[G]gB}GdAKx@Kn@S`CcARIDAjA_@j@Sh@ORENCNANANAN?`C@dD?hABHA?M?yBAK?SEgG?EA_DD_B?kA?[@_ADkABgC@}CFiEFeDBmALcCRgFRmETmE?SDiAVuEPcD?Q@OB[DcA@KPeEL}AHw@@OPeBRaCJsAJqA`CNt@FlBJD?@@`@@@?tBHl@DvCHbB@fB?`DJ\\@|ALB?^Dr@LD?`BRjF|@R@^@V@vBDD_C?Y@S@UBQDMBGBCFGHGJC^@P?r@B^Bx@FpAD`ENT@\\?b@?T?PCfCk@XGLCJAdCUFADADADADAF?DADAB?@?FAD?D?F?D?DAD@F?f@?N?",
-            "durationMin": 37,
+            "durationMin": 57,
             "distanceM": 14967,
             "mode": "subway",
             "osrmMin": 21,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 37,
+            "pinned": "Google Maps verified: Togetsukyo→Chushojima 57min (multi-transfer)"
           }
         },
         {
           "id": "d10-4",
-          "time": "14:55",
+          "time": "15:15",
           "title": "Chushojima Station",
           "description": "JR Sagano line back to Kyoto, transfer Keihan to Chushojima. ~45 min.",
           "category": "transit",
@@ -97627,7 +97645,7 @@
         },
         {
           "id": "d10-5",
-          "time": "15:15",
+          "time": "15:30",
           "title": "Gekkeikan Okura Sake Museum",
           "description": "Edo-era brewery from 1637, the Japan-sake heartland. 5-min walk from Chushojima Station. Open 9:30-16:30 (last entry 16:00, so leave Arashiyama early enough). Tasting flight at the end: 3 small cups of Gekkeikan sake + a small bottle to take home — included in ¥600 admission. The brick-and-wood riverside brewery building + canal walk between the station and museum is the real photo moment. Souvenir bottle and on-site shop if you want to buy something to take home.",
           "category": "experience",
@@ -97692,11 +97710,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "s~~rEs|_zXo@VIBYmAGSCMCGHGPUDEPSBCBA@AD?BAD@xCVf@@h@?j@?h@@ZHFBTHZTb@^P`@DNBB@@JANNLJB@RNDJJHj@^~AfAfC`BJHHDHBHDPDLBLBL@L?~A@T?VBl@L`DApEA|F?bACz@ExEc@t@MtIw@nKaAxBStJ}@p@EbAC|G?|@ExIBdCGpCUlK{@`FA~@MJ?lA?d@AdBBX@\\H^Dt@K^K\\O^e@NSHGp@q@XSPKXOXKLEXEf@Eh@ENAXANAv@ERAbCOfAGH?l@EH?JAl@Ev@AdCEF?L?H?hBEvC?RAL?x@?fAAL?L?`@?n@?Z?\\?X@~@XXJ|Aj@t@X@@FBd@VbATzADh@BR@H?PDRDB?dCJH@D?R@`@@\\@N@R@X@`@BJ@N@L@N@lADF?j@@d@@xC?H@N?zB@R?J?`A@|@@N?N?rB?P@N?nBDH@L?rBDV@TAzBDN@L?dCFP@N?`CBN?P@xCF~BDb@@b@?~BBjA@D?B?b@@R@B?Z?Z@B?N@T?D?zCDxBBF?B?L@H?B?rBBF@B?R?T?@?hBBB?@?N?P@B?~BDB?B?J?H?B?bCDT@~CBzB@V?R?TAZ?Z?hA?F?H?dC?J?J?xB?F?B@L?H?B?rB?B?D?P?L?D?xB?D?B?L?J@B?pB?B?B?H?J?BA`A?\\?t@?D?B?N@H?B?XAbA?N?N?J?bB?|@AlABD?F?ZG@_@@{C?I?I@sD@yCB_F?KB{D@uA@}@@c@@e@@wC@QBkC@W?Q@q@B_C@Ul@??VA`CAn@?PAVGlCANEvCAb@?d@A~@ApAC|BA|@?LCnD?PCbFTAn@?j@CF?",
-            "durationMin": 27,
+            "durationMin": 19,
             "distanceM": 9231,
             "mode": "subway",
             "osrmMin": 14,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 27,
+            "pinned": "Google Maps verified: Midosuji direct 19min"
           }
         },
         {
@@ -98447,11 +98467,13 @@
           "routeToNext": {
             "format": "polyline",
             "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCGLEFINC@ODWHUFI@M?WaBGk@CSCQAO@KB]X[BCj@o@DGd@e@VQJELGNCPClBMF?RA?gAG{DAk@n@ZAZ@rAFnCBrA?z@J`GC|ABtAD~@Dt@Br@D^Fd@F`@Jd@bB`HdBtHrBdJH`@Hd@Hl@h@vEFb@F`@F`@J^HZJ^LXLVNTNRNRTR\\XxAhANLPNPRNPPTNTNVP\\L^N`@J`@Lh@^jBn@fDfAhFVr@V`AdAhEDLFLDJDHFFDDFDBBFBH@F@H?H?F?HAHCFCFEHEPONKJGFGHGFGHEHCHCHCJAH?H@H@J@HDDBFBDDDFDDBDBFBF@HBLBL?N?L?NCLALCJELEJEJEJGJGHGHGHGHIFKHIFGDIBG@GBK@K@MAKAKCGCECECGEECEGCECEGIEICGEKIQGQK]So@CKEMCSAQ@S?M@OBOFOFOJM`CmC`FaG|@gAh@o@d@s@l@cAj@gArDwGhBmDR_@dDsFNYdAsB`@{@b@y@Zk@\\i@`@k@nBcCdDoEZa@PSPQz@w@vC}B~E{DvAgAdBqAlEeDzBaBlBuArDkCpCwB`Aw@bAs@|BwA|BsAzCgBnMwHbCyAr@e@dFeDn@i@VSTURWT[R]NUd@aApBwEjFcM~@wBlBeEbBsD|@yB~@eCjAcD~AqEf@wAhA{C`@}@lE{ITa@Vc@Xa@l@y@P[R[NWLWLYJYJ]H[F[F]F[D]B]@]@_@?]?_@?]KoCCk@?o@?s@@q@Bu@Fq@Hk@Hk@Li@Lc@La@L[LWN[V_@xAwBXe@Ve@Xe@r@yAh@mAJULULUNUNUPSNSPOPQROPMRMRKdBy@XQNIPMPOVSNOXYX_@V_@Tc@Rg@Pg@Lg@Ji@Hi@Fi@Bm@Bk@@m@Ak@CoGAs@Cs@Gq@Gq@yGac@q@{EMu@Oy@Oq@Qs@Sq@So@Mg@Ki@Ie@Gi@Ci@Ai@Ak@@e@Bk@Dg@Fg@Hc@Lg@Ja@L]N_@P]R]T]X]X[ZWZU\\SZO`@Od@Md@Id@Eb@Cb@Ab@@b@?|ADzA@zB?lCBzIVjGXjBDn@@fBDX@nAFb@BV@X?V?VCTERGTIRMPONONUJSLYH[t@_DJc@HYHUJUJUNUNQNOPMPIRITGRCTAVA`E@bD@rAMn@Cp@AnAEh@Ab@AXEZEnC?dC@nF?~I@`D?jB?fC?tE@fC?v@?r@?nA@vAALFr@H|ALVBVBV@V@`DBdHJdEHXFbGAnAAx@Eh@ErAMnAOhAQfB]`B[`FgAf@KjIiB`NuCfAWbYeGfCk@rDy@r@O`Be@tAg@bAg@v@e@l@a@l@e@h@g@p@w@t@cAp@eAz@eB`AyBpAcDjD}IdL{YnBkFhCsGrBeFjDkI`C{Fx@iBhA_Cl@oA~@}AdAaBt@eAf@eAl@w@hAwAf@k@d@k@r@s@l@i@l@g@|AmAx@q@jAw@rA}@tD}BhCaB\\UPSNWFOFa@@_@Eg@W{@GWCMAMAM?O@WBSDMDMDMFKJKHIVOVOZWfBoAHIbC{AFETO^UZSTO@?DEDATOVQFETMXOl@]b@Wp@a@NIPKt@e@fBeATq@lAgAJGLEF?LAL?N@PDPFJHJJHJHN^~@HEtA}@HK@G?GCEeAsCAI?KIAY]LYbAo@JGxA}@J?FFLTlAzC|CjIBVDN?JALCFGFgAn@bBnEdAnCdAzCfAvCBL?LAHEJGFkAr@yEtCGHI@ICOIaAi@GCIBeBbAyA|@CDAFAt@@n@APALEFIBiG|DGDK@uAu@EAG?GB}A|@g@Xu@b@CDCH?JCrBCJ",
-            "durationMin": 49,
+            "durationMin": 42,
             "distanceM": 22349,
             "mode": "subway",
             "osrmMin": 29,
-            "corrected": true
+            "corrected": true,
+            "formulaMin": 49,
+            "pinned": "Google Maps verified: Shibuya→Haneda fastest 42min"
           }
         },
         {
