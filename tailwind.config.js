@@ -1,35 +1,36 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
         paper: {
-          DEFAULT: '#f5ede0',
-          soft: '#ede2cf',
-          deep: '#e0d2b7',
+          DEFAULT: 'var(--paper)',
+          soft: 'var(--paper-soft)',
+          deep: 'var(--paper-deep)',
         },
         ink: {
-          DEFAULT: '#1a2238',
-          soft: '#3a425a',
-          faint: '#6b6e7e',
+          DEFAULT: 'var(--ink)',
+          soft: 'var(--ink-soft)',
+          faint: 'var(--ink-faint)',
         },
         vermillion: {
-          DEFAULT: '#b5391f',
-          soft: '#d4654f',
+          DEFAULT: 'var(--vermillion)',
+          soft: 'var(--vermillion-soft)',
         },
         gold: {
-          DEFAULT: '#a07a3a',
-          soft: '#c4a370',
+          DEFAULT: 'var(--gold)',
+          soft: 'var(--gold-soft)',
         },
         city: {
-          tokyo: '#2a4d6e',
-          fuji: '#3d6b3d',
-          kyoto: '#5d3a6e',
-          osaka: '#c46a3d',
+          tokyo: 'var(--city-tokyo)',
+          fuji: 'var(--city-fuji)',
+          kyoto: 'var(--city-kyoto)',
+          osaka: 'var(--city-osaka)',
         },
-        line: 'rgba(26, 34, 56, 0.12)',
-        'line-strong': 'rgba(26, 34, 56, 0.25)',
+        line: 'var(--line)',
+        'line-strong': 'var(--line-strong)',
       },
       fontFamily: {
         display: ['Fraunces', 'ui-serif', 'Georgia', 'serif'],
@@ -37,7 +38,7 @@ export default {
         accent: ['"Shippori Mincho"', 'Fraunces', 'serif'],
       },
       boxShadow: {
-        card: '0 1px 2px rgba(26,34,56,0.04), 0 8px 24px rgba(26,34,56,0.06)',
+        card: 'var(--shadow-card)',
       },
     },
   },

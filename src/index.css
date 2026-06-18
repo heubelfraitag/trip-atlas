@@ -3,11 +3,56 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Light theme — original "paper" palette */
+  --paper: #f5ede0;
+  --paper-soft: #ede2cf;
+  --paper-deep: #e0d2b7;
+  --ink: #1a2238;
+  --ink-soft: #3a425a;
+  --ink-faint: #6b6e7e;
+  --vermillion: #b5391f;
+  --vermillion-soft: #d4654f;
+  --gold: #a07a3a;
+  --gold-soft: #c4a370;
+  --city-tokyo: #2a4d6e;
+  --city-fuji: #3d6b3d;
+  --city-kyoto: #5d3a6e;
+  --city-osaka: #c46a3d;
+  --line: rgba(26, 34, 56, 0.12);
+  --line-strong: rgba(26, 34, 56, 0.25);
+  --bg-glow-a: rgba(181, 57, 31, 0.04);
+  --bg-glow-b: rgba(160, 122, 58, 0.05);
+  --bg-glow-c: rgba(26, 34, 56, 0.02);
+  --shadow-card: 0 1px 2px rgba(26,34,56,0.04), 0 8px 24px rgba(26,34,56,0.06);
+}
+
+html.dark {
+  /* Dark theme — "night-ink" palette: deep navy bg + warm cream text */
+  --paper: #14182a;
+  --paper-soft: #1d2238;
+  --paper-deep: #272d48;
+  --ink: #f5ede0;
+  --ink-soft: #d4c8b0;
+  --ink-faint: #9a9686;
+  --vermillion: #e57558;
+  --vermillion-soft: #b5391f;
+  --gold: #d4b888;
+  --gold-soft: #a07a3a;
+  --city-tokyo: #6890b8;
+  --city-fuji: #7ab47a;
+  --city-kyoto: #a77ec0;
+  --city-osaka: #e89464;
+  --line: rgba(245, 237, 224, 0.12);
+  --line-strong: rgba(245, 237, 224, 0.25);
+  --bg-glow-a: rgba(229, 117, 88, 0.04);
+  --bg-glow-b: rgba(212, 184, 136, 0.05);
+  --bg-glow-c: rgba(245, 237, 224, 0.02);
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px rgba(0,0,0,0.5);
 }
 
 html, body, #root {
@@ -17,33 +62,41 @@ html, body, #root {
 body {
   margin: 0;
   font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #f5ede0;
+  background-color: var(--paper);
   background-image:
-    radial-gradient(circle at 20% 10%, rgba(181, 57, 31, 0.04) 0, transparent 40%),
-    radial-gradient(circle at 80% 90%, rgba(160, 122, 58, 0.05) 0, transparent 45%),
-    radial-gradient(circle at 50% 50%, rgba(26, 34, 56, 0.02) 0, transparent 70%);
+    radial-gradient(circle at 20% 10%, var(--bg-glow-a) 0, transparent 40%),
+    radial-gradient(circle at 80% 90%, var(--bg-glow-b) 0, transparent 45%),
+    radial-gradient(circle at 50% 50%, var(--bg-glow-c) 0, transparent 70%);
   background-attachment: fixed;
-  color: #1a2238;
+  color: var(--ink);
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 /* Leaflet integration tweaks */
 .leaflet-container {
-  background: #f5ede0 !important;
+  background: var(--paper) !important;
   font-family: 'Manrope', sans-serif;
 }
 .leaflet-popup-content-wrapper {
   border-radius: 8px;
-  background: #f5ede0;
-  color: #1a2238;
-  box-shadow: 0 4px 16px rgba(26, 34, 56, 0.16);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow-card);
 }
-.leaflet-popup-tip { background: #f5ede0; }
+.leaflet-popup-tip { background: var(--paper); }
 .leaflet-popup-content { margin: 12px 14px; font-size: 13px; line-height: 1.45; }
 .leaflet-popup-content .popup-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 15px; margin-bottom: 2px; }
-.leaflet-popup-content .popup-meta { color: #6b6e7e; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+.leaflet-popup-content .popup-meta { color: var(--ink-faint); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
 .leaflet-control-attribution {
-  background: rgba(245, 237, 224, 0.85) !important;
+  background: rgba(0, 0, 0, 0.0) !important;
+  color: var(--ink-faint) !important;
   font-size: 10px;
+}
+.leaflet-control-attribution a { color: var(--ink-soft) !important; }
+.leaflet-control-zoom a {
+  background: var(--paper-soft) !important;
+  color: var(--ink) !important;
+  border-color: var(--line-strong) !important;
 }
 
 /* Custom map marker base */
@@ -54,27 +107,27 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #f5ede0;
-  border: 2px solid #1a2238;
-  box-shadow: 0 2px 6px rgba(26, 34, 56, 0.25);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   font-size: 14px;
-  color: #1a2238;
+  color: var(--ink);
 }
-.atlas-marker.hotel { border-color: #b5391f; color: #b5391f; }
-.atlas-marker.airport { border-color: #1a2238; background: #1a2238; color: #f5ede0; }
-.atlas-marker.transit { border-color: #3a425a; }
-.atlas-marker.food { border-color: #c46a3d; }
-.atlas-marker.bar { border-color: #5d3a6e; }
-.atlas-marker.shop { border-color: #a07a3a; }
-.atlas-marker.temple { border-color: #b5391f; }
-.atlas-marker.art { border-color: #2a4d6e; }
-.atlas-marker.nature { border-color: #3d6b3d; }
-.atlas-marker.experience { border-color: #c4a370; }
-.atlas-marker.walk { border-color: #6b6e7e; }
+.atlas-marker.hotel { border-color: var(--vermillion); color: var(--vermillion); }
+.atlas-marker.airport { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+.atlas-marker.transit { border-color: var(--ink-soft); }
+.atlas-marker.food { border-color: var(--city-osaka); }
+.atlas-marker.bar { border-color: var(--city-kyoto); }
+.atlas-marker.shop { border-color: var(--gold); }
+.atlas-marker.temple { border-color: var(--vermillion); }
+.atlas-marker.art { border-color: var(--city-tokyo); }
+.atlas-marker.nature { border-color: var(--city-fuji); }
+.atlas-marker.experience { border-color: var(--gold-soft); }
+.atlas-marker.walk { border-color: var(--ink-faint); }
 
 /* Print */
 @media print {
-  body { background: white !important; }
+  body { background: white !important; color: black !important; }
   .no-print { display: none !important; }
   .leaflet-container { display: none !important; }
 }

@@ -174,17 +174,32 @@ export default function TripMap({
       preferCanvas: true,
     });
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      maxZoom: 19,
-      subdomains: 'abcd',
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    }).addTo(map);
+    const lightTiles = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+    const darkTiles = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+    const tileLayer = L.tileLayer(
+      document.documentElement.classList.contains('dark') ? darkTiles : lightTiles,
+      {
+        maxZoom: 19,
+        subdomains: 'abcd',
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      }
+    ).addTo(map);
+    // Swap tiles when the theme class on <html> changes
+    const themeObserver = new MutationObserver(() => {
+      const isDark = document.documentElement.classList.contains('dark');
+      tileLayer.setUrl(isDark ? darkTiles : lightTiles);
+    });
+    themeObserver.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class'],
+    });
 
     layerRef.current = L.layerGroup().addTo(map);
     mapRef.current = map;
 
     return () => {
+      themeObserver.disconnect();
       map.remove();
       mapRef.current = null;
       layerRef.current = null;
