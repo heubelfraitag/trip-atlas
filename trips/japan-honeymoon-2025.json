@@ -96583,13 +96583,11 @@
           "routeToNext": {
             "format": "polyline",
             "data": "chtxEk}msY??HLDDFBFADEDGFKDE@MTg@ZwA@GTgAJu@]QQIQKUMWM_@UWKG?E@E@SRSPML]^OLGFONGRSp@EL[dAGLKZYh@y@z@s@lA[nAOd@Oh@[jAOh@ADa@tAGPOh@EDQAUCiAIWE_AKo@KAFK\\_@fAEBC@Wd@sAbBGDE@s@x@YZEI{@`AOUCBg@ZUPc@Xw@h@CBCAGCAAEAGAEvCEtAArAA^EPg@Ey@Ky@Iq@E_@?]@YBe@Fa@LQFqAj@]No@VmBt@C@QHIB[LIDUHaBp@uAj@QH[L_DjAoDxAYLMDe@PsAl@qBx@k@V]L]N{B|@sAh@}@`@a@L_@P{@Le@Bw@Dq@DQ@C?kAD}DTe@?_@@yCL_BFq@DgGZI@OBKBMBi@LUF[JmA\\o@P]JE@iBh@gA\\E@_@J_ATiD~@_@Jw@RWFWDy@HcAH{@FqALkALk@DsALYDiALoANI@[BcALmALK?Q@eA@_AA[?U?qDEa@CqCUqAM}BUe@Ea@E[AuCCeGEw@AuB?gA?_@AO?sACo@?CZALK`AMjAUpA]rBOdAIb@CNCPSrBMhAE`@AHOzASjBE`@E\\S?m@A}A?mBAi@?Q?O?U?O?Q@ER?J@p@GAAX",
-            "durationMin": 50,
+            "durationMin": 24,
             "distanceM": 6046,
             "mode": "subway",
             "osrmMin": 12,
-            "corrected": true,
-            "formulaMin": 24,
-            "pinned": "Google Maps verified: Shimokita→Koenji requires Shinjuku transfer, 50min"
+            "corrected": true
           }
         },
         {
@@ -96634,14 +96632,31 @@
           "lng": 139.6498,
           "routeToNext": {
             "format": "polyline",
-            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@@_@Ba@D_@D]F_@NaATwABMBQN_AD_@F{@H_C@Y?[Jc@Be@He@DSDQHYRw@Nm@\\wALi@H_@z@iE`@oB@CNw@Ny@DUZqAd@oBT_AT}@TaALg@FSPy@Lg@XuAVmARgADQDUF_@F[ToAr@wD@M@MAK?KCMCQAEk@kCAMAQ?g@G_BAy@AMAa@Bu@LoD@I@IBGBCJDH@H@FALAPCl@KDADADATIFCFCDCFEBEDE@C@C@CLOBS@IZ_C@IDS@E@GBIBIHSb@oADK@GFQ@C@CFOBKr@qBJ[HUBG@EBGHUjAgDL]DMZRn@^b@Vd@XRJ^TC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNPTTdClCDFJLHMx@qAr@kAHMFIZe@n@}@BC",
-            "durationMin": 37,
-            "distanceM": 13059,
+            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@@_@Ba@D_@D]F_@NaATwABMBQN_AD_@F{@H_C@Y?[Jc@Be@He@DSDQHYRw@Nm@\\wALi@H_@z@iE`@oB@CNw@Ny@DUZqAd@oBT_AT}@TaALg@FSPy@Lg@XuAVmARgADQDUF_@F[ToAr@wD@M@MAK?KCMCQAEk@kCAMAQ?g@G_BAy@AMAa@Bu@LoD@I@IBGBCJDH@H@FALAPCl@KDADADATIFCFCDCFEBEDE@C@C@CLOBS@IZ_C@IDS@E@GBIBIHSb@oADK@GFQ@C@CFOBKr@qBJ[HUBG@EBGHUjAgDL]DMZRn@^b@Vd@XRJ^TC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PUWWmC_CWSSSwCiCSQQQi@c@wAmAi@e@}@y@[c@i@c@iAaAOWIIMKBOLJ\\RjAbAp@h@V^`@^vCfC~G`GxBnBbAdA",
+            "durationMin": 33,
+            "distanceM": 14151,
             "mode": "subway",
-            "osrmMin": 17,
-            "corrected": true,
-            "formulaMin": 31,
-            "pinned": "Google Maps verified: Koenji→Higashi-Ginza 37min"
+            "osrmMin": 18,
+            "corrected": true
+          }
+        },
+        {
+          "id": "d3-10b",
+          "time": "17:30",
+          "title": "Higashi-Ginza pre-Kabuki dinner",
+          "description": "3-min walk from Kabukiza. Mid-tier ¥3-6K pp picks for the 17:30-19:15 window before 19:30 curtain:\n\n**SIT-DOWN ICONIC**\n1. **Chikuyotei Ginza** ⭐ — 1883 unagi house that caters meals to Kabukiza actors. Unagi-don ¥3-5K. No reservations — arrive 17:30 sharp.\n2. **Ginza Yondaime Takahashiya** — Kanto-style unagi (steamed then grilled), modern interior, reservable.\n3. **Ginza Tonkatsu Hashikatsu / Tonkatsu Marushichi / Nishi Mura** — three old-school Higashi-Ginza tonkatsu shops. Quick turnover, walk-in friendly.\n4. **Shari (Mitsui Garden Hotel Ginza 5-chome 2F)** — casual-but-elevated sushi/sashimi sets ¥3-5K, easier to walk into than counter sushi.\n5. **Bergman** ⭐ — directly behind Kabukiza; hamburg steak + Japanese beef, ¥3,500. **Lowest-friction pick if everything else has a line.**\n\n**KABUKIZA BASEMENT — Kobikicho Hiroba (B2)**\n6. **Izushō kintsuba** — 200-yr Iida City confection; signature Kabukiza souvenir.\n7. **Bento counters** — pre-packed makunouchi to eat during intermission.\n8. **Café in Kobikicho Hiroba** — quick coffee + wagashi if dinner ran tight.\n\nTop 3: Chikuyotei (theme: actors eat here) → Bergman (zero-friction fallback) → grab Izushō kintsuba + an intermission bento at the basement on your way in.",
+          "address": "Higashi-Ginza area, Chuo-ku, Tokyo",
+          "category": "food",
+          "costPerPerson": 4500,
+          "currency": "JPY",
+          "lat": 35.6695,
+          "lng": 139.767,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "muuxEufatY`@`@jAtAbBxBxC~Dn@j@bAtAJ[h@s@j@u@Za@n@}@JMGI_CgDIOKM}@oAw@gAMSKMgB}Be@k@KMQR}@dA}@dAk@p@SV]b@QRc@j@AH@F@FBBzBbDFJBC",
+            "durationMin": 2,
+            "distanceM": 163,
+            "mode": "walk"
           }
         },
         {
@@ -97190,7 +97205,7 @@
           "id": "d8-0a",
           "time": "08:30",
           "title": "Nishiki Market",
-          "description": "Kyoto's 'kitchen of Kyoto' — 400m of covered arcade with pickle shops, tofu makers, knife shops (Aritsugu!), grilled skewers, fresh strawberries dipped in chocolate, sake samples. Morning is peak vendor energy. Grab grazing snacks for the temple-cluster walk + maybe scope out a knife at Aritsugu while you're there. 15-min walk from Hotel TOU.",
+          "description": "Kyoto's Kitchen — 400m covered arcade, ~120 shops. Most open 9:30-10:00 (verify your weekday — many close Wed). Mid-morning grazing + the trip's real knife-shopping anchor:\n\n**KNIVES (the anchor — open 9:00 sharp)**\n1. **Aritsugu** ⭐ — founded 1560 (originally swordsmiths). Free name/initial engraving on the blade. Gyuto (chef's), santoku (lighter), petty (compact for luggage), or the signature **hammered-copper tamagoyaki pan** (tin-lined). Get there 9:00; engraving takes 30-45min.\n\n**SAVORY**\n2. **KAI (Kyo Saiki)** — iconic Tako Tamago (baby octopus with quail egg). KAI is the original.\n3. **Daiyasu** — oysters raw/grilled/fried, standing counter, locals' choice.\n4. **Nishiki Konomonoten / tsukemono stalls** — 30+ varieties of Kyoto pickles with free samples (try senmaizuki sliced turnip).\n5. **Kyoyuba Senmaruya** — fresh yuba (tofu skin) sashimi.\n6. **Toriiwaro / Torisei** — chicken skewers from Kyoto free-range birds.\n7. **Curry pan stalls** — fresh-fried curry bread (generic, multiple).\n\n**SWEET**\n8. **Konnamonja** ⭐ — soy milk donuts + soy milk soft serve; run by tofu shop Kyotofu Fujino. Locals love this.\n9. **Shogoin Yatsuhashi** (Nishiki branch) — cinnamon-rice triangles raw + baked.\n10. **Strawberry daifuku / ichigo mochi vendors** (seasonal).\n11. **Mochi-yaki stalls** — grilled mochi on stick.\n12. **Matcha soft serve** — multiple vendors including a Tsujiri-style.\n\nTop 3 if pressed: **Aritsugu (knife engraving) → KAI Tako Tamago → Konnamonja soy donut.**",
           "address": "Nishiki-koji, Nakagyo Ward, Kyoto",
           "category": "food",
           "lat": 35.00497,
@@ -97243,7 +97258,7 @@
           "id": "d8-4",
           "time": "12:45",
           "title": "Hisago oyakodon",
-          "description": "Chicken + egg over rice.",
+          "description": "Chicken + egg over rice.\n\n**BACKUP LUNCH OPTIONS** if Hisago line is brutal (60-90min waits common):\n- **Okutan Kiyomizu** — oldest yudofu in Kyoto (1635), Sannenzaka/Ninenzaka intersection. ¥3,000 set.\n- **Akoya Chaya** (Ninenzaka) — ochazuke buffet with 20+ pickles. Cheap, fast — best bailout.\n- **Omen Kodaiji** — fat udon dipping noodles, locals + Anthony Bourdain favorite.\n- **Higashiyama Yuuzu** — Miyama yuba workshop restaurant, locals' yuba pick.\n- **Junsei Okabe-ya** — tofu + yuba kaiseki right at Kiyomizu base, garden seating.",
           "category": "food",
           "costPerPerson": 1500,
           "currency": "JPY",
@@ -97398,20 +97413,18 @@
           "id": "d9-3",
           "time": "11:00",
           "title": "Nakamura Tokichi Honten",
-          "description": "Matcha soba + parfait.",
+          "description": "Matcha soba + parfait.\n\n**UJI MATCHA BACKUP OPTIONS** if Nakamura line is brutal:\n- **Itohkyuemon Uji Honten** — matcha soba + matcha desserts, best fallback.\n- **Tsuen Tea** — founded 1160, oldest tea shop in Japan. By Uji Bridge — served Hideyoshi.\n- **Masuda Chaho** — front gate of Byodo-in. Freshly stone-ground matcha on ice cream. **Locals' pick over Nakamura.**\n- **Fukujuen Uji-cha Kobo** — workshop where you grind your own matcha.",
           "category": "food",
           "lat": 34.8907,
           "lng": 135.8079,
           "routeToNext": {
             "format": "polyline",
             "data": "}o}sEy|{{XBH@D?FAD]jAMb@M\\GLCDNdBBt@?^?Fq@EaB@yBBG?I@KBKBGBMFKF[V@FDXT|ADRBPLv@DTHZHZPd@LTBDLRT^HLLPr@bAFJj@x@PP~@x@LJLJJHVX@@RXRZFHNVJPDLJTVp@Ld@BJFVPv@H\\^jALXNXBDV`@ONKFyAXG@E@aAJiABYBWBAX[pICjAIrBA\\ATMbEC|@ItA?JAn@CLG~@CLe@rCI\\EXSpAUjAKt@Cl@ATA\\At@El@Gn@K^CHCJKZUd@U^SVe@d@q@f@C@e@h@Q^EHUn@CDERAJCPAR?^@b@JrBF`B@^@V?j@@xC@xDA|@?^@r@@n@xBBX@jBBl@@jABxABrBLxARbAPTDPFtCdAhC~@xCjAt@TdDhALBLDTHvC`AJDz@Xv@VjF`BrAd@vAd@lBh@FBrCl@|Dx@zAZbATh@HfDRvKj@T@V@bADlCJN@l@B`AFp@DX@H?d@@T@h@DX@lCRD?P@l@@VBdEVl@BF@lGXh@BfADnAHlGZ~@DL@tAFnAFbBLdADfBHR@R@xFXL@hDPfDNp@D`GZD?D@|@Dx@@jACfAMx@MJCFAVIVI\\Mx@[VKj@YPKnAaA|AyAnAgABCDEvBkB~BwBJKPOtAmALKvBkBHK|BsBb@c@xAmAhAaATSTUjBgBNORSFEJK|@y@`A}@bAy@bAy@XU`CkAPEbA[lA]h@QVIlBg@pC{@r@WnBq@~Ak@NGf@S^MLEvBy@h@WRM^QfAu@PKBABANI`BcAXSfAo@dDmBbCyAzCcBfEcCnI_FtAu@t@Uz@MvFs@~H}@lH}@|AQ~@Kr@InBUJAzEm@pEg@tBYbEo@~Cg@bBQfCg@`Dk@ZIG]Ce@?c@Ba@DWv@gCNs@Ju@Bi@GoECkBAUGsAg@yDGqA?A?iAHgJCyAV?b@ADAjA?f@EJCZGd@OZS\\W^g@p@mAv@mA`@]j@]l@O`@GhA?bCBfGLhCDzBB^?b@E`@Gn@U^M`@St@c@b@a@DC^YFGpA}@tA_@|Dc@NAzC[n@EpFErDGb@?vCGv@EbAGjAAxBGzJMrDC`@AlHKl@DfA?v@AN@P?ZBTDNBVDR@XBRARC`@Il@QTERAt@A?G?_@?C?W@SFe@DSD]J}@Bk@@OH?b@?B?f@INA^Ir@Ij@E`@E\\Cf@EjAKRC|AUZEpASzAShAOPCz@M|@M^?HBHBFAXMx@]ZO\\OrAk@`Bs@\\Mn@WPEVARD^Fl@?v@Ct@MVMd@[lAe@l@UzAe@h@Ix@C|BAp@C|@QvCq@FANC`BKd@AT?H@F@PFD?RA`@MVG^Gr@Of@MXGPC`@Ih@GnAMj@Ar@Ah@?f@?\\?h@?ZCj@IDARGVKpAw@tAy@l@[DAFALCH?J?J?JBJBJB`@P^NjAd@|An@b@NTHh@TTJRHHBF@FBHBF@HBH@LBNBVBTBH?J?H?J?HAJ?HAHAJAHAHCNELCJCLGLGZOXQRORQPQ|AyA`A_Ar@s@DCdAiAPQXW^[b@[PKPKVMVKr@Sl@OPETCTC^C^A`@?^@RBr@J~APhAF~@?dAQ~Ba@v@MvAIfGBfAAxA@x@?f@?tB@zA@ZAXCXCXCbAS\\IjAYrBe@JEj@Q|@QNATA\\B|EVhAD\\@|ALt@Ln@LjDz@|BVlEFbEDhAAbBCxECdBCdCCb@B^J\\XRXXx@dAs@hAgA|@eAfAkB`AeBVg@\\q@v@uATg@`AcBHOHOh@eAP[T[PWTSRU^[TQRMVM\\O`@O|Ae@vBs@\\KJCDCdCy@ZM~@Yn@QhA[`A]JCpSsGLETIb@O`Bg@VGRCXEl@GT?\\Az@BL@d@BvCPlBJ`BJJ?bCPT@T@`EVvBHr@BP@P@L@`CHh@Bn@BnAHhAFpBP|@FV@z@F`AF~BNh@Fn@HTFXFrAXLBr@Hx@LN@RFVUPGjDwAFCPIfC_AXMnCgAvCgAp@Wr@Yj@Wj@Wz@c@~@e@fCqAlAk@JGpBcAXMl@YRI`@KXGlC_@x@KfCa@fBYbC_@jC_@zBc@j@QZKFCLGPMdEoCJIPKt@e@xBwA^UZQf@Qr@MXCdA?~BBv@IpAYh@Sb@QhCmAXIX\\pAzAj@t@pA|A\\XXPXNRHND`@Jn@Df@DxCNv@B^BnCPpAHhBJ`DNr@AvAGj@IjAYn@QxD{@tDy@pBc@r@GXAV?|A@P@f@Fj@Jl@PpAh@bAp@fAbAX^j@h@TR`@`@NNNNLLPNXTfAfANPRLPHPDJ@LAJAPCj@Uh@UVEBAZE^@P@PDLFj@TZLRBl@@b@Iz@_@XMLELGNANCLAT?bCAV?L?dDAD?pAA|BAx@?J?D?B?P?pCAdCAfEAP?NAzB?lA?j@?N?dDAV??[As@@aA?_@?kB?SR?H?N?Z?BD",
-            "durationMin": 49,
+            "durationMin": 59,
             "distanceM": 28415,
             "mode": "subway",
             "osrmMin": 36,
-            "corrected": true,
-            "formulaMin": 59,
-            "pinned": "Google Maps verified: Uji→Kintetsu-Nara 49min"
+            "corrected": true
           }
         },
         {
@@ -97439,9 +97452,28 @@
           "lng": 135.843,
           "routeToNext": {
             "format": "polyline",
-            "data": "}purEwbc|X??[JU?UEUUkAy@e@[Ql@Ut@ONSFM@G@KBs@Fs@DI@K@e@?_@\\KA@MEWAC?OY[Ag@AEC?[Ac@GGAc@Bm@JYLY@[Bq@LG?O@OMWi@K_@CEU[EAC?Br@FlAFhAFTVRLPv@fAFRBXFfAEp@ALAX?NHp@BLR`APrABVApA@|D",
-            "durationMin": 8,
-            "distanceM": 642,
+            "data": "}purEwbc|X??[JU?UEUUkAy@e@[Rc@JYj@u@LODGRQ`@a@bA{@`BmAd@Wj@WxA]NGRWDIZuAZ}BNNBJBp@@|@P~BNtDBBFDJHDD@\\?HPh@N`@L\\@HVv@Jp@@f@?\\An@Ep@Ab@Ar@Ah@?X@J?BAb@CXCLGTy@|AGVCZ@|DAvBANEVT@t@BbA@Z?f@@l@BR@d@?fCJfAF`@Dd@HHAN?XQn@_@f@Mb@G^?n@Fn@LNDLDl@R~@Td@Bj@@L??PJ~ADt@Dz@PhDBp@?BAv@Ct@El@Eh@EbA?j@CtA?T?Z?`@H\\Lf@H\\Fb@Bz@?TAv@EXKLUFqBAWHG\\?l@?f@CzB?L?L?jCAN?zB?LK?aACCAA?oBCYAIB?pB?R?J?z@AzA?hC@dC?Ja@@",
+            "durationMin": 23,
+            "distanceM": 1919,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d9-4b",
+          "time": "14:20",
+          "title": "Nakatanidou mochi pounding",
+          "description": "**MUST-DO SPECTACLE.** Sanjo-dori × Higashimuki intersection, 5-min walk south of Kintetsu-Nara. Yomogi (mugwort) mochi ¥130 each, cash only. The pounding show happens 10-15x/day (no fixed schedule — best odds noon-late afternoon, weekends up to 30x). The video everyone has of two guys pounding mochi at superhuman speed — this is the place. Eat the mochi immediately, it's only good warm.\n\nAfter Nakatanidou, continue to Todai-ji (10-min walk N). **Other Nara grazing along Higashimuki arcade + Sanjo-dori:**\n- **Hiraso** — kakinoha-zushi (persimmon-leaf mackerel/salmon sushi), Nara classic\n- **Tanaka Honten** — alt kakinoha-zushi + Kintetsu-Nara grab-and-go bento\n- **Imanishi Honten / Yamato Shoten** — narazuke (sake-lees pickles) souvenirs, vacuum-packed\n- **Mizuya Chaya** (Kasuga Taisha approach) — warabi mochi + kuzu mochi in a forest setting\n- **Shika senbei** — for the deer not you (¥200/pack, photo content)",
+          "address": "29 Hashimotocho, Nara 630-8217",
+          "category": "food",
+          "costPerPerson": 260,
+          "currency": "JPY",
+          "lat": 34.6798,
+          "lng": 135.8275,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "wktrEoy_|XmA?eCBq@?]?iCAE??gF?s@?qDAy@?]?OAkDEwAEo@Cs@?iB?iA?Q?aCAuC@WO?oBA}I?{EDW?S?eBAiB@C?_CBm@?qA?U?Q?yB@C?w@?I@?K?m@@EAo@Ce@C{@Ew@MwCW_GE}AEwAAaA?eB",
+            "durationMin": 23,
+            "distanceM": 1891,
             "mode": "walk"
           }
         },
@@ -97527,13 +97559,11 @@
           "routeToNext": {
             "format": "polyline",
             "data": "onltE}cu{XtBLBc@RORCf@@@JANGd@?f@@b@?F?^?Z?R?`@@L?z@GjAi@PW@{@Di@?g@?eD?E?wC?mB?{@?_BASAgBHk@@[?o@@Y@wBBE?g@@aA@}ABIBAnB?H?J?\\?D?d@?N?JA~@?b@?HEt@An@Ch@?dAArA?P?RAbCAzAEjCA`@?~AArB?bAAr@?\\?f@IhBAR?R?fB?d@?D?T?V?B?jE?h@Ar@?D?r@?\\?P?n@?j@?nCApC?vB?R?PAxF?F?`H?z@?d@?\\AX?`@?d@?p@?jA?l@ArH?PAzH?rA?jDAlI?t@?fAAvA?J?tC?`A?`B?BAt@?b@?fA?dB?`B?X?j@?jEAtDAzF?bB?lA?r@ATCTOn@SX}@l@gD|BuE`Du@j@gCbBGDm@d@mAz@GBsA`Aa@PHn@HRFRRb@BDJVBB|@pBdBrD|AfDP`@dCnFrBjEr@xAFNA\\?LEJOPiAt@}@n@e@XiAr@iBjASLGDsA|@gAr@oCdBe@Zi@\\MFKHaAn@SJw@f@mAv@sAx@WNOH}A`AEBgAr@SLKHOH_Al@eBjAi@\\}A`AeAp@iBbA_@R?`@?fA?xBkAL}ALq@La@FYFgAVO@mANq@HoALeAJsE`@Q@_@Dc@BeBNuEZaAFK?s@Bg@@U?G?G?c@DUDWF[JKBWDg@DI@s@HiBNeE\\WDOHQTQZQHu@BmCBO@WCI?Y?[?Q?WBqEAK??P?r@?JAvB?L?t@?`AAtA?RAvIAlB?P?NAd@It@EPALCR?TA`A?bAAv@?rBAb@Cv@_@pA?Nm@d@GDuC`Cc@Ty@`@MTI`@Kn@a@xC_@jCMfACLPHD@?PAD?PC`@Ab@KbA?BMjAGz@C^Cb@@r@?j@CdAAJ?NC^?XBPDb@BR?L?VCrACvA?l@?`A@x@BRB`@Df@@TD|BHnB@\\Ep@KbACL?P@X@`A@d@@n@Dx@Kt@QlAWhBOdAAJw@fFG^EJCFa@p@w@vACDu@dAY`@OZOZe@r@Jd@H^BJBJDL`CfKDNDNHJFJPRFD^^B@PNULEDs@n@i@b@o@f@a@Z]X[Vk@d@_@Xi@b@uAhAy@r@E@KJC@u@l@k@b@yB~AYR{AfAQNi@`@u@h@gAx@_BjAc@VeAp@cCxAc@Vk@\\KFw@f@yA|@eBbAA@QJyA|@MHRb@@BBFf@rBBNCFi@n@ILa@r@_@r@GL[x@kBzBk@x@SZM@IEa@Ka@O]KQE[GQCqGa@C?O?WHcB\\KBc@J]JiAVaB\\g@Ha@HIBgDn@u@Pw@Nw@R{@T_@qCG_@Ii@M{@COGo@E[?EAECOCSGe@",
-            "durationMin": 42,
+            "durationMin": 37,
             "distanceM": 13791,
             "mode": "subway",
             "osrmMin": 21,
-            "corrected": true,
-            "formulaMin": 37,
-            "pinned": "Google Maps verified: Fushimi→Saga-Arashiyama 42min"
+            "corrected": true
           }
         },
         {
@@ -97612,7 +97642,7 @@
           "id": "d10-2c",
           "time": "13:00",
           "title": "Lunch in Arashiyama town",
-          "description": "Walk back down toward Togetsukyo. Yudofu (tofu hot pot) is the Arashiyama signature — try Shoraian or Yudofu Sagano. Or grab matcha soba at Arashiyama Yoshimura with bridge views.",
+          "description": "Walk back down toward Togetsukyo. Yudofu (tofu hot pot) is the Arashiyama signature — try Shoraian or Yudofu Sagano. Or grab matcha soba at Arashiyama Yoshimura with bridge views.\n\n**ARASHIYAMA LUNCH PICKS (mid-tier ¥1500-3000)**:\n1. **Shoraian** ⭐ — yuba/tofu kaiseki riverside with mountain view. Shofu set ¥5,800 (yudofu + wagyu). **Reserve.** Hike up the hill.\n2. **Yudofu Sagano** — the famous one; touristy but solid in a temple setting.\n3. **Arashiyama Yoshimura** — stone-milled soba with Togetsukyo Bridge view. Best non-tofu option.\n4. **Saga Tofu Ine** — fresh seasonal yuba + yudofu, less crowded than Sagano.\n5. **Unagi Hirokawa** — Michelin grilled eel, main street. Reserve.\n6. **Telacoya Honpo** (in front of Togetsukyo) — dango + senbei graze ¥200-400.\n7. **% Arabica Arashiyama** — riverside coffee, takeout only.",
           "address": "Arashiyama, Ukyo Ward, Kyoto",
           "category": "food",
           "costPerPerson": 2500,
@@ -97644,7 +97674,7 @@
             "osrmMin": 21,
             "corrected": true,
             "formulaMin": 37,
-            "pinned": "Google Maps verified: Togetsukyo→Chushojima 57min (multi-transfer)"
+            "pinned": "Google Maps verified: Togetsukyo→Chushojima 57min (multi-line transfer)"
           }
         },
         {
@@ -97676,12 +97706,31 @@
           "address": "247 Minamihama-cho, Fushimi-ku, Kyoto 612-8660",
           "routeToNext": {
             "format": "polyline",
-            "data": "cbetE}~r{XS?kA?w@?At@?@?BABC@A@i@?A|B?hE?v@?JAf@GJOLMTCV@X?Jg@Ag@?G?EAE@E?G?E?E?G@A?C?E@E@G?E@E@E@E@G@eCTK@MBYFgCj@QBU?c@?]?UAaEOqAEy@G_@Cs@CQ?_@AKBIFGFCBCFELCPATAR?XE~BEbAEHINYRa@Bm@Bw@FY@o@CI?iDa@wGu@{BQeAIoAIk@Ek@Ec@C}@Ey@C[?IAI?iAA{@?I?a@?I?wBCgBC}@Ca@Cu@Io@Y[Oa@U}@k@i@[IEGEAAOKIEECG?]Ea@?I?K?]?Y?cA@_@@u@@oA?E?i@EI?YESCSE]Gs@Mm@Mw@M[K]EUE_AQm@K_AQ]G{AYE?m@M_Ca@gB[GAe@I}@Qc@GuEq@}Dq@WEq@Ou@O_B[m@MuAW_@IkDe@oBUcBSQCSCgEg@UCKAmAQcFg@a@E]EaAIaAISCG?SCWCoBOi@CKASCq@EUCkAIs@Ga@GsCUa@Ec@EeBQe@EaBQcAMmAMuB[[@S@QBOFyB~ASNSJYPc@]yCaC_BcAg@U]MOGk@QaBGI?_@ASAiBE_AE{CI[?QA}@C]?UAaAC]AY?q@Ao@CIAQ?gBEkBIkACm@Ai@?iAAq@CS?m@AiBCQAi@?g@CS?O?_AAe@Ak@Ac@AKAK?K?mACI?o@C}AAa@?YFyCD_A@K?oBBwA@iA@a@@c@?qBAg@@gA@eB@g@Kc@?k@?sC@wF?[?qA?A?UC]KyAg@KG_Aa@}@_@gAc@KEqBaA}BsAkAs@CAa@Ui@YWOECaA[g@O_Bg@oAc@[KKC_DcA}@YSGWIMGYKeC}@_@OECKEiDuAOGKEa@QyAm@]Oi@SQGKEICIAICKA[?K?mA@e@?e@@u@?w@@m@@cABO?kBD}@Dm@@M@}@BO@k@@o@B",
+            "data": "cbetE}~r{XS?kA?w@?At@?@?BABC@A@i@?A|B?hE?v@?JAf@GJOLMTCV@X?Jg@Ag@?G?EAE@E?G?E?E?G@A?C?E@E@G?E@E@E@E@G@eCTK@MBYFgCj@QBU?c@?]?UAaEOqAEy@G_@Cs@CQ?_@AKBIFGFCBCFELCPATAR?XE~BEbAEHINYRa@Bm@Bw@FY@o@CI?iDa@wGu@{BQeAIoAIk@Ek@Ec@C}@Ey@C[?IAI?iAA{@?I?a@?I?wBCgBC}@Ca@Cu@Io@Y[Oa@U}@k@i@[IEGEAAOKIEECG?]Ea@?I?K?]?Y?cA@_@@u@@oA?E?i@EI?YESCSE]Gs@Mm@Mw@M[K]EUE_AQm@K_AQ]G{AYE?m@M_Ca@gB[GAe@I}@Qc@GuEq@}Dq@WEq@Ou@O_B[m@MuAW_@IkDe@oBUcBSQCSCgEg@UCKAmAQcFg@a@E]EaAIaAISCG?SCWCoBOi@CKASCq@EUCkAIs@Ga@GsCUa@Ec@EeBQe@EaBQcAMmAMuB[[@S@QBOFyB~ASNSJYPc@]yCaC_BcAg@U]MOGk@QaBGI?_@ASAiBE_AE{CI[?QA}@C]?UAaAC]AY?q@Ao@CIAQ?gBEkBIkACm@AOu@[uAaA_EGWEUCWCWAUYoIo@?o@Ec@G[Eg@OeAYWEMAMASCQASEWCQCu@M]EMAQ?e@@o@Du@BmAFaAHkCVuALsCVoALI?K?Q?gBNc@Bm@BcBDW@??wBHS@K?Q@G@wEP{BHm@?_AAI?OAUAcDWuF_@aAIk@GQCe@K_BYm@OSEIAi@OyIsCiFaBKEMEA?eDkAcFqBoEmBOISKkAc@kAc@_AUOCy@Oi@IGA?F@H?P?F?dC?X@fA?R?H@H?B?J@hA",
             "durationMin": 30,
-            "distanceM": 9229,
+            "distanceM": 9357,
             "mode": "subway",
             "osrmMin": 16,
             "corrected": true
+          }
+        },
+        {
+          "id": "d10-7b",
+          "time": "18:00",
+          "title": "Torisei Shijo Kiyamachi dinner",
+          "description": "50+ year yakitori institution, **2-min walk from Bee's Knees speakeasy.** Fills the 5-hour Gekkeikan-to-Bee's-Knees gap with a proper dinner anchor before the late-night cocktails. ¥3-4K pp. Chicken skewers + tsukune + Kyoto-chicken sashimi. Solo or counter seating. Walk-in friendly.\n\n**ALTERNATIVES nearby Kiyamachi/Kawaramachi** if Torisei is full:\n- **Torigoro Kawaramachi** — ¥300/skewer izakaya, all-you-can-eat option.\n- **Issen Yoshoku (Gion)** — single-menu okonomiyaki novelty, walk-in.\n- **Honke Daiichi Asahi** (Kyoto Station) — Kyoto classic shoyu ramen, but it's a detour.\n- **Nishiki Warai** — okonomiyaki on Nishiki arcade fringe.\n- **Weekenders Coffee Tominokoji** — pre-dinner espresso in a hidden alley (Brian-coded).",
+          "address": "Shijo-Kiyamachi area, Nakagyo-ku, Kyoto",
+          "category": "food",
+          "costPerPerson": 3500,
+          "currency": "JPY",
+          "lat": 35.004,
+          "lng": 135.77,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "utstEqqt{XAiA?K?CAI?I?SAgA?Y?eC?G?QAI?Ge@EeAGeAEiACOA_GKM?QAeDEoAA[?]Am@?c@BuA?Y?@V@BN`D?JJxBB`@P?zA??I?a@",
+            "durationMin": 7,
+            "distanceM": 603,
+            "mode": "walk"
           }
         },
         {
@@ -97789,7 +97838,7 @@
           "id": "d11-5",
           "time": "14:30",
           "title": "Takoyaki Wanaka",
-          "description": "¥600 for 8.",
+          "description": "¥600 for 8.\n\n**BONUS DOTONBORI CRAWL PICKS** beyond your 6 planned anchors:\n\n**OTHER TAKOYAKI**\n- **Otako** — oldest takoyaki in Dotonbori, larger octopus chunks (locals').\n- **Takoya Dotonbori Kukuru** — softer/creamier interior, giant octopus signboard, eat-in upstairs.\n- **Konamon Museum (Dotonbori)** — 5-brand takoyaki sampler under one roof (Aizuya + Kukuru + Juhachiban + Yamachan + Kogaryu).\n\n**ALT OKONOMIYAKI**\n- **Hozenji Sanpei** ⭐ — Time Out Osaka #1 pick, 40+ years, tiny counter inside Hozenji Yokocho (overlaps your anchor).\n- **Chibo Dotonbori** — big chain, reliable, less touristy than Mizuno.\n- **Negiyaki Yamamoto** (Namba branch) — green-onion pancake, locals' niche pick.\n\n**CRAB / SUSHI / ICONIC**\n- **Kani Doraku Honten** — giant moving crab sign; streetside stall has grilled crab legs + crab shumai.\n- **Kura Sushi Dotonbori** — ¥115/plate conveyor belt, gacha-prize gimmick.\n\n**PORK BUNS / RAMEN / LATE-NIGHT**\n- **551 Horai Namba/Dotonbori** ⭐ — Osaka butaman (pork buns) since 1945; red box is THE Osaka souvenir. Steam-grab-and-go.\n- **Ichiran Dotonbori Main Building** — 24-hour tonkotsu, the flagship destination branch.\n\n**DESSERT / PHOTO**\n- **Pablo Cheese Tart** (Shinsaibashi 1-chome flagship) — founding location, freshly baked half-baked tart.\n- **Strawberry Mania Dotonbori** — strawberry tanghulu (crystal-glazed skewer, ¥600).\n- **Rikuro's Cheesecake Namba Honten** — jiggly cheesecake from the oven with branded bell ring, 5 min south.",
           "category": "food",
           "costPerPerson": 600,
           "currency": "JPY",
@@ -97892,7 +97941,7 @@
           "id": "d12-1",
           "time": "09:30",
           "title": "Kuromon Ichiba Market",
-          "description": "Uni, wagyu, oysters.",
+          "description": "Uni, wagyu, oysters.\n\n**Heads-up:** Kuromon is now ~98% tourist (per the market itself), prices inflated for uni/wagyu. Graze + photo, don't expect value. Vendor picks:\n\n**SEAFOOD**\n1. **Maguroya Kurogin** ⭐ — flagship tuna; akami, chu-toro, o-toro, kama-toro cut to order, eat-in counter. Single must-do.\n2. **Kuromon Sanpei** — colorful uni + tuna kaisen-don bowls. The Instagram seafood-platter spot.\n3. **Grilled scallop stalls** (multiple, ¥500-800/scallop with uni or cheese topping).\n4. **Uni shot stalls** (multiple, ¥1000-1500 in shell).\n5. **Toyo (fugu)** — TV-famous fugu specialist (winter season; the giant-knife guy is a longstanding market figure).\n\n**MEAT**\n6. **Maruzen Meat Shop** — Kobe + Kuroge Wagyu skewers grilled to order, next to Maguroya Kurogin.\n7. **Nikuhoshi** — A4/A5 Matsusaka wagyu skewers.\n8. **Wagyu sushi** (multiple stalls, blowtorched to order, ¥500-1500/piece).\n\n**LOCALS' COUNTERWEIGHT**\n9. **Ishibashi Shokuhin** ⭐ — 50+ year family-run side-dish/pickle/lotus root stall, rare locals' pick.\n\n**SIDES / SWEET**\n10. Eel/anago grilled-skewer stalls; tea + pickle souvenir shops; seasonal fresh strawberry skewers (¥500-800 amaou + condensed milk).\n\nTop 5: **Maguroya Kurogin → Maruzen wagyu → Kuromon Sanpei (photo) → Ishibashi pickle → strawberry skewer.**",
           "category": "food",
           "lat": 34.6655,
           "lng": 135.5066,
@@ -97951,7 +98000,7 @@
           "id": "d12-5",
           "time": "17:30",
           "title": "Janjan Yokocho",
-          "description": "Lantern alley. Map opens at the entrance arch.",
+          "description": "Lantern alley. Map opens at the entrance arch.\n\n**SHINSEKAI KUSHIKATSU PICKS:**\n\n1. **Yaekatsu** ⭐ — 70+ years on the alley (since 1949 era); Reddit/locals' #1, expect a line.\n2. **Tengu** — long-established izakaya next to Yaekatsu; thick voluminous breading, both locals + tourists love.\n3. **Kushikatsu Daruma Shinsekai Honten** — the 1929 mothership of the Daruma chain (different from your Day 11 Dotonbori branch).\n4. **Hatena** — lower-profile kushikatsu alternative.\n\n**SIDES TO ORDER:** Doteyaki (beef tendon + konnyaku in white miso — Shinsekai signature pairing) at any of these.\n\n**ATMOSPHERE EXTRAS:**\n- **Mihashi Shogi Club** — watch shogi games through the glass storefronts mid-alley.\n- **Standing sake/beer bars** — shoulder-to-shoulder with regulars.\n- **Smartball / pinball parlors** — vintage pachinko-ish Shinsekai specialty.\n- **Tsutenkaku Tower base** — Billiken statue: rub the feet for luck before you enter.",
           "category": "walk",
           "lat": 34.65149,
           "lng": 135.50609,
@@ -97968,7 +98017,7 @@
           "id": "d12-6",
           "time": "19:00",
           "title": "Kushikatsu Daruma Shinsekai",
-          "description": "Original location.",
+          "description": "Original location.\n\n**Note:** You already did the Daruma chain on Day 11 Dotonbori. Consider **Yaekatsu** instead (locals' #1, 70+ years, just up the alley) for a different operator. Daruma Shinsekai Honten is 1929 original if you want the chain heritage.",
           "category": "food",
           "lat": 34.6518,
           "lng": 135.5063,
@@ -98354,7 +98403,7 @@
           "id": "d15-0a",
           "time": "09:30",
           "title": "Tsukiji Outer Market",
-          "description": "Note: Tsukiji is 3km NW of Toyosu — ~10-15 min via Yurikamome from Shijo-mae or taxi. Tsukiji Outer Market is still the fun grazing area — knife shops (Aritsugu, Sugimoto), tamagoyaki on a stick, sea urchin shots, grilled scallops, matcha mochi. After the Sushi Bun breakfast, this is the food-bazaar wandering before heading to Ginza.",
+          "description": "Note: Tsukiji is 3km NW of Toyosu — ~10-15 min via Yurikamome from Shijo-mae or taxi. Tsukiji Outer Market is still the fun grazing area — knife shops (Aritsugu, Sugimoto), tamagoyaki on a stick, sea urchin shots, grilled scallops, matcha mochi. After the Sushi Bun breakfast, this is the food-bazaar wandering before heading to Ginza.\n\n**TSUKIJI VENDOR PICKS** (touristy but still has the goods):\n\n**SUSHI / SASHIMI**\n1. **Tsukiji Itadori Bekkan** — chirashi/kaisendon made to order, most-recommended sit-down.\n2. **Tsukiji Itadori Uogashi Senryo** — hitsumabushi-style seafood bowl three ways, less touristy.\n3. **Maguro skewer stands along Monzeki-dori** — fresh otoro on a stick.\n\n**TAMAGOYAKI + SWEET**\n4. **Marutake** ⭐ — slightly sweet rolled egg, sumo-wrestler favorite.\n5. **Yamacho** — ¥100 skewered tamago, caramelized exterior, dessert-sweet, long queue.\n6. **Tsukiji Shouro** — saltier savory tamagoyaki, the third major specialist.\n7. **Tsukiji Sanokiya** — tuna-shaped taiyaki (custard or anko).\n\n**GRILLED**\n8. **Marutake Suisan** — grilled jumbo scallop butter+soy, fresh oysters.\n9. **Wagyu+uni skewers** (multiple stalls) — A5 sticks, tourist-priced (~¥1500+) but iconic.\n10. **Kitsuneya** ⭐ — open-air corner with bubbling cauldron of gyu-motsu-ni (beef offal stew over rice); legit locals' breakfast spot.\n\n**KNIVES (the trip's second knife shopping anchor)**\n11. **Aritsugu Tsukiji** — same lineage as Nishiki (founded 1560), engraving while you wait.\n12. **Sugimoto Hamono** — Chinese-cleaver and pro-chef knives.\n13. **Tsukiji Masamoto** — classic yanagiba.\n14. **Bonito flake / katsuobushi shops** (Wadakyu et al.) — freshly shaved, vacuum-packed for travel.\n\nTop 3 picks for 90-min window: **Marutake or Yamacho tamagoyaki → Kitsuneya motsu-ni OR butter-soy scallop → Aritsugu engraved knife.** Skip the wagyu+uni sticks (tourist photo bait) and sit-down sushi counters (queue eats your morning).",
           "address": "Tsukiji Outer Market, 4 Chome Tsukiji, Chuo City",
           "category": "food",
           "lat": 35.6655,
