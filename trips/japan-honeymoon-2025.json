@@ -96296,7 +96296,7 @@
     {
       "date": "2025-11-25",
       "dayNumber": 2,
-      "theme": "Old Tokyo · Asakusa + Yanaka",
+      "theme": "Senso-ji + Ueno + Shinjuku Night",
       "city": "Tokyo",
       "activities": [
         {
@@ -96334,93 +96334,109 @@
         {
           "id": "d2-3",
           "time": "09:30",
-          "title": "Nakamise-dori snacks",
-          "description": "Ningyo-yaki, agemanju, melon pan from approach-street stalls. Map opens at Asakusa Kibidango Azuma — Street View to scout nearby vendors.",
+          "title": "Nakamise-dori — graze for lunch",
+          "description": "250m of Edo-era street food + souvenir shops between Kaminarimon and Hozomon gates. Slow stroll, graze as lunch. 11 iconic vendors to hit (sweet to savory):\n\n1. **Asakusa Kagetsudo** — TikTok-famous jumbo melon pan, bigger than your face\n2. **Funawa** — Imo Yokan sweet potato jelly cubes (1902 institution)\n3. **Kibi dango Azuma** — Edo-era kinako-dusted rice cakes with hot drink\n4. **Asakusa Umegen** — Edo wagashi: Kintsuba, Azuki Amanatto, Aburi Potato\n5. **Chinya** — Kaminari-okoshi sweet puffed rice crackers (cherished since 18th c.)\n6. **Sukeroku Honten** — Ningyo-yaki filled pancake-cakes (watch them made on a hot griddle)\n7. **Naniwa-ya** — traditional ame hard candy\n8. **Marugoto Nippon** ground floor — fresh strawberry mochi\n9. **Asakusa Choujuan** — taiyaki (fish-shaped red bean pancake)\n10. **Asakusa Menchi** — beef menchi-katsu deep-fried patty (savory anchor)\n11. **Maguro Bito** — fresh tuna nigiri quick-bite (savory finish)\n\nGoal: graze through 5-7 stalls = full lunch. Cash only at most vendors.",
           "category": "walk",
           "lat": 35.71237,
           "lng": 139.79627,
           "address": "Asakusa Kibidango Azuma, 1-18-1 Asakusa, Taito",
           "routeToNext": {
             "format": "polyline",
-            "data": "_`~xEm}ftYOxB\\BVBD?B?XB`@B^BTBH?h@HH?NyB@M@Q@Q@WBYJwAFiA@ODm@MAK?k@AqBGkACs@Co@AG?OAM?IAwB]GAAHIl@t@Ff@BCJ",
-            "durationMin": 2,
-            "distanceM": 157,
+            "data": "_`~xEm}ftYOxBQbCAJRBf@Fb@FZFj@FH@r@HH@LBARMvBIjAMjBAVCZK~AAHA`@MV[EKAoAO{AOOAOC_CWCPUhCAHOxAAHIhAAD?HAFMdAMxAKfAK~@AFAPi@CUCa@ASAMAs@E",
+            "durationMin": 11,
+            "distanceM": 877,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d2-3b",
+          "time": "11:30",
+          "title": "Kappabashi Kitchen Town — browse",
+          "description": "10-min walk N from Nakamise end. 800m of kitchen-supply shops — knives, ceramics, lifelike plastic food samples, kitchenware. **Browse only — defer real knife purchase to Kyoto Aritsugu (Nishiki Market Day 8) or Sugimoto/Tsubaya (Tsukiji Day 15) where the experience is more authentic + less touristy.** Even just walking the strip is a Tokyo curiosity. ~45 min plenty.",
+          "address": "Kappabashi-dori, Matsugaya, Taito-ku, Tokyo",
+          "category": "shopping",
+          "lat": 35.7148,
+          "lng": 139.7891,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "qp~xE}oetY??_@CSAa@CqAGGAm@Ca@CUAwAIQACVCTSvAYhCQvAALCLM~@Il@E^?DQzAQxAANCPOlAM`AALAJGb@Ix@ABKbAIr@ALCLCPIr@Mt@EPTRbBpAXTt@h@FFLHLJUj@INa@bAEJCFMFTRt@l@PLEHEFAFAF?D?B@D@DBBD@B?J@D@F?FBFBFDFFl@b@b@\\xAlABDBDBJ@H@B?HAFADCHKPKFsAlCINKREJJHPPB@r@l@v@l@dBnA`Ar@\\TFF@D@BADADCHEJEBG?",
+            "durationMin": 20,
+            "distanceM": 1648,
             "mode": "walk"
           }
         },
         {
           "id": "d2-4",
-          "time": "11:00",
-          "title": "Daikokuya Tempura",
-          "description": "Asakusa tendon institution since 1887.",
-          "category": "food",
-          "costPerPerson": 2000,
-          "currency": "JPY",
-          "lat": 35.7129,
-          "lng": 139.7975,
+          "time": "13:00",
+          "title": "Walk to Ueno Park",
+          "description": "~15-20 min walk W along Asakusa-dori (or through Kappabashi continuing N). Enters Ueno Park from the NE side. Bathrooms at Tokyo National Museum if needed.",
+          "address": "Ueno Park entrance, Taito-ku, Tokyo",
+          "category": "walk",
+          "lat": 35.7148,
+          "lng": 139.7745,
           "routeToNext": {
             "format": "polyline",
-            "data": "qe~xEyegtYBKg@Cu@GHm@@ImCe@KAMCQEiBY}@Qo@Ke@IGASEEXQfAIj@Il@EZEPCRa@~BG`@Kn@CNCNKj@Mz@Ot@UxA_@`CETEPKp@If@O~@O~@Ib@EVE\\c@rC[lBETEVgAdHI^Ib@[vAo@tCGZK`@A@a@hBUhAGVa@lBI^I\\[xAGRETYrAc@rBK`@ETCJGXEXCHUdAy@rDCJYtAERGTQ\\Q\\GL]j@KLMLSPYVWT{@r@g@p@e@h@[XWV[^QVMTGPELEJg@pBADERg@Gw@[q@WSIQEQMI^_@p@[h@CF_BnCMTOTCDKPuDxGKNIHYZGDMLIFsAlAuAnAGFONq@j@oAnA}@z@YX?X@ZHdCBj@HDVBL?P@D?F@B?NPBF?D{BnCa@f@EL@D@FDJBFHJX^|@pAJNBDDJDNFPDZH`@FXDVJl@BJBP@LF`@@@@N@HBN?NJf@Jl@H`@@H@BRh@?DYxA?F?BK?]??ACAe@AK?OBQDc@RIFABEBZpANE",
-            "durationMin": 26,
-            "distanceM": 4093,
-            "mode": "subway",
-            "osrmMin": 7,
-            "corrected": true,
-            "formulaMin": 17,
-            "pinned": "Google Maps verified"
+            "data": "}o~xEe`ctY??ECIGAIAC@KFO?E?C?GCEaAs@eBoAw@m@s@m@CAQQKIGHELq@`Bi@xAMG}A_AiAs@GAWAQE{@i@",
+            "durationMin": 7,
+            "distanceM": 604,
+            "mode": "walk"
           }
         },
         {
           "id": "d2-5",
-          "time": "13:00",
-          "title": "Yanaka Ginza",
-          "description": "Old Tokyo shopping street, cat-themed shops. Map opens at Yuyake Dandan stairs — Street View to walk the street.",
-          "category": "walk",
-          "lat": 35.72813,
-          "lng": 139.76606,
-          "address": "Yuyake Dandan stairs, 3 Chome Yanaka, Taito",
+          "time": "13:30",
+          "title": "Tokyo National Museum",
+          "description": "World-class Japanese art collection — samurai armor, Buddhist sculpture, ukiyo-e woodblock prints, ceramics. The Honkan (main building) is the must-see — 90-120 min is plenty for the highlights. ¥1,000pp. Bathrooms here for the day. Wed-Sun 9:30-17:00.",
+          "address": "13-9 Uenokoen, Taito-ku, Tokyo 110-8712",
+          "category": "art",
+          "costPerPerson": 1000,
+          "currency": "JPY",
+          "lat": 35.7188,
+          "lng": 139.7766,
           "routeToNext": {
             "format": "polyline",
-            "data": "{cayEgaatYOD[qAEDi@XEBGHABAHAFCFH`@Np@FXSBBn@DZDl@JvAGBWFC@C@",
-            "durationMin": 2,
-            "distanceM": 203,
+            "data": "of_yEmictYaAk@gBeAECMIJOD[FGV]Xu@NKZC\\?d@?j@Vr@ZtAt@FBB?B@vBlAbAh@LJGHELq@`Bi@xACFKVO^S`@k@xA]~@w@jBmAbDc@fAg@pAMV?@GJo@nAeArBkBrDKLIFODDPXtAd@dCDRNEB?B@bB~CBBB?BCnBsB`AaA`A}@NIDAL?H@BFRj@Vr@DLLCZIF?h@CF@b@F",
+            "durationMin": 9,
+            "distanceM": 711,
             "mode": "walk"
           }
         },
         {
           "id": "d2-6",
-          "time": "14:30",
-          "title": "SCAI The Bathhouse",
-          "description": "200-year-old bathhouse turned contemporary gallery.",
-          "category": "art",
-          "lat": 35.7287,
-          "lng": 139.7644,
+          "time": "16:00",
+          "title": "Ueno Toshogu Shrine",
+          "description": "Gold-leaf Edo-era shrine dedicated to Tokugawa Ieyasu, ~5min walk SW of the National Museum. Late November = autumn foliage — red shrine + bright maple + golden ginkgo combo is the Reddit/photo-favorite shot of the trip. Walk back through Shinobazu Pond + Bentendo en route to Ameyoko. ¥500pp shrine entry.",
+          "address": "9-88 Uenokoen, Taito-ku, Tokyo 110-0007",
+          "category": "temple",
+          "costPerPerson": 500,
+          "currency": "JPY",
+          "lat": 35.7163,
+          "lng": 139.7711,
           "routeToNext": {
             "format": "polyline",
-            "data": "mgayEsv`tYIDg@TGFA?c@Xc@Tg@VMHSLcAv@CBo@`@OLIQy@yAQ[CGs@oAo@sAGMGOa@{@Yw@Ma@}@uCCGc@iAO_@Ug@EM[u@a@iAM]M[\\K?ANIPMRW\\a@`@e@DGb@k@pCkD@AjBaC|@kAFIxAkBz@iATYV]LMFIj@k@JHLJr@l@b@^JJPLHDVBL?P@D?F@B?NPBF?D{BnCa@f@EL@D@FDJBFHJX^RX",
-            "durationMin": 8,
-            "distanceM": 693,
+            "data": "e{~xEoxatYF@^D~@DD@^ATCj@KHAlBa@JMDG@EDO\\_BVuAH_@DIBGJMJIj@]zBwApAs@HGNIPKVMVOPINI`@SZM^KJCn@M~@O\\Gh@If@IHCDGBI@OBKDg@DUVH~@^PFDQDOf@qBeA[WIj@G",
+            "durationMin": 12,
+            "distanceM": 965,
             "mode": "walk"
           }
         },
         {
           "id": "d2-7",
-          "time": "15:30",
-          "title": "Kayaba Coffee",
-          "description": "1938 kissaten. Classic egg sandwich.",
+          "time": "17:00",
+          "title": "Ameyoko Market — post-war alley",
+          "description": "Gritty 400m strip along the JR tracks between Ueno + Okachimachi stations. Reddit/locals call it Tokyo's authentic alternative to touristy Nakamise — survived as a post-war black market. Cheap eats (takoyaki, taiyaki, okonomiyaki, yakitori skewers), fresh + dried seafood, knockoff sneakers, cosmetics. **Niku no Ohyama** (1932 meat wholesaler — legendary cheap beef bowls). Wander, snack, soak in the chaos. Cash only at most vendors; you can politely bargain (rare in Tokyo).",
+          "address": "Ameyoko Shopping Street, Ueno, Taito-ku",
           "category": "food",
-          "lat": 35.7281,
-          "lng": 139.7705,
+          "lat": 35.71,
+          "lng": 139.7747,
           "routeToNext": {
             "format": "polyline",
-            "data": "ceayE{zatYh@v@JNBDDJDNFPDZH`@FXDVJl@BJBP@LF`@@@@NL?bA?b@@bBBF?B?J?Z?J?VC@?JEPEd@MBANENEn@Q\\KDABAHA`@KXGDAFC@?RG\\I\\IHCd@M^GDCNCJAXCJA?E@Q@KDINQf@i@x@_APWHIJGpA[XKt@UBADAd@M\\KZIn@OFEBNLp@Lt@Nv@Nn@@HNl@FJHNj@`AvAbClAxBNXJRDJh@bAPZNX\\n@HPFJ^l@n@dAd@z@LRR\\PXLT`@v@DFNRh@r@RXT^n@hAv@tAP\\R^HPRb@FL`@|@n@vALZFTFXF`@Bb@FdADr@FjAVfF@PBJBLJ^@JH^DNDLFN^j@\\l@HNNVHJJJHJNFLF^FjARPDJDHDHDRPn@h@f@b@bBtAFFXTzAtAVRXXFHPZFLBHBP@PBX@FBh@B`@B\\Dt@Dr@NfBD^@P@PDb@VhCFb@RCLAr@ErBKTAP?NA|AEL?`B?B?P?F?H?R?r@AhB?\\An@?H?J?N?PA@`DAj@KjF?^RdG@R@TPxDFd@DZ?BH`@FPFNBFDJXf@n@rAJPh@fArAhCFJJTRGjAYbB_@|@QzA[jASd@IDADCD?\\KNb@BJFPDHDFDHJNRVTZ`@f@`@`@`@b@j@f@`@\\JFHDHFtAx@|@h@JDJHtBfBjCxBlAbAv@j@l@d@z@p@HHv@l@f@`@hAbA^Zj@\\|A`ArBjANHPJ~@n@x@r@bAt@NLNLPLRPn@h@d@d@t@`A~@pArBtCJPVd@HNN\\FLNb@\\v@N`@Jb@Ff@Jl@Ff@p@rEj@|DFv@Fx@BlA@J?^?^KtDS`FKrAOhAMb@_A`Cw@hBERGRELCRAXAHATEtAIzAEfAIjAGhAAV?hD?B?J?p@B`BBP@JF\\BPDVl@hDPbAd@xCBNBJFd@~@~FRtABX@XAXC\\Gh@UvBEn@C^@\\@\\@ZDZ@LHd@Fd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SvDCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCPCLGd@AFAHO|@c@|BMn@Kh@Q`ACLI`@CNEVCFYzACVMx@CLCNWrBCPCPETAHMfAALAH?H??",
-            "durationMin": 36,
-            "distanceM": 9347,
+            "data": "mr}xEgvbtYhAMVCx@Kd@CL?F?D?j@?XBXBNBpAPNBATE|@?JEx@ANK~AAVCVA^IvAEz@I|A?RCt@AXE|@?JALCx@?JCp@Ah@XAdAGRAb@CPAR@`ABN?Z@V@P?N@p@@t@BP@|@B`ABvABP?P@`@@X@`@@z@BZB|@LZFTDVDPDRGlBZ^FH@p@Bh@BR@N@f@@|@D`@@T@t@DR?t@DF?X@ZB`@DjBRL@b@BL?L?HBNFh@VBBV\\VLFDf@\\XPr@b@^TpA|@HHx@PVFd@L\\DJ?V?XAL?V?HAN?Nh@tAxE`@rAFTDLJl@BRFl@NjANlAB\\@\\CbAAH?PAPC^Cf@E\\Mf@KVKRMRc@l@e@p@c@l@QXIHU\\e@t@i@x@INCNCN?R?Z?P@pBBbD@jA?J?n@@j@@v@@fB@z@BbC@dB?j@@j@FfBFlB?PB`@JlADr@@JBZ@JFbA?FFt@Dh@JzA?HBZBPBb@d@zGJbAJn@Jf@DRl@|Ch@vC`@rBBLDTDTLl@j@vC@DLf@J^p@zB^nA@FJ\\H\\l@nCt@jDDPBPt@lD@HDTFVh@jCr@jDBJFXDTf@lCb@xBF`@x@pEHf@?L?JAJAHEJGFGF??iCdBKHIHOJNb@\\v@N`@Jb@Ff@Jl@Ff@p@rEj@|DFv@Fx@BlA@J?^?^KtDS`FKrAOhAMb@_A`Cw@hBERGRELCRAXAHATEtAIzAEfAIjAGhAAV?hD?B?J?p@B`BBP@JF\\BPDVl@hDPbAd@xCBNBJFd@~@~FRtABX@XAXC\\Gh@UvBEn@C^@\\@\\@ZDZ@LHd@Fd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SvDCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCPCLGd@AFAHO|@c@|BMn@Kh@Q`ACLI`@CNEVCFYzACVMx@CLCNWrBCPCPETAHMfAALAH?H??",
+            "durationMin": 24,
+            "distanceM": 8529,
             "mode": "subway",
-            "osrmMin": 16,
-            "corrected": true,
-            "formulaMin": 30,
-            "pinned": "Google Maps verified"
+            "osrmMin": 12,
+            "corrected": true
           }
         },
         {
@@ -96458,7 +96474,7 @@
         "osrmMin": 12,
         "corrected": true,
         "formulaMin": 24,
-        "pinned": "Marunouchi+Ginza transfer via Akasaka-Mitsuke realistic time"
+        "pinned": "Marunouchi+Ginza transfer via Akasaka-Mitsuke realistic time (Google Maps verified)"
       },
       "routeToHotel": {
         "format": "polyline",
