@@ -96796,8 +96796,40 @@
         {
           "id": "d4-5",
           "time": "13:00",
+          "title": "Ubuya bag drop + lobby lounge",
+          "description": "Standard ryokan check-in is 15:00 — too early to actually check in, but front desk will hold bags and you can use the lake-view lobby. Getting there: phone +81-555-72-1145 for the on-call shuttle (runs 14:30-18:00, so won't help yet), taxi (~¥2,000, 10 min, fastest), or Red Line bus to 'Kozantei Ubuya' stop (~16 min, ¥420). Taxi is cleanest with bags.",
+          "category": "hotel",
+          "lat": 35.5128155,
+          "lng": 138.7688497,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "_awwEuh~mYCMi@gE",
+            "durationMin": 2,
+            "distanceM": 130,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d4-5b",
+          "time": "13:30",
+          "title": "Lake Kawaguchi cape walk + lunch",
+          "description": "Bags stowed — wander the Ubuyazaki cape promontory, grab a casual lunch nearby (the area around Ubuya has a few cafes + soba spots), or just sit lakeside with Mt Fuji in view. Houtou Fudou north shore is a 10-min taxi if you want the iconic noodle hot pot now instead of Day 5 (would need to swap).",
+          "category": "walk",
+          "lat": 35.5128,
+          "lng": 138.77,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "mbwwEko~mYh@fEBL",
+            "durationMin": 2,
+            "distanceM": 130,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d4-5c",
+          "time": "15:00",
           "title": "Kozantei Ubuya check-in",
-          "description": "Phone Ubuya from Kawaguchiko Station (+81-555-72-1145) for the on-call shuttle — runs 14:30-18:00 free, ~10 min. If you arrive before 14:30, taxi (~¥2,000, 10 min) or Red Line sightseeing bus to the 'Kozantei Ubuya' stop (~16 min, ¥420). Early afternoon = relaxed onsen + lake walk before Kaiseki #1.",
+          "description": "Official check-in at 15:00 — yukata fitting, room tour, onsen orientation. ~3.5 hours before Kaiseki #1 = perfect window for a first onsen soak + unwind from the travel day.",
           "category": "hotel",
           "lat": 35.5128155,
           "lng": 138.7688497
