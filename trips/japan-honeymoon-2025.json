@@ -99750,6 +99750,170 @@
       "city": "Osaka",
       "lat": 34.696,
       "lng": 135.5125
+    },
+    {
+      "id": "wl-fuji-hoto-kosaku",
+      "title": "Hoto Kosaku — honeymoon-grade hoto alt to the tourist-bus Fudou",
+      "description": "**Better honeymoon-quality alternative to the tourist-bus Hoto Fudou** (which is already on the itinerary). Lighter, refined hoto broth; noodles aged with country miso, no preservatives. Tabelog local favorite, quieter atmosphere, fewer coach buses. Open year-round; hoto is *the* November dish (hot, miso, pumpkin). ~¥1,500/bowl. 10 min from Ubuya.",
+      "address": "1376-1 Funatsu, Fujikawaguchiko, Yamanashi",
+      "category": "food",
+      "city": "Fuji",
+      "costPerPerson": 1500,
+      "currency": "JPY",
+      "lat": 35.5045,
+      "lng": 138.7615
+    },
+    {
+      "id": "wl-fuji-menkyokaiden-udon",
+      "title": "Menkyokaiden — Yamanashi's OTHER local noodle (Yoshida udon)",
+      "description": "Yoshida udon is Yamanashi's *other* specialty — **Japan's chewiest udon, soy-miso broth, cabbage, horse-meat (basashi) topping.** Each shop has its own 'suridane' chili spice. Menkyokaiden is locals' top pick, famous for stewed-beef topping. **Tiny bowls (~¥650-900), lunch only at most shops.** Expect short queue at lunch. 15 min from Ubuya.",
+      "address": "3 min from Kawaguchiko IC, Fujikawaguchiko, Yamanashi",
+      "category": "food",
+      "city": "Fuji",
+      "costPerPerson": 900,
+      "currency": "JPY",
+      "lat": 35.4955,
+      "lng": 138.779
+    },
+    {
+      "id": "wl-fuji-cisco-coffee",
+      "title": "Cisco Coffee — third-wave hand-drip, local barista hangout",
+      "description": "Third-wave hand-drip coffee shop, San Francisco-themed, opened 2014 — **local barista hangout, NOT tour-bus-adjacent.** Quick stop on the south end of the north-shore strip. *Honest:* verify hours on arrival, small shop closes early. ~¥500-700/cup. 5 min from Ubuya.",
+      "address": "927-1 Kodachi, Fujikawaguchiko, Yamanashi",
+      "category": "food",
+      "city": "Fuji",
+      "costPerPerson": 700,
+      "currency": "JPY",
+      "lat": 35.5167,
+      "lng": 138.759
+    },
+    {
+      "id": "wl-fuji-kawaguchiko-bakery",
+      "title": "Kawaguchiko Bakery by saintcloud",
+      "description": "Long-fermentation bread program using a 20-wheat blend, low-temp fermented — **the apple Danish and an-butter sandwich are the standouts.** Inside the new Kawaguchiko Base food hall, which also has farmer's-market produce stalls. ~9:30-17:30. **Indoor venue — weather-proof option.** 10 min from Ubuya.",
+      "address": "Tabi no Eki Kawaguchiko Base, 521-4 Kawaguchi, Fujikawaguchiko",
+      "category": "food",
+      "city": "Fuji",
+      "costPerPerson": 1000,
+      "currency": "JPY",
+      "lat": 35.5187,
+      "lng": 138.7763
+    },
+    {
+      "id": "wl-fuji-7c-winery",
+      "title": "7c Winery (Seven Cedars) — Japan's first winery-villa",
+      "description": "**Japan's first winery-villa concept** in the Fuji foothills. Daily attendant-led tours include the cellar, vineyard, and seasonal tastings. **By far the closest serious winery to Ubuya** — skips the toll-road trip to Katsunuma. Vineyard bare by late Nov but indoor tour/tasting runs year-round. Tour + tasting ~¥3,000-5,000. 20 min via Route 138. Book ahead.",
+      "address": "Oshino-mura, Minamitsuru-gun, Yamanashi",
+      "category": "food",
+      "city": "Fuji",
+      "costPerPerson": 4000,
+      "currency": "JPY",
+      "lat": 35.5163,
+      "lng": 138.8169
+    },
+    {
+      "id": "wl-fuji-mina-no-hiroba",
+      "title": "Mina-no-Hiroba Terrace — 150+ Japanese wineries + dim sum",
+      "description": "Wine shop/tasting room pouring from **150+ Japanese wineries** (heavy Yamanashi Koshu focus) with dim sum, BBQ, terrace seating with Fuji-over-the-lake view. **Lower-pressure than a winery tour — taste many wines in one stop.** Open year-round; terrace cold in Nov but covered seating exists. Wine tastings from ¥500/pour. 5 min from Ubuya.",
+      "address": "1107-1 Kodachi, Fujikawaguchiko, Yamanashi",
+      "category": "food",
+      "city": "Fuji",
+      "costPerPerson": 2500,
+      "currency": "JPY",
+      "lat": 35.5158,
+      "lng": 138.7475
+    },
+    {
+      "id": "wl-fuji-kitaguchi-hongu",
+      "title": "Kitaguchi Hongu Fuji Sengen Jinja — 400m cedar-lined approach",
+      "description": "**The historic north-side trailhead to Fuji**, approached down a 400-meter cedar-lined path past stone lanterns. Three 1,000-year-old sacred cedars and a vermilion main hall (1615). **Far more atmospheric — and 10× less busy — than Chureito.** Cedars stay green; the forested approach is dramatic in cold morning mist. Free. 20 min drive (Fujiyoshida).",
+      "address": "5558 Kamiyoshida, Fujiyoshida, Yamanashi",
+      "category": "temple",
+      "city": "Fuji",
+      "lat": 35.4768,
+      "lng": 138.7888
+    },
+    {
+      "id": "wl-fuji-omuro-sengen",
+      "title": "Fuji Omuro Sengen Jinja — oldest Sengen shrine (699 CE)",
+      "description": "**Oldest Sengen shrine in Yamanashi** (founded 699 CE), with a Momoyama-period main hall relocated from Fuji's 2nd Station. Quiet, ringed by tall trees, UNESCO-listed. **A much more meditative shrine experience than Kitaguchi.** Free, open year-round, hardly any tourists. 5 min from Ubuya (south shore near Yagisaki).",
+      "address": "3951 Katsuyama, Fujikawaguchiko, Yamanashi",
+      "category": "temple",
+      "city": "Fuji",
+      "lat": 35.4936,
+      "lng": 138.7595
+    },
+    {
+      "id": "wl-fuji-arakurayama-shrine",
+      "title": "Arakurayama Sengen Shrine — the temple Chureito tourists skip",
+      "description": "Since Chureito Pagoda is the famous photo, **most visitors skip the actual shrine at the bottom of the 398 steps** — but it's the older, quieter part of the site (founded 705 CE) with vermilion gates and a wooded approach. **Pair with Chureito at dawn** to use one drive efficiently. Free. 20 min drive.",
+      "address": "3353-1 Asakawa, Fujiyoshida, Yamanashi",
+      "category": "temple",
+      "city": "Fuji",
+      "lat": 35.496,
+      "lng": 138.7965
+    },
+    {
+      "id": "wl-fuji-nagasaki-park",
+      "title": "Nagasaki Park — quiet wooded promontory, always empty",
+      "description": "A small wooded promontory jutting into Lake Kawaguchi — **gives a wider, framed Fuji view with the full left/right ridge visible, and is almost always empty.** It's between Oishi Park and the tunnel, easily missed. **A genuinely peaceful Fuji moment.** Free. 20 min drive around the lake.",
+      "address": "North shore of Lake Kawaguchi, Fujikawaguchiko",
+      "category": "walk",
+      "city": "Fuji",
+      "lat": 35.5283,
+      "lng": 138.7727
+    },
+    {
+      "id": "wl-fuji-tatego-hama",
+      "title": "Tatego-hama Lake Shoji — Kodaki-Fuji \"child-cradling\" view",
+      "description": "**'Fuji cradling a child'** — Mt. Omuro nests in front of Fuji as if held; rare 'double Fuji' reflection on still mornings. Smallest of the Five Lakes, fewest tourists. Tiny beach, Fujikyu Blue Line bus stop 'Kodaki Fuji View Point.' **Calm cold mornings = best reflection.** Free. 25 min drive.",
+      "address": "North shore of Lake Shoji, Fujikawaguchiko",
+      "category": "walk",
+      "city": "Fuji",
+      "lat": 35.4985,
+      "lng": 138.6035
+    },
+    {
+      "id": "wl-fuji-sankodai",
+      "title": "Sankodai — 360° ridge panorama (after Koyodai hike)",
+      "description": "A vast grassy clearing on the Tokai Nature Trail with **360° panorama — Fuji + Aokigahara on one side, Lake Saiko + Lake Motosu on the other.** Far less visited than Koyodai because it requires walking past it. ~25 min drive to Koyodai parking, then 45 min total hike via gentle ridge. Open exposed ridge — windy + cold. Free.",
+      "address": "~20 min hike beyond Koyodai, south of Lake Saiko",
+      "category": "walk",
+      "city": "Fuji",
+      "lat": 35.4892,
+      "lng": 138.665
+    },
+    {
+      "id": "wl-fuji-panoramadai-shoji",
+      "title": "Panoramadai Lake Shoji — the unkai (sea-of-clouds) shot, hike",
+      "description": "Ridge viewpoint showing the iconic Fuji-over-Aokigahara composition. **Best chance for an unkai (sea of clouds) shot in the region.** 2.5-3 hr round trip, 5 km, 400m gain — moderate. ⚠️ **Real hike** — steep, can be slippery in late Nov. Hiking boots required. Only worth it for active couples — AllTrails ranks Sep-Nov as best season. Free. 25 min drive to trailhead.",
+      "address": "Lake Shoji trailhead, Fujikawaguchiko",
+      "category": "walk",
+      "city": "Fuji",
+      "lat": 35.4865,
+      "lng": 138.6075
+    },
+    {
+      "id": "wl-fuji-michi-no-eki-narusawa",
+      "title": "Michi-no-Eki Narusawa — free Fuji deck + free spring water",
+      "description": "Free roadside-station observation deck with full Fuji panorama, **free 'Fujin no Meisui' spring water tap**, free small Mt Fuji museum, JA farmers market for Yamanashi produce. **Genuinely local stop, not a tour-bus draw.** Pair with the Ice Cave + Wind Cave + Jukai trail. Free. 20 min drive.",
+      "address": "Route 139, 8532-63 Narusawa, Yamanashi",
+      "category": "shop",
+      "city": "Fuji",
+      "lat": 35.4748,
+      "lng": 138.6863
+    },
+    {
+      "id": "wl-fuji-muse-museum",
+      "title": "Kawaguchiko Muse Museum — Yuki Atae lifelike fabric dolls",
+      "description": "Quiet doll-art museum showing **Yuki Atae's hauntingly lifelike fabric dolls** in elaborate Showa-era dioramas. Affiliated with Kawaguchiko Museum of Art. **Much quieter and odder than Music Forest** — appeals if you liked Itchiku Kubota's craftsmanship angle. ~¥600. ⚠️ Closed Thursdays. 5 min from Ubuya.",
+      "address": "Yagisaki Park area, north shore, Fujikawaguchiko",
+      "category": "art",
+      "city": "Fuji",
+      "costPerPerson": 600,
+      "currency": "JPY",
+      "lat": 35.521,
+      "lng": 138.7448
     }
   ]
 }
