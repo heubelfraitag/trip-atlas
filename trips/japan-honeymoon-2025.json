@@ -102,15 +102,15 @@
     },
     {
       "id": "hotel-tokyo-end",
-      "name": "Shibuya Tokyu REI Hotel",
-      "neighborhood": "Shibuya",
-      "lat": 35.660255,
-      "lng": 139.702026,
+      "name": "Hyatt Regency Tokyo",
+      "neighborhood": "Nishi-Shinjuku",
+      "lat": 35.6912457,
+      "lng": 139.69126,
       "checkIn": "2025-12-06",
       "checkOut": "2025-12-09",
       "booked": false,
-      "notes": "Same as start.",
-      "address": "1-24-10 Shibuya, Shibuya City, Tokyo 150-0002"
+      "notes": "Cat 5 Hyatt — 20K points/night via Chase Sapphire Preferred transfer 1:1 (1.46 cpp). Airport Limousine Bus stop AT hotel entrance for Day 16 HND departure (¥1,400pp, ~50 min). Address: 2-7-2 Nishi-Shinjuku.",
+      "address": "2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023"
     }
   ],
   "intercityTransit": [
@@ -98342,13 +98342,11 @@
           "routeToNext": {
             "format": "polyline",
             "data": "svsxEkmtsYGgBAYEk@CSC_@AOMiAAUWkCKgAIu@KgAWaBGk@CSCQAO@KEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PUWWmC_CWSSSwCiCSQQQi@c@wAmAi@e@}@y@[c@i@c@iAaAOWIIMKBOBOBW@MF_@De@@MBKf@mBH]@IJ_@F_@TgADiADgAFB~@ZSbAWK",
-            "durationMin": 33,
+            "durationMin": 20,
             "distanceM": 8077,
             "mode": "subway",
             "osrmMin": 9,
-            "corrected": true,
-            "formulaMin": 20,
-            "pinned": "Google Maps verified: Shibuya Sky→Sushi Hashimoto 33min via Ginza Line + walk"
+            "corrected": true
           }
         },
         {
@@ -98364,44 +98362,42 @@
           "address": "Grandir Ginza East 1F, 1-8-2 Shintomi, Chuo-ku, Tokyo 104-0041",
           "routeToNext": {
             "format": "polyline",
-            "data": "ckvxEqnbtYWKICEhAUfAG^K^AHI\\g@lBCJALEd@G^ALCVLLX`@jAbAp@h@\\T`At@tAjAtAlARNPPpAjAfA~@TPRRVTzBpBXVNL]b@QRc@j@}ApBoA`Bs@fAGJORGJQVo@~@_@j@AF@F@F~CfDDHl@cAEGiAmA",
-            "durationMin": 13,
-            "distanceM": 1075,
-            "mode": "walk"
+            "data": "ckvxEqnbtYWKICEhAUfAG^K^AHI\\g@lBCJALEd@G^ALCVLLX`@jAbAp@h@\\T`At@tAjAtAlARNPPpAjAfA~@TPRRVTzBpBXVNL]b@QRc@j@}ApBoA`Bs@fAGJORGJQVo@~@_@j@y@hAGJKPYd@Yb@EFOXKLQXYl@eB~CcBjCkAvBuExHc@hA[`AaBlFYTsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJMb@CJGLIPKJOJOJeAj@kAl@mCpA_@ROH[Nk@X]N]J]Jk@JwANE?]NSBUBODQHGFGHGJGNEPEPATGxAAJAPAVInBE`AAL?\\A`@At@?l@?p@Bj@Bj@HfBBb@D`ABn@JlB?HBZDhA@V?d@@j@@h@?PAz@CzAAJ?JQrDGn@Gb@G^AFCJELITe@fAk@nAADGLMVGP[x@U|@}@xD]rACNIh@Gd@AHM~AM`BAJE`@Gb@I\\i@~Bw@hDCJIZI\\Uz@_@|As@`CADK^W`AU~@AJIXEVk@lDU|ACHGf@Ih@EVMbAGx@Cr@Ad@Br@HdBFrA@N@\\@R@XRtEPbEBX@^PrDPpC?JD`@LbADb@TzBPlCDrADtBElBQzB_AxGm@nDs@lCmDzJgBrDWj@M^K`@GZEXCXC`@@~ABX?RB\\@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@UHUTmAJw@FeBLM@WBC@E@CDCDIZCFCFGBE@E@O?O@_@@e@BK@K?EBEDADAFAF?F@ZDxBFrB?LD`ABd@TxEB\\KZg@HyC`@cBV_@DQBDYJk@h@wCKEUGw@W",
+            "durationMin": 23,
+            "distanceM": 8937,
+            "mode": "subway",
+            "osrmMin": 11,
+            "corrected": true
           }
         },
         {
           "id": "d14-7",
-          "time": "21:30",
-          "title": "Bar High Five · nightcap",
-          "description": "Hidetsugu Ueno's legendary Ginza bar — 5 min walk from Hashimoto. Classic cocktails, no music, intimate counter. Reservation strongly recommended. ¥3-4K per cocktail. The full-stop on the best night of the trip.",
-          "address": "Efflore Ginza 5 Building B1, 5-4-15 Ginza, Chuo City",
+          "time": "22:00",
+          "title": "Bar Benfiddich · nightcap",
+          "description": "Hiroyasu Kayama's apothecary cocktail bar — World's 50 Best #18 (2025), Asia's top cocktail destination. He farms his own herbs in Chichibu, prepares drinks with mortar + pestle at the 17-seat counter. Absinthe specialist with original macerations. 5-min walk from Hyatt Regency back to hotel after. ⚠️ Reservations MANDATORY in 2025 — book via Tablecheck day-before 3-6pm Japan time, or BEFORE you fly via concierge. Closed Sundays (Dec 7 = Sat OK, Dec 8 = Sun OUT if scheduling on the wrong night). Walk-ins essentially impossible.",
+          "address": "9F, 1-13-7 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
           "category": "bar",
-          "costPerPerson": 5000,
+          "costPerPerson": 6000,
           "currency": "JPY",
-          "lat": 35.671,
-          "lng": 139.7641
+          "lat": 35.6929,
+          "lng": 139.6953
         }
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOZm@`@q@dAaBNUBEXe@P[HOL_@La@Hm@DiA?uA?c@Aa@Ay@Ao@Cc@KeAg@wE]sCCWBWRMdASvDq@XGHCTEPCTGLCTEh@IfFaAXGNCJCLGFKBE@E@EJWDQFQ`@TXNDBf@^b@b@`@b@lBnBV\\TXHLHLFLDLFPHTJd@H\\Jn@Lp@PzALdAFb@FXFXHTJXNVJNJLPTZ\\b@d@|BbCzBdChAhAtAnAxApAlAdAbBbBhAdAj@n@j@x@n@`Az@tAx@tA|AzCzAlDjBvEhBjEfBhEXr@|BrG",
-        "durationMin": 23,
-        "distanceM": 7311,
+        "data": "q}yxEgorsYq@LGIEc@AMBWtAU~AUfAQZENCbBYbBWLCLAx@MbAOvCe@h@I\\GCS_@iEE[CUFCFE|@o@VQo@iBa@mAGQIWMc@Uo@Ww@Sq@eAwDI[q@eCMa@CIMe@Sq@Me@Qi@GYMi@E_@Ge@_@iDMcAM{@G_@WcBSyAI{@Go@Ek@Ew@AMC[ASC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFEp@]ZQHCRKFCXEnEu@PC\\ERMdASvDq@XGHCTEPCTGLCTEh@IfFaAXGNCJCLGFKBE@E@EJWDQFQ`@TXNDBf@^b@b@`@b@lBnBV\\TXHLHLFLDLFPHTJd@H\\Jn@Lp@PzALdAFb@FXFXHTJXNVJNJLPTZ\\b@d@|BbCzBdChAhAtAnAxApAlAdAbBbBhAdAj@n@j@x@n@`Az@tAx@tA|AzCzAlDjBvEhBjEfBhEXr@|BrG",
+        "durationMin": 21,
+        "distanceM": 8672,
         "mode": "subway",
-        "osrmMin": 8,
-        "corrected": true,
-        "formulaMin": 19,
-        "pinned": "Google Maps verified: REI→Roppongi 18-26min via Ginza Line"
+        "osrmMin": 10,
+        "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "{~uxEmt`tYsAyAECE?E@_@j@y@hAGJKPYd@Yb@EFOXKLQXYl@eB~CcBjCkAvBuExHc@hA[`AaBlFYTsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJAPALAHE~@AL?L@P?PBNBVD`@z@|HBPD\\Hv@nAhL@NJ|@D^BVTnDJ|C?hAJlC@TBTDRDLDLHNJPjAzAV`@R\\lAlCx@rAnAfCvC|FHPDFd@x@JR`BbDN\\Rj@FXDTJh@ZzCFh@Fb@H^FZNj@zAzFl@vChAjFBPBHnAhGHd@FTLf@\\rAFXv@~Ct@|CZpAJb@J\\Nj@J^z@fCJXt@bCb@tATx@j@vBJb@ZjA@FFRFNPXVb@LLPN`BnAVR`@Z|ElDpCdCTRbCrBb@^|@t@b@`@|@x@DBZXBB^\\XVd@`@pAjAn@j@lAfAp@p@h@j@\\^NPT`@pEvI`@t@JPP\\x@|AnAvBHNNVXh@v@tAJRC\\AJ@NBPBRFj@V`BJfAHt@JfAVjC@TLhA@NB^VIFArBw@^OTIBMEMUsA",
-        "durationMin": 17,
-        "distanceM": 6986,
-        "mode": "subway",
-        "osrmMin": 7,
-        "corrected": true
+        "data": "_gzxEyhssYaBi@C?e@jC@DVJ^P@DCFENXNVJx@^PHLCAXBV\\bED^BTBX\\|DBZTCXE|@OtAUNRBLDd@EHOB[D",
+        "durationMin": 6,
+        "distanceM": 511,
+        "mode": "walk"
       }
     },
     {
@@ -98414,7 +98410,7 @@
           "id": "d15-0b",
           "time": "07:30",
           "title": "Sushi Bun (Toyosu Market)",
-          "description": "**Leave Shibuya REI by 06:35 for 07:30 arrival** (~55 min total transit). Best route: JR Yamanote Line clockwise from Shibuya → Shimbashi (~10 min), transfer to **Yurikamome elevated line** → Shijo-mae Station (~15 min). Alternative: Yamanote → Yurakucho → Yurakucho Line to Toyosu Station + 8-min walk. Edomae sushi from a 150-year-old, 5-generation chef family. Counter seating only — line forms early. Cash strongly preferred. Splurge omakase ~¥4,500-6,000pp.",
+          "description": "**Leave Hyatt Regency by 06:30 for 07:30 arrival** (~60 min total transit). Best route: walk 8 min to Shinjuku Station → JR Yamanote Line clockwise to Shimbashi (~15 min) → **Yurikamome elevated line** to Shijo-mae Station (~15 min). Alternative: Marunouchi Line from Shinjuku-Gyoemmae to Ginza → walk to Hibiya → Toei Asakusa to Shintomicho + walk. Edomae sushi from a 150-year-old, 5-generation chef family. Counter seating only — line forms early. Cash strongly preferred. Splurge omakase ~¥4,500-6,000pp.",
           "address": "3F Central Seafood Wholesale Market, 6-5-1 Toyosu, Koto-ku, Tokyo 135-0061",
           "category": "food",
           "costPerPerson": 4000,
@@ -98442,15 +98438,34 @@
           "lng": 139.7707,
           "routeToNext": {
             "format": "polyline",
-            "data": "k|txE{}atY~AxBDF{@~@QRSTKJKTSYqBqCa@k@SYQR{BnCOPQTw@dAgAxAQREDq@z@EDQR}@dA}@dAk@p@SV]b@QRc@j@}ApBoA`Bs@fAGJORTTdClCDFJLLJdClC",
-            "durationMin": 12,
-            "distanceM": 994,
+            "data": "k|txE{}atY~AxBDF{@~@QRSTKJPXBBHJPTp@t@xCbDTVJJd@h@xBbCTZR\\FNBFFVDNBTDVBb@@^AZ?DCf@Eb@_@dCAJGVM^Q^EHe@|@O\\CV?BAH@J@JBHHNt@p@|IzGx@l@",
+            "durationMin": 13,
+            "distanceM": 1115,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d15-0c",
+          "time": "10:30",
+          "title": "Hamarikyu Gardens + Nakajima Teahouse",
+          "description": "10-min walk from Tsukiji Outer Market. Shogun's seaside hunting garden — Edo-era stroll garden with a tidal pond and Nakajima Teahouse on stilts mid-pond. ¥300 entry + ~¥850 matcha + namagashi at the teahouse (sit-down, ~30 min). Late-November maples + ginkgos at peak. The most photogenic skyscraper-backdrop-meets-Edo-garden moment in central Tokyo. Daily 9:00–17:00 (last entry 16:30).",
+          "address": "1-1 Hama-Rikyu-Teien, Chuo City, Tokyo",
+          "category": "nature",
+          "costPerPerson": 1200,
+          "currency": "JPY",
+          "lat": 35.6601,
+          "lng": 139.7634,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "watxEyb`tYxAfAhFbEJHLHLHNHNFJ@L@P@NALCJCLGLELGjAs@PKPITIRGTCRAR?R?NAx@?x@?d@Z`BAN\\U?iF?o@?S@OBOBODODOFOHuAx@ULMDMDMBOBM@O?OAOCOEOEMGUOWQwF_EUQ{BaBiHoF[Wk@c@i@a@a@YYSICICMASAE?U?a@@e@Be@Ba@DYDWHUJi@Vg@Va@R]NSHS?]KIGEGEAG@G@WLMDKFKJMLWb@EVWdAOl@ENEPENMOwCeDEEKKKKsCwCGGIIIKsC}CEEMMFILJdClC",
+            "durationMin": 16,
+            "distanceM": 1307,
             "mode": "walk"
           }
         },
         {
           "id": "d15-1",
-          "time": "11:00",
+          "time": "11:30",
           "title": "Dover Street Market Ginza",
           "description": "7 floors of high concept.",
           "category": "shop",
@@ -98466,7 +98481,7 @@
         },
         {
           "id": "d15-2",
-          "time": "12:30",
+          "time": "13:00",
           "title": "G. Itoya stationery",
           "description": "8 floors of paper goods.",
           "category": "shop",
@@ -98482,7 +98497,7 @@
         },
         {
           "id": "d15-2b",
-          "time": "13:30",
+          "time": "14:00",
           "title": "Pokemon Center DX Tokyo",
           "description": "The flagship Pokemon Center — Nihombashi Takashimaya 5F, 5 min walk from Tokyo Station Yaesu side. Pokemon TCG, plushies, exclusive Tokyo-only merch. Cafe attached (reservation-only, may be booked). Browsing 60-90 min is enough.",
           "address": "Nihombashi Takashimaya S.C. East Bldg 5F, 2-11-2 Nihombashi, Chuo-ku, Tokyo",
@@ -98501,7 +98516,7 @@
         },
         {
           "id": "d15-3",
-          "time": "15:00",
+          "time": "15:30",
           "title": "Cat Street vintage cluster (Harajuku)",
           "description": "Better fit-odds than Shimokita for tall/broader bodies — these are US-sourced. Walk Cat Street + side alleys: 2nd Street (consistent sizing), BerBerJin (Western Levi's including bigger waists), Komehyo Harajuku (used designer, accurate sizing), Atlantis Vintage (US/EU vintage). Skip Kinji/Pin Nap (small Japanese-only sizing).",
           "address": "Cat Street, Jingumae, Shibuya City",
@@ -98545,22 +98560,20 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCwAoAk@i@USEEEEMQsA}BOYmAwB]q@CE]o@CES]qBoDyBgEe@}@GMIK[_@k@i@yAuAk@i@{@u@uBmBGESSEEOMUSaCsBqCcCq@k@GESOgAcAi@e@sBaBkCkBa@[YUeAy@e@a@OOMOSWMSKSEMESAEeB{Gm@iBq@wBIS{@mCYgAMa@Kc@Qw@u@{Ca@_BeAkEKe@GWKc@iAqFGWAKuB_KI[gB}GEWG]_@cDM{@O{@IWGYQg@Qc@yAyCWg@We@qB}D}CmGm@}Au@_BQ[Yc@kAyAOUIKEMGOCQEUASI_CKeAE}@IgBKgBMyACOSaBiA{KCWIq@Gk@y@mIOgBAMAMAO?M@OBUDa@H[h@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PU^_@TYhB{B\\a@\\a@RUBEr@y@DENU`C}CNSPSj@q@nA}APSNONSDEzA{AdAcAl@m@h@i@~AaBNMNTONq@n@k@j@m@l@s@p@_A~@LPh@t@T\\",
-        "durationMin": 55,
-        "distanceM": 8084,
+        "data": "q}yxEgorsYq@LGIEc@AMBWtAU~AUfAQZENCbBYbBWLCLAx@MbAOvCe@h@I\\GCS_@iEE[CUFCFE|@o@VQo@iBa@mAGQIWMc@Uo@Ww@Sq@eAwDI[q@eCMa@CIMe@Sq@Me@Qi@GYMi@E_@Ge@_@iDMcAM{@G_@WcBSyAI{@Go@Ek@Ew@AMC[ASC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PU^_@TYhB{B\\a@\\a@RUBEr@y@DENU`C}CNSPSj@q@nA}APSNONSDEzA{AdAcAl@m@h@i@~AaBNMLOj@o@v@y@l@s@^a@TW~@q@HIbJeIjEgELMPOjCgCTUNMTUfAiA`AcANOPOBE~@aAbAgAzBaCxA{Ad@e@|AaBrAsATU\\_@PQLMv@w@f@g@hByBnAoBd@o@X[`@e@bDsCtCuCrCsCjAeApBaB`D{Cf@e@jCkCPQTW\\n@PXfDxFVd@fDzFxAdCf@z@f@r@PVR\\NV~@zAlApBR^HLR\\b@r@^r@~@~ApCvEl@`Aj@t@|@x@b@XNHXLCVk@Wi@Y_@[_@_@[a@UY{DwGs@iA",
+        "durationMin": 29,
+        "distanceM": 12923,
         "mode": "subway",
-        "osrmMin": 8,
-        "corrected": true,
-        "formulaMin": 19,
-        "pinned": "Google Maps verified: REI→Sushi Bun Toyosu 52-58min via Yamanote+Yurikamome"
+        "osrmMin": 15,
+        "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "satxE{xmsYCXVDvATANDFf@Zn@s@JSh@ExBQH?JEVH@I@C@s@Hi@Fm@Dc@?MKC?IEu@G{@?EJoD?I@EFy@B[ReCHu@F{@JiAJiAFo@@UT?h@Ar@A@ARCLALGNKf@OVA`@An@?nABn@@Z?HAJApAQzA_@HkBF_ADEHIAEC]Gc@COMcAGe@Kw@S_B?IASPARERCJCjFiADAHCFA\\IFAnAYPEXGLEbAUrA[DAr@Of@MNC`@Iv@Ql@MfAUXEBWTiBFc@?C@CP{APcBL_ADMPm@b@aAn@mAXm@DIHODIFKKW[s@e@iAO[mCmG[s@GKm@uA{AeDWo@GOEKUm@ACYs@kAkDGSmA}Eo@iC]iB[uAq@oDUiAo@kD]eBMe@Mg@Oa@Oa@Uc@U_@]a@]]_@YaAu@}@o@WWW[OYO[Qu@SoAw@eGWeAoAwFs@eDa@qBG]EOc@iBAIGSs@_D]}Ao@oCEe@k@TgBp@_Bj@IBASrBw@^OTIBMEMUsA",
-        "durationMin": 19,
-        "distanceM": 4922,
+        "data": "satxE{xmsYCXVDvATJu@p@RTiBNYo@k@_@[s@o@]UWGOEYIGAcAW_A[KEm@S}@WQGa@IKSEIGFONYK{@Wq@Qw@UOEe@I[CKBCDQLI@aA@aA?I?}@?W@G?EEEGEKO]Sc@EIGOk@}AQu@[kA_@qAUs@AI[eACKMa@Qm@E[QFQBo@J_@FUD_ALI@UDQDQBE@E@mAXw@R_@JuA\\GBSDQFi@L_Cl@y@RE@C@sBh@iAVq@LgANK@a@Fu@JI@gANQBUBi@Jo@HeANqAPQBo@HI_@UeAWsAYuAUgAWwAQaAUiA_@mBa@gBe@qBUgAQw@]kBMo@SeAUgASaAe@aCk@yCSiAOs@]sAoAmDO_@g@uAi@cBi@}A_@kA]qAm@yBYy@Wq@Yo@gAsBEIyBgE_CiEsCgF{BuDeBqC[g@MUS_@Uc@i@eAm@eA_@o@Yc@S[Wa@qAoBi@u@mAeB{@wAU_@S_@MWWPSNe@^KFKDDZ^hEBR@V[DmBZgAPoAPy@LMBMB{@Lg@Hi@H{@LMB[DgAPsARBLDd@EHOB[D",
+        "durationMin": 20,
+        "distanceM": 5378,
         "mode": "subway",
-        "osrmMin": 8,
+        "osrmMin": 9,
         "corrected": true
       }
     },
@@ -98572,27 +98585,48 @@
       "activities": [
         {
           "id": "d16-1",
-          "time": "08:00",
-          "title": "Hotel checkout",
+          "time": "07:30",
+          "title": "Hotel checkout + bag claim ticket at concierge",
           "category": "hotel",
-          "lat": 35.660255,
-          "lng": 139.702026,
+          "lat": 35.6912457,
+          "lng": 139.69126,
+          "description": "Check out 07:30, leave bags at front desk. Buy your Limousine Bus ticket the night before at the concierge (¥1,400pp) — they'll tell you the departure time + curbside loading spot. Bring bags to lobby 10 min before bus departure; concierge directs you to the loading curb, driver tags + loads bags under the bus."
+        },
+        {
+          "id": "d16-1b",
+          "time": "08:00",
+          "title": "Airport Limousine Bus to Haneda",
+          "description": "¥1,400 per person, ~50 min to HND Terminal 3 (international). Driver tags your bag with destination label, loads it under the bus — you get a claim ticket. Hand the ticket to driver at HND to retrieve. Buses use the Shuto Expressway bus lane so they often beat taxis in rush hour. First HND-bound bus ~5:30 AM, frequent service until evening. Reservation recommended via limousinebus.co.jp/en or front desk.",
+          "address": "Hyatt Regency Tokyo main entrance, 2-7-2 Nishi-Shinjuku",
+          "category": "transit",
+          "costPerPerson": 1400,
+          "currency": "JPY",
+          "lat": 35.6912457,
+          "lng": 139.69126,
           "routeToNext": {
             "format": "polyline",
-            "data": "uqsxE{ytsYi@mCBKl@]BC?E?ECGwCeCGLEFINC@ODWHUFI@M?WaBGk@CSCQAO@KB]X[BCj@o@DGd@e@VQJELGNCPClBMF?RA?gAG{DAk@n@ZAZ@rAFnCBrA?z@J`GC|ABtAD~@Dt@Br@D^Fd@F`@Jd@bB`HdBtHrBdJH`@Hd@Hl@h@vEFb@F`@F`@J^HZJ^LXLVNTNRNRTR\\XxAhANLPNPRNPPTNTNVP\\L^N`@J`@Lh@^jBn@fDfAhFVr@V`AdAhEDLFLDJDHFFDDFDBBFBH@F@H?H?F?HAHCFCFEHEPONKJGFGHGFGHEHCHCHCJAH?H@H@J@HDDBFBDDDFDDBDBFBF@HBLBL?N?L?NCLALCJELEJEJEJGJGHGHGHGHIFKHIFGDIBG@GBK@K@MAKAKCGCECECGEECEGCECEGIEICGEKIQGQK]So@CKEMCSAQ@S?M@OBOFOFOJM`CmC`FaG|@gAh@o@d@s@l@cAj@gArDwGhBmDR_@dDsFNYdAsB`@{@b@y@Zk@\\i@`@k@nBcCdDoEZa@PSPQz@w@vC}B~E{DvAgAdBqAlEeDzBaBlBuArDkCpCwB`Aw@bAs@|BwA|BsAzCgBnMwHbCyAr@e@dFeDn@i@VSTURWT[R]NUd@aApBwEjFcM~@wBlBeEbBsD|@yB~@eCjAcD~AqEf@wAhA{C`@}@lE{ITa@Vc@Xa@l@y@P[R[NWLWLYJYJ]H[F[F]F[D]B]@]@_@?]?_@?]KoCCk@?o@?s@@q@Bu@Fq@Hk@Hk@Li@Lc@La@L[LWN[V_@xAwBXe@Ve@Xe@r@yAh@mAJULULUNUNUPSNSPOPQROPMRMRKdBy@XQNIPMPOVSNOXYX_@V_@Tc@Rg@Pg@Lg@Ji@Hi@Fi@Bm@Bk@@m@Ak@CoGAs@Cs@Gq@Gq@yGac@q@{EMu@Oy@Oq@Qs@Sq@So@Mg@Ki@Ie@Gi@Ci@Ai@Ak@@e@Bk@Dg@Fg@Hc@Lg@Ja@L]N_@P]R]T]X]X[ZWZU\\SZO`@Od@Md@Id@Eb@Cb@Ab@@b@?|ADzA@zB?lCBzIVjGXjBDn@@fBDX@nAFb@BV@X?V?VCTERGTIRMPONONUJSLYH[t@_DJc@HYHUJUJUNUNQNOPMPIRITGRCTAVA`E@bD@rAMn@Cp@AnAEh@Ab@AXEZEnC?dC@nF?~I@`D?jB?fC?tE@fC?v@?r@?nA@vAALFr@H|ALVBVBV@V@`DBdHJdEHXFbGAnAAx@Eh@ErAMnAOhAQfB]`B[`FgAf@KjIiB`NuCfAWbYeGfCk@rDy@r@O`Be@tAg@bAg@v@e@l@a@l@e@h@g@p@w@t@cAp@eAz@eB`AyBpAcDjD}IdL{YnBkFhCsGrBeFjDkI`C{Fx@iBhA_Cl@oA~@}AdAaBt@eAf@eAl@w@hAwAf@k@d@k@r@s@l@i@l@g@|AmAx@q@jAw@rA}@tD}BhCaB\\UPSNWFOFa@@_@Eg@W{@GWCMAMAM?O@WBSDMDMDMFKJKHIVOVOZWfBoAHIbC{AFETO^UZSTO@?DEDATOVQFETMXOl@]b@Wp@a@NIPKt@e@fBeATq@lAgAJGLEF?LAL?N@PDPFJHJJHJHN^~@HEtA}@HK@G?GCEeAsCAI?KIAY]LYbAo@JGxA}@J?FFLTlAzC|CjIBVDN?JALCFGFgAn@bBnEdAnCdAzCfAvCBL?LAHEJGFkAr@yEtCGHI@ICOIaAi@GCIBeBbAyA|@CDAFAt@@n@APALEFIBiG|DGDK@uAu@EAG?GB}A|@g@Xu@b@CDCH?JCrBCJ",
-            "durationMin": 42,
-            "distanceM": 22349,
+            "data": "q}yxEgorsYq@LGIEc@AMBWtAU~AUfAQZENCbBYbBWLCLAx@MbAOvCe@h@I\\GCS_@iEE[CUFCFE|@o@VQVQFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jA~AdCrCxERZHLFLTUTSVSVOTIXIVGVCT?d@@t@B~AJh@DjAJvBLd@FbATjCr@z@T\\Hb@Hd@FF?ZLNDLBVBdA@bA@rC?bHJv@@Z?~AMnEFxAAfAGnDOzAEhJOpEA`B?lABxADh@@|@BjEThCNXBVBV@T?\\@ZAV?XCXCXETERGTGRIRITKPMRMRMhOqL`@[VQJGJGJGLEJELEJELCJCJCLALAJAL?JAL?L?N@J?L@L@NBL@JBLDLDr@VrFzB~Ah@j@NXHVDVDXBT@V@V@d@?j@?~EE`@A^CVAPCRCTGPGPGTKTMROPMZY`A_A|@gAh@o@d@s@l@cAj@gArDwGhBmDR_@dDsFNYdAsB`@{@b@y@Zk@\\i@`@k@nBcCdDoEZa@PSPQz@w@vC}B~E{DvAgAdBqAlEeDzBaBlBuArDkCpCwB`Aw@bAs@|BwA|BsAzCgBnMwHbCyAr@e@dFeDn@i@VSTURWT[R]NUd@aApBwEjFcM~@wBlBeEbBsD|@yB~@eCjAcD~AqEf@wAhA{C`@}@lE{ITa@Vc@Xa@l@y@P[R[NWLWLYJYJ]H[F[F]F[D]B]@]@_@?]?_@?]KoCCk@?o@?s@@q@Bu@Fq@Hk@Hk@Li@Lc@La@L[LWN[V_@xAwBXe@Ve@Xe@r@yAh@mAJULULUNUNUPSNSPOPQROPMRMRKdBy@XQNIPMPOVSNOXYX_@V_@Tc@Rg@Pg@Lg@Ji@Hi@Fi@Bm@Bk@@m@Ak@CoGAs@Cs@Gq@Gq@yGac@q@{EMu@Oy@Oq@Qs@Sq@So@Mg@Ki@Ie@Gi@Ci@Ai@Ak@@e@Bk@Dg@Fg@Hc@Lg@Ja@L]N_@P]R]T]X]X[ZWZU\\SZO`@Od@Md@Id@Eb@Cb@Ab@@b@?|ADzA@zB?lCBzIVjGXjBDn@@fBDX@nAFb@BV@X?V?VCTERGTIRMPONONUJSLYH[t@_DJc@HYHUJUJUNUNQNOPMPIRITGRCTAVA`E@bD@rAMn@Cp@AnAEh@Ab@AXEZEnC?dC@nF?~I@`D?jB?fC?tE@fC?v@?r@?nA@vAALFr@H|ALVBVBV@V@`DBdHJdEHXFbGAnAAx@Eh@ErAMnAOhAQfB]`B[`FgAf@KjIiB`NuCfAWbYeGfCk@rDy@r@O`Be@tAg@bAg@v@e@l@a@l@e@h@g@p@w@t@cAp@eAz@eB`AyBpAcDjD}IdL{YnBkFhCsGrBeFjDkI`C{Fx@iBhA_Cl@oA~@}AdAaBt@eAf@eAl@w@hAwAf@k@d@k@r@s@l@i@l@g@|AmAx@q@jAw@rA}@tD}BhCaB\\UPSNWFOFa@@_@Eg@W{@GWCMAMAM?O@WBSDMDMDMFKJKHIVOVOZWfBoAHIbC{AFETO^UZSTO@?DEDATOVQFETMXOl@]b@Wp@a@NIPKt@e@fBeATq@lAgAJGLEF?LAL?N@PDPFJHJJHJHN^~@HEtA}@HK@G?GCEeAsCAI?KIAY]LYbAo@JGxA}@J?FFLTlAzC|CjIBVDN?JALCFGFgAn@bBnEdAnCdAzCfAvCBL?LAHEJGFkAr@yEtCGHI@ICOIaAi@GCIBeBbAyA|@CDAFAt@@n@APALEFIBiG|DGDK@uAu@EAG?GB}A|@g@Xu@b@CDCH?JCrBCJ",
+            "durationMin": 49,
+            "distanceM": 23937,
             "mode": "subway",
             "osrmMin": 29,
-            "corrected": true,
-            "formulaMin": 49,
-            "pinned": "Google Maps verified: Shibuya→Haneda fastest 42min"
+            "corrected": true
           }
         },
         {
           "id": "d16-2",
+          "time": "09:00",
+          "title": "Arrive Haneda Airport Terminal 3",
+          "category": "airport",
+          "lat": 35.5494,
+          "lng": 139.7798,
+          "description": "Bus arrives ~50 min after departure. Hand claim ticket to driver, retrieve bags. ~2.5 hours before international flight departure for check-in + security + walking to gate. For domestic flights, 1.5 hour buffer."
+        },
+        {
+          "id": "d16-2b",
           "time": "11:30",
-          "title": "Haneda Airport departure",
+          "title": "Departure flight",
+          "description": "Update with actual flight number + time once booked.",
           "category": "airport",
           "lat": 35.5494,
           "lng": 139.7798
@@ -98780,6 +98814,254 @@
       "lat": 35.7125,
       "lng": 139.7902,
       "city": "Tokyo"
+    },
+    {
+      "id": "wl-tokyo-nezu",
+      "title": "Nezu Shrine — quieter Senbon-torii alt",
+      "description": "1,900-yr-old shrine with a miniature torii tunnel up to the Otome Inari sub-shrine. *Honest take:* the tunnel is much shorter than Fushimi's — set expectations to '10-second photogenic frame,' not 'endless tunnel.' But it's free, almost empty mid-afternoon, and gorgeous. **Best paired with Yanaka Ginza for a half-day quiet old-Tokyo loop.** Open daily, free, 35 min from Shinjuku via Chiyoda Line.",
+      "address": "1-28-9 Nezu, Bunkyo, Tokyo",
+      "category": "temple",
+      "city": "Tokyo",
+      "lat": 35.7204,
+      "lng": 139.761
+    },
+    {
+      "id": "wl-tokyo-yanaka",
+      "title": "Yanaka Ginza + old-Tokyo temples",
+      "description": "Survived BOTH the 1923 earthquake AND WWII firebombing intact — wooden houses, narrow lanes, ~70 small temples. Yanaka Ginza is a 170m shotengai with cat-themed souvenirs, croquettes, taiyaki. *Honest take:* this is slow wandering, not landmark hits. Wrong fit if you want a checkbox, perfect if you want 'real old Tokyo.' ⚠️ Many shops closed Mondays. 30 min from Shinjuku via JR Yamanote.",
+      "address": "Yanaka Ginza, Yanaka, Taito-ku, Tokyo",
+      "category": "walk",
+      "city": "Tokyo",
+      "lat": 35.7274,
+      "lng": 139.7669
+    },
+    {
+      "id": "wl-tokyo-kagurazaka",
+      "title": "Kagurazaka — quiet old neighborhood, ~5 min from Shinjuku",
+      "description": "Former geisha quarter (~30 geisha still working) reborn as Tokyo's 'Little Paris' — cobbled alleys (Kakurenbo Yokocho, Hyogo Yokocho), French bistros, traditional ryotei, Akagi Shrine at the top. *Honest take:* the main slope is meh; **the backstreets are the actual draw**. Best at dusk when lanterns light the alleys. 7 min from Shinjuku via JR Chuo-Sobu. Outdoor neighborhood — always 'open.'",
+      "address": "Kagurazaka, Shinjuku-ku, Tokyo",
+      "category": "walk",
+      "city": "Tokyo",
+      "lat": 35.7012,
+      "lng": 139.7407
+    },
+    {
+      "id": "wl-tokyo-hie",
+      "title": "Hie Shrine — 90-torii staircase in Akasaka",
+      "description": "~90 vermilion torii forming a tunnel on the western staircase up to Sanno Inari sub-shrine, set in low-key business-district Akasaka. *Honest take:* the staircase is short — this is a 20-min visit, not a destination on its own. Best paired with a meal in Akasaka or a Roppongi morning. **No one in frame if you go before 9am.** Free, 15 min from Shinjuku.",
+      "address": "2-10-5 Nagatacho, Chiyoda-ku, Tokyo",
+      "category": "temple",
+      "city": "Tokyo",
+      "lat": 35.6741,
+      "lng": 139.7407
+    },
+    {
+      "id": "wl-tokyo-kiyosumi",
+      "title": "Kiyosumi Garden — quieter Edo strolling garden",
+      "description": "Meiji-era strolling garden with an Iso-watari stepping-stone path across the koi pond — much smaller and quieter than Rikugien but ¥150 to enter. Strong autumn color late November. **Pair with Blue Bottle's Japan flagship right next door** (Kiyosumi-Shirakawa's third-wave coffee scene). 30 min from Shinjuku via Hanzomon Line.",
+      "address": "3-3-9 Kiyosumi, Koto-ku, Tokyo",
+      "category": "nature",
+      "city": "Tokyo",
+      "costPerPerson": 150,
+      "currency": "JPY",
+      "lat": 35.6816,
+      "lng": 139.7975
+    },
+    {
+      "id": "wl-tokyo-kanda-yabu-soba",
+      "title": "Kanda Yabu Soba — one of Tokyo's three soba dynasties (1880)",
+      "description": "The Yabu in Tokyo's three soba dynasties (Yabu / Sarashina / Sunaba). Burned down 2012, faithfully rebuilt 2014 — the wooden architecture and singsong order-calling are intact. Order seiro (cold) to taste the strong-tasting tsuyu Edokko swore by. *Catch:* short lunch lines, fast turnover. ⚠️ **Closed Tuesdays.** Near Akihabara, 15 min from Shinjuku.",
+      "address": "2-10 Kanda-Awajicho, Chiyoda-ku, Tokyo",
+      "category": "food",
+      "city": "Tokyo",
+      "costPerPerson": 2000,
+      "currency": "JPY",
+      "lat": 35.6952,
+      "lng": 139.7676
+    },
+    {
+      "id": "wl-tokyo-tonki",
+      "title": "Tonki — 1939 tonkatsu institution, Tabelog Top 100",
+      "description": "Open kitchen with 10+ specialists in choreographed roles — one slices, one batters, one fries, one shreds cabbage. Menu is rosu, hire, kushikatsu. Counter seating turns the meal into theater. *Catch:* queues form by 18:00; cash only; **closed Tuesdays + 3rd Monday.** Meguro, 25 min from Shinjuku.",
+      "address": "1-1-2 Shimomeguro, Meguro-ku, Tokyo",
+      "category": "food",
+      "city": "Tokyo",
+      "costPerPerson": 2500,
+      "currency": "JPY",
+      "lat": 35.6334,
+      "lng": 139.7151
+    },
+    {
+      "id": "wl-tokyo-kamiya-bar",
+      "title": "Kamiya Bar — Japan's oldest western bar (1880)",
+      "description": "1921 Registered Tangible Cultural Property building. The signature Denki Bran (Meiji-era gin/wine/curaçao/herb blend) appeared in Dazai's *No Longer Human*. Order it neat with a beer chaser like the regulars — beer-hall vibe, not craft-cocktail temple. **Go for the history, not the mixology.** ⚠️ Closed Tuesdays. Asakusa, tack onto a Senso-ji visit.",
+      "address": "1-1-1 Asakusa, Taito-ku, Tokyo",
+      "category": "bar",
+      "city": "Tokyo",
+      "lat": 35.7106,
+      "lng": 139.7976
+    },
+    {
+      "id": "wl-tokyo-tamai",
+      "title": "Nihonbashi Tamai — anago specialist (Tabelog 3.62)",
+      "description": "Specialty is the Chūbako boxed anago rice in two styles — *nagiage* (soft-steamed) and *yakiage* (grilled). The Honten is in a wood-panelled converted old house in a back alley. **Anago is what unagi pretends to be — lighter, more delicate.** *Catch:* book ahead via Tabelog for lunch. 3-min walk from Pokemon Center Nihonbashi — combines two stops.",
+      "address": "2-9-9 Nihombashi, Chuo-ku, Tokyo",
+      "category": "food",
+      "city": "Tokyo",
+      "costPerPerson": 5500,
+      "currency": "JPY",
+      "lat": 35.6831,
+      "lng": 139.7741
+    },
+    {
+      "id": "wl-tokyo-tsuta",
+      "title": "Tsuta — world's first Michelin-star ramen",
+      "description": "First ramen ever to get a Michelin star (since lost when Michelin restructured ramen categories, but kitchen quality intact since Onishi's death + 2023 reopening). Shoyu broth uses chicken + clams + Italian black truffle oil; chashu sous-vide. *Honest take:* no longer 'best ramen in Tokyo' but a strong honest 8/10 with deep history. **10 min from Hyatt Regency via Odakyu Line.** Queue or use TableCheck.",
+      "address": "1-14-1 Uehara, Shibuya-ku, Tokyo",
+      "category": "food",
+      "city": "Tokyo",
+      "costPerPerson": 1800,
+      "currency": "JPY",
+      "lat": 35.6685,
+      "lng": 139.6859
+    },
+    {
+      "id": "wl-tokyo-toraya-akasaka",
+      "title": "Toraya Akasaka — 500-yr wagashi tearoom",
+      "description": "Founded early 1500s, Imperial Court purveyor since the Goyozei era. The Akasaka flagship is a 2018 Hiroshi Naito building — concrete + traditional joinery — with a tearoom serving seasonal namagashi with matcha. **Hands-down the most 'honeymoon-grade' wagashi experience in Tokyo.** 30-min sit-down. 15 min from Shinjuku.",
+      "address": "4-9-22 Akasaka, Minato-ku, Tokyo",
+      "category": "food",
+      "city": "Tokyo",
+      "costPerPerson": 2000,
+      "currency": "JPY",
+      "lat": 35.6754,
+      "lng": 139.7361
+    },
+    {
+      "id": "wl-tokyo-tsukishima-monja",
+      "title": "Tsukishima Monja Street — DIY monjayaki on a Showa arcade",
+      "description": "~75 monjayaki shops on a Showa-era arcade strip — Tokyo's local-soul-food version of okonomiyaki, cooked at your teppan. *Honest take:* monja is messier and runnier than Osaka okonomiyaki — go in knowing 'the experience > the dish.' ~25 min from Shinjuku via Oedo Line. Most stalls open 17:00–23:00.",
+      "address": "Tsukishima 3-chome, Chuo-ku, Tokyo",
+      "category": "food",
+      "city": "Tokyo",
+      "costPerPerson": 3000,
+      "currency": "JPY",
+      "lat": 35.6638,
+      "lng": 139.7836
+    },
+    {
+      "id": "wl-tokyo-tsugu-tsugu",
+      "title": "Tsugu Tsugu kintsugi workshop — 1-hr couples experience",
+      "description": "Discovery Workshop is the right honeymoon-tier intro — pieces are pre-restored to the gold-dusting step, so you get the magical moment without 10-class commitment. English support real. **You take home the bowl/cup you finished.** Workshops by reservation only — book 2+ weeks ahead via official site. ~¥11K pp. Studios in Ebisu OR Asakusa.",
+      "address": "1-30-10 Hiroo, Shibuya-ku, Tokyo (Ebisu studio)",
+      "category": "experience",
+      "city": "Tokyo",
+      "costPerPerson": 11000,
+      "currency": "JPY",
+      "lat": 35.648,
+      "lng": 139.7102
+    },
+    {
+      "id": "wl-tokyo-welcome-sento",
+      "title": "WELCOME! SENTO certified bathhouse — tourist-friendly sento",
+      "description": "Sep 1 2025 – Feb 28 2026 the TMG-Sento Association tagged 63 sento as 'tourist-friendly' with English staff, signage, cashless, and a **¥300 coupon** if you're at a participating hotel. **The legit way to try a sento without etiquette anxiety.** ⚠️ Tattoos still case-by-case — verify your specific sento accepts them. Directory at welcome-sento.com.",
+      "address": "63 locations citywide; pick by neighborhood",
+      "category": "experience",
+      "city": "Tokyo",
+      "costPerPerson": 300,
+      "currency": "JPY",
+      "lat": 35.6896,
+      "lng": 139.7006
+    },
+    {
+      "id": "wl-tokyo-imado",
+      "title": "Imado Shrine — maneki-neko origin + matchmaking",
+      "description": "Claimed origin of the maneki-neko cat figure, dedicated to Izanagi + Izanami (Japan's mythic first couple). Couples get a paired cat ema (votive plaque) to write a wish on. **Earnestly the 'honeymoon shrine' of Tokyo.** *Honest take:* very small, pink and twee — but sincere. 20-min visit, tack onto Asakusa loop. Free (¥500 for ema).",
+      "address": "1-5-22 Imado, Taito-ku, Tokyo",
+      "category": "temple",
+      "city": "Tokyo",
+      "lat": 35.7184,
+      "lng": 139.8042
+    },
+    {
+      "id": "wl-tokyo-zoetrope",
+      "title": "Bar Zoetrope — 300+ Japanese whiskies, walking distance from Regency",
+      "description": "Possibly the best Japanese whisky bar in the world — 300+ bottles including discontinued Karuizawa, rare Hanyu. Owner Atsushi Horigami screens silent films on the wall with soundtracks. *Honest take:* whisky-drinker's whisky bar, not a cocktail program. **Easier walk-in than Benfiddich.** Mon-Sat 17:00-01:00. Closed Sundays. 5 min from Regency.",
+      "address": "7-10-14 Nishi-Shinjuku, 3F, Shinjuku-ku, Tokyo",
+      "category": "bar",
+      "city": "Tokyo",
+      "costPerPerson": 4000,
+      "currency": "JPY",
+      "lat": 35.6926,
+      "lng": 139.6968
+    },
+    {
+      "id": "wl-tokyo-star-bar",
+      "title": "Star Bar Ginza — Hisashi Kishi's classic-cocktail temple",
+      "description": "Kishi is the Japanese cocktail godfather (IBA world title, Emperor's Medal of Honor); his bar opened 2000 has been the epicenter of Japanese classic-cocktail technique. Perfect Sidecar, perfect Manhattan, hand-carved diamond ice. *Catch:* small, traditional, cover charge ~¥1,000-2,000 + drinks. Mon-Sat 18:00-01:00. **Closed Sundays AND public holidays — verify before going.** 20 min from Shinjuku.",
+      "address": "1-5-13 Ginza, Chuo-ku, Tokyo (Sankosha Bldg basement)",
+      "category": "bar",
+      "city": "Tokyo",
+      "costPerPerson": 8000,
+      "currency": "JPY",
+      "lat": 35.6708,
+      "lng": 139.7641
+    },
+    {
+      "id": "wl-tokyo-sg-club",
+      "title": "The SG Club — Shingo Gokan's flagship",
+      "description": "World's 50 Best Bars 7 consecutive years. Upstairs 'Guzzle' is a casual standing bar, downstairs 'Sip' is the formal classics room with shoe-shine service. **New 8-seat 'Sangai' omakase room opened Aug 2025 — the upgrade move.** *Honest take:* upstairs gets crowded; downstairs Sip is the better honeymoon move. 5 min from Shibuya Station.",
+      "address": "1-7-8 Jinnan, Shibuya-ku, Tokyo",
+      "category": "bar",
+      "city": "Tokyo",
+      "costPerPerson": 7000,
+      "currency": "JPY",
+      "lat": 35.6604,
+      "lng": 139.6996
+    },
+    {
+      "id": "wl-tokyo-high-five",
+      "title": "Bar High Five — Hidetsugu Ueno, no-menu Ginza",
+      "description": "Ueno (Kishi's former right hand) starts with a conversation, not a menu — sweet/dry, strong/light, short/long — then builds. World's 50 Best regular for a decade, Best Bar in Japan 2019. *Catch:* small room, often busy; calling ahead is strongly advised. **Closed Sundays.** Originally planned for Day 14 before Benfiddich swap — kept here as backup if Benfiddich closed.",
+      "address": "5-4-15 Ginza, Chuo-ku, Tokyo (Efflore basement)",
+      "category": "bar",
+      "city": "Tokyo",
+      "costPerPerson": 7000,
+      "currency": "JPY",
+      "lat": 35.6717,
+      "lng": 139.7635
+    },
+    {
+      "id": "wl-tokyo-teamlab-borderless",
+      "title": "teamLab Borderless (Azabudai Hills) — digital art anchor",
+      "description": "Relocated Borderless opened Feb 2024 (different from Planets in Toyosu). Most weekend slots sell out 72+ hrs ahead — **book online for 10% discount + guaranteed window.** *Catch:* dress dark (light floors reflect), allow 2.5-3 hrs, skip if dark/crowded rooms cause anxiety. ⚠️ **Closed Tuesdays.** ~25 min from Shinjuku via Hibiya Line.",
+      "address": "B1 Garden Plaza B, Azabudai Hills, Toranomon, Tokyo",
+      "category": "art",
+      "city": "Tokyo",
+      "costPerPerson": 3800,
+      "currency": "JPY",
+      "lat": 35.6608,
+      "lng": 139.7427
+    },
+    {
+      "id": "wl-tokyo-nakano-broadway",
+      "title": "Nakano Broadway — Akihabara alternative, less tourist-saturated",
+      "description": "1966 luxury mall transformed into 4-floor otaku/manga/vintage-toy/used-watch labyrinth. **Much less foreign-tourist-saturated than Akihabara**, prices lower, weirder finds (vintage Mandarake stalls dominate). *Catch:* Nakano TRF arcade shut May 2025 — **go for shopping, NOT arcades.** Most shops 12:00-20:00. 5 min from Shinjuku on JR Chuo.",
+      "address": "5-52-15 Nakano, Nakano-ku, Tokyo",
+      "category": "shop",
+      "city": "Tokyo",
+      "lat": 35.7088,
+      "lng": 139.6655
+    },
+    {
+      "id": "wl-tokyo-caretta-illumination",
+      "title": "Caretta Shiodome Winter Illumination — free, indoor-mall-attached",
+      "description": "Free annual light show in the sunken plaza of the Caretta Shiodome mall — Nov 2025-Feb 2026, shows on the hour at night. **Indoor mall access means you can duck out of rain.** Modest scale vs Roppongi Midtown's illumination but cheaper and easier to slot around dinner. Pair with Hamarikyu (10-min walk).",
+      "address": "Caretta Shiodome B2F-2F, 1-8-1 Higashi-Shimbashi, Minato-ku, Tokyo",
+      "category": "art",
+      "city": "Tokyo",
+      "lat": 35.6651,
+      "lng": 139.7626
     }
   ]
 }
