@@ -10,7 +10,7 @@ import {
   haversineM,
   googleMapsPlaceUrl,
 } from '../lib/maps';
-import { getUserIdeas, type UserIdea } from '../lib/storage';
+import { getRejectedIdeas, getUserIdeas, type UserIdea } from '../lib/storage';
 import { dayHue } from '../lib/dayColor';
 
 interface Props {
@@ -132,8 +132,11 @@ export default function TripMap({
   const markersRef = useRef<MarkerEntry[]>([]);
   const linesRef = useRef<LineEntry[]>([]);
   const [userIdeas, setUserIdeas] = useState<UserIdea[]>(() => getUserIdeas(trip.slug));
+  const [rejectedIds, setRejectedIds] = useState<Set<string>>(
+    () => new Set(getRejectedIdeas(trip.slug))
+  );
 
-  // Re-read user ideas when the page becomes visible or focuses (after Add Idea closes).
+  // Re-read user ideas + rejected ids when the page becomes visible or focuses.
   // Dedupe by content so unchanged polls don't trigger a markers rebuild
   // (which would reset opacity state and lose the active-day dim).
   useEffect(() => {
@@ -145,6 +148,13 @@ export default function TripMap({
           ? prev
           : next
       );
+      const nextRejected = getRejectedIdeas(trip.slug);
+      setRejectedIds((prev) => {
+        if (prev.size === nextRejected.length && nextRejected.every((id) => prev.has(id))) {
+          return prev;
+        }
+        return new Set(nextRejected);
+      });
     };
     window.addEventListener('focus', refresh);
     document.addEventListener('visibilitychange', refresh);
@@ -530,7 +540,9 @@ export default function TripMap({
     });
 
     // Wishlist (JSON) — candidate ideas not yet scheduled. Smaller, dashed pins.
+    // Skip ideas the user has rejected.
     (trip.wishlist ?? []).forEach((w) => {
+      if (rejectedIds.has(w.id)) return;
       const marker = L.marker([w.lat, w.lng], {
         icon: wishlistIcon(w.category, w.title),
         opacity: 0.85,
@@ -556,9 +568,10 @@ export default function TripMap({
       });
     });
 
-    // User ideas from localStorage (only those with coords)
+    // User ideas from localStorage (only those with coords, and not rejected)
     for (const ui of userIdeas) {
       if (ui.lat == null || ui.lng == null) continue;
+      if (rejectedIds.has(ui.id)) continue;
       const marker = L.marker([ui.lat, ui.lng], {
         icon: wishlistIcon(ui.category, ui.title),
         opacity: 0.85,
@@ -582,7 +595,7 @@ export default function TripMap({
         status: 'idea',
       });
     }
-  }, [trip, showSolo, onSelectActivity, userIdeas]);
+  }, [trip, showSolo, onSelectActivity, userIdeas, rejectedIds]);
 
   // APPLY selection — only opacity changes + flyToBounds. Cheap & smooth.
   useEffect(() => {

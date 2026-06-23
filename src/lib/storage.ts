@@ -129,6 +129,32 @@ export function newIdeaId(): string {
   return 'ui-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 7);
 }
 
+// Rejected ideas — both JSON-defined and user-added share the same reject set.
+// Stored as a sorted JSON array of ids so the export-for-Claude string is stable.
+const REJECTED_IDEAS_KEY = (slug: string) => `${NS}:${slug}:rejected-ideas`;
+
+export function getRejectedIdeas(slug: string): string[] {
+  const raw = safeGet(REJECTED_IDEAS_KEY(slug));
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.filter((x) => typeof x === 'string') : [];
+  } catch {
+    return [];
+  }
+}
+
+export function rejectIdea(slug: string, id: string): void {
+  const all = new Set(getRejectedIdeas(slug));
+  all.add(id);
+  safeSet(REJECTED_IDEAS_KEY(slug), JSON.stringify([...all].sort()));
+}
+
+export function unrejectIdea(slug: string, id: string): void {
+  const all = getRejectedIdeas(slug).filter((x) => x !== id);
+  safeSet(REJECTED_IDEAS_KEY(slug), JSON.stringify(all));
+}
+
 function readPrefix(prefix: string): Record<string, boolean> {
   const out: Record<string, boolean> = {};
   try {

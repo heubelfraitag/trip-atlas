@@ -7,8 +7,11 @@ import { cityColor } from '../lib/maps';
 import { formatCurrency } from '../lib/format';
 import {
   deleteUserIdea,
+  getRejectedIdeas,
   getUserIdeas,
   importUserIdeas,
+  rejectIdea,
+  unrejectIdea,
   type UserIdea,
 } from '../lib/storage';
 import { buildShareUrl, decodeIdeasFromUrl, encodeIdeasForUrl } from '../lib/shareIdeas';
@@ -39,11 +42,38 @@ export default function WishlistSection({ trip }: Props) {
   const [modalOpen, setModalOpen] = useState(false);
   const [editing, setEditing] = useState<UserIdea | null>(null);
   const [userIdeas, setUserIdeas] = useState<UserIdea[]>([]);
+  const [rejected, setRejected] = useState<Set<string>>(new Set());
+  const [openRejectedCity, setOpenRejectedCity] = useState<string | null>(null);
+  const [rejectedCopied, setRejectedCopied] = useState(false);
   const [shareCopied, setShareCopied] = useState(false);
   const [importStatus, setImportStatus] = useState<string | null>(null);
 
   function reload() {
     setUserIdeas(getUserIdeas(trip.slug));
+    setRejected(new Set(getRejectedIdeas(trip.slug)));
+  }
+
+  function handleReject(id: string) {
+    rejectIdea(trip.slug, id);
+    reload();
+  }
+
+  function handleUnreject(id: string) {
+    unrejectIdea(trip.slug, id);
+    reload();
+  }
+
+  async function handleCopyRejected() {
+    const ids = [...rejected].sort();
+    if (ids.length === 0) return;
+    const text = `Rejected ideas (${ids.length}):\n${ids.join('\n')}`;
+    try {
+      await navigator.clipboard.writeText(text);
+      setRejectedCopied(true);
+      setTimeout(() => setRejectedCopied(false), 1800);
+    } catch {
+      window.prompt('Copy this list to share with Claude:', text);
+    }
   }
 
   useEffect(() => {
@@ -175,6 +205,15 @@ export default function WishlistSection({ trip }: Props) {
           </p>
         </div>
         <div className="flex gap-2">
+          {rejected.size > 0 && (
+            <button
+              onClick={handleCopyRejected}
+              className="rounded-md bg-paper-deep text-ink-faint px-3 py-1.5 text-[11px] font-semibold tracking-wider uppercase hover:bg-ink/10 transition-colors"
+              title="Copy rejected ids so Claude can sync them to the trip file"
+            >
+              {rejectedCopied ? '✓ Copied' : `⊘ ${rejected.size} rejected — copy`}
+            </button>
+          )}
           <button
             onClick={handleShare}
             className="rounded-md bg-paper-deep text-ink px-3 py-1.5 text-[11px] font-semibold tracking-wider uppercase hover:bg-gold-soft hover:text-paper transition-colors"
@@ -199,8 +238,11 @@ export default function WishlistSection({ trip }: Props) {
 
       <div className="space-y-3">
         {trip.meta.cities.map((city) => {
-          const ideas = grouped[city] || [];
+          const allCityIdeas = grouped[city] || [];
+          const ideas = allCityIdeas.filter((i) => !rejected.has(i.id));
+          const rejectedIdeas = allCityIdeas.filter((i) => rejected.has(i.id));
           const isOpen = openCity === city;
+          const isRejectedOpen = openRejectedCity === city;
           const color = cityColor(city);
           return (
             <div
@@ -307,10 +349,69 @@ export default function WishlistSection({ trip }: Props) {
                                 </button>
                               </>
                             )}
+                            <button
+                              onClick={() => handleReject(idea.id)}
+                              title="Not interested — moves to Rejected list (you can restore later)"
+                              className="ml-auto inline-flex items-center gap-1.5 rounded-md text-ink-faint hover:text-vermillion hover:bg-vermillion/10 px-2.5 py-1.5 text-[11px] font-semibold tracking-wider uppercase transition-colors"
+                            >
+                              ⊘ Not interested
+                            </button>
                           </div>
                         </li>
                       ))}
                     </ul>
+                  )}
+
+                  {rejectedIdeas.length > 0 && (
+                    <div className="mt-3 border-t border-line pt-3">
+                      <button
+                        onClick={() => setOpenRejectedCity(isRejectedOpen ? null : city)}
+                        className="w-full flex items-center justify-between gap-2 text-left text-[11px] tracking-wider uppercase text-ink-faint hover:text-ink-soft transition-colors"
+                      >
+                        <span>
+                          {isRejectedOpen ? '▾' : '▸'} Rejected ({rejectedIdeas.length})
+                        </span>
+                        <span className="text-[10px] normal-case italic text-ink-faint">
+                          click to {isRejectedOpen ? 'collapse' : 'review'}
+                        </span>
+                      </button>
+                      {isRejectedOpen && (
+                        <ul className="space-y-2 mt-2">
+                          {rejectedIdeas.map((idea) => (
+                            <li
+                              key={idea.id}
+                              className="rounded-lg bg-paper/40 border border-line p-3 opacity-70"
+                            >
+                              <div className="flex items-start justify-between gap-3 flex-wrap">
+                                <div className="flex-1 min-w-0">
+                                  <div className="flex items-center gap-1.5 flex-wrap mb-1">
+                                    <CategoryBadge category={idea.category} />
+                                    <span className="text-[10px] px-1.5 py-0.5 rounded-full font-medium tracking-wider uppercase bg-ink/10 text-ink-faint italic">
+                                      Rejected
+                                    </span>
+                                  </div>
+                                  <h4 className="font-display text-base text-ink-soft leading-snug line-through decoration-ink-faint/40">
+                                    {idea.title}
+                                  </h4>
+                                  {idea.description && (
+                                    <p className="text-[11px] text-ink-faint mt-1 leading-snug line-clamp-2">
+                                      {idea.description}
+                                    </p>
+                                  )}
+                                </div>
+                                <button
+                                  onClick={() => handleUnreject(idea.id)}
+                                  className="rounded-md text-ink-faint hover:text-gold hover:bg-gold/10 px-2.5 py-1.5 text-[11px] font-semibold tracking-wider uppercase transition-colors"
+                                  title="Restore to ideas list"
+                                >
+                                  ↺ Restore
+                                </button>
+                              </div>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
                   )}
                 </div>
               )}
