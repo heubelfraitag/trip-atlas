@@ -99914,6 +99914,102 @@
       "currency": "JPY",
       "lat": 35.521,
       "lng": 138.7448
+    },
+    {
+      "id": "wl-tokyo-hardoff-akihabara",
+      "title": "🕰️ HARD OFF Akihabara 1st Store — Japan's thrift-watch HQ",
+      "description": "**THE budget vintage watch hunt anchor.** Multi-floor recycle store (B1 + 2F + 3F) in the Rock Building, next to Don Quijote Akihabara. Watch glass case has random Seikos, Citizens, Casios from the 70s-2000s for **¥500-3,000 ($3-20)**. Some 'junk' boxes at ¥100-500 (battery dead — you replace, ¥300 at any watch shop). 964 Google reviews. *Honest take:* hit-or-miss inventory, but go in expecting to spend 30-45 min flipping through cases and you'll usually leave with something. Way cheaper than the YouTube-famous vintage Seiko shops.",
+      "address": "3-11-2 Sotokanda Rock Bldg 2F/3F/B1, Chiyoda-ku, Tokyo",
+      "category": "shop",
+      "city": "Tokyo",
+      "costPerPerson": 2000,
+      "currency": "JPY",
+      "lat": 35.7019,
+      "lng": 139.7715
+    },
+    {
+      "id": "wl-tokyo-nakano-broadway-watches",
+      "title": "🕰️ Nakano Broadway 3F — vintage watch dealer cluster",
+      "description": "**3rd floor of Nakano Broadway is famous for vintage watch dealers** — multiple small stalls (Jackroad, Time Vallée, Watch House Aoi, plus 10+ tiny shops). Mix of bougie and budget — **the cheap stalls have ¥3,000-15,000 'junk' Seikos and Casios all over.** Way less tourist-saturated than Akihabara watch shops. Combine with vintage clothing/manga browsing on other floors for a half-day. JR Chuo from Shinjuku — 5 min. 12:00-20:00 most shops.",
+      "address": "5-52-15 Nakano, Nakano-ku, Tokyo (3F)",
+      "category": "shop",
+      "city": "Tokyo",
+      "costPerPerson": 5000,
+      "currency": "JPY",
+      "lat": 35.7088,
+      "lng": 139.6655
+    },
+    {
+      "id": "wl-tokyo-akiba-radio-center",
+      "title": "🕰️ Akihabara Radio Center — junk-box watch hunt",
+      "description": "Cluster of tiny electronics/junk stalls under the elevated JR tracks at Akihabara Station. **Some stalls have actual junk boxes piled with old Casios and Citizens for ¥500-2,000** — battery dead, screen scratched, but exactly what NYC street vendors charge $50 for. Bring cash, browse 5-6 stalls back-to-back. The closer to street level, the cheaper. Combines with HARD OFF Akihabara walk (5 min).",
+      "address": "1-14-2 Soto-Kanda, Chiyoda-ku, Tokyo (Akihabara Station)",
+      "category": "shop",
+      "city": "Tokyo",
+      "costPerPerson": 1500,
+      "currency": "JPY",
+      "lat": 35.6986,
+      "lng": 139.773
+    },
+    {
+      "id": "wl-tokyo-bookoff-super-bazaar",
+      "title": "🕰️ BOOK OFF Super Bazaar Shinjuku — sister chain with watch case",
+      "description": "BOOK OFF, HARD OFF, OFF HOUSE are all under the same parent. The big 'Super Bazaar' versions carry watches at the counter alongside books/clothes/electronics. **¥1,000-5,000 typical.** Not as deep a selection as HARD OFF Akihabara, but it's right next to Hyatt Regency — easy 5-min walk for a quick browse on your Tokyo end-stay. Daily 10:00-22:00.",
+      "address": "1-12-7 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
+      "category": "shop",
+      "city": "Tokyo",
+      "costPerPerson": 3000,
+      "currency": "JPY",
+      "lat": 35.6924,
+      "lng": 139.6982
+    },
+    {
+      "id": "wl-tokyo-donki-watches",
+      "title": "🕰️ Don Quijote (Donki) — new cheap Casio retros",
+      "description": "If you ALSO want NEW cheap retro-style watches as a backup option: Donki sells **Casio F-91W for ¥1,500, MTP-V series for ¥3,000-5,000, basic G-Shocks ¥6,000-12,000.** Every Donki has them. Not vintage — but the kind of watch you'd buy NEW for the same $15 thrift price. Multiple central Tokyo locations; Shinjuku Higashi-Guchi and Shibuya are biggest.",
+      "address": "Donki Shinjuku Higashi-Guchi Honten, 1-16-5 Kabukicho, Shinjuku-ku, Tokyo",
+      "category": "shop",
+      "city": "Tokyo",
+      "costPerPerson": 3000,
+      "currency": "JPY",
+      "lat": 35.6948,
+      "lng": 139.7034
+    },
+    {
+      "id": "wl-osaka-hardoff-osaka",
+      "title": "🕰️ HARD OFF — Osaka watch thrift",
+      "description": "Same recycle-chain concept as Tokyo. Multiple Osaka branches; **Hard Off Naniwa (south of Namba)** and **Hard Off Higashinari** both have watch counters. ¥500-3,000 range. Less central than Tokyo branches but worth the train ride if vintage hunting is the goal. Check Google Maps for the closest branch to your Osaka hotel.",
+      "address": "Multiple Osaka locations — search \"Hard Off\" near hotel",
+      "category": "shop",
+      "city": "Osaka",
+      "costPerPerson": 2000,
+      "currency": "JPY",
+      "lat": 34.662,
+      "lng": 135.5048
+    },
+    {
+      "id": "wl-osaka-tenjinbashi-watch",
+      "title": "🕰️ Tenjinbashisuji arcade — random watch/electronics shops",
+      "description": "Japan's longest covered arcade (2.6 km) has scattered tiny watch/electronics shops along its length — **random vintage finds possible**, especially in the more locals-only northern sections (Tenjinbashi 5-7 chome). Less curated than Hard Off but the browsing-as-experience is the point. Most shops daily 10:00-19:00. Already on your wishlist for the arcade itself.",
+      "address": "Tenjinbashi 5-7 chome (northern end of arcade), Kita-ku, Osaka",
+      "category": "shop",
+      "city": "Osaka",
+      "costPerPerson": 2500,
+      "currency": "JPY",
+      "lat": 34.7005,
+      "lng": 135.5125
+    },
+    {
+      "id": "wl-kyoto-bookoff-kawaramachi",
+      "title": "🕰️ BOOK OFF / 2nd Street — Kyoto budget watch browse",
+      "description": "Kyoto's budget vintage-watch scene is **thinner than Tokyo or Osaka** (more antique-leaning shops, fewer recycle chains). Best Kyoto budget option: **BOOK OFF Kawaramachi** (along Kawaramachi-dori) — watch counter has ¥1,000-5,000 Casios/Citizens. ⚠️ *Honest take:* if you're serious about the vintage watch hunt, save the budget for Tokyo. Kyoto antique markets (Toji 21st, Kitano 25th) miss your dates.",
+      "address": "Multiple Kyoto locations; BOOK OFF Kawaramachi-Sanjo recommended",
+      "category": "shop",
+      "city": "Kyoto",
+      "costPerPerson": 3000,
+      "currency": "JPY",
+      "lat": 35.0093,
+      "lng": 135.7686
     }
   ]
 }
