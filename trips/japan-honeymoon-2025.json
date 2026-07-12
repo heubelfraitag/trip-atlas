@@ -60,7 +60,7 @@
       "lng": 138.7688497,
       "checkIn": "2026-11-27",
       "checkOut": "2026-11-29",
-      "booked": true,
+      "booked": false,
       "notes": "Lakefront ryokan on Ubuyazaki cape (north shore promontory). Two nights (Nov 27-29) before splurging on FUFU final Fuji night.",
       "address": "10 Azagawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0303"
     },
@@ -98164,7 +98164,7 @@
           "id": "d13-2",
           "time": "15:00",
           "title": "Hotel check-in (finale)",
-          "description": "Shibuya Tokyu REI Hotel.",
+          "description": "Hyatt Regency Tokyo (Nishi-Shinjuku). Airport Limousine Bus stop at hotel entrance for Day 16 HND departure.",
           "category": "hotel",
           "lat": 35.660255,
           "lng": 139.702026,
@@ -98656,7 +98656,7 @@
     {
       "id": "c2",
       "title": "Tokyo hotels · 3 nights start + 3 nights end",
-      "detail": "Same hotel both stays = easier baggage drop.",
+      "detail": "Yuen Shinjuku (Nov 24-27, boutique ryokan) + Hyatt Regency Tokyo (Dec 6-9, Cat 5 Hyatt for Chase 1:1 transfer). Book Yuen direct; Hyatt when booking window opens ~Nov 6, 2026.",
       "priority": "asap"
     },
     {
@@ -98743,7 +98743,7 @@
     },
     {
       "id": "c17",
-      "title": "Yamato luggage forward · Cross Osaka → Shibuya Tokyu REI Tokyo (Dec 6)",
+      "title": "Yamato luggage forward · Cross Osaka → Hyatt Regency Tokyo (Dec 6)",
       "detail": "Drop at Cross Hotel front desk Dec 5 evening. Skip the 2.5-hr Nozomi luggage hassle + the post-2020 oversized-bag reservation requirement. ~¥2-3K per bag.",
       "priority": "closer"
     }
