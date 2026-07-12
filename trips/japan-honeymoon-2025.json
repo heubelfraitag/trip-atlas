@@ -3,8 +3,8 @@
   "meta": {
     "name": "Japan Honeymoon",
     "subtitle": "Tokyo · Fuji · Kyoto · Osaka · Tokyo",
-    "startDate": "2025-11-24",
-    "endDate": "2025-12-09",
+    "startDate": "2026-11-24",
+    "endDate": "2026-12-09",
     "cities": [
       "Tokyo",
       "Kawaguchiko",
@@ -28,7 +28,7 @@
       "lat": 35.5494,
       "lng": 139.7798,
       "role": "arrival",
-      "datetime": "2025-11-24T16:30:00+09:00"
+      "datetime": "2026-11-24T16:30:00+09:00"
     },
     {
       "code": "HND",
@@ -36,7 +36,7 @@
       "lat": 35.5494,
       "lng": 139.7798,
       "role": "departure",
-      "datetime": "2025-12-09T11:30:00+09:00"
+      "datetime": "2026-12-09T11:30:00+09:00"
     }
   ],
   "hotels": [
@@ -46,8 +46,8 @@
       "neighborhood": "Shinjuku",
       "lat": 35.69156,
       "lng": 139.70908,
-      "checkIn": "2025-11-24",
-      "checkOut": "2025-11-27",
+      "checkIn": "2026-11-24",
+      "checkOut": "2026-11-27",
       "booked": false,
       "notes": "Modern ryokan with 18F open-air rooftop onsen overlooking Tokyo skyline. Quiet east-Shinjuku block, 5 min from Shinjuku-Gyoemmae Metro. Yukatas + traditional Japanese breakfast included.",
       "address": "5-3-18 Shinjuku, Shinjuku Ward, Tokyo 160-0022"
@@ -58,8 +58,8 @@
       "neighborhood": "Lake Kawaguchi",
       "lat": 35.5128155,
       "lng": 138.7688497,
-      "checkIn": "2025-11-27",
-      "checkOut": "2025-11-29",
+      "checkIn": "2026-11-27",
+      "checkOut": "2026-11-29",
       "booked": true,
       "notes": "Lakefront ryokan on Ubuyazaki cape (north shore promontory). Two nights (Nov 27-29) before splurging on FUFU final Fuji night.",
       "address": "10 Azagawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0303"
@@ -70,8 +70,8 @@
       "neighborhood": "Lake Kawaguchi (Funatsu / Onsen-kyo)",
       "lat": 35.5282327,
       "lng": 138.7599385,
-      "checkIn": "2025-11-29",
-      "checkOut": "2025-11-30",
+      "checkIn": "2026-11-29",
+      "checkOut": "2026-11-30",
       "booked": false,
       "notes": "Splurge final Fuji night. Small luxury ryokan, all-suite, every room has a private outdoor onsen. Mt. Fuji views, Bang & Olufsen, Dyson, kaiseki dining.",
       "address": "2211-1 Mizuguchi, Kawaguchi-Aza, Fuji-Kawaguchiko-Machi, Minamitsuru-Gun, Yamanashi 401-0304"
@@ -82,8 +82,8 @@
       "neighborhood": "Shimogyo-ku (between Higashi & Nishi Hongan-ji)",
       "lat": 34.99244,
       "lng": 135.7564,
-      "checkIn": "2025-11-30",
-      "checkOut": "2025-12-04",
+      "checkIn": "2026-11-30",
+      "checkOut": "2026-12-04",
       "booked": false,
       "notes": "4-star wabi-sabi boutique, 10-min walk from Kyoto Station, 8-min from Gojo Station (Karasuma Line).",
       "address": "455 Nishinotoincho, Shimogyo-ku, Kyoto 600-8327"
@@ -94,8 +94,8 @@
       "neighborhood": "Namba / Dotonbori",
       "lat": 34.6724,
       "lng": 135.4974,
-      "checkIn": "2025-12-04",
-      "checkOut": "2025-12-06",
+      "checkIn": "2026-12-04",
+      "checkOut": "2026-12-06",
       "booked": false,
       "notes": "Shortlist.",
       "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka 542-0085"
@@ -106,8 +106,8 @@
       "neighborhood": "Nishi-Shinjuku",
       "lat": 35.6912457,
       "lng": 139.69126,
-      "checkIn": "2025-12-06",
-      "checkOut": "2025-12-09",
+      "checkIn": "2026-12-06",
+      "checkOut": "2026-12-09",
       "booked": false,
       "notes": "Cat 5 Hyatt — 20K points/night via Chase Sapphire Preferred transfer 1:1 (1.46 cpp). Airport Limousine Bus stop AT hotel entrance for Day 16 HND departure (¥1,400pp, ~50 min). Address: 2-7-2 Nishi-Shinjuku.",
       "address": "2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023"
@@ -116,7 +116,7 @@
   "intercityTransit": [
     {
       "id": "ic-1",
-      "date": "2025-11-27",
+      "date": "2026-11-27",
       "from": "Shinjuku",
       "to": "Kawaguchiko",
       "fromLat": 35.6896,
@@ -11759,7 +11759,7 @@
     },
     {
       "id": "ic-2a",
-      "date": "2025-11-30",
+      "date": "2026-11-30",
       "from": "Kawaguchiko",
       "to": "Mishima",
       "fromLat": 35.5009,
@@ -11782,7 +11782,7 @@
     },
     {
       "id": "ic-2b",
-      "date": "2025-11-30",
+      "date": "2026-11-30",
       "from": "Mishima",
       "to": "Kyoto",
       "fromLat": 35.1281,
@@ -43032,7 +43032,7 @@
     },
     {
       "id": "ic-3",
-      "date": "2025-12-04",
+      "date": "2026-12-04",
       "from": "Kyoto",
       "to": "Shin-Osaka",
       "fromLat": 34.9858,
@@ -46446,7 +46446,7 @@
     },
     {
       "id": "ic-4",
-      "date": "2025-12-06",
+      "date": "2026-12-06",
       "from": "Shin-Osaka",
       "to": "Tokyo",
       "fromLat": 34.7339,
@@ -96202,7 +96202,7 @@
   ],
   "days": [
     {
-      "date": "2025-11-24",
+      "date": "2026-11-24",
       "dayNumber": 1,
       "theme": "Arrival",
       "city": "Tokyo",
@@ -96294,7 +96294,7 @@
       }
     },
     {
-      "date": "2025-11-25",
+      "date": "2026-11-25",
       "dayNumber": 2,
       "theme": "Senso-ji + Ueno + Shinjuku Night",
       "city": "Tokyo",
@@ -96485,7 +96485,7 @@
       }
     },
     {
-      "date": "2025-11-26",
+      "date": "2026-11-26",
       "dayNumber": 3,
       "theme": "Thrift + Kabuki",
       "city": "Tokyo",
@@ -96709,7 +96709,7 @@
       }
     },
     {
-      "date": "2025-11-27",
+      "date": "2026-11-27",
       "dayNumber": 4,
       "theme": "Coffee, Knife, Travel to Fuji",
       "city": "Tokyo",
@@ -96855,7 +96855,7 @@
       }
     },
     {
-      "date": "2025-11-28",
+      "date": "2026-11-28",
       "dayNumber": 5,
       "theme": "Ryokan Day",
       "city": "Kawaguchiko",
@@ -96976,7 +96976,7 @@
       ]
     },
     {
-      "date": "2025-11-29",
+      "date": "2026-11-29",
       "dayNumber": 6,
       "theme": "Active Fuji",
       "city": "Kawaguchiko",
@@ -97056,7 +97056,7 @@
       ]
     },
     {
-      "date": "2025-11-30",
+      "date": "2026-11-30",
       "dayNumber": 7,
       "theme": "Travel to Kyoto + Orientation",
       "city": "Kyoto",
@@ -97228,7 +97228,7 @@
       }
     },
     {
-      "date": "2025-12-01",
+      "date": "2026-12-01",
       "dayNumber": 8,
       "theme": "Kimono + Kaiseki",
       "city": "Kyoto",
@@ -97404,7 +97404,7 @@
       }
     },
     {
-      "date": "2025-12-02",
+      "date": "2026-12-02",
       "dayNumber": 9,
       "theme": "Uji + Nara Day Trip",
       "city": "Kyoto",
@@ -97559,7 +97559,7 @@
       }
     },
     {
-      "date": "2025-12-03",
+      "date": "2026-12-03",
       "dayNumber": 10,
       "theme": "Arashiyama + Sake + Fushimi Inari",
       "city": "Kyoto",
@@ -97796,7 +97796,7 @@
       }
     },
     {
-      "date": "2025-12-04",
+      "date": "2026-12-04",
       "dayNumber": 11,
       "theme": "Travel to Osaka + Dotonbori",
       "city": "Osaka",
@@ -97964,7 +97964,7 @@
       }
     },
     {
-      "date": "2025-12-05",
+      "date": "2026-12-05",
       "dayNumber": 12,
       "theme": "Kuromon + Osaka Castle + Shinsekai",
       "city": "Osaka",
@@ -98094,7 +98094,7 @@
       }
     },
     {
-      "date": "2025-12-06",
+      "date": "2026-12-06",
       "dayNumber": 13,
       "theme": "Back to Tokyo + Takarazuka",
       "city": "Tokyo",
@@ -98237,7 +98237,7 @@
       }
     },
     {
-      "date": "2025-12-07",
+      "date": "2026-12-07",
       "dayNumber": 14,
       "theme": "Roppongi Art + Omakase",
       "city": "Tokyo",
@@ -98401,7 +98401,7 @@
       }
     },
     {
-      "date": "2025-12-08",
+      "date": "2026-12-08",
       "dayNumber": 15,
       "theme": "Last Day",
       "city": "Tokyo",
@@ -98578,7 +98578,7 @@
       }
     },
     {
-      "date": "2025-12-09",
+      "date": "2026-12-09",
       "dayNumber": 16,
       "theme": "Depart",
       "city": "Tokyo",
