@@ -78,15 +78,15 @@
     },
     {
       "id": "hotel-kyoto",
-      "name": "Hotel TOU Nishinotoin Kyoto",
-      "neighborhood": "Shimogyo-ku (between Higashi & Nishi Hongan-ji)",
-      "lat": 34.99244,
-      "lng": 135.7564,
+      "name": "Apartment Hotel 11 Yasaka",
+      "neighborhood": "Higashiyama (Shimokawaracho — south side of Yasaka Shrine, at the entrance to Sannenzaka/Ninenzaka)",
+      "lat": 35,
+      "lng": 135.7793,
       "checkIn": "2026-11-30",
       "checkOut": "2026-12-04",
-      "booked": false,
-      "notes": "4-star wabi-sabi boutique, 10-min walk from Kyoto Station, 8-min from Gojo Station (Karasuma Line).",
-      "address": "455 Nishinotoincho, Shimogyo-ku, Kyoto 600-8327"
+      "booked": true,
+      "notes": "✅ BOOKED via Booking.com. 4 nights, $589.19 total ($147/night — massive $311 off retail via Early Booker -$162 + Genius Discount -$90 + Booking.com credit -$59). ¥95,428 in property currency. Apartment-style hotel in Higashiyama's temple heart — 5 min walk to Yasaka Shrine, 14 min uphill to Kiyomizu via Sannenzaka/Ninenzaka, 10 min to Gion-Shijo Keihan Station. Day 8 (Kimono + Higashiyama walk) is entirely on foot from here. Check-in from 4pm, check-out by 10am. ⚠️ Before arrival: verify daily housekeeping, request higher floor to avoid Higashi-oji road noise, confirm private ensuite bathroom.",
+      "address": "487 Shimokawaracho, Higashiyama Ward, Kyoto 605-0825"
     },
     {
       "id": "hotel-osaka",
@@ -97156,7 +97156,7 @@
           "id": "d7-4",
           "time": "17:00",
           "title": "Hotel check-in",
-          "description": "Hotel TOU Nishinotoin Kyoto.",
+          "description": "Apartment Hotel 11 Yasaka (Higashiyama).",
           "category": "hotel",
           "lat": 34.99244,
           "lng": 135.7564,
@@ -97169,7 +97169,7 @@
             "osrmMin": 7,
             "corrected": true,
             "formulaMin": 17,
-            "pinned": "Google Maps verified: Hotel TOU → Pontocho 25-30min transit"
+            "pinned": "Google Maps verified: 11 Yasaka → Pontocho ~15 min walk"
           }
         },
         {
@@ -97219,11 +97219,11 @@
       ],
       "routeToHotel": {
         "format": "polyline",
-        "data": "_mutEmtr{Xc@?iC@?oA?_AlDGPA|ACAzCCtAAPP?dF@`@?VA^?zB@T?R?rE?P?T?rE?T?P?hEAN?P?~B?hA?L?P?dEAn@?f@?`A?~AA^?N?fEAP?N?~D?R?T?lA?pCAN?L?jA?jCCJ?J?xE?B?`@?h@?j@AB?fAAnBAJ?xAArA?N?\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
-        "durationMin": 16,
-        "distanceM": 2951,
+        "data": "_mutEmtr{Xc@?iC@?oA?_A@gC?{C?sC?eC?S?eA?qCBaDAgC@uCp@?B?BABABABC@CBE?C@E?E@gB@sA?S@_A?g@@o@BgE?i@?A?k@?KA_BCyD?M?[AUX?hF@hA@rA@V?V?T?rB@~A@|AB\\?ZBL?vD?Z?tFFP?L?|EJ\\@N?D?fABdADfAHb@B?M?S?eA?}@?[?UAkF?kB?]?a@@yCB}ADkA@QBo@j@Fz@HL@J?J?RGl@Qh@MBGBKf@qBn@sBl@E\\Cd@?`BIPAB?B?`AMBA`@EN?@EN?\\A",
+        "durationMin": 17,
+        "distanceM": 3252,
         "mode": "subway",
-        "osrmMin": 6,
+        "osrmMin": 7,
         "corrected": true
       }
     },
@@ -97388,18 +97388,18 @@
           "address": "420-7 Nambacho, Nishikiyamachidori-Matsubara-sagaru, Shimogyo-ku, Kyoto"
         }
       ],
-      "routeToHotel": {
-        "format": "polyline",
-        "data": "}drtEsls{XB_B@_@d@DR@B@RJB@p@^t@`@nAp@l@ZfBbA@@d@VLFCPCLC~BCtCAxCCJEPA\\AvAAxACL\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
-        "durationMin": 12,
-        "distanceM": 1014,
-        "mode": "walk"
-      },
       "routeFromHotel": {
         "format": "polyline",
-        "data": "wmqtEw|q{XNAAw@D?|CEBrC@xC?HK?{EBI?iB?M?K?iA?c@?g@@gD?mB?{@Am@?G?M?k@AK?I?cF?cBCiC@G?I?{E?U?W@wA?O?gB?cC@G?cB@_F@OB?[A_C?G?yBAQ?O?oD@kA@]@Y?UBkE?g@?U?m@?oEAS?QAiG?O?S?gB?K?QAoB?O?S?uC?M?OAaB?UQ?oFEG?G?cFE@pC~EBJ?F?@?",
-        "durationMin": 24,
-        "distanceM": 1980,
+        "data": "}|rtEohv{X]@O?ADO?a@DC@aALC??tBAnA@PM?E?aBHqBLG?A?I@mA\\i@Lm@PSFK?K?MA{@Ik@GCn@APEjAC|AAxC?`@?\\?jB@jF?T?Z?|@?dA?R?L?N?F@H?P?F?dC?X@fA?R?H@H?B?J@jC@fA@lA@TFdI?N?l@@`@@fA?L?tB?PQ?oFEG?G?cFE@pC~EBJ?F?@?",
+        "durationMin": 22,
+        "distanceM": 1803,
+        "mode": "walk"
+      },
+      "routeToHotel": {
+        "format": "polyline",
+        "data": "mertE}at{Xd@FL@B?VDB[RqC?EBSi@OyIsCiFaBKE?O@Y@M@_@@I?IDo@LuA^_EBOBKK?e@ASAO?c@G@KFs@JsAHiA@OBY?GDy@Bg@@q@DqBDoBDoANkG?O@ODm@B_@BaADy@Bs@Bm@gCCOAyACABK?]?",
+        "durationMin": 17,
+        "distanceM": 1422,
         "mode": "walk"
       }
     },
@@ -97537,25 +97537,21 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "wmqtEw|q{XNAAw@D?|CEB?bA?|C?v@?l@?rB?L?RA`A?D?Z?L?R?T?P?L?f@?D?B?Z?fB?L?B?J??J?F@xF@V?D?D?X?bGBX?X@P@H@FDLDHJN`@CB?p@ClDi@fCa@fAOTE^GRCZETAnA?|A?bFCP?pCDfCBjEBV?Z?v@B~@@t@@T?V?vBBjA@fA?tBBN?T@x@?vABf@@f@?h@?hA?~CF`@?`@@H?|JJdADn@J`ABbCH^@\\?nDDnB@~RbAfFNnCLfCLdAB`EPdFTrEVnBJ~ADdBGx@BrBFzCJnEBjA?~CBp@?x@IR@zCB`@??]D{DB_CDO@oABcCBuDtACdAARC@U?_@CUE_@?}B@oA@e@?{B?}@@U\\DZJv@Ll@Lr@L\\FRDRBXDH?h@DD?nA?PEHEHEFKDGBGlAyB@CFKbAmBP[t@sAx@_BJQRe@b@cALa@XuATmA@GBMBS@ABUJo@D]Jq@Fc@F]Ju@^kC`@mCDUBM@Mx@iFVcBBMD_@Jo@FWHUNURURQPINITEXCVAP@hCFvCHL?L@N?^DZFr@PZFPBfDNpBLJ?hDB^@R@^HPFHBVJv@VRFZHXDr@J`@@RB~@?pAGlASj@Kb@Kj@Ob@Eh@El@E`EAvB?P?R?rAAzCCF?L?H?rE@D?d@?`BDJ?JALAd@Az@?\\Cn@GVEd@MnBk@rBo@rFkBhBs@dBs@j@[^Sb@]b@_@h@g@h@m@`@k@f@q@p@iAJQnA}BDGHOn@iAzAkCHM@EtBsDPYDIBC^q@JQ@CDOZq@zB{DdCoEpDqG^m@Zi@z@}AnA{BLWBCd@i@`@y@Zi@d@w@f@{@HOh@w@BCHKPSLQf@c@j@_@RIXMh@Sx@OPEdAKPCZChCQRCRCxD[HA|@GZCb@EnAK`BOtE[`BIDAtAMf@E\\E`A@\\?h@@V?rBB\\?P?nB@hA@~@Bb@@jDH|@BfBBd@@dEJD?J?B?xBDh@@D@xABlA@pFLdABh@BjABdABfBDjCDH?jAB\\@~@BdCDR?fABrADd@?vCJp@BlADAo@As@?_@@}@AyDAyC?k@AWA_@GaBKsBAc@?_@@SBQ@KDSBETo@DIP_@d@i@BAp@g@d@e@RWT_@Te@J[BKBIJ_@Fo@Dm@@u@@]@UBm@Ju@TkARqADYH]d@sCBMF_ABM@o@?KHuAB}@LcE@U@]HsBBkAZqI@YQ@G?qADOEACON[@a@E{AR}AVNa@Xc@bAIJA",
-        "durationMin": 49,
-        "distanceM": 14986,
+        "data": "}|rtEohv{X\\?J?@CxABN@ALIjDGhA?HCZRBlBPN@nALPBtAL??NBL@|@LD?t@LVBnAPXDbANJBfANh@H`AL`@FJB\\FDB@?l@f@d@^VNRLpAx@f@`@zAdAXJFBLBT@??lBLxAJ`@BN@V@F?zCRfCJN@P@~@DX@Z@pCLP?t@DfAHP@N@lAJN@P@N@tAHD@p@BF?h@@B?\\@N?N?|ABpBBL@ZB@?n@Dj@FN@N@`@DN@b@Dr@FD@RBNFJDPLB@VVJPHJv@hAT\\d@n@DFNR|@nAf@p@JPHLHTFNDXD`@B\\F|Ad@`Nl@Ej@ElBQp@Ep@En@Ax@Cv@?t@@~@Dp@Dp@H`@Fp@Jn@JfB`@^HrBXb@@b@@d@A^Aj@KRGn@UJEfAg@HEv@YVKTGLAL?l@AlB?~B?j@?F?B?h@?T?~@@l@?V?F?n@?xA?r@?pA?Z?^?v@@F?p@?V?p@?dA@N?N?bA?j@?l@@fC?z@?P@r@?J?N?P?bD?fBAVDTFz@ND?f@DhA?H?R?nDAn@?pC?rA?jA?P?T?vB?T?H?J?rB?z@?`@@\\AbA?D?h@?LAJCFCFGDGFSFMDKBCHAJ?tANH?hALdAH`@BH@x@Hx@Jf@F`ANJBRDhDv@~Bd@pH`BJ@dBXd@JtAZD?fAV^FdAVJBHBzCn@~G~A`B\\D@HBPDBM@Mx@iFVcBBMD_@Jo@FWHUNURURQPINITEXCVAP@hCFvCHL?L@N?^DZFr@PZFPBfDNpBLJ?hDB^@R@^HPFHBVJv@VRFZHXDr@J`@@RB~@?pAGlASj@Kb@Kj@Ob@Eh@El@E`EAvB?P?R?rAAzCCF?L?H?rE@D?d@?`BDJ?JALAd@Az@?\\Cn@GVEd@MnBk@rBo@rFkBhBs@dBs@j@[^Sb@]b@_@h@g@h@m@`@k@f@q@p@iAJQnA}BDGHOn@iAzAkCHM@EtBsDPYDIBC^q@JQ@CDOZq@zB{DdCoEpDqG^m@Zi@z@}AnA{BLWBCd@i@`@y@Zi@d@w@f@{@HOh@w@BCHKPSLQf@c@j@_@RIXMh@Sx@OPEdAKPCZChCQRCRCxD[HA|@GZCb@EnAK`BOtE[`BIDAtAMf@E\\E`A@\\?h@@V?rBB\\?P?nB@hA@~@Bb@@jDH|@BfBBd@@dEJD?J?B?xBDh@@D@xABlA@pFLdABh@BjABdABfBDjCDH?jAB\\@~@BdCDR?fABrADd@?vCJp@BlADAo@As@?_@@}@AyDAyC?k@AWA_@GaBKsBAc@?_@@SBQ@KDSBETo@DIP_@d@i@BAp@g@d@e@RWT_@Te@J[BKBIJ_@Fo@Dm@@u@@]@UBm@Ju@TkARqADYH]d@sCBMF_ABM@o@?KHuAB}@LcE@U@]HsBBkAZqI@YQ@G?qADOEACON[@a@E{AR}AVNa@Xc@bAIJA",
+        "durationMin": 40,
+        "distanceM": 15098,
         "mode": "subway",
-        "osrmMin": 21,
-        "corrected": true,
-        "formulaMin": 37,
-        "pinned": "Google Maps verified: Hotel TOU → Uji 49min via JR Nara Line + walk"
+        "osrmMin": 23,
+        "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "{wtrEymc|XNR@FHJDNETCFkBXi@GY]eACCTy@vB@HVv@Jp@@f@?\\An@Ep@Ab@Ar@Ah@?X@J?BAb@CXCLGTy@|AGVCZ@|DAvBANEVGh@OxAEn@_@zCERM~@UdAc@fBUbAIb@Ef@Aj@?dA@bCCVKV{EDW?S?eBAiB@C?_CBm@?qA?U?Q?yB@C?w@?I@G?eB@gC@O?{@?oAAaAA]AuFIe@Aa@Aq@K{@KOCe@OSEc@S[QKMMYQw@Ka@K[MYKSMOEGYWQMSOOIOEUIc@GsBSIAiBSqCYgAKmBOo@Ea@@_@BQ@i@HYFw@Pu@Nw@RmATMBwCp@uCp@}A\\gB`@EBq@VEBo@\\YTUPk@l@q@`AyBtCe@p@mDdFcBvB_ChCeAfAUZW\\e@d@q@j@i@^m@^sB~@{At@[NYHiClAc@Pi@RqAXw@H_CCeA?YBs@Lg@P[P_@TyBvAu@d@QJGMISEUAY@WD[HYD[C_@KQKMSCK@uB^QBBh@Fh@JdAFn@Hp@XnCFj@f@lEPvABRBd@Dh@V~BFt@@\\?\\?\\A\\AXCXCXEVQt@Wp@ABQf@Sd@Qb@y@rBa@|@w@hBO^q@xA}@tBQb@k@lAu@vAa@`AQd@Sf@KPYv@yAfD}@jBcCrFELIPYr@IZIPy@lBENGPEPERCRUnBCTETGRGTIRIPMPIJONMJOFOFe@J_@VMJ[V]\\]^]f@ONc@^MPCF]l@{A|Cm@hAaBvCOXGLGNKZ_@fA_@rAuB`IeB|GiA|DwAxEy@`CcClGk@tAi@fAw@zAw@rAmAdBgAxAkAnAcAbAsB`B}@p@{AhAy@l@yBxA{AnAUNm@^y@b@a@To@Zu@\\e@R_@L[JuAd@sBh@uBz@aBj@cE~AcCbAiAd@u@\\aAb@a@PwAr@{Az@_@P}BlAmAr@g@`@{A~@}AfA[R_Ap@cAr@o@d@u@h@kAbAkAbAaA|@iB~AmAjAyArAqAnAsAnAoAfAwBlBoAbAcBlAgBrAsAx@}A~@aAj@}@d@u@`@e@RqAl@o@ZcE`BaAZ]Je@Jy@V}Ad@mCp@kCf@mATiARy@Ly@J{@JaCT}AJ{BJ}BHmBDcABaBB{ADcCFmBHeBLeBN}@H}@LoAPaAP}@PoAVmAZeAV_Bd@m@Py@VqAh@_Bn@s@ZwCnAwAl@sEnB{@Xs@Vo@NeAZw@R}@TaB\\oCd@u@LuAVaBRoAHaADgDDkBBkA?uD@iB?cBB}ABeADo@FqANaBVqATmA\\}@Z}@^qAl@gAp@kA|@uAjAoAjAoAtAy@hA{A|Be@|@q@nA}@pBuAjDo@nA}@vBo@~AyBvE_AhBe@v@u@pAk@`Am@~@_AnAc@h@_@XiBfB}AxAs@n@gAz@gAt@aBdAuAt@mAj@{@`@qAh@wBr@oA^aB\\yB`@cCXuCRoCNgBHsBD{DN{CR_E`@eBb@uCv@_Bh@{Br@m@Za@RsC~AyEtCwBtAiAx@gBxA_Af@aAd@iGjBw@ZaErAyBh@wBf@gB\\oDh@eBTcBRmCZ[?m@FuCT_A@aDBgDGoCMiBI}AIgJw@]@e@Cm@AI?{BAkA@yAHeBR{AXkCv@gDrAo@RwBt@e@Ni@Nu@Nm@Ho@Fg@Bq@@q@?y@Cs@G}@Ky@Ou@Ow@Se@Mg@Qk@Uk@W{E}BcAa@o@OkBw@wDyAgA]u@]m@]cA{@g@c@GEWMe@Sy@Wg@YWQ[Se@]ITyAzDkA|CSd@]`@WR]T_Ah@kC|A{IhFuElCcDlByCfBeAn@IBoAv@]PwCdB_B`Ae@V{Av@wBl@oB^wAXc@HuAVgB\\oB^]HiCd@mAJ_AA_IMo@AyCEqACoACqACm@tNQlDE~@[jFQnBa@pCi@vC{@xDE^AFARAfAB`G?B?nA?F?f@?n@qCGqBKiGOs@Cg@Cw@Go@Gi@Ig@Ic@Kg@Mg@Qi@Ug@Sc@Qa@SYOa@Yg@Wu@a@o@c@iBoB_BaBmBiByAsA_AgA}@eAu@cA{@aA_CaCm@w@sAqA}ByBmHiHsAuAmBoBsMoMwEuEo@i@y@q@eAo@eAi@iAc@mA_@u@Qu@MgAK_AGoCGeCAwHCio@g@yCCoII{JIaQMeHCyPM}IAoKImFGeFEyGGmEC_TM_HCoCCmLK_EGaEGmISiDKgc@wB}CKiFa@wDYwBKcCGkBCiAAiDCwAAqKKcHGc^s@qEKoDGOA_HMsDKsFQ_FMkEKyCGgDE_HGgJGmFCoCA{@AoBAoCMaAGuAKyBUy@IkH]u@CW?W?aARYC{Km@YAeBIwCSWAO?aACqAEcBKQ?mBIgACkBC}AA]?uBAo@AuDAsCIcBMaAKeAMGAc@A_@CE?wCGkAAyBCaB?o@?U?Q?G?s@Aw@A}@AIAg@?c@AwBCW?U?mACkACS?]?U?eAAk@AmAAcA?oAAqCEQ?cFBgD@E?S?i@HSBSD{ARgC^mDj@]DQBS@C@KGOCKAMAIG?yA?m@?}AAm@?qB?SAGMFo@?U?OAg@?I?i@?c@Ag@?k@?sA?K?Q?oE@I?qEBI?K?{EB?IAy@A}AEoCh@ABv@J?",
-        "durationMin": 72,
-        "distanceM": 41157,
+        "data": "{wtrEymc|XNR@FHJDNETCFkBXi@GY]eACCTy@vB@HVv@Jp@@f@?\\An@Ep@Ab@Ar@Ah@?X@J?BAb@CXCLGTy@|AGVCZ@|DAvBANEVGh@OxAEn@_@zCERM~@UdAc@fBUbAIb@Ef@Aj@?dA@bCCVKV{EDW?S?eBAiB@C?_CBm@?qA?U?Q?yB@C?w@?I@G?eB@gC@O?{@?oAAaAA]AuFIe@Aa@Aq@K{@KOCe@OSEc@S[QKMMYQw@Ka@K[MYKSMOEGYWQMSOOIOEUIc@GsBSIAiBSqCYgAKmBOo@Ea@@_@BQ@i@HYFw@Pu@Nw@RmATMBwCp@uCp@}A\\gB`@EBq@VEBo@\\YTUPk@l@q@`AyBtCe@p@mDdFcBvB_ChCeAfAUZW\\e@d@q@j@i@^m@^sB~@{At@[NYHiClAc@Pi@RqAXw@H_CCeA?YBs@Lg@P[P_@TyBvAu@d@QJGMISEUAY@WD[HYD[C_@KQKMSCK@uB^QBBh@Fh@JdAFn@Hp@XnCFj@f@lEPvABRBd@Dh@V~BFt@@\\?\\?\\A\\AXCXCXEVQt@Wp@ABQf@Sd@Qb@y@rBa@|@w@hBO^q@xA}@tBQb@k@lAu@vAa@`AQd@Sf@KPYv@yAfD}@jBcCrFELIPYr@IZIPy@lBENGPEPERCRUnBCTETGRGTIRIPMPIJONMJOFOFe@J_@VMJ[V]\\]^]f@ONc@^MPCF]l@{A|Cm@hAaBvCOXGLGNKZ_@fA_@rAuB`IeB|GiA|DwAxEy@`CcClGk@tAi@fAw@zAw@rAmAdBgAxAkAnAcAbAsB`B}@p@{AhAy@l@yBxA{AnAUNm@^y@b@a@To@Zu@\\e@R_@L[JuAd@sBh@uBz@aBj@cE~AcCbAiAd@u@\\aAb@a@PwAr@{Az@_@P}BlAmAr@g@`@{A~@}AfA[R_Ap@cAr@o@d@u@h@kAbAkAbAaA|@iB~AmAjAyArAqAnAsAnAoAfAwBlBoAbAcBlAgBrAsAx@}A~@aAj@}@d@u@`@e@RqAl@o@ZcE`BaAZ]Je@Jy@V}Ad@mCp@kCf@mATiARy@Ly@J{@JaCT}AJ{BJ}BHmBDcABaBB{ADcCFmBHeBLeBN}@H}@LoAPaAP}@PoAVmAZeAV_Bd@m@Py@VqAh@_Bn@s@ZwCnAwAl@sEnB{@Xs@Vo@NeAZw@R}@TaB\\oCd@u@LuAVaBRoAHaADgDDkBBkA?uD@iB?cBB}ABeADo@FqANaBVqATmA\\}@Z}@^qAl@gAp@kA|@uAjAoAjAoAtAy@hA{A|Be@|@q@nA}@pBuAjDo@nA}@vBo@~AyBvE_AhBe@v@u@pAk@`Am@~@_AnAc@h@_@XiBfB}AxAs@n@gAz@gAt@aBdAuAt@mAj@{@`@qAh@wBr@oA^aB\\yB`@cCXuCRoCNgBHsBD{DN{CR_E`@eBb@uCv@_Bh@{Br@m@Za@RsC~AyEtCwBtAiAx@gBxA_Af@aAd@iGjBw@ZaErAyBh@wBf@gB\\oDh@eBTcBRmCZ[?m@FuCT_A@aDBgDGoCMiBI}AIgJw@]@e@Cm@AI?{BAkA@yAHeBR{AXkCv@gDrAo@RwBt@e@Ni@Nu@Nm@Ho@Fg@Bq@@q@?y@Cs@G}@Ky@Ou@Ow@Se@Mg@Qk@Uk@W{E}BcAa@o@OkBw@wDyAgA]u@]m@]cA{@g@c@GEWMe@Sy@Wg@YWQ[Se@]ITyAzDkA|CSd@]`@WR]T_Ah@kC|A{IhFuElCcDlByCfBeAn@IBoAv@]PwCdB_B`Ae@V{Av@wBl@oB^wAXc@HuAVgB\\oB^]HiCd@mAJ_AA_IMo@AyCEqACoACqACm@tNQlDE~@[jFQnBa@pCi@vC{@xDE^AFARAfAB`G?B?nA?F?f@?n@qCGqBKiGOs@Cg@Cw@Go@Gi@Ig@Ic@Kg@Mg@Qi@Ug@Sc@Qa@SYOa@Yg@Wu@a@o@c@iBoB_BaBmBiByAsA_AgA}@eAu@cA{@aA_CaCm@w@sAqA}ByBmHiHsAuAmBoBsMoMwEuEo@i@y@q@eAo@eAi@iAc@mA_@u@Qu@MgAK_AGoCGeCAwHCio@g@yCCoII{JIaQMeHCyPM}IAoKImFGeFEyGGmEC_TM_HCoCCmLK_EGaEGmISiDKgc@wB}CKiFa@wDYwBKcCGkBCiAAiDCwAAqKKcHGc^s@qEKoDGOA_HMsDKsFQ_FMkEKyCGgDE_HGgJGmFCoCA{@AoBAoCMaAGuAKcEMuOy@oFa@mHYm@Ec@I]I_@OYQg@]_@]s@s@Y_@SWS]Uc@M_@Kc@Ie@Ge@Cg@Ag@@e@HsBHuAFcABaA@m@?i@Ck@Gk@Ki@Mg@Qg@Sa@S[Y]WW[Y[UeAy@aAw@mA{@m@c@kA{@_BgAkEyBSMSKYQSQOKOMKMKIGIOOIIIIGGGEGEGCICGAG?G@I@G@GBGDEDEDCFCFCHAHAHAH@J?HBJ@FDHDJHFFDHDHBLBJ@J?L?JALCJEJEFEHGDGDKBIBK@I?KAI?MCICGEKEG_@g@_BcAg@U]MOGk@QaBGI?_@ASAiBE_AE{CI[?QA}@C]?UAaAC]AY?q@Ao@CIAQ?gBEkBIkACm@AOu@[uAaA_EGWEUCWCWAUYoIAUe@aNG}AC]Ea@EYGOIUIMKQg@q@}@oAOSEGe@o@U]w@iAIKKQWWCAQMKEOGSCEAs@Gc@EOAa@EOAOAk@Go@EA?[CMAqBC}ACO?O?]AC?i@AG?q@CEAuAIOAQAOAmAKOAQAgAIu@EQ?qCM[AYA_AEQAOAgCK{CSG?WAOAa@CyAKmBM??UAMCGCYK{AeAg@a@qAy@SMWOe@_@m@g@A?EC]GKCa@GaAMi@IgAOKCcAOYEoAQWCu@ME?}@MMAOC??uAMQCoAMOAmBQSCB[?IFiAHkD@MOAyACABK?]?",
+        "durationMin": 85,
+        "distanceM": 43304,
         "mode": "subway",
-        "osrmMin": 51,
-        "corrected": true,
-        "formulaMin": 80,
-        "pinned": "Google Maps verified: Kasuga→Hotel TOU fastest 72min"
+        "osrmMin": 54,
+        "corrected": true
       }
     },
     {
@@ -97568,7 +97564,7 @@
           "id": "d10-6",
           "time": "06:45",
           "title": "Inari Station",
-          "description": "Sunrise mission — leave Hotel TOU ~06:30. JR Nara line two stops from Kyoto Station.",
+          "description": "Sunrise mission — leave 11 Yasaka ~06:30 (Gion-Shijo Keihan direct to Fushimi Inari ~7 min). JR Nara line two stops from Kyoto Station.",
           "category": "transit",
           "lat": 34.9669,
           "lng": 135.7714,
@@ -97780,18 +97776,18 @@
       ],
       "routeFromHotel": {
         "format": "polyline",
-        "data": "wmqtEw|q{XNAAw@D?|CEB?bA?|C?v@?l@?rB?L?RA`A?D?Z?L?R?T?P?L?f@?D?B?Z?fB?L??C?QA_B?c@?S@_B?_@?mC?eB?g@@GBM?C?]AqA?{@?GAG?GC]AQAG?C?C?CAE?G@iC?oBAe@@}@?wA?]?Y?}@@c@BS@M@UBw@FwA@]@o@DiA@Y@YB_ABw@@g@@MLsD?G@MJ?H?nAMrCWtAMjCW`AIlAGt@Cn@Ed@AP?L@\\Dt@LPBVBZA\\?^Db@Fx@Rd@JXDZDRBV@T@b@Al@Ej@ElBQp@Ep@En@Ax@Cv@?t@@~@Dp@Dp@H`@Fp@Jn@JfB`@^HrBXb@@b@@d@A^Aj@KRGn@UJEfAg@HEv@YVKTGLAL?l@AlB?~B?j@?F?B?h@?T?~@@l@?V?F?n@?xA?r@?pA?Z?^?v@@F?p@?V?p@?dA@N?N?bA?j@?l@@?K@i@@s@?E?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBi@PW@{@Di@?CyA",
-        "durationMin": 20,
-        "distanceM": 4408,
+        "data": "}|rtEohv{X\\?J?@CxABN@ALIjDGhA?HCZRBlBPN@nALPBtAL??NBL@|@LD?t@LVBnAPXDbANJBfANh@H`AL`@FJB\\FDB@?l@f@d@^VNRLpAx@f@`@zAdAXJFBLBT@??lBLxAJ`@BN@V@F?zCRfCJN@P@~@DX@Z@pCLP?t@DfAHP@N@lAJN@P@N@tAHD@p@BF?h@@B?\\@N?N?|ABpBBL@ZB@?n@Dj@FN@N@`@DN@b@Dr@FD@RBNFJDPLB@VVJPHJv@hAT\\d@n@DFNR|@nAf@p@JPHLHTFNDXD`@B\\F|Ad@`Nl@Ej@ElBQp@Ep@En@Ax@Cv@?t@@~@Dp@Dp@H`@Fp@Jn@JfB`@^HrBXb@@b@@d@A^Aj@KRGn@UJEfAg@HEv@YVKTGLAL?l@AlB?~B?j@?F?B?h@?T?~@@l@?V?F?n@?xA?r@?pA?Z?^?v@@F?p@?V?p@?dA@N?N?bA?j@?l@@?K@i@@s@?E?u@@aA?U?G@w@?G@m@p@A?E?c@???AB{ABGKECACAKCOBi@PW@{@Di@?CyA",
+        "durationMin": 21,
+        "distanceM": 4772,
         "mode": "subway",
-        "osrmMin": 9,
+        "osrmMin": 10,
         "corrected": true
       },
       "routeToHotel": {
         "format": "polyline",
-        "data": "}fttEclt{Xn@Cj@ANA|@CLAl@A|@EjBEN?bACl@Av@At@?d@Ad@?lAAJ?Z?J@HBH@HBJDPFh@R\\NxAl@`@PJDNFhDtAJDDB^NdC|@XJLFVHRF|@X~CbAJBZJnAb@~Af@f@N`AZDBVNh@X`@TB@jAr@|BrApB`AJDfAb@|@^ERk@pBCJc@dBALCPCLC~BCtCAxCCJEPA\\AvAAxACL\\?hA?V?AVAR?vB?L?nC?rA?J?f@?bA?~AF?lBAh@ABv@J?",
-        "durationMin": 29,
-        "distanceM": 2440,
+        "data": "iqttE{ut{X?cA?q@mBBC?K@?KOaDACAWASZBL?vD?Z?tFFP?L?|EJ\\@N?D?fABdADfAHb@B?M?S?eA?}@?[?UAkF?kB?]?a@@yCB}ADkA@QBo@j@Fz@HL@J?J?RGl@Qh@MBGBKf@qBn@sBl@E\\Cd@?`BIPAB?B?`AMBA`@EN?@EN?\\A",
+        "durationMin": 18,
+        "distanceM": 1513,
         "mode": "walk"
       }
     },
@@ -97953,7 +97949,7 @@
         "osrmMin": 50,
         "corrected": true,
         "formulaMin": 79,
-        "pinned": "Google Maps verified: fastest transit Hotel TOU→Shin-Osaka is 45min (via Shinkansen+walks)"
+        "pinned": "Google Maps verified: fastest transit 11 Yasaka→Shin-Osaka ~55min (via Shinkansen+walks)"
       },
       "routeToHotel": {
         "format": "polyline",
@@ -98661,9 +98657,9 @@
     },
     {
       "id": "c3",
-      "title": "Kyoto hotel · 4 nights (Nov 30 – Dec 3)",
-      "detail": "Gion or Kawaramachi side preferred.",
-      "priority": "asap"
+      "title": "✅ Kyoto hotel BOOKED · Apartment Hotel 11 Yasaka · 4 nights (Nov 30-Dec 4)",
+      "detail": "Booked via Booking.com. $589.19 total (~$147/night). Higashiyama location — 5 min walk to Yasaka Shrine, 14 min to Kiyomizu via Sannenzaka/Ninenzaka. Check-in from 4pm Nov 30, checkout by 10am Dec 4. Verify before arrival: daily housekeeping, higher-floor request (Higashi-oji road noise), private ensuite bath.",
+      "priority": "closer"
     },
     {
       "id": "c4",
@@ -98731,13 +98727,13 @@
     },
     {
       "id": "c15",
-      "title": "Yamato luggage forward · Yuen Shinjuku → Hotel TOU Kyoto (Nov 29)",
+      "title": "Yamato luggage forward · Yuen Shinjuku → 11 Yasaka Kyoto (Nov 29)",
       "detail": "Drop bags at Yuen Shinjuku front desk Nov 26 evening or Nov 27 AM (~3 PM Yamato cutoff). ~¥2-3K per bag. Skip carrying through Fuji entirely — bags meet you in Kyoto on Nov 30. Travel with small overnight bag for Fuji Excursion + ryokan nights.",
       "priority": "closer"
     },
     {
       "id": "c16",
-      "title": "Yamato luggage forward · Ubuya → Hotel TOU Kyoto (Nov 30)",
+      "title": "Yamato luggage forward · Ubuya → 11 Yasaka Kyoto (Nov 30)",
       "detail": "Drop at Ubuya front desk Nov 29 evening. Saves you wrangling bags through the bus + 2 shinkansen transfers Mishima → Kyoto. ~¥2-3K per bag.",
       "priority": "closer"
     },
@@ -100020,7 +100016,7 @@
     {
       "id": "wl-kyoto-nijo-jo",
       "title": "Nijō-jō Castle — Shogun's Kyoto residence",
-      "description": "Shogunal residence built 1603. Famous **nightingale floors** (squeaky wood engineered to prevent ninja assassination), painted gold-leaf screens by the Kanō school, and a strolling garden. ⭐ **5 min walk from Hotel TOU Nishinotoin.** Half-day visit. UNESCO World Heritage. ⚠️ Closed Tuesdays in Jul/Aug/Dec/Jan — verify Dec Tuesday closures. ¥1,300.",
+      "description": "Shogunal residence built 1603. Famous **nightingale floors** (squeaky wood engineered to prevent ninja assassination), painted gold-leaf screens by the Kanō school, and a strolling garden. ⚠️ ~25 min transit from 11 Yasaka (bus + walk); consider only if you want a Nijō-jō half-day. Half-day visit. UNESCO World Heritage. ⚠️ Closed Tuesdays in Jul/Aug/Dec/Jan — verify Dec Tuesday closures. ¥1,300.",
       "address": "541 Nijojocho, Nakagyo-ku, Kyoto",
       "category": "temple",
       "city": "Kyoto",
