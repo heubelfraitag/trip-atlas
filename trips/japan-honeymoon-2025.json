@@ -96,9 +96,10 @@
       "lng": 135.4974,
       "checkIn": "2026-12-04",
       "checkOut": "2026-12-06",
-      "booked": false,
-      "notes": "Shortlist.",
-      "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka 542-0085"
+      "booked": true,
+      "notes": "BOOKED via Chase Travel — Trip ID 1027237678, stay confirmation 2525139492. Primary guest MADISON R FRAITAG (Brian NOT listed — add him). Superior Double Room, non-smoking, standard floor, 1 queen bed. 2 nights, 2 guests. Check-in Fri Dec 4 3:00 PM, check-out Sun Dec 6 11:00 AM. $367.12 TOTAL, ALREADY PAID IN FULL (Visa ...1471) — room + tax covered by Chase Travel; present a personal card at check-in for incidentals only. FREE CANCELLATION until Dec 2 2026 11:59 PM Osaka time = 9:59 AM Dec 2 New York; after that 20% penalty; after Dec 3 11:59 PM it is 100%. ⚠️ EXTERIOR RENOVATION UNDERWAY — property warns of construction noise and odors and asks guests to keep windows and curtains closed; NO END DATE GIVEN, call +81 to confirm whether work is still live in Dec 2026. (The road-construction note in the terms ended Mar 2025 and is stale.) Breakfast NOT included: buffet approx ¥3,300/adult. Hosted evening meal ¥9,680. City tax due at property (¥100-10,000/pp/night by rate). CASH NOT ACCEPTED. Passport photocopy required at check-in for all guests (Japanese law).",
+      "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka 542-0085",
+      "confirmation": "2525139492"
     },
     {
       "id": "hotel-tokyo-end",
@@ -108,9 +109,10 @@
       "lng": 139.69126,
       "checkIn": "2026-12-06",
       "checkOut": "2026-12-09",
-      "booked": false,
-      "notes": "Cat 5 Hyatt — 20K points/night via Chase Sapphire Preferred transfer 1:1 (1.46 cpp). Airport Limousine Bus stop AT hotel entrance for Day 16 HND departure (¥1,400pp, ~50 min). Address: 2-7-2 Nishi-Shinjuku.",
-      "address": "2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023"
+      "booked": true,
+      "notes": "BOOKED with points — confirmation 40023B24084068, World of Hyatt member ...287P, guest Madison Fraitag. 60,000 World of Hyatt points (20,000/night x 3, Award Category 5) transferred 1:1 from Chase; Madison account now at 0 points. Rate type STANDARD ROOM FREE NIGHT. Check-in Sun Dec 6 2:00 PM, check-out Wed Dec 9 11:00 AM. Room: 1 King Bed, fully renovated, floors 10-16, 28sqm, SHOWER ONLY (no tub), max 2 guests, no extra bed. 2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023 · +81 3-3348-1234 · tokyo.regency@hyatt.com. ⚠️ RESERVATION SAYS ADULTS: 1 — there are TWO of you. Must be corrected: Tokyo accommodation tax is per person and Japanese law requires every guest registered with a passport photocopy. Modification is free. ⚠️ Brian is not on the booking. CANCELLATION: 11:59 PM hotel time 1 day before arrival (Dec 5) or pay 1 night fee — very flexible. Taxes at property: consumption 10%, service charge 15%, tax on svc chrg 1.5%, accommodation tax ¥200/pp/night. On a Free Night Award the percentage lines apply to a zero room rate so expect roughly ¥200/pp/night only — CONFIRM the 15% service charge with the hotel. Complimentary shuttle bus between Shinjuku Station and the hotel. Value check: cash rate was ¥43,904/night = $836.63 for 3 nights, so 60,000 points redeemed at 1.39 cpp — a good redemption, well above the Chase portal 1.25 cpp baseline.",
+      "address": "2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
+      "confirmation": "40023B24084068"
     }
   ],
   "intercityTransit": [
