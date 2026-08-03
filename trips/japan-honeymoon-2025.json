@@ -23,12 +23,13 @@
   },
   "airports": [
     {
-      "code": "HND",
-      "name": "Haneda Airport",
-      "lat": 35.5494,
-      "lng": 139.7798,
+      "code": "NRT",
+      "name": "Narita International Airport",
+      "lat": 35.7647,
+      "lng": 140.3864,
       "role": "arrival",
-      "datetime": "2026-11-24T16:30:00+09:00"
+      "datetime": "2026-11-24T16:30:00+09:00",
+      "flight": "AC9 (Air Canada) from Toronto YYZ · booking BMHKF6"
     },
     {
       "code": "HND",
@@ -36,7 +37,8 @@
       "lat": 35.5494,
       "lng": 139.7798,
       "role": "departure",
-      "datetime": "2026-12-09T11:30:00+09:00"
+      "datetime": "2026-12-09T11:35:00+09:00",
+      "flight": "NH110 (ANA) to New York JFK · booking BMHKF6"
     }
   ],
   "hotels": [
@@ -96212,12 +96214,13 @@
         {
           "id": "d1-1",
           "time": "16:30",
-          "title": "Narita Airport (NRT)",
+          "title": "Arrive Narita (NRT) 16:30 · AC9 from Toronto",
           "description": "Land at NRT Terminal 1 (or 2). Customs + baggage claim typically 30-60 min for international arrivals. After clearing, drop checked bags at the Yamato Transport (Kuroneko Takkyubin) counter in Arrivals — next-day delivery to Yuen Shinjuku at ~¥2,500-3,500/bag. Then proceed to the rail station beneath the terminal.",
           "category": "airport",
           "lat": 35.76479,
           "lng": 140.38583,
-          "address": "Narita International Airport Terminal 1, Narita, Chiba 282-0004"
+          "address": "Narita International Airport Terminal 1, Narita, Chiba 282-0004",
+          "notes": "ARRIVAL 16:30 LOCAL on AC9 (Air Canada) from Toronto YYZ. Booking reference BMHKF6, seats Madison 60A / Brian 60C, economy. undefined ⚠️ Landing at 16:30 means you reach Yuen Shinjuku around 19:00-19:30 — Nov 24 is an EVENING ONLY. No daytime activities."
         },
         {
           "id": "d1-1c",
@@ -98623,11 +98626,12 @@
         {
           "id": "d16-2b",
           "time": "11:30",
-          "title": "Departure flight",
+          "title": "Departure flight · NH110 (ANA) HND → JFK, 11:35",
           "description": "Update with actual flight number + time once booked.",
           "category": "airport",
           "lat": 35.5494,
-          "lng": 139.7798
+          "lng": 139.7798,
+          "notes": "ANA NH110, Haneda Terminal 3 → New York JFK. Departs 11:35, arrives JFK 10:30 the SAME DAY. Air Canada booking reference BMHKF6. Seats: Madison 39H, Brian 39K. Be at HND by 09:35 (2 hours before international departure) — with the ~50 min Limousine Bus that means boarding by ~08:30 and the 07:30 hotel checkout already in this plan. ⚠️ You depart from LGA on Nov 23 but RETURN TO JFK — arrange the ride home accordingly."
         }
       ]
     }
@@ -98638,6 +98642,12 @@
       "title": "Yamato luggage forward · NRT → Yuen Shinjuku (Nov 24)",
       "detail": "Drop checked bags at the Yamato Transport (Kuroneko Takkyubin) counter in NRT Arrivals after customs. Next-day delivery to Yuen Shinjuku (Nov 25 evening). ~¥2,500-3,500 per large bag. Carry only an overnight bag with PJs, toiletries, change of clothes for Night 1.",
       "priority": "closer"
+    },
+    {
+      "id": "c0",
+      "title": "✅ FLIGHTS BOOKED · Air Canada BMHKF6 (rebooked by the airline)",
+      "detail": "OUTBOUND Mon Nov 23: AC701 LGA 06:00 -> Toronto YYZ 07:42, then AC9 YYZ 12:35 -> Narita NRT 16:30 Tue Nov 24. Seats 15A/15C then 60A/60C, economy. RETURN Wed Dec 9: NH110 (ANA) HND 11:35 -> JFK 10:30 same day, seats 39H/39K. 🚨 THE AIRLINE REBOOKED YOU on Jun 30 2026: departure moved from JFK 09:45 to LAGUARDIA 06:00, flight AC8553 -> AC701. Be at LGA 04:30, leave home ~03:30 — pre-book a car, this is before normal service hours. ✅ Upside: the Toronto connection went from a risky 70 min to a comfortable 4h53m. ⚠️ YOU DEPART LGA BUT RETURN TO JFK — do not leave a car at LaGuardia. ⚠️ Trip actually starts Nov 23, a day before the Nov 24 itinerary date. Manage: aircanada.com/self-reacc/reacc?lang=en&orderId=BMHKF6&lastName=Fraitag · Aeroplan 1-800-361-5373.",
+      "priority": "asap"
     },
     {
       "id": "c1",
