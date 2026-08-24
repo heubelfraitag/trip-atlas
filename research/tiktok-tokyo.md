@@ -173,3 +173,38 @@ floor, not a real estimate — add 25-50%.
 STATUS: remaining map slides show geographic pin clusters with scores but no
 place-name labels attached — not efficiently recoverable without clicking
 each pin individually. Diminishing returns; stopped here.
+
+## VERIFICATION FOLLOW-UPS (via web search, not TikTok)
+
+### ✅ "Prettiest bar in Kyoto" (K5) — CONFIRMED: Kohaku, Park Hyatt Kyoto
+Exact match, no ambiguity left. Web search confirms:
+ 📍 Bar Kohaku, Park Hyatt Kyoto, Higashiyama (adjacent to Yasaka) —
+    "dramatic views of Yasaka Pagoda through expansive floor-to-ceiling
+    windows... dark woods and leather textures"
+ 🍸 Menu matches the TikTok frames exactly: **Kohaku Gin & Tonic** (KI NO BI
+    Blue Dragon, tonic, hinoki aroma water), **Pagoda Martini** (KI NO BI Blue
+    Dragon, manzanilla, shiso, agarwood aroma water)
+ 💴 Cocktails ¥2,000 (¥2,200) + 15% service charge
+ 🕐 Open 4pm–midnight; last food order 11pm; last drink order 11:30pm
+ 👔 Dress code: no sleeveless athletic tops; closed-toe shoes requested
+ → Walking distance from Apartment Hotel 11 Yasaka (Higashiyama). A real,
+   bookable, well-documented option for their Kyoto stay Nov 30–Dec 4.
+
+### ✅ "Dansan" in Golden Gai — CONFIRMED REAL, just poorly indexed on Google Maps
+The two commenters who couldn't find it on Maps were right that it doesn't
+surface easily by name search there — but it's genuinely real:
+ - TripAdvisor listing exists (open 3:00pm–10:00pm)
+ - Tokyo Weekender wrote it up in 2019: "squeeze into Dansan for some lively
+   chat amongst Japanese rugby-themed decor"
+ - Confirmed via the ORIGINAL creator's own Instagram caption for this exact
+   post (Mr.Tokyo/@mr.tokyo.adventures), which — unlike the TikTok version —
+   spells the name out in text: "Second, Dansan. I've honestly never seen
+   tourists here. It's super local with really good [drinks, cut off]."
+ 📍 **1-1-9 Kabukicho, Shinjuku-ku, Tokyo 160-0021**
+ 🕐 **Open 3:00 PM – 10:00 PM** — NOTABLY EARLIER closing than typical Golden
+    Gai bars (most run well past midnight). If planning around this, go
+    earlier in the evening, not as a late-night stop.
+ ⚠️ There is also an unrelated "Dan San" izakaya in Shinjuku-Sanchome
+    (Tabelog, 3.1★, 334m from Shinjuku-Sanchome Station) — different area,
+    different venue, do not confuse the two. The Golden Gai one is in
+    Kabukicho.
