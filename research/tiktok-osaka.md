@@ -271,3 +271,51 @@ text extraction. BUT the comments carry real signal:
 
 === OSAKA COLLECTION: 15/21 core videos extracted + grid sweep of remaining 6 ===
 (6 unopened were confirmed MOOT hotel-review videos, already logged above)
+
+## O20 (opened directly). @vic_whitehouse (Victoria) · 05-13 · **29.2K likes / 17.3K saves** / 47 comments
+### DEDICATED KATSUO-JI VIDEO — this is where the consensus actually originates
+"this needs to be on everyone's bucketlist 🥹" #katsuojitemple
+🚨 PRACTICAL DETAIL (24 likes, creator reply): "**The temple opens at 8! But
+   the first bus from the main station doesn't go until 9**" — a real
+   scheduling trap: you cannot actually be there at opening via public
+   transit; plan around the 9am first bus, not the 8am gate time.
+💬 (114 likes) "My postcard🥰" — refers to Katsuo-ji's collectible
+   temple stamps/goshuin culture.
+💬 (1 like, @BrettL): "I was there in May and the stamps were different. We
+   hired a car and did a bit of a road trip from Kyoto." — implies (a) the
+   stamps/decorations rotate seasonally, worth checking Nov/Dec specifically,
+   and (b) car rental from Kyoto is a viable alternate route vs bus from Osaka.
+💬 (99 likes) "Just visited there, stunning place to explore" — creator:
+   "It's so beautiful right?!"
+💬 UNANSWERED (@Jilly_Lyn): asks whether Katsuo-ji fits on a half-day
+   alongside Osaka Castle from Namba — question went unanswered in the thread,
+   but signals others are trying the exact same fold-in they'd need to do.
+
+## O21 (opened directly). @lital.cohen7 · 05-09 · **118.9K likes / 20K saves** / 179 comments
+### SECOND DEDICATED KATSUO-JI VIDEO — even higher engagement than Victoria's
+#japan #osaka #temple #Katsuoji #viral
+
+🆕 REVEALS THE ACTUAL ACTIVITY: Katsuo-ji runs a **numbered ink-stamp
+   "checkpoint" system on a postcard** — you collect stamps at different
+   numbered spots around the complex (almost certainly at the daruma statues
+   themselves, given the temple's "stacked daruma dolls" reputation from O10).
+   (5,338 likes, @tygrenierart): "Such a cool idea to use as a checkpoint
+   system." Creator: "That's what I thought!"
+   (744 likes, @joshuahamilton501): "I see that they are numbered, but if
+   it's ink does the order matter?" Creator (434 likes): "I don't think the
+   order matters, because each ink has its own spot on the postcard, so they
+   don't overlap much."
+   → GENUINELY GOOD COUPLES ACTIVITY: a self-paced stamp rally through the
+     complex, souvenir postcard at the end. Fits the "fun, interactive"
+     energy they've liked elsewhere on this trip (hanafuda cards, kintsugi).
+💬 (124 likes) tangential comparison to a similar stamp system at the Gundam
+   base's unicorn statue — not relevant to them.
+
+### 🔴🔴🔴 KATSUO-JI FINAL TALLY: 8 mentions/reactions across 5 independent
+   creators (O10, O14 x2, O20, O21), with the two dedicated videos alone
+   totaling 148K likes / 37.3K saves combined. This is unambiguously the
+   single most-validated place discovered anywhere in the 65-video research
+   pass — Tokyo included. Practical notes assembled from both videos:
+   temple opens 8am, first public bus from the main station leaves 9am;
+   stamp/decoration details reportedly vary by month; paired with Minoh
+   Falls as a nature day trip; car rental from Kyoto is a viable alt route.
