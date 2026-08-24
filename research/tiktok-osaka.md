@@ -73,7 +73,23 @@ No text overlays → 🎧 TIER 3, NEEDS WATCHING.
        prepared with precision and care, flavour incredibly smooth and balanced"
  3rd 📍 **Grenier Patisserie** — "expect a huge crunch, the pastry is incredibly
        buttery and flaky, while the custard is rich and perfect"
- 2nd + 1st: NOT IN CAPTION → 🎧 needs watching for the top two
+ 2nd 📍 **Tokito** — "best steak sandwich I've ever had, recommend adding egg
+       and jalapeños (game changing). Small, totally worth the wait, NO
+       RESERVATIONS here!"
+ 1st 📍 **Kitan Hibiki** — "incredible wagyu burger, the hospitality and
+       atmosphere is like nothing else, definitely recommend BOOKING BEFORE
+       YOUR TRIP!"
+
+### ⭐ FULL LIST NOW COMPLETE — 119K likes / 78.3K saves (huge engagement)
+🔴 DISSENT (169 likes, @Mike Wang): "All tourist traps 😂" — meaningful
+   pushback given the list's viral reach.
+💬 (84 likes, Trip Pocket — the SAME high-signal creator behind O5's shopping
+   guide, commenting here): "i feel like in Japan if you go to any place, the
+   food is good 😁 my plan is to support locals and elderlies" — more measured
+   middle ground: quality is broadly high in Japan, viral status isn't
+   disqualifying, but seek out local/elderly-run spots preferentially.
+💬 Creator confirms Tokito has NO RESERVATIONS (expect a wait) while Kitan
+   Hibiki SHOULD be booked ahead — opposite logistics for adjacent-ranked spots.
 
 ## O5. @trippocket.app · 07-31 · 798 likes / **1,253 saves** ⭐ BEST OSAKA VIDEO SO FAR
 ✅ TIER 1 — "Where to go shopping in Osaka?" — 7 AREAS, all named:

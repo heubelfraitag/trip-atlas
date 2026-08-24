@@ -101,3 +101,82 @@ Comment (625 likes): "mizu to Gohan kudasai" = water and rice, please.
 ## STILL TO EXTRACT (4)
 @Jess Travel&Lo (kanazawa guide) · Explore Japan w/ (ticket prices) ·
 @hiro_no_tabi (where to stay in Kyoto) · @hellojinandtonic ($55 Kyoto room)
+
+## FOLLOW-UP: @naoya_kyototour — real Kyoto tour guide's verdicts (frame-recovered)
+1,158 likes / 1,213 saves. Subtitles ARE on-screen (karaoke-style), recoverable
+with more patient frame sampling than I initially gave it:
+
+📍 **Kinkaku-ji (Golden Pavilion)**: "You only need 10 min" — quick photo
+   stop verdict, not a lengthy visit. Consistent with his thumbnail framing
+   ("It's okay") noted earlier.
+📍 **Kodai-Ji Temple** 🆕 — "Unique temple but you can't go inside — it's known
+   as **love temple**." (Built by Toyotomi Hideyoshi's wife in his memory —
+   hence the romantic association; part of the grounds is view-only.)
+   LOCATION: Higashiyama, near Kiyomizu-dera/Yasaka Shrine — i.e. very close
+   to their 11 Yasaka hotel.
+
+### Comments — live Q&A with a real local guide, worth mining directly
+(@mal): "Hi what about Ruriko-in temple?" — unanswered
+(7 likes, @John Lee): "How about Fushimi Momoyama Castle?"
+   Creator: "In my opinion not necessary to visit but if you visit Fushimi
+   for sake tasting, it's good to visit the castle as well!"
+(@virisatan): "What about Ginkaku-ji?" Creator: "I like the place!" (terse
+   positive)
+(1 like, @Backcountry Japan MTB): pushes back on the Kinkaku-ji "10 min"
+   framing — "Come on Kinkakuji is amazing and unique" — a live dissent from
+   a mountain-biking account, for what it's worth.
+
+VERDICT: this creator is a genuine working Kyoto guide actively replying to
+comments — worth following/DMing directly if they want real-time local advice
+before the trip, per his own invitation to one commenter ("Could you dm me?").
+
+## FOLLOW-UP: @sunnyinkyoto_32 — TripAdvisor Top 10 rated by a Kyoto tourism
+## insider (13.2K likes / 7,612 saves / 62 comments)
+"As someone who's involved in Kyoto tourism I wanted to share my own personal
+opinion... Take them with a pinch of salt." Format: TripAdvisor card (rating,
+review count, description) + her live reaction. Sampled 3 of ~10 spots:
+
+📍 **#1 Fushimi Inari-taisha Shrine** (TA 4.6, 25,222 reviews) — her opener:
+   "because everyone loves red torii" — slightly backhanded framing, tone
+   suggests it's popular more than personally special to her (verdict cut off
+   before full opinion captured).
+📍 **#3 Kiyomizu-dera Temple** (TA 4.4, 11,855 reviews) — "As a sightseeing
+   spot... hmmmmm..." — visibly hedging/lukewarm, no firm verdict captured.
+📍 **#5 Arashiyama** (TA 4.4, 6,891 reviews) — opens with "what time of the
+   year you will visit there [matters]" — implies her opinion is heavily
+   season-dependent (i.e. crowd levels). Their visit is Dec 3, past peak
+   autumn foliage and well past cherry blossom/summer crowds — likely lands
+   on the favorable side of whatever she says next (not captured).
+(#9 Nijo Castle noted earlier: TA 4.3, 7,209 reviews, admission from $40)
+⚠️ 6 of 10 spots and most full verdicts remain uncaptured — this would need
+   ~15-20 more frame-sampling calls for full completion. Diminishing returns
+   given what the comments already surfaced independently (below).
+
+### 🔴🔴 COMMENTS SURFACE THE BEST NEW FIND: SANJŪSANGENDŌ TEMPLE
+(84 likes, @jeffszarzipottery): "Sanjūsangendō Temple gave me goose bumps
+   when I rounded the corner and saw the Buddhas."
+(@GuerinoDM): "Sanjusangendo was the highlight of all of our Kyoto visits
+   (3 so far!)"
+(86 likes, @Cupcakecarnivore): "Glad to hear about Sanjusangendo temple. My
+   hotel is right beside it and it's the one I'm most excited for."
+→ 🆕 Sanjūsangendō = 1,001 life-sized Kannon statues in a single long wooden
+  hall, genuinely one of Kyoto's most visually stunning and LESS TOURISTY
+  sights (33 wooden bays houses the statues — hence "33" = "sanjūsan" in the
+  name). Strong independent enthusiasm across 3 separate commenters, none of
+  whom saw each other's comments. Worth serious consideration — not currently
+  anywhere in their itinerary.
+
+### Other comment intel
+(9 likes, @trixiekeiy): "I hardly see any TikTok on the Imperial gardens. I
+   went to 3 when I was in Kyoto in early June. **They're free to visit
+   except for Katsura.**" — 🆕 Kyoto's Imperial gardens/villas (Sento Gosho,
+   Shugakuin, Katsura) are an under-covered, mostly-free category.
+(86 likes comment thread): confirms visiting **Fushimi Inari in the evening**
+   to avoid crowds — matches their own Fushimi Inari plan being reachable by
+   direct 7-min train from Gion-Shijo per the 11 Yasaka notes; evening timing
+   is the actionable addition.
+(181 likes, @David, dry joke): "So what you're saying is don't even go to
+   Kyoto" — creator's hedging tone reads as backhanded to multiple viewers,
+   not just this analysis.
+(21 likes, @zf here): "I mean, tourists go to tourist places... nothing
+   wrong with it" — pushback against the whole "avoid tourist traps" genre.

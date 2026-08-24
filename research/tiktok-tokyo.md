@@ -110,3 +110,66 @@ Kawagoe) · **Okutama** (forest hikes) · **Jindaiji** (58.4K saves but 1hr out)
   → one CLOSED before the Nov trip. Also DISSENT on Pizza Bar on 38th:
   "extremely overrated… almost $200 for a couple tiny slices, when **PST,
   Savoy, Seirinkan** exist."
+
+## FOLLOW-UP: @sightseeker6 "3 Days in Tokyo" — full carousel + comments (was tier-3, now complete)
+2,992 likes / 5,388 saves. Full 3-day skeleton, times + walk durations:
+
+**Day 1 | Traditional Tokyo & Modern Culture**
+ Senso-ji Temple (1-1.5h, free) →20min walk→ Ueno Park (1-2h, free)
+ →15min walk→ Akihabara (2h, free/shopping extra)
+
+**Day 2 | Tokyo Shopping & [Modern Culture, cut off]**
+ Ginza →35min walk→ Omotesando →10min walk→ Harajuku [+ more, not captured]
+
+**Day 3 | Parks, Culture & Nightlife**
+ Meiji Shrine (1h, free) →25min walk→ Shinjuku Gyoen National Garden
+ (1-1.5h, $3) →10min walk→ Shinjuku (2h, free)
+
+### ⭐⭐ CRITICAL COMMENT — independently validates a structural issue already
+### flagged in THEIR OWN itinerary
+(10 likes, @Andrew Dinsmoor): "The walk between Senso-ji and Ueno Park is
+about 35 minutes, I know because I've done it [longer than the 20 min the
+graphic claims]. Also **why would you go to the Meiji Shrine the next day
+when it's literally on the other side of Harajuku station**. I mean it would
+also make more sense to do Ginza on Day one with Akihabara and Ueno."
+→ THIS IS THE EXACT SAME CRITIQUE from the earlier consensus write-up:
+  @tokyodaybook independently argued Meiji Jingu → Harajuku → Shibuya should
+  be one connected day. Here, a completely different commenter, reacting to a
+  completely different creator's itinerary, arrives at the identical
+  complaint: don't split Meiji Shrine from Harajuku onto different days.
+  TWO INDEPENDENT SOURCES now agree on this exact sequencing problem, and
+  their itinerary currently has this exact split (Meiji Jingu Day 4 8:30am,
+  Harajuku Day 15).
+
+### Other comments — additional walking-time corroboration
+(24 likes, @Nadia): "A 40 minute walk is diabolical 💀" — re: the Ginza→
+  Omotesando 35-min claim, confirms Dustin Ware's original complaint that this
+  transition is underestimated in these graphics generally.
+(0 likes, @Dustin Ware — same commenter I noted earlier): the original "way
+  more than 35 min" complaint, now cross-confirmed by Nadia independently.
+(@🪻felicia): "2 hours is definitely not enough for akihabara, id say 5 hours
+  if ur into shopping" — useful if they ever add an Akihabara stop.
+(@Moti): "I'll walk because only looking for the train for 2 stops will make
+  me walk 40mns+" — general skepticism about these graphics' walk-time math.
+
+VERDICT: this creator's walking-time estimates run consistently short across
+multiple independent commenters. Treat any TikTok-graphic walk time as a
+floor, not a real estimate — add 25-50%.
+
+## FOLLOW-UP: @allegrasbeli "I'll never get over these spots in Tokyo" — carousel opened
+635 likes / 801 saves. "I've ranked 1604 spots on Beli" (a restaurant-rating app).
+🆕 **JAMBO HANARE — 10/10 on her Beli.** ⭐⭐ CROSS-VALIDATED: this is the SAME
+   restaurant that topped @tans.pantry's "you're already too late for one of
+   these" list (the video warning one of five spots was closing). This later
+   video (Jul 2) still rates it 10/10, meaning Jambo Hanare is almost
+   certainly NOT the one that closed — good news if it was on the fence.
+   Dishes shown: beef rice, Chateaubriand, wagyu sukiyaki, "fillet cut in
+   bowl." Comment: "my recs: EVERYTHING."
+💬 (comment) "Cant believe Ushigoro got 9.8…" — 🆕 **Ushigoro**, another
+   yakiniku/beef spot, scored just under Jambo Hanare.
+   ⚠️ Note: Ushigoro is also a fairly common Osaka Korean-BBQ chain name — if
+   pursuing, confirm which city/branch this comment refers to before assuming
+   Tokyo.
+STATUS: remaining map slides show geographic pin clusters with scores but no
+place-name labels attached — not efficiently recoverable without clicking
+each pin individually. Diminishing returns; stopped here.
