@@ -19,7 +19,8 @@
     "accents": {
       "primary": "#b5391f",
       "secondary": "#a07a3a"
-    }
+    },
+    "privateConfirmationsUrl": "https://claude.ai/artifact/TUcd1Ei7jJicxpKJDMa788"
   },
   "airports": [
     {
@@ -29,7 +30,7 @@
       "lng": 140.3864,
       "role": "arrival",
       "datetime": "2026-11-24T16:30:00+09:00",
-      "flight": "AC9 (Air Canada) from Toronto YYZ · booking BMHKF6"
+      "flight": "AC9 (Air Canada) from Toronto YYZ · booking [private page]"
     },
     {
       "code": "HND",
@@ -38,7 +39,7 @@
       "lng": 139.7798,
       "role": "departure",
       "datetime": "2026-12-09T11:35:00+09:00",
-      "flight": "NH110 (ANA) to New York JFK · booking BMHKF6"
+      "flight": "NH110 (ANA) to New York JFK · booking [private page]"
     }
   ],
   "hotels": [
@@ -51,8 +52,29 @@
       "checkIn": "2026-11-24",
       "checkOut": "2026-11-27",
       "booked": true,
-      "notes": "✅ BOOKED via Chase Travel — Trip ID 1020343615, Stay conf 2507657067. Primary guest: MADISON R FRAITAG (booked from mfraitag13@gmail.com). Small Double, Non-Smoking, 1 double bed. 3 nights, US$769.96 (incl $5.58 resort fee), Visa ••••1471. Free cancellation until Sun Nov 22 2026 11:59 PM property time. 🚨 DUPLICATE BOOKING RISK: an earlier 2-night reservation (Trip 1020342951 / conf 2507647166, Nov 24-26, $518.06) was made 16 min before this one and NO cancellation confirmation exists in either inbox — verify it is cancelled in Chase Travel My Trips. ⚠️ BREAKFAST IS NOT INCLUDED — Japanese breakfast is ~¥4,000/adult extra at the property (earlier note saying included was wrong). Pay at property: city tax ¥150/person/night + resort fee. Rooftop onsen open 3:00 PM–2:00 AM. ⚠️ Property may restrict tattooed guests from the public bath. Min check-in age 18. No dietary-restriction accommodation (incl. gluten-free).",
-      "address": "5-3-18 Shinjuku, Shinjuku Ward, Tokyo 160-0022"
+      "notes": "✅ BOOKED via Chase Travel — Trip ID [private page], Stay conf [private page]. Primary guest: Madison (booked from [email]). Small Double, Non-Smoking, 1 double bed. 3 nights, US$769.96 (incl $5.58 resort fee), Visa ••••••••. Free cancellation until Sun Nov 22 2026 11:59 PM property time. 🚨 DUPLICATE BOOKING RISK: an earlier 2-night reservation (Trip [private page] / conf [private page], Nov 24-26, $518.06) was made 16 min before this one and NO cancellation confirmation exists in either inbox — verify it is cancelled in Chase Travel My Trips. ⚠️ BREAKFAST IS NOT INCLUDED — Japanese breakfast is ~¥4,000/adult extra at the property (earlier note saying included was wrong). Pay at property: city tax ¥150/person/night + resort fee. Rooftop onsen open 3:00 PM–2:00 AM. ⚠️ Property may restrict tattooed guests from the public bath. Min check-in age 18. No dietary-restriction accommodation (incl. gluten-free).",
+      "address": "5-3-18 Shinjuku, Shinjuku Ward, Tokyo 160-0022",
+      "stay": {
+        "platform": "Chase Travel",
+        "city": "Tokyo · Shinjuku",
+        "addressJa": "〒160-0022 東京都新宿区新宿5-3-18",
+        "checkInTime": "15:00 (no after-hours check-in)",
+        "checkOutTime": "11:00",
+        "payment": "$769.96 paid by Chase Travel (room + tax).",
+        "paid": true,
+        "cancelBy": "Free until Sun Nov 22, 11:59 PM Tokyo = Sun Nov 22, 9:59 AM ET",
+        "meals": "None included. Japanese breakfast ~¥4,000/adult if you want it.",
+        "qrPayload": "https://www.google.com/maps/search/?api=1&query=5-3-18+Shinjuku+Tokyo+160-0022+JP",
+        "qrLabel": "Maps · show a taxi driver",
+        "warnings": [
+          "Front desk greets on arrival — no after-hours check-in. You land NRT 16:30.",
+          "A SECOND 2-night booking (conf [private page], Nov 24-26) was also created. Verify it is cancelled.",
+          "Onsen open 15:00-02:00. Tattoos may be restricted in the public bath.",
+          "City tax ¥150/person/night due at the property.",
+          "Passport photocopy required at check-in (Japanese law).",
+          "Your name may not reach the hotel until 48 hrs before arrival."
+        ]
+      }
     },
     {
       "id": "hotel-fuji-1",
@@ -64,7 +86,35 @@
       "checkOut": "2026-11-29",
       "booked": false,
       "notes": "🛟 BACKUP HELD: Lakeland Hotel Mizunosato is booked for these exact nights (Nov 27-29) as insurance — see checklist item c1c. Ubuya remains the preferred stay if it opens up; cancel Mizunosato free by Nov 21 if it does. ❌ NOT BOOKED. Ubuya replied Jul 13 2026 (from dot0628@ubuya.co.jp, staff: YOKOYAMA): \"Please book directly through the official UBUYA website. We do not accept reservations made via travel agencies.\" ⚠️ BUT the official site shows Nov 27/28/29 SOLD OUT — only Nov 4, 6 and 30 have inventory in the whole month. So direct booking is currently impossible for our dates. NOTE: info@ubuya.co.jp BOUNCES (550 address not found) — the working address is dot0628@ubuya.co.jp. TEL 0555-72-1145. Options: (a) watch for cancellations on the official site, (b) JAPANiCAN/klook agency allotment ~$418/night still shows availability — but Ubuya explicitly discourages agency bookings, so confirm they would honor it before relying on this, (c) pick a different Kawaguchiko ryokan for Nov 27-29. Lakefront ryokan on Ubuyazaki cape, 2 nights planned before FUFU. 🆕 RAKUTEN TRAVEL CHECK (Aug 2 2026): Ubuya IS listed on Rakuten Travel Japan (hotel ID 8053, travel.rakuten.co.jp/HOTEL/8053/8053.html) with full inventory — 6 room types, 3 meal plans. This undercuts their \"we do not accept travel agency reservations\" email: they distribute through Rakuten, JAPANiCAN and Booking.com. That reply was most likely a form brush-off, not policy. 🚨 CRITICAL: every private-bath room on Rakuten is labelled 露天風呂付 … ※温泉ではございません = \"open-air bath, NOT hot spring water.\" Ubuya private baths are heated tap water; only the large public bath (大浴場) is real onsen. So \"private onsen room at Ubuya\" does not exist — FUFU (already booked) is where the genuine in-suite onsen is. ⚠️ All Rakuten plans state 「このプランは1泊限定」 = ONE NIGHT ONLY — a 2-night Nov 27-29 stay may not be bookable as a single reservation. ⚠️ Rakuten cancellation terms show 100% of accommodation fee up to check-in — far harsher than the OTAs. 💴 Rakuten indicative pricing per person incl. tax + 2 meals (buffet plan): 46㎡ Japanese room, no private bath ¥36,300-42,900 · 59㎡ Standard w/ open-air bath ¥50,600-57,200 · 71㎡ Superior ¥53,900-60,500 · 90㎡ Deluxe ¥57,200-63,800 · 98㎡ Special ¥60,500-67,100. For 2 people the private-bath Standard is ~¥101,000-114,000/night (~$680-770) vs the ~$418/night JAPANiCAN rate, which is clearly the no-private-bath 46㎡ room. NOT YET CONFIRMED: actual Nov 27-29 availability on Rakuten (booking flow needs a logged-in session).",
-      "address": "10 Azagawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0303"
+      "address": "10 Azagawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0303",
+      "stay": {
+        "platform": "Booking.com",
+        "city": "Kawaguchiko · Fuji",
+        "addressJa": "〒401-0302 山梨県富士河口湖町小立1070",
+        "phone": "+81 555-72-1831",
+        "email": "info@mizunosato.jp",
+        "checkInTime": "15:00-19:30 (strictly not before 15:00)",
+        "checkOutTime": "before 10:00 — strict",
+        "payment": "¥127,500 · TOTAL PAID ¥0 — Booking.com auto-charges. Property invoice shows ¥137,500; Booking.com covers ¥10,000.",
+        "paid": false,
+        "cancelBy": "⚠️ Free until Nov 21, 11:59 PM JST = SAT NOV 21, 9:59 AM ET. After that: full ¥137,500.",
+        "meals": "Breakfast AND dinner included. Dinner is buffet or multi-course, hotel's choice.",
+        "qrPayload": "https://www.google.com/maps/search/?api=1&query=1070+Kodachi+Fujikawaguchiko+Yamanashi+401-0302",
+        "qrLabel": "Maps · show a taxi driver",
+        "warnings": [
+          "This is a TWIN room — two separate beds. No bed request on file. Email them.",
+          "No honeymoon note on the reservation. Email them.",
+          "Station shuttle needs ADVANCE RESERVATION (14:30-19:30 per the confirmation; a separate hotel email said 14:45-20:00, call on arrival). Reserve it.",
+          "Itinerary reaches Kawaguchiko 12:30 — before the shuttle window. Fill 12:30-14:30 with the cape walk + lunch.",
+          "Must be checked in by 19:00 or they will not prepare dinner.",
+          "Few places to eat nearby — do not plan to wander out.",
+          "Morning shuttle to the station: 8:30 / 9:00 / 9:30 / 10:00.",
+          "Hot spring tax ¥600 (¥150/person/night) paid at the property."
+        ],
+        "propertyName": "Lakeland Hotel Mizunosato",
+        "alternateNote": "Still trying for Kozantei Ubuya until Sat Nov 21 — Ubuya is NOT booked. Rep YOKOYAMA · +81 555-72-1145 · dot0628@ubuya.co.jp",
+        "addressEn": "1070 Kodachi, Fujikawaguchiko-machi, Minamitsuru District, Yamanashi 401-0302"
+      }
     },
     {
       "id": "hotel-fuji-2",
@@ -75,8 +125,29 @@
       "checkIn": "2026-11-29",
       "checkOut": "2026-11-30",
       "booked": true,
-      "notes": "✅ BOOKED + PAID via Agoda (Booking ID 1021910758, booked Jun 30 2026). Lead guest: Brian Heubel. Room: Konohana Comfort Suite, 2 adults, 1 night. ✅ BENEFITS: **Breakfast + DINNER included** (kaiseki IS in the rate — no add-on needed) + free WiFi. Special request already submitted: \"I would like a large bed\" (subject to availability). Total USD 1,264.48 charged to card ••••1471. Pay at property on arrival: ~USD 2.18 (taxes 0.32 + bathing tax 1.86). ⚠️ FREE CANCELLATION ENDS Sept 30, 2026 12:00AM Fujikawaguchiko time — non-refundable after that. Property direct: +81-555-73-9573 / reservation1@fufukawaguchiko.jp. Check-in after 3:00 PM, check-out before 11:00 AM. All-suite property, private outdoor onsen per room, Mt Fuji views.",
-      "address": "2211-1 Mizuguchi, Kawaguchi-Aza, Fuji-Kawaguchiko-Machi, Minamitsuru-Gun, Yamanashi 401-0304"
+      "notes": "✅ BOOKED + PAID via Agoda (Booking ID [private page], booked Jun 30 2026). Lead guest: Brian Heubel. Room: Konohana Comfort Suite, 2 adults, 1 night. ✅ BENEFITS: **Breakfast + DINNER included** (kaiseki IS in the rate — no add-on needed) + free WiFi. Special request already submitted: \"I would like a large bed\" (subject to availability). Total USD 1,264.48 charged to card ••••••••. Pay at property on arrival: ~USD 2.18 (taxes 0.32 + bathing tax 1.86). ⚠️ FREE CANCELLATION ENDS Sept 30, 2026 12:00AM Fujikawaguchiko time — non-refundable after that. Property direct: +81-555-73-9573 / reservation1@fufukawaguchiko.jp. Check-in after 3:00 PM, check-out before 11:00 AM. All-suite property, private outdoor onsen per room, Mt Fuji views.",
+      "address": "2211-1 Mizuguchi, Kawaguchi-Aza, Fuji-Kawaguchiko-Machi, Minamitsuru-Gun, Yamanashi 401-0304",
+      "stay": {
+        "platform": "Agoda",
+        "city": "Kawaguchiko · Fuji",
+        "addressJa": "〒401-0304 山梨県富士河口湖町河口字水口2211-1",
+        "phone": "+81 555-73-9573",
+        "email": "reservation1@fufukawaguchiko.jp",
+        "checkInTime": "after 15:00",
+        "checkOutTime": "before 11:00",
+        "payment": "USD 1,264.48 PAID IN FULL Rooms $1,045.02 + taxes/fees $219.46.",
+        "paid": true,
+        "cancelBy": "NON-REFUNDABLE since Sept 30, 2026. Nothing to decide.",
+        "meals": "Breakfast AND dinner both included.",
+        "qrPayload": "https://www.google.com/maps/search/?api=1&query=2211-1+Mizuguchi+Kawaguchi+Fujikawaguchiko+401-0304",
+        "qrLabel": "Maps · show a taxi driver",
+        "warnings": [
+          "Room: Konohana Comfort Suite, 2 adults, 1 night.",
+          "\"I'd like a large bed\" is on file but subject to availability.",
+          "No honeymoon note on the reservation. Email them.",
+          "Small extras due at property: taxes/fees $0.32 + bathing tax $1.86, plus possible city accommodation tax."
+        ]
+      }
     },
     {
       "id": "hotel-kyoto",
@@ -87,8 +158,24 @@
       "checkIn": "2026-11-30",
       "checkOut": "2026-12-04",
       "booked": true,
-      "notes": "✅ BOOKED via Booking.com — Confirmation 6400643095, PIN 6949 (keep PIN confidential, it can modify/cancel). Booked under heubel.fraitag@gmail.com. Guest: Brian Heubel. Room: TRIPLE ROOM, 4 nights, 2 adults. Nov 30 (from 4:00 PM) → Dec 4 (until 10:00 AM). Price ¥95,427 to you (¥104,970 total, Booking.com covers ¥9,543 — the property invoice will show ¥104,970, do not be alarmed). ⚠️ NOT YET CHARGED — Booking.com will bill the card automatically. ⚠️ FREE CANCELLATION ONLY UNTIL NOV 22, 2026 11:59 PM JST — after that you are charged the FULL ¥104,970. ⚠️ TOWELS COST ¥500/person/night extra (~¥4,000 for the stay — consider packing quick-dry travel towels). ⚠️ Kyoto accommodation tax NOT included, payable at property. No meal option with this room. Damage policy up to ¥15,000. Property phone +81 50-1721-5762. Building: メゾーン叡和 (Maison Eiwa). Check-in-time special request was REJECTED — 4:00 PM is firm. STILL UNVERIFIED: bed configuration (a Triple Room could be 3 singles — worth confirming for a honeymoon), private ensuite bath, daily housekeeping. Higashiyama location: 5 min walk Yasaka Shrine, 14 min Kiyomizu via Sannenzaka/Ninenzaka, 10 min Gion-Shijo Keihan.",
-      "address": "487 Shimokawaracho, Higashiyama Ward, Kyoto 605-0825"
+      "notes": "✅ BOOKED via Booking.com — Confirmation [private page], PIN on private page (keep PIN confidential, it can modify/cancel). Booked under [email]. Guest: Brian Heubel. Room: TRIPLE ROOM, 4 nights, 2 adults. Nov 30 (from 4:00 PM) → Dec 4 (until 10:00 AM). Price ¥95,427 to you (¥104,970 total, Booking.com covers ¥9,543 — the property invoice will show ¥104,970, do not be alarmed). ⚠️ NOT YET CHARGED — Booking.com will bill the card automatically. ⚠️ FREE CANCELLATION ONLY UNTIL NOV 22, 2026 11:59 PM JST — after that you are charged the FULL ¥104,970. ⚠️ TOWELS COST ¥500/person/night extra (~¥4,000 for the stay — consider packing quick-dry travel towels). ⚠️ Kyoto accommodation tax NOT included, payable at property. No meal option with this room. Damage policy up to ¥15,000. Property phone +81 50-1721-5762. Building: メゾーン叡和 (Maison Eiwa). Check-in-time special request was REJECTED — 4:00 PM is firm. STILL UNVERIFIED: bed configuration (a Triple Room could be 3 singles — worth confirming for a honeymoon), private ensuite bath, daily housekeeping. Higashiyama location: 5 min walk Yasaka Shrine, 14 min Kiyomizu via Sannenzaka/Ninenzaka, 10 min Gion-Shijo Keihan.",
+      "address": "487 Shimokawaracho, Higashiyama Ward, Kyoto 605-0825",
+      "stay": {
+        "platform": "Booking.com",
+        "city": "Kyoto · Higashiyama",
+        "addressJa": "〒605-0825 京都府京都市東山区下河原町487",
+        "checkInTime": "from 16:00",
+        "checkOutTime": "by 10:00",
+        "payment": "$589.19 total (~$147/night) via Booking.com — check the booking for whether it has been charged yet.",
+        "meals": "None — it's an apartment hotel.",
+        "qrPayload": "https://www.google.com/maps/search/?api=1&query=487+Shimokawaracho+Higashiyama+Kyoto+605-0825",
+        "qrLabel": "Maps · show a taxi driver",
+        "warnings": [
+          "The PIN is confidential — it can modify or cancel the booking.",
+          "Verify before arrival: daily housekeeping, higher-floor request (Higashi-oji road noise), private entrance.",
+          "5 min walk to Yasaka Shrine; 14 min to Kiyomizu via Sannenzaka/Ninenzaka."
+        ]
+      }
     },
     {
       "id": "hotel-osaka",
@@ -99,9 +186,25 @@
       "checkIn": "2026-12-04",
       "checkOut": "2026-12-06",
       "booked": true,
-      "notes": "BOOKED via Chase Travel — Trip ID 1027237678, stay confirmation 2525139492. Primary guest MADISON R FRAITAG (Brian NOT listed — add him). Superior Double Room, non-smoking, standard floor, 1 queen bed. 2 nights, 2 guests. Check-in Fri Dec 4 3:00 PM, check-out Sun Dec 6 11:00 AM. $367.12 TOTAL, ALREADY PAID IN FULL (Visa ...1471) — room + tax covered by Chase Travel; present a personal card at check-in for incidentals only. FREE CANCELLATION until Dec 2 2026 11:59 PM Osaka time = 9:59 AM Dec 2 New York; after that 20% penalty; after Dec 3 11:59 PM it is 100%. ⚠️ EXTERIOR RENOVATION UNDERWAY — property warns of construction noise and odors and asks guests to keep windows and curtains closed; NO END DATE GIVEN, call +81 to confirm whether work is still live in Dec 2026. (The road-construction note in the terms ended Mar 2025 and is stale.) Breakfast NOT included: buffet approx ¥3,300/adult. Hosted evening meal ¥9,680. City tax due at property (¥100-10,000/pp/night by rate). CASH NOT ACCEPTED. Passport photocopy required at check-in for all guests (Japanese law).",
+      "notes": "BOOKED via Chase Travel — Trip ID [private page], stay confirmation [private page]. Primary guest Madison (Brian NOT listed — add him). Superior Double Room, non-smoking, standard floor, 1 queen bed. 2 nights, 2 guests. Check-in Fri Dec 4 3:00 PM, check-out Sun Dec 6 11:00 AM. $367.12 TOTAL, ALREADY PAID IN FULL (card on file) — room + tax covered by Chase Travel; present a personal card at check-in for incidentals only. FREE CANCELLATION until Dec 2 2026 11:59 PM Osaka time = 9:59 AM Dec 2 New York; after that 20% penalty; after Dec 3 11:59 PM it is 100%. ⚠️ EXTERIOR RENOVATION UNDERWAY — property warns of construction noise and odors and asks guests to keep windows and curtains closed; NO END DATE GIVEN, call +81 to confirm whether work is still live in Dec 2026. (The road-construction note in the terms ended Mar 2025 and is stale.) Breakfast NOT included: buffet approx ¥3,300/adult. Hosted evening meal ¥9,680. City tax due at property (¥100-10,000/pp/night by rate). CASH NOT ACCEPTED. Passport photocopy required at check-in for all guests (Japanese law).",
       "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka 542-0085",
-      "confirmation": "2525139492"
+      "stay": {
+        "platform": "Chase Travel",
+        "city": "Osaka · Shinsaibashi",
+        "addressJa": "〒542-0085 大阪府大阪市中央区心斎橋筋2-5-15",
+        "checkInTime": "15:00",
+        "checkOutTime": "11:00",
+        "payment": "$367.12 PAID IN FULL — room + tax covered.",
+        "paid": true,
+        "meals": "None included.",
+        "qrPayload": "https://www.google.com/maps/search/?api=1&query=2-5-15+Shinsaibashisuji+Chuo-ku+Osaka+542-0085",
+        "qrLabel": "Maps · show a taxi driver",
+        "warnings": [
+          "Brian is NOT on the reservation — add him.",
+          "Call about the exterior renovation before the Dec 4 stay.",
+          "Superior Double, 1 queen, 2 guests. ~10 min walk to Dotonbori."
+        ]
+      }
     },
     {
       "id": "hotel-tokyo-end",
@@ -112,9 +215,28 @@
       "checkIn": "2026-12-06",
       "checkOut": "2026-12-09",
       "booked": true,
-      "notes": "BOOKED with points — confirmation 40023B24084068, World of Hyatt member ...287P, guest Madison Fraitag. 60,000 World of Hyatt points (20,000/night x 3, Award Category 5) transferred 1:1 from Chase; Madison account now at 0 points. Rate type STANDARD ROOM FREE NIGHT. Check-in Sun Dec 6 2:00 PM, check-out Wed Dec 9 11:00 AM. Room: 1 King Bed, fully renovated, floors 10-16, 28sqm, SHOWER ONLY (no tub), max 2 guests, no extra bed. 2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023 · +81 3-3348-1234 · tokyo.regency@hyatt.com. ⚠️ RESERVATION SAYS ADULTS: 1 — there are TWO of you. Must be corrected: Tokyo accommodation tax is per person and Japanese law requires every guest registered with a passport photocopy. Modification is free. ⚠️ Brian is not on the booking. CANCELLATION: 11:59 PM hotel time 1 day before arrival (Dec 5) or pay 1 night fee — very flexible. Taxes at property: consumption 10%, service charge 15%, tax on svc chrg 1.5%, accommodation tax ¥200/pp/night. On a Free Night Award the percentage lines apply to a zero room rate so expect roughly ¥200/pp/night only — CONFIRM the 15% service charge with the hotel. Complimentary shuttle bus between Shinjuku Station and the hotel. Value check: cash rate was ¥43,904/night = $836.63 for 3 nights, so 60,000 points redeemed at 1.39 cpp — a good redemption, well above the Chase portal 1.25 cpp baseline.",
+      "notes": "BOOKED with points — confirmation [private page], World of Hyatt member ...[member # on private page], guest Madison Fraitag. 60,000 World of Hyatt points (20,000/night x 3, Award Category 5) transferred 1:1 from Chase; Madison account now at 0 points. Rate type STANDARD ROOM FREE NIGHT. Check-in Sun Dec 6 2:00 PM, check-out Wed Dec 9 11:00 AM. Room: 1 King Bed, fully renovated, floors 10-16, 28sqm, SHOWER ONLY (no tub), max 2 guests, no extra bed. 2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023 · +81 3-3348-1234 · tokyo.regency@hyatt.com. ⚠️ RESERVATION SAYS ADULTS: 1 — there are TWO of you. Must be corrected: Tokyo accommodation tax is per person and Japanese law requires every guest registered with a passport photocopy. Modification is free. ⚠️ Brian is not on the booking. CANCELLATION: 11:59 PM hotel time 1 day before arrival (Dec 5) or pay 1 night fee — very flexible. Taxes at property: consumption 10%, service charge 15%, tax on svc chrg 1.5%, accommodation tax ¥200/pp/night. On a Free Night Award the percentage lines apply to a zero room rate so expect roughly ¥200/pp/night only — CONFIRM the 15% service charge with the hotel. Complimentary shuttle bus between Shinjuku Station and the hotel. Value check: cash rate was ¥43,904/night = $836.63 for 3 nights, so 60,000 points redeemed at 1.39 cpp — a good redemption, well above the Chase portal 1.25 cpp baseline.",
       "address": "2-7-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
-      "confirmation": "40023B24084068"
+      "stay": {
+        "platform": "World of Hyatt (points)",
+        "city": "Tokyo · Nishi-Shinjuku",
+        "addressJa": "〒160-0023 東京都新宿区西新宿2-7-2",
+        "checkInTime": "14:00",
+        "checkOutTime": "11:00",
+        "payment": "60,000 World of Hyatt points (20,000/night × 3, Cat 5) transferred 1:1 from Chase. PLUS 10% consumption tax + 15% service charge due at the hotel.",
+        "paid": true,
+        "cancelBy": "11:59 PM hotel time, 1 day before arrival, or 1-night fee.",
+        "meals": "None included.",
+        "qrPayload": "https://www.google.com/maps/search/?api=1&query=2-7-2+Nishi-Shinjuku+Shinjuku-ku+Tokyo+160-0023",
+        "qrLabel": "Maps · show a taxi driver",
+        "warnings": [
+          "🚨 Reservation says ADULTS: 1 — fix this. Japanese hotels register guests individually by law.",
+          "Brian is not on the reservation — add him.",
+          "Room: 1 King, fully renovated, floors 10-16, 28sqm, shower only, max 2 guests, NO extra bed.",
+          "Award night does NOT cover the 10% tax + 15% service charge.",
+          "7 min walk to Kitamura Camera Shinjuku West for the film drop-off."
+        ]
+      }
     }
   ],
   "intercityTransit": [
@@ -96220,7 +96342,7 @@
           "lat": 35.76479,
           "lng": 140.38583,
           "address": "Narita International Airport Terminal 1, Narita, Chiba 282-0004",
-          "notes": "ARRIVAL 16:30 LOCAL on AC9 (Air Canada) from Toronto YYZ. Booking reference BMHKF6, seats Madison 60A / Brian 60C, economy. ⚠️ Landing at 16:30 means you reach Yuen Shinjuku around 19:00-19:30 — Nov 24 is an EVENING ONLY. No daytime activities."
+          "notes": "ARRIVAL 16:30 LOCAL on AC9 (Air Canada) from Toronto YYZ. Booking reference [private page], seats Madison 60A / Brian 60C, economy. ⚠️ Landing at 16:30 means you reach Yuen Shinjuku around 19:00-19:30 — Nov 24 is an EVENING ONLY. No daytime activities."
         },
         {
           "id": "d1-1c",
@@ -96288,6 +96410,15 @@
           "currency": "JPY",
           "lat": 35.68855,
           "lng": 139.70016
+        },
+        {
+          "id": "d1-cam",
+          "time": "21:30",
+          "title": "Buy disposable cameras — Don Quijote Shinjuku",
+          "description": "Fujifilm Utsurundesu / QuickSnap, ~¥1,300-1,800 each (27 exp). Grab 3-4 so you have one per leg: Tokyo, Fuji, Kyoto, Osaka. Don Quijote Shinjuku Higashiguchi is open 24h and 5 min from Afuri. Daylight backup: Bic Camera Shinjuku West (10:00-22:00). Kitamura Shinjuku West also sells them but closes at 20:00.",
+          "category": "shop",
+          "lat": 35.6938,
+          "lng": 139.7036
         }
       ],
       "routeToHotel": {
@@ -98178,6 +98309,15 @@
           }
         },
         {
+          "id": "d13-cam",
+          "time": "15:15",
+          "title": "Drop film at Kitamura Shinjuku West",
+          "description": "7 min walk from Hyatt Regency Tokyo. 1-15-13 Nishi-Shinjuku, open 10:00-20:00 daily. Develop ¥950/roll; prints ¥63 each; CD ¥680; smartphone transfer ¥880 (best option — scans land on your phone, nothing to carry home). Turnaround is ~1 hour at this store, but dropping now leaves slack. Collect Dec 8. Tel +81 3-3343-0181.",
+          "category": "shop",
+          "lat": 35.6905,
+          "lng": 139.6976
+        },
+        {
           "id": "d13-2b",
           "time": "16:00",
           "title": "About Life Coffee Brewers",
@@ -98535,6 +98675,15 @@
           }
         },
         {
+          "id": "d15-cam",
+          "time": "17:30",
+          "title": "Collect developed film — Kitamura Shinjuku West",
+          "description": "Directly en route: Cat Street/Harajuku → Shinjuku is ~5 min, and Shinjuku → Shimokitazawa is ~7 min, so this slots between the 15:30 Harajuku block and the 18:30 Shimokitazawa live-house block with no detour. Store closes 20:00. Bring the receipt.",
+          "category": "shop",
+          "lat": 35.6905,
+          "lng": 139.6976
+        },
+        {
           "id": "d15-4",
           "time": "18:30",
           "title": "Shimokitazawa Station",
@@ -98631,12 +98780,18 @@
           "category": "airport",
           "lat": 35.5494,
           "lng": 139.7798,
-          "notes": "ANA NH110, Haneda Terminal 3 → New York JFK. Departs 11:35, arrives JFK 10:30 the SAME DAY. Air Canada booking reference BMHKF6. Seats: Madison 39H, Brian 39K. Be at HND by 09:35 (2 hours before international departure) — with the ~50 min Limousine Bus that means boarding by ~08:30 and the 07:30 hotel checkout already in this plan. ⚠️ You depart from LGA on Nov 23 but RETURN TO JFK — arrange the ride home accordingly."
+          "notes": "ANA NH110, Haneda Terminal 3 → New York JFK. Departs 11:35, arrives JFK 10:30 the SAME DAY. Air Canada booking reference [private page]. Seats: Madison 39H, Brian 39K. Be at HND by 09:35 (2 hours before international departure) — with the ~50 min Limousine Bus that means boarding by ~08:30 and the 07:30 hotel checkout already in this plan. ⚠️ You depart from LGA on Nov 23 but RETURN TO JFK — arrange the ride home accordingly."
         }
       ]
     }
   ],
   "checklist": [
+    {
+      "id": "c-yuen-dupe",
+      "title": "❓ VERIFY whether the 2-night Yuen booking [private page] is already cancelled",
+      "detail": "Brian believes he already cancelled this. UNRESOLVED — cannot be confirmed from the shared inbox, because only the original Jul 12 confirmations were forwarded there; a cancellation notice would have gone to [email], which is not connected.\n\nTWO reservations were CREATED at Onsen Ryokan Yuen Shinjuku on Jul 12 2026, 16 min apart, both under Madison:\n  • Trip [private page] / conf [private page] — Nov 24-26, 2 nights, $518.06  <- the one believed cancelled\n  • Trip [private page] / conf [private page] — Nov 24-27, 3 nights, $769.96  <- the correct one (checkout Nov 27 for Fuji)\n\nHOW TO CHECK (1 min): chase.com -> Travel -> My Trips, look for Trip [private page] and its status. Or look for a ~$514 refund on the card on file.\n\nIF it is still active: free-cancel ends Nov 22 11:59 PM Tokyo = Sun Nov 22, 9:59 AM Eastern. After that, 100% penalty. Chase Travel 1-866-331-0773.\nIF already cancelled: tick this off, nothing owed.\n\n⚠️ Do NOT cancel by confirmation number without checking the dates on screen first — the two bookings are same hotel, same room type, same Nov 24 check-in, and differ only by checkout date. Keep the one that ends Nov 27.",
+      "priority": "asap"
+    },
     {
       "id": "c-yamato-nrt",
       "title": "Yamato luggage forward · NRT → Yuen Shinjuku (Nov 24)",
@@ -98645,8 +98800,8 @@
     },
     {
       "id": "c0",
-      "title": "✅ FLIGHTS BOOKED · Air Canada BMHKF6 (rebooked by the airline)",
-      "detail": "OUTBOUND Mon Nov 23: AC701 LGA 06:00 -> Toronto YYZ 07:42, then AC9 YYZ 12:35 -> Narita NRT 16:30 Tue Nov 24. Seats 15A/15C then 60A/60C, economy. RETURN Wed Dec 9: NH110 (ANA) HND 11:35 -> JFK 10:30 same day, seats 39H/39K. 🚨 THE AIRLINE REBOOKED YOU on Jun 30 2026: departure moved from JFK 09:45 to LAGUARDIA 06:00, flight AC8553 -> AC701. Be at LGA 04:30, leave home ~03:30 — pre-book a car, this is before normal service hours. ✅ Upside: the Toronto connection went from a risky 70 min to a comfortable 4h53m. ⚠️ YOU DEPART LGA BUT RETURN TO JFK — do not leave a car at LaGuardia. ⚠️ Trip actually starts Nov 23, a day before the Nov 24 itinerary date. Manage: aircanada.com/self-reacc/reacc?lang=en&orderId=BMHKF6&lastName=Fraitag · Aeroplan 1-800-361-5373.",
+      "title": "✅ FLIGHTS BOOKED · Air Canada [private page] (rebooked by the airline)",
+      "detail": "OUTBOUND Mon Nov 23: AC701 LGA 06:00 -> Toronto YYZ 07:42, then AC9 YYZ 12:35 -> Narita NRT 16:30 Tue Nov 24. Seats 15A/15C then 60A/60C, economy. RETURN Wed Dec 9: NH110 (ANA) HND 11:35 -> JFK 10:30 same day, seats 39H/39K. 🚨 THE AIRLINE REBOOKED YOU on Jun 30 2026: departure moved from JFK 09:45 to LAGUARDIA 06:00, flight AC8553 -> AC701. Be at LGA 04:30, leave home ~03:30 — pre-book a car, this is before normal service hours. ✅ Upside: the Toronto connection went from a risky 70 min to a comfortable 4h53m. ⚠️ YOU DEPART LGA BUT RETURN TO JFK — do not leave a car at LaGuardia. ⚠️ Trip actually starts Nov 23, a day before the Nov 24 itinerary date. Manage: aircanada.com → Manage booking · Aeroplan 1-800-361-5373.",
       "priority": "asap"
     },
     {
@@ -98657,20 +98812,20 @@
     },
     {
       "id": "c1c",
-      "title": "🛟 BACKUP BOOKED · Lakeland Hotel Mizunosato · Nov 27-29 (2 nights)",
-      "detail": "Booking.com conf 6011780247 · PIN 5512. Room: Japanese-Style Twin with OPEN-AIR BATH + Mt Fuji view. Breakfast AND dinner included. ¥127,500 to you (¥137,500 on the property invoice — Booking.com covers ¥10,000). NOT YET CHARGED. 1070 Kodachi, Fujikawaguchiko-machi, Yamanashi 401-0302 · +81 555-72-1831 · info@mizunosato.jp · mizunosato.jp. ⚠️ FREE CANCELLATION ONLY UNTIL NOV 21 2026 11:59 PM JST (5 days out — tighter than the other bookings); after that full ¥137,500. 🚨 HARD 19:00 CHECK-IN DEADLINE because dinner is included — the hotel states it cannot prepare dinner if you arrive after 19:30, and check-in closes at 19:00. CHECK-IN WINDOW 15:00-19:00 (cannot check in before 15:00). CHECK-OUT STRICTLY BY 10:00. SHUTTLE (corrected by the hotel direct, supersedes the booking confirmation): free pickup from Kawaguchiko Station 14:45-20:00, NO ADVANCE RESERVATION NEEDED — just call 0555-72-1831 on arrival and they come at once; if the Tourist Information desk is open they will call for you. ⚠️ You arrive at Kawaguchiko Station 12:30, BEFORE the 14:45 shuttle start — they explicitly cannot collect you then. Take the Sightseeing Bus to stop No. 24 Yagisaki Park (nearest the hotel) or a taxi. Morning shuttle hotel -> Kawaguchiko Station departs 8:30 / 9:00 / 9:30 / 10:00 — use one of these on Nov 29. TO DO BEFORE ARRIVAL: (1) confirm the booking reads 2 adults — Japanese hotels price per person and the hotel asked us to verify the headcount; (2) tell them about any allergies in advance. Few restaurants near the hotel, but dinner is included so this only matters if plans change. ⚠️ Dinner is buffet OR multi-course at the hotel discretion — not your choice. ⚠️ Tattoo restrictions on public baths. ¥600 hot spring tax (¥150/pp/night) at property — confirms Mizunosato IS a registered onsen, unlike Ubuya whose in-room baths are explicitly not hot spring water. HOLD THIS until Ubuya opens up or Nov 21 arrives.",
+      "title": "🛟 Mizunosato Nov 27-29 · FREE-CANCEL ENDS SAT NOV 21, 9:59 AM ET",
+      "detail": "⏰ HARD DEADLINE: free cancellation ends Nov 21, 2026 11:59 PM JST = **Sat Nov 21, 9:59 AM Eastern**. From Nov 22 12:00 AM JST the penalty is the FULL ¥137,500. Currently TOTAL PAID ¥0 — Booking.com will auto-charge ¥127,500. So the Ubuya-vs-Mizunosato decision must be made by Saturday MORNING your time, not the weekend.\n\nBooking.com conf [private page] · PIN on private page · 2 adults · lead guest Brian Heubel.\nRoom: Japanese-Style TWIN Room with Open-Air Bath + Mt Fuji View.\nBreakfast AND dinner included (dinner is buffet or multi-course, chosen by the hotel — no guest choice).\nHot spring tax ¥600 (¥150/person/night) paid at the property. Property invoice shows ¥137,500; Booking.com covers ¥10,000.\n1070 Kodachi, Fujikawaguchiko-machi, Yamanashi 401-0302 · +81 555-72-1831 · info@mizunosato.jp\n\n🚨 TWO THINGS NOT ON THE BOOKING:\n1. It is a TWIN room — two separate beds. No bed-type request is on file. For a honeymoon, email the property and ask for a double/large bed or beds pushed together.\n2. NO honeymoon note anywhere on the reservation. Email them — ryokans often do something for it.\n\n=== LOGISTICS FROM THE PROPERTY ===\nCHECK-IN 15:00-19:30 (strictly not before 15:00). CHECK-OUT strictly before 10:00.\nDINNER RULE: must be checked in by 19:00; no dinner prepared if you arrive after 19:30.\nSTATION SHUTTLE: the confirmation says it requires ADVANCE RESERVATION and runs 14:30-19:30. A separate email from the hotel said pickup 14:45-20:00, call on arrival. These conflict — RESERVE IT IN ADVANCE to be safe.\nIf you arrive before the shuttle window: Sightseeing Bus to stop No. 24 'Yagisaki Park', or a taxi.\nFREE MORNING SHUTTLE to Kawaguchiko Station: 8:30, 9:00, 9:30, 10:00.\nFew places to eat nearby. Tattoos restricted in the public baths.\n\n⚠️ DAY 4 TIMING: itinerary reaches Kawaguchiko Station 12:30 — before the shuttle window opens. Do the cape walk + lunch 12:30-14:30, then shuttle in and check in at 15:00.",
       "priority": "closer"
     },
     {
       "id": "c1b",
       "title": "✅ FUFU Kawaguchiko · 1 night (Nov 29-30) — BOOKED & PAID",
-      "detail": "Agoda Booking ID 1021910758. Konohana Comfort Suite, USD 1,264.48 paid in full. **Dinner + breakfast BOTH included** — no kaiseki add-on needed (earlier concern resolved via confirmation email). Large-bed request already on file. ⚠️ ONLY ACTION: decide by **Sept 30, 2026** — free cancellation ends then, non-refundable after. Bring ~USD 2 cash for bathing tax at check-in.",
+      "detail": "Agoda Booking ID [private page]. Konohana Comfort Suite, USD 1,264.48 paid in full. **Dinner + breakfast BOTH included** — no kaiseki add-on needed (earlier concern resolved via confirmation email). Large-bed request already on file. ⚠️ ONLY ACTION: decide by **Sept 30, 2026** — free cancellation ends then, non-refundable after. Bring ~USD 2 cash for bathing tax at check-in.",
       "priority": "closer"
     },
     {
       "id": "c2",
       "title": "✅ Tokyo hotels · BOTH BOOKED",
-      "detail": "✅ Yuen Shinjuku BOOKED via Chase Travel (5x CSP earn) — conf 2507657067, $769.96, 3 nights Nov 24-27, Small Double, cancel by Nov 22. ✅ Hyatt Regency Tokyo BOOKED Dec 6-9 — conf 40023B24084068, 60,000 World of Hyatt points (20,000/night x 3, Cat 5) transferred 1:1 from Chase. Redeemed at 1.39 cpp against a $836.63 cash rate — a good redemption. 1 King, 28sqm, floors 10-16, shower only. Cancellation 11:59 PM hotel time Dec 5. 🚨 OPEN ITEM: the Hyatt reservation says ADULTS: 1 — there are two of you. Correct it (free) and add Brian; Tokyo accommodation tax is per person and Japanese law requires every guest registered with a passport photocopy.",
+      "detail": "✅ Yuen Shinjuku BOOKED via Chase Travel (5x CSP earn) — conf [private page], $769.96, 3 nights Nov 24-27, Small Double, cancel by Nov 22. ✅ Hyatt Regency Tokyo BOOKED Dec 6-9 — conf [private page], 60,000 World of Hyatt points (20,000/night x 3, Cat 5) transferred 1:1 from Chase. Redeemed at 1.39 cpp against a $836.63 cash rate — a good redemption. 1 King, 28sqm, floors 10-16, shower only. Cancellation 11:59 PM hotel time Dec 5. 🚨 OPEN ITEM: the Hyatt reservation says ADULTS: 1 — there are two of you. Correct it (free) and add Brian; Tokyo accommodation tax is per person and Japanese law requires every guest registered with a passport photocopy.",
       "priority": "asap"
     },
     {
@@ -98682,7 +98837,7 @@
     {
       "id": "c4",
       "title": "✅ Osaka hotel · BOOKED (Cross Hotel Osaka)",
-      "detail": "✅ BOOKED via Chase Travel — Trip 1027237678, stay conf 2525139492. Cross Hotel Osaka, 2-5-15 Shinsaibashi-suji, Chuo-ku. Superior Double, 1 queen, 2 nights 2 guests, Dec 4 3:00 PM -> Dec 6 11:00 AM. $367.12 PAID IN FULL (Visa ...1471), room + tax covered. Dead center for Days 11-12, ~10 min walk to Dotonbori. FREE CANCELLATION until Dec 2 11:59 PM Osaka = 9:59 AM Dec 2 New York; 20% after, 100% after Dec 3. 🚨 OPEN ITEMS: (1) EXTERIOR RENOVATION — property warns of construction noise/odors and asks guests to keep windows and curtains closed, no end date given; call to confirm before the Dec 2 deadline. Fallback is Caption by Hyatt Namba at ~$166/night all-in. (2) Brian is not on the reservation — add via Chase Travel 1-866-331-0773. Breakfast not included (~¥3,300/adult). Cash not accepted.",
+      "detail": "✅ BOOKED via Chase Travel — Trip [private page], stay conf [private page]. Cross Hotel Osaka, 2-5-15 Shinsaibashi-suji, Chuo-ku. Superior Double, 1 queen, 2 nights 2 guests, Dec 4 3:00 PM -> Dec 6 11:00 AM. $367.12 PAID IN FULL (card on file), room + tax covered. Dead center for Days 11-12, ~10 min walk to Dotonbori. FREE CANCELLATION until Dec 2 11:59 PM Osaka = 9:59 AM Dec 2 New York; 20% after, 100% after Dec 3. 🚨 OPEN ITEMS: (1) EXTERIOR RENOVATION — property warns of construction noise/odors and asks guests to keep windows and curtains closed, no end date given; call to confirm before the Dec 2 deadline. Fallback is Caption by Hyatt Namba at ~$166/night all-in. (2) Brian is not on the reservation — add via Chase Travel 1-866-331-0773. Breakfast not included (~¥3,300/adult). Cash not accepted.",
       "priority": "asap"
     },
     {
@@ -98759,6 +98914,12 @@
       "id": "c17",
       "title": "Yamato luggage forward · Cross Osaka → Hyatt Regency Tokyo (Dec 6)",
       "detail": "Drop at Cross Hotel front desk Dec 5 evening. Skip the 2.5-hr Nozomi luggage hassle + the post-2020 oversized-bag reservation requirement. ~¥2-3K per bag.",
+      "priority": "closer"
+    },
+    {
+      "id": "c-film",
+      "title": "Disposable film camera plan · buy Nov 24, develop Dec 6-8",
+      "detail": "Buy 3-4 Fujifilm Utsurundesu (QuickSnap) disposables on arrival night at Don Quijote Shinjuku (24h) — ~¥1,300-1,800 each, 27 exposures. Shoot one per leg (Tokyo / Fuji / Kyoto / Osaka). Drop all rolls at Kitamura Camera Shinjuku West (1-15-13 Nishi-Shinjuku, 10:00-20:00, 7 min from Hyatt Regency) on Dec 6 at ~15:15; collect Dec 8 at ~17:30 en route to Shimokitazawa. Pay ¥950/roll develop + ¥880 smartphone transfer so the scans come home on your phones — skip prints unless you want them. Do NOT put undeveloped film in checked luggage; carry it on. Nothing to book in advance.",
       "priority": "closer"
     }
   ],
@@ -100340,6 +100501,76 @@
       "lng": 139.7036,
       "time": "",
       "status": "idea"
+    }
+  ],
+  "flights": [
+    {
+      "id": "fl-out",
+      "label": "Outbound",
+      "platform": "Air Canada",
+      "segments": [
+        {
+          "flight": "AC701",
+          "airline": "Air Canada",
+          "date": "2026-11-23",
+          "from": "LGA",
+          "depart": "06:00",
+          "to": "YYZ",
+          "arrive": "07:42",
+          "cabin": "Economy",
+          "seats": "15A (Madison) · 15C (Brian)"
+        },
+        {
+          "flight": "AC9",
+          "airline": "Air Canada",
+          "date": "2026-11-23",
+          "from": "YYZ",
+          "depart": "12:35",
+          "to": "NRT",
+          "arrive": "16:30",
+          "arriveDate": "2026-11-24",
+          "cabin": "Economy",
+          "seats": "60A (Madison) · 60C (Brian)"
+        }
+      ],
+      "checkIn": "Online check-in for Air Canada opens 24 hours before departure — Sun Nov 22, 6:00 AM ET.",
+      "phone": "Aeroplan 1-800-361-5373",
+      "manageUrl": "https://www.aircanada.com/ca/en/aco/home/app.html#/retrieve",
+      "warnings": [
+        "You depart from LAGUARDIA, not JFK — Air Canada rebooked you on Jun 30 (was AC8553 from JFK 09:45).",
+        "Be at LGA by 04:30. Leave home ~03:30 and pre-book the car — it's before normal service hours.",
+        "Toronto connection is 4h53m (07:42 → 12:35). Comfortable.",
+        "AC9 departure moved 5 min earlier in the rebooking (12:40 → 12:35).",
+        "Terminals aren't listed on the booking — confirm in the Air Canada app on check-in day.",
+        "Before landing: have your Visit Japan Web immigration + customs QR codes ready."
+      ]
+    },
+    {
+      "id": "fl-ret",
+      "label": "Return",
+      "platform": "Air Canada booking · flown by ANA",
+      "segments": [
+        {
+          "flight": "NH110",
+          "airline": "ANA",
+          "operatedBy": "ANA (All Nippon Airways)",
+          "date": "2026-12-09",
+          "from": "HND",
+          "fromTerminal": "Terminal 3",
+          "depart": "11:35",
+          "to": "JFK",
+          "arrive": "10:30",
+          "seats": "39H (Madison) · 39K (Brian)"
+        }
+      ],
+      "phone": "Aeroplan 1-800-361-5373",
+      "manageUrl": "https://www.aircanada.com/ca/en/aco/home/app.html#/retrieve",
+      "warnings": [
+        "You return to JFK, not LaGuardia — don't leave a car at LGA.",
+        "Flown by ANA but booked through Air Canada. No separate ANA reservation number appears in the email — if ANA's check-in asks for one, find it under Manage Booking on aircanada.com or ask at the ANA counter with [private page].",
+        "Itinerary: hotel checkout 07:30, Limousine Bus 08:00, at HND Terminal 3 by 09:00.",
+        "Cabin class isn't stated on this leg in the email."
+      ]
     }
   ]
 }

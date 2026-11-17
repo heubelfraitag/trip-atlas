@@ -110,6 +110,23 @@ export default function TripOverview() {
         <TripSearch trip={trip} />
       </div>
 
+      {(trip.hotels.some((h) => h.stay) || (trip.flights?.length ?? 0) > 0) && (
+        <Link
+          to={`/${trip.slug}/confirmations`}
+          className="mb-6 flex items-center justify-between gap-3 border border-line rounded-2xl px-4 py-3 bg-paper-soft no-underline hover:border-vermillion transition-colors group"
+        >
+          <span>
+            <span className="block text-[10px] uppercase tracking-widest font-semibold text-vermillion">
+              Confirmations
+            </span>
+            <span className="block text-ink text-sm mt-0.5">
+              Hotels &amp; flights — numbers, addresses, check-in times
+            </span>
+          </span>
+          <span className="text-vermillion text-xl group-hover:translate-x-1 transition-transform">→</span>
+        </Link>
+      )}
+
       {/* Live "right now / next up" panel */}
       {status === 'active' && todayDay && (currentNext.current || currentNext.next) && (
         <div className="mb-6 border-2 border-vermillion rounded-2xl p-4 bg-paper-soft">

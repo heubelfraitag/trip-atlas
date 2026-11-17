@@ -43,6 +43,53 @@ export interface RouteGeometry {
   line?: string;
 }
 
+/** Structured booking record for the Stays / confirmations page. */
+export interface StayRecord {
+  /** Property actually holding the booking, when it differs from Hotel.name (e.g. a backup). */
+  propertyName?: string;
+  /** Shown under the name when propertyName overrides it. */
+  alternateNote?: string;
+  /** Which platform holds the booking, e.g. "Booking.com", "Chase Travel", "Agoda". */
+  platform?: string;
+  /** The number you give at the front desk. */
+  confirmation?: string;
+  /** Secondary reference, e.g. a Chase Travel Trip ID. */
+  tripId?: string;
+  /** Booking.com-style PIN. Confidential - can modify or cancel the booking. */
+  pin?: string;
+  /** Name the reservation is held under. */
+  guestName?: string;
+  /** Loyalty membership number, if the stay is an award booking. */
+  membership?: string;
+  city?: string;
+  /** English address, when it differs from Hotel.address (e.g. a backup property). */
+  addressEn?: string;
+  /** Address in Japanese, to show a taxi driver. */
+  addressJa?: string;
+  phone?: string;
+  email?: string;
+  /** Check-in window, e.g. "15:00-19:30". */
+  checkInTime?: string;
+  checkOutTime?: string;
+  /** What was paid and how. */
+  payment?: string;
+  paid?: boolean;
+  /** Free-cancellation deadline, in plain words. */
+  cancelBy?: string;
+  /** Which meals are included. */
+  meals?: string;
+  /** Which mailbox the confirmation email is in. */
+  confirmationLocation?: string;
+  /** Deep link to manage the booking. */
+  manageUrl?: string;
+  /** Any string to render as a scannable QR code (URL, address, payload). */
+  qrPayload?: string;
+  /** Short label shown under the QR code. */
+  qrLabel?: string;
+  /** Things that need attention or could go wrong at check-in. */
+  warnings?: string[];
+}
+
 export interface Hotel {
   id: string;
   name: string;
@@ -55,6 +102,8 @@ export interface Hotel {
   bookingUrl?: string;
   booked?: boolean;
   notes?: string;
+  /** Structured confirmation details, surfaced on the Stays page. */
+  stay?: StayRecord;
 }
 
 export interface Airport {
@@ -158,6 +207,8 @@ export interface ChecklistItem {
 
 export interface TripMeta {
   name: string;
+  /** Private (login-only) page holding confirmation numbers, PINs and names. Never put those in this public file. */
+  privateConfirmationsUrl?: string;
   subtitle?: string;
   startDate: string;
   endDate: string;
@@ -180,8 +231,52 @@ export interface TripMeta {
   useScriptAccent?: boolean;
 }
 
+/** One leg of a flight booking. Times are local to each airport. */
+export interface FlightSegment {
+  flight: string;
+  airline: string;
+  /** Operating carrier when different from the marketing airline. */
+  operatedBy?: string;
+  /** Departure date, YYYY-MM-DD, local. */
+  date: string;
+  from: string;
+  fromTerminal?: string;
+  /** HH:MM local. */
+  depart: string;
+  to: string;
+  toTerminal?: string;
+  arrive: string;
+  /** Arrival date if it differs from the departure date. */
+  arriveDate?: string;
+  cabin?: string;
+  seats?: string;
+}
+
+/** A flight booking (one record locator), shown on the Flights tab. */
+export interface FlightBooking {
+  id: string;
+  /** e.g. "Outbound" / "Return". */
+  label: string;
+  /** Omit in public data — lives on the private page. */
+  bookingRef?: string;
+  platform?: string;
+  /** Separate record locator at a partner airline, if any. */
+  partnerRef?: string;
+  passengers?: string[];
+  ticketNumbers?: string[];
+  segments: FlightSegment[];
+  baggage?: string;
+  checkIn?: string;
+  phone?: string;
+  manageUrl?: string;
+  confirmationLocation?: string;
+  warnings?: string[];
+}
+
 export interface Trip {
   slug: string;
+  /** Flight bookings for the Flights tab. */
+  flights?: FlightBooking[];
   meta: TripMeta;
   airports: Airport[];
   hotels: Hotel[];

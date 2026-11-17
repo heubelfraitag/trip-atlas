@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TripList from './pages/TripList';
 import TripOverview from './pages/TripOverview';
 import DayDetail from './pages/DayDetail';
+import Confirmations from './pages/Confirmations';
 import ErrorBoundary from './components/ErrorBoundary';
 import OfflineBadge from './components/OfflineBadge';
 import ThemeToggle from './components/ThemeToggle';
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/" element={<TripList />} />
           <Route path="/:slug" element={<TripOverview />} />
           <Route path="/:slug/day/:dayNumber" element={<DayDetail />} />
+          <Route path="/:slug/confirmations" element={<Confirmations />} />
           <Route path="*" element={<TripList />} />
         </Routes>
       </BrowserRouter>
