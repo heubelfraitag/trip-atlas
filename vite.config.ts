@@ -32,11 +32,11 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         runtimeCaching: [
           {
-            // CartoDB Voyager tiles
-            urlPattern: ({ url }) => url.host.endsWith('basemaps.cartocdn.com'),
+            // Esri basemap tiles (fresh cache name: the old Carto cache can hold "API KEY REQUIRED" placeholders)
+            urlPattern: ({ url }) => url.host === 'server.arcgisonline.com',
             handler: 'CacheFirst',
             options: {
-              cacheName: 'atlas-tiles',
+              cacheName: 'atlas-tiles-esri',
               expiration: { maxEntries: 600, maxAgeSeconds: 60 * 60 * 24 * 30 },
               cacheableResponse: { statuses: [0, 200] },
             },

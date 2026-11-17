@@ -184,21 +184,37 @@ export default function TripMap({
       preferCanvas: true,
     });
 
-    const lightTiles = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
-    const darkTiles = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
-    const tileLayer = L.tileLayer(
-      document.documentElement.classList.contains('dark') ? darkTiles : lightTiles,
-      {
-        maxZoom: 19,
-        subdomains: 'abcd',
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      }
-    ).addTo(map);
+    // Esri basemaps: no API key, and labels in Japan are bilingual (Japanese + English).
+    // (Carto's free tiles started returning "API KEY REQUIRED" placeholders in Nov 2026.)
+    const esri = 'https://server.arcgisonline.com/ArcGIS/rest/services';
+    const lightTiles = `${esri}/World_Street_Map/MapServer/tile/{z}/{y}/{x}`;
+    const darkTiles = `${esri}/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}`;
+    const darkLabels = `${esri}/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}`;
+    const attribution =
+      'Tiles &copy; <a href="https://www.esri.com">Esri</a> — Esri, HERE, Garmin, &copy; OpenStreetMap contributors, and the GIS user community';
+    const isDarkNow = () => document.documentElement.classList.contains('dark');
+
+    const tileLayer = L.tileLayer(isDarkNow() ? darkTiles : lightTiles, {
+      maxZoom: 19,
+      // Past these zooms Esri has no native tiles; Leaflet upscales instead of showing blanks.
+      maxNativeZoom: isDarkNow() ? 16 : 18,
+      attribution,
+    }).addTo(map);
+    // The dark canvas is unlabeled; its labels come from a separate transparent layer.
+    // Own pane: above the base tiles (200), below routes and pins (400+).
+    const labelPane = map.createPane('basemapLabels');
+    labelPane.style.zIndex = '250';
+    labelPane.style.pointerEvents = 'none';
+    const labelLayer = L.tileLayer(darkLabels, { maxZoom: 19, maxNativeZoom: 16, pane: 'basemapLabels' });
+    if (isDarkNow()) labelLayer.addTo(map);
+
     // Swap tiles when the theme class on <html> changes
     const themeObserver = new MutationObserver(() => {
-      const isDark = document.documentElement.classList.contains('dark');
+      const isDark = isDarkNow();
+      tileLayer.options.maxNativeZoom = isDark ? 16 : 18;
       tileLayer.setUrl(isDark ? darkTiles : lightTiles);
+      if (isDark && !map.hasLayer(labelLayer)) labelLayer.addTo(map);
+      if (!isDark && map.hasLayer(labelLayer)) map.removeLayer(labelLayer);
     });
     themeObserver.observe(document.documentElement, {
       attributes: true,
