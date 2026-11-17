@@ -66,6 +66,7 @@ export interface StayRecord {
   addressEn?: string;
   /** Address in Japanese, to show a taxi driver. */
   addressJa?: string;
+  /** Hotel phone — also what a Japanese taxi's navigation can search by. */
   phone?: string;
   email?: string;
   /** Check-in window, e.g. "15:00-19:30". */
@@ -82,10 +83,10 @@ export interface StayRecord {
   confirmationLocation?: string;
   /** Deep link to manage the booking. */
   manageUrl?: string;
-  /** Any string to render as a scannable QR code (URL, address, payload). */
-  qrPayload?: string;
-  /** Short label shown under the QR code. */
-  qrLabel?: string;
+  /** Google Maps link for your own directions. */
+  mapsUrl?: string;
+  /** Caveat about the phone number, e.g. when there's no front-desk line. */
+  phoneNote?: string;
   /** Things that need attention or could go wrong at check-in. */
   warnings?: string[];
 }

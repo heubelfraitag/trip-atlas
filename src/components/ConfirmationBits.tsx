@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import QRCode from 'qrcode';
+import { useState } from 'react';
 
 /* Shared building blocks for the Confirmations page (Stays + Flights tabs). */
 
@@ -51,34 +50,6 @@ export function SecretValue({ value }: { value: string }) {
       </button>
       {shown && <CopyButton value={value} />}
     </span>
-  );
-}
-
-export function QrBlock({ payload, label }: { payload: string; label?: string }) {
-  const [svg, setSvg] = useState<string>('');
-  useEffect(() => {
-    let alive = true;
-    QRCode.toString(payload, { type: 'svg', margin: 1, errorCorrectionLevel: 'M' })
-      .then((s) => alive && setSvg(s))
-      .catch(() => alive && setSvg(''));
-    return () => {
-      alive = false;
-    };
-  }, [payload]);
-  if (!svg) return null;
-  return (
-    <figure className="shrink-0 w-36">
-      {/* QR codes must stay dark-on-white to scan, regardless of theme. */}
-      <div
-        className="bg-white rounded-xl p-2 border border-line [&>svg]:w-full [&>svg]:h-auto"
-        dangerouslySetInnerHTML={{ __html: svg }}
-      />
-      {label && (
-        <figcaption className="mt-1.5 text-[10px] text-ink-faint text-center leading-tight">
-          {label}
-        </figcaption>
-      )}
-    </figure>
   );
 }
 

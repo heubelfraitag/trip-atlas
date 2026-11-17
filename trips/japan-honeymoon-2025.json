@@ -64,8 +64,6 @@
         "paid": true,
         "cancelBy": "Free until Sun Nov 22, 11:59 PM Tokyo = Sun Nov 22, 9:59 AM ET",
         "meals": "None included. Japanese breakfast ~¥4,000/adult if you want it.",
-        "qrPayload": "https://www.google.com/maps/search/?api=1&query=5-3-18+Shinjuku+Tokyo+160-0022+JP",
-        "qrLabel": "Maps · show a taxi driver",
         "warnings": [
           "Front desk greets on arrival — no after-hours check-in. You land NRT 16:30.",
           "A SECOND 2-night booking (conf [private page], Nov 24-26) was also created. Verify it is cancelled.",
@@ -73,7 +71,9 @@
           "City tax ¥150/person/night due at the property.",
           "Passport photocopy required at check-in (Japanese law).",
           "Your name may not reach the hotel until 48 hrs before arrival."
-        ]
+        ],
+        "phone": "+81 3-5361-8355",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onsen+Ryokan+Yuen+Shinjuku%2C+5-3-18+Shinjuku%2C+Tokyo"
       }
     },
     {
@@ -99,8 +99,6 @@
         "paid": false,
         "cancelBy": "⚠️ Free until Nov 21, 11:59 PM JST = SAT NOV 21, 9:59 AM ET. After that: full ¥137,500.",
         "meals": "Breakfast AND dinner included. Dinner is buffet or multi-course, hotel's choice.",
-        "qrPayload": "https://www.google.com/maps/search/?api=1&query=1070+Kodachi+Fujikawaguchiko+Yamanashi+401-0302",
-        "qrLabel": "Maps · show a taxi driver",
         "warnings": [
           "This is a TWIN room — two separate beds. No bed request on file. Email them.",
           "No honeymoon note on the reservation. Email them.",
@@ -113,7 +111,8 @@
         ],
         "propertyName": "Lakeland Hotel Mizunosato",
         "alternateNote": "Still trying for Kozantei Ubuya until Sat Nov 21 — Ubuya is NOT booked. Rep YOKOYAMA · +81 555-72-1145 · dot0628@ubuya.co.jp",
-        "addressEn": "1070 Kodachi, Fujikawaguchiko-machi, Minamitsuru District, Yamanashi 401-0302"
+        "addressEn": "1070 Kodachi, Fujikawaguchiko-machi, Minamitsuru District, Yamanashi 401-0302",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lakeland+Hotel+Mizunosato%2C+1070+Kodachi%2C+Fujikawaguchiko%2C+Yamanashi"
       }
     },
     {
@@ -139,14 +138,13 @@
         "paid": true,
         "cancelBy": "NON-REFUNDABLE since Sept 30, 2026. Nothing to decide.",
         "meals": "Breakfast AND dinner both included.",
-        "qrPayload": "https://www.google.com/maps/search/?api=1&query=2211-1+Mizuguchi+Kawaguchi+Fujikawaguchiko+401-0304",
-        "qrLabel": "Maps · show a taxi driver",
         "warnings": [
           "Room: Konohana Comfort Suite, 2 adults, 1 night.",
           "\"I'd like a large bed\" is on file but subject to availability.",
           "No honeymoon note on the reservation. Email them.",
           "Small extras due at property: taxes/fees $0.32 + bathing tax $1.86, plus possible city accommodation tax."
-        ]
+        ],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=FUFU+Kawaguchiko%2C+2211-1+Mizuguchi%2C+Kawaguchi%2C+Fujikawaguchiko%2C+Yamanashi"
       }
     },
     {
@@ -163,18 +161,18 @@
       "stay": {
         "platform": "Booking.com",
         "city": "Kyoto · Higashiyama",
-        "addressJa": "〒605-0825 京都府京都市東山区下河原町487",
+        "addressJa": "〒605-0825 京都府京都市東山区下河原町487 メゾーン叡和",
         "checkInTime": "from 16:00",
         "checkOutTime": "by 10:00",
         "payment": "$589.19 total (~$147/night) via Booking.com — check the booking for whether it has been charged yet.",
         "meals": "None — it's an apartment hotel.",
-        "qrPayload": "https://www.google.com/maps/search/?api=1&query=487+Shimokawaracho+Higashiyama+Kyoto+605-0825",
-        "qrLabel": "Maps · show a taxi driver",
         "warnings": [
           "The PIN is confidential — it can modify or cancel the booking.",
           "Verify before arrival: daily housekeeping, higher-floor request (Higashi-oji road noise), private entrance.",
           "5 min walk to Yasaka Shrine; 14 min to Kiyomizu via Sannenzaka/Ninenzaka."
-        ]
+        ],
+        "phoneNote": "No front-desk line is listed for this building. The operator (HIWIN, Osaka office) is +81 6-6211-1680 — call only for problems, and never give it to a taxi: it's an Osaka number, so the car's navigation would route to Osaka. For a taxi, show the 日本語 address, which includes the building name メゾーン叡和.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Apartment+Hotel+11+Yasaka%2C+487+Shimokawaracho%2C+Higashiyama%2C+Kyoto"
       }
     },
     {
@@ -197,13 +195,13 @@
         "payment": "$367.12 PAID IN FULL — room + tax covered.",
         "paid": true,
         "meals": "None included.",
-        "qrPayload": "https://www.google.com/maps/search/?api=1&query=2-5-15+Shinsaibashisuji+Chuo-ku+Osaka+542-0085",
-        "qrLabel": "Maps · show a taxi driver",
         "warnings": [
           "Brian is NOT on the reservation — add him.",
           "Call about the exterior renovation before the Dec 4 stay.",
           "Superior Double, 1 queen, 2 guests. ~10 min walk to Dotonbori."
-        ]
+        ],
+        "phone": "+81 6-6213-8281",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cross+Hotel+Osaka%2C+2-5-15+Shinsaibashisuji%2C+Chuo-ku%2C+Osaka"
       }
     },
     {
@@ -227,15 +225,15 @@
         "paid": true,
         "cancelBy": "11:59 PM hotel time, 1 day before arrival, or 1-night fee.",
         "meals": "None included.",
-        "qrPayload": "https://www.google.com/maps/search/?api=1&query=2-7-2+Nishi-Shinjuku+Shinjuku-ku+Tokyo+160-0023",
-        "qrLabel": "Maps · show a taxi driver",
         "warnings": [
           "🚨 Reservation says ADULTS: 1 — fix this. Japanese hotels register guests individually by law.",
           "Brian is not on the reservation — add him.",
           "Room: 1 King, fully renovated, floors 10-16, 28sqm, shower only, max 2 guests, NO extra bed.",
           "Award night does NOT cover the 10% tax + 15% service charge.",
           "7 min walk to Kitamura Camera Shinjuku West for the film drop-off."
-        ]
+        ],
+        "phone": "+81 3-3348-1234",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hyatt+Regency+Tokyo%2C+2-7-2+Nishi-Shinjuku%2C+Shinjuku%2C+Tokyo"
       }
     }
   ],

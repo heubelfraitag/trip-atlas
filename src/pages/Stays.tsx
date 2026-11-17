@@ -1,4 +1,4 @@
-import { CopyButton, PrivateNumberLink, QrBlock, Row, SecretValue } from '../components/ConfirmationBits';
+import { CopyButton, PrivateNumberLink, Row, SecretValue } from '../components/ConfirmationBits';
 import { formatDateMid } from '../lib/format';
 import type { Hotel, Trip } from '../types/trip';
 
@@ -80,59 +80,48 @@ function StayCard({ hotel, index, privateUrl }: { hotel: Hotel; index: number; p
         </div>
       )}
 
-      <div className="mt-5 flex gap-5 flex-col sm:flex-row">
-        <dl className="flex-1 min-w-0">
-          {s.tripId && (
-            <Row label="Trip ID">
-              <span className="inline-flex items-center gap-2 flex-wrap">
-                <span className="font-mono">{s.tripId}</span>
-                <CopyButton value={s.tripId} />
-              </span>
-            </Row>
-          )}
-          {s.pin && (
-            <Row label="PIN · private">
-              <SecretValue value={s.pin} />
-            </Row>
-          )}
-          {s.guestName && <Row label="Under name">{s.guestName}</Row>}
-          {s.membership && <Row label="Member #">{s.membership}</Row>}
-          {s.meals && <Row label="Meals">{s.meals}</Row>}
-          {s.payment && <Row label="Payment">{s.payment}</Row>}
-          {s.cancelBy && <Row label="Cancel by">{s.cancelBy}</Row>}
-          {(s.phone || s.email) && (
-            <Row label="Contact">
-              <span className="flex flex-col gap-0.5">
-                {s.phone && (
-                  <a href={`tel:${s.phone.replace(/[^+\d]/g, '')}`} className="text-vermillion">
-                    {s.phone}
-                  </a>
-                )}
-                {s.email && (
-                  <a href={`mailto:${s.email}`} className="text-vermillion break-all">
-                    {s.email}
-                  </a>
-                )}
-              </span>
-            </Row>
-          )}
-          {s.confirmationLocation && <Row label="Email is in">{s.confirmationLocation}</Row>}
-          {s.manageUrl && (
-            <Row label="Manage">
-              <a href={s.manageUrl} target="_blank" rel="noreferrer" className="text-vermillion">
-                Open booking ↗
-              </a>
-            </Row>
-          )}
-        </dl>
-        {s.qrPayload && <QrBlock payload={s.qrPayload} label={s.qrLabel} />}
-      </div>
+      <dl className="mt-5">
+        {s.tripId && (
+          <Row label="Trip ID">
+            <span className="inline-flex items-center gap-2 flex-wrap">
+              <span className="font-mono">{s.tripId}</span>
+              <CopyButton value={s.tripId} />
+            </span>
+          </Row>
+        )}
+        {s.pin && (
+          <Row label="PIN · private">
+            <SecretValue value={s.pin} />
+          </Row>
+        )}
+        {s.guestName && <Row label="Under name">{s.guestName}</Row>}
+        {s.membership && <Row label="Member #">{s.membership}</Row>}
+        {s.meals && <Row label="Meals">{s.meals}</Row>}
+        {s.payment && <Row label="Payment">{s.payment}</Row>}
+        {s.cancelBy && <Row label="Cancel by">{s.cancelBy}</Row>}
+        {s.email && (
+          <Row label="Email">
+            <span className="inline-flex items-center gap-2 flex-wrap">
+              <span className="break-all select-all">{s.email}</span>
+              <CopyButton value={s.email} />
+            </span>
+          </Row>
+        )}
+        {s.confirmationLocation && <Row label="Email is in">{s.confirmationLocation}</Row>}
+        {s.manageUrl && (
+          <Row label="Manage">
+            <a href={s.manageUrl} target="_blank" rel="noreferrer" className="text-vermillion">
+              Open booking ↗
+            </a>
+          </Row>
+        )}
+      </dl>
 
-      {/* Address block — Japanese first so it can be shown to a driver. */}
+      {/* Getting there — Japanese address first so it can be shown to a driver. */}
       {(s.addressJa || (s.addressEn ?? hotel.address)) && (
         <div className="mt-5 rounded-xl bg-paper p-4 border border-line">
           <p className="text-[10px] uppercase tracking-widest text-ink-faint">
-            Address · show the driver
+            Getting there · show the driver
           </p>
           {s.addressJa && (
             <p className="text-xl sm:text-2xl text-ink mt-1 leading-snug" lang="ja">
@@ -142,11 +131,33 @@ function StayCard({ hotel, index, privateUrl }: { hotel: Hotel; index: number; p
           {(s.addressEn ?? hotel.address) && (
             <p className="text-sm text-ink-soft mt-1">{s.addressEn ?? hotel.address}</p>
           )}
-          <div className="mt-2 flex gap-2 flex-wrap">
+          {s.phone && (
+            <p className="mt-3 text-sm text-ink">
+              <span className="text-[10px] uppercase tracking-widest text-ink-faint mr-2">
+                Phone · taxi nav
+              </span>
+              <a href={`tel:${s.phone.replace(/[^+\d]/g, '')}`} className="font-mono text-vermillion">
+                {s.phone}
+              </a>
+            </p>
+          )}
+          {s.phoneNote && <p className="mt-2 text-xs text-ink-soft leading-relaxed">{s.phoneNote}</p>}
+          <div className="mt-3 flex gap-2 flex-wrap">
+            {s.mapsUrl && (
+              <a
+                href={s.mapsUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="text-[11px] uppercase tracking-wider font-semibold px-2 py-1 rounded-md border border-vermillion text-vermillion no-underline hover:bg-vermillion hover:text-paper"
+              >
+                Open in Maps ↗
+              </a>
+            )}
             {s.addressJa && <CopyButton value={s.addressJa} label="Copy 日本語" />}
             {(s.addressEn ?? hotel.address) && (
               <CopyButton value={(s.addressEn ?? hotel.address)!} label="Copy English" />
             )}
+            {s.phone && <CopyButton value={s.phone} label="Copy phone" />}
           </div>
         </div>
       )}
@@ -226,8 +237,9 @@ export default function StaysTab({ trip }: { trip: Trip }) {
       </div>
 
       <p className="mt-10 text-xs text-ink-faint">
-        QR codes open each address in Google Maps — handy for a taxi driver. PINs are hidden by
-        default because they can modify or cancel a booking.
+        In a taxi, show the driver the 日本語 address, or hand over the hotel's phone number: many
+        Japanese taxi navigation systems can find a destination by its phone number. "Open in Maps" is
+        for your own walking and train directions.
       </p>
     </div>
   );
