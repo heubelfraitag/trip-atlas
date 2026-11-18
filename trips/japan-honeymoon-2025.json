@@ -96346,7 +96346,7 @@
           "id": "d1-1c",
           "time": "17:30",
           "title": "NRT Airport Station — board N'EX",
-          "description": "After customs (~30-60 min) + Yamato luggage drop at the Arrivals counter, head down to the rail level beneath Terminal 1 (~5 min walk from arrivals). **Take the JR Narita Express (N'EX) bound for Shinjuku** — departs roughly every 30 min. ~85 min ride, all-reserved seats (¥3,250pp ordinary). Board the front 6 cars (split at Tokyo Station). Buy ticket at the JR ticket office in Arrivals or via JR East online reservation.",
+          "description": "After customs (~30-60 min) + Yamato luggage drop at the Arrivals counter, head down to the rail level beneath Terminal 1 (~5 min walk from arrivals). **Take the JR Narita Express (N'EX) bound for Shinjuku** — departs roughly every 30 min. ~85 min ride, all-reserved seats (¥3,250pp ordinary). Sit in the car number printed on your ticket (号車) — the train splits at Tokyo Station and only your half continues to Shinjuku. Step-by-step on the Confirmations → Trains tab. Buy on arrival at the JR ticket office or a JR ticket machine in the station under the terminal.",
           "address": "Narita Airport Station (under Terminal 1), Narita, Chiba",
           "category": "station",
           "lat": 35.76479,
@@ -100568,6 +100568,200 @@
         "Flown by ANA but booked through Air Canada. No separate ANA reservation number appears in the email — if ANA's check-in asks for one, find it under Manage Booking on aircanada.com or ask at the ANA counter with [private page].",
         "Itinerary: hotel checkout 07:30, Limousine Bus 08:00, at HND Terminal 3 by 09:00.",
         "Cabin class isn't stated on this leg in the email."
+      ]
+    }
+  ],
+  "trains": [
+    {
+      "id": "tr-nex",
+      "date": "2026-11-24",
+      "title": "Narita Airport → Shinjuku",
+      "service": "Narita Express (N'EX)",
+      "departs": "Every ~30 min · aim for ~5:30–6:00 PM",
+      "durationMin": 85,
+      "price": "≈ ¥3,250 each",
+      "status": "buy-on-the-day",
+      "statusNote": "Buy after you land — you won't know which train you'll make until you're through customs.",
+      "sections": [
+        {
+          "heading": "What to buy",
+          "items": [
+            "One-way Narita Express (N'EX) to Shinjuku — Ordinary car — 2 adults.",
+            "Not Green Car: that's first class and costs more.",
+            "Don't buy the N'EX round-trip ticket. You fly home from Haneda, so the return half would go to waste."
+          ]
+        },
+        {
+          "heading": "Where to buy",
+          "items": [
+            "Go down to the JR station under the terminal.",
+            "Buy at the JR ticket office, or at a JR ticket machine (tap English) if the line is long.",
+            "Get your Welcome Suica cards at the JR office too. Bring passports, load ¥3,000–5,000 in cash each."
+          ]
+        },
+        {
+          "heading": "On the machine",
+          "ordered": true,
+          "items": [
+            "Tap English.",
+            "Narita Express / N'EX — usually a big button on the first screen.",
+            "2 adults.",
+            "Destination: Shinjuku. Only trains that actually go to Shinjuku are offered.",
+            "Pick the next departure you can comfortably make.",
+            "Ordinary car.",
+            "Pick two seats together.",
+            "Pay by card or cash."
+          ]
+        },
+        {
+          "heading": "Which car to get on",
+          "items": [
+            "Get on the car number printed on your ticket — look for 号車 (e.g. 5号車 = car 5).",
+            "On the platform, overhead signs and markings on the floor show where each car stops. Stand at your car's number.",
+            "The train splits in two at Tokyo Station and only one half continues to Shinjuku. Stay in your assigned car the whole way — don't move to another car after Tokyo."
+          ]
+        },
+        {
+          "heading": "Reading the ticket",
+          "items": [],
+          "showGlossary": true
+        },
+        {
+          "heading": "At the gates",
+          "items": [
+            "You may get two tickets each. Feed them into the gate together, then take both back out on the other side.",
+            "Keep them — you need them again to exit at Shinjuku."
+          ]
+        },
+        {
+          "heading": "At Shinjuku",
+          "ordered": true,
+          "items": [
+            "Follow signs for the East Exit (東口) to the taxi rank.",
+            "Taxi to Yuen: about 5 minutes, ≈ ¥1,000.",
+            "Show the driver: 東京都新宿区新宿5-3-18 (Onsen Ryokan Yuen Shinjuku)."
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "ja": "成田エクスプレス",
+          "en": "Narita Express, plus the train number"
+        },
+        {
+          "ja": "成田空港 → 新宿",
+          "en": "Narita Airport → Shinjuku"
+        },
+        {
+          "ja": "5号車",
+          "en": "Car 5"
+        },
+        {
+          "ja": "8番A席",
+          "en": "Seat 8A"
+        },
+        {
+          "ja": "普通車",
+          "en": "Ordinary car (what you want)"
+        },
+        {
+          "ja": "グリーン車",
+          "en": "Green Car — first class"
+        }
+      ]
+    },
+    {
+      "id": "tr-fuji",
+      "date": "2026-11-27",
+      "title": "Shinjuku → Kawaguchiko",
+      "service": "Fuji Excursion (limited express)",
+      "departs": "Itinerary: board ~10:30 AM",
+      "durationMin": 120,
+      "price": "≈ ¥4,130 each",
+      "status": "not-booked",
+      "statusNote": "Not booked. All seats are reserved and Fuji trains can sell out — book this one before the trip, or at the JR office in Shinjuku on Nov 24 or 25.",
+      "sections": [
+        {
+          "heading": "How to book",
+          "items": [
+            "Online: JR East's English booking site (JR-EAST Train Reservation), then collect the tickets at a JR machine in Shinjuku with your passport.",
+            "Or in person at any JR ticket office in Shinjuku once you're in Tokyo.",
+            "Board at Shinjuku. Get on the car number on your ticket."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr-bus",
+      "date": "2026-11-30",
+      "title": "Kawaguchiko → Mishima",
+      "service": "Fujikyu highway bus",
+      "durationMin": 120,
+      "price": "≈ ¥2,300 each",
+      "status": "not-booked",
+      "statusNote": "Not booked. Book on Japan Bus Online.",
+      "sections": [
+        {
+          "heading": "Then",
+          "items": [
+            "At Mishima Station, change to the Tokaido Shinkansen to Kyoto (next card)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr-mishima",
+      "date": "2026-11-30",
+      "title": "Mishima → Kyoto",
+      "service": "Tokaido Shinkansen · Hikari",
+      "durationMin": 120,
+      "price": "≈ ¥11,500 each",
+      "status": "not-booked",
+      "statusNote": "Not booked. Book in the smartEX app, or at the ticket office in Mishima.",
+      "sections": [
+        {
+          "heading": "Seat tip",
+          "items": [
+            "Ask for seat E (window). On the Tokaido Shinkansen, E seats face Mt. Fuji. It appears soon after leaving Mishima."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr-kyoto-osaka",
+      "date": "2026-12-04",
+      "title": "Kyoto → Shin-Osaka",
+      "service": "Tokaido Shinkansen",
+      "durationMin": 14,
+      "price": "≈ ¥1,440 each",
+      "status": "buy-on-the-day",
+      "statusNote": "Short hop — just buy on the day at Kyoto Station.",
+      "sections": [
+        {
+          "heading": "Then",
+          "items": [
+            "Shin-Osaka isn't near your hotel. Take the Midosuji subway line from Shin-Osaka to Shinsaibashi (about 15 minutes), the stop for Cross Hotel Osaka."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tr-osaka-tokyo",
+      "date": "2026-12-06",
+      "title": "Shin-Osaka → Tokyo",
+      "service": "Tokaido Shinkansen · Nozomi",
+      "departs": "Itinerary: board ~12:00 PM",
+      "durationMin": 150,
+      "price": "≈ ¥14,720 each",
+      "status": "not-booked",
+      "statusNote": "Not booked. Book in the smartEX app, or at the ticket office in Shin-Osaka.",
+      "sections": [
+        {
+          "heading": "Seat tip",
+          "items": [
+            "Ask for seat E (window) — the Mt. Fuji side in this direction too."
+          ]
+        }
       ]
     }
   ]

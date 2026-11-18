@@ -120,7 +120,7 @@ export default function TripOverview() {
               Confirmations
             </span>
             <span className="block text-ink text-sm mt-0.5">
-              Hotels &amp; flights — numbers, addresses, check-in times
+              Hotels, flights &amp; trains — addresses, times, what to buy
             </span>
           </span>
           <span className="text-vermillion text-xl group-hover:translate-x-1 transition-transform">→</span>

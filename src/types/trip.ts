@@ -274,8 +274,37 @@ export interface FlightBooking {
   warnings?: string[];
 }
 
+/** A titled block of guidance inside a train leg. */
+export interface TrainSection {
+  heading: string;
+  items: string[];
+  /** Render as numbered steps. */
+  ordered?: boolean;
+  /** Render the leg's Japanese glossary in this section. */
+  showGlossary?: boolean;
+}
+
+/** One rail (or connecting bus) leg, shown on the Trains tab. */
+export interface TrainLeg {
+  id: string;
+  /** YYYY-MM-DD, local. */
+  date: string;
+  title: string;
+  service: string;
+  departs?: string;
+  durationMin?: number;
+  price?: string;
+  status: 'booked' | 'not-booked' | 'buy-on-the-day';
+  statusNote?: string;
+  sections?: TrainSection[];
+  /** Japanese text you'll see on the ticket, with English. */
+  glossary?: { ja: string; en: string }[];
+}
+
 export interface Trip {
   slug: string;
+  /** Rail legs for the Trains tab. */
+  trains?: TrainLeg[];
   /** Flight bookings for the Flights tab. */
   flights?: FlightBooking[];
   meta: TripMeta;

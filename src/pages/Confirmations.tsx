@@ -2,10 +2,12 @@ import { Link, Navigate, useParams, useSearchParams } from 'react-router-dom';
 import { getTrip } from '../data/trips';
 import StaysTab from './Stays';
 import FlightsTab from './Flights';
+import TrainsTab from './Trains';
 
 const TABS = [
   { key: 'stays', label: 'Stays' },
   { key: 'flights', label: 'Flights' },
+  { key: 'trains', label: 'Trains' },
 ] as const;
 type TabKey = (typeof TABS)[number]['key'];
 
@@ -76,7 +78,9 @@ export default function Confirmations() {
         })}
       </div>
 
-      {tab === 'stays' ? <StaysTab trip={trip} /> : <FlightsTab trip={trip} />}
+      {tab === 'stays' && <StaysTab trip={trip} />}
+      {tab === 'flights' && <FlightsTab trip={trip} />}
+      {tab === 'trains' && <TrainsTab trip={trip} />}
     </div>
   );
 }
