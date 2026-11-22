@@ -78,15 +78,15 @@
     },
     {
       "id": "hotel-fuji-1",
-      "name": "Kozantei Ubuya",
-      "neighborhood": "Lake Kawaguchi",
-      "lat": 35.5128155,
-      "lng": 138.7688497,
+      "name": "Lakeland Hotel Mizunosato",
+      "neighborhood": "Lake Kawaguchi · south shore",
+      "lat": 35.510469,
+      "lng": 138.7567048,
       "checkIn": "2026-11-27",
       "checkOut": "2026-11-29",
-      "booked": false,
-      "notes": "🛟 BACKUP HELD: Lakeland Hotel Mizunosato is booked for these exact nights (Nov 27-29) as insurance — see checklist item c1c. Ubuya remains the preferred stay if it opens up; cancel Mizunosato free by Nov 21 if it does. ❌ NOT BOOKED. Ubuya replied Jul 13 2026 (from dot0628@ubuya.co.jp, staff: YOKOYAMA): \"Please book directly through the official UBUYA website. We do not accept reservations made via travel agencies.\" ⚠️ BUT the official site shows Nov 27/28/29 SOLD OUT — only Nov 4, 6 and 30 have inventory in the whole month. So direct booking is currently impossible for our dates. NOTE: info@ubuya.co.jp BOUNCES (550 address not found) — the working address is dot0628@ubuya.co.jp. TEL 0555-72-1145. Options: (a) watch for cancellations on the official site, (b) JAPANiCAN/klook agency allotment ~$418/night still shows availability — but Ubuya explicitly discourages agency bookings, so confirm they would honor it before relying on this, (c) pick a different Kawaguchiko ryokan for Nov 27-29. Lakefront ryokan on Ubuyazaki cape, 2 nights planned before FUFU. 🆕 RAKUTEN TRAVEL CHECK (Aug 2 2026): Ubuya IS listed on Rakuten Travel Japan (hotel ID 8053, travel.rakuten.co.jp/HOTEL/8053/8053.html) with full inventory — 6 room types, 3 meal plans. This undercuts their \"we do not accept travel agency reservations\" email: they distribute through Rakuten, JAPANiCAN and Booking.com. That reply was most likely a form brush-off, not policy. 🚨 CRITICAL: every private-bath room on Rakuten is labelled 露天風呂付 … ※温泉ではございません = \"open-air bath, NOT hot spring water.\" Ubuya private baths are heated tap water; only the large public bath (大浴場) is real onsen. So \"private onsen room at Ubuya\" does not exist — FUFU (already booked) is where the genuine in-suite onsen is. ⚠️ All Rakuten plans state 「このプランは1泊限定」 = ONE NIGHT ONLY — a 2-night Nov 27-29 stay may not be bookable as a single reservation. ⚠️ Rakuten cancellation terms show 100% of accommodation fee up to check-in — far harsher than the OTAs. 💴 Rakuten indicative pricing per person incl. tax + 2 meals (buffet plan): 46㎡ Japanese room, no private bath ¥36,300-42,900 · 59㎡ Standard w/ open-air bath ¥50,600-57,200 · 71㎡ Superior ¥53,900-60,500 · 90㎡ Deluxe ¥57,200-63,800 · 98㎡ Special ¥60,500-67,100. For 2 people the private-bath Standard is ~¥101,000-114,000/night (~$680-770) vs the ~$418/night JAPANiCAN rate, which is clearly the no-private-bath 46㎡ room. NOT YET CONFIRMED: actual Nov 27-29 availability on Rakuten (booking flow needs a logged-in session).",
-      "address": "10 Azagawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0303",
+      "booked": true,
+      "notes": "✅ BOOKED & CHARGED via Booking.com, 2 nights Nov 27-29. Japanese-Style Twin Room with open-air bath + Mt Fuji view, breakfast AND dinner included. Check-in 15:00-19:30 (not before 15:00), check-out strictly before 10:00. Station shuttle needs advance reservation. +81 555-72-1831 · info@mizunosato.jp. Confirmation details on the private page.",
+      "address": "1070 Kodachi, Fujikawaguchiko-machi, Minamitsuru District, Yamanashi 401-0302",
       "stay": {
         "platform": "Booking.com",
         "city": "Kawaguchiko · Fuji",
@@ -95,23 +95,19 @@
         "email": "info@mizunosato.jp",
         "checkInTime": "15:00-19:30 (strictly not before 15:00)",
         "checkOutTime": "before 10:00 — strict",
-        "payment": "¥127,500 · TOTAL PAID ¥0 — Booking.com auto-charges. Property invoice shows ¥137,500; Booking.com covers ¥10,000.",
-        "paid": false,
-        "cancelBy": "⚠️ Free until Nov 21, 11:59 PM JST = SAT NOV 21, 9:59 AM ET. After that: full ¥137,500.",
+        "payment": "¥127,500 charged by Booking.com. The property invoice shows ¥137,500; Booking.com covers the ¥10,000 difference.",
+        "paid": true,
         "meals": "Breakfast AND dinner included. Dinner is buffet or multi-course, hotel's choice.",
         "warnings": [
           "This is a TWIN room — two separate beds. No bed request on file. Email them.",
           "No honeymoon note on the reservation. Email them.",
           "Station shuttle needs ADVANCE RESERVATION (14:30-19:30 per the confirmation; a separate hotel email said 14:45-20:00, call on arrival). Reserve it.",
-          "Itinerary reaches Kawaguchiko 12:30 — before the shuttle window. Fill 12:30-14:30 with the cape walk + lunch.",
+          "Your train arrives at Kawaguchiko 1:31 PM — have lunch, then take the shuttle around 2:30 PM (reserve it).",
           "Must be checked in by 19:00 or they will not prepare dinner.",
           "Few places to eat nearby — do not plan to wander out.",
           "Morning shuttle to the station: 8:30 / 9:00 / 9:30 / 10:00.",
           "Hot spring tax ¥600 (¥150/person/night) paid at the property."
         ],
-        "propertyName": "Lakeland Hotel Mizunosato",
-        "alternateNote": "Still trying for Kozantei Ubuya until Sat Nov 21 — Ubuya is NOT booked. Rep YOKOYAMA · +81 555-72-1145 · dot0628@ubuya.co.jp",
-        "addressEn": "1070 Kodachi, Fujikawaguchiko-machi, Minamitsuru District, Yamanashi 401-0302",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lakeland+Hotel+Mizunosato%2C+1070+Kodachi%2C+Fujikawaguchiko%2C+Yamanashi"
       }
     },
@@ -96407,7 +96403,14 @@
           "costPerPerson": 1500,
           "currency": "JPY",
           "lat": 35.68855,
-          "lng": 139.70016
+          "lng": 139.70016,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "ujyxEkctsYN`AtB]fAU@?BABJFd@@LqBh@}Ab@e@LIBWHUHSq@Me@Qi@GYMi@E_@Ge@_@kDMaAM{@G_@WcBSyAI{@Go@Ek@Ew@AMC[]QcAo@[Qw@e@[Sa@S{@c@e@Wm@[GCKGaAg@IC[QGd@AFAHO|@c@|BMn@Kh@Q`ACLI`@CNWIUIME[MOGi@Q",
+            "durationMin": 10,
+            "distanceM": 827,
+            "mode": "walk"
+          }
         },
         {
           "id": "d1-cam",
@@ -96915,17 +96918,10 @@
           "id": "d4-4",
           "time": "13:31",
           "title": "Kawaguchiko Station",
-          "description": "Arrive 1:31 PM. Hotel shuttles start mid-afternoon: Mizunosato's runs 14:30–19:30 and needs ADVANCE RESERVATION (+81 555-72-1831); Ubuya's on-call shuttle runs 14:30–18:00 (+81 555-72-1145). Have lunch first, then call or meet the shuttle.",
+          "description": "Arrive 1:31 PM. Mizunosato's station shuttle runs 14:30–19:30 and needs an ADVANCE RESERVATION (+81 555-72-1831). Have lunch first, then meet the shuttle around 2:30 PM. Check-in opens at 3:00 PM.",
           "category": "transit",
           "lat": 35.49833,
-          "lng": 138.76861,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "citwEwh~mY???i@?QDAn@@\\@DC?GDyA@w@EISAu@H]AG?@e@q@DSFMHc@JI?WAWIWMECCBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDWBU?QEMEg@YYQQKMK]UQMe@i@_@gAYaACIAGIUMg@Uq@oAsCm@sA]u@e@q@SUUWi@[_@Ua@Sg@Uk@Oc@Eg@Ac@Ak@C[CMCUGOKMKKMWc@IQUq@M]c@w@Y]Y[OOYSUMUKQESG[IeAMwAQKAC?oCa@sBU{@MsAOG?a@Aw@Bw@HI@uAj@[VWRo@n@k@z@m@pAMn@Gn@A`AFbAVrBr@rFt@`GBL",
-            "durationMin": 24,
-            "distanceM": 2014,
-            "mode": "walk"
-          }
+          "lng": 138.76861
         },
         {
           "id": "d4-5",
@@ -96933,24 +96929,31 @@
           "title": "Lunch near Kawaguchiko Station",
           "description": "About an hour to fill before the hotel shuttles start. Hōtō noodles (the local thick-noodle stew) are the classic choice near the station. Then take the shuttle to the hotel around 14:30.",
           "category": "hotel",
-          "lat": 35.5128155,
-          "lng": 138.7688497,
+          "lat": 35.49833,
+          "lng": 138.76861,
           "routeToNext": {
             "format": "polyline",
-            "data": "_awwEuh~mYCMi@gE",
-            "durationMin": 2,
-            "distanceM": 130,
+            "data": "citwEwh~mY???i@?QDAn@@\\@DC?GDyA@w@EISAu@H]AG?@e@q@DSFMHc@JI?WAWIWMECCBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDAT?@AbBNxAFZJ`@JXh@`BSxCGb@]zBCJIb@UbAMb@e@fBGr@?L?n@?@JdBFzEBvCO`@OXwAzAqAbBaAlAe@n@a@l@w@i@}B{ACCQMmDiCkAw@c@p@WTUJKDGBA?]B_AEgHWo@CqGUgBIo@CYBEBMDGJK\\Eb@Gx@Gr@C^@h@Bz@Ad@DjA@n@",
+            "durationMin": 26,
+            "distanceM": 2159,
             "mode": "walk"
           }
         },
         {
           "id": "d4-5c",
           "time": "15:00",
-          "title": "Kozantei Ubuya check-in",
+          "title": "Lakeland Hotel Mizunosato check-in",
           "description": "Official check-in at 15:00 — yukata fitting, room tour, onsen orientation. ~3.5 hours before Kaiseki #1 = perfect window for a first onsen soak + unwind from the travel day.",
           "category": "hotel",
-          "lat": 35.5128155,
-          "lng": 138.7688497
+          "lat": 35.510469,
+          "lng": 138.7567048,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "}tvwEi|{mYD~C@RB`Ay@Fy@I??",
+            "durationMin": 4,
+            "distanceM": 293,
+            "mode": "walk"
+          }
         },
         {
           "id": "d4-5b",
@@ -96958,24 +96961,24 @@
           "title": "Lake Kawaguchi walk",
           "description": "After check-in, walk the lakeshore before dinner — about 2.5 hours of daylight-to-dusk. Late November sunset is around 4:30 PM, so go straight out after settling in for Fuji at golden hour.",
           "category": "walk",
-          "lat": 35.5128,
-          "lng": 138.77,
+          "lat": 35.5125,
+          "lng": 138.756,
           "routeToNext": {
             "format": "polyline",
-            "data": "mbwwEko~mYh@fEBL",
-            "durationMin": 2,
-            "distanceM": 130,
+            "data": "exvwEut{mY??x@Hx@GCaAASE_D",
+            "durationMin": 4,
+            "distanceM": 293,
             "mode": "walk"
           }
         },
         {
           "id": "d4-6",
           "time": "18:30",
-          "title": "Kaiseki dinner #1",
-          "description": "Multi-course at the ryokan.",
+          "title": "Dinner at the hotel (included)",
+          "description": "Included with your room. Mizunosato serves a buffet or a multi-course Japanese dinner (their choice). Be checked in by 19:00 or they won't prepare it.",
           "category": "food",
-          "lat": 35.5128155,
-          "lng": 138.7688497
+          "lat": 35.510469,
+          "lng": 138.7567048
         }
       ],
       "routeFromHotel": {
@@ -97000,8 +97003,8 @@
           "title": "Japanese breakfast",
           "description": "Grilled fish, miso soup, tamagoyaki, rice.",
           "category": "food",
-          "lat": 35.5128155,
-          "lng": 138.7688497
+          "lat": 35.510469,
+          "lng": 138.7567048
         },
         {
           "id": "d5-2",
@@ -97009,23 +97012,21 @@
           "title": "First onsen",
           "description": "Open-air bath with Fuji view.",
           "category": "experience",
-          "lat": 35.5128155,
-          "lng": 138.7688497,
+          "lat": 35.510469,
+          "lng": 138.7567048,
           "routeToNext": {
             "format": "polyline",
-            "data": "_awwEuh~mYJn@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@B^@N?J?b@Aj@An@Cv@C^CZG`@IXK\\KVOTQVyAnB[b@OVINGNEPCLEPEPCP?NBPL`AJv@BV@P?N?HCXC\\KdAG`@CTERK^Sp@GTGNEPCLALAJ?J?L@L@LBLDNJ^r@fCl@tBxA|EnA~DBDnAhETn@LTNLZHhBf@lAZjA\\xCh@~@X~@\\zAoBrDyDN_@DINOLKLIHMLM",
-            "durationMin": 16,
-            "distanceM": 5084,
-            "mode": "subway",
-            "osrmMin": 6,
-            "corrected": true
+            "data": "}tvwEi|{mYAo@EkA@e@C{@Ai@B_@Fs@Fy@Dc@J]FKLEDCXCn@BfBHJ{CCc@PcCdBHf@A]aDdBKsFyEKImYkVm@k@i@g@]_@Y]u@}@]e@SYo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@B^@N?J?b@Aj@An@Cv@C^CZG`@IXK\\KVOTQVyAnB[b@OVINGNEPCLEPEPCP?NBPL`AJv@BV@P?N?HCXC\\KdAG`@CTERK^Sp@GTGNEPCLALAJ?J?L@L@LBLDNJ^r@fCl@tBxA|EnA~DBDnAhETn@LTNLZHhBf@lAZjA\\xCh@~@X~@\\zAoBrDyDN_@DINOLKLIHMLM",
+            "durationMin": 18,
+            "distanceM": 1501,
+            "mode": "walk"
           }
         },
         {
           "id": "d5-3",
           "time": "12:30",
           "title": "Houtou Fudou lunch",
-          "description": "Iconic Yamanashi noodle hot pot in a rustic folk-art farmhouse — wide flat noodles + vegetables in miso broth, served in a cast-iron pot the size of a small wheel. North shore, 5-10 min taxi from Ubuya, opens 11:00. Kicks off the active afternoon loop.",
+          "description": "Iconic Yamanashi noodle hot pot in a rustic folk-art farmhouse — wide flat noodles + vegetables in miso broth, served in a cast-iron pot the size of a small wheel. North shore, 5-10 min taxi from the hotel, opens 11:00. Kicks off the active afternoon loop.",
           "category": "food",
           "lat": 35.518,
           "lng": 138.7472,
@@ -97065,7 +97066,7 @@
           "id": "d5-3c",
           "time": "15:30",
           "title": "Mt Fuji Panoramic Ropeway",
-          "description": "Gondola from the south shore of Lake Kawaguchi up Mt Tenjo — Mt Fuji panorama from ~1100m. Round trip ¥1,000pp, ~3 min each way. Quick scenic stop before heading back to Ubuya for the lake walk + last kaiseki.",
+          "description": "Gondola from the south shore of Lake Kawaguchi up Mt Tenjo — Mt Fuji panorama from ~1100m. Round trip ¥1,000pp, ~3 min each way. Quick scenic stop before heading back to the hotel for the lake walk + last kaiseki.",
           "address": "1163 Azagawa, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0303",
           "category": "walk",
           "costPerPerson": 1000,
@@ -97086,26 +97087,26 @@
           "id": "d5-4",
           "time": "17:00",
           "title": "Lake Kawaguchi north shore walk",
-          "description": "Easy walk back along the lake at Ubuya area — sunset over Mt Fuji from the cape, decompress from the active afternoon before kaiseki. Optional, can swap for last onsen if you're wiped.",
+          "description": "Easy walk back along the lake near the hotel — sunset over Mt Fuji from the cape, decompress from the active afternoon before kaiseki. Optional, can swap for last onsen if you're wiped.",
           "category": "walk",
           "lat": 35.5182,
           "lng": 138.7605,
           "routeToNext": {
             "format": "polyline",
-            "data": "kzxwEa`|mY??DJFRDNBR@F@X?NEXCRO\\OX}@jAWZ[d@Y^EBGADi@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKyAe@s@UQIMIQMMMMMOQW[OUMSKSISKYEOCSw@qEk@mDCIAQAQ@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNVJ`@Rb@ZTNJFPFx@XTHFDDDDDDHPj@^bALXLXPVPRRPRLRLPHNBNBN?DAHARGnA}@HKJQDS`AgDDY@WCUKu@Ko@",
+            "data": "kzxwEa`|mY??DJFRDNBR@F@X?NEXCRO\\OX}@jAWZ[d@Y^EBGADi@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKyAe@s@UQIMIQMMMMMOQW[OUMSKSISKYEOCSw@qEk@mDCIAQAQ@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYTPXTj@j@VZf@r@Xd@^r@vCbG~DrId@x@FHx@fBZr@LXHTHTHb@Jl@Hf@Hf@Ln@FZBJFXFRHRHRJPLPNPNNRNlCzBn@z@RX\\d@t@|@X\\\\^h@f@l@j@lYjVJHrFxEeBJ\\`Dg@@eBIQbCBb@KzCgBIo@CYBEBMDGJK\\Eb@Gx@Gr@C^@h@Bz@Ad@DjA@n@",
             "durationMin": 14,
-            "distanceM": 1205,
+            "distanceM": 1157,
             "mode": "walk"
           }
         },
         {
           "id": "d5-6",
           "time": "18:30",
-          "title": "Kaiseki dinner #2 · hanafuda night",
+          "title": "Dinner at the hotel · hanafuda night",
           "description": "Multi-course dinner at the ryokan. Bring the Nintendo hanafuda deck picked up Day 3 and learn Koi-Koi over sake — watch a quick rules video on the way to dinner. Quiet lake, paper screens, two-player game.",
           "category": "food",
-          "lat": 35.5128155,
-          "lng": 138.7688497
+          "lat": 35.510469,
+          "lng": 138.7567048
         }
       ]
     },
@@ -97117,35 +97118,35 @@
       "activities": [
         {
           "id": "d6-2",
-          "time": "09:00",
+          "time": "08:00",
           "title": "Japanese breakfast at the ryokan",
-          "description": "Final Ubuya breakfast — leisurely, no rush since the active stuff was yesterday. Last morning onsen after.",
+          "description": "Final Mizunosato breakfast — leisurely, no rush since the active stuff was yesterday. Last morning onsen after.",
           "category": "food",
-          "lat": 35.5128155,
-          "lng": 138.7688497
+          "lat": 35.510469,
+          "lng": 138.7567048
         },
         {
           "id": "d6-2b",
-          "time": "09:30",
-          "title": "Last morning onsen at Ubuya",
+          "time": "08:45",
+          "title": "Last morning onsen at Mizunosato",
           "description": "Final dip with the Mt Fuji + lake view before checkout. Pack between sessions.",
           "category": "walk",
-          "lat": 35.5128155,
-          "lng": 138.7688497
+          "lat": 35.510469,
+          "lng": 138.7567048
         },
         {
           "id": "d6-2c",
-          "time": "11:00",
-          "title": "Ubuya checkout",
-          "description": "Standard ryokan checkout is 11:00. Taxi or short drive ~5 min to FUFU. Email FUFU ahead (reservation1@fufukawaguchiko.jp) requesting early check-in around 12:00 — they typically accommodate splurge-tier guests with confirmed dinner reservations.",
+          "time": "09:45",
+          "title": "Mizunosato checkout",
+          "description": "Check-out is strictly before 10:00. The hotel's free shuttle to Kawaguchiko Station leaves at 9:30 and 10:00 — or take a taxi straight to FUFU (about 2.5 km, ~10 min).",
           "category": "hotel",
-          "lat": 35.5128155,
-          "lng": 138.7688497,
+          "lat": 35.510469,
+          "lng": 138.7567048,
           "routeToNext": {
             "format": "polyline",
-            "data": "_awwEuh~mYJn@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAPMAK?KCGCIIa@c@kAnAKLe@n@k@t@k@t@OVMTEAWGECGCSKOIQGSCUE",
-            "durationMin": 28,
-            "distanceM": 2368,
+            "data": "}tvwEi|{mYAo@EkA@e@C{@Ai@B_@Fs@Fy@Dc@J]FKLEDCXCn@BfBHJ{CCc@PcCdBHf@A]aDdBKsFyEKImYkVm@k@i@g@]_@Y]u@}@]e@SYo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAPMAK?KCGCIIa@c@kAnAKLe@n@k@t@k@t@OVMTEAWGECGCSKOIQGSCUE",
+            "durationMin": 30,
+            "distanceM": 2496,
             "mode": "walk"
           }
         },
@@ -98313,7 +98314,16 @@
           "description": "7 min walk from Hyatt Regency Tokyo. 1-15-13 Nishi-Shinjuku, open 10:00-20:00 daily. Develop ¥950/roll; prints ¥63 each; CD ¥680; smartphone transfer ¥880 (best option — scans land on your phone, nothing to carry home). Turnaround is ~1 hour at this store, but dropping now leaves slack. Collect Dec 8. Tel +81 3-3343-0181.",
           "category": "shop",
           "lat": 35.6905,
-          "lng": 139.6976
+          "lng": 139.6976,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "qxyxEmsssYeBHQ@FrB?LD`AZAJ?bAEnAEJAF?dAEJ?XARARAL?jBIr@CJ?vAEX?d@JJZZbAPf@FP\\hAn@fBHTNXNZNXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jA~AdCrCxERZHLFLTUTSVSVOTIXIVGVCT?d@@t@B~AJh@DjAJvBLd@FbATjCr@z@T\\Hb@Hd@FF?ZLNDLBVBdA@bA@rC?bHJv@@Z?~AMnEFxAAfAGnDOzAEhJOpEA`B?lABr@HTDnCLhCFzACpBFZ@ZB`AH\\BH@R?TAD?PEVGTKXSf@a@x@s@TQLIJGXMLGLEHGLGLGTQNKhAy@zA{ArBaBlAaArAcADEFCLIHCHENELCJCr@ODAZM^OLEz@UbCaALGTO|B{Az@k@NMNKRQHg@Hc@Dc@@QAGCQKQcA{@g@]]Ua@[_@]SE]k@Yi@GOKWKE[Qg@Yy@c@FODK",
+            "durationMin": 19,
+            "distanceM": 5117,
+            "mode": "subway",
+            "osrmMin": 8,
+            "corrected": true
+          }
         },
         {
           "id": "d13-2b",
@@ -98679,7 +98689,16 @@
           "description": "Directly en route: Cat Street/Harajuku → Shinjuku is ~5 min, and Shinjuku → Shimokitazawa is ~7 min, so this slots between the 15:30 Harajuku block and the 18:30 Shimokitazawa live-house block with no detour. Store closes 20:00. Bring the receipt.",
           "category": "shop",
           "lat": 35.6905,
-          "lng": 139.6976
+          "lng": 139.6976,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "qxyxEmsssYeBHQ@FrB?LD`AZAJ?bAEnAEJAF?dAEJ?XARARAL?jBIr@CJ?vAEX?d@JJZZbAPf@FP\\hAn@fBHTNXNZNXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPEPGDb@DL@DBLBFDNDN@BBFLb@Lb@BF?@Tr@\\pAXhAPn@BFVr@BHBHJVFLBFTd@LZFJDFDDB@B?NABA`A?J?~@?`A@JANMDEDEDAJ@L@d@JPDt@Rp@Px@VJBH@H?BAFGFEDHHRD@\\FPD|@Vl@RJD~@\\AD[vAYr@z@vAXVB@ZFNBPB@JEf@@H@B",
+            "durationMin": 20,
+            "distanceM": 5223,
+            "mode": "subway",
+            "osrmMin": 9,
+            "corrected": true
+          }
         },
         {
           "id": "d15-4",
@@ -98803,15 +98822,9 @@
       "priority": "asap"
     },
     {
-      "id": "c1",
-      "title": "Kozantei Ubuya · 2 nights (Nov 27–29)",
-      "detail": "Direct booking or Relux. Mention honeymoon.",
-      "priority": "asap"
-    },
-    {
       "id": "c1c",
-      "title": "🛟 Mizunosato Nov 27-29 · FREE-CANCEL ENDS SAT NOV 21, 9:59 AM ET",
-      "detail": "⏰ HARD DEADLINE: free cancellation ends Nov 21, 2026 11:59 PM JST = **Sat Nov 21, 9:59 AM Eastern**. From Nov 22 12:00 AM JST the penalty is the FULL ¥137,500. Currently TOTAL PAID ¥0 — Booking.com will auto-charge ¥127,500. So the Ubuya-vs-Mizunosato decision must be made by Saturday MORNING your time, not the weekend.\n\nBooking.com conf [private page] · PIN on private page · 2 adults · lead guest Brian Heubel.\nRoom: Japanese-Style TWIN Room with Open-Air Bath + Mt Fuji View.\nBreakfast AND dinner included (dinner is buffet or multi-course, chosen by the hotel — no guest choice).\nHot spring tax ¥600 (¥150/person/night) paid at the property. Property invoice shows ¥137,500; Booking.com covers ¥10,000.\n1070 Kodachi, Fujikawaguchiko-machi, Yamanashi 401-0302 · +81 555-72-1831 · info@mizunosato.jp\n\n🚨 TWO THINGS NOT ON THE BOOKING:\n1. It is a TWIN room — two separate beds. No bed-type request is on file. For a honeymoon, email the property and ask for a double/large bed or beds pushed together.\n2. NO honeymoon note anywhere on the reservation. Email them — ryokans often do something for it.\n\n=== LOGISTICS FROM THE PROPERTY ===\nCHECK-IN 15:00-19:30 (strictly not before 15:00). CHECK-OUT strictly before 10:00.\nDINNER RULE: must be checked in by 19:00; no dinner prepared if you arrive after 19:30.\nSTATION SHUTTLE: the confirmation says it requires ADVANCE RESERVATION and runs 14:30-19:30. A separate email from the hotel said pickup 14:45-20:00, call on arrival. These conflict — RESERVE IT IN ADVANCE to be safe.\nIf you arrive before the shuttle window: Sightseeing Bus to stop No. 24 'Yagisaki Park', or a taxi.\nFREE MORNING SHUTTLE to Kawaguchiko Station: 8:30, 9:00, 9:30, 10:00.\nFew places to eat nearby. Tattoos restricted in the public baths.\n\n⚠️ DAY 4 TIMING: itinerary reaches Kawaguchiko Station 12:30 — before the shuttle window opens. Do the cape walk + lunch 12:30-14:30, then shuttle in and check in at 15:00.",
+      "title": "✅ Lakeland Hotel Mizunosato · Nov 27-29 · booked & charged",
+      "detail": "Booking.com, 2 adults, Japanese-Style TWIN room with open-air bath + Mt Fuji view. Breakfast AND dinner included. ¥127,500 charged. 1070 Kodachi, Fujikawaguchiko · +81 555-72-1831 · info@mizunosato.jp. Confirmation + PIN are on the private page.\n\n🚨 TWO THINGS NOT ON THE BOOKING:\n1. It is a TWIN room — two separate beds. No bed-type request is on file. For a honeymoon, email the property and ask for a double/large bed or beds pushed together.\n2. NO honeymoon note anywhere on the reservation. Email them — ryokans often do something for it.\n\n=== LOGISTICS FROM THE PROPERTY ===\nCHECK-IN 15:00-19:30 (strictly not before 15:00). CHECK-OUT strictly before 10:00.\nDINNER RULE: must be checked in by 19:00; no dinner prepared if you arrive after 19:30.\nSTATION SHUTTLE: the confirmation says it requires ADVANCE RESERVATION and runs 14:30-19:30. A separate email from the hotel said pickup 14:45-20:00, call on arrival. These conflict — RESERVE IT IN ADVANCE to be safe.\nIf you arrive before the shuttle window: Sightseeing Bus to stop No. 24 'Yagisaki Park', or a taxi.\nFREE MORNING SHUTTLE to Kawaguchiko Station: 8:30, 9:00, 9:30, 10:00.\nFew places to eat nearby. Tattoos restricted in the public baths.\n\n⚠️ DAY 4 TIMING: itinerary reaches Kawaguchiko Station 12:30 — before the shuttle window opens. Do the cape walk + lunch 12:30-14:30, then shuttle in and check in at 15:00.",
       "priority": "closer"
     },
     {
@@ -98904,8 +98917,8 @@
     },
     {
       "id": "c16",
-      "title": "Yamato luggage forward · Ubuya → 11 Yasaka Kyoto (Nov 30)",
-      "detail": "Drop at Ubuya front desk Nov 29 evening. Saves you wrangling bags through the bus + 2 shinkansen transfers Mishima → Kyoto. ~¥2-3K per bag.",
+      "title": "Yamato luggage forward · Mizunosato → 11 Yasaka Kyoto (optional)",
+      "detail": "Only if you are carrying more than an overnight bag at Fuji: hand it to the Mizunosato front desk at checkout on Nov 29 for delivery to 11 Yasaka (Kyoto), saving you the bus + shinkansen with luggage on Nov 30. ~¥2-3K per bag.",
       "priority": "closer"
     },
     {
@@ -98979,7 +98992,7 @@
     {
       "id": "wl-fuji-chureito-sunrise",
       "title": "Chureito Pagoda sunrise",
-      "description": "Iconic Mt Fuji + pagoda + autumn-leaves shot. Sunrise on Nov 28-29 is ~06:42, so you'd wake ~05:30 and taxi 10 min from Ubuya (3km, ~¥1500). Climb ~400 steps to the observation deck. Optional — decide morning-of based on weather + how you're feeling. Either Day 5 or Day 6 early morning works. Coords: 35.50119, 138.80139.",
+      "description": "Iconic Mt Fuji + pagoda + autumn-leaves shot. Sunrise on Nov 28-29 is ~06:42, so you'd wake ~05:30 and taxi 10 min from the hotel (3km, ~¥1500). Climb ~400 steps to the observation deck. Optional — decide morning-of based on weather + how you're feeling. Either Day 5 or Day 6 early morning works. Coords: 35.50119, 138.80139.",
       "category": "temple",
       "lat": 35.50119,
       "lng": 138.80139,
@@ -99255,7 +99268,7 @@
     {
       "id": "wl-fuji-sanrokuen",
       "title": "Sanrokuen — 150-yr farmhouse irori dining",
-      "description": "150-yr-old farmhouse with sunken irori charcoal hearths where YOU grill your own skewers — fresh iwana mountain char (from their own tank), Koshu beef, Sanroku pork, finished with hoto pot. Smoky, romantic, deeply local. ⚠️ **Closed Wednesdays. Last order 17:30 (early!)** — book an early dinner. 8 min from Ubuya.",
+      "description": "150-yr-old farmhouse with sunken irori charcoal hearths where YOU grill your own skewers — fresh iwana mountain char (from their own tank), Koshu beef, Sanroku pork, finished with hoto pot. Smoky, romantic, deeply local. ⚠️ **Closed Wednesdays. Last order 17:30 (early!)** — book an early dinner. 8 min from the hotel.",
       "address": "3370-1 Funatsu, Fujikawaguchiko, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99267,7 +99280,7 @@
     {
       "id": "wl-fuji-ide-sake",
       "title": "Ide Sake Brewery — only sake brewery in the Five Lakes",
-      "description": "21-generation family sake brewery (since 1850), Mt Fuji spring water, flagship 'Kainokaiun.' **English tours daily 9:30 + 15:00, 40 min, ¥2,200pp incl tastings + souvenir glass.** Reserve ahead (small brewery). The only sake brewery in the entire Fuji Five Lakes region — combines history + craft + tasting in one stop. 10 min from Ubuya.",
+      "description": "21-generation family sake brewery (since 1850), Mt Fuji spring water, flagship 'Kainokaiun.' **English tours daily 9:30 + 15:00, 40 min, ¥2,200pp incl tastings + souvenir glass.** Reserve ahead (small brewery). The only sake brewery in the entire Fuji Five Lakes region — combines history + craft + tasting in one stop. 10 min from the hotel.",
       "address": "41 Funatsu, Fujikawaguchiko, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99345,7 +99358,7 @@
     {
       "id": "wl-fuji-benifuji-onsen",
       "title": "Benifuji no Yu — sunset onsen with direct Fuji view",
-      "description": "Outdoor baths facing Mt Fuji directly across Lake Yamanaka. **November is peak season** because cold air gives the namesake 'Beni-Fuji' (red Fuji) glow at dawn/dusk. Less crowded than Yurari. Real volcanic water. ¥900 weekday/¥1,000 weekend. ⚠️ **Closed Mondays AND Tuesdays.** 30 min drive from Ubuya — longer than Kawaguchiko options but the sunset view earns the trip.",
+      "description": "Outdoor baths facing Mt Fuji directly across Lake Yamanaka. **November is peak season** because cold air gives the namesake 'Beni-Fuji' (red Fuji) glow at dawn/dusk. Less crowded than Yurari. Real volcanic water. ¥900 weekday/¥1,000 weekend. ⚠️ **Closed Mondays AND Tuesdays.** 30 min drive from the hotel — longer than Kawaguchiko options but the sunset view earns the trip.",
       "address": "Yamanaka 865-776, Yamanakako-mura, Yamanashi",
       "category": "experience",
       "city": "Kawaguchiko",
@@ -99357,7 +99370,7 @@
     {
       "id": "wl-fuji-akafuji-wine",
       "title": "Akafuji Wine Cellar — 130+ Yamanashi wines in one tasting room",
-      "description": "Solves the 'Yamanashi is wine country but Katsunuma is 70 min' problem — they curate ~130 Yamanashi wines from across the prefecture (Grace, Lumière, Marquis, Château Mercian) in one room. **Free tastings of their own labels, pour-and-buy model, English-friendly staff.** Cellar room is a Bordeaux-style replica. Indoor — weather-proof rainy-day pivot. 10 min from Ubuya.",
+      "description": "Solves the 'Yamanashi is wine country but Katsunuma is 70 min' problem — they curate ~130 Yamanashi wines from across the prefecture (Grace, Lumière, Marquis, Château Mercian) in one room. **Free tastings of their own labels, pour-and-buy model, English-friendly staff.** Cellar room is a Bordeaux-style replica. Indoor — weather-proof rainy-day pivot. 10 min from the hotel.",
       "address": "2020-1 Funatsu, Fujikawaguchiko, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99933,7 +99946,7 @@
     {
       "id": "wl-fuji-hoto-kosaku",
       "title": "Hoto Kosaku — honeymoon-grade hoto alt to the tourist-bus Fudou",
-      "description": "**Better honeymoon-quality alternative to the tourist-bus Hoto Fudou** (which is already on the itinerary). Lighter, refined hoto broth; noodles aged with country miso, no preservatives. Tabelog local favorite, quieter atmosphere, fewer coach buses. Open year-round; hoto is *the* November dish (hot, miso, pumpkin). ~¥1,500/bowl. 10 min from Ubuya.",
+      "description": "**Better honeymoon-quality alternative to the tourist-bus Hoto Fudou** (which is already on the itinerary). Lighter, refined hoto broth; noodles aged with country miso, no preservatives. Tabelog local favorite, quieter atmosphere, fewer coach buses. Open year-round; hoto is *the* November dish (hot, miso, pumpkin). ~¥1,500/bowl. 10 min from the hotel.",
       "address": "1376-1 Funatsu, Fujikawaguchiko, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99945,7 +99958,7 @@
     {
       "id": "wl-fuji-menkyokaiden-udon",
       "title": "Menkyokaiden — Yamanashi's OTHER local noodle (Yoshida udon)",
-      "description": "Yoshida udon is Yamanashi's *other* specialty — **Japan's chewiest udon, soy-miso broth, cabbage, horse-meat (basashi) topping.** Each shop has its own 'suridane' chili spice. Menkyokaiden is locals' top pick, famous for stewed-beef topping. **Tiny bowls (~¥650-900), lunch only at most shops.** Expect short queue at lunch. 15 min from Ubuya.",
+      "description": "Yoshida udon is Yamanashi's *other* specialty — **Japan's chewiest udon, soy-miso broth, cabbage, horse-meat (basashi) topping.** Each shop has its own 'suridane' chili spice. Menkyokaiden is locals' top pick, famous for stewed-beef topping. **Tiny bowls (~¥650-900), lunch only at most shops.** Expect short queue at lunch. 15 min from the hotel.",
       "address": "3 min from Kawaguchiko IC, Fujikawaguchiko, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99957,7 +99970,7 @@
     {
       "id": "wl-fuji-cisco-coffee",
       "title": "Cisco Coffee — third-wave hand-drip, local barista hangout",
-      "description": "Third-wave hand-drip coffee shop, San Francisco-themed, opened 2014 — **local barista hangout, NOT tour-bus-adjacent.** Quick stop on the south end of the north-shore strip. *Honest:* verify hours on arrival, small shop closes early. ~¥500-700/cup. 5 min from Ubuya.",
+      "description": "Third-wave hand-drip coffee shop, San Francisco-themed, opened 2014 — **local barista hangout, NOT tour-bus-adjacent.** Quick stop on the south end of the north-shore strip. *Honest:* verify hours on arrival, small shop closes early. ~¥500-700/cup. 5 min from the hotel.",
       "address": "927-1 Kodachi, Fujikawaguchiko, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99969,7 +99982,7 @@
     {
       "id": "wl-fuji-kawaguchiko-bakery",
       "title": "Kawaguchiko Bakery by saintcloud",
-      "description": "Long-fermentation bread program using a 20-wheat blend, low-temp fermented — **the apple Danish and an-butter sandwich are the standouts.** Inside the new Kawaguchiko Base food hall, which also has farmer's-market produce stalls. ~9:30-17:30. **Indoor venue — weather-proof option.** 10 min from Ubuya.",
+      "description": "Long-fermentation bread program using a 20-wheat blend, low-temp fermented — **the apple Danish and an-butter sandwich are the standouts.** Inside the new Kawaguchiko Base food hall, which also has farmer's-market produce stalls. ~9:30-17:30. **Indoor venue — weather-proof option.** 10 min from the hotel.",
       "address": "Tabi no Eki Kawaguchiko Base, 521-4 Kawaguchi, Fujikawaguchiko",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99981,7 +99994,7 @@
     {
       "id": "wl-fuji-7c-winery",
       "title": "7c Winery (Seven Cedars) — Japan's first winery-villa",
-      "description": "**Japan's first winery-villa concept** in the Fuji foothills. Daily attendant-led tours include the cellar, vineyard, and seasonal tastings. **By far the closest serious winery to Ubuya** — skips the toll-road trip to Katsunuma. Vineyard bare by late Nov but indoor tour/tasting runs year-round. Tour + tasting ~¥3,000-5,000. 20 min via Route 138. Book ahead.",
+      "description": "**Japan's first winery-villa concept** in the Fuji foothills. Daily attendant-led tours include the cellar, vineyard, and seasonal tastings. **By far the closest serious winery to the hotel** — skips the toll-road trip to Katsunuma. Vineyard bare by late Nov but indoor tour/tasting runs year-round. Tour + tasting ~¥3,000-5,000. 20 min via Route 138. Book ahead.",
       "address": "Oshino-mura, Minamitsuru-gun, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -99993,7 +100006,7 @@
     {
       "id": "wl-fuji-mina-no-hiroba",
       "title": "Mina-no-Hiroba Terrace — 150+ Japanese wineries + dim sum",
-      "description": "Wine shop/tasting room pouring from **150+ Japanese wineries** (heavy Yamanashi Koshu focus) with dim sum, BBQ, terrace seating with Fuji-over-the-lake view. **Lower-pressure than a winery tour — taste many wines in one stop.** Open year-round; terrace cold in Nov but covered seating exists. Wine tastings from ¥500/pour. 5 min from Ubuya.",
+      "description": "Wine shop/tasting room pouring from **150+ Japanese wineries** (heavy Yamanashi Koshu focus) with dim sum, BBQ, terrace seating with Fuji-over-the-lake view. **Lower-pressure than a winery tour — taste many wines in one stop.** Open year-round; terrace cold in Nov but covered seating exists. Wine tastings from ¥500/pour. 5 min from the hotel.",
       "address": "1107-1 Kodachi, Fujikawaguchiko, Yamanashi",
       "category": "food",
       "city": "Kawaguchiko",
@@ -100015,7 +100028,7 @@
     {
       "id": "wl-fuji-omuro-sengen",
       "title": "Fuji Omuro Sengen Jinja — oldest Sengen shrine (699 CE)",
-      "description": "**Oldest Sengen shrine in Yamanashi** (founded 699 CE), with a Momoyama-period main hall relocated from Fuji's 2nd Station. Quiet, ringed by tall trees, UNESCO-listed. **A much more meditative shrine experience than Kitaguchi.** Free, open year-round, hardly any tourists. 5 min from Ubuya (south shore near Yagisaki).",
+      "description": "**Oldest Sengen shrine in Yamanashi** (founded 699 CE), with a Momoyama-period main hall relocated from Fuji's 2nd Station. Quiet, ringed by tall trees, UNESCO-listed. **A much more meditative shrine experience than Kitaguchi.** Free, open year-round, hardly any tourists. 5 min from the hotel (south shore near Yagisaki).",
       "address": "3951 Katsuyama, Fujikawaguchiko, Yamanashi",
       "category": "temple",
       "city": "Kawaguchiko",
@@ -100085,7 +100098,7 @@
     {
       "id": "wl-fuji-muse-museum",
       "title": "Kawaguchiko Muse Museum — Yuki Atae lifelike fabric dolls",
-      "description": "Quiet doll-art museum showing **Yuki Atae's hauntingly lifelike fabric dolls** in elaborate Showa-era dioramas. Affiliated with Kawaguchiko Museum of Art. **Much quieter and odder than Music Forest** — appeals if you liked Itchiku Kubota's craftsmanship angle. ~¥600. ⚠️ Closed Thursdays. 5 min from Ubuya.",
+      "description": "Quiet doll-art museum showing **Yuki Atae's hauntingly lifelike fabric dolls** in elaborate Showa-era dioramas. Affiliated with Kawaguchiko Museum of Art. **Much quieter and odder than Music Forest** — appeals if you liked Itchiku Kubota's craftsmanship angle. ~¥600. ⚠️ Closed Thursdays. 5 min from the hotel.",
       "address": "Yagisaki Park area, north shore, Fujikawaguchiko",
       "category": "art",
       "city": "Kawaguchiko",
