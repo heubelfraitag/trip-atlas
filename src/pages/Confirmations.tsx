@@ -3,11 +3,13 @@ import { getTrip } from '../data/trips';
 import StaysTab from './Stays';
 import FlightsTab from './Flights';
 import TrainsTab from './Trains';
+import LuggageTab from './Luggage';
 
 const TABS = [
   { key: 'stays', label: 'Stays' },
   { key: 'flights', label: 'Flights' },
   { key: 'trains', label: 'Trains' },
+  { key: 'luggage', label: 'Luggage' },
 ] as const;
 type TabKey = (typeof TABS)[number]['key'];
 
@@ -56,7 +58,7 @@ export default function Confirmations() {
         </a>
       )}
 
-      <div role="tablist" className="mb-6 flex gap-1 border-b border-line">
+      <div role="tablist" className="mb-6 flex gap-1 border-b border-line overflow-x-auto">
         {TABS.map((t) => {
           const active = t.key === tab;
           return (
@@ -81,6 +83,7 @@ export default function Confirmations() {
       {tab === 'stays' && <StaysTab trip={trip} />}
       {tab === 'flights' && <FlightsTab trip={trip} />}
       {tab === 'trains' && <TrainsTab trip={trip} />}
+      {tab === 'luggage' && <LuggageTab trip={trip} />}
     </div>
   );
 }

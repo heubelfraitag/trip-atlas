@@ -98911,19 +98911,19 @@
     },
     {
       "id": "c15",
-      "title": "Yamato luggage forward · Yuen Shinjuku → 11 Yasaka Kyoto (Nov 29)",
-      "detail": "Drop bags at Yuen Shinjuku front desk Nov 26 evening or Nov 27 AM (~3 PM Yamato cutoff). ~¥2-3K per bag. Skip carrying through Fuji entirely — bags meet you in Kyoto on Nov 30. Travel with small overnight bag for Fuji Excursion + ryokan nights.",
+      "title": "Luggage · Yuen Shinjuku → Mizunosato (hand over Nov 26 evening)",
+      "detail": "Hand the big bags to Yuen's front desk on the evening of Nov 26, addressed to Lakeland Hotel Mizunosato. They arrive Nov 27. The Japanese card to show the desk is on Confirmations → Luggage.",
       "priority": "closer"
     },
     {
       "id": "c16",
-      "title": "Yamato luggage forward · Mizunosato → 11 Yasaka Kyoto (optional)",
-      "detail": "Only if you are carrying more than an overnight bag at Fuji: hand it to the Mizunosato front desk at checkout on Nov 29 for delivery to 11 Yasaka (Kyoto), saving you the bus + shinkansen with luggage on Nov 30. ~¥2-3K per bag.",
+      "title": "Luggage · FUFU → Yamato Kyoto Gion office (hand over Nov 29)",
+      "detail": "At FUFU check-in on Nov 29, send the big bags to be held at the Yamato Kyoto Gion office (code 162620), 2 minutes' walk from 11 Yasaka. Pick up Nov 30 with passport + receipt; open 8:00-19:00 daily. The Japanese card to show the desk is on Confirmations → Luggage.",
       "priority": "closer"
     },
     {
       "id": "c17",
-      "title": "Yamato luggage forward · Cross Osaka → Hyatt Regency Tokyo (Dec 6)",
+      "title": "Luggage · Cross Hotel Osaka → Hyatt Regency Tokyo (hand over Dec 5 evening)",
       "detail": "Drop at Cross Hotel front desk Dec 5 evening. Skip the 2.5-hr Nozomi luggage hassle + the post-2020 oversized-bag reservation requirement. ~¥2-3K per bag.",
       "priority": "closer"
     },
@@ -100795,6 +100795,133 @@
           ]
         }
       ]
+    }
+  ],
+  "luggage": [
+    {
+      "id": "lg-nrt",
+      "date": "2026-11-24",
+      "title": "Narita Airport → Yuen Shinjuku",
+      "how": "Yamato counter in the arrivals hall",
+      "notes": [
+        "Bags arrive the NEXT evening (Nov 25). Keep Night 1 clothes and toiletries in your carry-on.",
+        "About ¥2,500–3,500 per large bag."
+      ],
+      "card": {
+        "label": "Show at the Yamato counter",
+        "ja": [
+          "この荷物をホテルに送りたいです。",
+          "温泉旅館 由縁 新宿",
+          "〒160-0022 東京都新宿区新宿5-3-18",
+          "TEL 03-5361-8355",
+          "チェックイン：11月24日"
+        ],
+        "en": "Please send these bags to our hotel: Onsen Ryokan Yuen Shinjuku. We check in Nov 24."
+      }
+    },
+    {
+      "id": "lg-yuen",
+      "date": "2026-11-26",
+      "title": "Yuen Shinjuku → Lakeland Hotel Mizunosato",
+      "how": "Yuen's front desk, evening of Nov 26",
+      "notes": [
+        "Tokyo to Kawaguchiko is next-day, so they'll be waiting when you check in on Nov 27.",
+        "Keep one small bag for the morning and the train."
+      ],
+      "card": {
+        "label": "Show Yuen's front desk",
+        "ja": [
+          "この荷物を次のホテルに送りたいです。",
+          "レイクランドホテル みずのさと",
+          "〒401-0302 山梨県富士河口湖町小立1070",
+          "TEL 0555-72-1831",
+          "チェックイン：11月27日（2泊）"
+        ],
+        "en": "Please send these bags to our next hotel: Lakeland Hotel Mizunosato. We check in Nov 27 for 2 nights."
+      }
+    },
+    {
+      "id": "lg-taxi",
+      "date": "2026-11-29",
+      "title": "Mizunosato → FUFU Kawaguchiko",
+      "how": "Take them with you by taxi (about 10 minutes)",
+      "notes": [
+        "Check-out at Mizunosato is strictly before 10:00."
+      ]
+    },
+    {
+      "id": "lg-fufu",
+      "date": "2026-11-29",
+      "title": "FUFU → Yamato Kyoto Gion office (held for pickup)",
+      "how": "FUFU's front desk",
+      "notes": [
+        "Fuji to Kyoto is next-day. Hand the bags over when you check in on Nov 29 and they can reach Kyoto on Nov 30, the day you do. Sent on the morning of Nov 30, they arrive Dec 1.",
+        "Keep out what you need for the FUFU night and the travel day.",
+        "The desk will need your name as on your passport and a phone number for the label.",
+        "KEEP THE RECEIPT. You need its tracking number to collect the bags."
+      ],
+      "card": {
+        "label": "Show FUFU's front desk",
+        "ja": [
+          "この荷物を「営業所止め」で送りたいです。",
+          "ヤマト運輸 京都祇園営業所 止め",
+          "営業所コード：162620",
+          "〒605-0074 京都府京都市東山区四条通大和大路東入祇園町南側570-228",
+          "11月30日に営業所で受け取りたいです。間に合いますか？"
+        ],
+        "en": "Please send these bags to be HELD AT the Yamato Kyoto Gion office (office code 162620). We want to pick them up there on Nov 30. Will they arrive in time?"
+      }
+    },
+    {
+      "id": "lg-gion",
+      "date": "2026-11-30",
+      "title": "Pick up at Yamato Kyoto Gion office",
+      "how": "2-minute walk (about 150 m) from Apartment Hotel 11 Yasaka",
+      "notes": [
+        "Open 8:00 AM–7:00 PM every day.",
+        "Bring your passport and the receipt from FUFU.",
+        "Check in at 11 Yasaka first (from 4:00 PM), then walk over."
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0009479,135.7771894",
+      "sourceUrl": "https://locations2.kuronekoyamato.co.jp/yamato01/Detail?id=162620",
+      "card": {
+        "label": "Show at the Yamato office",
+        "ja": [
+          "営業所止めの荷物を受け取りに来ました。",
+          "伝票番号はこちらです。"
+        ],
+        "en": "We're here to pick up bags held at this office. Here is the tracking number."
+      }
+    },
+    {
+      "id": "lg-osaka",
+      "date": "2026-12-04",
+      "title": "Kyoto → Cross Hotel Osaka",
+      "how": "Carry them. It's a 15-minute train",
+      "notes": [
+        "Taxi from 11 Yasaka to Kyoto Station, then the train to Shin-Osaka and the Midosuji subway to Shinsaibashi."
+      ]
+    },
+    {
+      "id": "lg-hyatt",
+      "date": "2026-12-05",
+      "title": "Cross Hotel Osaka → Hyatt Regency Tokyo",
+      "how": "Cross Hotel's front desk, evening of Dec 5",
+      "notes": [
+        "Arrives at the Hyatt on Dec 6, the day you check in.",
+        "Keep one small bag for the last Osaka night and the train."
+      ],
+      "card": {
+        "label": "Show Cross Hotel's front desk",
+        "ja": [
+          "この荷物を次のホテルに送りたいです。",
+          "ハイアット リージェンシー 東京",
+          "〒160-0023 東京都新宿区西新宿2-7-2",
+          "TEL 03-3348-1234",
+          "チェックイン：12月6日（3泊）"
+        ],
+        "en": "Please send these bags to our next hotel: Hyatt Regency Tokyo. We check in Dec 6 for 3 nights."
+      }
     }
   ]
 }

@@ -301,8 +301,26 @@ export interface TrainLeg {
   glossary?: { ja: string; en: string }[];
 }
 
+/** One step of moving the big bags, shown on the Luggage tab. */
+export interface LuggageStep {
+  id: string;
+  /** YYYY-MM-DD, local: the day you hand over (or carry) the bags. */
+  date: string;
+  title: string;
+  /** Where / how you hand them over. */
+  how: string;
+  notes?: string[];
+  /** Text to show a front desk: Japanese lines plus what they mean. */
+  card?: { label: string; ja: string[]; en: string };
+  mapsUrl?: string;
+  /** Official page backing up the details. */
+  sourceUrl?: string;
+}
+
 export interface Trip {
   slug: string;
+  /** Luggage-forwarding plan for the Luggage tab. */
+  luggage?: LuggageStep[];
   /** Rail legs for the Trains tab. */
   trains?: TrainLeg[];
   /** Flight bookings for the Flights tab. */
