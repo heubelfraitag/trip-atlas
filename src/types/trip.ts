@@ -210,6 +210,8 @@ export interface Day {
   routeToHotel?: RouteGeometry;
   /** Fallback stops if the day diverges from the schedule. Listed below the timeline only. */
   backups?: DayBackup[];
+  /** Extra pick-lists (e.g. lunch options), each shown as its own dropdown above the backups. */
+  picks?: { title: string; note?: string; items: DayBackup[] }[];
 }
 
 export interface ChecklistItem {
