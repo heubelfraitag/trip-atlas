@@ -37,7 +37,8 @@ function synthHotelStart(hotel: Hotel, firstAct: Activity, dayNumber: number): A
     id: `synth-d${dayNumber}-hotel-start`,
     time,
     title: `Wake up at ${hotel.name}`,
-    description: `${hotel.notes ? hotel.notes + ' · ' : ''}Heading to ${firstAct.title}.`,
+    description:
+      hotel.wakeNote ?? `${hotel.notes ? hotel.notes + ' · ' : ''}Heading to ${firstAct.title}.`,
     address: hotel.address || hotel.neighborhood,
     category: 'hotel',
     lat: hotel.lat,

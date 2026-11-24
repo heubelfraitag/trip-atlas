@@ -103,6 +103,8 @@ export interface Hotel {
   bookingUrl?: string;
   booked?: boolean;
   notes?: string;
+  /** Short text for the synthesized "Wake up at …" card. Replaces the full notes there. */
+  wakeNote?: string;
   /** Structured confirmation details, surfaced on the Stays page. */
   stay?: StayRecord;
 }
