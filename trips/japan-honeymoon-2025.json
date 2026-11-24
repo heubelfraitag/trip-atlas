@@ -96922,12 +96922,12 @@
       "picks": [
         {
           "title": "Lunch options",
-          "note": "Nine picks along today's Shimokitazawa walk, all open for Wednesday lunch. Tabelog is the local rating site: 3.5 and up is reliably good.",
+          "note": "Twelve picks along today's Shimokitazawa walk, all open for Wednesday lunch. Tabelog is the local rating site: 3.5 and up is reliably good. Most reviewed there: Kyu Yamu-tei, Mintei, Men to Mirai, Nasu Oyaji.",
           "items": [
             {
               "id": "d3-l-hiroki",
               "title": "HIROKI Okonomiyaki",
-              "description": "CHARM. Hiroshima-style okonomiyaki cooked on the griddle in front of you; featured in the food drama Kodoku no Gurume. Tabelog 3.48, Top 100 okonomiyaki 2019. About ¥1,100–1,700 each. Cash only, no reservations, and it can fill right at the 12:00 opening. Lunch may end at 14:00.",
+              "description": "CHARM. Hiroshima-style okonomiyaki cooked on the griddle in front of you; featured in the food drama Kodoku no Gurume. Tabelog 3.48 (512 reviews), Top 100 okonomiyaki 2019. About ¥1,100–1,700 each. Cash only, no reservations, and it can fill right at the 12:00 opening. Lunch may end at 14:00.",
               "address": "Honey Shimokitazawa 1F, 2-14-14 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6601,
@@ -96937,7 +96937,7 @@
             {
               "id": "d3-l-dododo",
               "title": "dododo",
-              "description": "LOCAL FAVORITE. Small set-lunch spot where the demi-glace hamburg steak is the order; big portions, fair prices. A reviewer waited about 20 minutes at 13:00 on a Saturday, with a line still there on leaving. Lunch 12:00–16:00.",
+              "description": "LOCAL FAVORITE. Small set-lunch spot where the demi-glace hamburg steak is the order; big portions, fair prices. A reviewer waited about 20 minutes at 13:00 on a Saturday, with a line still there on leaving. Lunch 12:00–16:00. Tabelog not checked.",
               "address": "2-12-2 Kitazawa 1C, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6609,
@@ -96945,9 +96945,29 @@
               "hub": "South end · by Stick Out"
             },
             {
+              "id": "d3-l-yamutei",
+              "title": "Kyu Yamu-tei Shimokita-so (旧ヤム邸 シモキタ荘)",
+              "description": "TOP ON TABELOG. Osaka-style spice curry: pick two or three of the monthly keema curries on one plate. Tabelog 3.81 from 2,304 reviews, Top 100 curry 2026; Google 4.4 (948). About 12 seats and a line at lunch, but you take a number and can shop while you wait. Three minutes south of Stick Out. Lunch 11:00–15:00.",
+              "address": "Nice Building 1F, 5-29-9 Daizawa, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6584183,
+              "lng": 139.6670651,
+              "hub": "South end · by Stick Out"
+            },
+            {
+              "id": "d3-l-nasuoyaji",
+              "title": "Nasu Oyaji (茄子おやじ)",
+              "description": "LOCAL FAVORITE WITH CHARM. Old-school curry house with records playing; short menu of chicken, beef, vegetable or the 'special' with everything. Tabelog 3.65 from 1,146 reviews; Google 4.3 (903). About ¥1,600. Open 11:00–21:30 with no break, so there's no rush.",
+              "address": "Alpha Building 1F, 5-36-8 Daizawa, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6592719,
+              "lng": 139.6668722,
+              "hub": "South end · by Stick Out"
+            },
+            {
               "id": "d3-l-mikawa",
               "title": "Kaimen Mikawa",
-              "description": "LOCAL FAVORITE, CHEAPEST. Clam-broth ramen from a former hotel chef, about ¥980 a bowl. Tabelog 3.66. Seven counter seats, one-man kitchen, buy a ticket from the machine outside; fast once seated. Open 11:00–15:00.",
+              "description": "LOCAL FAVORITE, CHEAPEST. Clam-broth ramen from a former hotel chef, about ¥980 a bowl. Tabelog 3.66 (923 reviews). Seven counter seats, one-man kitchen, buy a ticket from the machine outside; fast once seated. Open 11:00–15:00.",
               "address": "2-25-4 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6617,
@@ -96957,7 +96977,7 @@
             {
               "id": "d3-l-mintei",
               "title": "Mintei (珉亭)",
-              "description": "LOCAL LEGEND. Town Chinese diner open since 1964, known for its pink char siu fried rice; the ramen-plus-half-fried-rice set is the classic. Tabelog 3.49, Top 100 Chinese 2023. Old-style floor seating upstairs, English menu. Expect a 10–30 minute wait at peak; write your name on the list. Open 11:30–19:30.",
+              "description": "LOCAL LEGEND. Town Chinese diner open since 1964, known for its pink char siu fried rice; the ramen-plus-half-fried-rice set is the classic. Tabelog 3.49 (2,104 reviews), Top 100 Chinese 2023. Old-style floor seating upstairs, English menu. Expect a 10–30 minute wait at peak; write your name on the list. Open 11:30–19:30.",
               "address": "2-8-8 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.662498,
@@ -96967,7 +96987,7 @@
             {
               "id": "d3-l-banhmi",
               "title": "Bánh mì Bà Ba",
-              "description": "QUICK AND CHEAP. Banh mi stuffed to the edges, about ¥850 for the signature, plus strong Vietnamese coffee. Tiny, mostly takeaway; bring cash. Open 9:00–21:30.",
+              "description": "QUICK AND CHEAP. Banh mi stuffed to the edges, about ¥850 for the signature, plus strong Vietnamese coffee. Tiny, mostly takeaway; bring cash. Open 9:00–21:30. Tabelog 3.45 (202 reviews) at its previous address.",
               "address": "2-28-7 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6633,
@@ -96977,7 +96997,7 @@
             {
               "id": "d3-l-dandadan",
               "title": "Gyoza Dan da Dan Sakaba (Shimokitazawa)",
-              "description": "POPULAR AND CHEAP. Gyoza izakaya with lunch sets; a reviewer paid about ¥3,000 for two meals and two drinks. Easy to walk into, good for a fast sit-down. Open 11:30–24:00.",
+              "description": "POPULAR AND CHEAP. Gyoza izakaya with lunch sets; a reviewer paid about ¥3,000 for two meals and two drinks. Easy to walk into, good for a fast sit-down. Open 11:30–24:00. Tabelog not checked.",
               "address": "2-10-10 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6618,
@@ -96987,7 +97007,7 @@
             {
               "id": "d3-l-ponipirika",
               "title": "Ponipirika (soup curry)",
-              "description": "SOUP CURRY WITHOUT THE LINE. Hokkaido-style soup curry with a pile of vegetables; pick your spice level. Same building as Mintei, upstairs. Open 11:00–21:30 with no afternoon break.",
+              "description": "SOUP CURRY WITHOUT THE LINE. Hokkaido-style soup curry with a pile of vegetables; pick your spice level. Same building as Mintei, upstairs. Open 11:00–21:30 with no afternoon break. Tabelog 3.60 (944 reviews).",
               "address": "2-8-8 Kitazawa 2F, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6624827,
@@ -96995,9 +97015,19 @@
               "hub": "Middle · by Mode Off"
             },
             {
+              "id": "d3-l-kotetsu",
+              "title": "Chukasoba Kotetsu (中華そば こてつ)",
+              "description": "CLASSIC RAMEN. Soy-sauce ramen with a dried-fish broth, thin noodles and wontons; reviewers note a Michelin Bib Gourmand listing. Tabelog 3.73 from 970 reviews; Google 4.2 (671). Ticket machine, counter seats, quick turnover. Next door to the scheduled curry spot. Lunch 11:30–15:00.",
+              "address": "Tamaru Building 1F, 2-39-13 Kitazawa, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6646202,
+              "lng": 139.6663347,
+              "hub": "North end · by New York Joe"
+            },
+            {
               "id": "d3-l-mentomirai",
               "title": "Junteuchi Men to Mirai",
-              "description": "MOST POPULAR. The top-rated ramen in Shimokitazawa on Tabelog (3.77, Top 100 ramen 2020): very thick, chewy hand-made noodles in a clear salt broth, with shrimp wontons. Seven counter seats, cash only; one reviewer met a line of 10–15 at 13:00. Lunch 11:30–14:30.",
+              "description": "MOST POPULAR. The top-rated ramen in Shimokitazawa on Tabelog (3.77 from 2,072 reviews, Top 100 ramen 2020): very thick, chewy hand-made noodles in a clear salt broth, with shrimp wontons. Seven counter seats, cash only; one reviewer met a line of 10–15 at 13:00. Lunch 11:30–14:30.",
               "address": "3-25-1 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6636,
@@ -97007,7 +97037,7 @@
             {
               "id": "d3-l-samurai",
               "title": "Rojiura Curry SAMURAI. (current plan)",
-              "description": "TOURIST HIT. Soup curry with a pile of vegetables; pick broth, spice level and toppings. The one most visitors go to. Lunch 11:00–15:30.",
+              "description": "TOURIST HIT. Soup curry with a pile of vegetables; pick broth, spice level and toppings. The one most visitors go to. Lunch 11:00–15:30. Tabelog 3.40 (1,080 reviews).",
               "address": "3-31-14 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6646918,
@@ -97017,9 +97047,19 @@
           ]
         },
         {
-          "title": "Matcha spots",
-          "note": "Ordered by where you'll be. Google ratings first; Tabelog scores near 3.0 with few reviews mean locals have barely rated the place yet, not that it's bad.",
+          "title": "Matcha grab-and-go spots",
+          "note": "Each entry says whether it's takeaway or sit-down. Tabelog scores near 3.0 with few reviews mean locals have barely rated the place yet, not that it's bad.",
           "items": [
+            {
+              "id": "d3-m-thematcha",
+              "title": "The Matcha Tokyo (NEWoMan Shinjuku)",
+              "description": "TAKEAWAY, ON YOUR WAY TO THE TRAIN. Organic matcha latte counter at Shinjuku Station, whisked in front of you; the matcha coffee latte is a favorite. Open 8:00–21:00, so it works before the 8:55 departure. Google 4.1 (574). Tabelog 3.28 (113 reviews).",
+              "address": "NEWoMan Shinjuku 1F, 4-1-6 Shinjuku, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.688774,
+              "lng": 139.7018396,
+              "hub": "Shinjuku · start or end of the day"
+            },
             {
               "id": "d3-m-passport",
               "title": "Matcha Passport Tokyo",
@@ -97061,6 +97101,56 @@
               "hub": "Koenji"
             },
             {
+              "id": "d3-m-chacha",
+              "title": "Chacha Kobo",
+              "description": "SIT-DOWN. Calm Japanese tea café in the student quarter, about 10 minutes' walk east of Takadanobaba Station: tea sets, hojicha warabi mochi. Closes at 19:00, so it only works if you reach Takadanobaba early. Tabelog 3.52 (201 reviews). Google 3.9 (172).",
+              "address": "2-21-19 Nishiwaseda, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.7109316,
+              "lng": 139.7105441,
+              "hub": "Takadanobaba"
+            },
+            {
+              "id": "d3-m-oiwake",
+              "title": "Oiwake Dango Honpo",
+              "description": "LOCAL CLASSIC, TAKEAWAY OR SIT-DOWN. Dango shop since 1948 with a tea room behind the counter: matcha sets, matcha shaved ice, dango to go. The best-backed of the list on Tabelog: 3.76 from 2,340 reviews, Top 100 sweets 2026. Google 4.4 (1,630). Open 10:30–19:00 on weekdays.",
+              "address": "3-1-22 Shinjuku, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6904895,
+              "lng": 139.7053554,
+              "hub": "Shinjuku · start or end of the day"
+            },
+            {
+              "id": "d3-m-tokiya",
+              "title": "Tokiya (Odakyu Halc)",
+              "description": "SIT-DOWN. Nostalgic sweets café by the west exit: dorayaki, anmitsu and bowls of whisked matcha. Tabelog 3.71 from 1,431 reviews, Top 100 sweets 2026. Google 4.1 (654). Open 11:00–20:00.",
+              "address": "1-5-1 Nishishinjuku, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6925204,
+              "lng": 139.6982744,
+              "hub": "Shinjuku · start or end of the day"
+            },
+            {
+              "id": "d3-m-toraya",
+              "title": "Toraya Café (Isetan Shinjuku)",
+              "description": "SIT-DOWN. Tea room of the centuries-old Toraya confectioner in the Isetan basement: traditional matcha with yokan. Expect about a 20-minute queue with a QR ticket. Tabelog 3.30 (269 reviews). Google 4.1 (253). Open 10:00–20:00.",
+              "address": "Isetan Shinjuku B1F, 3-14-1 Shinjuku, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6911323,
+              "lng": 139.7046677,
+              "hub": "Shinjuku · start or end of the day"
+            },
+            {
+              "id": "d3-m-nanas",
+              "title": "nana's green tea (Lumine Est Shinjuku)",
+              "description": "OPEN LATE. Chain café for matcha parfaits and lattes on the 8th floor above Shinjuku Station; the only one here still open when you get back tonight (11:00–22:00). Same building as PUNYUS. Tabelog 3.09 (146 reviews). Google 4.0 (223).",
+              "address": "Lumine Est 8F, 3-38-1 Shinjuku, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6910901,
+              "lng": 139.7009835,
+              "hub": "Shinjuku · start or end of the day"
+            },
+            {
               "id": "d3-m-mametocha",
               "title": "MAME TO CHA Shinjuku",
               "description": "POPULAR (4.7 from 373) and a few minutes from the hotel. Calm room, matcha and hojicha lattes, strawberry matcha. Closes at 17:00, so it's a morning stop: opens 9:00. Tabelog 3.04 (2 reviews).",
@@ -97068,7 +97158,7 @@
               "category": "food",
               "lat": 35.693009,
               "lng": 139.7059644,
-              "hub": "Shinjuku · near the hotel"
+              "hub": "Shinjuku · start or end of the day"
             },
             {
               "id": "d3-m-matcho",
@@ -97078,7 +97168,7 @@
               "category": "food",
               "lat": 35.6909784,
               "lng": 139.7091353,
-              "hub": "Shinjuku · near the hotel"
+              "hub": "Shinjuku · start or end of the day"
             }
           ]
         },
