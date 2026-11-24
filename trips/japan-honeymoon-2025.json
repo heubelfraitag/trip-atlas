@@ -96916,7 +96916,79 @@
         "corrected": true,
         "formulaMin": 20,
         "pinned": "Google Maps verified: Yuen→Shimokitazawa median 30min"
-      }
+      },
+      "backups": [
+        {
+          "id": "d3-b-trefac-east",
+          "title": "TreFacStyle Shimokitazawa East Exit",
+          "description": "Big, well-kept secondhand store with fitting rooms; tax-free over ¥5,000. Mid-loop, near Stick Out. Open 11:00–21:00.",
+          "address": "2-32-8 Kitazawa, Setagaya-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.6627924,
+          "lng": 139.6688174,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-notime",
+          "title": "NOTIME Shimokitazawa",
+          "description": "Well-organized vintage at fair prices, with a lot of winter jackets. South end, near Treasure Factory. The sign says 24 hours but a reviewer found it opens at 12:00.",
+          "address": "2-19-17 Kitazawa, Setagaya-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.660272,
+          "lng": 139.6672633,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-iot",
+          "title": "iot reverse",
+          "description": "Curated, harder-to-find pieces and original band tees. South end, near Treasure Factory. Open 12:00–22:00, so it also works late.",
+          "address": "2-13-14 Kitazawa 1F, Setagaya-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.6604233,
+          "lng": 139.6681317,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-jam",
+          "title": "Furugiya JAM Vintage & Select Shimokitazawa",
+          "description": "Menswear-leaning vintage with military and workwear; a little pricey, helpful English-speaking staff. Mid-loop, 2nd floor. Open 11:00–20:00.",
+          "address": "2-31-7 Kitazawa 2F, Setagaya-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.6628798,
+          "lng": 139.6679345,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-sui",
+          "title": "Sui Vintage Shimokitazawa",
+          "description": "Small curated shop: cashmere sweaters and leather jackets. North end, next to the lunch spot. Doesn't open until 14:00, so it fits right after lunch.",
+          "address": "2-39-13 Kitazawa, Setagaya-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.6646036,
+          "lng": 139.666403,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-ponipirika",
+          "title": "Ponipirika (soup curry)",
+          "description": "Lunch fallback if Rojiura Curry Samurai has a line. Hokkaido-style soup curry with lots of vegetables, pick your spice level. Open 11:00–21:30 with no afternoon break.",
+          "address": "2-8-8 Kitazawa 2F, Setagaya-ku, Tokyo",
+          "category": "food",
+          "lat": 35.6624827,
+          "lng": 139.6694281,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-trefac-koenji",
+          "title": "TreFacStyle Koenji 1",
+          "description": "Secondhand store that's strong on menswear and brand pieces at fair prices; a second branch is a few minutes away. Open 11:00–20:00.",
+          "address": "4-4-15 Koenjiminami, Suginami-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.702497,
+          "lng": 139.651936,
+          "hub": "Koenji"
+        }
+      ]
     },
     {
       "date": "2026-11-26",

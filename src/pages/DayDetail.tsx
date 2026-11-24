@@ -5,6 +5,7 @@ import TripMap from '../components/TripMap';
 import ActivityCard from '../components/ActivityCard';
 import OpenInMapsButton from '../components/OpenInMapsButton';
 import CityNoteCard from '../components/CityNoteCard';
+import CategoryBadge from '../components/CategoryBadge';
 import { formatCurrency, formatDateLong } from '../lib/format';
 import { cityColor } from '../lib/maps';
 import { deriveStatus, getCurrentAndNext, getCurrentDay, useNow } from '../lib/now';
@@ -215,6 +216,46 @@ export default function DayDetail() {
           );
         })}
       </section>
+
+      {day.backups && day.backups.length > 0 && (
+        <details className="mt-8 rounded-lg border border-line bg-paper-deep/40 px-4 py-3">
+          <summary className="cursor-pointer text-sm font-semibold text-ink">
+            Backups if plans change · {day.backups.length}
+          </summary>
+          <p className="mt-2 text-xs text-ink-faint">
+            Not part of the schedule. Swap one in if a shop is closed, a line is long, or you
+            end up with extra time.
+          </p>
+          {Array.from(new Set(day.backups.map((b) => b.hub ?? ''))).map((hub) => (
+            <div key={hub || 'other'} className="mt-4">
+              {hub && (
+                <h3 className="text-[11px] font-semibold tracking-wider uppercase text-ink-faint">
+                  {hub}
+                </h3>
+              )}
+              <ul className="mt-2 space-y-4">
+                {day.backups!
+                  .filter((b) => (b.hub ?? '') === hub)
+                  .map((b) => (
+                    <li key={b.id}>
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="text-sm font-semibold text-ink">{b.title}</span>
+                        <CategoryBadge category={b.category} />
+                      </div>
+                      {b.description && (
+                        <p className="mt-1 text-sm text-ink-soft leading-relaxed">{b.description}</p>
+                      )}
+                      {b.address && <p className="mt-1 text-xs text-ink-faint">{b.address}</p>}
+                      <div className="mt-2">
+                        <OpenInMapsButton lat={b.lat} lng={b.lng} name={b.title} />
+                      </div>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          ))}
+        </details>
+      )}
 
       <div className="mt-8 flex justify-between items-center gap-3 border-t border-line pt-6">
         {prev ? (

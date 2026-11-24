@@ -185,6 +185,19 @@ export interface Activity {
   city?: string;
 }
 
+/** An unscheduled fallback shown under a day's timeline. Not on the route, map, calendar or cost. */
+export interface DayBackup {
+  id: string;
+  title: string;
+  description?: string;
+  address?: string;
+  lat: number;
+  lng: number;
+  category: Category;
+  /** Group label, e.g. the neighborhood the backup belongs to. */
+  hub?: string;
+}
+
 export interface Day {
   date: string;
   dayNumber: number;
@@ -195,6 +208,8 @@ export interface Day {
   routeFromHotel?: RouteGeometry;
   /** Evening route: last activity → hotel. Populated by precompute-routes.mjs. */
   routeToHotel?: RouteGeometry;
+  /** Fallback stops if the day diverges from the schedule. Listed below the timeline only. */
+  backups?: DayBackup[];
 }
 
 export interface ChecklistItem {
