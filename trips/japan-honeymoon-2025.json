@@ -96919,6 +96919,26 @@
       },
       "backups": [
         {
+          "id": "d3-b-flippers-shinjuku",
+          "title": "FLIPPER'S Shinjuku",
+          "description": "Same soufflé pancakes as the Shimokitazawa branch, on the walk to Shinjuku Station. Opens 9:00. Take a number from the tablet when you arrive; waits run from about 25 minutes at opening to two hours later in the morning.",
+          "address": "4-1-7 Shinjuku 2F, Shinjuku-ku, Tokyo",
+          "category": "food",
+          "lat": 35.6886667,
+          "lng": 139.7026495,
+          "hub": "Shinjuku · before the train"
+        },
+        {
+          "id": "d3-b-musashino",
+          "title": "Musashino Mori Diner Shinjuku Central Park",
+          "description": "Soufflé pancakes made to order (about 20 minutes) plus eggs and toast, next to Shinjuku Central Park. Opens 7:00, so it works for an early start, but it's on the far west side of the station from the hotel.",
+          "address": "2-11-5 Nishishinjuku, Shinjuku-ku, Tokyo",
+          "category": "food",
+          "lat": 35.6910994,
+          "lng": 139.6901793,
+          "hub": "Shinjuku · before the train"
+        },
+        {
           "id": "d3-b-trefac-east",
           "title": "TreFacStyle Shimokitazawa East Exit",
           "description": "Big, well-kept secondhand store with fitting rooms; tax-free over ¥5,000. Mid-loop, near Stick Out. Open 11:00–21:00.",
@@ -96987,6 +97007,16 @@
           "lat": 35.702497,
           "lng": 139.651936,
           "hub": "Koenji"
+        },
+        {
+          "id": "d3-b-jspancake",
+          "title": "J.S. Pancake Cafe Nakano Central Park",
+          "description": "Thick buttermilk pancakes (fluffy, but not the soufflé style) as an afternoon stop near Nakano Broadway. One order per person, 90-minute limit. Open 11:00–20:00.",
+          "address": "Central Park East 1F, 4-10-1 Nakano, Nakano-ku, Tokyo",
+          "category": "food",
+          "lat": 35.7075385,
+          "lng": 139.6627243,
+          "hub": "Nakano"
         }
       ]
     },
