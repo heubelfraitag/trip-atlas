@@ -96438,35 +96438,10 @@
       "city": "Tokyo",
       "activities": [
         {
-          "id": "d3-bfast",
-          "time": "09:15",
-          "title": "Shinpachi Shokudo Shinjuku Tonanguchi (breakfast)",
-          "description": "Three breakfast picks; the pin is the first one.\n\n1. **Shinpachi Shokudo (this pin)** — charcoal-grilled fish set breakfast with rice and miso soup. On the walk to Shinjuku Station, cheap, order by tablet with an English menu. Open from 4:00 AM.\n2. **Sawamura Bakery & Restaurant** — French toast, egg plates and pastries inside Shinjuku Station (NEWoMan 2F food hall). Open from 7:00 AM; good if you'd rather eat right at the train.\n3. **NIGICHA** — onigiri, pork-and-vegetable soup and matcha latte sets. Six minutes' walk the other way from the station (1-3-8 Shinjuku, near Shinjuku Gyoen). Open from 8:00 AM.\n\nLeave for the train by 10:00.",
-          "address": "3-35-5 Shinjuku, Shinjuku-ku, Tokyo",
-          "category": "food",
-          "lat": 35.6897831,
-          "lng": 139.7024563,
-          "routeToNext": {
-            "format": "geojson",
-            "data": [
-              [
-                139.7024563,
-                35.6897831
-              ],
-              [
-                139.6671,
-                35.6614
-              ]
-            ],
-            "durationMin": 25,
-            "mode": "subway"
-          }
-        },
-        {
           "id": "d3-1",
-          "time": "10:30",
+          "time": "09:25",
           "title": "Shimokitazawa Station",
-          "description": "HUB 1 · Shimokitazawa. Odakyu line from Shinjuku. Everything here is a few minutes' walk apart: work south to north through the thrift shops, then lunch at the top of the loop.",
+          "description": "HUB 1 · Shimokitazawa. Odakyu line from Shinjuku; leave the hotel around 8:55. Pancake breakfast first, then work south to north through the thrift shops as they open, with lunch at the top of the loop.",
           "category": "transit",
           "lat": 35.6614,
           "lng": 139.6671,
@@ -96478,18 +96453,44 @@
                 35.6614
               ],
               [
+                139.6669116,
+                35.6627345
+              ]
+            ],
+            "durationMin": 2,
+            "distanceM": 187,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-flippers",
+          "time": "09:30",
+          "title": "Flipper's Shimokitazawa",
+          "description": "Soufflé pancake breakfast, a couple of minutes from the station. Be at the door for the 9:30 opening; a line forms soon after. Pancakes are made to order (allow about 20 minutes) and one drink per person is required.",
+          "address": "2-26-20 Kitazawa 1F, Setagaya-ku, Tokyo",
+          "category": "food",
+          "lat": 35.6627345,
+          "lng": 139.6669116,
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                139.6669116,
+                35.6627345
+              ],
+              [
                 139.6684277,
                 35.6602457
               ]
             ],
-            "durationMin": 3,
-            "distanceM": 220,
+            "durationMin": 5,
+            "distanceM": 386,
             "mode": "walk"
           }
         },
         {
           "id": "d3-tf",
-          "time": "10:40",
+          "time": "10:30",
           "title": "Treasure Factory Style Shimokitazawa",
           "description": "The only big shop open before 11:00 (10:00–21:00 daily), so start here. Large secondhand store with a mix of designer and everyday pieces; reviewers mention Japanese denim brands and tax-free checkout. Sizes run small.",
           "address": "2-3-9 Kitazawa, Setagaya-ku, Tokyo",
@@ -96515,7 +96516,7 @@
         },
         {
           "id": "d3-2",
-          "time": "11:15",
+          "time": "11:10",
           "title": "Harajuku Chicago Shimokitazawa",
           "description": "Americana vintage and a wall of vintage Levi's. Opens 11:00.",
           "category": "shop",
@@ -96565,7 +96566,7 @@
         },
         {
           "id": "d3-4",
-          "time": "12:20",
+          "time": "12:25",
           "title": "Stick Out",
           "description": "Flat-price thrift shop. Opens 12:00. The old ¥700 price has crept up; recent reviews say ¥800–900 per item.",
           "category": "shop",
@@ -96590,7 +96591,7 @@
         },
         {
           "id": "d3-nyjoe",
-          "time": "12:45",
+          "time": "12:55",
           "title": "New York Joe Shimokitazawa",
           "description": "Buy-sell-trade shop inside a former public bathhouse; the tiled floors and old bath layout are still there (watch the gutter in the floor). Most items under ¥10,000. Open 12:00–20:00.",
           "address": "3-26-4 Kitazawa, Setagaya-ku, Tokyo",
@@ -96616,7 +96617,7 @@
         },
         {
           "id": "d3-lunch",
-          "time": "13:15",
+          "time": "13:45",
           "title": "Rojiura Curry SAMURAI. Shimokitazawa",
           "description": "Soup curry lunch in a yellow building down a back alley. Pick your broth, spice level and toppings; the crispy chicken with lots of vegetables is the usual order, and portions are big. Lunch runs 11:00–15:30 on weekdays. **Backup if there's a line:** Ponipirika (2-8-8 Kitazawa 2F, open 11:00–21:30).",
           "address": "3-31-14 Kitazawa, Setagaya-ku, Tokyo",
@@ -96641,7 +96642,7 @@
         },
         {
           "id": "d3-7",
-          "time": "14:45",
+          "time": "15:15",
           "title": "Koenji Station",
           "description": "HUB 2 · Koenji. About 19 min from Shimokitazawa (Odakyu to Shinjuku, then the Chuo line), ¥370. Take the south exit: the vintage shops run down the streets south of the station, ending at coffee.",
           "category": "transit",
@@ -96666,7 +96667,7 @@
         },
         {
           "id": "d3-bigtime",
-          "time": "14:50",
+          "time": "15:20",
           "title": "BIG TIME Koenji",
           "description": "Three floors of American vintage. Pricey but strong on rare pieces; the 2F 'garage' has vintage sports team wear. Open 11:00–20:00.",
           "address": "4-25-3 Koenjiminami, Suginami-ku, Tokyo",
@@ -96692,7 +96693,7 @@
         },
         {
           "id": "d3-atlantis",
-          "time": "15:15",
+          "time": "15:40",
           "title": "Atlantis Vintage Tokyo",
           "description": "Same building as BIG TIME, ground floor. Curated vintage designer bags plus more affordable sunglasses and jewelry; known for friendly, no-pressure staff. Open 11:00–19:00.",
           "address": "4-25-3 Koenjiminami 1F, Suginami-ku, Tokyo",
@@ -96718,7 +96719,7 @@
         },
         {
           "id": "d3-toth",
-          "time": "15:30",
+          "time": "15:50",
           "title": "Top of the hill Koenji",
           "description": "Two floors of old-American vintage, men's downstairs and women's upstairs, with a sale section worth digging through. Prices shown before tax. Open 11:00–20:00.",
           "address": "4-24-11 Koenjiminami, Suginami-ku, Tokyo",
@@ -96744,7 +96745,7 @@
         },
         {
           "id": "d3-trip",
-          "time": "15:50",
+          "time": "16:05",
           "title": "Trip Vintage Koenji",
           "description": "Small, well-edited vintage shop with designer bags and watches at fair prices. Open 13:00–19:00.",
           "address": "3-37-1 Koenjiminami, Suginami-ku, Tokyo",
@@ -96770,7 +96771,7 @@
         },
         {
           "id": "d3-walnuts",
-          "time": "16:15",
+          "time": "16:25",
           "title": "walnuts (coffee, Koenji)",
           "description": "Tiny specialty coffee shop that roasts its own beans and serves in handmade ceramic cups. Only a few seats. **Closes 17:00 on Wednesdays**, so don't arrive late. Then walk back up to Koenji Station.",
           "address": "2-21-12 Koenjiminami, Suginami-ku, Tokyo",
@@ -96906,20 +96907,15 @@
         }
       ],
       "routeFromHotel": {
-        "format": "geojson",
-        "data": [
-          [
-            139.70908,
-            35.69156
-          ],
-          [
-            139.7024563,
-            35.6897831
-          ]
-        ],
-        "durationMin": 9,
-        "distanceM": 787,
-        "mode": "walk"
+        "format": "polyline",
+        "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCP\\N`Af@JFJDt@^`@VZN`@R`@RZRn@^b@Vd@XRJ^TXN@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@Jb@nAjERr@p@|BBF^hAJZZbAPf@FP\\hAp@jBFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
+        "durationMin": 30,
+        "distanceM": 6057,
+        "mode": "subway",
+        "osrmMin": 9,
+        "corrected": true,
+        "formulaMin": 20,
+        "pinned": "Google Maps verified: Yuen→Shimokitazawa median 30min"
       }
     },
     {
