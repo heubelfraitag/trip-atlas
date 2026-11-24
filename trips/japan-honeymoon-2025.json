@@ -96921,26 +96921,6 @@
       },
       "backups": [
         {
-          "id": "d3-b-flippers-shinjuku",
-          "title": "FLIPPER'S Shinjuku",
-          "description": "Same soufflé pancakes as the Shimokitazawa branch, on the walk to Shinjuku Station. Opens 9:00. Take a number from the tablet when you arrive; waits run from about 25 minutes at opening to two hours later in the morning.",
-          "address": "4-1-7 Shinjuku 2F, Shinjuku-ku, Tokyo",
-          "category": "food",
-          "lat": 35.6886667,
-          "lng": 139.7026495,
-          "hub": "Shinjuku · before the train"
-        },
-        {
-          "id": "d3-b-musashino",
-          "title": "Musashino Mori Diner Shinjuku Central Park",
-          "description": "Soufflé pancakes made to order (about 20 minutes) plus eggs and toast, next to Shinjuku Central Park. Opens 7:00, so it works for an early start, but it's on the far west side of the station from the hotel.",
-          "address": "2-11-5 Nishishinjuku, Shinjuku-ku, Tokyo",
-          "category": "food",
-          "lat": 35.6910994,
-          "lng": 139.6901793,
-          "hub": "Shinjuku · before the train"
-        },
-        {
           "id": "d3-b-trefac-east",
           "title": "TreFacStyle Shimokitazawa East Exit",
           "description": "Big, well-kept secondhand store with fitting rooms; tax-free over ¥5,000. Mid-loop, near Stick Out. Open 11:00–21:00.",
@@ -97058,22 +97038,12 @@
           "lat": 35.704325,
           "lng": 139.6490102,
           "hub": "Koenji"
-        },
-        {
-          "id": "d3-b-jspancake",
-          "title": "J.S. Pancake Cafe Nakano Central Park",
-          "description": "Thick buttermilk pancakes (fluffy, but not the soufflé style) as an afternoon stop near Nakano Broadway. One order per person, 90-minute limit. Open 11:00–20:00.",
-          "address": "Central Park East 1F, 4-10-1 Nakano, Nakano-ku, Tokyo",
-          "category": "food",
-          "lat": 35.7075385,
-          "lng": 139.6627243,
-          "hub": "Nakano"
         }
       ],
       "picks": [
         {
           "title": "Lunch options",
-          "note": "Six picks along today's Shimokitazawa walk, all open for Wednesday lunch. Tabelog is the local rating site: 3.5 and up is reliably good.",
+          "note": "Eight picks along today's Shimokitazawa walk, all open for Wednesday lunch. Tabelog is the local rating site: 3.5 and up is reliably good.",
           "items": [
             {
               "id": "d3-l-hiroki",
@@ -97083,6 +97053,16 @@
               "category": "food",
               "lat": 35.6601,
               "lng": 139.6678,
+              "hub": "South end · by Stick Out"
+            },
+            {
+              "id": "d3-l-dododo",
+              "title": "dododo",
+              "description": "LOCAL FAVORITE. Small set-lunch spot where the demi-glace hamburg steak is the order; big portions, fair prices. A reviewer waited about 20 minutes at 13:00 on a Saturday, with a line still there on leaving. Lunch 12:00–16:00.",
+              "address": "2-12-2 Kitazawa 1C, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6609,
+              "lng": 139.6682,
               "hub": "South end · by Stick Out"
             },
             {
@@ -97116,6 +97096,16 @@
               "hub": "Middle · by Mode Off"
             },
             {
+              "id": "d3-l-dandadan",
+              "title": "Gyoza Dan da Dan Sakaba (Shimokitazawa)",
+              "description": "POPULAR AND CHEAP. Gyoza izakaya with lunch sets; a reviewer paid about ¥3,000 for two meals and two drinks. Easy to walk into, good for a fast sit-down. Open 11:30–24:00.",
+              "address": "2-10-10 Kitazawa, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6618,
+              "lng": 139.6681,
+              "hub": "Middle · by Mode Off"
+            },
+            {
               "id": "d3-l-mentomirai",
               "title": "Junteuchi Men to Mirai",
               "description": "MOST POPULAR. The top-rated ramen in Shimokitazawa on Tabelog (3.77, Top 100 ramen 2020): very thick, chewy hand-made noodles in a clear salt broth, with shrimp wontons. Seven counter seats, cash only; one reviewer met a line of 10–15 at 13:00. Lunch 11:30–14:30.",
@@ -97134,6 +97124,72 @@
               "lat": 35.6646918,
               "lng": 139.6670259,
               "hub": "North end · by New York Joe"
+            }
+          ]
+        },
+        {
+          "title": "Matcha spots",
+          "note": "Ordered by where you'll be. Google ratings; the first one is the most reviewed.",
+          "items": [
+            {
+              "id": "d3-m-passport",
+              "title": "Matcha Passport Tokyo",
+              "description": "MOST POPULAR (4.7 from 565 reviews). Matcha whisked to order, lattes with your choice of milk and sweetness, and a matcha cheesecake people go back for. English-speaking staff. On the pricey side. Open 9:00–21:00.",
+              "address": "Veil Shimokitazawa 2F, 2-31-14 Kitazawa, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6627569,
+              "lng": 139.668382,
+              "hub": "Shimokitazawa"
+            },
+            {
+              "id": "d3-m-matchamon",
+              "title": "MATCHAMON Shimokitazawa",
+              "description": "HIGHEST RATED (4.9 from 139). Small, bright shop; the matcha einspanner with cream and orange peel and the coconut matcha get the praise. Usually no wait. Open 10:00–21:00.",
+              "address": "2-33-2 Kitazawa, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6628474,
+              "lng": 139.6688993,
+              "hub": "Shimokitazawa"
+            },
+            {
+              "id": "d3-m-capoon",
+              "title": "CAPOON Matcha Factory Shimokitazawa",
+              "description": "FOR DESSERT (4.4 from 96). Matcha cheesecake, roll cake and scones; you choose the sweetness of drinks. Reviews are split on the latte, which some find mild. A minute from Mode Off. Open 11:00–19:00.",
+              "address": "Urban Terrace Shimokitazawa 201, 2-26-18 Kitazawa, Setagaya-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6627752,
+              "lng": 139.6667137,
+              "hub": "Shimokitazawa"
+            },
+            {
+              "id": "d3-m-silverlake",
+              "title": "Silverlake Matcha",
+              "description": "SMALL AND FRIENDLY (5.0, but only 26 reviews). Run by a couple from Los Angeles; the iced coconut matcha with cold foam is the signature. North side of Koenji Station, near Mode Off. Open 12:00–18:00.",
+              "address": "Theater Building 2F, 3-17-1 Koenjikita, Suginami-ku, Tokyo",
+              "category": "food",
+              "lat": 35.7061955,
+              "lng": 139.6478649,
+              "hub": "Koenji"
+            },
+            {
+              "id": "d3-m-mametocha",
+              "title": "MAME TO CHA Shinjuku",
+              "description": "POPULAR (4.7 from 373) and a few minutes from the hotel. Calm room, matcha and hojicha lattes, strawberry matcha. Closes at 17:00, so it's a morning stop: opens 9:00.",
+              "address": "5-17-6 Shinjuku 1F, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.693009,
+              "lng": 139.7059644,
+              "hub": "Shinjuku · near the hotel"
+            },
+            {
+              "id": "d3-m-matcho",
+              "title": "Matcho MATCHA CAFE Traditional Matcha",
+              "description": "TRADITIONAL (4.6 from 140). Tiny counter down an alley; Uji matcha whisked in front of you, served with cane sugar on the side. Pricey for the size. Open 10:00–18:00 today.",
+              "address": "Kawamoto Building 1F, 2-15-8 Shinjuku, Shinjuku-ku, Tokyo",
+              "category": "food",
+              "lat": 35.6909784,
+              "lng": 139.7091353,
+              "hub": "Shinjuku · near the hotel"
             }
           ]
         }
