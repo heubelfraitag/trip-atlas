@@ -97018,12 +97018,12 @@
         },
         {
           "title": "Matcha spots",
-          "note": "Ordered by where you'll be. Google ratings; the first one is the most reviewed.",
+          "note": "Ordered by where you'll be. Google ratings first; Tabelog scores near 3.0 with few reviews mean locals have barely rated the place yet, not that it's bad.",
           "items": [
             {
               "id": "d3-m-passport",
               "title": "Matcha Passport Tokyo",
-              "description": "MOST POPULAR (4.7 from 565 reviews). Matcha whisked to order, lattes with your choice of milk and sweetness, and a matcha cheesecake people go back for. English-speaking staff. On the pricey side. Open 9:00–21:00.",
+              "description": "MOST POPULAR (4.7 from 565 reviews). Matcha whisked to order, lattes with your choice of milk and sweetness, and a matcha cheesecake people go back for. English-speaking staff. On the pricey side. Open 9:00–21:00. Tabelog 3.15 (25 reviews).",
               "address": "Veil Shimokitazawa 2F, 2-31-14 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6627569,
@@ -97033,7 +97033,7 @@
             {
               "id": "d3-m-matchamon",
               "title": "MATCHAMON Shimokitazawa",
-              "description": "HIGHEST RATED (4.9 from 139). Small, bright shop; the matcha einspanner with cream and orange peel and the coconut matcha get the praise. Usually no wait. Open 10:00–21:00.",
+              "description": "HIGHEST RATED (4.9 from 139). Small, bright shop; the matcha einspanner with cream and orange peel and the coconut matcha get the praise. Usually no wait. Open 10:00–21:00. Tabelog 3.08 (8 reviews; it only opened in September 2026).",
               "address": "2-33-2 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6628474,
@@ -97043,7 +97043,7 @@
             {
               "id": "d3-m-capoon",
               "title": "CAPOON Matcha Factory Shimokitazawa",
-              "description": "FOR DESSERT (4.4 from 96). Matcha cheesecake, roll cake and scones; you choose the sweetness of drinks. Reviews are split on the latte, which some find mild. A minute from Mode Off. Open 11:00–19:00.",
+              "description": "FOR DESSERT (4.4 from 96). Matcha cheesecake, roll cake and scones; you choose the sweetness of drinks. Reviews are split on the latte, which some find mild. A minute from Mode Off. Open 11:00–19:00. Tabelog 3.27 (71 reviews), the most locally reviewed of these; the cheesecake can sell out by mid-afternoon.",
               "address": "Urban Terrace Shimokitazawa 201, 2-26-18 Kitazawa, Setagaya-ku, Tokyo",
               "category": "food",
               "lat": 35.6627752,
@@ -97053,7 +97053,7 @@
             {
               "id": "d3-m-silverlake",
               "title": "Silverlake Matcha",
-              "description": "SMALL AND FRIENDLY (5.0, but only 26 reviews). Run by a couple from Los Angeles; the iced coconut matcha with cold foam is the signature. North side of Koenji Station, near Mode Off. Open 12:00–18:00.",
+              "description": "SMALL AND FRIENDLY (5.0, but only 26 reviews). Run by a couple from Los Angeles; the iced coconut matcha with cold foam is the signature. North side of Koenji Station, near Mode Off. Open 12:00–18:00. Not listed on Tabelog.",
               "address": "Theater Building 2F, 3-17-1 Koenjikita, Suginami-ku, Tokyo",
               "category": "food",
               "lat": 35.7061955,
@@ -97063,7 +97063,7 @@
             {
               "id": "d3-m-mametocha",
               "title": "MAME TO CHA Shinjuku",
-              "description": "POPULAR (4.7 from 373) and a few minutes from the hotel. Calm room, matcha and hojicha lattes, strawberry matcha. Closes at 17:00, so it's a morning stop: opens 9:00.",
+              "description": "POPULAR (4.7 from 373) and a few minutes from the hotel. Calm room, matcha and hojicha lattes, strawberry matcha. Closes at 17:00, so it's a morning stop: opens 9:00. Tabelog 3.04 (2 reviews).",
               "address": "5-17-6 Shinjuku 1F, Shinjuku-ku, Tokyo",
               "category": "food",
               "lat": 35.693009,
@@ -97073,7 +97073,7 @@
             {
               "id": "d3-m-matcho",
               "title": "Matcho MATCHA CAFE Traditional Matcha",
-              "description": "TRADITIONAL (4.6 from 140). Tiny counter down an alley; Uji matcha whisked in front of you, served with cane sugar on the side. Pricey for the size. Open 10:00–18:00 today.",
+              "description": "TRADITIONAL (4.6 from 140). Tiny counter down an alley; Uji matcha whisked in front of you, served with cane sugar on the side. Pricey for the size. Open 10:00–18:00 today. Tabelog 3.09 (11 reviews).",
               "address": "Kawamoto Building 1F, 2-15-8 Shinjuku, Shinjuku-ku, Tokyo",
               "category": "food",
               "lat": 35.6909784,
