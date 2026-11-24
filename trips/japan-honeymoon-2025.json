@@ -96491,50 +96491,7 @@
           "description": "Everything ¥700.",
           "category": "shop",
           "lat": 35.6615,
-          "lng": 139.6685,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "ietxEa`nsYRaA@GbAVF@XHNDVFPL",
-            "durationMin": 1,
-            "distanceM": 86,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-5",
-          "time": "12:00",
-          "title": "Toyo Hyakkaten",
-          "description": "25+ vintage sellers under one roof.",
-          "category": "shop",
-          "lat": 35.6609,
-          "lng": 139.6687,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "s_txEk`nsYQMWGOEYIGAcAW_A[KEm@S}@WQGa@IKSEIGFONGRz@rADH?FWtAhBf@TJB@",
-            "durationMin": 2,
-            "distanceM": 186,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-6",
-          "time": "13:00",
-          "title": "Magic Spice (soup curry)",
-          "description": "Shimokita institution.",
-          "category": "food",
-          "costPerPerson": 1500,
-          "currency": "JPY",
-          "lat": 35.6622,
-          "lng": 139.6683,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "chtxEk}msY??HLDDFBFADEDGFKDE@MTg@ZwA@GTgAJu@]QQIQKUMWM_@UWKG?E@E@SRSPML]^OLGFONGRSp@EL[dAGLKZYh@y@z@s@lA[nAOd@Oh@[jAOh@ADa@tAGPOh@EDQAUCiAIWE_AKo@KAFK\\_@fAEBC@Wd@sAbBGDE@s@x@YZEI{@`AOUCBg@ZUPc@Xw@h@CBCAGCAAEAGAEvCEtAArAA^EPg@Ey@Ky@Iq@E_@?]@YBe@Fa@LQFqAj@]No@VmBt@C@QHIB[LIDUHaBp@uAj@QH[L_DjAoDxAYLMDe@PsAl@qBx@k@V]L]N{B|@sAh@}@`@a@L_@P{@Le@Bw@Dq@DQ@C?kAD}DTe@?_@@yCL_BFq@DgGZI@OBKBMBi@LUF[JmA\\o@P]JE@iBh@gA\\E@_@J_ATiD~@_@Jw@RWFWDy@HcAH{@FqALkALk@DsALYDiALoANI@[BcALmALK?Q@eA@_AA[?U?qDEa@CqCUqAM}BUe@Ea@E[AuCCeGEw@AuB?gA?_@AO?sACo@?CZALK`AMjAUpA]rBOdAIb@CNCPSrBMhAE`@AHOzASjBE`@E\\S?m@A}A?mBAi@?Q?O?U?O?Q@ER?J@p@GAAX",
-            "durationMin": 24,
-            "distanceM": 6046,
-            "mode": "subway",
-            "osrmMin": 12,
-            "corrected": true
-          }
+          "lng": 139.6685
         },
         {
           "id": "d3-7",
@@ -96559,23 +96516,7 @@
           "description": "Y2K, kawaii core.",
           "category": "shop",
           "lat": 35.705,
-          "lng": 139.6505,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "qt|xEqnjsY??@\\BFJHJJDEFAHAJBDBBB@J?FBz@?XU?O?Q@KF}@@M?O?]?CAECQEGICAG?C@GB]Ek@CQC",
-            "durationMin": 3,
-            "distanceM": 223,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-9",
-          "time": "15:30",
-          "title": "Hayatochiri",
-          "description": "Vintage kimono fabric.",
-          "category": "shop",
-          "lat": 35.7065,
-          "lng": 139.6498
+          "lng": 139.6505
         }
       ],
       "routeFromHotel": {
