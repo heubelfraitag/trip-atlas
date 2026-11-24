@@ -96433,6 +96433,166 @@
     {
       "date": "2026-11-25",
       "dayNumber": 2,
+      "theme": "Thrift Day · Shimokita + Koenji",
+      "city": "Tokyo",
+      "activities": [
+        {
+          "id": "d3-1",
+          "time": "10:00",
+          "title": "Shimokitazawa Station",
+          "description": "Tokyo's vintage capital.",
+          "category": "transit",
+          "lat": 35.6614,
+          "lng": 139.6671,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "satxEswmsYX`@f@t@XXPGh@g@g@[EG@OJu@p@RTiBNYo@k@_@[s@o@_@r@Sj@M|@NB",
+            "durationMin": 1,
+            "distanceM": 89,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-2",
+          "time": "10:30",
+          "title": "Chicago (vintage)",
+          "description": "Americana, wall of vintage Levi's.",
+          "category": "shop",
+          "lat": 35.6611,
+          "lng": 139.6678,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "y`txEa{msYOCIh@?D@JEf@@H@B",
+            "durationMin": 1,
+            "distanceM": 89,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-3",
+          "time": "11:00",
+          "title": "Flamingo Shimokita",
+          "description": "Curated mid-range vintage.",
+          "category": "shop",
+          "lat": 35.6614,
+          "lng": 139.6671,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "satxEswmsYX`@f@t@XXPGh@g@g@[EG@OJu@p@RTiBNYo@k@_@[s@o@]UWGOEYIGAcAWAFS`A",
+            "durationMin": 2,
+            "distanceM": 159,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-4",
+          "time": "11:30",
+          "title": "Stick Out",
+          "description": "Everything ¥700.",
+          "category": "shop",
+          "lat": 35.6615,
+          "lng": 139.6685,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "ietxEa`nsYRaA@GbAVF@XHNDVFPL",
+            "durationMin": 1,
+            "distanceM": 86,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-5",
+          "time": "12:00",
+          "title": "Toyo Hyakkaten",
+          "description": "25+ vintage sellers under one roof.",
+          "category": "shop",
+          "lat": 35.6609,
+          "lng": 139.6687,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "s_txEk`nsYQMWGOEYIGAcAW_A[KEm@S}@WQGa@IKSEIGFONGRz@rADH?FWtAhBf@TJB@",
+            "durationMin": 2,
+            "distanceM": 186,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-6",
+          "time": "13:00",
+          "title": "Magic Spice (soup curry)",
+          "description": "Shimokita institution.",
+          "category": "food",
+          "costPerPerson": 1500,
+          "currency": "JPY",
+          "lat": 35.6622,
+          "lng": 139.6683,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "chtxEk}msY??HLDDFBFADEDGFKDE@MTg@ZwA@GTgAJu@]QQIQKUMWM_@UWKG?E@E@SRSPML]^OLGFONGRSp@EL[dAGLKZYh@y@z@s@lA[nAOd@Oh@[jAOh@ADa@tAGPOh@EDQAUCiAIWE_AKo@KAFK\\_@fAEBC@Wd@sAbBGDE@s@x@YZEI{@`AOUCBg@ZUPc@Xw@h@CBCAGCAAEAGAEvCEtAArAA^EPg@Ey@Ky@Iq@E_@?]@YBe@Fa@LQFqAj@]No@VmBt@C@QHIB[LIDUHaBp@uAj@QH[L_DjAoDxAYLMDe@PsAl@qBx@k@V]L]N{B|@sAh@}@`@a@L_@P{@Le@Bw@Dq@DQ@C?kAD}DTe@?_@@yCL_BFq@DgGZI@OBKBMBi@LUF[JmA\\o@P]JE@iBh@gA\\E@_@J_ATiD~@_@Jw@RWFWDy@HcAH{@FqALkALk@DsALYDiALoANI@[BcALmALK?Q@eA@_AA[?U?qDEa@CqCUqAM}BUe@Ea@E[AuCCeGEw@AuB?gA?_@AO?sACo@?CZALK`AMjAUpA]rBOdAIb@CNCPSrBMhAE`@AHOzASjBE`@E\\S?m@A}A?mBAi@?Q?O?U?O?Q@ER?J@p@GAAX",
+            "durationMin": 24,
+            "distanceM": 6046,
+            "mode": "subway",
+            "osrmMin": 12,
+            "corrected": true
+          }
+        },
+        {
+          "id": "d3-7",
+          "time": "14:30",
+          "title": "Koenji Station",
+          "description": "15 min on the Chuo Line from Shimokita.",
+          "category": "transit",
+          "lat": 35.705,
+          "lng": 139.6491,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "et|xE}ejsY@YF@Aq@?KDS?Y?Q?i@?I?GBEDEFAHATAHEHCPmA}@Uo@OGCBpA",
+            "durationMin": 2,
+            "distanceM": 158,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-8",
+          "time": "15:00",
+          "title": "Spank! Koenji",
+          "description": "Y2K, kawaii core.",
+          "category": "shop",
+          "lat": 35.705,
+          "lng": 139.6505,
+          "routeToNext": {
+            "format": "polyline",
+            "data": "qt|xEqnjsY??@\\BFJHJJDEFAHAJBDBBB@J?FBz@?XU?O?Q@KF}@@M?O?]?CAECQEGICAG?C@GB]Ek@CQC",
+            "durationMin": 3,
+            "distanceM": 223,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-9",
+          "time": "15:30",
+          "title": "Hayatochiri",
+          "description": "Vintage kimono fabric.",
+          "category": "shop",
+          "lat": 35.7065,
+          "lng": 139.6498
+        }
+      ],
+      "routeFromHotel": {
+        "format": "polyline",
+        "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCP\\N`Af@JFJDt@^`@VZN`@R`@RZRn@^b@Vd@XRJ^TXN@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@Jb@nAjERr@p@|BBF^hAJZZbAPf@FP\\hAp@jBFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
+        "durationMin": 30,
+        "distanceM": 6057,
+        "mode": "subway",
+        "osrmMin": 9,
+        "corrected": true,
+        "formulaMin": 20,
+        "pinned": "Google Maps verified: Yuen→Shimokitazawa median 30min"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "dayNumber": 3,
       "theme": "Senso-ji + Ueno + Shinjuku Night",
       "city": "Tokyo",
       "activities": [
@@ -96619,230 +96779,6 @@
         "durationMin": 7,
         "distanceM": 572,
         "mode": "walk"
-      }
-    },
-    {
-      "date": "2026-11-26",
-      "dayNumber": 3,
-      "theme": "Thrift + Kabuki",
-      "city": "Tokyo",
-      "activities": [
-        {
-          "id": "d3-1",
-          "time": "10:00",
-          "title": "Shimokitazawa Station",
-          "description": "Tokyo's vintage capital.",
-          "category": "transit",
-          "lat": 35.6614,
-          "lng": 139.6671,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "satxEswmsYX`@f@t@XXPGh@g@g@[EG@OJu@p@RTiBNYo@k@_@[s@o@_@r@Sj@M|@NB",
-            "durationMin": 1,
-            "distanceM": 89,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-2",
-          "time": "10:30",
-          "title": "Chicago (vintage)",
-          "description": "Americana, wall of vintage Levi's.",
-          "category": "shop",
-          "lat": 35.6611,
-          "lng": 139.6678,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "y`txEa{msYOCIh@?D@JEf@@H@B",
-            "durationMin": 1,
-            "distanceM": 89,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-3",
-          "time": "11:00",
-          "title": "Flamingo Shimokita",
-          "description": "Curated mid-range vintage.",
-          "category": "shop",
-          "lat": 35.6614,
-          "lng": 139.6671,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "satxEswmsYX`@f@t@XXPGh@g@g@[EG@OJu@p@RTiBNYo@k@_@[s@o@]UWGOEYIGAcAWAFS`A",
-            "durationMin": 2,
-            "distanceM": 159,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-4",
-          "time": "11:30",
-          "title": "Stick Out",
-          "description": "Everything ¥700.",
-          "category": "shop",
-          "lat": 35.6615,
-          "lng": 139.6685,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "ietxEa`nsYRaA@GbAVF@XHNDVFPL",
-            "durationMin": 1,
-            "distanceM": 86,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-5",
-          "time": "12:00",
-          "title": "Toyo Hyakkaten",
-          "description": "25+ vintage sellers under one roof.",
-          "category": "shop",
-          "lat": 35.6609,
-          "lng": 139.6687,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "s_txEk`nsYQMWGOEYIGAcAW_A[KEm@S}@WQGa@IKSEIGFONGRz@rADH?FWtAhBf@TJB@",
-            "durationMin": 2,
-            "distanceM": 186,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-6",
-          "time": "13:00",
-          "title": "Magic Spice (soup curry)",
-          "description": "Shimokita institution.",
-          "category": "food",
-          "costPerPerson": 1500,
-          "currency": "JPY",
-          "lat": 35.6622,
-          "lng": 139.6683,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "chtxEk}msY??HLDDFBFADEDGFKDE@MTg@ZwA@GTgAJu@]QQIQKUMWM_@UWKG?E@E@SRSPML]^OLGFONGRSp@EL[dAGLKZYh@y@z@s@lA[nAOd@Oh@[jAOh@ADa@tAGPOh@EDQAUCiAIWE_AKo@KAFK\\_@fAEBC@Wd@sAbBGDE@s@x@YZEI{@`AOUCBg@ZUPc@Xw@h@CBCAGCAAEAGAEvCEtAArAA^EPg@Ey@Ky@Iq@E_@?]@YBe@Fa@LQFqAj@]No@VmBt@C@QHIB[LIDUHaBp@uAj@QH[L_DjAoDxAYLMDe@PsAl@qBx@k@V]L]N{B|@sAh@}@`@a@L_@P{@Le@Bw@Dq@DQ@C?kAD}DTe@?_@@yCL_BFq@DgGZI@OBKBMBi@LUF[JmA\\o@P]JE@iBh@gA\\E@_@J_ATiD~@_@Jw@RWFWDy@HcAH{@FqALkALk@DsALYDiALoANI@[BcALmALK?Q@eA@_AA[?U?qDEa@CqCUqAM}BUe@Ea@E[AuCCeGEw@AuB?gA?_@AO?sACo@?CZALK`AMjAUpA]rBOdAIb@CNCPSrBMhAE`@AHOzASjBE`@E\\S?m@A}A?mBAi@?Q?O?U?O?Q@ER?J@p@GAAX",
-            "durationMin": 24,
-            "distanceM": 6046,
-            "mode": "subway",
-            "osrmMin": 12,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d3-7",
-          "time": "14:30",
-          "title": "Koenji Station",
-          "description": "15 min on the Chuo Line from Shimokita.",
-          "category": "transit",
-          "lat": 35.705,
-          "lng": 139.6491,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "et|xE}ejsY@YF@Aq@?KDS?Y?Q?i@?I?GBEDEFAHATAHEHCPmA}@Uo@OGCBpA",
-            "durationMin": 2,
-            "distanceM": 158,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-8",
-          "time": "15:00",
-          "title": "Spank! Koenji",
-          "description": "Y2K, kawaii core.",
-          "category": "shop",
-          "lat": 35.705,
-          "lng": 139.6505,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "qt|xEqnjsY??@\\BFJHJJDEFAHAJBDBBB@J?FBz@?XU?O?Q@KF}@@M?O?]?CAECQEGICAG?C@GB]Ek@CQC",
-            "durationMin": 3,
-            "distanceM": 223,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-9",
-          "time": "15:30",
-          "title": "Hayatochiri",
-          "description": "Vintage kimono fabric.",
-          "category": "shop",
-          "lat": 35.7065,
-          "lng": 139.6498,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "u||xE}ijsYw@IA}A?y@AIJ@b@?R@VD^Hb@LB@LHL@PKDEFCBELOFM@S@e@?GB{A?yA?M?Q?OAw@AqA?Y?C?ECsDAmB?]E]\\CRA`BK~@Cl@Ch@Ar@?~C@v@?j@@N@X?x@?z@@lA@R?b@?h@?\\@P@PErCDf@?|DBfA?J?`@??_@AkAAaC?}C?{A@{AB[Dq@?ABWB]@OHcAJeBL_BB_@@I?GXcDLyA@S@SH{A@e@@cA?I?_C?k@@cB@sB?S?S@sB?eB?Q?M?QAoAAaAA_B?c@?g@CgBE}D?GC_DAk@CcBA_A?a@?UAq@A[?YAWC}BAcBCaAAoA?SAUAcBCyBAwB?K?MAwA@G?UDqCPgDP{C@QB[@MDy@JkBDm@JqB@GTeE@[FuADgA@c@?_@@_@Ba@D_@D]F_@NaATwABMBQN_AD_@F{@H_C@Y?[Jc@Be@He@DSDQHYRw@Nm@\\wALi@H_@z@iE`@oB@CNw@Ny@DUZqAd@oBT_AT}@TaALg@FSPy@Lg@XuAVmARgADQDUF_@F[ToAr@wD@M@MAK?KCMCQAEk@kCAMAQ?g@G_BAy@AMAa@Bu@LoD@I@IBGBCJDH@H@FALAPCl@KDADADATIFCFCDCFEBEDE@C@C@CLOBS@IZ_C@IDS@E@GBIBIHSb@oADK@GFQ@C@CFOBKr@qBJ[HUBG@EBGHUjAgDL]DMZRn@^b@Vd@XRJ^TC]?SCm@?e@@a@Ba@Fa@H_@Je@Pe@Xq@jBoDdD}Jt@sCn@uDx@gGNoBFgBCmBWyFW_CEUE_@Ke@E_@OsBEk@OaDAQA_@KgCMyCKeC?OC[ASA]OmCEs@Cs@@k@@k@Bk@RsABKNgAFc@\\yB\\{BDWBOFYDUZmARs@DIJ_@fBwGBIH[H_@DOx@mD^_BBOF]Fe@D_@NmBL}A?IHm@Fe@DQDQj@_Cd@kBJc@Po@Tq@DGFQLWFOlAkC@EBGNa@FUDYFe@Dk@LuC@Q?SFeB@}@?w@?[AQAa@EuA?MAYSkDAc@A[AQKwBEk@Ak@Am@@aB?K?W@c@RyD?I@U@STkE@O@]NY\\BZ@z@Av@Gv@Kd@K`@I\\KVMd@UFEZOjBaAnAo@jCsAFGZUHMHKDOJYh@gCDSFUHSHSHOLQX_@Z]p@s@b@_@t@i@hA}@`@a@FGJQR[LWFUDOBQBSB]@OBm@HsA@]?YEs@Em@Ky@[cB]uAUmACMAE?EAG?E?G?G?O?G?E?C@EDWH[dCyH^kARo@BKBIJYbEgNn@{AR_@BIT[DIRWXY\\c@`@o@j@_A\\i@JO?AXc@FMd@w@JSh@aAFKLUXi@hAuBv@uAFKPWJOPYVc@^m@JQFMt@iA^g@h@y@HKNUHKNSz@qAlAaBbAsARUh@s@PUWWmC_CWSSSwCiCSQQQi@c@wAmAi@e@}@y@[c@i@c@iAaAOWIIMKBOLJ\\RjAbAp@h@V^`@^vCfC~G`GxBnBbAdA",
-            "durationMin": 33,
-            "distanceM": 14151,
-            "mode": "subway",
-            "osrmMin": 18,
-            "corrected": true
-          }
-        },
-        {
-          "id": "d3-10b",
-          "time": "17:30",
-          "title": "Higashi-Ginza pre-Kabuki dinner",
-          "description": "3-min walk from Kabukiza. Mid-tier ¥3-6K pp picks for the 17:30-19:15 window before 19:30 curtain:\n\n**SIT-DOWN ICONIC**\n1. **Chikuyotei Ginza** ⭐ — 1883 unagi house that caters meals to Kabukiza actors. Unagi-don ¥3-5K. No reservations — arrive 17:30 sharp.\n2. **Ginza Yondaime Takahashiya** — Kanto-style unagi (steamed then grilled), modern interior, reservable.\n3. **Ginza Tonkatsu Hashikatsu / Tonkatsu Marushichi / Nishi Mura** — three old-school Higashi-Ginza tonkatsu shops. Quick turnover, walk-in friendly.\n4. **Shari (Mitsui Garden Hotel Ginza 5-chome 2F)** — casual-but-elevated sushi/sashimi sets ¥3-5K, easier to walk into than counter sushi.\n5. **Bergman** ⭐ — directly behind Kabukiza; hamburg steak + Japanese beef, ¥3,500. **Lowest-friction pick if everything else has a line.**\n\n**KABUKIZA BASEMENT — Kobikicho Hiroba (B2)**\n6. **Izushō kintsuba** — 200-yr Iida City confection; signature Kabukiza souvenir.\n7. **Bento counters** — pre-packed makunouchi to eat during intermission.\n8. **Café in Kobikicho Hiroba** — quick coffee + wagashi if dinner ran tight.\n\nTop 3: Chikuyotei (theme: actors eat here) → Bergman (zero-friction fallback) → grab Izushō kintsuba + an intermission bento at the basement on your way in.",
-          "address": "Higashi-Ginza area, Chuo-ku, Tokyo",
-          "category": "food",
-          "costPerPerson": 4500,
-          "currency": "JPY",
-          "lat": 35.6695,
-          "lng": 139.767,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "muuxEufatY`@`@jAtAbBxBxC~Dn@j@bAtAJ[h@s@j@u@Za@n@}@JMGI_CgDIOKM}@oAw@gAMSKMgB}Be@k@KMQR}@dA}@dAk@p@SV]b@QRc@j@AH@F@FBBzBbDFJBC",
-            "durationMin": 2,
-            "distanceM": 163,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-10",
-          "time": "19:00",
-          "title": "Higashi-Ginza Station",
-          "description": "Direct exit to Kabukiza Theater.",
-          "category": "transit",
-          "lat": 35.6692,
-          "lng": 139.7656,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "osuxE_~`tYz@cALOQQOQeB{BYUQQWWmC_CWSSSwCiCSQQQi@c@wAmAi@e@}@y@[c@i@c@iAaAOWIIMKBOLJ\\RjAbAp@h@V^`@^vCfC~G`GxBnBbAdA",
-            "durationMin": 2,
-            "distanceM": 163,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-11",
-          "time": "19:30",
-          "title": "Kabukiza Theatre",
-          "description": "Single-act ticket (makumi-ken) at window. Audio guide ¥700.",
-          "category": "art",
-          "costPerPerson": 1500,
-          "currency": "JPY",
-          "lat": 35.6695,
-          "lng": 139.767
-        }
-      ],
-      "routeFromHotel": {
-        "format": "polyline",
-        "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@G^Ib@Mr@Ox@Id@CJAHCP\\N`Af@JFJDt@^`@VZN`@R`@RZRn@^b@Vd@XRJ^TXN@R@X@ZDj@FfAHz@PtANz@F^DRRpAL`AXfCLhAF^F`@J\\J^Nb@FPPj@Jb@nAjERr@p@|BBF^hAJZZbAPf@FP\\hAp@jBFPJTR^NXT\\h@x@d@r@RXpAlBb@p@h@v@DHn@bArBfDJNRXVd@n@jAxAjCxBrDtCfF|BdEjB`DrAdCd@bA\\v@\\z@f@|A~BrHtAvDv@rB`@fAPv@VnAZ|AlAjGBHt@`EjB|Ih@vC^pBh@dCvBpKJh@PCpAQdAOn@Ih@KTCPCfAOHAt@K`@GJAfAOp@MhAWrBi@BADAx@S~Bm@h@MPGREFCtA]^Kv@SlAYDADAPCPETEHA~@MTE^Gn@KPCPGDZPl@L`@BJZdA@HTr@^pAZjAPt@j@|AFNDHRb@N\\DJDFDDF?VA|@?H?`A?`AAHAPMBEJCZBd@HNDv@Tp@Pz@VXJNOFGDHJR`@HPF|@Vl@RJD~@ZAF[vAUf@ALx@tAXVB@ZFNBPB@JEf@@H@B",
-        "durationMin": 30,
-        "distanceM": 6057,
-        "mode": "subway",
-        "osrmMin": 9,
-        "corrected": true,
-        "formulaMin": 20,
-        "pinned": "Google Maps verified: Yuen→Shimokitazawa median 30min"
-      },
-      "routeToHotel": {
-        "format": "polyline",
-        "data": "muuxEufatY`@`@jAtAbBxBxC~Dn@j@bAtAhAlCVl@HTDXBLBVDbA@n@BxDCp@Gb@EPCNM`@?@O`@M`@Kd@a@`BK^CLGVYpAMh@SDGBKDK@IAMC{@[]Ok@UOKKGGIeBqBMQMOs@u@y@}@OQQOoCyCOOKM_CgCWYMMKMeCoCKIUUQXYl@eB~CcBjCkAvBuExHc@hA[`AaBlFYTsAvECFITCHELu@vB}A|E[dAMd@K`@CX?TBN@LTdAZ~A^jBL`ALdAF~@@hB?z@?V?TAB?FADCFCDk@|@aB~AoAbAu@h@]Z{@z@QT[^KPINGNIVGV[xAI\\AJMb@CJGLIPKJOJOJeAj@kAl@mCpA_@ROH[Nk@X]N]J]Jk@JwANE?]NSBUBODQHGFGHGJGNEPEPATGxAAJAPAVInBE`AAL?\\A`@At@?l@?p@Bj@Bj@HfBBb@D`ABn@JlB?HBZDhA@V?d@@j@@h@?PAz@CzAAJ?JQrDGn@Gb@G^AFCJELITe@fAk@nAADGLMVGP[x@U|@}@xD]rACNIh@Gd@AHM~AM`BAJE`@Gb@I\\i@~Bw@hDCJIZI\\Uz@_@|As@`CADK^W`AU~@AJIXEVk@lDU|ACHGf@Ih@EVMbAGx@Cr@Ad@Br@HdBFrA@N@\\@R@XRtEPbEBX@^PrDPpC?JD`@YB_@ToAXe@HMBc@BS?U?k@Ca@AS?W@UD]HWJc@Ra@HSJmAn@QLq@`@]RKDWHFd@BZHfB@hAE`AInAAXCXUdEYvEAJAVC^SrD",
-        "durationMin": 20,
-        "distanceM": 7602,
-        "mode": "subway",
-        "osrmMin": 9,
-        "corrected": true
       }
     },
     {
@@ -99001,7 +98937,7 @@
     {
       "id": "wl-knife-shop-tokyo",
       "title": "Japanese knife shop (Kappabashi or Tsukiji)",
-      "description": "Kama-Asa Shoten (the planned one, Kappabashi) is a 10-min walk from Senso-ji — could fit Day 2 morning between Senso-ji and Yanaka. Or Tsukiji Outer Market on Day 15 has Aritsugu, Sugimoto, Tsubaya, Kiya — high-quality knife shops right next to where you're already eating sushi. Either is a casual catch-it-when-out option, no need to plan around.",
+      "description": "Kama-Asa Shoten (the planned one, Kappabashi) is a 10-min walk from Senso-ji — could fit Day 3 morning between Senso-ji and Yanaka. Or Tsukiji Outer Market on Day 15 has Aritsugu, Sugimoto, Tsubaya, Kiya — high-quality knife shops right next to where you're already eating sushi. Either is a casual catch-it-when-out option, no need to plan around.",
       "category": "shopping",
       "lat": 35.7125,
       "lng": 139.7902,
