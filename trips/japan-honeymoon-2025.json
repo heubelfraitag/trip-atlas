@@ -96441,7 +96441,7 @@
           "id": "d3-1",
           "time": "09:25",
           "title": "Shimokitazawa Station",
-          "description": "HUB 1 · Shimokitazawa. Odakyu line from Shinjuku; leave the hotel around 8:55. Pancake breakfast first, then work south to north through the thrift shops as they open, with lunch at the top of the loop.",
+          "description": "HUB 1 · Shimokitazawa. Odakyu line from Shinjuku; leave the hotel around 8:55. Pancake breakfast first, then the cheap thrift shops as they open, with lunch at the north end.",
           "category": "transit",
           "lat": 35.6614,
           "lng": 139.6671,
@@ -96505,18 +96505,44 @@
                 35.6602457
               ],
               [
+                139.6688248,
+                35.6605317
+              ]
+            ],
+            "durationMin": 1,
+            "distanceM": 60,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-tanpopo",
+          "time": "11:05",
+          "title": "Tanpopo House Shimokitazawa",
+          "description": "Rock-bottom bargain racks a few doors from Treasure Factory: reviewers report pieces from about ¥100–600, including used kimono and yukata. Hit or miss on style, so keep it quick. Opens 11:00.",
+          "address": "Plaza Hana, 2-4-10 Kitazawa, Setagaya-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.6605317,
+          "lng": 139.6688248,
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                139.6688248,
+                35.6605317
+              ],
+              [
                 139.6678,
                 35.6611
               ]
             ],
             "durationMin": 2,
-            "distanceM": 138,
+            "distanceM": 140,
             "mode": "walk"
           }
         },
         {
           "id": "d3-2",
-          "time": "11:10",
+          "time": "11:25",
           "title": "Harajuku Chicago Shimokitazawa",
           "description": "Americana vintage and a wall of vintage Levi's. Opens 11:00.",
           "category": "shop",
@@ -96530,68 +96556,70 @@
                 35.6611
               ],
               [
-                139.6671,
-                35.6614
-              ]
-            ],
-            "durationMin": 1,
-            "distanceM": 89,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-3",
-          "time": "12:00",
-          "title": "Flamingo Shimokitazawa",
-          "description": "Curated mid-range vintage. Opens 12:00.",
-          "category": "shop",
-          "lat": 35.6614,
-          "lng": 139.6671,
-          "routeToNext": {
-            "format": "geojson",
-            "data": [
-              [
-                139.6671,
-                35.6614
-              ],
-              [
-                139.6685,
-                35.6615
+                139.6676346,
+                35.6598118
               ]
             ],
             "durationMin": 2,
-            "distanceM": 159,
+            "distanceM": 180,
             "mode": "walk"
           }
         },
         {
           "id": "d3-4",
-          "time": "12:25",
+          "time": "12:00",
           "title": "Stick Out",
-          "description": "Flat-price thrift shop. Opens 12:00. The old ¥700 price has crept up; recent reviews say ¥800–900 per item.",
+          "description": "Flat-price American imports on two floors: almost everything is ¥900, with a few racks from ¥300. Skews menswear and larger sizes. Opens 12:00.",
           "category": "shop",
-          "lat": 35.6615,
-          "lng": 139.6685,
+          "lat": 35.6598118,
+          "lng": 139.6676346,
+          "address": "Kitazawa Plaza 2F, 2-14-16 Kitazawa, Setagaya-ku, Tokyo",
           "routeToNext": {
             "format": "geojson",
             "data": [
               [
-                139.6685,
-                35.6615
+                139.6676346,
+                35.6598118
+              ],
+              [
+                139.666222,
+                35.6625331
+              ]
+            ],
+            "durationMin": 5,
+            "distanceM": 411,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d3-modeoff",
+          "time": "12:30",
+          "title": "Mode Off Shimokitazawa",
+          "description": "Budget secondhand chain with ordinary thrift prices, not curated vintage. Reviewers report a coat plus a cashmere scarf for ¥2,000 total and a fleece for ¥500; dig for the brand-name rack. Google lists no hours, so if it's shut, go straight to New York Joe.",
+          "address": "Shimokitazawa Green Garden, 2-26-14 Kitazawa, Setagaya-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.6625331,
+          "lng": 139.666222,
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                139.666222,
+                35.6625331
               ],
               [
                 139.6681502,
                 35.6639104
               ]
             ],
-            "durationMin": 4,
-            "distanceM": 337,
+            "durationMin": 3,
+            "distanceM": 290,
             "mode": "walk"
           }
         },
         {
           "id": "d3-nyjoe",
-          "time": "12:55",
+          "time": "13:00",
           "title": "New York Joe Shimokitazawa",
           "description": "Buy-sell-trade shop inside a former public bathhouse; the tiled floors and old bath layout are still there (watch the gutter in the floor). Most items under ¥10,000. Open 12:00–20:00.",
           "address": "3-26-4 Kitazawa, Setagaya-ku, Tokyo",
@@ -96644,7 +96672,7 @@
           "id": "d3-7",
           "time": "15:15",
           "title": "Koenji Station",
-          "description": "HUB 2 · Koenji. About 19 min from Shimokitazawa (Odakyu to Shinjuku, then the Chuo line), ¥370. Take the south exit: the vintage shops run down the streets south of the station, ending at coffee.",
+          "description": "HUB 2 · Koenji. About 19 min from Shimokitazawa (Odakyu to Shinjuku, then the Chuo line), ¥370. Start at Mode Off just north of the station, then cross to the south side for the rest and finish at coffee.",
           "category": "transit",
           "lat": 35.705,
           "lng": 139.6491,
@@ -96656,64 +96684,38 @@
                 35.705
               ],
               [
-                139.6490584,
-                35.7042009
+                139.649833,
+                35.7066737
               ]
             ],
-            "durationMin": 1,
-            "distanceM": 111,
+            "durationMin": 3,
+            "distanceM": 247,
             "mode": "walk"
           }
         },
         {
-          "id": "d3-bigtime",
+          "id": "d3-modeoff-koenji",
           "time": "15:20",
-          "title": "BIG TIME Koenji",
-          "description": "Three floors of American vintage. Pricey but strong on rare pieces; the 2F 'garage' has vintage sports team wear. Open 11:00–20:00.",
-          "address": "4-25-3 Koenjiminami, Suginami-ku, Tokyo",
+          "title": "Mode Off Koenji",
+          "description": "Two floors of cheap secondhand: women's on 1F, men's on 2F. Reviewers put T-shirts at ¥300–1,000 and there's an under-¥550 corner at the back. Fitting room on 1F only. Open 11:00–21:00.",
+          "address": "2-7-6 Koenjikita, Suginami-ku, Tokyo",
           "category": "shop",
-          "lat": 35.7042009,
-          "lng": 139.6490584,
+          "lat": 35.7066737,
+          "lng": 139.649833,
           "routeToNext": {
             "format": "geojson",
             "data": [
               [
-                139.6490584,
-                35.7042009
-              ],
-              [
-                139.6490102,
-                35.704325
-              ]
-            ],
-            "durationMin": 1,
-            "distanceM": 18,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d3-atlantis",
-          "time": "15:40",
-          "title": "Atlantis Vintage Tokyo",
-          "description": "Same building as BIG TIME, ground floor. Curated vintage designer bags plus more affordable sunglasses and jewelry; known for friendly, no-pressure staff. Open 11:00–19:00.",
-          "address": "4-25-3 Koenjiminami 1F, Suginami-ku, Tokyo",
-          "category": "shop",
-          "lat": 35.704325,
-          "lng": 139.6490102,
-          "routeToNext": {
-            "format": "geojson",
-            "data": [
-              [
-                139.6490102,
-                35.704325
+                139.649833,
+                35.7066737
               ],
               [
                 139.6491198,
                 35.7038747
               ]
             ],
-            "durationMin": 1,
-            "distanceM": 64,
+            "durationMin": 5,
+            "distanceM": 397,
             "mode": "walk"
           }
         },
@@ -96734,44 +96736,44 @@
                 35.7038747
               ],
               [
-                139.6477882,
-                35.7023468
+                139.651936,
+                35.702497
               ]
             ],
-            "durationMin": 3,
-            "distanceM": 260,
+            "durationMin": 4,
+            "distanceM": 371,
             "mode": "walk"
           }
         },
         {
-          "id": "d3-trip",
+          "id": "d3-trefac-koenji",
           "time": "16:05",
-          "title": "Trip Vintage Koenji",
-          "description": "Small, well-edited vintage shop with designer bags and watches at fair prices. Open 13:00–19:00.",
-          "address": "3-37-1 Koenjiminami, Suginami-ku, Tokyo",
+          "title": "TreFacStyle Koenji 1",
+          "description": "Secondhand store that's strong on menswear and brand pieces at fair prices; a second branch is a few minutes away. Open 11:00–20:00.",
+          "address": "4-4-15 Koenjiminami, Suginami-ku, Tokyo",
           "category": "shop",
-          "lat": 35.7023468,
-          "lng": 139.6477882,
+          "lat": 35.702497,
+          "lng": 139.651936,
           "routeToNext": {
             "format": "geojson",
             "data": [
               [
-                139.6477882,
-                35.7023468
+                139.651936,
+                35.702497
               ],
               [
                 139.6477617,
                 35.7010713
               ]
             ],
-            "durationMin": 2,
-            "distanceM": 177,
+            "durationMin": 6,
+            "distanceM": 511,
             "mode": "walk"
           }
         },
         {
           "id": "d3-walnuts",
-          "time": "16:25",
+          "time": "16:30",
           "title": "walnuts (coffee, Koenji)",
           "description": "Tiny specialty coffee shop that roasts its own beans and serves in handmade ceramic cups. Only a few seats. **Closes 17:00 on Wednesdays**, so don't arrive late. Then walk back up to Koenji Station.",
           "address": "2-21-12 Koenjiminami, Suginami-ku, Tokyo",
@@ -96999,13 +97001,62 @@
           "hub": "Shimokitazawa"
         },
         {
-          "id": "d3-b-trefac-koenji",
-          "title": "TreFacStyle Koenji 1",
-          "description": "Secondhand store that's strong on menswear and brand pieces at fair prices; a second branch is a few minutes away. Open 11:00–20:00.",
-          "address": "4-4-15 Koenjiminami, Suginami-ku, Tokyo",
+          "id": "d3-b-2ndstreet",
+          "title": "2nd Street Shimokitazawa",
+          "description": "Another budget chain; one reviewer notes lots of clothes from ¥500, and it's tax-free for visitors. Mid-loop, 2nd floor. Open 11:00–21:00.",
+          "address": "Fine Court Shimokitazawa 2F, 2-30-13 Kitazawa, Setagaya-ku, Tokyo",
           "category": "shop",
-          "lat": 35.702497,
-          "lng": 139.651936,
+          "lat": 35.662985,
+          "lng": 139.6677537,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-flamingo",
+          "title": "Flamingo Shimokitazawa",
+          "description": "Curated mid-range vintage, pricier than the scheduled stops. Opens 12:00.",
+          "category": "shop",
+          "lat": 35.6614,
+          "lng": 139.6671,
+          "hub": "Shimokitazawa"
+        },
+        {
+          "id": "d3-b-whistler",
+          "title": "Whistler",
+          "description": "Good-looking American vintage shop, strong on shoes and skirts, but reviewers call the prices high; not a bargain stop. Open 12:00–21:00.",
+          "address": "4-30-8 Koenjiminami, Suginami-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.7041187,
+          "lng": 139.6512871,
+          "hub": "Koenji"
+        },
+        {
+          "id": "d3-b-bigtime",
+          "title": "BIG TIME Koenji",
+          "description": "Three floors of American vintage with rare pieces, but pricey (a reviewer mentions tees over ¥8,000). Open 11:00–20:00.",
+          "address": "4-25-3 Koenjiminami, Suginami-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.7042009,
+          "lng": 139.6490584,
+          "hub": "Koenji"
+        },
+        {
+          "id": "d3-b-trip",
+          "title": "Trip Vintage Koenji",
+          "description": "Small shop of vintage designer bags and watches; fair for what it is, but not cheap thrifting. Open 13:00–19:00.",
+          "address": "3-37-1 Koenjiminami, Suginami-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.7023468,
+          "lng": 139.6477882,
+          "hub": "Koenji"
+        },
+        {
+          "id": "d3-b-atlantis",
+          "title": "Atlantis Vintage Tokyo",
+          "description": "Luxury vintage handbags, with cheaper sunglasses and jewelry. Boutique, not a bargain stop. Open 11:00–19:00.",
+          "address": "4-25-3 Koenjiminami 1F, Suginami-ku, Tokyo",
+          "category": "shop",
+          "lat": 35.704325,
+          "lng": 139.6490102,
           "hub": "Koenji"
         },
         {
