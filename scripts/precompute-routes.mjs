@@ -119,10 +119,12 @@ function sameSpot(a, b) {
   return Math.abs(a.lat - b.lat) < 1e-4 && Math.abs(a.lng - b.lng) < 1e-4;
 }
 
-async function computeLeg(from, to, label) {
+async function computeLeg(from, to, label, hintMode) {
   const d = hav(from, to);
   let profile, mode, modeLabel;
-  if (d <= WALK_THRESHOLD_M) {
+  // A stand-in can say the leg is a train ride even when it is short enough to walk.
+  const forceTransit = hintMode && hintMode !== 'walk';
+  if (d <= WALK_THRESHOLD_M && !forceTransit) {
     profile = 'foot';
     mode = 'walk';
     modeLabel = 'walk';
@@ -179,7 +181,8 @@ for (const day of trip.days) {
     const { result, mode } = await computeLeg(
       a,
       b,
-      `Day ${day.dayNumber} · ${a.title} → ${b.title}`
+      `Day ${day.dayNumber} · ${a.title} → ${b.title}`,
+      a.routeToNext?.mode
     );
     if (result) {
       a.routeToNext = result;
