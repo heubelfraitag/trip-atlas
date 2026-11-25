@@ -30,6 +30,16 @@ jobs:
 
       - run: npm ci
 
+      # Replace any missing or straight-line legs with real walking/road routes
+      # before building. Legs that already have a route are left alone. If the
+      # routing server is unreachable the build still goes ahead.
+      - name: Fill in real route geometry
+        continue-on-error: true
+        run: |
+          for f in trips/*.json; do
+            node scripts/precompute-routes.mjs "$f"
+          done
+
       - name: Build
         env:
           # Repo name path so assets resolve under https://<user>.github.io/<repo>/

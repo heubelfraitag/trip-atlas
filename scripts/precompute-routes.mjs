@@ -148,6 +148,14 @@ async function computeLeg(from, to, label) {
   return { result: null, mode: null };
 }
 
+/**
+ * A hand-written stand-in: a two-point GeoJSON line between the two stops.
+ * These get replaced by a real route here; if routing fails, the stand-in stays.
+ */
+function isPlaceholder(r) {
+  return !!r && r.format === 'geojson' && Array.isArray(r.data) && r.data.length <= 2;
+}
+
 const trip = JSON.parse(readFileSync(file, 'utf-8'));
 let walked = 0;
 let driven = 0;
@@ -164,7 +172,7 @@ for (const day of trip.days) {
       skipped++;
       continue;
     }
-    if (a.routeToNext) {
+    if (a.routeToNext && !isPlaceholder(a.routeToNext)) {
       skipped++;
       continue;
     }
@@ -184,7 +192,7 @@ for (const day of trip.days) {
   }
 
   // Hotel → first activity
-  if (day.activities.length > 0 && !day.routeFromHotel) {
+  if (day.activities.length > 0 && (!day.routeFromHotel || isPlaceholder(day.routeFromHotel))) {
     const startHotel = findStartHotel(trip, day.date);
     const first = day.activities[0];
     if (startHotel && !sameSpot(startHotel, first)) {
@@ -204,7 +212,7 @@ for (const day of trip.days) {
   }
 
   // Last activity → hotel
-  if (day.activities.length > 0 && !day.routeToHotel) {
+  if (day.activities.length > 0 && (!day.routeToHotel || isPlaceholder(day.routeToHotel))) {
     const endHotel = findEndHotel(trip, day.date);
     const last = day.activities[day.activities.length - 1];
     if (endHotel && !sameSpot(endHotel, last)) {
