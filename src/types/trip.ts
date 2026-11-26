@@ -161,6 +161,11 @@ export interface Activity {
    * specific destination (e.g. "neighborhood walk", "free time").
    */
   noNavigate?: boolean;
+  /**
+   * What to search for when opening Maps, when the title isn't a place name
+   * (e.g. a train to board). Falls back to the title.
+   */
+  mapsQuery?: string;
   /** Pre-computed route to the next activity (or null if last). */
   routeToNext?: RouteGeometry;
   photoUrl?: string;

@@ -229,7 +229,11 @@ export default function ActivityCard({ activity, isLast, currency, slug, liveSta
           )}
           <div className="mt-2 flex flex-wrap gap-2">
             {!activity.noNavigate && (
-              <OpenInMapsButton lat={activity.lat} lng={activity.lng} name={activity.title} />
+              <OpenInMapsButton
+                lat={activity.lat}
+                lng={activity.lng}
+                name={activity.mapsQuery ?? activity.title}
+              />
             )}
             <button
               onClick={toggleDone}

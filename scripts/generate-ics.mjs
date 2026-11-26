@@ -62,7 +62,7 @@ function buildICS(trip) {
         summary: `${a.title}${a.soloOnly ? ' (solo)' : ''}`,
         description: buildDescription(a, trip),
         location: a.address || `${a.lat},${a.lng}`,
-        url: gMapsHref(a.lat, a.lng, a.title),
+        url: gMapsHref(a.lat, a.lng, a.mapsQuery ?? a.title),
         timezone: tz,
         geo: `${a.lat};${a.lng}`,
       });
@@ -197,7 +197,7 @@ function buildDescription(a, trip) {
   if (typeof a.costPerPerson === 'number')
     bits.push(`~${a.costPerPerson} ${a.currency || trip.meta.currency} pp`);
   if (a.bookingUrl) bits.push(`Booking: ${a.bookingUrl}`);
-  bits.push(gMapsHref(a.lat, a.lng, a.title));
+  bits.push(gMapsHref(a.lat, a.lng, a.mapsQuery ?? a.title));
   return bits.join('\n');
 }
 

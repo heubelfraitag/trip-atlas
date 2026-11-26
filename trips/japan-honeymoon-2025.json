@@ -97503,28 +97503,29 @@
                 35.69156
               ],
               [
-                139.7006,
-                35.6896
+                139.7008,
+                35.691
               ]
             ],
             "durationMin": 12,
             "mode": "walk"
-          }
+          },
+          "mapsQuery": "温泉旅館 由縁 新宿"
         },
         {
           "id": "d4-1",
           "time": "09:00",
-          "title": "Shinjuku Station — print train tickets",
-          "description": "Do this FIRST so the 11:34 is safe. Find a JR East reserved-seat ticket machine with a QR reader (指定席券売機) near the JR gates, tap the QR option and scan the screenshot from your Japan Bullet Train 'My Page'. It prints the paper tickets; allow 15 minutes. If the QR won't scan, take it and your passports to the staffed JR ticket office (みどりの窓口). Then take the JR Yamanote Line two stops to Harajuku; the light backpacks come with you.",
+          "title": "Shinjuku Station East Gate — print train tickets",
+          "description": "Do this FIRST so the 11:34 is safe. Walk to the JR East Gate (東改札) on level B1. Just outside it, on the East–West passage, is the JR ticket office (みどりの窓口) with ticket machines beside it. Use a reserved-seat machine with a QR reader (指定席券売機): tap the QR option and scan the screenshot from your Japan Bullet Train 'My Page'. It prints the paper tickets; allow 15 minutes. If the QR won't scan, take it and your passports into the ticket office next to the machines. Put the paper tickets away safely. Then tap in through the East Gate with your Suica/IC card and take the JR Yamanote Line toward Shibuya, two stops to Harajuku. The light backpacks come with you.",
           "category": "transit",
-          "lat": 35.6896,
-          "lng": 139.7006,
+          "lat": 35.691,
+          "lng": 139.7008,
           "routeToNext": {
             "format": "geojson",
             "data": [
               [
-                139.7006,
-                35.6896
+                139.7008,
+                35.691
               ],
               [
                 139.6993,
@@ -97533,7 +97534,9 @@
             ],
             "durationMin": 15,
             "mode": "subway"
-          }
+          },
+          "mapsQuery": "JR新宿駅 東改札",
+          "address": "JR Shinjuku Station, East Gate (東改札), basement level B1"
         },
         {
           "id": "d4-0b",
@@ -97558,22 +97561,24 @@
             ],
             "durationMin": 15,
             "mode": "subway"
-          }
+          },
+          "mapsQuery": "明治神宮"
         },
         {
           "id": "d4-2",
           "time": "10:50",
-          "title": "Shinjuku Station — bento (optional)",
-          "description": "The train runs 11:34–1:31, right across lunch, and eating at your seat is normal on this train: grab an ekiben from Ecute Shinjuku or the Lumine basement, or just snacks and drinks if you'd rather save your appetite for hōtō noodles at Kawaguchiko. Be on the platform by 11:15.",
+          "title": "Back at Shinjuku Station — switch to paper tickets + bento (optional)",
+          "description": "The Yamanote Line from Harajuku brings you in on platform 15, already inside the gates. FIRST tap OUT through any gate with your Suica/IC card to close that trip, then come straight back IN by feeding the paper Fuji Excursion tickets into the gate (both tickets together if you each have two) and take them back. Then food: the train runs 11:34–1:31, right across lunch, and eating at your seat is normal on this train. Grab an ekiben inside the station, or just snacks and drinks if you'd rather save your appetite for hōtō noodles at Kawaguchiko. Be on Platform 9 by 11:15.",
           "category": "food",
           "lat": 35.6896,
-          "lng": 139.7006
+          "lng": 139.7006,
+          "mapsQuery": "JR新宿駅"
         },
         {
           "id": "d4-3",
           "time": "11:34",
-          "title": "Fuji Excursion 93 — board at Shinjuku (booked)",
-          "description": "✅ BOOKED. Fuji Excursion 93, Shinjuku 11:34 → Kawaguchiko 1:31 PM (1h57m), 2 adults, reserved seats. Booked via Japan Bullet Train (NAVITIME); application details are on your private confirmations page. Board the car number printed on your paper ticket (号車). The planned 10:30 and every earlier Fuji Excursion that day were sold out — this is the last one of the day.",
+          "title": "Fuji Excursion 93 — board at Shinjuku, Platform 9 (booked)",
+          "description": "✅ BOOKED. Fuji Excursion 93 (富士回遊93号), Shinjuku 11:34 → Kawaguchiko 1:31 PM (1h57m), 2 adults, reserved seats. PLATFORM 9 per JR East's timetable for this train; platforms 9 and 10 share one island in the middle of the station, signed 中央本線（特急）/ Chuo Line Limited Express. From the Yamanote platform it's about a minute: follow those signs, and on the B1 central passage a line on the floor leads to platforms 9・10. Check the departure board for 富士回遊93号 河口湖 in case the platform changes. It's a short 5-car train: signs on the platform floor and overhead show where each car stops, so stand at the car number printed on your ticket (号車). Every car is reserved. Booked via Japan Bullet Train (NAVITIME); details are on your private confirmations page. This is the last Fuji Excursion of the day.",
           "category": "transit",
           "lat": 35.6896,
           "lng": 139.7006,
@@ -97587,7 +97592,9 @@
             "corrected": true,
             "formulaMin": 145,
             "pinned": "Fuji Excursion limited express scheduled time"
-          }
+          },
+          "mapsQuery": "JR新宿駅",
+          "address": "JR Shinjuku Station, Platform 9 (Chuo Line limited express platforms 9・10)"
         },
         {
           "id": "d4-4",
@@ -97596,7 +97603,8 @@
           "description": "Arrive 1:31 PM. Mizunosato's station shuttle needs an ADVANCE RESERVATION (+81 555-72-1831); the hotel's notes give two start times, 14:30 and 14:45, so confirm when you reserve. Have lunch first, then meet the shuttle. Check-in opens at 3:00 PM.",
           "category": "transit",
           "lat": 35.49833,
-          "lng": 138.76861
+          "lng": 138.76861,
+          "mapsQuery": "河口湖駅"
         },
         {
           "id": "d4-5",
@@ -97612,7 +97620,8 @@
             "durationMin": 26,
             "distanceM": 2159,
             "mode": "walk"
-          }
+          },
+          "mapsQuery": "河口湖駅"
         },
         {
           "id": "d4-5c",
@@ -97628,7 +97637,8 @@
             "durationMin": 4,
             "distanceM": 293,
             "mode": "walk"
-          }
+          },
+          "mapsQuery": "レイクランドホテルみづのさと"
         },
         {
           "id": "d4-5b",
@@ -97653,7 +97663,8 @@
           "description": "Included with your room. Mizunosato serves a buffet or a multi-course Japanese dinner (their choice). Be checked in by 19:00 or they won't prepare it.",
           "category": "food",
           "lat": 35.510469,
-          "lng": 138.7567048
+          "lng": 138.7567048,
+          "mapsQuery": "レイクランドホテルみづのさと"
         }
       ]
     },
@@ -101376,9 +101387,11 @@
           "heading": "At Shinjuku",
           "ordered": true,
           "items": [
-            "Find a JR ticket machine with a QR reader.",
-            "Scan the QR code — it prints your paper tickets.",
-            "Board the car number printed on the ticket (号車). You may get two tickets each: feed both into the gate together and take them back."
+            "Go to the JR East Gate (東改札), level B1. The ticket office (みどりの窓口) and ticket machines are just outside it.",
+            "Use a reserved-seat machine with a QR reader (指定席券売機) and scan the QR code — it prints your paper tickets.",
+            "Enter the gates with the paper tickets: feed both in together if you each have two, and take them back.",
+            "Platform 9 (signed 中央本線（特急）, platforms 9・10). Check the board for 富士回遊93号 河口湖.",
+            "Board the car number printed on the ticket (号車). The train has 5 cars, all reserved."
           ]
         },
         {

@@ -281,7 +281,10 @@ export default function DayDetail() {
         <OpenInMapsButton
           lat={day.activities[0]?.lat ?? 0}
           lng={day.activities[0]?.lng ?? 0}
-          name={`Day ${day.dayNumber}: ${day.activities[0]?.title ?? day.theme}`}
+          name={
+            day.activities[0]?.mapsQuery ??
+            `Day ${day.dayNumber}: ${day.activities[0]?.title ?? day.theme}`
+          }
           label="Start day in Maps"
           size="md"
         />
