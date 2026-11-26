@@ -97483,48 +97483,88 @@
     {
       "date": "2026-11-27",
       "dayNumber": 4,
-      "theme": "Coffee, Knife, Travel to Fuji",
+      "theme": "Meiji Jingu + Train to Fuji",
       "city": "Tokyo",
       "activities": [
         {
-          "id": "d4-0a",
+          "id": "d4-out",
           "time": "08:30",
-          "title": "Yoyogi Park walk",
-          "description": "Quick Marunouchi Line ride from Shinjuku-Gyoemmae to Yoyogi-Koen — relaxed morning walk through cedars + autumn leaves before catching the 11:34 Fuji Excursion. No rush this morning. Last Tokyo activity before heading to the lake.",
-          "address": "Yoyogi Park, Shibuya City",
-          "category": "walk",
-          "lat": 35.6716,
-          "lng": 139.6948,
+          "title": "Check out + send the big bags (Yuen front desk)",
+          "description": "Hand the big bags to the front desk for delivery to Lakeland Hotel Mizunosato and ask \"11月28日に届きますか？\" (Will it arrive Nov 28?). You leave Lakeland by 10:00 on the 29th, so if they can't promise the 28th, send the bags to FUFU Kawaguchiko instead (TEL 0555-73-9573, check-in Nov 29). The Japanese card to show is on Confirmations → Luggage. Allow about 10 minutes for the form and keep the receipt. Carry-ons: two outfits each, chargers, medications, passports, film cameras. Also ask the desk to call Lakeland (0555-72-1831) to reserve the station shuttle.",
+          "address": "5-3-18 Shinjuku, Shinjuku City",
+          "category": "hotel",
+          "lat": 35.69156,
+          "lng": 139.70908,
           "routeToNext": {
-            "format": "polyline",
-            "data": "yivxE{ussY??ZQp@e@bAe@JINSHQVgAPg@La@Ji@Bc@^uBd@{AZkAXGVK`@YVUp@s@p@q@JKJa@VABEDKAA?C?C?CB}@@KDQFGHEe@EGAc@Cu@CQAK?O?k@BY?U?UC_@IeAOQCOCc@IQGSGe@Sk@Uq@SECECCGCGCMCQKe@e@mBOa@aCsDOUkAoBu@cCGWUNYNgAXWDk@LMDoBZu@NSBa@FcBZ]FODSFSH]PoAx@KHMFuAbA_Ap@y@p@e@N]Ji@HELKNSPIHODKBPpB@LH`ABTDTPb@?Jb@j@vAx@r@VBVG~AERx@nAlAjAjAt@dAQz@UVItAe@~A_A`@WXQTOd@YNb@J^Bb@O`@AR?Z@d@QR?JO@mBL",
-            "durationMin": 10,
-            "distanceM": 839,
-            "mode": "walk"
-          }
-        },
-        {
-          "id": "d4-0b",
-          "time": "09:00",
-          "title": "Meiji Jingu Shrine",
-          "description": "Major Shinto shrine in a vast forested grove — the counterpart to Senso-ji's Buddhist scale. Quiet at this hour, you'll have the gravel paths almost to yourselves. Allow ~90 min round trip from main torii.",
-          "address": "1-1 Yoyogi Kamizonocho, Shibuya City",
-          "category": "temple",
-          "lat": 35.6764,
-          "lng": 139.6993,
-          "routeToNext": {
-            "format": "polyline",
-            "data": "_awxEeetsYE@GY]k@c@]EQAGuAd@WH{@TeAPkAu@mAkAy@oADSF_BCWs@WwAy@c@k@?KQc@EUSJ[NMJKJIPUb@ORE@OF_B`@QDeAVqCp@]FSDUD_ALSB[Fe@FiBXoATg@LUD{A\\KFKFEDCBIJMLEFEFGHIHuBdCo@b@cAd@k@PqBh@}Ab@e@LIBWHUHSq@Me@Qi@GYMi@E_@Ge@OwA",
-            "durationMin": 22,
-            "distanceM": 1841,
+            "format": "geojson",
+            "data": [
+              [
+                139.70908,
+                35.69156
+              ],
+              [
+                139.7006,
+                35.6896
+              ]
+            ],
+            "durationMin": 12,
             "mode": "walk"
           }
         },
         {
           "id": "d4-1",
-          "time": "10:45",
-          "title": "Shinjuku Station — print train tickets + bento",
-          "description": "~15 min from Meiji Jingu: walk to Harajuku Station, JR Yamanote 1 stop to Shinjuku. FIRST, print your Fuji Excursion paper tickets at a JR ticket machine: scan the QR code from your Japan Bullet Train 'My Page' (screenshot it in advance). Allow 15 min. Then grab an ekiben from Ecute Shinjuku or the Lumine basement for the ride.",
+          "time": "09:00",
+          "title": "Shinjuku Station — print train tickets + coin locker",
+          "description": "Do this FIRST so the 11:34 is safe. Find a JR East reserved-seat ticket machine with a QR reader (指定席券売機) near the JR gates, tap the QR option and scan the screenshot from your Japan Bullet Train 'My Page'. It prints the paper tickets; allow 15 minutes. If the QR won't scan, take it and your passports to the staffed JR ticket office (みどりの窓口). Then put the carry-ons in a coin locker and take the JR Yamanote Line two stops to Harajuku.",
+          "category": "transit",
+          "lat": 35.6896,
+          "lng": 139.7006,
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                139.7006,
+                35.6896
+              ],
+              [
+                139.6993,
+                35.6764
+              ]
+            ],
+            "durationMin": 15,
+            "mode": "subway"
+          }
+        },
+        {
+          "id": "d4-0b",
+          "time": "09:35",
+          "title": "Meiji Jingu Shrine",
+          "description": "Major Shinto shrine in a vast forested grove — the counterpart to Senso-ji's Buddhist scale. Free; November gate hours are 6:10 AM–4:10 PM, so you can come earlier if you're up. About an hour covers the walk in from the Harajuku torii and the main hall; skip the paid Inner Garden today. HARD STOP: leave the shrine by 10:35 and take the Yamanote Line two stops back to Shinjuku. If the morning is running late, skip the shrine — you're back in Tokyo Dec 6–8.",
+          "address": "1-1 Yoyogi Kamizonocho, Shibuya City",
+          "category": "temple",
+          "lat": 35.6764,
+          "lng": 139.6993,
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                139.6993,
+                35.6764
+              ],
+              [
+                139.7006,
+                35.6896
+              ]
+            ],
+            "durationMin": 15,
+            "mode": "subway"
+          }
+        },
+        {
+          "id": "d4-2",
+          "time": "10:50",
+          "title": "Shinjuku Station — collect bags + bento (optional)",
+          "description": "Collect the carry-ons from the locker. The train runs 11:34–1:31, right across lunch, and eating at your seat is normal on this train: grab an ekiben from Ecute Shinjuku or the Lumine basement, or just snacks and drinks if you'd rather save your appetite for hōtō noodles at Kawaguchiko. Be on the platform by 11:15.",
           "category": "food",
           "lat": 35.6896,
           "lng": 139.7006
@@ -97553,7 +97593,7 @@
           "id": "d4-4",
           "time": "13:31",
           "title": "Kawaguchiko Station",
-          "description": "Arrive 1:31 PM. Mizunosato's station shuttle runs 14:30–19:30 and needs an ADVANCE RESERVATION (+81 555-72-1831). Have lunch first, then meet the shuttle around 2:30 PM. Check-in opens at 3:00 PM.",
+          "description": "Arrive 1:31 PM. Mizunosato's station shuttle needs an ADVANCE RESERVATION (+81 555-72-1831); the hotel's notes give two start times, 14:30 and 14:45, so confirm when you reserve. Have lunch first, then meet the shuttle. Check-in opens at 3:00 PM.",
           "category": "transit",
           "lat": 35.49833,
           "lng": 138.76861
@@ -97562,7 +97602,7 @@
           "id": "d4-5",
           "time": "13:45",
           "title": "Lunch near Kawaguchiko Station",
-          "description": "About an hour to fill before the hotel shuttles start. Hōtō noodles (the local thick-noodle stew) are the classic choice near the station. Then take the shuttle to the hotel around 14:30.",
+          "description": "About an hour to fill before the hotel shuttle starts. Hōtō noodles (the local thick-noodle stew) are the classic choice near the station; if you ate a bento on the train, walk around the station area instead. Then take the shuttle to the hotel around 14:30.",
           "category": "hotel",
           "lat": 35.49833,
           "lng": 138.76861,
@@ -97615,16 +97655,7 @@
           "lat": 35.510469,
           "lng": 138.7567048
         }
-      ],
-      "routeFromHotel": {
-        "format": "polyline",
-        "data": "y_zxE{|usY?BCZANGrAGx@g@~CCLIb@ZAj@C\\An@?f@BH?RBZ@B@B?ZD^FVF^JH@\\H`@HXLNHPLHDPJXRZTr@h@p@l@j@r@x@z@`Ax@jBrAhBlAn@^\\Rl@Xv@LLB\\BVAd@Gf@K^Ip@OHEHCd@Q\\Qz@k@PKDAZMLETELC|@?lBAX?H?V?pA@h@?dCBb@?t@?R?Z?H@TAZARATERGNGNGnA_Af@[`As@`@YLIJId@]^U\\Ud@Qh@MPEDAh@ILCd@I`@GTEt@O??v@Mx@OJCl@KBAz@OZKXSTODRFVt@bCjAnBNT`CrDN`@d@lBJd@BPBLBFBFDBDBp@Rj@Td@RRFPFb@HNBPBdAN^HTBT?X?j@CN?J?P@t@Bb@BF@d@DIDGFEPAJC|@?B?B?B@@EJCDW@K`@KJq@p@q@r@WTa@XWJYF[jAe@zA_@tBCb@Kh@M`@Qf@WfAIPORKHcAd@q@d@[P??",
-        "durationMin": 19,
-        "distanceM": 3651,
-        "mode": "subway",
-        "osrmMin": 8,
-        "corrected": true
-      }
+      ]
     },
     {
       "date": "2026-11-28",
