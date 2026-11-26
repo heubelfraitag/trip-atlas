@@ -97488,7 +97488,7 @@
       "activities": [
         {
           "id": "d4-out",
-          "time": "08:30",
+          "time": "08:00",
           "title": "Check out + send the big bags (Yuen front desk)",
           "description": "Hand the big bags to the front desk for delivery to Lakeland Hotel Mizunosato and ask \"11月28日に届きますか？\" (Will it arrive Nov 28?). You leave Lakeland by 10:00 on the 29th, so if they can't promise the 28th, send the bags to FUFU Kawaguchiko instead (TEL 0555-73-9573, check-in Nov 29). The Japanese card to show is on Confirmations → Luggage. Allow about 10 minutes for the form and keep the receipt. Carry-ons: two outfits each, chargers, medications, passports, film cameras. Also ask the desk to call Lakeland (0555-72-1831) to reserve the station shuttle.",
           "address": "5-3-18 Shinjuku, Shinjuku City",
@@ -97503,14 +97503,40 @@
                 35.69156
               ],
               [
+                139.7070332,
+                35.6941089
+              ]
+            ],
+            "durationMin": 5,
+            "mode": "walk"
+          },
+          "mapsQuery": "温泉旅館 由縁 新宿"
+        },
+        {
+          "id": "d4-bk",
+          "time": "08:15",
+          "title": "Breakfast — 3-chome no Chiisana Pan-ya-san (\"Chii-pan\" bakery)",
+          "mapsQuery": "３丁目のちいさなパン屋さん",
+          "description": "Small neighborhood bakery about 5 minutes north of the ryokan, next to Hotel Sunlite. Known for palm-sized buns, many shaped like animals, and its curry bread; a few seats inside plus coffee. Opens 8:00 (closed Sun and Mon) and closes when the bread sells out. Tabelog 3.48 (209 reviews), Google 4.4 (664). Leave by 8:45 for the 10-minute walk to Shinjuku Station's East Gate.",
+          "address": "5-15-7 Shinjuku, Shinjuku City (Toko Bldg 1F)",
+          "category": "food",
+          "lat": 35.6941089,
+          "lng": 139.7070332,
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                139.7070332,
+                35.6941089
+              ],
+              [
                 139.7008,
                 35.691
               ]
             ],
-            "durationMin": 12,
+            "durationMin": 10,
             "mode": "walk"
-          },
-          "mapsQuery": "温泉旅館 由縁 新宿"
+          }
         },
         {
           "id": "d4-1",
