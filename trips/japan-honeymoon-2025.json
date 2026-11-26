@@ -97514,8 +97514,8 @@
         {
           "id": "d4-1",
           "time": "09:00",
-          "title": "Shinjuku Station — print train tickets + coin locker",
-          "description": "Do this FIRST so the 11:34 is safe. Find a JR East reserved-seat ticket machine with a QR reader (指定席券売機) near the JR gates, tap the QR option and scan the screenshot from your Japan Bullet Train 'My Page'. It prints the paper tickets; allow 15 minutes. If the QR won't scan, take it and your passports to the staffed JR ticket office (みどりの窓口). Then put the carry-ons in a coin locker and take the JR Yamanote Line two stops to Harajuku.",
+          "title": "Shinjuku Station — print train tickets",
+          "description": "Do this FIRST so the 11:34 is safe. Find a JR East reserved-seat ticket machine with a QR reader (指定席券売機) near the JR gates, tap the QR option and scan the screenshot from your Japan Bullet Train 'My Page'. It prints the paper tickets; allow 15 minutes. If the QR won't scan, take it and your passports to the staffed JR ticket office (みどりの窓口). Then take the JR Yamanote Line two stops to Harajuku; the light backpacks come with you.",
           "category": "transit",
           "lat": 35.6896,
           "lng": 139.7006,
@@ -97563,8 +97563,8 @@
         {
           "id": "d4-2",
           "time": "10:50",
-          "title": "Shinjuku Station — collect bags + bento (optional)",
-          "description": "Collect the carry-ons from the locker. The train runs 11:34–1:31, right across lunch, and eating at your seat is normal on this train: grab an ekiben from Ecute Shinjuku or the Lumine basement, or just snacks and drinks if you'd rather save your appetite for hōtō noodles at Kawaguchiko. Be on the platform by 11:15.",
+          "title": "Shinjuku Station — bento (optional)",
+          "description": "The train runs 11:34–1:31, right across lunch, and eating at your seat is normal on this train: grab an ekiben from Ecute Shinjuku or the Lumine basement, or just snacks and drinks if you'd rather save your appetite for hōtō noodles at Kawaguchiko. Be on the platform by 11:15.",
           "category": "food",
           "lat": 35.6896,
           "lng": 139.7006
