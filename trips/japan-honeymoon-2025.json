@@ -97864,7 +97864,7 @@
           "lng": 138.8307996,
           "mapsQuery": "忍野八海バス停",
           "address": "187 Shibokusa, Oshino (by the car park)",
-          "description": "¥620 each, about 21–23 minutes; buses run once or twice an hour. Photograph the timetable at this stop when you arrive in the morning and use the real time; 13:45 here is a placeholder. Queue 10 minutes early: reviewers report long lines and late buses. Two buses serve the stop, a direct one and the slower Fujikko-go loop; either reaches Kawaguchiko Station.",
+          "description": "¥620 each, about 21–30 minutes. Times found online for Saturdays (confirm on the pole): express (特急) at 13:10 and 14:10, reaching the station about :40; regular A1 line listed at 13:26 and 14:26. 13:45 here is a placeholder. Aim for the 13:10 express if you want the sake brewery before the shuttle. Queue 10 minutes early: reviewers report long lines and late buses. Check the pole lists 河口湖駅 (Kawaguchiko Station); if not, cross the road.",
           "routeToNext": {
             "format": "geojson",
             "data": [
@@ -97896,6 +97896,32 @@
               [
                 138.76861,
                 35.49833
+              ],
+              [
+                138.7656011,
+                35.5020647
+              ]
+            ],
+            "durationMin": 10,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d5-brew",
+          "time": "14:35",
+          "title": "Optional — Ide Sake Brewery tasting (井出醸造店)",
+          "category": "bar",
+          "lat": 35.5020647,
+          "lng": 138.7656011,
+          "mapsQuery": "井出醸造店",
+          "address": "8 Funatsu, Fujikawaguchiko",
+          "description": "Only if there's a wait for the hotel shuttle. 10-minute walk from the station; open 9:00–12:00 and 13:00–17:00 on Saturdays. Coin-machine tasting, about ¥950 for 5 pours (sake, plum sake, a whisky) per a Google reviewer; Google 4.6 (411). No booking needed for the shop; skip the tour (reservation only, 9:30 and 15:00). Feels hidden down an alley, so trust the pin. Afterwards walk back to the station for the shuttle, or taxi straight to Lakeland.",
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                138.7656011,
+                35.5020647
               ],
               [
                 138.7567048,
