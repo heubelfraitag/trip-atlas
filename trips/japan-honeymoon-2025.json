@@ -97708,7 +97708,7 @@
           "lat": 35.510469,
           "lng": 138.7567048,
           "mapsQuery": "レイクランドホテルみづのさと",
-          "description": "Breakfast is served 9:00–10:00 today. While you're there, ask the front desk for two things: a taxi to Oshino Hakkai for 10:15, and a station shuttle pickup for about 2:45 PM. Bring cash (the village is reported to be cash only; ¥15,000 covers taxi, museum, stamp, lunch, snacks and bus), Madison's stamp book, and the hotel umbrellas. Rain should stop around 9:00 with drizzle possible until 11:00.",
+          "description": "Breakfast is served 9:00–10:00 today. While you're there, ask the front desk for two things: a taxi to Tōen-ji temple in Oshino (東円寺) for 10:00, and a station shuttle pickup for about 2:45 PM. Bring cash (the village is reported to be cash only; ¥15,000 covers taxi, museum, stamp, lunch, snacks and bus), Madison's stamp book, and the hotel umbrellas. Rain should stop around 9:00 with drizzle possible until 11:00.",
           "routeToNext": {
             "format": "geojson",
             "data": [
@@ -97717,8 +97717,8 @@
                 35.510469
               ],
               [
-                138.83309,
-                35.46224
+                138.831557,
+                35.463678
               ]
             ],
             "durationMin": 30,
@@ -97726,15 +97726,41 @@
           }
         },
         {
+          "id": "d5-toenji",
+          "time": "10:30",
+          "title": "Tōen-ji temple — taxi drop-off + dragon-king stamps (東円寺)",
+          "category": "temple",
+          "lat": 35.463678,
+          "lng": 138.831557,
+          "mapsQuery": "東円寺 忍野",
+          "address": "38 Shibokusa, Oshino",
+          "description": "Show the driver: 東円寺 忍野村忍草38. Tendai temple said to date to 810; it ran the ponds as a purification circuit for Fuji pilgrims. Today is the 28th, one of the three days a month (8th, 18th, 28th) it gives the special Eight Dragon Kings stamps, including one per pond; regular Fudō and Shō-Kannon stamps too. See the 1317 Shō-Kannon in the octagonal hall on the right. Open 9:00–17:00, entry by donation, bring cash. The shop reportedly sells an English pamphlet on the Fuji faith and playing cards. Then walk 3–4 minutes south to the shrine.",
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                138.831557,
+                35.463678
+              ],
+              [
+                138.83309,
+                35.46224
+              ]
+            ],
+            "durationMin": 4,
+            "mode": "walk"
+          }
+        },
+        {
           "id": "d5-shrine",
-          "time": "10:45",
-          "title": "Oshino Hakkai Sengen Shrine — taxi drop-off + stamp",
+          "time": "11:00",
+          "title": "Oshino Hakkai Sengen Shrine — stamp + old yews",
           "category": "temple",
           "lat": 35.46224,
           "lng": 138.83309,
           "mapsQuery": "忍野八海 浅間神社",
           "address": "456 Shibokusa, Oshino",
-          "description": "Tell the driver: 「忍野八海の浅間神社までお願いします」. Starting at the north end lets the whole visit run in one line with no backtracking. Founded in 807 and regarded as the guardian shrine of the ponds; blessings include matchmaking and love. Open 9:00–17:00, free. Goshuin for Madison's book: one reviewer paid ¥1,000 for a three-page set. It doesn't need a view, so it's the right first stop while the last drizzle passes.",
+          "description": "Founded in 807 and regarded as the guardian shrine of the ponds; blessings include matchmaking and love. Look for the old yew trees, some grown together as husband-and-wife pairs. Open 9:00–17:00, free. Goshuin for Madison's book: one reviewer paid ¥1,000 for a three-page set.",
           "routeToNext": {
             "format": "geojson",
             "data": [
@@ -97753,7 +97779,7 @@
         },
         {
           "id": "d5-3b",
-          "time": "11:15",
+          "time": "11:30",
           "title": "Oshino Hakkai — Naka-ike + Waku-ike ponds",
           "category": "nature",
           "lat": 35.4603,
@@ -97779,7 +97805,7 @@
         },
         {
           "id": "d5-snack",
-          "time": "11:35",
+          "time": "11:55",
           "title": "Snack street — grilled kusa-mochi (Watanabe Shokuhin)",
           "category": "food",
           "lat": 35.459425,
@@ -97805,14 +97831,14 @@
         },
         {
           "id": "d5-museum",
-          "time": "11:50",
+          "time": "12:15",
           "title": "Hannoki Bayashi open-air museum + Fuji deck",
           "category": "art",
           "lat": 35.4595533,
           "lng": 138.8318643,
           "mapsQuery": "榛の木林資料館 忍野八海",
           "address": "265 Shibokusa, Oshino",
-          "description": "¥300 each, open 9:00–17:00. An Edo-period thatched farmhouse you can climb up into, its own pond, and a viewing deck reviewers call the best Mt Fuji photo spot in the village. Also the quiet corner away from the tour groups. By now the sky should be clearing.",
+          "description": "¥300 each, open 9:00–17:00. An Edo-period thatched farmhouse you can climb up into, its own pond, and a viewing deck reviewers call the best Mt Fuji photo spot in the village. Also the quiet corner away from the tour groups. By now the sky should be clearing. Walk to the very back for Sokonuke-ike (底抜池), pond No. 3 of the pilgrim circuit and the one most visitors miss.",
           "routeToNext": {
             "format": "geojson",
             "data": [
@@ -97831,14 +97857,14 @@
         },
         {
           "id": "d5-3",
-          "time": "12:30",
+          "time": "13:15",
           "title": "Lunch — Mendokoro Biwa (麺処びわ)",
           "category": "food",
           "lat": 35.4593289,
           "lng": 138.8297609,
           "mapsQuery": "麺処びわ 忍野",
           "address": "117 Shibokusa, Oshino",
-          "description": "Soba and udon made with the spring water, plus tempura. Ask for a window table for the Mt Fuji view, and ask for the English menu. Open 11:00–14:00, cash only. Tabelog 3.38 (61 reviews), Google 4.2 (365). Fallback next door: Maruten (丸天), grilled trout and soba, open to 14:30, lines at peak.",
+          "description": "Soba and udon made with the spring water, plus tempura. Ask for a window table for the Mt Fuji view, and ask for the English menu. Open 11:00–14:00, cash only; arriving 13:15 is close to closing, so go straight in and order. Tabelog 3.38 (61 reviews), Google 4.2 (365). Fallback next door: Maruten (丸天), grilled trout and soba, open to 14:30, lines at peak.",
           "routeToNext": {
             "format": "geojson",
             "data": [
@@ -97857,14 +97883,14 @@
         },
         {
           "id": "d5-bus",
-          "time": "13:45",
+          "time": "14:10",
           "title": "Bus back — Oshino Hakkai stop to Kawaguchiko Station",
           "category": "transit",
           "lat": 35.4587509,
           "lng": 138.8307996,
           "mapsQuery": "忍野八海バス停",
           "address": "187 Shibokusa, Oshino (by the car park)",
-          "description": "¥620 each, about 21–30 minutes. Times found online for Saturdays (confirm on the pole): express (特急) at 13:10 and 14:10, reaching the station about :40; regular A1 line listed at 13:26 and 14:26. 13:45 here is a placeholder. Aim for the 13:10 express if you want the sake brewery before the shuttle. Queue 10 minutes early: reviewers report long lines and late buses. Check the pole lists 河口湖駅 (Kawaguchiko Station); if not, cross the road.",
+          "description": "¥620 each, about 21–30 minutes. Aim for the 14:10 express (特急), at the station about 14:40. Times found online for Saturdays, so confirm on the pole: express 13:10 and 14:10; regular A1 line listed at 13:26 and 14:26. Queue 10 minutes early: reviewers report long lines and late buses. Check the pole lists 河口湖駅 (Kawaguchiko Station); if not, cross the road.",
           "routeToNext": {
             "format": "geojson",
             "data": [
@@ -97883,7 +97909,7 @@
         },
         {
           "id": "d5-station",
-          "time": "14:30",
+          "time": "14:45",
           "title": "Kawaguchiko Station — hotel shuttle",
           "category": "transit",
           "lat": 35.49833,
@@ -97908,7 +97934,7 @@
         },
         {
           "id": "d5-brew",
-          "time": "14:35",
+          "time": "14:55",
           "title": "Optional — Ide Sake Brewery tasting (井出醸造店)",
           "category": "bar",
           "lat": 35.5020647,
@@ -97934,7 +97960,7 @@
         },
         {
           "id": "d5-2",
-          "time": "15:00",
+          "time": "15:30",
           "title": "Onsen at Lakeland",
           "category": "experience",
           "lat": 35.510469,
