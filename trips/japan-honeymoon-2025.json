@@ -97697,100 +97697,245 @@
     {
       "date": "2026-11-28",
       "dayNumber": 5,
-      "theme": "Ryokan Day",
+      "theme": "Oshino Hakkai + Ryokan Afternoon",
       "city": "Kawaguchiko",
       "activities": [
         {
           "id": "d5-1",
-          "time": "08:00",
-          "title": "Japanese breakfast",
-          "description": "Grilled fish, miso soup, tamagoyaki, rice.",
+          "time": "09:00",
+          "title": "Japanese breakfast at Lakeland",
           "category": "food",
           "lat": 35.510469,
-          "lng": 138.7567048
+          "lng": 138.7567048,
+          "mapsQuery": "レイクランドホテルみづのさと",
+          "description": "Breakfast is served 9:00–10:00 today. While you're there, ask the front desk for two things: a taxi to Oshino Hakkai for 10:15, and a station shuttle pickup for about 2:45 PM. Bring cash (the village is reported to be cash only; ¥15,000 covers taxi, museum, stamp, lunch, snacks and bus), Madison's stamp book, and the hotel umbrellas. Rain should stop around 9:00 with drizzle possible until 11:00.",
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                138.7567048,
+                35.510469
+              ],
+              [
+                138.83309,
+                35.46224
+              ]
+            ],
+            "durationMin": 30,
+            "mode": "taxi"
+          }
         },
         {
-          "id": "d5-2",
-          "time": "10:00",
-          "title": "First onsen",
-          "description": "Open-air bath with Fuji view.",
-          "category": "experience",
-          "lat": 35.510469,
-          "lng": 138.7567048,
+          "id": "d5-shrine",
+          "time": "10:45",
+          "title": "Oshino Hakkai Sengen Shrine — taxi drop-off + stamp",
+          "category": "temple",
+          "lat": 35.46224,
+          "lng": 138.83309,
+          "mapsQuery": "忍野八海 浅間神社",
+          "address": "456 Shibokusa, Oshino",
+          "description": "Tell the driver: 「忍野八海の浅間神社までお願いします」. Starting at the north end lets the whole visit run in one line with no backtracking. Founded in 807 and regarded as the guardian shrine of the ponds; blessings include matchmaking and love. Open 9:00–17:00, free. Goshuin for Madison's book: one reviewer paid ¥1,000 for a three-page set. It doesn't need a view, so it's the right first stop while the last drizzle passes.",
           "routeToNext": {
-            "format": "polyline",
-            "data": "}tvwEi|{mYAo@EkA@e@C{@Ai@B_@Fs@Fy@Dc@J]FKLEDCXCn@BfBHJ{CCc@PcCdBHf@A]aDdBKsFyEKImYkVm@k@i@g@]_@Y]u@}@]e@SYo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@XJ`@Tt@b@PNNPLTJRDTF^B\\@Z?d@Cj@GjAEh@E`@C^AZAP?P@N@JJn@Fd@Dd@B^@N?J?b@Aj@An@Cv@C^CZG`@IXK\\KVOTQVyAnB[b@OVINGNEPCLEPEPCP?NBPL`AJv@BV@P?N?HCXC\\KdAG`@CTERK^Sp@GTGNEPCLALAJ?J?L@L@LBLDNJ^r@fCl@tBxA|EnA~DBDnAhETn@LTNLZHhBf@lAZjA\\xCh@~@X~@\\zAoBrDyDN_@DINOLKLIHMLM",
-            "durationMin": 18,
-            "distanceM": 1501,
+            "format": "geojson",
+            "data": [
+              [
+                138.83309,
+                35.46224
+              ],
+              [
+                138.83283,
+                35.4603
+              ]
+            ],
+            "durationMin": 4,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d5-3b",
+          "time": "11:15",
+          "title": "Oshino Hakkai — Naka-ike + Waku-ike ponds",
+          "category": "nature",
+          "lat": 35.4603,
+          "lng": 138.83283,
+          "mapsQuery": "忍野八海 湧池",
+          "address": "Shibokusa, Oshino-mura, Minamitsuru",
+          "description": "The two central spring ponds: Fuji snowmelt so clear you can see the bottom, with the water wheel and thatched roofs around them. The souvenir shop beside Naka-ike has a spring tap where you can fill a bottle (¥150). Kagami-ike, the 'mirror pond' that reflects Mt Fuji on a clear still day, is in this cluster; follow the signs, or loop back after the museum if the mountain isn't out yet.",
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                138.83283,
+                35.4603
+              ],
+              [
+                138.8329616,
+                35.459425
+              ]
+            ],
+            "durationMin": 2,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d5-snack",
+          "time": "11:35",
+          "title": "Snack street — grilled kusa-mochi (Watanabe Shokuhin)",
+          "category": "food",
+          "lat": 35.459425,
+          "lng": 138.8329616,
+          "mapsQuery": "渡辺食品 忍野八海",
+          "address": "241 Shibokusa, Oshino",
+          "description": "Mugwort rice cakes filled with red bean, toasted on a grill out front. Google 4.2 (148). On the same lane: giant hand-baked rice crackers at Teyakido, and salt-grilled trout on a stick at Ikemoto Chaya back by the ponds. Keep it light; lunch is at 12:30.",
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                138.8329616,
+                35.459425
+              ],
+              [
+                138.8318643,
+                35.4595533
+              ]
+            ],
+            "durationMin": 2,
+            "mode": "walk"
+          }
+        },
+        {
+          "id": "d5-museum",
+          "time": "11:50",
+          "title": "Hannoki Bayashi open-air museum + Fuji deck",
+          "category": "art",
+          "lat": 35.4595533,
+          "lng": 138.8318643,
+          "mapsQuery": "榛の木林資料館 忍野八海",
+          "address": "265 Shibokusa, Oshino",
+          "description": "¥300 each, open 9:00–17:00. An Edo-period thatched farmhouse you can climb up into, its own pond, and a viewing deck reviewers call the best Mt Fuji photo spot in the village. Also the quiet corner away from the tour groups. By now the sky should be clearing.",
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                138.8318643,
+                35.4595533
+              ],
+              [
+                138.8297609,
+                35.4593289
+              ]
+            ],
+            "durationMin": 3,
             "mode": "walk"
           }
         },
         {
           "id": "d5-3",
           "time": "12:30",
-          "title": "Houtou Fudou lunch",
-          "description": "Iconic Yamanashi noodle hot pot in a rustic folk-art farmhouse — wide flat noodles + vegetables in miso broth, served in a cast-iron pot the size of a small wheel. North shore, 5-10 min taxi from the hotel, opens 11:00. Kicks off the active afternoon loop.",
+          "title": "Lunch — Mendokoro Biwa (麺処びわ)",
           "category": "food",
-          "lat": 35.518,
-          "lng": 138.7472,
-          "address": "707 Kawaguchi, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0304",
-          "costPerPerson": 1500,
-          "currency": "JPY",
+          "lat": 35.4593289,
+          "lng": 138.8297609,
+          "mapsQuery": "麺処びわ 忍野",
+          "address": "117 Shibokusa, Oshino",
+          "description": "Soba and udon made with the spring water, plus tempura. Ask for a window table for the Mt Fuji view, and ask for the English menu. Open 11:00–14:00, cash only. Tabelog 3.38 (61 reviews), Google 4.2 (365). Fallback next door: Maruten (丸天), grilled trout and soba, open to 14:30, lines at peak.",
           "routeToNext": {
-            "format": "polyline",
-            "data": "y~wwEaeymYMLILMHMJONEHO^sDxD{AnB_A]_AYyCi@kA]mA[iBg@[IOMMUUo@oAiECEoA_EyA}Em@uBs@gCK_@EOCMAMAM?M?K@K@MBMDQFOFURq@J_@DSBUFa@JeAB]BY?I?OAQCWKw@MaACQ?OBQDQDQBMDQFOHONWZc@xAoBPWNUJWJ]HYFa@B[B_@Bw@@o@@k@?c@?KAOC_@Ee@Ge@Ko@AKAO?Q@Q@[B_@Da@Di@FkABk@?e@A[C]G_@EUKSMUOQQOu@c@a@UYKyAe@s@UQIMIQMMMMMOQW[OUMSKSISKYEOCSw@qEk@mDCIAQAQ@QBQBQBMFODK`@m@FKLUHQHUHUDSBMBMDWHkAFcA?MTwDFa@F_@\\kAHQ`@_ABEN[BEHQZw@XaAJ]BOTiAZmBBGDWF[HWDODILW@CT]DGDGNQNQb@c@t@s@f@g@JI`@a@JKHI`@_@FGBCRQFERQPOMUAEO_@Qi@Ia@GYAIAKAWAW?W@]@UDYPiAL{@RgA@KpBsLJo@DUTiA^{AHYJ[^mAZcAH[rAqClC{EfD}DzDmDdHyD~GyCtw@{]hO}GfOsGdDyA|Am@xAa@nBe@|Cs@jA[p@Y`Ak@hAi@jA_@`BYd@IhAMdCe@HA\\GTCd@C@?D?P?B?vCAjC@v@@X?TENGNMXw@jEmHj@cAVa@r@iAtAaCj@_ANWXe@dAkBtBkDrA{Bb@q@N[N_@HSJ_@f@oBhAmEFSJa@d@aBBMDO`AoDTs@Tk@Vg@nAaCLUPYn@iAp@uAZq@h@eAh@eAXk@zAyCf@eAvEqJTOtDoHDI\\s@vAuCRa@xAyCPa@~@yADGXk@BEP]DKjAyBfA{AlAaBlByBZ]n@w@P[L]Hi@Bc@Cg@Ie@Og@_@g@}CeCSSa@c@eA{BMUi@m@_Aw@e@m@s@oAU_AQyAU_CSqAo@qBQk@Io@Ey@W{GIsE?kAHk@Vc@hAk@dBq@b@e@Ti@Fs@Is@i@uAWkAAs@HeA^}@d@k@vAu@d@c@Z{@H{@D{GH{@\\w@p@m@r@]p@KhBI`AMFEl@WVQVQ`@e@\\u@Ne@^gAp@oBN_@Tu@n@y@`A}@dFoCjNoErJyClDyAPIlB{Ar@g@b@O^GjB?fAElCIrAIv@CjAGtJi@|BGbAI`CYBkBD{ADaF?UJuIDqC@}Au@?",
-            "durationMin": 31,
-            "distanceM": 15217,
-            "mode": "subway",
-            "osrmMin": 17,
-            "corrected": true
+            "format": "geojson",
+            "data": [
+              [
+                138.8297609,
+                35.4593289
+              ],
+              [
+                138.8307996,
+                35.4587509
+              ]
+            ],
+            "durationMin": 2,
+            "mode": "walk"
           }
         },
         {
-          "id": "d5-3b",
-          "time": "14:00",
-          "title": "Oshino Hakkai",
-          "description": "Eight crystalline spring ponds fed by Mt Fuji snowmelt, surrounded by a preserved Edo-era village. Walking the loop takes ~90 min. Try the trout from the pond water + the local manju sweet at the shops near the entrance.",
-          "address": "Oshino-mura, Minamitsuru-gun, Yamanashi 401-0511",
-          "category": "walk",
-          "lat": 35.46003,
-          "lng": 138.83289,
+          "id": "d5-bus",
+          "time": "13:45",
+          "title": "Bus back — Oshino Hakkai stop to Kawaguchiko Station",
+          "category": "transit",
+          "lat": 35.4587509,
+          "lng": 138.8307996,
+          "mapsQuery": "忍野八海バス停",
+          "address": "187 Shibokusa, Oshino (by the car park)",
+          "description": "¥620 each, about 21–23 minutes; buses run once or twice an hour. Photograph the timetable at this stop when you arrive in the morning and use the real time; 13:45 here is a placeholder. Queue 10 minutes early: reviewers report long lines and late buses. Two buses serve the stop, a direct one and the slower Fujikko-go loop; either reaches Kawaguchiko Station.",
           "routeToNext": {
-            "format": "polyline",
-            "data": "exlwEwtmnYt@?A|AEpCKtI?TE`FEzACjBaCXcAH}BFuJh@kAFw@BsAHmCHgADkB?_@Fc@Ns@f@mBzAQHmDxAsJxCkNnEeFnCaA|@o@x@Ut@O^q@nB_@fAOd@]t@a@d@WPWPm@VGDaALiBHq@Js@\\q@l@]v@Iz@EzGIz@[z@e@b@wAt@e@j@_@|@IdA@r@VjAh@tAHr@Gr@Uh@c@d@eBp@iAj@Wb@Ij@?jAHrEVzGDx@Hn@Pj@n@pBRpAT~BPxAT~@r@nAd@l@~@v@h@l@LTdAzB`@b@RR|CdC^f@Nf@Hd@Bf@Cb@Ih@M\\QZo@v@[\\mBxBmA`BgAzAkAxBEJQ\\CDYj@EF_AxAQ`@yAxCS`@wAtC]r@EHuDnHATuCzFgAzBaC|EcAvBeAtBEJ{AnCOZMTUb@g@|@m@dAMXM\\Kb@aApDEPELc@bBMb@CHa@xAk@vBi@nBK^LHfClArAp@d@VVPrBtAvCpBJFGLmAtCc@rACHGZOp@O~@Gb@ANCPKv@KbAC\\?HA`@?TAdA?Z?R?L?NApAClAAl@Ad@A`@KhD?`@ATCt@Ep@Ir@Kx@q@bEId@?@GVMb@AHOl@M\\e@jASb@s@rAoAhCiAtCKTEJu@zAe@t@SXUXe@f@[TCBIHs@h@[V_@Z_At@y@n@u@t@ILMRMXKRa@~@q@vAOXYn@e@bAQb@]t@Ud@Y\\[\\q@`@iAp@{@j@WTQT]l@]j@UXUTSHMFQFYBSDWFs@Hg@FgBZ]JUJSLw@n@w@l@QRMPMVCDI\\GVO|@Ip@Gb@Gf@Kn@K^O\\Q^k@|@MV[v@cBhEUd@GJWh@y@tAKNMLQNUNGDaAl@e@Z[d@a@v@KNGLMLY\\OVIT_@z@U^eA~ACBi@t@OXOZK\\K\\EHMPQPKJMNYXQTGNERKj@a@rBWZIHIDWBU?QEMEg@YYQQKMK]UQMe@i@_@gAYaACIAGIUMg@Uq@oAsCm@sA]u@ZYLq@AgBK}Aq@mAk@k@e@ISWQg@EWEQ",
-            "durationMin": 24,
-            "distanceM": 11176,
-            "mode": "subway",
-            "osrmMin": 12,
-            "corrected": true
+            "format": "geojson",
+            "data": [
+              [
+                138.8307996,
+                35.4587509
+              ],
+              [
+                138.76861,
+                35.49833
+              ]
+            ],
+            "durationMin": 22,
+            "mode": "bus"
           }
         },
         {
-          "id": "d5-3c",
-          "time": "15:30",
-          "title": "Mt Fuji Panoramic Ropeway",
-          "description": "Gondola from the south shore of Lake Kawaguchi up Mt Tenjo — Mt Fuji panorama from ~1100m. Round trip ¥1,000pp, ~3 min each way. Quick scenic stop before heading back to the hotel for the lake walk + last kaiseki.",
-          "address": "1163 Azagawa, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0303",
-          "category": "walk",
-          "costPerPerson": 1000,
-          "currency": "JPY",
-          "lat": 35.50381,
-          "lng": 138.77419,
+          "id": "d5-station",
+          "time": "14:30",
+          "title": "Kawaguchiko Station — hotel shuttle",
+          "category": "transit",
+          "lat": 35.49833,
+          "lng": 138.76861,
+          "mapsQuery": "河口湖駅",
+          "description": "Meet the Lakeland shuttle you booked at breakfast (pickups start mid-afternoon). If the timing is off, a taxi from the rank is about 5 minutes: show 山梨県富士河口湖町小立1070 レイクランドホテルみづのさと.",
           "routeToNext": {
-            "format": "polyline",
-            "data": "iouwEaf_nYDPDVPf@RVd@Hj@j@p@lAJ|A@fBMp@[Xe@q@SUUWi@[_@Ua@Sg@Uk@Oc@Eg@Ac@Ak@C[CMCUGOKMKKMWc@IQUq@M]c@w@Y]Y[OOYSUMUKQESG[IeAMwAQKAC?oCa@sBU{@MsAOG?a@Aw@Bw@HI@uAj@[VWRo@n@k@z@m@pAMn@Gn@A`AFbAVrBr@rFt@`GN|@Jt@BTAVEXaAfDERKPIJoA|@SFI@E@O?OCOCQISMSMSQQSQWMYMY_@cAEIEGEEGEICI?G@IBOJo@{@mC{BSOOOOQMQKQISISGSGYCKG[Mo@Ig@Ig@Km@IOGQM[IKGGGEIEIEIAMAM@K?KAICIKGIGKEMCKQy@EOEMGIIGICIAK@MBQDgAZUH_@N_DdAmA`@]Nk@ZYPmAz@y@f@SLQNSPGDSPCBGFa@^IHKJa@`@KHg@f@u@r@c@b@OPOPEFEFU\\ABMVEHENIVGZEVCF[lBUhACNK\\Y`A[v@IPCDOZCDa@~@IP]jAG^G`@UvD?LGbAIjAEVCLCLERITITIPMTGJa@l@EJGNCLCPCPAP@P@PBHj@lDv@pEBRDNJXHRJRLRNTVZNPLLLLPLLHPHr@TxAd@NE@?D?H@x@LpAFX@^@h@?R@F@HBHDDDFHFH",
-            "durationMin": 16,
-            "distanceM": 4942,
-            "mode": "subway",
-            "osrmMin": 6,
-            "corrected": true
+            "format": "geojson",
+            "data": [
+              [
+                138.76861,
+                35.49833
+              ],
+              [
+                138.7567048,
+                35.510469
+              ]
+            ],
+            "durationMin": 8,
+            "mode": "taxi"
+          }
+        },
+        {
+          "id": "d5-2",
+          "time": "15:00",
+          "title": "Onsen at Lakeland",
+          "category": "experience",
+          "lat": 35.510469,
+          "lng": 138.7567048,
+          "mapsQuery": "レイクランドホテルみづのさと",
+          "description": "Open-air bath with the Fuji view, with clearer skies than this morning. The ropeway is skipped today to make room for this.",
+          "routeToNext": {
+            "format": "geojson",
+            "data": [
+              [
+                138.7567048,
+                35.510469
+              ],
+              [
+                138.7605,
+                35.5182
+              ]
+            ],
+            "durationMin": 14,
+            "mode": "walk"
           }
         },
         {
           "id": "d5-4",
-          "time": "17:00",
+          "time": "16:30",
           "title": "Lake Kawaguchi north shore walk",
-          "description": "Easy walk back along the lake near the hotel — sunset over Mt Fuji from the cape, decompress from the active afternoon before kaiseki. Optional, can swap for last onsen if you're wiped.",
+          "description": "Easy walk along the lake near the hotel for sunset, around 4:30 PM in late November. Optional; swap for more onsen time if you'd rather.",
           "category": "walk",
           "lat": 35.5182,
           "lng": 138.7605,

@@ -130,8 +130,10 @@ async function computeLeg(from, to, label, hintMode) {
     modeLabel = 'walk';
   } else if (d <= DRIVE_THRESHOLD_M) {
     profile = 'driving';
-    mode = 'subway';
-    modeLabel = 'drive→subway';
+    // A taxi or bus stand-in is a road trip: keep its mode and the plain driving time.
+    const road = hintMode === 'taxi' || hintMode === 'bus';
+    mode = road ? hintMode : 'subway';
+    modeLabel = road ? `drive (${hintMode})` : 'drive→subway';
   } else {
     console.log(`${label} (${(d / 1000).toFixed(1)}km) ... skipped (too far)`);
     return { result: null, mode: null };
