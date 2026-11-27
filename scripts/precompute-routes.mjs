@@ -180,12 +180,20 @@ for (const day of trip.days) {
       skipped++;
       continue;
     }
+    const standIn = a.routeToNext;
     const { result, mode } = await computeLeg(
       a,
       b,
       `Day ${day.dayNumber} · ${a.title} → ${b.title}`,
-      a.routeToNext?.mode
+      standIn?.mode
     );
+    // Free-flow driving time undersells a taxi in traffic or a bus with stops:
+    // keep the hand-set minutes from the stand-in and take only the road shape.
+    if (result && (mode === 'taxi' || mode === 'bus') && standIn?.durationMin) {
+      result.osrmMin = result.durationMin;
+      result.durationMin = standIn.durationMin;
+      result.pinned = 'hand-set time; road shape from routing';
+    }
     if (result) {
       a.routeToNext = result;
       if (mode === 'walk') walked++;
