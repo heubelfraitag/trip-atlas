@@ -98038,7 +98038,7 @@
           "id": "d6-2c",
           "time": "09:45",
           "title": "Mizunosato checkout",
-          "description": "Check-out is strictly before 10:00. The hotel's free shuttle to Kawaguchiko Station leaves at 9:30 and 10:00 — or take a taxi straight to FUFU (about 2.5 km, ~10 min).",
+          "description": "Before you check out, hand the big bags to the front desk for the Yamato Kyoto Gion office (held for pickup, code 162620); the Japanese card is on Confirmations → Luggage. Keep the receipt. Check-out is strictly before 10:00. The hotel's free shuttle to Kawaguchiko Station leaves at 9:30 and 10:00 — or take a taxi straight to FUFU (about 2.5 km, ~10 min).",
           "category": "hotel",
           "lat": 35.510469,
           "lng": 138.7567048,
@@ -98054,7 +98054,7 @@
           "id": "d6-2d",
           "time": "12:00",
           "title": "Arrive FUFU Kawaguchiko",
-          "description": "Drop bags at FUFU. If suite isn't ready yet, use the lobby lounge, garden, or grab a light lunch / matcha at the on-site cafe. Aim for room ready by 14:00 (if early check-in arranged) or 15:00 standard.",
+          "description": "Drop the carry-ons at FUFU (the big bags went to Kyoto from Lakeland this morning). If suite isn't ready yet, use the lobby lounge, garden, or grab a light lunch / matcha at the on-site cafe. Aim for room ready by 14:00 (if early check-in arranged) or 15:00 standard.",
           "category": "hotel",
           "lat": 35.5282327,
           "lng": 138.7599385
@@ -99817,8 +99817,8 @@
     },
     {
       "id": "c16",
-      "title": "Luggage · FUFU → Yamato Kyoto Gion office (hand over Nov 29)",
-      "detail": "At FUFU check-in on Nov 29, send the big bags to be held at the Yamato Kyoto Gion office (code 162620), 2 minutes' walk from 11 Yasaka. Pick up Nov 30 with passport + receipt; open 8:00-19:00 daily. The Japanese card to show the desk is on Confirmations → Luggage.",
+      "title": "Luggage · Lakeland → Yamato Kyoto Gion office (hand over Nov 29 morning)",
+      "detail": "Before the 10:00 checkout at Lakeland on Nov 29, send the big bags to be held at the Yamato Kyoto Gion office (code 162620), 2 minutes' walk from 11 Yasaka. Pick up Nov 30 with passport + receipt; open 8:00-19:00 daily. The Japanese card to show the desk is on Confirmations → Luggage.",
       "priority": "closer"
     },
     {
@@ -101754,16 +101754,17 @@
     {
       "id": "lg-fufu",
       "date": "2026-11-29",
-      "title": "FUFU → Yamato Kyoto Gion office (held for pickup)",
-      "how": "FUFU's front desk",
+      "title": "Lakeland → Yamato Kyoto Gion office (held for pickup)",
+      "how": "Lakeland's front desk, before the 10:00 checkout",
       "notes": [
-        "Fuji to Kyoto is next-day. Hand the bags over when you check in on Nov 29 and they can reach Kyoto on Nov 30, the day you do. Sent on the morning of Nov 30, they arrive Dec 1.",
-        "Keep out what you need for the FUFU night and the travel day.",
+        "Fuji to Kyoto is next-day. Hand the bags over on the morning of Nov 29 (or the night before) and they can reach Kyoto on Nov 30, the day you do. Ask the desk to confirm.",
+        "If they can't promise Nov 30, the office holds the bags and you collect on Dec 1.",
+        "Keep out what you need for the FUFU night and the travel day to Kyoto.",
         "The desk will need your name as on your passport and a phone number for the label.",
         "KEEP THE RECEIPT. You need its tracking number to collect the bags."
       ],
       "card": {
-        "label": "Show FUFU's front desk",
+        "label": "Show Lakeland's front desk",
         "ja": [
           "この荷物を「営業所止め」で送りたいです。",
           "ヤマト運輸 京都祇園営業所 止め",
@@ -101781,7 +101782,7 @@
       "how": "2-minute walk (about 150 m) from Apartment Hotel 11 Yasaka",
       "notes": [
         "Open 8:00 AM–7:00 PM every day.",
-        "Bring your passport and the receipt from FUFU.",
+        "Bring your passport and the receipt from Lakeland.",
         "Check in at 11 Yasaka first (from 4:00 PM), then walk over."
       ],
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0009479,135.7771894",
